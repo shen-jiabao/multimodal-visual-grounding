@@ -1,0 +1,13 @@
+# 默认忽略根目录下所有内容（数据集、权重、可视化输出、结果文件等）
+/*
+
+# 白名单：仅放行代码与文档
+!/*.py
+!/*.sh
+!/*.md
+!/requirements.txt
+!/.gitignore
+
+# Python 运行产物
+__pycache__/
+*.pyc
