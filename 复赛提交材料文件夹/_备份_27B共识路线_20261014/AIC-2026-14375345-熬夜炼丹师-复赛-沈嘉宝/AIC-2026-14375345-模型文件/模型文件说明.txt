@@ -1,0 +1,7 @@
+模型：Qwen3.8-27B-Instruct（ModelScope: Qwen/Qwen3.8-27B）
+参数量 27.78B，bfloat16，Safetensors 18 分片约 54GB。
+权重实体体积超出网盘限制，按赛方「模型文件」要求提供：
+  1) download_model.py —— 一键下载（snapshot_download）；
+  2) model_sha256.txt —— 实测推理所用 18 分片逐位 SHA256，
+     下载后 `python download_model.py --verify` 可验证与
+     跑分所用权重逐位一致。

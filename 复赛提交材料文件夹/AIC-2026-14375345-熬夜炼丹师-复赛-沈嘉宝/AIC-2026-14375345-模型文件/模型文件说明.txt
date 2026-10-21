@@ -1,0 +1,22 @@
+模型文件（权重实体不入包，按赛方要求提供获取方式与校验）
+=====================================================
+
+本方案为「预训练多模态大模型零样本推理 + 确定性规则」路线，
+全部使用开源模型，未调用任何闭源在线 API。交付件（0.7963）
+实际使用的模型为 Qwen/Qwen3.8-27B。
+
+| 模型 | 来源 | 用途 | 用于本交付件 |
+| --- | --- | --- | --- |
+| Qwen3-VL-8B-Instruct | ModelScope: Qwen/Qwen3-VL-8B-Instruct | 主体：直接定位 + 序数 SoM | 早期层 |
+| Qwen3-VL-32B-Instruct-AWQ | ModelScope: QuantTrio/Qwen3-VL-32B-Instruct-AWQ | 非序数首次重跑 | 中间层 |
+| Qwen3-VL-32B-Instruct (bf16) | HuggingFace: Qwen/Qwen3-VL-32B-Instruct | 同族精度修复 | 中间层 |
+| Qwen3.8-27B | HuggingFace: Qwen/Qwen3.8-27B | 跨代换模型重跑非序数 | 是（0.7963） |
+| LocateAnything-3B | ModelScope: nv-community/LocateAnything-3B | 无框条目红外补轮 | 辅助 |
+
+获取与校验：
+  pip install modelscope huggingface_hub
+  python download_models.py            # 下载到 ./models
+  python download_models.py --verify   # 逐文件比对 model_sha256.txt
+
+model_sha256.txt 为实测推理所用权重的逐文件 SHA256（取自 env_record.txt），
+校验通过即与跑分所用权重逐位一致。

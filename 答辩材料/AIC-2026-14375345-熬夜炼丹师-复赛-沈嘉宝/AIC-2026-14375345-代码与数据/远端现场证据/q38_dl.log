@@ -1,0 +1,35 @@
+[03:04:53] mon model-00002-of-00018.safetensors ✓ 大小+sha256 双验通过（2902 MB）
+[03:09:49] mon model-00001-of-00018.safetensors ✓ 大小+sha256 双验通过（3782 MB）
+[03:13:44] mon model-00003-of-00018.safetensors ✓ 大小+sha256 双验通过（2425 MB）
+[03:15:45] mon model-00005-of-00018.safetensors ✓ 大小+sha256 双验通过（2002 MB）
+[03:19:26] mon model-00007-of-00018.safetensors ✓ 大小+sha256 双验通过（2011 MB）
+[03:23:48] mon model-00009-of-00018.safetensors ✓ 大小+sha256 双验通过（2011 MB）
+[03:27:48] mon model-00011-of-00018.safetensors ✓ 大小+sha256 双验通过（2011 MB）
+[03:31:12] mon model-00013-of-00018.safetensors ✓ 大小+sha256 双验通过（2011 MB）
+[03:32:05] w7 worker 结束
+[03:33:03] w5 worker 结束
+[03:33:22] w8 worker 结束
+[03:34:09] w3 worker 结束
+[03:34:33] w1 worker 结束
+[03:35:35] mon model-00004-of-00018.safetensors ✓ 大小+sha256 双验通过（3804 MB）
+[03:36:21] mon model-00015-of-00018.safetensors ✓ 大小+sha256 双验通过（2011 MB）
+[03:36:33] w2 worker 结束
+[03:36:43] w4 worker 结束
+[03:36:46] w6 worker 结束
+[03:37:37] mon model-00017-of-00018.safetensors ✓ 大小+sha256 双验通过（2011 MB）
+[03:39:52] mon model-00006-of-00018.safetensors ✓ 大小+sha256 双验通过（3795 MB）
+[03:43:53] mon model-00008-of-00018.safetensors ✓ 大小+sha256 双验通过（3795 MB）
+[03:45:39] w9 worker 结束
+[03:45:56] w14 worker 结束
+[03:46:11] w10 worker 结束
+[03:46:16] w0 worker 结束
+[03:46:19] w15 worker 结束
+[03:46:27] w13 worker 结束
+[03:46:32] w11 worker 结束
+[03:47:16] mon model-00010-of-00018.safetensors ✓ 大小+sha256 双验通过（3795 MB）
+[03:48:21] w12 worker 结束
+[03:48:32] mon model-00012-of-00018.safetensors ✓ 大小+sha256 双验通过（3795 MB）
+[03:49:19] mon model-00014-of-00018.safetensors ✓ 大小+sha256 双验通过（3795 MB）
+[03:50:28] mon model-00016-of-00018.safetensors ✓ 大小+sha256 双验通过（3795 MB）
+[03:51:09] mon model-00018-of-00018.safetensors ✓ 大小+sha256 双验通过（3235 MB）
+[03:51:10] mon 全部 18 个分片就位，monitor 退出

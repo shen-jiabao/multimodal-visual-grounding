@@ -1,0 +1,1893 @@
+########## 环境实录 ##########
+采集时间: 2026-09-27T09:01:31+00:00
+主机名  : jupyter-a2k3mq5b7vv07662
+
+===== 1) 系统 =====
+Linux jupyter-a2k3mq5b7vv07662 6.8.0-90-generic #91-Ubuntu SMP PREEMPT_DYNAMIC Tue Nov 18 14:14:30 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+PRETTY_NAME="Ubuntu 22.04.5 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+VERSION="22.04.5 LTS (Jammy Jellyfish)"
+
+===== 2) GPU / 驱动 / CUDA =====
+Sun Sep 27 09:01:31 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.126.09             Driver Version: 580.126.09     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-40GB          On  |   00000000:90:00.0 Off |                    0 |
+| N/A   30C    P0             70W /  400W |   37621MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+name, driver_version, memory.total [MiB], compute_cap
+NVIDIA A100-SXM4-40GB, 580.126.09, 40960 MiB, 8.0
+bash: line 33: nvcc: command not found
+
+===== 3) 解释器 =====
+Python 3.10.12
+解释器路径: /root/rivermind-data/venv/bin/python
+pip 26.2.1 from /root/rivermind-data/venv/lib/python3.10/site-packages/pip (python 3.10)
+
+===== 4) 关键包版本 =====
+vllm             0.11.0
+transformers     4.57.6
+torch            2.8.0
+torchvision      0.23.0
+openai           3.19.2
+pillow           12.3.0
+numpy            2.2.6
+paramiko         (未安装)
+accelerate       (未安装)
+triton           3.4.0
+torch.version.cuda : 12.8
+cudnn              : 91002
+device             : NVIDIA A100-SXM4-40GB
+compute capability : (8, 0)
+
+===== 5) pip freeze（全量）=====
+agent-detector==2.0.0
+aiohappyeyeballs==2.7.1
+aiohttp==3.14.3
+aiosignal==1.4.0
+annotated-doc==0.0.5
+annotated-types==0.8.0
+anyio==4.15.1
+astor==0.8.1
+async-timeout==5.0.1
+attrs==26.1.0
+blake3==1.0.9
+cachetools==7.2.0
+cbor2==6.1.4
+certifi==2026.7.22
+cffi==2.1.1
+charset-normalizer==3.5.1
+click==8.5.0
+cloudpickle==3.1.2
+compressed-tensors==0.11.0
+cuda-pathfinder==1.8.2
+cupy-cuda12x==14.2.0
+depyf==0.19.0
+detect-installer==0.2.1
+dill==0.4.1
+diskcache==5.6.3
+dnspython==2.8.0
+einops==0.8.2
+email-validator==2.3.0
+exceptiongroup==1.3.1
+fastapi==0.141.1
+fastapi-cli==0.0.32
+fastapi-cloud-cli==0.26.0
+fastar==0.12.0
+filelock==4.0.4
+frozendict==2.4.7
+frozenlist==1.8.0
+fsspec==2026.9.0
+gguf==0.19.0
+h11==0.16.0
+hf-xet==1.6.0
+httpcore==1.0.9
+httpcore2==2.13.1
+httptools==0.8.0
+httpx==0.28.1
+httpx2==2.13.1
+huggingface_hub==0.36.2
+idna==3.20
+interegular==0.3.3
+Jinja2==3.1.6
+jiter==0.17.0
+jsonschema==4.26.0
+jsonschema-specifications==2025.9.1
+lark==1.2.2
+llguidance==0.7.30
+llvmlite==0.44.0
+lm-format-enforcer==0.11.3
+markdown-it-py==4.2.0
+MarkupSafe==3.0.3
+mdurl==0.1.2
+mistral_common==1.12.0
+mpmath==1.3.0
+msgpack==1.2.2
+msgspec==0.21.1
+multidict==6.9.1
+networkx==3.4.2
+ninja==1.13.2
+numba==0.61.2
+numpy==2.2.6
+nvidia-cublas-cu12==12.8.4.1
+nvidia-cuda-cupti-cu12==12.8.90
+nvidia-cuda-nvrtc-cu12==12.8.93
+nvidia-cuda-runtime-cu12==12.8.90
+nvidia-cudnn-cu12==9.10.2.21
+nvidia-cufft-cu12==11.3.3.83
+nvidia-cufile-cu12==1.13.1.3
+nvidia-curand-cu12==10.3.9.90
+nvidia-cusolver-cu12==11.7.3.90
+nvidia-cusparse-cu12==12.5.8.93
+nvidia-cusparselt-cu12==0.7.1
+nvidia-nccl-cu12==2.27.3
+nvidia-nvjitlink-cu12==12.8.93
+nvidia-nvtx-cu12==12.8.90
+openai==3.19.2
+openai-harmony==0.0.8
+opencv-python-headless==5.0.0.93
+outlines_core==0.2.11
+packaging==26.3
+partial-json-parser==0.2.1.1.post7
+pillow==12.3.0
+prometheus-fastapi-instrumentator==8.1.0
+prometheus_client==0.26.0
+propcache==0.5.4
+protobuf==7.36.2
+psutil==7.2.2
+py-cpuinfo==9.0.0
+pybase64==1.5.0
+pycountry==26.2.16
+pycparser==3.0
+pydantic==2.13.5
+pydantic-extra-types==2.11.1
+pydantic-settings==2.15.0
+pydantic_core==2.46.5
+Pygments==2.21.0
+python-dotenv==1.2.3
+python-json-logger==4.2.0
+python-multipart==0.0.32
+PyYAML==6.0.3
+pyzmq==27.2.0
+ray==2.58.0
+referencing==0.37.0
+regex==2026.9.10
+requests==2.34.2
+rich==15.0.0
+rich-toolkit==0.20.5
+rignore==0.8.1
+rpds-py==0.30.0
+safetensors==0.8.0
+scipy==1.15.3
+sentencepiece==0.2.2
+sentry-sdk==2.70.0
+setproctitle==1.3.7
+shellingham==1.5.4
+sniffio==1.3.1
+soundfile==0.14.0
+soxr==1.1.0
+starlette==1.7.0
+sympy==1.14.0
+tiktoken==0.14.0
+tokenizers==0.22.2
+tomli==2.4.1
+torch==2.8.0
+torchaudio==2.8.0
+torchvision==0.23.0
+tqdm==4.70.1
+transformers==4.57.6
+triton==3.4.0
+truststore==0.10.4
+typer==0.27.2
+typing-inspection==0.4.4
+typing_extensions==4.16.0
+urllib3==2.8.0
+uvicorn==0.54.0
+uvloop==0.22.1
+vllm==0.11.0
+watchfiles==1.3.0
+websockets==16.1.1
+xformers==0.0.32.post1
+xgrammar==0.1.25
+yarl==1.25.1
+
+===== 6) 模型文件清单与分片 sha256 =====
+目录: /root/rivermind-data/models/Qwen3-VL-32B-Instruct-AWQ
+total 20046732
+-rw-r--r-- 1 root root       8503 Sep 27 07:45 README.md
+-rw-r--r-- 1 root root       5499 Sep 27 07:45 chat_template.json
+-rw-r--r-- 1 root root       1752 Sep 27 07:45 config.json
+-rw-r--r-- 1 root root         51 Sep 27 07:45 configuration.json
+-rw-r--r-- 1 root root        269 Sep 27 07:45 generation_config.json
+-rw-r--r-- 1 root root    1671839 Sep 27 07:45 merges.txt
+-rw-r--r-- 1 root root 2958734384 Sep 27 07:54 model-00001-of-00007.safetensors
+-rw-r--r-- 1 root root 2971999496 Sep 27 07:51 model-00002-of-00007.safetensors
+-rw-r--r-- 1 root root 2971999616 Sep 27 07:55 model-00003-of-00007.safetensors
+-rw-r--r-- 1 root root 2993778792 Sep 27 07:53 model-00004-of-00007.safetensors
+-rw-r--r-- 1 root root 2969264624 Sep 27 07:52 model-00005-of-00007.safetensors
+-rw-r--r-- 1 root root 2767700088 Sep 27 07:49 model-00006-of-00007.safetensors
+-rw-r--r-- 1 root root 2882601152 Sep 27 07:51 model-00007-of-00007.safetensors
+-rw-r--r-- 1 root root     184538 Sep 27 07:45 model.safetensors.index.json
+-rw-r--r-- 1 root root        390 Sep 27 07:45 preprocessor_config.json
+-rw-r--r-- 1 root root    7032403 Sep 27 07:45 tokenizer.json
+-rw-r--r-- 1 root root      10868 Sep 27 07:45 tokenizer_config.json
+-rw-r--r-- 1 root root        385 Sep 27 07:45 video_preprocessor_config.json
+-rw-r--r-- 1 root root    2776833 Sep 27 07:45 vocab.json
+--- sha256（每个文件）---
+75a0788e5040ce9a55017b48c68385144e69791e619279c531ace6eb2285a2a5  /root/rivermind-data/models/Qwen3-VL-32B-Instruct-AWQ/.gitattributes
+a57d649b877a78c56f51a40b26bb27bba29f2da1da26305b22e6da94566a51c5  /root/rivermind-data/models/Qwen3-VL-32B-Instruct-AWQ/README.md
+5c72a170d2a4a1a3bc5adad2e689ae28138a9700e5b8c96c0266331e86c0acce  /root/rivermind-data/models/Qwen3-VL-32B-Instruct-AWQ/chat_template.json
+acb471fbb398a9867c24b961bb4a1715ebf5f04a9fb174932f8924a999fbf46d  /root/rivermind-data/models/Qwen3-VL-32B-Instruct-AWQ/config.json
+2d4464e2ead06bc9bc718c781309ad1e7baded626d66e8dcdc8b469ba185faf0  /root/rivermind-data/models/Qwen3-VL-32B-Instruct-AWQ/configuration.json
+1e241830b48b397cb0900101421df5450baddc7adf01e5fc86b5615865f3bae4  /root/rivermind-data/models/Qwen3-VL-32B-Instruct-AWQ/generation_config.json
+599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3  /root/rivermind-data/models/Qwen3-VL-32B-Instruct-AWQ/merges.txt
+81825c7c8ba6a8a681cc3b9351a2a13ca566bda1f3ec84c0aa82b59957da322a  /root/rivermind-data/models/Qwen3-VL-32B-Instruct-AWQ/model-00001-of-00007.safetensors
+2eaae89ec0faf54f2ce68303343a558379140b17963b2d70c340c885cd16cc40  /root/rivermind-data/models/Qwen3-VL-32B-Instruct-AWQ/model-00002-of-00007.safetensors
+11909b5e0cd18644562368c019fefba04ad2708e3fac5c83fc57ca7e0fb7ec98  /root/rivermind-data/models/Qwen3-VL-32B-Instruct-AWQ/model-00003-of-00007.safetensors
+4e18a8af024d0c40764b2cfe95b0ccce2493fcb42cfd3084de1fa3a3b072bc7d  /root/rivermind-data/models/Qwen3-VL-32B-Instruct-AWQ/model-00004-of-00007.safetensors
+0f8974d741222950c64013152860a9ef256c9c84ff8b3e67a96ec363ea07ffb1  /root/rivermind-data/models/Qwen3-VL-32B-Instruct-AWQ/model-00005-of-00007.safetensors
+e1c423c657c8fe201e71c16669524b6550cf2b87c2b2500217f755a83957719f  /root/rivermind-data/models/Qwen3-VL-32B-Instruct-AWQ/model-00006-of-00007.safetensors
+0b30cbf523ce65c063868151b681c0873df506f305bef99afbfc0a4f93444ae6  /root/rivermind-data/models/Qwen3-VL-32B-Instruct-AWQ/model-00007-of-00007.safetensors
+dc074ac793a7952c72c3437cf72b96900e059e9b337a9610614d8ca608550c1c  /root/rivermind-data/models/Qwen3-VL-32B-Instruct-AWQ/model.safetensors.index.json
+27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516  /root/rivermind-data/models/Qwen3-VL-32B-Instruct-AWQ/preprocessor_config.json
+a5d85b6dcc535e6b93115a9ef287e6132fdbf30270da6218194ba742261173c7  /root/rivermind-data/models/Qwen3-VL-32B-Instruct-AWQ/tokenizer.json
+c2da771801886ad9ae98181793ffd3dfb7f1af30f6f7c6a4e15d7dbba52e2399  /root/rivermind-data/models/Qwen3-VL-32B-Instruct-AWQ/tokenizer_config.json
+7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13  /root/rivermind-data/models/Qwen3-VL-32B-Instruct-AWQ/video_preprocessor_config.json
+ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910  /root/rivermind-data/models/Qwen3-VL-32B-Instruct-AWQ/vocab.json
+--- config.json ---
+{
+  "name_or_path": "tclf90/Qwen3-VL-32B-Instruct-AWQ",
+  "architectures": [
+    "Qwen3VLForConditionalGeneration"
+  ],
+  "image_token_id": 151655,
+  "model_type": "qwen3_vl",
+  "text_config": {
+    "attention_bias": false,
+    "attention_dropout": 0.0,
+    "bos_token_id": 151643,
+    "dtype": "bfloat16",
+    "eos_token_id": 151645,
+    "head_dim": 128,
+    "hidden_act": "silu",
+    "hidden_size": 5120,
+    "initializer_range": 0.02,
+    "intermediate_size": 25600,
+    "max_position_embeddings": 262144,
+    "model_type": "qwen3_vl_text",
+    "num_attention_heads": 64,
+    "num_hidden_layers": 64,
+    "num_key_value_heads": 8,
+    "rms_norm_eps": 1e-06,
+    "rope_scaling": {
+      "mrope_interleaved": true,
+      "mrope_section": [
+        24,
+        20,
+        20
+      ],
+      "rope_type": "default"
+    },
+    "rope_theta": 5000000,
+    "use_cache": true,
+    "vocab_size": 151936
+  },
+  "tie_word_embeddings": false,
+  "transformers_version": "4.57.0.dev0",
+  "video_token_id": 151656,
+  "vision_config": {
+    "deepstack_visual_indexes": [
+      8,
+      16,
+      24
+    ],
+    "depth": 27,
+    "hidden_act": "gelu_pytorch_tanh",
+    "hidden_size": 1152,
+    "in_channels": 3,
+    "initializer_range": 0.02,
+    "intermediate_size": 4304,
+    "model_type": "qwen3_vl",
+    "num_heads": 16,
+    "num_position_embeddings": 2304,
+    "out_hidden_size": 5120,
+    "patch_size": 16,
+    "spatial_merge_size": 2,
+    "temporal_patch_size": 2
+  },
+  "vision_end_token_id": 151653,
+  "vision_start_token_id": 151652,
+  "torch_dtype": "float16",
+  "quantization_config": {
+    "quant_method": "awq",
+    "bits": 4,
+    "group_size": 128,
+    "version": "gemm",
+    "zero_point": true,
+    "modules_to_not_convert": [
+      "visual"
+    ]
+  }
+}
+===== 7) vLLM 服务命令行 =====
+root        3283       1 99 08:01 ?        01:13:43 /root/rivermind-data/venv/bin/python3 /root/rivermind-data/venv/bin/vllm serve /root/rivermind-data/models/Qwen3-VL-32B-Instruct-AWQ --served-model-name qwen3-vl-32b --host 0.0.0.0 --port 8000 --max-model-len 32768 --gpu-memory-utilization 0.90 --max-num-seqs 8
+root        3546    3283 98 08:02 ?        01:00:21 VLLM::EngineCore
+{"object":"list","data":[{"id":"qwen3-vl-32b","object":"model","created":1790499783,"owned_by":"vllm","root":"/root/rivermind-data/models/Qwen3-VL-32B-Instruct-AWQ","parent":null,"max_model_len":32768,"permission":[{"id":"modelperm-3be8a4366fa44c9cbd6b6cdd814f4938","object":"model_permission","created":1790499783,"allow_create_engine":false,"allow_sampling":true,"allow_logprobs":true,"allow_search_indices":false,"allow_view":true,"allow_fine_tuning":false,"organization":"*","group":null,"is_blocking":false}]}]}
+===== 8) 数据盘点 =====
+717d15a1b9c270befa3b5930d0b9b00ef9c567c91bd0d54819ef0e17de5795c4  /root/rivermind-data/dataset/queries/queries.json
+cfba587d75ae3fb53cd64bfcc5e684eb81369c6b67aea022f4d7b945daeb80c2  /root/rivermind-data/_ordinal_cores_v3.json
+visible 图数: 1295
+--- 图片分片 sha256 ---
+bfc0b6d191b7fab8deafb95dafecf9ef7fae04ece64b7bcdcf7cf30816455a3a  /root/rivermind-data/dataset/Images/visible/000001.png
+94203fb8a7563d2737e5228cd419ecf0925c7775778aee4c7ac44c79ac8aba76  /root/rivermind-data/dataset/Images/visible/000015.png
+77817bac104673a4a1476c2e1f066d819c52547d95fe749b3eba36387a4de419  /root/rivermind-data/dataset/Images/visible/000022.png
+c6338b7ed2e01a20df2b689145c46c36bcb6adeb4e816f64fd3dc568c73e6449  /root/rivermind-data/dataset/Images/visible/000029.png
+9ecd2684ce3107f4c80667cce3ed61076dc8b9b599fc234fadb617ca22d73a6d  /root/rivermind-data/dataset/Images/visible/000036.png
+9a1787ebdf61b0db104a44c238d35110996cc0df23a93278102dfdf6de8d21b9  /root/rivermind-data/dataset/Images/visible/000043.png
+f68eb77c1c41a6a704ff326a4e9e111cb322c056cf6d14412decf1361d33d84d  /root/rivermind-data/dataset/Images/visible/000050.png
+3e903cc258924b8e40edeee204543902ea31200787a69c56ec273f8bfd10d8af  /root/rivermind-data/dataset/Images/visible/000057.png
+8d99376ba205379176074528db5c9ae1d4d72e1ac2fdadee831d3d8113b12758  /root/rivermind-data/dataset/Images/visible/000064.png
+717d1d899db57f12af2a74ca2c7eb2a58621226cfdce8bd6209a9b6cbe91d80c  /root/rivermind-data/dataset/Images/visible/000085.png
+6f9a5e608a1800991f56788e8e976db86c3a0df2d9fee487995bc004b8bd1398  /root/rivermind-data/dataset/Images/visible/000092.png
+1d1021bd248788d97f2e80829d2ee4225c5da2eb45a7b4d69d9d7d105e8bf743  /root/rivermind-data/dataset/Images/visible/000113.png
+caed03ab759f32d36b9e6fe85f6138dc64b016dd9e15ae31c3f218dc2cea7dd4  /root/rivermind-data/dataset/Images/visible/000120.png
+6e7a1b2ca118ea65b7eaaccde592e36fc409a245f43b50c4bf7d293b7f1d7b47  /root/rivermind-data/dataset/Images/visible/000127.png
+2d42f0a914728523a2bb4b5b4a93faa2b4897d7adc50978082ddc736aec044b7  /root/rivermind-data/dataset/Images/visible/000134.png
+a4df4b5c980fdb4cb30dd15862728fdc31c92b73bc0cc5846a5b31bc9dcc522c  /root/rivermind-data/dataset/Images/visible/000141.png
+414bedf432b943e28280b21ece78da7ebc8ee8d9b51286c0d77323ca6459cbd5  /root/rivermind-data/dataset/Images/visible/000155.png
+d98c57283e4ea0429453e3bff06f9fba480796d5b8243aabc775bf5b7f8fe2f1  /root/rivermind-data/dataset/Images/visible/000162.png
+cdcef14480d0c4555988f8df30139e3eac4d93d0f8efff168106b67b76c39cb4  /root/rivermind-data/dataset/Images/visible/000183.png
+1a3333454d499e643233ae1d344fdcb3fc17642a6824cfe14ce7b3c5efe38b8d  /root/rivermind-data/dataset/Images/visible/000211.png
+b045e174cbb319556a53ac6cee92f34ef2f21f402fffbb7ee43c1bbb1f084873  /root/rivermind-data/dataset/Images/visible/000225.png
+6d2a2c0bf0421b31c5fb64ec6f7fb16120ff1da8866c48398a51a9852083f49d  /root/rivermind-data/dataset/Images/visible/000246.png
+30278a74c13f262868282d92bc4fce8b39e9e7f487e1e5dd2e9518e1a5a2a209  /root/rivermind-data/dataset/Images/visible/000253.png
+0aa9843cbb97ed1597a31341f68351f8502e6facefb54a92cf23f4d44441519b  /root/rivermind-data/dataset/Images/visible/000260.png
+9453d507c314dc274ee018495c25806f3b568c9955e2ca218fb0492f28a85f8b  /root/rivermind-data/dataset/Images/visible/000267.png
+b2427e27ec9e229b6ea0dde2013ffd96f5dfdb9194b148f3a8c44bbdda19fafd  /root/rivermind-data/dataset/Images/visible/000281.png
+47cc53ff430a7858778e441299c4fee64160417f70d79116c9b32736ac543ab1  /root/rivermind-data/dataset/Images/visible/000288.png
+53800be0758f9740b0cbb722d904bb64c9db7ab4fbf473c71246ffff44038e0e  /root/rivermind-data/dataset/Images/visible/000302.png
+8c6fe82bbe6500ad44c4931243de39fc35f134f3f5d06672428b2826dc875971  /root/rivermind-data/dataset/Images/visible/000309.png
+a3662912bd6d178637d0a7e3001878a71570c09ae05d5e3f5f9eb6ba6151d119  /root/rivermind-data/dataset/Images/visible/000337.png
+c10b0d97dc992906add8c239d4e42c13f489cdf82f82f6a6c85b5a52f1d98618  /root/rivermind-data/dataset/Images/visible/000351.png
+0f124dbebb11191784362b2f21155dbe7918f80f710a6e4bec63197240d5f7ef  /root/rivermind-data/dataset/Images/visible/000372.png
+7b92de239ec12fb284a583d8b788c97696ee4ac6e755418b7ef7227f93f3a315  /root/rivermind-data/dataset/Images/visible/000393.png
+67cc77c8ce0b4fb30d4a285e6a9753a9e91144e8caed810f9e6c5d9284c5af0d  /root/rivermind-data/dataset/Images/visible/000400.png
+1193a79f9929827f1372d670b168dd8c3c2284f4165d4231cf44a89be78945b8  /root/rivermind-data/dataset/Images/visible/000407.png
+7583e73f8e2f91d858fe5b89b56664777ff59a00da5a5ef2406512639506a5e7  /root/rivermind-data/dataset/Images/visible/000414.png
+45e4a5288fa2630f888151a6ec812f6f4c888f085037181a427d9a37cc6ff2aa  /root/rivermind-data/dataset/Images/visible/000421.png
+7e2177e429388b94ffc0d3e1659c0c1c024b3045d95714a871f0a1762e8bf9ba  /root/rivermind-data/dataset/Images/visible/000428.png
+ed6fbcab7a89c36dfa96b5d2ac7ce5e26186f529d6ecd487c4060651519e4cd8  /root/rivermind-data/dataset/Images/visible/000442.png
+6b5b350b32dda7c62847dd68eedd21f90010b3ca8ac23c38193c2ac4912203fa  /root/rivermind-data/dataset/Images/visible/000449.png
+a6b7ea0aa1da37fa0892e010ce3570233693420451c3832f6c51be5d841be382  /root/rivermind-data/dataset/Images/visible/000456.png
+915b3e5497edd6587e24c7d6635fdac26359d5c2013b788e32b678f02a1272c0  /root/rivermind-data/dataset/Images/visible/000463.png
+66de0df2c92ed9063e2ab9306238582e5de7815be755cc09d8b238ab185f486a  /root/rivermind-data/dataset/Images/visible/000477.png
+6825b4cd1ffe6a3e021c92047c5bbdd22e3f8fca6ec9046c72e3847a9611c8c3  /root/rivermind-data/dataset/Images/visible/000491.png
+a6608cbe0ca627b2c1fa8b9c788a28d013914f14496a300e756015e950167b1d  /root/rivermind-data/dataset/Images/visible/000505.png
+3399e1286e73530cb1a14efe322a37277ff9cbee6bbdc5cddbf4f6eb2cc66aa9  /root/rivermind-data/dataset/Images/visible/000512.png
+e14443691e8e02b8560d4c3e054bebaba9dda350015a621b983c3ac02c44d0ad  /root/rivermind-data/dataset/Images/visible/000519.png
+1b9e6b9fd803d9607631fbabfc580be431d0968779cd8a909d8badf1baaa1db9  /root/rivermind-data/dataset/Images/visible/000526.png
+475e2e4ffaf6a716def6f0400f17bf54473c5c141a3e76f28b2eb3f07f5d3bb1  /root/rivermind-data/dataset/Images/visible/000533.png
+885fef8bc7b2e8bae02fef1aefce779054882cbf78ee89a9f8a7d27ac8689283  /root/rivermind-data/dataset/Images/visible/000540.png
+c8afc585b9fb2eac49154298e2b3a3cc780641f7299e4c7f424cace493f3f857  /root/rivermind-data/dataset/Images/visible/000547.png
+6571bc44c45e6978cf93054866407fc5230f33a86f1e7d6eb2d447a7f04e6e65  /root/rivermind-data/dataset/Images/visible/000554.png
+635962c8d264df03fcf6ddcc49817b118212efc0231b5dee99d89d1cde23cfe7  /root/rivermind-data/dataset/Images/visible/000561.png
+e11f710d6d848de87172ec9eb1b099ef17c85f3d251b2538d944f219acc20b95  /root/rivermind-data/dataset/Images/visible/000568.png
+1b21bb14de8ad3a03f9643049f1f322e49532e46736712bc4c114ed363c1b2ab  /root/rivermind-data/dataset/Images/visible/000575.png
+a3792475e41b08432a275e00cce44c2be963d864798c88beb8338831cc06e30a  /root/rivermind-data/dataset/Images/visible/000582.png
+7612ce8da0efab49e099bd96a2e9c2bc2ac4ba82d4d8d2af42c39a5f54020e15  /root/rivermind-data/dataset/Images/visible/000589.png
+b5827a8daaf212ed78c6fd6bd41ebc1bd554463375a83c59ad873661e70f6f91  /root/rivermind-data/dataset/Images/visible/000596.png
+d72ce8329b8b72d9ec49356954575a8a1f896f70e936abe2c43beac5b144a579  /root/rivermind-data/dataset/Images/visible/000603.png
+8da019d4152a4f20e5ddd2c2e927569a0bbcdb55788156dfe0453be86b63b475  /root/rivermind-data/dataset/Images/visible/000624.png
+1a34269afa7526e01d674f8cedacb21af671c5f2ab284359b0538ca70cfb3ef7  /root/rivermind-data/dataset/Images/visible/000631.png
+7f96f113e1140fd77833ac7d81b05fd7fd8d8cbca0dd6b0350c41d483488e831  /root/rivermind-data/dataset/Images/visible/000638.png
+413950974c9f48981fb7d47ee2004be270a25e0b8da097844e4c6da02305efda  /root/rivermind-data/dataset/Images/visible/000645.png
+27d54d3fb8883b8c0fe2753da812caa250406108d86bcc1c434cdd3bcf3242fa  /root/rivermind-data/dataset/Images/visible/000652.png
+4804e6aa364467230ccbb780fc555ca6d11805dce3a1c501a38f2b15e1077128  /root/rivermind-data/dataset/Images/visible/000659.png
+a609cd49554994fe5a0c8afeef6d2147251526a5d5be1b5984374609fa80e18c  /root/rivermind-data/dataset/Images/visible/000666.png
+7792786e53b2180d9039db2272ccbf2ea9a132a46574966205d5560a5dfb6c92  /root/rivermind-data/dataset/Images/visible/000673.png
+0288c85c46a3b11096bdbe094f7ec6fabc00f960db9097fed814d71ae6544642  /root/rivermind-data/dataset/Images/visible/000680.png
+2ff574719a575db0e8df80a4145c1698fab9b46da1a13cafd232d47b68e93a0f  /root/rivermind-data/dataset/Images/visible/000687.png
+88894e243eb9862862a5713594e251d584e33c070f41674ac8a8a59c6fec72da  /root/rivermind-data/dataset/Images/visible/000694.png
+23c915f097274e73dc5a0182a8293d19bbab8fd2968b23bf1a977388050c7b16  /root/rivermind-data/dataset/Images/visible/000701.png
+690c23c4414ecb0c49923f12a3cb6f30aee3b7f290ade81333c2a1a53034b236  /root/rivermind-data/dataset/Images/visible/000708.png
+064be6471ba22926811963a08a3cc7c29763d9b5ea5c713ef0acea604fb5cbdc  /root/rivermind-data/dataset/Images/visible/000715.png
+c56c5dc5619511e0f691580560451b9c4da5c0bda6d1be540ff0651a6f53892b  /root/rivermind-data/dataset/Images/visible/000722.png
+a2ecad39817903a6fb7b3a83e052f58215273b142bc3af8db65f8486e483f011  /root/rivermind-data/dataset/Images/visible/000729.png
+b52c3bdaef93341740e166a1437511975abb2293c87d3ea7f2a4a799a0258a9b  /root/rivermind-data/dataset/Images/visible/000736.png
+0c01da908a62669daf8c51473a44a379ae71bc0265e9242eec67fb528f5193e8  /root/rivermind-data/dataset/Images/visible/000743.png
+b9e3bf7b5eaf50dc89bc7e84566c91cc6dcc0bd36b920ad9cbc6903d7b3e4e83  /root/rivermind-data/dataset/Images/visible/000750.png
+3279310a6b67b17efe5f9b6a6074cb81aceb900df06fa665cb2ad37cd5e6e556  /root/rivermind-data/dataset/Images/visible/000757.png
+e06a53a58e71f2fe56ddbb6d45e324ed5929c19b1d12f2f199649f3b2a12f9b0  /root/rivermind-data/dataset/Images/visible/000764.png
+71358971863f324b2460065ad5446141c15215ddadc744b59be9abd223b1c1aa  /root/rivermind-data/dataset/Images/visible/000778.png
+bed5d22f0dd3d319853a3d80750b21079c4b995dc561f4a423f9b6794a491500  /root/rivermind-data/dataset/Images/visible/000792.png
+c093ef0aef7bf769536aa47f3e37a000d207d8dc1cc33bba30d8c6d8fba764ff  /root/rivermind-data/dataset/Images/visible/000813.png
+635cdc28529272eed94884a9d3caf61045075f6acb30e19dadf697feb11202fb  /root/rivermind-data/dataset/Images/visible/000820.png
+f0a14d9d92c36ac315eb41e03a287a221d62cb0004f2182e60d57147bea083c3  /root/rivermind-data/dataset/Images/visible/000834.png
+6257501e273aebdf27c31a4a8929ad2f397eb3f6f4a4f48c176941490e948583  /root/rivermind-data/dataset/Images/visible/000841.png
+126ea2aae95e4fa419eee50d94bde3ce11c7bffd4d25cf0a4fed66260d747a44  /root/rivermind-data/dataset/Images/visible/000848.png
+6d143ff84a415a2675c0fbdc089847b0c591712feff39699bb98c0e44e562601  /root/rivermind-data/dataset/Images/visible/000855.png
+bf25c77dc7e1821b4a6e841722b1778f8feb659602576e32f3fea0a10a6599c3  /root/rivermind-data/dataset/Images/visible/000862.png
+d0cd61ba981abd34f75742fc92a3b0b7029d6c03bedcc9e17e0c11a379eebaa6  /root/rivermind-data/dataset/Images/visible/000869.png
+ac3adde022a1ab110d57cb7da5a6b28f6515191936703aba9fd0f5da98d01f83  /root/rivermind-data/dataset/Images/visible/000883.png
+c58c3532ef55df420e5a377988413383cbd0bd5da900948e6bd5ae3958391fe4  /root/rivermind-data/dataset/Images/visible/000890.png
+60025f1f9e625db037971ee572cbb3d47e7323fef78bdf970415f7282973e73a  /root/rivermind-data/dataset/Images/visible/000904.png
+1b8fa824dd241c212df54e483c121b1be43e7a788192f3df3e2e359a06f5dc9b  /root/rivermind-data/dataset/Images/visible/000911.png
+80afc959d81c6b00716f4f528f4c73091ecc809e117e98688fb91c63c27c6d12  /root/rivermind-data/dataset/Images/visible/000925.png
+6548e40b4da437003e0d85da4b371d9b12266ef7ac9d9b04b800a074bce8ecf3  /root/rivermind-data/dataset/Images/visible/000932.png
+ec782285b5de61f997ce91dcc4a62b54986889aea7eefee9dd20528594517db5  /root/rivermind-data/dataset/Images/visible/000946.png
+4c678591a48c5098cf8b6fdc0830f52774e78f3b608802b82ac0e9e51bc05578  /root/rivermind-data/dataset/Images/visible/000960.png
+78aea69259ddc058802a28cc2cfc56663672926076accdde954c14fe05bd628c  /root/rivermind-data/dataset/Images/visible/000967.png
+78304f29be88f356d05f3ca258c77a66e1aab15c47adb466cce52168296bc771  /root/rivermind-data/dataset/Images/visible/000974.png
+0a032948e579b42aff964a26a9fcd0f88592fd49f508cd0c227c4754fcb1b9b7  /root/rivermind-data/dataset/Images/visible/000981.png
+432f072a19f55d4aedaa8b779336eae037326f15e978d93e1f3e8bab5439392f  /root/rivermind-data/dataset/Images/visible/000988.png
+40232217830dc647251887c3c1872258bd6a4d0b542192073d16ddc61101a875  /root/rivermind-data/dataset/Images/visible/000995.png
+213a2bfb25a906514f9cbd7921673f8e7207c401de153fce60dbedc27f8e6406  /root/rivermind-data/dataset/Images/visible/001002.png
+1d5fd80997463548d0ba60c38ce9f03382a6087d395e506652f39fc1fada4ca2  /root/rivermind-data/dataset/Images/visible/001009.png
+54af2164fedf54b6633f72279650c14f9bac1baed5adee9ab370b211c1dc62d3  /root/rivermind-data/dataset/Images/visible/001016.png
+78d2b362536627a3e723943b91d0fe4902c733b12b268f981050c62ab43491b2  /root/rivermind-data/dataset/Images/visible/001023.png
+bfe99ca11e164bc53862ed49f02436d5a269354ad7a241b7b557f3fa4f6dc619  /root/rivermind-data/dataset/Images/visible/001030.png
+0e3aac3c8b46c0cdff06cdf83edc0d83b959b29a852aad42bd126dcbee35c274  /root/rivermind-data/dataset/Images/visible/001037.png
+84b09807e34689fe31943b994f3a18da94775ebf13d999c2715d07fc71032ea7  /root/rivermind-data/dataset/Images/visible/001044.png
+b2861583fa8de2d118c173ce0a3f28803580f47741f423f82f36768210477287  /root/rivermind-data/dataset/Images/visible/001051.png
+15db03197a7f73ffd09d8c4f7ff18e3893a96a8f34fa6e2c2ba508e59ce63f84  /root/rivermind-data/dataset/Images/visible/001058.png
+15e7f70c1e365848cb08f89e7f8912a3f3e73310757d553559623d10c26b3ef2  /root/rivermind-data/dataset/Images/visible/001065.png
+031690490e7c4f7fdd3edd54066293eb915b85ffa0f48e7758f84c4d72fc2db6  /root/rivermind-data/dataset/Images/visible/001072.png
+0622551c28e58fe953c1c4f553eee75c67c547876af1fd413d4f916b9356e6e7  /root/rivermind-data/dataset/Images/visible/001079.png
+c71097e73b6be2cb7ccbce3c78ba647b8038a2e1ae8e4a789d52d4f451441ecb  /root/rivermind-data/dataset/Images/visible/001086.png
+6a2ce80370670e4e1d0d642c020189038ed0598553429289a477af8a7f95c427  /root/rivermind-data/dataset/Images/visible/001093.png
+7658e149c4f9d98de2538d70731900092504e26b6a4e8d838141d63c0dd1a688  /root/rivermind-data/dataset/Images/visible/001100.png
+5cf51dfeb6b3e27818eaa0ceaf934bdc6d9d34d2009095430d2e2ceb71073c1e  /root/rivermind-data/dataset/Images/visible/001107.png
+e5208f1ec78b08494e5c079c849d3b27e36bfb4e30d824e4c7dea1a70ec4615a  /root/rivermind-data/dataset/Images/visible/001114.png
+654e883d12dae85aea6c9280093dc3d98b048724478987587b1279b034ae5154  /root/rivermind-data/dataset/Images/visible/001121.png
+77ab85f5443b6c2559adf4921ab6b47e8bc67cfb6d43f2a84fe9204cb045778b  /root/rivermind-data/dataset/Images/visible/001128.png
+0b9a85ac0dc712aaaf2f9d35aebba403250ff3afb3754771d232bea67d6f7213  /root/rivermind-data/dataset/Images/visible/001135.png
+ee13e2a780bd81cdbe0a79996c9b8b5f7af2e9b18f409c06f3df33d6f41f810a  /root/rivermind-data/dataset/Images/visible/001142.png
+954cc49be89c3e9098287c4d38ef0e58fb249d745266fa16cfc43004c586222c  /root/rivermind-data/dataset/Images/visible/001149.png
+68e94a94ad20bd09d57918a106e2f34150aa92505f2bbdcf5530d2e5a7d2169d  /root/rivermind-data/dataset/Images/visible/001156.png
+af38971eb7e01e2d24f0f56c78ac74fa7ceca4b584905f27535ddd1aaf53eaa8  /root/rivermind-data/dataset/Images/visible/001163.png
+ff81b7d557717f2a8f374db3a13d8c52627298de2b15e370f98b484a35526029  /root/rivermind-data/dataset/Images/visible/001170.png
+0e10970d0efd02306ec2a16a0503724a64a1db6371ebd9e85f02daed154be7e6  /root/rivermind-data/dataset/Images/visible/001177.png
+c34b32741e4eb6db98068994721851e0537977c22ccb7876b9c8112471d11c4f  /root/rivermind-data/dataset/Images/visible/001184.png
+c4f43ebe183946b1df16b0810f94146df06a1125d8834c0c07989e04e3b2ba91  /root/rivermind-data/dataset/Images/visible/001191.png
+23e2aa21b81f76d58da9b4dff0d37c8ce32fad239058ff4ac9ac9262fe3cdb56  /root/rivermind-data/dataset/Images/visible/001198.png
+ca1739bd25482d6397a65321e8cda125f56455e0ab7a64a40bd02a3f3f226aa9  /root/rivermind-data/dataset/Images/visible/001205.png
+19d233123857ea6a418b47805afb63de61ee06396117a5f6ffd5869ab9b1185e  /root/rivermind-data/dataset/Images/visible/001212.png
+69b6550875e7924787a58298d4c8a3b49248a1eec48111cd7cf77171b77c2e08  /root/rivermind-data/dataset/Images/visible/001219.png
+991908870bf6d735ae3082a0a1ac84e013875c7a527b8205551ac7a35def3f50  /root/rivermind-data/dataset/Images/visible/001226.png
+56efcd9a5181f4666059693d93b40e6106cc906e8042d5094de55ae851030c61  /root/rivermind-data/dataset/Images/visible/001233.png
+51f5f47afb784da3dc45231a208922d944480bd98164291eb353181cefd481b8  /root/rivermind-data/dataset/Images/visible/001240.png
+43e0097acfe64d2559108a1965a813249e215a07929365f2a06c3ba7578524f1  /root/rivermind-data/dataset/Images/visible/001247.png
+cb3c69a6b9a64721de6849e09e5b4669c7f72f1483464e7d19c2327836963b4d  /root/rivermind-data/dataset/Images/visible/001254.png
+df58be9276f6eebcfa3df7f937b437d8e51f4cb6223e9531d59ef471267b2e07  /root/rivermind-data/dataset/Images/visible/001261.png
+fed27069f8703cc63092ec641dec9e62bbec111f67abecfc658ecf97ea1c7298  /root/rivermind-data/dataset/Images/visible/001268.png
+cf8e5a9a82a1a1982449debdff987bdeb7eff1ddc05b9783fe36d992fb641a7d  /root/rivermind-data/dataset/Images/visible/001275.png
+81fddcbff38d7d3418c9dc6ac1ac4f1ae5beb89453f25bf7b9cf82198d0546f4  /root/rivermind-data/dataset/Images/visible/001282.png
+99ffcbada2b9cfd69123020f955059075a7f82b20f1ea7658e842b96fc4d987f  /root/rivermind-data/dataset/Images/visible/001289.png
+d435721302712647240da0c2287ebfbfe3b17b1bdffee46fed811b4ef164c9af  /root/rivermind-data/dataset/Images/visible/001296.png
+cd4656a1bdef307eec076efdfc6298f8e214adfb8cb59e09951bf9043f7b1bc2  /root/rivermind-data/dataset/Images/visible/001303.png
+9c89d88bc2d3af4f2260968985cf808e36a2404706417f0c8d75c7c53995010c  /root/rivermind-data/dataset/Images/visible/001310.png
+1a0242e6a5ba0efb6dc75d8e18ed0f4439d1d93b18451bec9c448cd806f5bd8a  /root/rivermind-data/dataset/Images/visible/001317.png
+d5d6b7d791aa3bf5de55ccae8e2a0a5eda5409e4841f9be49890efb595ad7302  /root/rivermind-data/dataset/Images/visible/001324.png
+5bdbd1406bf514bb54bb3012170157ef5bc7fa892bd2e5deb0e54933e0a61e91  /root/rivermind-data/dataset/Images/visible/001331.png
+7900e50d11d802edff6bb9cc6f4f5481864b3b3aaad6beabe6d3a412908659a4  /root/rivermind-data/dataset/Images/visible/001338.png
+d45c72a42ff5072d987194da9a3945054f518b147ace75f6ecf69cb8004391bb  /root/rivermind-data/dataset/Images/visible/001345.png
+6a4ade2fb21df971d3b1a6df57024d72dfc5e8025762b0c9c4ddc0671c0a917b  /root/rivermind-data/dataset/Images/visible/001352.png
+f340aacd5785d909678ae97695cde1d9ce4c19f53469d36c3e852b287d64c2fb  /root/rivermind-data/dataset/Images/visible/001359.png
+1ccf9fb75d467c148ad318e040e188e84c5cb572dcc9e1489aca562e19df51d3  /root/rivermind-data/dataset/Images/visible/001366.png
+20cbd2d3f40677c64c9e5a776c539afb1b10842d5d8229e065ed5803f9582836  /root/rivermind-data/dataset/Images/visible/001373.png
+daca8179abf6ea0fc7d66074be8e006d744c05381605711b0245aeb3665b2dc8  /root/rivermind-data/dataset/Images/visible/001380.png
+f28b93a7dc77ce7590eee5c71201f252a0bf3a712e1188b1ba365dddf459af0d  /root/rivermind-data/dataset/Images/visible/001387.png
+9c4d63eba3a79090598ed4e17dfaca53635f91dc8073a7789e250b3cdf7bef82  /root/rivermind-data/dataset/Images/visible/001394.png
+9e2bbea8b3efa6c64647bd5b44431180cf63b13e3f4b677b775112e9a9bcea46  /root/rivermind-data/dataset/Images/visible/001401.png
+9197707e82e91fbcbc9d4e1b9d6da59b92c5b6e765e142f6f808b2d67089ff99  /root/rivermind-data/dataset/Images/visible/001408.png
+1d84e705607e08a84b3c64a6035b572618bba864a7a792dabc332973084c8fb9  /root/rivermind-data/dataset/Images/visible/001415.png
+e4b6b38cf47ce6d89b31adfe3c4d0c48a153b93cfd4a9f5aaf528f9d151d28e2  /root/rivermind-data/dataset/Images/visible/001422.png
+68ba5093becca5c5b48a2e1f569d05f059eac2c811e4252cf834b6a79909c3ac  /root/rivermind-data/dataset/Images/visible/001429.png
+b625a50550d4f79682ce596297bbec3fbfdd41b2aa29454ef2f6e60d161bc04e  /root/rivermind-data/dataset/Images/visible/001436.png
+21df511f087cb428798b14bec301f45398bed3d93deac461c4f60bc6b1e8921d  /root/rivermind-data/dataset/Images/visible/001443.png
+2e78675241fb24711724dbcc99239a53901bb9f90b200ca74a4f5cdb5dcbd365  /root/rivermind-data/dataset/Images/visible/001450.png
+c7bf80c48f18bacfe377513ee418d97b88b38a71cd221bbd418500bc95309239  /root/rivermind-data/dataset/Images/visible/001457.png
+8d3746054cd943bf4715582d325b6e9ef2b70a2638074c5dc465b17c23f41694  /root/rivermind-data/dataset/Images/visible/001464.png
+f35bba1af6580b356a5b569fca3b9fe9a724650d80eda38efec7876f72021f7e  /root/rivermind-data/dataset/Images/visible/001471.png
+675bf35d041d4cb998b8a60f6b20f68e2d7862b8595728ed2bcdaa527d7cf761  /root/rivermind-data/dataset/Images/visible/001478.png
+433db3af0f590a34c228bd46246ef966754b5e56bab3ac19c6cd096219e99255  /root/rivermind-data/dataset/Images/visible/001485.png
+4ad23f74d6a23acb2d6e5167b5b69b9511514abb3d13cebf147762f3936f1d7b  /root/rivermind-data/dataset/Images/visible/001492.png
+b98eeafbe9a4c2fce9efde6e6086ab3333a3814e191a273e6296af1c7597c858  /root/rivermind-data/dataset/Images/visible/001499.png
+1f6c4bc5c68d4352fdd5c5416c5d813c42eb8067358197c3abf3af71680d9960  /root/rivermind-data/dataset/Images/visible/001506.png
+fdb203b2d72f4708f375db8a1c4c5491bb87e74e98640e9ae9ea79c7a99df03f  /root/rivermind-data/dataset/Images/visible/001513.png
+0643aaadf50941abcaded3e63538b51972b3ec6841f854fdbbb20fd89e900776  /root/rivermind-data/dataset/Images/visible/001520.png
+05aa8bb20830b76ecbe889742ae5b0a6fe9b39a78569c66d8abcf3c353e6c37e  /root/rivermind-data/dataset/Images/visible/001527.png
+b8acf23d30167e50828f06ad46170be162b1adb41a26336dc2a72aa8c2fe1549  /root/rivermind-data/dataset/Images/visible/001534.png
+7c40825aef9d5beafea2de2a4217b94f9d524f235a6cb1597dbed6982f172ea8  /root/rivermind-data/dataset/Images/visible/001541.png
+9ba4f55e151df9ff72011bfc36c8ad981d55d2c447c591d856086369fd981830  /root/rivermind-data/dataset/Images/visible/001548.png
+08d494f51706d2584f902b35c05f99e7f955cf9596a576532c5fb159e0cbe1c1  /root/rivermind-data/dataset/Images/visible/001555.png
+08f29c16e410d8991f39c112093f497c9605802fd62303a8e8a212af8ffe586b  /root/rivermind-data/dataset/Images/visible/001562.png
+08360f626af247e47080dd4e76cc64471ed68376806ee2d1d809297e2d0c3988  /root/rivermind-data/dataset/Images/visible/001569.png
+2d194b552b0a8fd5d16170b2ef5b699cef4deb84056e1b971c2afe9ba8a38169  /root/rivermind-data/dataset/Images/visible/001576.png
+4897f5ba2eac82e6c5ae70c980213b56481aae7efc1ad5c083aa1fdd5c080dfa  /root/rivermind-data/dataset/Images/visible/001583.png
+cae0783e6c38b34e06a82e6cc843eb2d7cfa08959bfb593364cc9f7db38f2a0f  /root/rivermind-data/dataset/Images/visible/001590.png
+2787e111ecccf26e7a9d653447bf8d4a88657013137449969becc05f99ce4d34  /root/rivermind-data/dataset/Images/visible/001597.png
+12fc6995c63ea3bf71187186d9cc6a3d9bec44b97264b4a8bf6f72b440b58231  /root/rivermind-data/dataset/Images/visible/001604.png
+ea9c163e47ed3b804eacaca4cb33bb38773394189dc59ac70072a589a6c3fd1f  /root/rivermind-data/dataset/Images/visible/001611.png
+1778c03a178f6e07b12e127019f833c97430ca3094a4e342a747b6922bdad61f  /root/rivermind-data/dataset/Images/visible/001618.png
+4da97aa3d1b3288ecd98eed8abf6bdcc780aa41e7d76406eb7c57a4b1a32e1dd  /root/rivermind-data/dataset/Images/visible/001625.png
+fda487585e62d0c6f7771689a6cfb9bb750d6ee09d60e97765167f3b320987d6  /root/rivermind-data/dataset/Images/visible/001632.png
+2ee0bd3a830598d91cd8760496fd8e4da45e74a44697b18ebebefa3cd34661ad  /root/rivermind-data/dataset/Images/visible/001639.png
+ad19c99b4a942f90c24a6cda24c5b4ead6c850296efe9b8e9b61d8410cd7f141  /root/rivermind-data/dataset/Images/visible/001646.png
+90222fb42b2230a31d8a4113ba584e93e0536fc0078bfaaf203b2117092e0e9b  /root/rivermind-data/dataset/Images/visible/001653.png
+e2c82c93cd986c7e4ad47c90a845acce1aa40dc94b14bc530d535faa2880f6bb  /root/rivermind-data/dataset/Images/visible/001660.png
+42c7712c3988b8f4b3ba38b81bfbdf11c0238b92734442494bf99121d49b4c63  /root/rivermind-data/dataset/Images/visible/001667.png
+23630194d59621b221f3acbd17ed764822dce28110abb4d0713e543e9d5abbdf  /root/rivermind-data/dataset/Images/visible/001674.png
+e2b100cff3a92018c16fa9739d3126497a30539b0a5b605fb6d061e94f097304  /root/rivermind-data/dataset/Images/visible/001681.png
+b480328a60c4e76d6aaeb0a34eb6ae365b3a16124eb7c012d6ffab368d23a8a2  /root/rivermind-data/dataset/Images/visible/001688.png
+75e06bcb913ac7df94b1475e69ea943040c2c31fac2cfc0386b95d77bc93a086  /root/rivermind-data/dataset/Images/visible/001695.png
+4e6e1415e49b847bf5621ec19cec4af2bc92b136b339ae77b4d72939ec559a16  /root/rivermind-data/dataset/Images/visible/001702.png
+a3fcb9e044343a0f3b8f67b0bf09d750a4e8f377806190ef285f26abfe5e1d14  /root/rivermind-data/dataset/Images/visible/001709.png
+c6db22897328673ea7e96d0d46a076eee3fc682c90056b759f45d49c2b9f0620  /root/rivermind-data/dataset/Images/visible/001716.png
+7e193e47ab17ffc0b94cf87ce2674f9f9a09166fbcda4516ef406a4a70235821  /root/rivermind-data/dataset/Images/visible/001723.png
+d8e967179c51c82732d7224671dfc7eefb69f47aee8154f9d5f6fadb54dfd16d  /root/rivermind-data/dataset/Images/visible/001730.png
+f4e02dc9d40ad995a2e707fae00e4193acfda6d491d4e9a5c0096e63871ec878  /root/rivermind-data/dataset/Images/visible/001737.png
+227829b30c687b97e8b657329f797b7bc19662ef5c3835dab2adf24f38c81bde  /root/rivermind-data/dataset/Images/visible/001744.png
+fcfdd41dcd4ff0196147c30f26e3b2b3993c7f288ebfc700d78b4c02b1a8500a  /root/rivermind-data/dataset/Images/visible/001751.png
+e1a5e22924d6f8e35c86b1dba90501ed9699d943aab721794240c9f831c1d7fc  /root/rivermind-data/dataset/Images/visible/001758.png
+2643c725bc2b8bc088ca42f55b4f011a9f7eb2c5f63564fa0915735ded369d94  /root/rivermind-data/dataset/Images/visible/001765.png
+0f06863cf43682e20186aea17da1cb8ad032b4b3bc4a853fe798c9d762108302  /root/rivermind-data/dataset/Images/visible/001772.png
+bd0f372e5af99a9762ab9ab2d8d42f16e8be44744025ae7cc441452e4c5ec102  /root/rivermind-data/dataset/Images/visible/001779.png
+082f7a766a81b0b8519e7f5af34406ccc33ba5e62430b78f488c33193f0e2dd9  /root/rivermind-data/dataset/Images/visible/001786.png
+cd67518bdca803a8a39d89aa35410ff0f5669a5e6c1636eb2f7bc53f033a39d5  /root/rivermind-data/dataset/Images/visible/001793.png
+6913c298995a1d25c25f983892e56d6fca69a859bb891bdd8ace24058e6fad40  /root/rivermind-data/dataset/Images/visible/001800.png
+6c483143f54f56d7023e186e3f5d8e9f58c2485e2ba817d53c1744e24ed8e1a2  /root/rivermind-data/dataset/Images/visible/001807.png
+32ff744cb7d1e7f06bf5a770db8a2e7c484f23b6655d27e800aa7e380196a4c0  /root/rivermind-data/dataset/Images/visible/001814.png
+196166ed2d611779df1c80796899d2a718bc9d7efe6ddb9d924d8ca2e7198ae4  /root/rivermind-data/dataset/Images/visible/001821.png
+7e3db6005fa55b7f64ad571372e9e14ff0195064843cd915221f4c2d9ec0ffae  /root/rivermind-data/dataset/Images/visible/001828.png
+1b2747860d8da79b493322cfcadabb1a8a46b29ae1f23879a647a13c59ac89c9  /root/rivermind-data/dataset/Images/visible/001835.png
+e8ecf1519d64009f77da2eb6264da740e13d5d038457693d096967e1ce6a67bd  /root/rivermind-data/dataset/Images/visible/001842.png
+e54578c009c9ffd8be88f9c624ad504ed13f10e3639ce4dc76f3160ff976ca4c  /root/rivermind-data/dataset/Images/visible/001849.png
+80db152b7e6e9c6c5ceccd45ff18e9a2809a51ac4b1d3207c9e29dfcf2b269bf  /root/rivermind-data/dataset/Images/visible/001856.png
+021019cc2d5181c5c28c0a3cdd390b14fc7954b27916ad931efd3db916e753df  /root/rivermind-data/dataset/Images/visible/001870.png
+cfb12c6af2ec82bcbebd0bb33513a92c5c4ffe1b83f7232b6142064a97a056ae  /root/rivermind-data/dataset/Images/visible/001877.png
+4cf1fddf001fc32f74fe0cd7aa125d8b84d1198035ed1cd1113fcb2b3701d5ab  /root/rivermind-data/dataset/Images/visible/001884.png
+516b7437cf737d8bf05db4dc2f3b56bf1c5cd5e8e268116b363739bf6cc7e7ea  /root/rivermind-data/dataset/Images/visible/001891.png
+0619447c32a90e5662dc15f742ad28b7a5a1ccd84e1461fae06838f4721f18d1  /root/rivermind-data/dataset/Images/visible/001898.png
+5f0dd74c25328336781b5ef9699f2691303c21d209eccab44aa2ef1b5b5c6a00  /root/rivermind-data/dataset/Images/visible/001905.png
+3cc3ebd3c442d9ea2ec8e8f46245050c836ac45489a648f1d6cb53f9b904a431  /root/rivermind-data/dataset/Images/visible/001912.png
+fad35f3dfcc159d55280d18432ec1827f06736bac0c80114de09afbaa39ef839  /root/rivermind-data/dataset/Images/visible/001919.png
+16607e0c09e603dbc9b072dc1409e82f28421990f6252d82b718f11d07b91cad  /root/rivermind-data/dataset/Images/visible/001926.png
+39c5a73d99ebef911219b4a2298acf7206d5cf53686c8acae4f85d863350304b  /root/rivermind-data/dataset/Images/visible/001933.png
+bbd3bd199b0a8c7f1efefa9d3c60eaa754ec1d30dd7922bf7473b00ad73b4401  /root/rivermind-data/dataset/Images/visible/001940.png
+3e8829988b16a5a22e439d0fee7fd2d8f1d8f03424352762204e87e35067993c  /root/rivermind-data/dataset/Images/visible/001947.png
+458c8ce00afa5509efe77332982bb70469928ce9d3111361e0dd1b45567919ba  /root/rivermind-data/dataset/Images/visible/001954.png
+6a7132ed1fd3e7120d7a4ab69bb4ece52d7a808de3137132d1475a0fac9bc437  /root/rivermind-data/dataset/Images/visible/001961.png
+b4fd4d53272e2891e416bd3536101d6a2304f020392eaf30fc1d9c482eb5e7e3  /root/rivermind-data/dataset/Images/visible/001968.png
+a335bc9b353b4265cd689be8d2c0d298c301faa240587d5b5d5f09014fd449b9  /root/rivermind-data/dataset/Images/visible/001975.png
+54bce372a97e53a1bbeb6a1305db619db06c6540af0bad118df7ea5f33f1e24d  /root/rivermind-data/dataset/Images/visible/001982.png
+758da4a95d8ee03dcaf06f344ffeb21d58546ccee51e760127a7ed0dbae530b4  /root/rivermind-data/dataset/Images/visible/001989.png
+445376eb917231e997ef18b3ac550ee292875db08bc9f3c6f17ca43dbf7a390c  /root/rivermind-data/dataset/Images/visible/001996.png
+530713636f92217c9d0bd95f3906556f1e5f439ab7353c79cd81b57b3caf9450  /root/rivermind-data/dataset/Images/visible/002003.png
+f4b70240d733b04df227e2a4e5415183b08d7b6301ba6016ce92a101d0d74a52  /root/rivermind-data/dataset/Images/visible/002010.png
+be6b0f0e076b2c7594bc80c492c7be5ff853ad6237c59314b8404bbd54ad049b  /root/rivermind-data/dataset/Images/visible/002017.png
+ef355bd51551667e04dfcb7c1c2c01a2668883bdae81ddd913ecb23c80446747  /root/rivermind-data/dataset/Images/visible/002024.png
+f32ffa3243c04f739daba5b9b332e3422b854326b6c2ad9bb80452b3b5349888  /root/rivermind-data/dataset/Images/visible/002031.png
+a41b9d95c6239994827f9a1ba8dfc6817d8f398aaaec32c54b41057215f9b7b8  /root/rivermind-data/dataset/Images/visible/002038.png
+cc9ec81c9a4662ad3e3ee77693818eb09bee50dbc8d70021d9e7b78d4684c7f8  /root/rivermind-data/dataset/Images/visible/002045.png
+9a5cd3a0ac9dd42254ba10e0c23e63dcb702e729bbacaee858999d2b5cd4880c  /root/rivermind-data/dataset/Images/visible/002052.png
+7ecc9ab246081f1a2ad89c1c038c346f025b93ec44a1e64b5213627b9858fe8b  /root/rivermind-data/dataset/Images/visible/002073.png
+5478d9f372d43911d03360e84f41ed771830e1eef910675c4b39e218b1e01038  /root/rivermind-data/dataset/Images/visible/002101.png
+fc1ba6bf9cec67a2fa09f26f4c3bc7a3c77f5386afddbe52583ff7573f4ac521  /root/rivermind-data/dataset/Images/visible/002122.png
+47b0315eed938c9c52f4af74587fa68366abae74aed0ba2a983f092d19281dc5  /root/rivermind-data/dataset/Images/visible/002129.png
+81367ea2345d520dd96170784c3464a78458c1c806a4df402cde0f23e0e05b17  /root/rivermind-data/dataset/Images/visible/002136.png
+5bded086432ce7ca3e65ea6c46b76a0f6d1ebfc99018058a240aa4c56c3fed68  /root/rivermind-data/dataset/Images/visible/002143.png
+4c33cfd8b023989e23783f2e89788d3856920efdb35d402db3a82a9803328bc1  /root/rivermind-data/dataset/Images/visible/002150.png
+66538a19ab627a584b6eb57d87c0b99b467c29fbc14d00ff0176872145d41f67  /root/rivermind-data/dataset/Images/visible/002164.png
+b6c17a17a6d292e37b7f4b57706ca8d8aaf47a97b925912fbbbda3625963ff6e  /root/rivermind-data/dataset/Images/visible/002171.png
+8032286b72e02c1e5ee590418bdd8343e808bcfc474cfbf36ddf442f4846b6ac  /root/rivermind-data/dataset/Images/visible/002178.png
+287084be77b3cc4f7b73bbbfe01f113306dab1ca3e323c7cc41e30711bd6abec  /root/rivermind-data/dataset/Images/visible/002185.png
+e64af0aa070f8ce37ac3bb7d458ecab8cf789723cad9f93f8668ca1682c8780c  /root/rivermind-data/dataset/Images/visible/002192.png
+812485f1d37a6871c608bc729bae64e772786b3604fdebfd57504195e8a78bb7  /root/rivermind-data/dataset/Images/visible/002199.png
+160ef28cf514ec6548ab78c3d5b4defd8057ffafe5da07ef57046a78fafab6a3  /root/rivermind-data/dataset/Images/visible/002206.png
+be932309ea902d969a6bdaa6231d23256d065a25ab3cfa87abf4ba60c9b126ae  /root/rivermind-data/dataset/Images/visible/002213.png
+1436e2ac99af76205755be8ba3dd5cf98456bb866bb86c4721adf59e28c5206e  /root/rivermind-data/dataset/Images/visible/002220.png
+70ba7f2bb79be60e0cec4ab7baed6d17214835b152b81335c28bb23815254090  /root/rivermind-data/dataset/Images/visible/002227.png
+33f665e7f9e08dde342e8d55bcf1ef0ad0bf1895b1f199dbca8cdbb5f1b8d583  /root/rivermind-data/dataset/Images/visible/002234.png
+2be3b16ee78c143be30411cb10377784127ee1d86cab351f171edcd8bdb2c634  /root/rivermind-data/dataset/Images/visible/002241.png
+52d22409f539cfaf0eb685a3b1ef1ec23688b1e2630e1231005aea70253a342e  /root/rivermind-data/dataset/Images/visible/002248.png
+3df8b5b9fcb4ff24f3150f2f7e1e17a58ed451f533672bc190ca652c31f9a692  /root/rivermind-data/dataset/Images/visible/002255.png
+019ca9cb52b67180e61f386d9216f7e1d69de63901c8b4ada88e93dea3bb42ab  /root/rivermind-data/dataset/Images/visible/002262.png
+0681a3c04bffc5e697f5ac2f004ac0eb5d91e15366d6ef06d667d7fc50bc5c88  /root/rivermind-data/dataset/Images/visible/002276.png
+bd243d6c845771e1b8052593e19fb4178932d2fc5b50081189b28b8754595dae  /root/rivermind-data/dataset/Images/visible/002283.png
+7b30bf530d8324a140c11d298f328a3b97a3bf7848ee8fa8dba0db84428e5124  /root/rivermind-data/dataset/Images/visible/002290.png
+02e1f4c374cda2ad59ae6c3544a1ee1a4f4e35f98582c0ae98a4a66dfc9b06c8  /root/rivermind-data/dataset/Images/visible/002297.png
+74574cd180b41b30c643e9ca5a569dde11cb16624796023ab9e7051de39544ad  /root/rivermind-data/dataset/Images/visible/002304.png
+f318976c7d69c52e6ef12691e00141f153e7567be2482dfad148ea771dd01968  /root/rivermind-data/dataset/Images/visible/002311.png
+0b966af74b600d74e7fbf72836a8a9b82d9c5e1fca35606c3ece716e0b8bde7e  /root/rivermind-data/dataset/Images/visible/002318.png
+083fd2d484c2dcdec622a444b9458350b8f2b240779fd1016e8ea0f9aa89c511  /root/rivermind-data/dataset/Images/visible/002325.png
+ca4f893ff4a2f1e14f163bb87b0c3856762352d163345a7d965c73a65ccf7199  /root/rivermind-data/dataset/Images/visible/002332.png
+99f2bf9d1b7163dd75cef720ca6e12c6a493d643ba0268e5725bc5d61c18c74e  /root/rivermind-data/dataset/Images/visible/002346.png
+7b290d961515c98ca28088df98c6cec7d59f30a896dde1cc546bf14df8e4f9ec  /root/rivermind-data/dataset/Images/visible/002353.png
+b983596c6541c735ff70f8c8a94b009a724b67b88108b743d3b5090ae5f9c879  /root/rivermind-data/dataset/Images/visible/002367.png
+160210e54f4b8c58ebbb1b10004ad9aa8e3e0924228e782a752c92e06abdfd9b  /root/rivermind-data/dataset/Images/visible/002374.png
+f9fe551dc0d6d660013de0e2aeb347bd5dde008f5757e49f210e7a05387ace18  /root/rivermind-data/dataset/Images/visible/002381.png
+1a9223af84e46ebe72161230c52dc24021a0a07ac810bab6e725e8195baadbf0  /root/rivermind-data/dataset/Images/visible/002395.png
+2f9b154d2b5dc4ac7c914b8a5107c5bc09458bb75df92ca4cff752b62b743b04  /root/rivermind-data/dataset/Images/visible/002402.png
+72803b549d84ba17a041ec500edc74eab516311cc99bc444502512e4ace7c5c5  /root/rivermind-data/dataset/Images/visible/002416.png
+70940d632d3916882626cb449450b537b94b0a16051577f960ab3b5866e3e31a  /root/rivermind-data/dataset/Images/visible/002423.png
+7ef488d6f202d14282af8ac75d22aed51740cc3d2537c87270331141c243fadb  /root/rivermind-data/dataset/Images/visible/002430.png
+0833aa7aaf7386efed0c056c4baa9005b2455941c22ac5e91920d256657a48bc  /root/rivermind-data/dataset/Images/visible/002437.png
+415c0e21fc85ce49fb57c539197895008a933546f3adf340aef4ed2c7ecfd21c  /root/rivermind-data/dataset/Images/visible/002444.png
+a5dd718f92587992f4a5e6bbb3116e8d1fadbde91124d65979bfb2f126e09c91  /root/rivermind-data/dataset/Images/visible/002451.png
+0aaf832fc0ef55c16e20f655f63df64e4b7d6ccf97c08a91ad120f6b0d44c241  /root/rivermind-data/dataset/Images/visible/002465.png
+9551dc1a0ae9ad9a378656fa1abffde15b435583d6e8e1c05333036f7b327278  /root/rivermind-data/dataset/Images/visible/002472.png
+e70716a1b3c8786ea2a05f66af8b30af454e6cfc4380334fd5d3a8c1cd966857  /root/rivermind-data/dataset/Images/visible/002486.png
+82798edc2f2ba867ebb2a80bd14998eed5777b4f9a17941ec9a8bd147bfd27d7  /root/rivermind-data/dataset/Images/visible/002493.png
+d67492c32a7b4008a9a833d5e0c33a89f46ce969fd31508f9f3ceb16504603a2  /root/rivermind-data/dataset/Images/visible/002507.png
+933931b2bd601fa15db11b3486afcbfdbc31c5cb54977ca702ff7fd08b21c2da  /root/rivermind-data/dataset/Images/visible/002514.png
+5bcdf8fd8ad139e2e5c0f6ec19f4709317bb012eef193a8fe8fdf221790dc77a  /root/rivermind-data/dataset/Images/visible/002521.png
+242d5c71970b3e79ec3df953a198e76fb27a3f3b56847583a5bd45da98bb3e41  /root/rivermind-data/dataset/Images/visible/002528.png
+3555cb8db4922891ed389e3df8fb1e3b1a2febe0fdeaca47d87fd948b65b873f  /root/rivermind-data/dataset/Images/visible/002535.png
+2fded052cd689f458b17a71d35645f6b376874f4b24bf9d20385a313b24dafdc  /root/rivermind-data/dataset/Images/visible/002542.png
+5a4fae943d15c5673f13a3c201cc1308a9a5af404a86945fe3af6a63bf325df9  /root/rivermind-data/dataset/Images/visible/002549.png
+4ac2d46a82068ad039f14b94ea18a76a58c8b599df83fcb7d0804a6083d088ef  /root/rivermind-data/dataset/Images/visible/002556.png
+8765059d4d81ddaaab85bcfd9ebb517d90c09c5aa596a21be331c56529bf4f48  /root/rivermind-data/dataset/Images/visible/002563.png
+b3041350fa455d7d7c2134be86712875d51f09d2d0c7c0a768157464cacf9315  /root/rivermind-data/dataset/Images/visible/002570.png
+c4f427c34268fcc8eaef0f60103c82ae2d5165ccf76367fe6a6c824bba660dbf  /root/rivermind-data/dataset/Images/visible/002577.png
+d7e5c6e42dc5160706244804969b256489873de21576d59bedf7fbbef1c5f1d9  /root/rivermind-data/dataset/Images/visible/002584.png
+1f3f1a6edc51b7a0fbe3807b5943742498fb76368554b698aa7edac7164c9506  /root/rivermind-data/dataset/Images/visible/002591.png
+5cb3df39fdcc3519900672b7dfae16c0d964f7f5ddd24f3bbb6b983b08495c30  /root/rivermind-data/dataset/Images/visible/002598.png
+9f6552e3a2f165326c8bb342ba667f27562f03d2129603b9f33377593fa6d9ec  /root/rivermind-data/dataset/Images/visible/002605.png
+cd42ffd368495b9d7a95ff0b793d07889326244c2f70c7c6a8f2ba4c4c2f8ceb  /root/rivermind-data/dataset/Images/visible/002612.png
+fafa9f44a8a1396208363d62bcc7607f7b8fb130c6eb68334bc68264044cdccc  /root/rivermind-data/dataset/Images/visible/002619.png
+ff11b2ca6764dbff8c5acbd2f5d7210f7c8d2f3507bff4fff953947135c8ad62  /root/rivermind-data/dataset/Images/visible/002626.png
+3168c0179d7de635726e666c624653e991787838f28fc0960f485171eccce294  /root/rivermind-data/dataset/Images/visible/002633.png
+bccc24830a9ef2708bf84fc93fd407db8adc103860b8602f9e2be8c1b5e0e67c  /root/rivermind-data/dataset/Images/visible/002640.png
+6b381c6ebad58eb84994cf0cfdae5588a898c63a34aa9459fde2e01db8718ccf  /root/rivermind-data/dataset/Images/visible/002647.png
+1bb27a245a34f8e3f9ed84edc2882b0de067f6abbeca27032c0c2ecf01123f62  /root/rivermind-data/dataset/Images/visible/002661.png
+dc8f2349220a888ccc09cb788cf40d3a774e325941ec14c3a9bc64cc9809126a  /root/rivermind-data/dataset/Images/visible/002668.png
+c98c1312d076cfa1eeff39d802ff30a7a4f724fd0d4a0708351e707578c0b667  /root/rivermind-data/dataset/Images/visible/002675.png
+fe50572469a231181e603007b643db56e6171b6b72395c591dbb1502053f78c0  /root/rivermind-data/dataset/Images/visible/002682.png
+11150b1425da64f35d47e6f21e4c35ca9c851b91fd60c4a0ac75211bde255dbf  /root/rivermind-data/dataset/Images/visible/002689.png
+45bebe63c939cd5dac2d5c03e27e55c4350e97d62a215d0bfa72ad4538ba4599  /root/rivermind-data/dataset/Images/visible/002696.png
+340d1bd9b9a32def4ddda50d1d9fee08aa5a30b2681b87923d97b8721ee08c1f  /root/rivermind-data/dataset/Images/visible/002703.png
+9e989157ac50a4a5185a64bae1556233c5f6bfcf45f81e7325ff1bbbefb14753  /root/rivermind-data/dataset/Images/visible/002710.png
+037c9312b0a9a9d4c8e9104ed27910f93ed318ba9de26fe70bf3af05be76bd90  /root/rivermind-data/dataset/Images/visible/002724.png
+d522f1a3d68867e4ed54a877ee6601bc899eec853e07997c7c54ea4a04027375  /root/rivermind-data/dataset/Images/visible/002731.png
+8a8beefa946e365a28455e4c022e07e388775c1ad9036c3333dfd960ebe8f568  /root/rivermind-data/dataset/Images/visible/002738.png
+997c914049b8c93fc1147229898cfdbe9fd9d59cd65cbc88e4f702a560390e45  /root/rivermind-data/dataset/Images/visible/002745.png
+371fe7b815edda0b2797aa54b0539407ccffbb494e83ed2ffe014014c041dfab  /root/rivermind-data/dataset/Images/visible/002752.png
+1ac08c1deddfc7840fa9965d560ae170ab5c975e19d7dc7cc56b2fc9c39679f0  /root/rivermind-data/dataset/Images/visible/002759.png
+18b8cd278fdb1e40fe38cac483d59c4b3f3e09254d80d961b7ef4e6ba5e62fd4  /root/rivermind-data/dataset/Images/visible/002780.png
+329094cd7376978ee29819474a6d7305af6d88aba08c6aca86a3f9f9d5f3852b  /root/rivermind-data/dataset/Images/visible/002794.png
+0e0197c1f86d4d47f82a1a82c76b7a0ed28b81a78804910b57f93853e30ddca8  /root/rivermind-data/dataset/Images/visible/002801.png
+160e31b19731e7103f32a1b41b53be7b0a4f5eb723fd5bd221d565582168a6f3  /root/rivermind-data/dataset/Images/visible/002808.png
+cb5d9d64a3b99afec3f2d6a7772ae581fd5a71f9e1d053434bb0bbdd46988f04  /root/rivermind-data/dataset/Images/visible/002815.png
+e48a4c9f12c4535c3d0ec1bca0a59b1ad10320f54abfb549958715c7aeb7de91  /root/rivermind-data/dataset/Images/visible/002822.png
+9b6c15936a2943bce68ef0f20a7cfa49d6d137bc25308a36955c17b48dc68e7a  /root/rivermind-data/dataset/Images/visible/002829.png
+b2e19c179aade754263c34c1e7821a8bda0002314e706cd23168271f263ae73a  /root/rivermind-data/dataset/Images/visible/002836.png
+b50bb7048498f2436638619878910b79578127897ac8d3915541e72121746186  /root/rivermind-data/dataset/Images/visible/002843.png
+07a81f26ceefe13ace941d03996987ff8b478ea6f458e8342e20620e2435a1d7  /root/rivermind-data/dataset/Images/visible/002850.png
+eae83d15f3d23b0b1c92eced133fc92e9312299ed768baeac8bda5d3101beba4  /root/rivermind-data/dataset/Images/visible/002857.png
+72fbc77942a12f02676a1a0f40f671fc464185466dbf5d1f14a86db66e9dd77c  /root/rivermind-data/dataset/Images/visible/002871.png
+8a868bce34aac64f9e1435b50307d07cc020e704b3a8102d328a9429a82750d2  /root/rivermind-data/dataset/Images/visible/002878.png
+018747ce04ccc6f5ec0b142fc5c062039f48f146f385380f91c7172e9bf274e4  /root/rivermind-data/dataset/Images/visible/002885.png
+5151f5729784dbcaa1ae0d07e424a3cc6d60ee5909333a4c3879da263d4f24cf  /root/rivermind-data/dataset/Images/visible/002892.png
+76d0376df152e712840cad4221b24fbb7c1f48b5188b3c6052eb7d74d0181b68  /root/rivermind-data/dataset/Images/visible/002899.png
+7c2470ff7ea0def17384b693265474db01145b73a84d685978dca49824d3b593  /root/rivermind-data/dataset/Images/visible/002906.png
+c5c2ce9f5878c9bc6fa27a642e0548539c69590456869364a790b31d1f5d7f66  /root/rivermind-data/dataset/Images/visible/002913.png
+4ffec01c9938c675f6b6fb4c0a92512800645b8b1932b1be45f1a6ab53fe4a5f  /root/rivermind-data/dataset/Images/visible/002920.png
+4990ab440cb599ae2b8c606c1ec740364106aa8566299f5e581dd33febb65df5  /root/rivermind-data/dataset/Images/visible/002934.png
+ed3f1f67793585db827d4d6c4985ee109fd98ccf3778c0c5235c82f840b28e93  /root/rivermind-data/dataset/Images/visible/002941.png
+f5202123d8864cebe8c2456ea3afa867a4f2fd4ea1a48ea26db76127f3de6072  /root/rivermind-data/dataset/Images/visible/002948.png
+cd7b8ad10678c65ffc20fda7f910ea32ff742c37b4192a787606cd353c28b16f  /root/rivermind-data/dataset/Images/visible/002955.png
+08adacac3eac45605cce8d2e708f3875d4ec735d9abae2c89d26810532358db3  /root/rivermind-data/dataset/Images/visible/002962.png
+8c35d089547315b6341d8bf71a961bf0e909c0be1599235d4f7b1b66030ab560  /root/rivermind-data/dataset/Images/visible/002969.png
+83de27f8da1ad48e309070a6d8306ca0536d7f2e3f708fd90f078ae744caf1d3  /root/rivermind-data/dataset/Images/visible/002976.png
+b1832d0dc8b8fb1ff0f45fb8ab81409c94474c19d574634b67614f8546b31776  /root/rivermind-data/dataset/Images/visible/002983.png
+a22cf07dcdde5b6f77894848df0b52f163206566575029a4552a27e17f2626bc  /root/rivermind-data/dataset/Images/visible/002990.png
+1e47abf6f6663ce03671a2949a43e4c2541600d56755ec5c682cad21bc0acfc5  /root/rivermind-data/dataset/Images/visible/002997.png
+888b94fb98e268307fa00681f694362c039c5658236c7a9b7911bf65d0f63b4a  /root/rivermind-data/dataset/Images/visible/003004.png
+66255960f78f3bbbdb8062650f4c9de9396e4f8a64d80150b036ebb9c021046c  /root/rivermind-data/dataset/Images/visible/003011.png
+93236a7146dbfc09605d0e22a391fd38416bdaf9bcc63ff094684d6358734173  /root/rivermind-data/dataset/Images/visible/003018.png
+d2790cd0066de74343f65bb9b894b11e8e174b4221d41d03fdf26f788a335921  /root/rivermind-data/dataset/Images/visible/003025.png
+fc60a7f19bf6b5154ecb68dea6369b89f837b35b681de0a031b8cbac5a99ff92  /root/rivermind-data/dataset/Images/visible/003032.png
+778712a3448657d1e76875f02f684d16ffaae50c41e3fd2472b7fafccb409a0f  /root/rivermind-data/dataset/Images/visible/003039.png
+c177917a18eb6af97e85dbbbf192a9d79ef906b256a0c3c9f73ea19b34d530e4  /root/rivermind-data/dataset/Images/visible/003053.png
+24046867f4b4f8145a64b33e887956fc4868be48884a7416b95e7ceb38cfcc5b  /root/rivermind-data/dataset/Images/visible/003060.png
+a827c79dd4527cf9b9e1d6f91cf43cd053828d48bf042f976bf57acbf122ae37  /root/rivermind-data/dataset/Images/visible/003067.png
+07feca5edc0ec300d2e1e128230e2ac3355e31e2c5865864aa43979d9f3d3897  /root/rivermind-data/dataset/Images/visible/003074.png
+e94678a5a1950414d40d28d6e58afe05b8a70cafd60868913f652befe28d78f9  /root/rivermind-data/dataset/Images/visible/003081.png
+3b6492b060e922018dd277e8f57c30696d46514eb035d5b79af754ee7edd66ff  /root/rivermind-data/dataset/Images/visible/003088.png
+47d6a67cd6454e821ec05a5576055b62c2d45ee9fe20f632b51657be2b95392f  /root/rivermind-data/dataset/Images/visible/003095.png
+34635f466d2a85876905e182fe116a0de022eace4247b607c4b3a9f17d18ca47  /root/rivermind-data/dataset/Images/visible/003102.png
+f62a9f55f586494518e380a92ce4678acbb2fa56bdec4a6733e26f26d1577798  /root/rivermind-data/dataset/Images/visible/003116.png
+19d9855996df51fe9e8ba830e59066b42bc82b9b4ba8a78cc4998262b7af5667  /root/rivermind-data/dataset/Images/visible/003123.png
+a111cdf9683222b953cc76ea36e8bf31381d84821232d3e1c4774016aab12a8a  /root/rivermind-data/dataset/Images/visible/003130.png
+777954a856f782637e5b7164e2d154b4fd6df732a1e890099c3ff88ec8cdfa86  /root/rivermind-data/dataset/Images/visible/003137.png
+b2557486d3f8b7b83105c2ef1e5beca34f76fedc22ff5ac91e047e25f48880b6  /root/rivermind-data/dataset/Images/visible/003144.png
+86e9768e7d4de9f37fa83eb54257b28f2d1cffb3bd1620a05bdfb7601ff67dab  /root/rivermind-data/dataset/Images/visible/003151.png
+ebfadb69f6c1df22cc29d7b6ee07f046ee41bac41af087de8d139c7e5cdc7cfd  /root/rivermind-data/dataset/Images/visible/003158.png
+575605ed144758414a4372e7eaa1b53ac40e31728eee61e9089ed3c9a4446b79  /root/rivermind-data/dataset/Images/visible/003165.png
+f77effbf82722cacfac4c7345acbe4bddce3dd3baa87431da4da077f814c1490  /root/rivermind-data/dataset/Images/visible/003172.png
+06bb222f81858443515ddeb92150302b8670ac641863cdbee6c651cc0a5ab716  /root/rivermind-data/dataset/Images/visible/003179.png
+1d82c1f0a725ca549887ee3e6c05fadcb980e8e9afd3b1623e388572761e62eb  /root/rivermind-data/dataset/Images/visible/003186.png
+ce0cd0d46af6a3d8394a776a676077549849ad973917ae55b5db232c5052bd8f  /root/rivermind-data/dataset/Images/visible/003193.png
+028a9af131f2f8e7eb923aedb875fd239c48dc21b5611c018433ec4342ec4c13  /root/rivermind-data/dataset/Images/visible/003200.png
+3a90c9a2bec9116dc569e4017a512b63f571979be6e11b13bdaefeee125cd5a6  /root/rivermind-data/dataset/Images/visible/003214.png
+fe952a2f88bc12e0f0ee53578ffe56cbce8e2af751ff5ae151cd51c90ab7bf22  /root/rivermind-data/dataset/Images/visible/003221.png
+54732c13e2abe13749253aadd4b08ffac1904c709a78e420bc7b001f3cc51edd  /root/rivermind-data/dataset/Images/visible/003228.png
+c26bd9e5d6badb0f46ba5ec42759b5ecde6f6b7d20cb9bb6d3a950d819f54f23  /root/rivermind-data/dataset/Images/visible/003235.png
+847a27eb019ffb3c4f9592e68b1e4dedc625d1aa79870d8488d18de10c839a99  /root/rivermind-data/dataset/Images/visible/003242.png
+7b6cc58c79afef87aec04d89bdc35394e32bda728aaec89c5b7a288e3bd57430  /root/rivermind-data/dataset/Images/visible/003249.png
+7a5888b925e60c7a853ac0a863a2c04f215f2458a2497aa2f332b37ac73ce830  /root/rivermind-data/dataset/Images/visible/003256.png
+f7a74fc5eab8f7130807daf740f976aede32698a9dedb99d50a2079b8f78a5e4  /root/rivermind-data/dataset/Images/visible/003263.png
+c5dda281b158dcd8d5bd4bee352b5b255eaae95589e4d57a68488fc166f54dac  /root/rivermind-data/dataset/Images/visible/003270.png
+20a934c9134da13762b61666926f7673572ddefbc84d9d6dccb7cc07b9c14652  /root/rivermind-data/dataset/Images/visible/003277.png
+6367a2f5995650ab7917f21322e23c4c8a14d49869701ae1e63f3fb95ee2b379  /root/rivermind-data/dataset/Images/visible/003284.png
+cfbc2720c1501a4da7a398bfa7872c43279c484622b70c697dee61ee14ec5872  /root/rivermind-data/dataset/Images/visible/003291.png
+78578da2161a8c5ea7e5330e471fad8b6a89a6cac4bced0909f0e1e0af56f504  /root/rivermind-data/dataset/Images/visible/003298.png
+24dc553b1b0c33e4308aa6aaea09033af5c10e3b6759477583673b720a6c4b42  /root/rivermind-data/dataset/Images/visible/003305.png
+779ae5da8524b6d77e166fabed351de14c3b67713ff61b04f32fcef48aecb345  /root/rivermind-data/dataset/Images/visible/003312.png
+9b954cfd0dd359b4ab8ee4b13db033b4a90e04b2480738ba679a4443af56f950  /root/rivermind-data/dataset/Images/visible/003319.png
+c13e4b51cb08b175c4b4adfb811512cfc02f3b1497ada2813763a97494c9229a  /root/rivermind-data/dataset/Images/visible/003326.png
+689acc362186c953cf67d7bf5aa20d71c3e6ff94b1b8783f2362c97cd390e4ae  /root/rivermind-data/dataset/Images/visible/003333.png
+f033e38d8fd17e2906c0a7a751e4911b210e4dcecdbe6b23aed587d5b50099a9  /root/rivermind-data/dataset/Images/visible/003340.png
+96e3b44ce746975d2d5281df031d97d7050c64ea05dde5dfaa6a08bb6fe402f0  /root/rivermind-data/dataset/Images/visible/003347.png
+c7c118af06c8b4b43c3ed1a9b731ae1c2424beefb3ae9a19e91624a18b276f64  /root/rivermind-data/dataset/Images/visible/003354.png
+65738482d57fa1677a2665422799ce53524cadd3835af2c7511983e582bf48b7  /root/rivermind-data/dataset/Images/visible/003361.png
+5dfe51b019201177c96397e33ebe568ac87348e5b124ac9aaeebdb7e387f6c35  /root/rivermind-data/dataset/Images/visible/003368.png
+2031ffb0d4b47fedff39c0ecd8f2e93f28556ac1bd22f3bf140348a1f3f0af4f  /root/rivermind-data/dataset/Images/visible/003375.png
+ef077c71f912d0d8ddbbf7fdf1d9e6024d4cdd7cafb72410b55facf3c8718f9f  /root/rivermind-data/dataset/Images/visible/003382.png
+1c3c2d63400c614fbf5ad14f106315662064c53f3929bbfb7c69820d9be05780  /root/rivermind-data/dataset/Images/visible/003389.png
+52bb690ab4e13c8e5ed72a04c4b8678422445db23384682bddbcc25d75ca4282  /root/rivermind-data/dataset/Images/visible/003403.png
+51fa2d189742d1c63ac6f6e9e87ba7643c03bdf1e981df9032ce526f0a9f5ab8  /root/rivermind-data/dataset/Images/visible/003410.png
+6b98e923210651728bc685d326153b8b30ba167f3ece76877d36a53316006148  /root/rivermind-data/dataset/Images/visible/003417.png
+af5e7b9a2a687238a1740e9df52bebe169afb49f5d1f53aa526be9475abf76c5  /root/rivermind-data/dataset/Images/visible/003424.png
+36adac56762cef2f0fafac90a58337d159297c425cfe6b3e0851e291230f8e15  /root/rivermind-data/dataset/Images/visible/003431.png
+a2fcd546eb3ba970beb43255902d1393c4c884d04ab7f53fbe39018635b1d18e  /root/rivermind-data/dataset/Images/visible/003438.png
+f966b67cf4f2dbfcb8009c91b13a2ad55a49f9a069b6f501c52bb7497a2e61ab  /root/rivermind-data/dataset/Images/visible/003445.png
+8bca8f2eebec8937ac165e75e53ef8e30a747590ab69284e5ae1998467365799  /root/rivermind-data/dataset/Images/visible/003452.png
+1f0f1a2559174ff27ad477b2124a6d250fc02cac25392869206daa25f5d7b27c  /root/rivermind-data/dataset/Images/visible/003459.png
+f370d1298794b8631f63623fe091b7ddf352b6a46e3057627829a37edd6c3122  /root/rivermind-data/dataset/Images/visible/003466.png
+9438fecd7f8f0823cbf778cbb4de8532db617d1470a9526bbd1447422bc96d87  /root/rivermind-data/dataset/Images/visible/003473.png
+46b9909c236e8fac713f459a03447fda3882367653cc4711d8dc783a222329a9  /root/rivermind-data/dataset/Images/visible/003480.png
+899a86784fbabe8cc3be64746887cea44a68b370623aea8bc15f66b3416b40ee  /root/rivermind-data/dataset/Images/visible/003494.png
+bcb4a810adb9872a07829f93b969f2f6547837b58cb500599ddf749f89dce345  /root/rivermind-data/dataset/Images/visible/003501.png
+0d36e5ff12c85d58d2d62e72859e5319a6cc744f85320494f375171f457180e1  /root/rivermind-data/dataset/Images/visible/003508.png
+8e8d207375b15f3e48d3344e932dfaf2bbb66e4f96a814b9c3e08937b5d0c55c  /root/rivermind-data/dataset/Images/visible/003515.png
+cc1df1122ebd4817d40adee26c84b792375c8341d01f20dd5f8881f2382fa442  /root/rivermind-data/dataset/Images/visible/003522.png
+a7aaba39b88cef8505537a23ea7d221d385d2c20fea6e088fba5c605c7208c99  /root/rivermind-data/dataset/Images/visible/003529.png
+f6c35391704154b215c7addbb2c3b844f1a16c85c6b71a5da0ed4f9df4604d57  /root/rivermind-data/dataset/Images/visible/003536.png
+84d81f28e93f62e93c8de352f64e2cccff047f7cda118a587b1b6afeb2c2c5e3  /root/rivermind-data/dataset/Images/visible/003543.png
+d9e29f2b592fb91e799a618a2abf8a4fc13651aed478d39ed5927d2f33128fa8  /root/rivermind-data/dataset/Images/visible/003550.png
+560edfaf969dbd136e3f2718211417e58d0642c115a0141edeba46a38168dbc5  /root/rivermind-data/dataset/Images/visible/003557.png
+2ddfdfc4ba50f1918b757ccfede6082a6ac8853429645992ef3e82a1c3b322bb  /root/rivermind-data/dataset/Images/visible/003564.png
+f4129c44acf96c30a9d2d6036adf92b41f44ec5b774e4db151297be7e2d75edc  /root/rivermind-data/dataset/Images/visible/003571.png
+0d7dc36b23475472896cde2826598472b9e268b40c31f757407a8553689b0527  /root/rivermind-data/dataset/Images/visible/003578.png
+a0edf6787623a8f35d78ff354334c03648512a28fe0ff8579b7da72e02dfd365  /root/rivermind-data/dataset/Images/visible/003585.png
+3744539c68368d64d0fe8aa040c9a092c3eacc1d6952dfedd9c28c95a045e132  /root/rivermind-data/dataset/Images/visible/003592.png
+1af6c327c384247b9a44bacb7a74ae61ac5a0d76a07297f2926462dbb6707a1d  /root/rivermind-data/dataset/Images/visible/003599.png
+c97e99604c8f636ec938bf113fd9760525808b1a9248efe8c4b3f103040962bb  /root/rivermind-data/dataset/Images/visible/003606.png
+c0da410d014346ccb2e44f8e1bbdfd4d0cc4e987c9e29af242f5ebde8177c752  /root/rivermind-data/dataset/Images/visible/003613.png
+98626fd47c01c834b224d4d7a21458e591f6b3aba1caaed1d2bceb58c83e57b0  /root/rivermind-data/dataset/Images/visible/003620.png
+d2c52edb607500f4edeb1befa6a74daaf1554ccf7dc526dc37f45472b301a3d0  /root/rivermind-data/dataset/Images/visible/003627.png
+a8e751c07b8a63c2580bf6eae993e556e349cb20ef147c75020fe4926ce1f83e  /root/rivermind-data/dataset/Images/visible/003634.png
+9b49e83b891a5b1f5a9d57aabad317d20e263c8ff1dfcafc9af582a08bb908ac  /root/rivermind-data/dataset/Images/visible/003641.png
+3ae1b18aedd660565529e56186b405190dbe1aed13b62cac83a37c70ec318ebe  /root/rivermind-data/dataset/Images/visible/003648.png
+df352c3fd289c0876959c71966950e506089ac06494861971f30e15fea033d18  /root/rivermind-data/dataset/Images/visible/003655.png
+1d68ea55d42a0fd4451cbc5aef7012f5e8d728cc154d776d6ff762308ed50b95  /root/rivermind-data/dataset/Images/visible/003662.png
+c471cb7551b9b782fb59e66566bb62caf7be948409a2c1b4bac9508e14af5214  /root/rivermind-data/dataset/Images/visible/003669.png
+d8b2d46036d8d8277dfc7dd23af854c2f05a7ab09f4712b8f192708dfa7adc85  /root/rivermind-data/dataset/Images/visible/003676.png
+2a96b67a108d4e0f479c589c159395b60ceb942a9c1ef3e742c6516db3f0f545  /root/rivermind-data/dataset/Images/visible/003683.png
+137f0bf4c58cd26fefeb8aad999460eaab5b6b5d16ea86567b44f623dc6b7701  /root/rivermind-data/dataset/Images/visible/003690.png
+cd1acd410dd133a0a01cada5c721413382ed0c5780de8a5d4a0d116691c34030  /root/rivermind-data/dataset/Images/visible/003697.png
+41266e6e53f0563f0acdb10bb9809348b98dacd683a08b5546301bd9bcdb766e  /root/rivermind-data/dataset/Images/visible/003704.png
+df5f29329bd129022e52302ed39306c47447a74430b7e0b049b686dd53b2421a  /root/rivermind-data/dataset/Images/visible/003711.png
+82640a039dc26b4657c558999e75eeab310c906a9028fb02715a4f3cfd571140  /root/rivermind-data/dataset/Images/visible/003718.png
+63806611eb5ce7d67176b83feae13059c6e2a9b7789ab13c67ac59d261ee21b2  /root/rivermind-data/dataset/Images/visible/003725.png
+26670d2494736d06bcfca5a25ee194a88f91d5f54a2eb2bee52e7475c1c9fb0e  /root/rivermind-data/dataset/Images/visible/003732.png
+ef285de6c4af9eede45622f1b87958fdf646b65127fd4d1d8cd62baff11b7537  /root/rivermind-data/dataset/Images/visible/003739.png
+ca1f93ee4da8e25bf97d96f005121c2c335067716bfa92decd2f9214d8cf043b  /root/rivermind-data/dataset/Images/visible/003746.png
+ee4160ca8f5367e901792f33a17ad92ad8c38756c827bebc85c57a3d5d73c2cf  /root/rivermind-data/dataset/Images/visible/003753.png
+f34b226e23b55a4521272d0fe118bdecf81df42b037e9601e5afe207c0df2299  /root/rivermind-data/dataset/Images/visible/003760.png
+6536c5d95b6afb8a99c296f9f6ab2b8f5afe582b5329bfa17ee68ff45af6f9df  /root/rivermind-data/dataset/Images/visible/003767.png
+c21c65a265ff49fb1af440a293cfcba2fefa210aeea1febc347607526eea32a8  /root/rivermind-data/dataset/Images/visible/003774.png
+e7fcba68d1cf9658b9eece3086a92acbd28d2f29435abf2ab65d91d46fe83c54  /root/rivermind-data/dataset/Images/visible/003781.png
+0cf4ed8726db1d6bf3b71d11e7fb9e0d2377af55411e7e86ae9a889d418b61a5  /root/rivermind-data/dataset/Images/visible/003788.png
+927fbfbe2ed8a56f181d5c7c0822199828ee8c6fcb679184f3493a20fda8ce09  /root/rivermind-data/dataset/Images/visible/003795.png
+3499bc42d6696e0a087e4a2688275fa1c77e4d187291308ff11f9d9558dd1fc8  /root/rivermind-data/dataset/Images/visible/003802.png
+7086059ddf065efa1c01bf53ff85daa76d6557f93b4b132f424308c0453a352f  /root/rivermind-data/dataset/Images/visible/003809.png
+4914b9b8f479c04dd0a780689d36332dc2aadcdca064b9cb596e0f400d109de0  /root/rivermind-data/dataset/Images/visible/003816.png
+9f78a9c9a2f5d0e826985191c42f1c22793e0fc3a03f16283228046f61fefb08  /root/rivermind-data/dataset/Images/visible/003823.png
+efd67f59d6c1ff99b1623931db25fab13ff0622870e2d47e95577997a00a1dd3  /root/rivermind-data/dataset/Images/visible/003830.png
+f62a0bff0a62477138a5a9835f32ca3ef5f5b9715e4d606768899a3ad7c1d34e  /root/rivermind-data/dataset/Images/visible/003837.png
+43195a6ff9e3b6939676eca16cdc65cd2742f3e8b0188860b653b5d794210692  /root/rivermind-data/dataset/Images/visible/003844.png
+2349fe2e45efb4458481942f974ed06cf504a3bf9d8e850587385d564c897b55  /root/rivermind-data/dataset/Images/visible/003851.png
+70d7448019e8e325d058070a45b8699a45484912185c8a55804ed330430f8900  /root/rivermind-data/dataset/Images/visible/003858.png
+dd867459769f766c40614a233f79233177918c729998d4a50b88676a5f4d7ed3  /root/rivermind-data/dataset/Images/visible/003865.png
+ffb76dd3c29d9c43d2b3df60ab34ff6caf7f8615c15636a6a55d9cde0f64a3a3  /root/rivermind-data/dataset/Images/visible/003872.png
+b0ffaf4bd21dd418d900c497696affa508e4992c022e72b30f287be02ae8cd33  /root/rivermind-data/dataset/Images/visible/003879.png
+268df34c11757e0a409ab44fc2527f884c9b799016bb9b05e7ced208060d7a7e  /root/rivermind-data/dataset/Images/visible/003886.png
+11b3a358ba424d9f37f404dc17b47b9f10c7a6568550367175f08546ccfe5932  /root/rivermind-data/dataset/Images/visible/003893.png
+dff187d2e327e29470910777062416dfd462b5997763adf9649114e8c4f6d5fd  /root/rivermind-data/dataset/Images/visible/003900.png
+c78afbb01112e08e9c09314136ca64df3e26f83fa47b3dd44bd0f28a55d2f6a7  /root/rivermind-data/dataset/Images/visible/003907.png
+a1a2dd4a1f0f6535fa72384617794028eeca41689481fdae9ce671cd52f9a9ef  /root/rivermind-data/dataset/Images/visible/003914.png
+9b57fb1bb4d631430a38bfaa41e5d40c5e6f1a57db2f53e00aa555d0ebcfb1ad  /root/rivermind-data/dataset/Images/visible/003921.png
+14e983f6cda052154360e62d8c600ff8a42dbe68d86717d7f45369d0e2ff595c  /root/rivermind-data/dataset/Images/visible/003928.png
+cd9cdb3c49ba0b5105c3a1a3fa24720cc4a39d49b1c550717185cd02f36529f2  /root/rivermind-data/dataset/Images/visible/003935.png
+674cee914c888207ee2e6a162240c4a3d1643ceb96705d715cc3237a74ac8394  /root/rivermind-data/dataset/Images/visible/003942.png
+f33dcd346f5cf83465bf627a15bfc73eac033e4844e8f7b6b7af8a998351f2a3  /root/rivermind-data/dataset/Images/visible/003949.png
+32184654452c598dcd64aca172cfb99d8fc3ae1620f72e965f2c4531b2aea1c9  /root/rivermind-data/dataset/Images/visible/003956.png
+bc1fd862003137f6c956d3c10bb744afbf8a779eec29b7497a2b39eb3bf51589  /root/rivermind-data/dataset/Images/visible/003963.png
+f1f055dbfee5768e947c86652faec6448bbcde3fa95d670b0ccdfaea18b9edba  /root/rivermind-data/dataset/Images/visible/003970.png
+163e4b2aeb8b75187504043d1a39ee59bf606175c5fb7766eb69642cb43b45ff  /root/rivermind-data/dataset/Images/visible/003977.png
+9e5c7dffd997773109cc1e9d8e65608af40b458dbb6706f8972b7fdb8d82ef11  /root/rivermind-data/dataset/Images/visible/003984.png
+5e095e6328122178f580433397f1e0b8accb06703e2391665e256fb3fb84e60d  /root/rivermind-data/dataset/Images/visible/003991.png
+10e56a101a917c856a8788259e6c9c820fb3c7c0af42cfca70b1181b5ecab57f  /root/rivermind-data/dataset/Images/visible/003998.png
+0b71b60e8f9df8c6b8ab2f50bd38c2fd543256cbb3b79963aed57286c5769d75  /root/rivermind-data/dataset/Images/visible/004005.jpg
+630ddb211ee533b75f4bd16f10883d9c1dc3e23b5ce0f64baddef2727bc66ee8  /root/rivermind-data/dataset/Images/visible/004012.jpg
+138dc1ccd450e61b6c3e7ed352dd942353c6b9bfef670726a5efcb42e997a33a  /root/rivermind-data/dataset/Images/visible/004019.jpg
+8cb21ac391207f22a6acd97d594ad497b17db4b91f6889d82fa13ebeebb539cd  /root/rivermind-data/dataset/Images/visible/004026.jpg
+33e77efdea9fb9e5ed93eda9f501726d89f8f57a36075f84f82116e2e427ad15  /root/rivermind-data/dataset/Images/visible/004033.jpg
+07a02545c41dfee22e134d54f71e788442c0fbd491f3b1fcb7744570c95aa7a5  /root/rivermind-data/dataset/Images/visible/004040.jpg
+28e2ea223a3a19a3cc2d2118fd9dcd799532700775785055f8bfa977845f8213  /root/rivermind-data/dataset/Images/visible/004047.jpg
+44f2321064706275b5008e15d57c9fd2df8eae3561ef825bf913ee2db9b284e9  /root/rivermind-data/dataset/Images/visible/004054.jpg
+c624df529c227483229003010ff9f1ab0926ac2b16996a123105d823298c5736  /root/rivermind-data/dataset/Images/visible/004061.jpg
+fb3a6886242d4da89933c49875abd4e1be9350a8877372bed8896027e7695a55  /root/rivermind-data/dataset/Images/visible/004068.jpg
+44989b22b5c49822a105fcb6eceecf33c121c1227c18c52356c7c8ed5e2ba63e  /root/rivermind-data/dataset/Images/visible/004075.jpg
+b6c59e34fe975b61ea206d5c4506953d01fddd8dbf6f458b9039ca4251295b7f  /root/rivermind-data/dataset/Images/visible/004082.jpg
+1d1f8ceedcfdfe771ea759bd51425cbb482bcb3f9507bdffcc362b2d4c51f553  /root/rivermind-data/dataset/Images/visible/004089.jpg
+51167b814edb46d725587bb7c7dd5f6ea2bd20d9a9e56bb6f83fe19df4ba4116  /root/rivermind-data/dataset/Images/visible/004096.jpg
+ef0ba0bc409212d3cd715ac8b1660059ccf8ade9c3246220855bad6fc5ba0eca  /root/rivermind-data/dataset/Images/visible/004103.jpg
+121f733dd9d7fa1231a27a4d6a5dac10a2b68b84bb561679cb80c8b66f3cfac3  /root/rivermind-data/dataset/Images/visible/004110.jpg
+73918c01a210e37ad517250db14d2f3f5ba3684c089c3170df745c112fec316c  /root/rivermind-data/dataset/Images/visible/004117.jpg
+bf1bd217cf781b10f3b7bd4e7a659e5950b78d86e2b2c7c161df10d774998719  /root/rivermind-data/dataset/Images/visible/004124.jpg
+0d4a46e58c56cae8a2f2967085214d930ee729c78c257fbbf7daa04a762ac27f  /root/rivermind-data/dataset/Images/visible/004131.jpg
+7a7731a21357e393b530bcf9cf883692162aba73c29bfef61e3d990c62b56435  /root/rivermind-data/dataset/Images/visible/004138.jpg
+9a221cecf97928c6a31d59195c515b03959917a6c51a333a9040efd20d37a1ba  /root/rivermind-data/dataset/Images/visible/004145.jpg
+4e788453083b690f66c822f712c162c4cedff9c3c684cff7bce9ea539b6ffb5d  /root/rivermind-data/dataset/Images/visible/004152.jpg
+2b0e7be1838442bf8c1612e443ea2701729ac7aff9968270735cceb3029996ad  /root/rivermind-data/dataset/Images/visible/004159.jpg
+3d5c8230147c51c957274eaa51200fbb97e1b62834d22c770481d5b7e78550ff  /root/rivermind-data/dataset/Images/visible/004166.jpg
+198bd8861666a147da2663b6fa91feb039ee9735004a45ad10d09d963d945e79  /root/rivermind-data/dataset/Images/visible/004173.jpg
+aec0ec762e887471a1efcae0cb4d7702bc1f4f712e9ad79325371b0735452079  /root/rivermind-data/dataset/Images/visible/004180.jpg
+b60fc2c3197e282c78e4652bf11e0bedf71cc753a0cc907b3dde74fd6712c97e  /root/rivermind-data/dataset/Images/visible/004187.jpg
+7c46a17d094037eae896479cd9e9aced1b89fa8e20c5f2b2f850739508802b5c  /root/rivermind-data/dataset/Images/visible/004194.jpg
+d3852e458f68dd674f4fd0f6ecc091df165c37389054e3a972f96553df0bc643  /root/rivermind-data/dataset/Images/visible/004201.jpg
+f5b7a95ff12abf8b2465a9f9f123f752756b93f787e88a55e6c49449e7aa4794  /root/rivermind-data/dataset/Images/visible/004208.jpg
+2e2e35e3e32ffc1629f546eddb6829c0000c467a0af0badbb7f884396e39b9aa  /root/rivermind-data/dataset/Images/visible/004215.jpg
+a167f298b32707dfad6104276cee93c959267a866f0f9a46b714719ae8b2ab1e  /root/rivermind-data/dataset/Images/visible/004222.jpg
+bbf8f15605b5e454c9760d927471af0f81560edb7b8731c6199e1302e96ccc22  /root/rivermind-data/dataset/Images/visible/004229.jpg
+a30b7becaa27a41fb33bf8dfff1c2e619174c50fe379f2f3c74515713269471d  /root/rivermind-data/dataset/Images/visible/004236.jpg
+7e4fdb56f9a06d5aadafc05efc66c59fd83324b4c7e667cc5aef92541fdc5a13  /root/rivermind-data/dataset/Images/visible/004243.jpg
+499eff963352e6958381ca90396224aeae22ff4fcbf330ec20c4e988e3231334  /root/rivermind-data/dataset/Images/visible/004250.jpg
+36d43f2c1b594ce2330679c6184b15cb69810098295eceeedd7940cd4259b726  /root/rivermind-data/dataset/Images/visible/004257.jpg
+f49cb1c571847c892a66ba4c1c87c175e70ce838cfafb31e38ece78f3d6c6cf8  /root/rivermind-data/dataset/Images/visible/004264.jpg
+b3205f229d92b876c685c73d87a71b772502a4b0f994f8ac969779c0a8e176d8  /root/rivermind-data/dataset/Images/visible/004271.jpg
+5562757036a97b978eeed78696f00bd4a7e62070b19c9b555a68f9630ed7b1f3  /root/rivermind-data/dataset/Images/visible/004278.jpg
+0d596ef517df67bf06356963955946f95a22e9874956f4f581c6cc2920ea0576  /root/rivermind-data/dataset/Images/visible/004285.jpg
+b69e0e4ec4fe4a93e11a86c901026492832fa33eea8f932eebbf56c7602fa717  /root/rivermind-data/dataset/Images/visible/004292.jpg
+7a749c2acf07d3c5b1de9300005e481e13c9ee76e4375e0ee7a2cac33eb15938  /root/rivermind-data/dataset/Images/visible/004299.jpg
+552d424fb93388f368bc8765fbfbe31541d855045861dd57c4d5d3f98ea3f606  /root/rivermind-data/dataset/Images/visible/004306.jpg
+8912e4424f9359c16c952889ac6f836b9a82daeff6adfedafc87ab41e458367f  /root/rivermind-data/dataset/Images/visible/004313.jpg
+d611e3397892d5cf5d3d1c1f16200f9b8b70ad67507933f82b07136305e4b897  /root/rivermind-data/dataset/Images/visible/004320.jpg
+9a4578c0568960e166a42f4e8f04d3bc6be17dcae9385b5461f88c562f2bd2d0  /root/rivermind-data/dataset/Images/visible/004327.jpg
+a38306dc0fb4759849119daf577eab4d3b2268f3e969deb3c599cec9ea743e29  /root/rivermind-data/dataset/Images/visible/004334.jpg
+a4fedbc5fbd57e73c564d45898be5f81070568ec9ad0581f4d115fca4e19a11c  /root/rivermind-data/dataset/Images/visible/004341.jpg
+677ba9fbe1a5efb1aa7bb46be21c7a5a0305c0922797dfb3c33bfc978e56bbfa  /root/rivermind-data/dataset/Images/visible/004348.jpg
+6b662e7fba2dddee06e74dd35ffe12dbb9890874fd41aec45e4317f8174beaeb  /root/rivermind-data/dataset/Images/visible/004355.jpg
+7b032cc899b73a43d6779e71f8f161510e3a03c804cc6b38f931403a0661cefa  /root/rivermind-data/dataset/Images/visible/004362.jpg
+75b23c58803c25d56aa4436fa33e53f572397e5e8aad87e4b181a78d246b649d  /root/rivermind-data/dataset/Images/visible/004369.jpg
+22098bd2bb5f50f7c253ae2d28c880a281e20c14976184d1431bdc16428911a4  /root/rivermind-data/dataset/Images/visible/004376.jpg
+6d0b909c8983c8642a90f0a4eec129ccbb7590b173009cfa9dcd9499ce57dace  /root/rivermind-data/dataset/Images/visible/004383.jpg
+88af10144db95eabe5a41f52354fdbdb4523f4f280721b489530c6fb07e3d79b  /root/rivermind-data/dataset/Images/visible/004390.jpg
+3783011680ac95368a2150697bc916d2b5f1eae8e8c194159f910c2151ad52ad  /root/rivermind-data/dataset/Images/visible/004397.jpg
+771e2ee0ab2b57968a626d89f9ca71e0517b1f95bf09f472e7cd4d6660d22571  /root/rivermind-data/dataset/Images/visible/004404.jpg
+889658ca740d174d21ced3691a2bfdd4249720a7434dbb034ecfce3af3e4c452  /root/rivermind-data/dataset/Images/visible/004411.jpg
+177c743fb6d039812fbea1e14a9efef1ecc30bb3af646923194c9162ae2d85ea  /root/rivermind-data/dataset/Images/visible/004418.jpg
+547519862cd38eabc23353f4b51042a6536cd6d3eca4141f1fe219ddd6a53c0e  /root/rivermind-data/dataset/Images/visible/004425.jpg
+11b05ef9c426e1eacb3d83371c7f23002959c75c99f3174312d2eed03feb06fb  /root/rivermind-data/dataset/Images/visible/004432.jpg
+fe2dfbd0c96f44a8eef42e3cc6f4073787668d287961c54d573aa4a10154c930  /root/rivermind-data/dataset/Images/visible/004439.jpg
+5318de84b295b1c6dc68481eb1acf132e3a3ddb98e5ff0ff509c5407ed225f4c  /root/rivermind-data/dataset/Images/visible/004446.jpg
+3b60d70a1a1d8e52d42a58190a9f3691bd1e4846d8d757809f4da9d0e0ab72d6  /root/rivermind-data/dataset/Images/visible/004453.jpg
+840a8afcc4c17682688fb5e73fe60b564e0b390fab154144e35921fa82ebf7a6  /root/rivermind-data/dataset/Images/visible/004460.jpg
+cc341ec3c6236946290b4f05a0302e570e3df2db80c048b052d4cb236eb64c51  /root/rivermind-data/dataset/Images/visible/004467.jpg
+df12304ed0908583a4b7dbdc89b45673a59f6c9f37775c977790a8f24f952ee9  /root/rivermind-data/dataset/Images/visible/004474.jpg
+4cd85c82db553d6ab904a8a4b7f4862c17d98f35a5dbd592f43b98cd28882327  /root/rivermind-data/dataset/Images/visible/004481.jpg
+fa4a874a03adad7f58f09590bb156c30aca0c3f738c57969b2b1068348581804  /root/rivermind-data/dataset/Images/visible/004488.jpg
+a4154642b4d1c8d323b2869a71857ed077474d042ac11f5cd814efdf72b838e8  /root/rivermind-data/dataset/Images/visible/004495.jpg
+22f5a495e3d4a95de932c92019df0c948413e045df7deee8096eeabf5c0cfe13  /root/rivermind-data/dataset/Images/visible/004502.jpg
+5344a3aaca319c034beb3582e3cb86f2aa181b56616c5960669eb51cfdcb5b73  /root/rivermind-data/dataset/Images/visible/004509.jpg
+3c95d815dfe5f84e01d267cf8c4c4cf5fad1faa7f29b34e87bdc5b3e4b920581  /root/rivermind-data/dataset/Images/visible/004516.jpg
+989a58c4157bd3da9f64dd25bd8659588abd710004486ff8da96475721e3e36c  /root/rivermind-data/dataset/Images/visible/004523.jpg
+9969a33f6a732ca632aaec721cb5ee17dc183211d436bc5f4527576389ec26fa  /root/rivermind-data/dataset/Images/visible/004530.jpg
+6665bbf8b351103a95ccab3180e0dbe7ddfd340fe6a485e8af915fb860cb46a8  /root/rivermind-data/dataset/Images/visible/004537.jpg
+c823363b7276c6fd03f48132b29beec33c699671b230153de938f5c8810fc7df  /root/rivermind-data/dataset/Images/visible/004544.jpg
+11ee6b4fab30fa191872e515abe484f8e53e8ae18746ad397b1aa4d4068a260b  /root/rivermind-data/dataset/Images/visible/004551.jpg
+9b4e76b0d4ac2b10b9ec607cf6f1cb54b7caa27f3b20b2ab40071498c92fc4e6  /root/rivermind-data/dataset/Images/visible/004558.jpg
+c3b812bcec51c5218c155434c1dda816bee252a7c1d2024f4e531ed6f15ffa0b  /root/rivermind-data/dataset/Images/visible/004565.jpg
+96caa2fc74466203512070cb8487c025fb0206cb33b7f49c1ba0ca8f0cf8d6b0  /root/rivermind-data/dataset/Images/visible/004572.jpg
+f76e0c17882725a001ddeed682379fa5e8bca6552bce35b89a88ecdb5e89ad1e  /root/rivermind-data/dataset/Images/visible/004579.jpg
+d91061585c74bc5f7076c2dc246ce39dfe19251be53b52af6422a13d7d688e2b  /root/rivermind-data/dataset/Images/visible/004586.jpg
+e4b5505c6195e3ccecc345b5af8d241b7e10eb1a7eb6f0d16a98e499b7595edc  /root/rivermind-data/dataset/Images/visible/004593.jpg
+6dd685182b891517c2c1a96fd274c14413e644e98b3d209f1bf55f2c1bcf1edf  /root/rivermind-data/dataset/Images/visible/004600.jpg
+e2e20273f94ce6efac9215f3cd7180ca3b179b5ba78b5a71c5038d255f7b6789  /root/rivermind-data/dataset/Images/visible/004607.jpg
+626bdabbfbeb15d181202c7f21a7868496ba997b9d597cd613e04a7f7ad8bb45  /root/rivermind-data/dataset/Images/visible/004614.jpg
+87d28354daa5b18091d184f524ab435c3e7ed2f8a9b73e3fffe2d468f3380f0b  /root/rivermind-data/dataset/Images/visible/004621.jpg
+da7e99eaace71ca52dc6628a2ce579b6007cef85e39bf3404abd2a6f86a089ac  /root/rivermind-data/dataset/Images/visible/004628.jpg
+988d00c441c50e399f7728bfe370b28569a26ff3d98bf6997ca847fe54dfd47f  /root/rivermind-data/dataset/Images/visible/004635.jpg
+06676b21da527dd8a877915654dd8cba390103b1f3fe5381d8d3d818f9bce247  /root/rivermind-data/dataset/Images/visible/004642.jpg
+3c063aefc730e022cae672c50f41141a7e005722ed466b2903fdf53a85db09a5  /root/rivermind-data/dataset/Images/visible/004649.jpg
+cdc01bb2a455987897c43ca7ccd04d265286ae443c452237bab274399cb5033f  /root/rivermind-data/dataset/Images/visible/004656.jpg
+da453d6b336448509e24386c24680447cdc529c91693c62d038c42d6fd14d96e  /root/rivermind-data/dataset/Images/visible/004663.jpg
+1a926497734d9afa3e4963be90340fd7b20ae88207dbcd031d75a76c3969ce8f  /root/rivermind-data/dataset/Images/visible/004670.jpg
+ae99531d6d4e8caa4b37e17f9fcecc10c833e3d78b7e33e92e398266d360fb46  /root/rivermind-data/dataset/Images/visible/004677.jpg
+264f92e1c3b9950714d19c90fe15758d9fac8721a9099e5ac6e4631a48c20f99  /root/rivermind-data/dataset/Images/visible/012468.png
+689c2c539921f7fe42d001f9edc9c79f50f36075db6940e01756d5af4b72482a  /root/rivermind-data/dataset/Images/visible/012475.png
+a4016c4ce3a932a834ab401cec85dc838a975d7591d28aa6c047717eb2615987  /root/rivermind-data/dataset/Images/visible/012482.png
+0c8dbe521bbd5b7a840f067699dc4a88944f0c3b561e6c814c8cc2eec594c443  /root/rivermind-data/dataset/Images/visible/012489.png
+a5592123786874afc36465ca9a966aaf4537f3678d26afd5415517f989558aca  /root/rivermind-data/dataset/Images/visible/012496.png
+7a7767865543f56ebe35220238fa4573a91b001d486e9fd4465c9727f3a36251  /root/rivermind-data/dataset/Images/visible/012503.png
+390d77ec85504cfe8f457d772e090c527d6b9cd09f28b34df637c198e072ab90  /root/rivermind-data/dataset/Images/visible/012510.png
+b6ecb16177729b1241def52a4339fdd82c026ade48bf7e79f8ff1b920a5bc79e  /root/rivermind-data/dataset/Images/visible/012517.png
+7af6062d4dceaa216460be514ab423fe98b6e0f27b1273899b249e3970c80a9e  /root/rivermind-data/dataset/Images/visible/012524.png
+e965862f2a21dcc953846606d924d1836804d34d8c62ae633754ac107992fd7d  /root/rivermind-data/dataset/Images/visible/012531.png
+d748b40ca5d0065e16d1a34f320df5a1ec1bd0a57b920012c7831679a76847de  /root/rivermind-data/dataset/Images/visible/012538.png
+5de3142445bdfc73256bc31a51307bc3f1c2aaf7da623900ae1db2df536142a7  /root/rivermind-data/dataset/Images/visible/012545.png
+50f1f1636d8464844ac836353e1a65feb17e9f39166e0007349a56f49fb2ebb1  /root/rivermind-data/dataset/Images/visible/012552.png
+76dd755abe686244bf698c5b3856c004e2860aa5931bc7a6f27fcc9e76cdb689  /root/rivermind-data/dataset/Images/visible/012559.png
+73a83a43f09c26bd2cad43c2ec9115e1a1680763238551a5554ac95327195d28  /root/rivermind-data/dataset/Images/visible/012566.png
+e65ac1e7d9b920a9a590e2f648ca3cd4bb4aaf06ec0905e431368ac485c6ea56  /root/rivermind-data/dataset/Images/visible/012573.png
+2e968b91cea36032328c35405534a33289d46479020c618a5f0e992244dad52b  /root/rivermind-data/dataset/Images/visible/012580.png
+f5df2d76c1fd5836750a2f015a4479a8f7be16f7d1cce1732b59484fa63cf752  /root/rivermind-data/dataset/Images/visible/012587.png
+70920bb5cd042c1b87d799a00638a5b8d904cc449e6861375bf3abec114543b2  /root/rivermind-data/dataset/Images/visible/012594.png
+4dba77f3c055195e20e809e50f5cc48e51bf431b043c6dcb5120d3c9bdc0bdaf  /root/rivermind-data/dataset/Images/visible/012601.png
+da50bb17b6ea35334b96edb61153200b1655def11d71f32c7c5d9ec44a58b348  /root/rivermind-data/dataset/Images/visible/012608.png
+cdfbe906b052856dc1b2302f89d9ea47add9dc291ef0b7e8831e3fbe23e0a0b6  /root/rivermind-data/dataset/Images/visible/012615.png
+034f3e4c3c93833c6539a52f23dc5a0836d1d2aa867b9fedad167b910e796f43  /root/rivermind-data/dataset/Images/visible/012622.png
+c794142c19951cbbfc9bbfe82956b4fb6712ac13008b04aee54cd0790ed8a4a8  /root/rivermind-data/dataset/Images/visible/012629.png
+6551687ed326d5e414abe361e121939f93bc9da9943af7aeee4bef2a3e858fa6  /root/rivermind-data/dataset/Images/visible/012636.png
+9cb78b8c475ccd12afa0eb048667a55c11c1062cdedc17a47cc7fcf9106e252e  /root/rivermind-data/dataset/Images/visible/012643.png
+421bccf67c8c2226a54349b31dba2e6354a4bd7c5bb7beaadba0bae0bcffc706  /root/rivermind-data/dataset/Images/visible/012650.png
+99db605c21d4cea425212f36557cce44ad46becf04c57dbbc89c4fba1cb6f98a  /root/rivermind-data/dataset/Images/visible/012657.png
+535f0a7f7dcadab9de659d6543d053a4e1eede44b158b76b328f9ffa8c9141bb  /root/rivermind-data/dataset/Images/visible/012664.png
+8f09e4e9af88168c8eb559272f86acef8a615a59fb4c5139ee3a32625a96e584  /root/rivermind-data/dataset/Images/visible/012671.png
+ad37cff637c9341ae6e46a3b17cd2c9f427d6ee70865d48ad763b9655448952e  /root/rivermind-data/dataset/Images/visible/012678.png
+64024b10dd3c4f0a32f751bc68621fd220171a311b03e10ae29ef372e51496d9  /root/rivermind-data/dataset/Images/visible/012685.png
+8438860f95b8a85a5ce7d7ad97b75bad1289fb802f66dbbae6f069df8a042811  /root/rivermind-data/dataset/Images/visible/012692.png
+f449052931eea2d462e832bc578b136452b709b34259117391c1df1350d363cd  /root/rivermind-data/dataset/Images/visible/012699.png
+b7b93922fffc0862f5b47904a3d9a0d44a2ac89d02f8d4e39fa5a924268ac420  /root/rivermind-data/dataset/Images/visible/012706.png
+5d0da3dc31c9b88aea27fb372e6abc5c023f2ee7f06e654a71edc2049a6c8878  /root/rivermind-data/dataset/Images/visible/012713.png
+565f9bbf774717505420398e9675ff64742e1f7f0eca994b9cce0f8d34b4f46c  /root/rivermind-data/dataset/Images/visible/012720.png
+dc0c4672fb51fce4e6526ae6063295e9c7d7d59f49ecba4bd977b5d2786b9c2f  /root/rivermind-data/dataset/Images/visible/012727.png
+0a301c0889b4d9335d5dd4c1186e95a427595c4d25c4a7996ed09375ca4315be  /root/rivermind-data/dataset/Images/visible/012734.png
+e31b56008f831e9f56f6af0a05297febd34ed701606cce26a3542068e73cf91c  /root/rivermind-data/dataset/Images/visible/012741.png
+8ad7d91d8e0031af1aa604b556b27369e5ba4e7de5e3d5c65ce93bfd5d5ef5bc  /root/rivermind-data/dataset/Images/visible/012748.png
+6081807e202d1c17786aad300c758c71bf33bbc66d081ddb242cf7614a29823e  /root/rivermind-data/dataset/Images/visible/012755.png
+99ee35e5c504b0c1ca2c7e24e711e0e79f58dccf809bef21b13f549ce143210d  /root/rivermind-data/dataset/Images/visible/012762.png
+0f4004d14460504a9c4fbc26a54b922566878715296032fa59078783c767c822  /root/rivermind-data/dataset/Images/visible/012769.png
+e4ffc8103be0d5a4a9462b4e3ab67544794514dd58835dee463c9e305051d22a  /root/rivermind-data/dataset/Images/visible/012776.png
+4219b305e87072179427b524bc3e30981173cac5c69ce5f7399c72a2c13cb94c  /root/rivermind-data/dataset/Images/visible/012783.png
+3b6f4b1deb896ede6abe644dbeee9ffc198148bb8badd5a0638a11066fb51627  /root/rivermind-data/dataset/Images/visible/012790.png
+feea99b5a6c18a734d8cc6d9e4d31918fd28904365391018e8781a0742307b9b  /root/rivermind-data/dataset/Images/visible/012797.png
+0a3f647c1b556913faf1ec9980feef15cfbd9e11f74682e8432f26cab9f67f86  /root/rivermind-data/dataset/Images/visible/012804.png
+83efe7f81e17b99c3c1fccb6600ec7c40d3a69bd8707dec3b9e9a848765184ef  /root/rivermind-data/dataset/Images/visible/012811.png
+e72d9036e49b39eac18fa8b8a2acfd84361930d7981c807472cb04421f939b48  /root/rivermind-data/dataset/Images/visible/012818.png
+1c978b630e0ca8d89b90f007cdb988d566707b8ad299c3aadb47d6cdd11b3e7b  /root/rivermind-data/dataset/Images/visible/012825.png
+de1ac82eb8869988a80dd4f9317cfce374d4dfe50d973398feb8c5abd73b9dfa  /root/rivermind-data/dataset/Images/visible/012832.png
+a45928aa8e092c38e60bb1c6ac34a4356074b1cc4fb25554723941b0e8a3c9fb  /root/rivermind-data/dataset/Images/visible/012839.png
+820e4e5f0a5a3fc7c1bfe1c03b2a3d0fd22528b1c7d8596a2e3d90bc00e87af4  /root/rivermind-data/dataset/Images/visible/012846.png
+b66d4ad52ef8e26de53e27998a19d202d7752bad469bb010a7ceb7465aee9185  /root/rivermind-data/dataset/Images/visible/012853.png
+e87e2a4f93359eeecd7ac5880b26795734dea8206c4661d09cf1ca89447456ee  /root/rivermind-data/dataset/Images/visible/012860.png
+794a8cf4686ce3602ab05bf27d38cd739960a8b9b3b35306cc839d41052c4998  /root/rivermind-data/dataset/Images/visible/012867.png
+848aa21afc2239f29b2ab0c474158b09036c2f646b62b4b0f82c20b4c5cce47a  /root/rivermind-data/dataset/Images/visible/012874.png
+110ebd713566b348b88076a3767cdb4e8cf896c3f121ea59b41d96e65009e0e4  /root/rivermind-data/dataset/Images/visible/012881.png
+89fbd12f2f3313d28810f8826d1a5d385cd116744afd5ca8363899eed987e069  /root/rivermind-data/dataset/Images/visible/012888.png
+4e25c44c3d2f0ff872099e7f8acac8f7c6e7839f8cc55dd437721c33a391f303  /root/rivermind-data/dataset/Images/visible/012895.png
+fd28beeab5d1c48313328ce0f006b2415a6bcbde0f260aab5e111b750de49c5f  /root/rivermind-data/dataset/Images/visible/012902.png
+0ef164b783119da30c600e79c5a9f81a4082add759cb7ef423e272e73c47d649  /root/rivermind-data/dataset/Images/visible/012909.png
+73371ec5dc4632ade25e3542fef08c9187052a597fda93f440d96ae62a6caae7  /root/rivermind-data/dataset/Images/visible/012916.png
+1ef884cd4eb40e1cb7e8c66be2cbc4325e77f6b5083c7f94430acc9c90d7db3d  /root/rivermind-data/dataset/Images/visible/012923.png
+c630edace0642ad1e09b4a26e8714c8066f2e546562f449d98dcf734b8d692f9  /root/rivermind-data/dataset/Images/visible/012930.png
+fbd35e574d585eeeb9ad89aaa19ce7335fab75ccd4616040736284c64ec42c38  /root/rivermind-data/dataset/Images/visible/012937.png
+f14f46d54dc2dc9cd9263f261a56ab9a9fa1c9515a616b76b5ed44552d1c200a  /root/rivermind-data/dataset/Images/visible/012944.png
+1d1b4695922b37dfcdbc64fe932e8c107ca1ab6436bd6e4af11a80dcb62dd0ae  /root/rivermind-data/dataset/Images/visible/012951.png
+7ab0234a7582a3b6d8212bb0f17c117d81475d6eb117587ac8f80b199b5abcda  /root/rivermind-data/dataset/Images/visible/012958.png
+1e96ba8d65a5e649bd3dd24e7419799f191994242b6b4678f603103b6ab8c19e  /root/rivermind-data/dataset/Images/visible/012965.png
+54f1312c3bec4346d00dcc5dac6bd9e81c57ceb44f9efaab0a80e88fe8eacddf  /root/rivermind-data/dataset/Images/visible/012972.png
+89594806d7101631b088c5ec93fa56b834d5601b1f740fe6cb7facdc77bcc699  /root/rivermind-data/dataset/Images/visible/012979.png
+ccc66e0340f5a60d4f1f9d2d965b3a304f58207ac77e1ee8504a8ff5a6978553  /root/rivermind-data/dataset/Images/visible/012986.png
+e9a32ca115cd9a0e7dd20b1f7cd277fdd1f05f903cc689d8d50bfd4bb85e4b1a  /root/rivermind-data/dataset/Images/visible/012993.png
+f2ac2f099fc6d351f194e606e23667790e0b646ab8c0a99fa9e2d2fc0ed99a23  /root/rivermind-data/dataset/Images/visible/013000.png
+ef2850db175839017bfa5eaa5ce42a6ebc9fddb303d5ddca3c74bdc788458ab1  /root/rivermind-data/dataset/Images/visible/013007.png
+43eb5b2f3917192c5cb9e513cd1dec0a5b5b843bd70e6853e64e00899a7a56e1  /root/rivermind-data/dataset/Images/visible/013014.png
+04b111632f642f3031b7e21d5903da1267b080bb7e6bea20c32ef48e267ca352  /root/rivermind-data/dataset/Images/visible/013021.png
+291fa1186cd2e86168d478cc2d2b7868c49ae1bbe36a7fcd0c39389e7758f4e1  /root/rivermind-data/dataset/Images/visible/013028.png
+0114fe861a2ea84dbd33bfcb56af3688234157cf54b51c94983d667c83c606ff  /root/rivermind-data/dataset/Images/visible/013035.png
+20f2ac96a040f00d9d91b0b26e58abb573cf1d02cb049e320a8ec7bbd27b23de  /root/rivermind-data/dataset/Images/visible/013042.png
+8dbb14223144d219994da8b34e46d68b12200d5ac1cf58ca16e651bc4d241d99  /root/rivermind-data/dataset/Images/visible/013049.png
+4c403587cf593d9000309a7e28cfc779516aa4daece916391b1ed6b8f053158d  /root/rivermind-data/dataset/Images/visible/013056.png
+037e2916053d2a521d7ba0c76e80f1d996997a50168af79207108b4971440cb1  /root/rivermind-data/dataset/Images/visible/013063.png
+5b0f6edaca266baa2face7e767e2f06a13e901ea0134e97a608617ac3ee5aafa  /root/rivermind-data/dataset/Images/visible/013070.png
+f11cadb69f1255855e8cf128c1e1f72ac76103ae335aceca7887efb8f07c3af7  /root/rivermind-data/dataset/Images/visible/013077.png
+1bbc0ff6bc208ad62c1df849f43e10673205776a5d0c0edd7db7808b213103d0  /root/rivermind-data/dataset/Images/visible/013084.png
+b92c8a91c081dc7f180fc1a929d0cb358a24661935aa92c8bc6e9f6a1b065b0d  /root/rivermind-data/dataset/Images/visible/013091.png
+023a0a42e923d8cec64e077091cc8db5e5ee0b75874dce5da68c9c3cb2600097  /root/rivermind-data/dataset/Images/visible/013098.png
+4f6be73380786eef0361540c047d72069760b8eda042c2a1308096ced3da6f5f  /root/rivermind-data/dataset/Images/visible/013105.png
+fda798e73ef18f92d2c941745f2bcf18cb3fb42b062ca31fb0d69ebfa6e01afe  /root/rivermind-data/dataset/Images/visible/013112.png
+f4de6df98e83a124c2b980018e41a42255bf7ddec2660c269807f715f5d328f2  /root/rivermind-data/dataset/Images/visible/013119.png
+53453896a4470478bb47e7f3354e6cb5eae3a6001c8497ee607ad48885855376  /root/rivermind-data/dataset/Images/visible/013126.png
+19cfb24e4c4d3a5f537e1e7f21d7af270d6bdf509a36d9ff86fac4f0c4494338  /root/rivermind-data/dataset/Images/visible/013133.png
+0748ffdb0fdad6dccb46b8059790054088e80f5e0fb3a55785be6c5fcc37a2fa  /root/rivermind-data/dataset/Images/visible/013140.png
+c76031f0fa69acd4974263ad7552abeae71c2b6638ecac158f26ea55989f07ed  /root/rivermind-data/dataset/Images/visible/013147.png
+1c93376e3c7dc7e70b4368eb5191420c5ba8f17384e0f09e8f4790c578a4e196  /root/rivermind-data/dataset/Images/visible/013154.png
+d006bf64d6979e237f9cb495eddd5c6734f1ceebd479a476a5f430eacab0f671  /root/rivermind-data/dataset/Images/visible/013161.png
+aa5361bd348b146950c97a38639f4cfaa1b1a8a0cb33f4048e238221fd42000e  /root/rivermind-data/dataset/Images/visible/013168.png
+c67d4eb2a4c4c0510847c32b317d36c0cad3dc8e6b33dca2a73fd7904a00168e  /root/rivermind-data/dataset/Images/visible/013175.png
+98aac101b5ae192e416b4d8b93b724c26121704ce05ebf0d682160e7371ddb77  /root/rivermind-data/dataset/Images/visible/013182.png
+d014389f6d4d0a0ba98148224a0f0873287dfd298d80273582cd595ffc733e41  /root/rivermind-data/dataset/Images/visible/013189.png
+af268fde9254c842dea4f2393751a5bca9ba2cde29d587cec0d9ab240806a59d  /root/rivermind-data/dataset/Images/visible/013196.png
+682b1a6384ce2a9f655a630603ef864f0915913752d3ce2f8ecf773a25050192  /root/rivermind-data/dataset/Images/visible/013203.png
+35a763a4fc90dce872ac099a0bf4016d0f7a43dcf8f393ae14dcbc21457dafdc  /root/rivermind-data/dataset/Images/visible/013210.png
+e16c6c99bbf3f53ddee19349d32c08de65c640362dc7ba2ea658fc30b52bba1c  /root/rivermind-data/dataset/Images/visible/013217.png
+e2441d6df833319f6e1b2358b9ffc6ed5ecc19c5b4f1bcc06963b40706a44e44  /root/rivermind-data/dataset/Images/visible/013224.png
+d8718f9fc9fada17538b002c783a6b0b1f08a926c30e07e6613794c559302a69  /root/rivermind-data/dataset/Images/visible/013231.png
+b2b83b8ff25acdb0e4ae5e6386a060f322b61f7ac5a331e4eff7fc0ff8c73151  /root/rivermind-data/dataset/Images/visible/013238.png
+efd5b531c1bf4647fa6a3f982b8b46cbbb32da6ab6a68ae1d929af13d5fe4a6c  /root/rivermind-data/dataset/Images/visible/013245.png
+8e907cfb422deb85dc4caa308d34c0fa62dce1608a56538b038ef24509ac2a60  /root/rivermind-data/dataset/Images/visible/013252.png
+5a8513b6be526e29f8dc28adc5a3910a3973c167c44dc4cff7d705fe2b97e8c7  /root/rivermind-data/dataset/Images/visible/013259.png
+590360422457249ac203505a5563c0ec19304a6ad9e6a430b6214b2f5bcc7e30  /root/rivermind-data/dataset/Images/visible/013266.png
+514210c3062ca2aec64032f9ec24e4dd7fe050d0ec2d35db439983736dfb9b65  /root/rivermind-data/dataset/Images/visible/013273.png
+47d6b8a36623026bcee8720194881079c47d4cfebad3925ba0a90c1db48bfb50  /root/rivermind-data/dataset/Images/visible/013280.png
+8be34998c0af590825b62d97e1b55f0d2705d2ed96ec7040d024b8b937012efb  /root/rivermind-data/dataset/Images/visible/013287.png
+5b74844d15977cd728f319bc2ea47af5d008c0f22dbf68e2e9e9f64b94c2244b  /root/rivermind-data/dataset/Images/visible/013294.png
+74a0ca3fde5b578f8d15ac497c35edca2511ebe741ec2b73e6a312de7f797f2d  /root/rivermind-data/dataset/Images/visible/013301.png
+bd90a2764d9bf6884ddce4713e9aab07df121c54645b1db3abac4dce8062b30c  /root/rivermind-data/dataset/Images/visible/013308.png
+d5d9fcebdfc4e3bd4d09746c8308fef95a8243426ed1abc9aed9c4dca99584ab  /root/rivermind-data/dataset/Images/visible/013315.png
+c63cdf17d7e6e1ff5cc1c3db12f53fa2967f850cf0184674e0e4cbb9ecb41e10  /root/rivermind-data/dataset/Images/visible/013322.png
+0e55a7490b8fcc6eea55a1c8e7323d73faa658293e17c75791e812d612c8ab8b  /root/rivermind-data/dataset/Images/visible/013329.png
+9d2db9ac4f8996c331685b16f2b1284142a44b5185029d9e00b9edccca7b0173  /root/rivermind-data/dataset/Images/visible/013336.png
+a2ae513a9091b86f05b68b25c25ffac39d769a9a0a36dd893ca6dd6fdf1f3053  /root/rivermind-data/dataset/Images/visible/013343.png
+6bbc141491327211e3a7c1abeb7789ac60928f422f0da1883a445482275bbb3f  /root/rivermind-data/dataset/Images/visible/013350.png
+2c97eb8e1f220fc040329b95bd584e628c83a7861dbd4022160e3036576cc0ef  /root/rivermind-data/dataset/Images/visible/013357.png
+8155bad2ef2f8369baaf4b5691160c439694f74246e00c4e042edd2e09d782e4  /root/rivermind-data/dataset/Images/visible/013364.png
+bf1b58c34b17ac75b440ed98a8ab4bc9ff0efb8880ecea8f2435ce08610002b6  /root/rivermind-data/dataset/Images/visible/013371.png
+e11198b82abc8986747a278575e2c7893b742070de07542156bff414b82fe083  /root/rivermind-data/dataset/Images/visible/013378.png
+2f8b115e8f4761c9b4cc3f6d46147de2faddec01ba4f762db43927829e42ed54  /root/rivermind-data/dataset/Images/visible/013385.png
+cf73838faab239025d0417be5eae96ee2caf88220518dc6caa0483af56ce7792  /root/rivermind-data/dataset/Images/visible/013392.png
+6a55025754eb89b060521ea62174760d101303a1ddd86a0bd4c979ac5f97dd50  /root/rivermind-data/dataset/Images/visible/013399.png
+0210a8c0cf025b8f18d87adb1d73f481fd00a59c9a8eef9c9494eb8192a663ff  /root/rivermind-data/dataset/Images/visible/013406.png
+02f012f09ea85e0fd37a964be2f79d62d0477d61bc9503b8a6fbb0a5ecee53cb  /root/rivermind-data/dataset/Images/visible/013413.png
+6a314ab172db9eff0f940241a63c74f8f76a7de991ef0c2ef8dd51a75019e1eb  /root/rivermind-data/dataset/Images/visible/013420.png
+ccf4d435f8787fa7b1078b47f84f5b87b363f5bf58a4df00a7887bded8b27fa0  /root/rivermind-data/dataset/Images/visible/013427.png
+6619f5791fbed8b787eacccc60b2c05b0019c7abe8ba9558d295099b8066342f  /root/rivermind-data/dataset/Images/visible/013434.png
+89f621fe691fe49b264d4c5f941d6998ba723a166bae292db92aff5860add2a7  /root/rivermind-data/dataset/Images/visible/013441.png
+034ef7c7ccb5651ebfa372cff6643c8416a4b756748638ff6e99db57a86a9009  /root/rivermind-data/dataset/Images/visible/013448.png
+72305ebc2629b069ffab02601bbfbe9844c90c706ae745e52bb7daecaceaae4d  /root/rivermind-data/dataset/Images/visible/013455.png
+0e4d925000b6238c1854bba4f8afc228be9b57008c1ec0981684a3348e1de801  /root/rivermind-data/dataset/Images/visible/013462.png
+12c238d14dc56be3a3bfb707274d81d76e73cbf6c906f27e10c82b9e8751ce6c  /root/rivermind-data/dataset/Images/visible/013469.png
+d2dd2003d3eec757659d800a7a40452c7b65300e0e8286fba1059480f0e259bd  /root/rivermind-data/dataset/Images/visible/013476.png
+7be9d50f1c175d4da7f1f4ea58c7fc7d0096d724a372698f440cab3b4e2af872  /root/rivermind-data/dataset/Images/visible/013483.png
+69e29dc113a865c9693675ef57e8d279fbe8205f09ed32d23c828d61c14b01aa  /root/rivermind-data/dataset/Images/visible/013490.png
+bb8db703c87bb45bcaf9dd0c63057b6d71078e3e3085d3a50bce6a18edb8d48e  /root/rivermind-data/dataset/Images/visible/013497.png
+01e1d24100ced98f9111079416df01d82b1e55c61360b287cb70886c96bccf2b  /root/rivermind-data/dataset/Images/visible/013504.png
+7e9ac5f1aabdc24f122947c5abce06f0ad8e2f5d8722f62d7508eaa2dff3c674  /root/rivermind-data/dataset/Images/visible/013511.png
+2fc845ff80abb61bf08b38685ae718ddd64872c5e0833d8af559d7d60afe3c9d  /root/rivermind-data/dataset/Images/visible/013518.png
+72c35a51357b6d4880775c8ebe068a55f98c23aa8c8db6f0ad2e157bfb7232be  /root/rivermind-data/dataset/Images/visible/013525.png
+b24984e1e133de02525f4aa4985d4a031b19144f450fac10e345d6a0b856beb9  /root/rivermind-data/dataset/Images/visible/013532.png
+c42be0d736bc5421e96dd7791119e32dd122b8922455364abdf35482613b3139  /root/rivermind-data/dataset/Images/visible/013539.png
+00530c4011e3deef77deef8109b487d75f2fa85257123a17870a94d9646637bf  /root/rivermind-data/dataset/Images/visible/013546.png
+24863997b72d668ce31283e82f44df6e3ffa4589626913cfd8a717b7805d4627  /root/rivermind-data/dataset/Images/visible/013553.png
+d11c63557f4db3ee698e3d8998b7734f79f151ba6419a0d48c75c3d6934dc17a  /root/rivermind-data/dataset/Images/visible/013560.png
+f488c91552ba8ab57cda560df6694df9b8198f301504f2468772cb63a64008d0  /root/rivermind-data/dataset/Images/visible/013567.png
+a552ad7cf757883eece200d8a5e72461bbc75e946e76d6141829d1f778e3b188  /root/rivermind-data/dataset/Images/visible/013574.png
+80baa2a53880c761ab0ac9f5ecc4994a887724f0fc34d2e72d225f72531a4591  /root/rivermind-data/dataset/Images/visible/013581.png
+38dd75cfb1961df97c0e3cc6c445ffd8f55c4c10b7622a192ea87e83e3b73eb3  /root/rivermind-data/dataset/Images/visible/013588.png
+62d5d40f5fafde32af5a63bb01335005dbce61e28343341136f1522c8725104b  /root/rivermind-data/dataset/Images/visible/013595.png
+83bbfd5888db6613caed041c9983ab79af5e7887338b07be5775688fe95ccf2c  /root/rivermind-data/dataset/Images/visible/013602.png
+1f6fad1c98338b97d24381118e10961ce6fc1554ac3e311df83968ea9b300f02  /root/rivermind-data/dataset/Images/visible/013609.png
+07645038931b810d478b499a5fbd5add16691f10a69baed0303eacaa7364ec5f  /root/rivermind-data/dataset/Images/visible/013616.png
+3ab460fb019804c3c85b38e348b035b3cf7388b748c0f7b7619608efaaed43c6  /root/rivermind-data/dataset/Images/visible/013623.png
+5ff8931701dac96d6dbf01c785662fc101e3d450f79d3afafb31db3914cddd01  /root/rivermind-data/dataset/Images/visible/013630.png
+ac199cc5359961f796a745a00d0c4e79f232aae117505dd5f8a79da06c015bcd  /root/rivermind-data/dataset/Images/visible/013637.png
+e7131fa9cda708b322f895150c1aa1527ff467ec0ca2d8d34e559e47ffd89c0e  /root/rivermind-data/dataset/Images/visible/013644.png
+249adad3d43ad88b9c3e4efc4dd233ea589c28f24a07af189c0877b49ff63026  /root/rivermind-data/dataset/Images/visible/013651.png
+ffa9769d461cfda3bfb7e89601680c941328d92bab8a51c47910c8943687034b  /root/rivermind-data/dataset/Images/visible/013658.png
+e0341ae9f961a254eefe3abb47106e9e1ec42569f6642d56513d8a52a40a9a15  /root/rivermind-data/dataset/Images/visible/013665.png
+cf85db1e811c2fbfad6a77e2fde11ee20f4738557f3caa40a5c5396906aab68e  /root/rivermind-data/dataset/Images/visible/013672.png
+4bc270e229c94980883ab18286b04ff188f1692f4cd21113b1e25fa4bfe39efd  /root/rivermind-data/dataset/Images/visible/013679.png
+1df49cd187c712094db1544325f88d086d47e984ef4964c58b23e2df4342ff89  /root/rivermind-data/dataset/Images/visible/013686.png
+4e9555c9f71581d617caada279f5e9d1c419b4602ead1f6a81488e68deb73c47  /root/rivermind-data/dataset/Images/visible/013693.png
+b50105edb00fd3d1e546a8af588301ff87f7c67d274209225371832d35fd4a13  /root/rivermind-data/dataset/Images/visible/013700.png
+50aa0ba7fe7a5b8639f6bf0d2dd7c2f6406a729279005bc55b211abe34af57e6  /root/rivermind-data/dataset/Images/visible/013707.png
+1a8b6d85100d23723ad473a47a10445a8e1675bd6696ee56a82d001e510e346b  /root/rivermind-data/dataset/Images/visible/013714.png
+33261ebe06c5f3c3904863ff79a55365b4d9c3350ad4f96e066bbc1f8fa970a7  /root/rivermind-data/dataset/Images/visible/013721.png
+bb69db081915c21f9ac514a2cdaedb1af4a6ce751f3b8d10be0d35eb4359ee28  /root/rivermind-data/dataset/Images/visible/013728.png
+0e6021c0edaf382b56edd822e9a1600f7561080927930247f8d7f4acc56a96a0  /root/rivermind-data/dataset/Images/visible/013735.png
+f1888ca03b7b81e46529c2f25a58e00c82884e1276e0d757b6b7bea4152bbf76  /root/rivermind-data/dataset/Images/visible/013742.png
+ee4fd854995fcef4da06ac44912c7198b0e2827a94f275f75c28c5c0950beee1  /root/rivermind-data/dataset/Images/visible/013749.png
+1abe134598541d047f35f0648a16bba88fd83c58b35acf1f5aea7ad8122efa48  /root/rivermind-data/dataset/Images/visible/013756.png
+ff84993769966f48929dd23deb04cf4b370ef343c77c302cab81e9fb007ddcc9  /root/rivermind-data/dataset/Images/visible/013763.png
+8f1a8062a8eb0275f166697955ba908dcd843b6a1e3595551c82b6797658adf0  /root/rivermind-data/dataset/Images/visible/013770.png
+b58c582ac627c529e357efc8e2d03bc0f34ee6fd2356681a3f03e8e5f5c26252  /root/rivermind-data/dataset/Images/visible/013777.png
+ee73e78a239e444bf73c7b09f4ba952209e87b591027cc66ebb15e6613f71f83  /root/rivermind-data/dataset/Images/visible/013784.png
+b8f430a87ebeef2dac17ad84b4c08f1a640f695bcbe9ad007595aa9892c64fde  /root/rivermind-data/dataset/Images/visible/013791.png
+4a47c2b0221d81f5f60b91f2d595b83d340c784aa7b6e3be6a1e08ea117b881a  /root/rivermind-data/dataset/Images/visible/013798.png
+0d7f631bb33b967119b04e28d86a3decf164e4926e390da2d1c35b0da1dca03f  /root/rivermind-data/dataset/Images/visible/013805.png
+41bab6120e064cd7b22ca7492e67518599fe37c8d2e605fa76054f060e403376  /root/rivermind-data/dataset/Images/visible/013812.png
+b0fef81277c1b260192f582aa2f695ac884f4c6c5267a99511509a7f7878d52f  /root/rivermind-data/dataset/Images/visible/013819.png
+2ecaa2564b669ea2e9d6684d014960493469c86b281f2f976944f9d7792a01f1  /root/rivermind-data/dataset/Images/visible/013826.png
+2f5fcc1fa04baffe09f0488d91a523e93678d47fa538f69fbd0ad39a7b7bd021  /root/rivermind-data/dataset/Images/visible/013833.png
+bb3e7e40eeccc12ec363c2e0be93d89674965d284c9492f55e90d5e1cf0cf99d  /root/rivermind-data/dataset/Images/visible/013840.png
+5764d5e872e71dabd5f8fc28a4cfe5004324a9becffdcf7aa0734fbc842e6e98  /root/rivermind-data/dataset/Images/visible/013847.png
+10386c13b2cda5ed86b81a2d7fb230a7b68c693ee05da5590952ca641499528a  /root/rivermind-data/dataset/Images/visible/013854.png
+32ce754b91e4d0c416328a501fac9b0ab7f5bbba08c5a76ea72a9840aab0bf3e  /root/rivermind-data/dataset/Images/visible/013861.png
+3aad5359473ca95cd72b321ccbd86d058ca44cf9324d9ba1bf6306b6562b4fbd  /root/rivermind-data/dataset/Images/visible/013868.png
+c8d8717df079ee7676e63bb7bef8a3da3a654b700f4f258a6ddc0db7573f55dc  /root/rivermind-data/dataset/Images/visible/013875.png
+c4a95207d00e9e86a083d5aeeb1bde30fe926904b8834e6dbd7e91b54b8a03e4  /root/rivermind-data/dataset/Images/visible/013882.png
+c0efcbbe8adcddc39ec09a02cfe236096a5787480b16bd870548f0f01da9399e  /root/rivermind-data/dataset/Images/visible/013889.png
+083809f3e8ad37144694bfce88db0322e2c1337ab9c6e9426b366300b8e3e788  /root/rivermind-data/dataset/Images/visible/013896.png
+0b4e3ae1a50c3a43cf71bff12643d6e5c3d5aed2d2c2fc31679edf3c15c15cb7  /root/rivermind-data/dataset/Images/visible/013903.png
+2e43861158ad8db14e7606cdb0612f620e5752e14ecaf21aa2984bbbcb3e290c  /root/rivermind-data/dataset/Images/visible/013910.png
+ea38ad6fb58b0fc376630ef4baf447840028098969781efa21cc2986376547fc  /root/rivermind-data/dataset/Images/visible/013917.png
+dc5f86ccd2048941d19bd33a82a8d78ef5cb73a1c0cf46153fed3b351d9d9c6b  /root/rivermind-data/dataset/Images/visible/013924.png
+68a9c643d08d16d7198d3b6cf6cacd130b9cc0df91a8ecd8014b070952c5f003  /root/rivermind-data/dataset/Images/visible/013931.png
+2be0922d27ccd660ce2f806c1842b42057455900a974e5c4d8925136796d7e32  /root/rivermind-data/dataset/Images/visible/013938.png
+5988b0e8ece46d19bd121e403b887e1fa91f382cef794a880d54442f909363d6  /root/rivermind-data/dataset/Images/visible/013945.png
+9d0b315af5ca4fc08022455701deb63a72ac603f5267927ae9b79b9d320d54ff  /root/rivermind-data/dataset/Images/visible/013952.png
+81b4aca114c1352b412e5b33afda8b80f301a451f7e1812765a6c243d5bf18bf  /root/rivermind-data/dataset/Images/visible/013959.png
+df16c1f0d3c8d71d1d1949697d4dd4bd232f4dcc48f87cce8a930432c11b680a  /root/rivermind-data/dataset/Images/visible/013966.png
+8244d655eb77955fd2d36ddf59ef87ee80b632e4859f1b1e3f9fabb8be4a0c1d  /root/rivermind-data/dataset/Images/visible/013973.png
+191e63474b1436f6456d2960a98cd32fcf86bd13f6ce24a3134716ffe93e52ae  /root/rivermind-data/dataset/Images/visible/013980.png
+0cc1d5d96db1f5be5b8af166891f779900c35214c41abb0d797498ca01d44d93  /root/rivermind-data/dataset/Images/visible/013987.png
+aa341e0d368e012002d38749be034ca1ef49197f0bd2f3f80e267d127c40eb8a  /root/rivermind-data/dataset/Images/visible/013994.png
+1cc8be7a21933741cf22b5a0023fb6b3fe95eda1549620c245bee02a4691b31e  /root/rivermind-data/dataset/Images/visible/014001.png
+5c0ad8d8508bf9d6b98110cfec2ec569372044c24c1e1790f78680b98bc837a2  /root/rivermind-data/dataset/Images/visible/014008.png
+432ba77727563fc4568de1d8c0a025d33553e9ceee177c2d84a2d6529d961038  /root/rivermind-data/dataset/Images/visible/014015.png
+a7565fab15a3fd7a80844c8afeddcaee2f98b27b0ebe434858724c575ea044cc  /root/rivermind-data/dataset/Images/visible/014022.png
+d2d8a3d20cb42096fb0c0bf5c3267ceeaed12bda86bd282c3585ee3d69ea2481  /root/rivermind-data/dataset/Images/visible/014029.png
+14a54c05527b73c67f9c14804d8b34fe5410af9f470df352b6f131942f829abb  /root/rivermind-data/dataset/Images/visible/014036.png
+ec0eb8bda2e5ab04e9644fdc9e71d8943b3c5c381cb0ff83240bb499faa6b5e8  /root/rivermind-data/dataset/Images/visible/014043.png
+a413a6750dd6fb2ce692252de7967387c179ee1c640e5ab0303211e870a531a2  /root/rivermind-data/dataset/Images/visible/014050.png
+0ff704ba50d7d66a605c097314ccdb3fd94025452c8b4103f4b898e9c80c345c  /root/rivermind-data/dataset/Images/visible/014057.png
+ffcd4e77b4b296aa800bbb8a1c006c0e6e4aa4f1013808629168bfc515a9ec27  /root/rivermind-data/dataset/Images/visible/014064.png
+81701012297da38f578d24aaf5719077777415ec2d4c29215aba86cada9cd4e7  /root/rivermind-data/dataset/Images/visible/014071.png
+94ba07d6ae232ffc5fdad31c8a989e59b2d58e89de827ec9ba381ab10ba673c3  /root/rivermind-data/dataset/Images/visible/014078.png
+6472153267ed91a5ca919650907abd3e59b07203839053a715fe00c74cf3451e  /root/rivermind-data/dataset/Images/visible/014085.png
+e3e3700e0ad5606f4519d23d510a1a04e6a555a2501414a269cf841bfae4b968  /root/rivermind-data/dataset/Images/visible/014092.png
+fd87817f8c9a0c9c3d497796ba49204fcd8aa4f59eee2d640bf64af0ec10438b  /root/rivermind-data/dataset/Images/visible/014099.png
+64761ad6706fea9a2c2102a69f7e751b719effc80ed00f85191cebc7b6d66960  /root/rivermind-data/dataset/Images/visible/014106.png
+220316e2189a4e6f6ec377c2a1835b445b9fccf71d2f437d0aa220c03a6e8ca7  /root/rivermind-data/dataset/Images/visible/014113.png
+018fdd21b1b6b00ac998b183842eb8835b46b587496638bbffc18c973d9b5045  /root/rivermind-data/dataset/Images/visible/014120.png
+5fa44c8ff275a46f76244f3224c291b188a1162ff1f62c5a9a0190346fd2e692  /root/rivermind-data/dataset/Images/visible/014127.png
+549ed326ede8252653ae95e555787345e194ba3b1ec6b1c06f56ae66175efd1e  /root/rivermind-data/dataset/Images/visible/014134.png
+122ee275984a786bbc95fefb629f471cfa694fd8b5ea05691eb283bcd096c6af  /root/rivermind-data/dataset/Images/visible/014141.png
+ff45708a96e9ada8de6af955f5033a1625aa53bfa72615bd4604d20701086d53  /root/rivermind-data/dataset/Images/visible/014148.png
+3d9092c01bef4de4c1cb0ccac58067cc7deeb7529c4b9d3efd7933000eb18175  /root/rivermind-data/dataset/Images/visible/014155.png
+ab95f08ece6075ac0166df5249df5329f3bac00fae290efcd31b88525de7cdd8  /root/rivermind-data/dataset/Images/visible/014162.png
+3a0b96e037bb6cec3ed1eb46eac3a7694545ea8f9598fdacd81cf195070ee3e4  /root/rivermind-data/dataset/Images/visible/014169.png
+19290f5a992f95d57903598ddba012b49ddf8e25f9f8b7e1e293a6ffb1fb3343  /root/rivermind-data/dataset/Images/visible/014176.png
+fb71d4f7f93b1450c2f109432f359041084d39e8f63ab13f1ba5abc55ae77313  /root/rivermind-data/dataset/Images/visible/014183.png
+977133fe4ee09d692c2bf14c03c25ccd2197c13daef8b1998f431cfb54c6e04b  /root/rivermind-data/dataset/Images/visible/014190.png
+833d58f45cc607daf9dfcf83ba20a54ff604d8ac559a26066fb49d06655f3545  /root/rivermind-data/dataset/Images/visible/014197.png
+fe725d4cacb017dd9167f108a08b63f011309fca1d979e53b2ed13b0ef743afd  /root/rivermind-data/dataset/Images/visible/014204.png
+dad304af7f6460de062e4c7702a4d8e990f52249efa094c80b74634e1008d408  /root/rivermind-data/dataset/Images/visible/014211.png
+08d0c990048e6abd9ea1984726f37b3937276794434de89181007dd8abd94ce4  /root/rivermind-data/dataset/Images/visible/014218.png
+5156255953f102f0853f6b40a463228e57edf57c54229106572c71f4e2d24255  /root/rivermind-data/dataset/Images/visible/014225.png
+f3106407e15f6f65cfd54ea9333d1250e214fa56fb37a1aa0742e2b1faa7a2ea  /root/rivermind-data/dataset/Images/visible/014232.png
+2fdc1108ce00bdd53d9115ca2c57f857fe7d8d332c3d317c0ff2febde03c5b08  /root/rivermind-data/dataset/Images/visible/014239.png
+b267e8704a58af4e48aaa997b0dc9db04e435ec2c5cab36fd4743d4f24b9903d  /root/rivermind-data/dataset/Images/visible/014246.png
+23dbb717bde5e85b062317869c8ea155d301143075387f98b720939bc45fd8bc  /root/rivermind-data/dataset/Images/visible/014253.png
+e214e633ebca43b2d5b2f4fb3f83f15e50d446b8d087b53264392f286b0fd3ec  /root/rivermind-data/dataset/Images/visible/014260.png
+e30f74e7121394e2e8bb0040fed5a9edf1b233cbd17b607d84cf743dcb45887e  /root/rivermind-data/dataset/Images/visible/014267.png
+2e3dcd6f83bbfb2c877288a738433f868704de6dc49aa018b87600410c4a834e  /root/rivermind-data/dataset/Images/visible/014274.png
+169cdb1a9de41d43a7559aed1d73ae72624f415fb599843fe7c88436fc8cf5d7  /root/rivermind-data/dataset/Images/visible/014281.png
+dc60fdfc99fafbd111d8dc8383b0214832d3790f0648e86e5115a093ab53e785  /root/rivermind-data/dataset/Images/visible/014288.png
+0f0ee566f9365f202117446f9d210e3a4f10126db04a53de10f4714c24ded853  /root/rivermind-data/dataset/Images/visible/014295.png
+71f66e543f3acdc8ac69c027ff9d72d51cd93fd309d3417db202d2c312d30fd0  /root/rivermind-data/dataset/Images/visible/014302.png
+c385ef07a5f344063f851ea0b18dffff7f89d5bba2eaf9d8bbd659d7e45f49e9  /root/rivermind-data/dataset/Images/visible/014309.png
+cfaf61f50d21db69c415e17d92481ad4f1b9a99cbc6b6fce9a69ffd86007f5b0  /root/rivermind-data/dataset/Images/visible/014316.png
+f9b95de35b0099df72bab5cfd05188cbdb2dc46bd87f5af8bec30f1ae45dda89  /root/rivermind-data/dataset/Images/visible/014323.png
+45bada9584ab52c94e961b14f40ee786eebe1dc1e0d607ea8801930b2dab13c4  /root/rivermind-data/dataset/Images/visible/014330.png
+de186431d4d7c644ea8c3a04e223e095e3f50879fec19fb329d0fefed5726d8e  /root/rivermind-data/dataset/Images/visible/014337.png
+a39774e028978ba5b0fdf4123e309bd14a894d805107a89270d0349f24edf076  /root/rivermind-data/dataset/Images/visible/014344.png
+5abfb48d7864d61b39be706ce6efe30d346727a949a70a3fe620a3f5ab43bd5a  /root/rivermind-data/dataset/Images/visible/014351.png
+4aa5b106e5fbc2eb9acabf1fde99c20768607b8af43c2c55bcb4c0148ac8eb9e  /root/rivermind-data/dataset/Images/visible/014358.png
+1e54f2d1d0ba4b47139b9ad3280293f7fb37aaa2fadaed72e983133c534338bd  /root/rivermind-data/dataset/Images/visible/014365.png
+778ac9367624648b83298d4b5ce412c59c79a6a8c8a9ddd670e16e95c9e5efe1  /root/rivermind-data/dataset/Images/visible/014372.png
+4564f5dfd1704605fab0616e6805642e8d9826f11370a69628bf984230f11503  /root/rivermind-data/dataset/Images/visible/014379.png
+a6fffbaefc40fb382374c7e8df40dbe8cd37b71bbab1bd676c4d216f92eb530d  /root/rivermind-data/dataset/Images/visible/014386.png
+c779b43c1fab9a0207c44ba483ef20a47e50dad2c310613beadc1c4fa0fa415e  /root/rivermind-data/dataset/Images/visible/014393.png
+656f8e3148594c3d6b29d4be903fb3f12514d37921d8798b6aa7e5316ebac368  /root/rivermind-data/dataset/Images/visible/014400.png
+0328794ae25e5b8e9404362bbc0c872af73a2add5adbd086deb72519dbc71c4a  /root/rivermind-data/dataset/Images/visible/014407.png
+61ef8da6b3eac593102c157ce942eb108f591a0470c1ff316376a49d61288de1  /root/rivermind-data/dataset/Images/visible/014414.png
+11ded627d9c0e0f0d4ce0a53107c454fb19f199f2d1ff1f9cc3b7860afa32233  /root/rivermind-data/dataset/Images/visible/014421.png
+3b68484c88c3ad72394026473bcf10be817970e245ce6c1105615123ab8061c4  /root/rivermind-data/dataset/Images/visible/014428.png
+b3bb493f369c31af62e1713aab660f760ae02e2c00c90b01eaa596c688ac0402  /root/rivermind-data/dataset/Images/visible/014435.png
+8c7815d6949bc31d449151ed395b386e6a6062e6a4901fa883a04daad4489a0e  /root/rivermind-data/dataset/Images/visible/014442.png
+9ebcb30210b171802134e644d9b056417c2aaff493bf4d77ced6941c9fbe1f7f  /root/rivermind-data/dataset/Images/visible/014449.png
+835522daf4a24c40dd7eaaef268cbbe8e22a38860759b842e0cc4c157c5a3436  /root/rivermind-data/dataset/Images/visible/014456.png
+f964ba5d9a5b644801d647d5f2305f8bec3f9328be46dae1712fcc80093da437  /root/rivermind-data/dataset/Images/visible/014463.png
+b05886c415ce7e22c5cb932357f3bcd5d39034fdbfb09b33dadc6f25399ef003  /root/rivermind-data/dataset/Images/visible/014470.png
+acf4c909469b9ad68609d8637a98d914e5f651f620f0052f4cfdd80fe4a00a51  /root/rivermind-data/dataset/Images/visible/014477.png
+85745fa7b040cd22bdaa709f9f5eadb4c5705db129c361f6ec07b1ef739b2d2f  /root/rivermind-data/dataset/Images/visible/014484.png
+be0518009281380fcde809d33d40765529e72e3d71ae91597efa0fb4c9770a72  /root/rivermind-data/dataset/Images/visible/014491.png
+c8fa47b96821ae28d9e75acbf58ab7b87afc89729236d7f6d04c75a10f384e87  /root/rivermind-data/dataset/Images/visible/014498.png
+3c8a1dd1d8382d2f4015d8dafac955b6526929a0d25cb67f32dbb8fc392850a9  /root/rivermind-data/dataset/Images/visible/014505.png
+a4fcd753d64601e77582cf04caea727b710dfc1c8c0386f8b0b471afac3af62d  /root/rivermind-data/dataset/Images/visible/014512.png
+0f2ee4cc85f7ee493469b062efe5630c7a42ed7c30ce5f6e92646fe066b7aae7  /root/rivermind-data/dataset/Images/visible/014519.png
+c91a3ac26dbdf551417edec477399f331adb23c01d4ae7fe11e7e9405be32b01  /root/rivermind-data/dataset/Images/visible/014526.png
+c597521ecf108b9d5e9a0cea48411d9be21e8ca0ebf5a5133e5098bf71ab2563  /root/rivermind-data/dataset/Images/visible/014533.png
+5433f8fc47f6ccd2144dc23325912f720398002e115823349137fd7f5b2937b6  /root/rivermind-data/dataset/Images/visible/014540.png
+93612fbafb8529908864aad7bf402131cb6c2c42024c36fd08d8adfc98d29731  /root/rivermind-data/dataset/Images/visible/014547.png
+5a7b4099528a3b6873c981420bd0a2de60d4f0da95e941842c7e74d2821b2291  /root/rivermind-data/dataset/Images/visible/014554.png
+c9683e8d06a25b547819eb39a7e3801510245de0a71cf6074963d4c8a4e7ff67  /root/rivermind-data/dataset/Images/visible/014561.png
+970b941e9c6148acc3fb76c4bf7c1248547baf94319d1825ff58c9178a4bd386  /root/rivermind-data/dataset/Images/visible/014568.png
+5edde81b1ed8c7c1af8b5a7718444346b0e9174c4d7a38b1560dc56a2a62aa22  /root/rivermind-data/dataset/Images/visible/014575.png
+e884bbe280646270852cac2c1c4156f47655747e9a33aa5943802c2824e50d96  /root/rivermind-data/dataset/Images/visible/014582.png
+6a20a0707425f6cfa8ebd4fc80bad600d1d529ba87b327c1ac9fbb8612afe380  /root/rivermind-data/dataset/Images/visible/014589.png
+8cae8550d05024e8fd0b185eaa31451d7e44ed428d3bbcce60581662a3de1c7f  /root/rivermind-data/dataset/Images/visible/014596.png
+680a8137640794171630866466e1e1eed40ad0e39821ce83e7ad984165e1a4f4  /root/rivermind-data/dataset/Images/visible/014603.png
+8f4bfea700f1e759c7816d0127134f3ea29899f5bb7d58512aec650884e63206  /root/rivermind-data/dataset/Images/visible/014610.png
+9040744a162727ff57875ed1473b8802f4ecb6195138100df270ac874bb8ef33  /root/rivermind-data/dataset/Images/visible/014617.png
+62b47fa4d5062f73202738b0759e7b0f6b346192734ba7f4babec8e2d28f80ed  /root/rivermind-data/dataset/Images/visible/014624.png
+d622fb1134e98ab89b39f13136840120064f0d58b0dc1f6d6897005f467cb402  /root/rivermind-data/dataset/Images/visible/014631.png
+4e7c58ba4dea63a62479beeb177106c18f352322ea8b58d6b8233ef1a15f86e8  /root/rivermind-data/dataset/Images/visible/014638.png
+cb26e4da154347798c639005b367294578e706589113bf1ad5e03960c431682e  /root/rivermind-data/dataset/Images/visible/014645.png
+f1b4ab944e366ff1194ea606d0102c9dfa773599ef7da781a5c19c99fd4e26e6  /root/rivermind-data/dataset/Images/visible/014652.png
+e1179bf01926923c1b0de0a3751c84aa3a16fd05e112148da111ce6f0a361fc6  /root/rivermind-data/dataset/Images/visible/014659.png
+64999cefa921b110533012494739eeeb3dec1248672452b58f053d11fb48b046  /root/rivermind-data/dataset/Images/visible/014666.png
+6104bedb97c549a3501cf3ea562239537867c3754aaf8fe581dd6095ed0d2b8c  /root/rivermind-data/dataset/Images/visible/014673.png
+70f76351f4d6999e07cc533989377a2523a3b8210ba38ac5e857c91a856a79fb  /root/rivermind-data/dataset/Images/visible/014680.png
+b55d66f977a68c1c230ca12e79d6c2153c63546231ce58598703f5601d00e15d  /root/rivermind-data/dataset/Images/visible/014687.png
+a7075b427a59e82ab1ac91a0790454b566c2b30b0ecf62d284524aed9b05299c  /root/rivermind-data/dataset/Images/visible/014694.png
+0d123c8f6a45e264525aafb5a885e7d31cbae7a4a4c024303294586d84eda05f  /root/rivermind-data/dataset/Images/visible/014701.png
+2bd12ef59a3ea339a9d11d93be9d1aa3b22a182d9e78c74a6b831a547bdd3f53  /root/rivermind-data/dataset/Images/visible/014708.png
+3885d14f55395aa9f30eb10284780023904581c92c28d45d0aed1846a244e259  /root/rivermind-data/dataset/Images/visible/014715.png
+045754a513ce2e37325bcbf7eb868dd7f84fdcd2d4ed12b96a18b1916ae35a3a  /root/rivermind-data/dataset/Images/visible/014722.png
+2514203335d3d7564c0d7a97a451764a2598063a2e8d0f100be21695843d43ab  /root/rivermind-data/dataset/Images/visible/014729.png
+e355ef071e48424f77b36bc8c091cf760f7a9daf0746f30d2effac39c97227ef  /root/rivermind-data/dataset/Images/visible/014736.png
+d9614a9b07e390dd1bcde9b95c6128dfe704cfb2398c433c9d7348499a59e1ff  /root/rivermind-data/dataset/Images/visible/014743.png
+c05b527ed1e90422b3df519de72c31200c108815577daf33776ea8c2e5024469  /root/rivermind-data/dataset/Images/visible/014750.png
+122ce13797bad4ed1280201c9823f1e22565950412557e133d851f7eb4cea9f6  /root/rivermind-data/dataset/Images/visible/014757.png
+d630881eaa8042b2c4bd183420956801203c9d1c3d1748a56cf4d19fa12f30a6  /root/rivermind-data/dataset/Images/visible/014764.png
+128598544c4ddf5d6ae2d4abd5649bf523369cbf961b826e85e052aa40df03ff  /root/rivermind-data/dataset/Images/visible/014771.png
+c2fecb3f991c97278f00dbfb932c70db60b1efac75f53e4027c57d31391bf82b  /root/rivermind-data/dataset/Images/visible/014778.png
+98098dbfc6b5b4aa9d56b95393e9b73c887c77381ec5de042528e0d25ea94875  /root/rivermind-data/dataset/Images/visible/014785.png
+b9d3e22cd9795c23cba409f24892ba76cd72ba3355f2bd155b51bbdde9a257d4  /root/rivermind-data/dataset/Images/visible/014792.png
+0620da355ec172ee83db721bce04ad3a6824f34ba041f6a920bd434c2ab69f86  /root/rivermind-data/dataset/Images/visible/014799.png
+a86921ebf73f5444efb60d3c90868449577c0a107fa688cb033b816174c41198  /root/rivermind-data/dataset/Images/visible/014806.png
+0ef7e90d0709d67918f4d14bf0c453eadd3a9d4211a9097ebe3d37d542dd9d55  /root/rivermind-data/dataset/Images/visible/014813.png
+2cc42db233f27632bc111b5a0e1d94424fe9118520d1aa4291ccb79087e7ee23  /root/rivermind-data/dataset/Images/visible/014820.png
+6482911a5a1dc515ccdb865aba7ac06d35dbec913d287a22a7349fc5c6f10839  /root/rivermind-data/dataset/Images/visible/014827.png
+ef5c286488b6807303527daa12ab0a284eca76a28e3734fd030c4d90fd34abbb  /root/rivermind-data/dataset/Images/visible/014834.png
+51de936d961becba87adfb2e66c7a4ed05a3be7bda8463f0d45a757e83b03bba  /root/rivermind-data/dataset/Images/visible/014841.png
+8ff25cb3efe6b26044ea37402d44af54ee3e423bfb17b3d955f4257011774c3b  /root/rivermind-data/dataset/Images/visible/014848.png
+7fba23a8263eb3e91f5868111b4348be672a705de2d060cc6e6b4d8a823cb9c4  /root/rivermind-data/dataset/Images/visible/014855.png
+f05b9be1f8ceabb6be8d3e0ad95c82e62a5c5ed25d20c6550763cb114b51d818  /root/rivermind-data/dataset/Images/visible/014862.png
+504f648418aef87b2f7def618dfbdbae518a62ea38de9053e19b24894f45327a  /root/rivermind-data/dataset/Images/visible/014869.png
+b71c4114168120a24a6150a479d3797bae55f8e9c4d54a055d5bb126de703fa5  /root/rivermind-data/dataset/Images/visible/014876.png
+98d8766a7498fbcc637a3e1d4d226b85a37dc90a1f1ea94df5cc46868876df49  /root/rivermind-data/dataset/Images/visible/014883.png
+91cddcdd98cb9217ca292c99b960c358466a32301ac98a9801f08604d63fc93e  /root/rivermind-data/dataset/Images/visible/014890.png
+7735a0fe5bc717e6bf05dee74bca797a545878560fb71f0515af1dba30841f01  /root/rivermind-data/dataset/Images/visible/014897.png
+619ede0ef1697faf5c28601d537033bba746272ae904968f0f4223163c41848b  /root/rivermind-data/dataset/Images/visible/014904.png
+0e9a4ccc76a26b198d4fd6dd6751f0cce0979e408062c7fcce30bdc39dd0aebf  /root/rivermind-data/dataset/Images/visible/014911.png
+83e89f8d66c40687e5fae09bc62f31ebb0f729f06c51255ea346acb200a180bf  /root/rivermind-data/dataset/Images/visible/014918.png
+cc91656c1a1f3453657317118b143da6b1508ef57d745797b14c2e09c9069f36  /root/rivermind-data/dataset/Images/visible/014925.png
+e585df3715ca835193b13a10ea451f63ebfa6d5d8babcf4eb14b6509e47fcbf1  /root/rivermind-data/dataset/Images/visible/014932.png
+75c2c8e99213bf027d9e32b66cf8e41511ad58d93d97c2e309074e8df8b85cf9  /root/rivermind-data/dataset/Images/visible/014939.png
+f9fb7daf3a087488631b6383d4866c5213600aeaff6071ea87860c896e98ba65  /root/rivermind-data/dataset/Images/visible/014946.png
+0932094d7d043fb9ada41b9a77477401e8a97c8fdd8caf71d7d7bd30956e4d23  /root/rivermind-data/dataset/Images/visible/014953.png
+eb37038087e9449d444640af4461f9ac7a049764af3e238654570d458ca4b800  /root/rivermind-data/dataset/Images/visible/014960.png
+867e580a4345cdaaed614b6758c04d47e17f708fd8586731d6cf1bc0e4144a7b  /root/rivermind-data/dataset/Images/visible/014967.png
+1be7ed4f145bc902f222128eeac98fc9a2d20f9deee1673741347e34c2561992  /root/rivermind-data/dataset/Images/visible/014974.png
+4d0883c8b959030a3b6abddbf1aa2e4bfbbeba0b931523a7583839f19ee82742  /root/rivermind-data/dataset/Images/visible/014981.png
+ae54a2442ded8d3f8124c004a3f32ce16d2108ae59f1786ebce6666f19f1cc82  /root/rivermind-data/dataset/Images/visible/014988.png
+80e936f235bb39a1b47139af16ed35a12fb5268154e518cfbeddfe2f8658264f  /root/rivermind-data/dataset/Images/visible/014995.png
+97b07928eb2a2fff612a801bdf7195461370e48851b5bc2263d64394f59dd703  /root/rivermind-data/dataset/Images/visible/015002.png
+4c032962f3628e08bd3854f3dd0dfb21689ad4222dbbad946c2e99de0a83a2df  /root/rivermind-data/dataset/Images/visible/015009.png
+2cb243e369225ab1a567476122bab16fd5839dfe94be10fc42c57d4c5325deb2  /root/rivermind-data/dataset/Images/visible/015016.png
+b8e9492c82028a5cf6ffe69d70e6c67d9f5ce69e6598bfc898c632f1ce94cd12  /root/rivermind-data/dataset/Images/visible/015023.png
+5897d5eb1ec66c4edd7b463696e539d67c6f288d5276082e1257bf93cb92af11  /root/rivermind-data/dataset/Images/visible/015030.png
+b7d51417c901fe1b1fdfcaa953a2bdccd8dcab72b0a110188c1caca993dc91ba  /root/rivermind-data/dataset/Images/visible/015037.png
+ba93f8c2bc0dee23bc275fb979dcb5204cb5aa2896e8c74a7e61c374902b7daa  /root/rivermind-data/dataset/Images/visible/015044.png
+b7891476585fe6d79b0677767137a2bd491b24024aad003a312add22e8d182bd  /root/rivermind-data/dataset/Images/visible/015051.png
+1101c9a8bf6e9a31671d81dee39dec4561737e62caad7c269c22ee91203e1da2  /root/rivermind-data/dataset/Images/visible/015058.png
+2ae8361fee0ac6de45c4c5660fc34a9f640c4f37b20154e4be490a3a2d0be259  /root/rivermind-data/dataset/Images/visible/015065.png
+0248aac59738d4bbb491350ccfeac1d94552fc0c9c4f04da9602b078756b2aba  /root/rivermind-data/dataset/Images/visible/015072.png
+b808d0015588babfa54aae5e2385aa903951abae507f891727762acc640980ba  /root/rivermind-data/dataset/Images/visible/015079.png
+8b2f2adb1069c335b9afdc28f943adb4662cbbb28d0bd3d7d5abe5708d0283c2  /root/rivermind-data/dataset/Images/visible/015086.png
+1e05e3cd654a87eeb2448dcb770389029f1b88b792b573ad24620e1a291de4fd  /root/rivermind-data/dataset/Images/visible/015093.png
+84613363bfbb63b2812d1036cd953dc6a32f6455b03c0f7b87fda2d2fa4691cf  /root/rivermind-data/dataset/Images/visible/015100.png
+b789d72a726e0b1290d63df62f8eb84509ee48e55a3df56d600592e4935c5899  /root/rivermind-data/dataset/Images/visible/015107.png
+0f765624cbeed78136e8f6f7ff67bfdb879f829def22a2247277e13b78c732d6  /root/rivermind-data/dataset/Images/visible/015114.png
+116120f58adfc40ed30b3de2b3d89d16336a46e1a045494f980af42f7b62e4d5  /root/rivermind-data/dataset/Images/visible/015121.png
+7f51b9f79e48500f51eec57292cefcb389d840dad24c3552d13af542053154fb  /root/rivermind-data/dataset/Images/visible/015128.png
+2d17f1fae2a7e95338635d96968aca91ecc6b3339ca9661ab052043d1f837a23  /root/rivermind-data/dataset/Images/visible/015135.png
+0757dfafe09e557812dcb02ad8b58fb1de2753cdbdc0d851a608a5a311883ac4  /root/rivermind-data/dataset/Images/visible/015142.png
+424fcfc525266156bdf5c1dfe540f521712dd8ba1856c388664bc26cc10867f8  /root/rivermind-data/dataset/Images/visible/015149.png
+b958c36efc9f4c33997decb0926ea5de7ac9aa959b4f7435283382abb957775d  /root/rivermind-data/dataset/Images/visible/015156.png
+f80f603a3abc56482b4d6dcdd219f05f537dc8f3be9465eda18e73b4411209f6  /root/rivermind-data/dataset/Images/visible/015163.png
+f6e5a631d23c7bc4a565219d6b560cb6ffaa3a336c581355be101661451b0851  /root/rivermind-data/dataset/Images/visible/015170.png
+3c81bd7367efcf4bf06229b7b7cff4f87596159e973bea8d6616703ccc779714  /root/rivermind-data/dataset/Images/visible/015177.png
+1853b145b8177e87225096d4fe96f8d47ce4c6e990d56f91c88152c54c3c1e2e  /root/rivermind-data/dataset/Images/visible/015184.png
+d5e411263608be1de2aa0a881118a2d3eb775b15849c9e5c6cdb6b65f77e6abb  /root/rivermind-data/dataset/Images/visible/015191.png
+afc2642105dbfb9177c73b1c8250ef8a8301897eabd04d777f2c488684c9dc82  /root/rivermind-data/dataset/Images/visible/015198.png
+d26c66322b4b04a78a5b7770fb154fa28d597a893288092e7f3fb988628c2a38  /root/rivermind-data/dataset/Images/visible/015205.png
+60d52c86cdf82c0dd1a14876efaa6e207c8bf86a8d8a9d0c0109c78673455295  /root/rivermind-data/dataset/Images/visible/015212.png
+a8bacc1d0fdf26ea223d4dd6bef0e439ab16e1952dbd5512946c508eab8dd924  /root/rivermind-data/dataset/Images/visible/015219.png
+57cad7eaa1c66ece29677985424443438f2b1bce489861bfe9e1764089f31ada  /root/rivermind-data/dataset/Images/visible/015226.png
+cd4866bcdc09a657c33bfeca9a929deb6db1d40303ea4a20f0c969e5ca5f6fbb  /root/rivermind-data/dataset/Images/visible/015233.png
+8d963058a6f1ac80f72858b0079f5335389372355fbceda571b0ebd987e83d19  /root/rivermind-data/dataset/Images/visible/015240.png
+492ab9f1cf76f33beeef12ee63d54dc074310aa95ba77f2511e2ea59d68a7898  /root/rivermind-data/dataset/Images/visible/015247.png
+21ab7862a2879e0b9b21bbbc1866f28499c9911d4e64d0842fda6401ed746f63  /root/rivermind-data/dataset/Images/visible/015254.png
+7a655c1ab6148651c3355cc1936b62c6d23759e1bce8a71ae76a08863190173d  /root/rivermind-data/dataset/Images/visible/015261.png
+dbec07f5f8fda637e7b9c66a79052573f15c2398132c9424998e592d182fbb97  /root/rivermind-data/dataset/Images/visible/015268.png
+1cd9490d9e410a5cfaf842d351af1fb7eda8d8bf61da6799640f4187d60599da  /root/rivermind-data/dataset/Images/visible/015275.png
+c2ae4ad367c32c98ea8782d04b84da24f0491ceebcf05f5f1e86aa5bf8f606c1  /root/rivermind-data/dataset/Images/visible/015282.png
+6ab581da95460ec87205944be29893f28b4d3e7cd3d37a869e1073b915faf08f  /root/rivermind-data/dataset/Images/visible/015289.png
+ba717a1fd5c7b38ef929088a75f768673330a0b0a3450d75c0c7c7b842832cf7  /root/rivermind-data/dataset/Images/visible/015296.png
+fea8f15e6bb98ace60790aaa0f8d7aab7ec2df8f661aab3b43344a441d36cd64  /root/rivermind-data/dataset/Images/visible/015303.png
+515d0bd898d1895ad019108a2ee1f64f352c0e9ea6568fadffe95bf480c99bb8  /root/rivermind-data/dataset/Images/visible/015310.png
+a26235ebbd5e6679fed091646b16568fbccceecd5385b942dff07518f190eb29  /root/rivermind-data/dataset/Images/visible/015317.png
+c4fa2cf3235ecad577cd63ae4f6d683f4ba894efc5bec2cec1575b475fae5258  /root/rivermind-data/dataset/Images/visible/015324.png
+596091e1ce79ec3f98e107462d7bbdca2e6c061fe78071437b7e61ef21c95885  /root/rivermind-data/dataset/Images/visible/015331.png
+ade7c30eb91145234f826862831db4f6fbc39fb8f8207b99ae7d535178d60da9  /root/rivermind-data/dataset/Images/visible/015338.png
+0338da76cd23386632388d4cdcd0f35f96f7f6eb5f590b0d0e529b00efdf70b4  /root/rivermind-data/dataset/Images/visible/015345.png
+a08d704a8bd75c44bfc8e4fd310e3316439225ac61909ae8c4b7c8566d6d2508  /root/rivermind-data/dataset/Images/visible/015352.png
+a57ffbba36a1f5226cbd2bf652cfac4ef9c6532532527e73a64bacfa57bf9d7a  /root/rivermind-data/dataset/Images/visible/015359.png
+720000305608f4fa11e9ddb5bd0583b29fee13ea67421a88a58d96d07fac0139  /root/rivermind-data/dataset/Images/visible/015366.png
+141a866da693ba87063b9404ea136e56669595e650748d15fab4b8030e13735d  /root/rivermind-data/dataset/Images/visible/015373.png
+daefcc48b1e4ace15880d420d14c785b0966490d634dfded58576c9025014a74  /root/rivermind-data/dataset/Images/visible/015380.png
+bf635cc2965e9229f0f2a3fe086c3d7f812be20bc4a70265692c9266d24d0f66  /root/rivermind-data/dataset/Images/visible/015387.png
+c3bdff8677a45428a6dcca3c249fd1f72c1ba86fbb6aebaad7343f28986de3e6  /root/rivermind-data/dataset/Images/visible/015394.png
+cb79c75d8d00b8763dfac1308a8c7212980b07bce3adf1c8dd7e0a27e47022db  /root/rivermind-data/dataset/Images/visible/015401.png
+328eabcdbca04addc2056389a7dc199cea6709fb1a97952e4b249b1bcb2be0c2  /root/rivermind-data/dataset/Images/visible/015408.png
+7bd358d247652d5e21eb9f82b312cef12d3d160d032aa4a15df471f62c8e9f7e  /root/rivermind-data/dataset/Images/visible/015415.png
+3719d74d3af52155ea934324d93895895905224af2784489820d04be9a01bded  /root/rivermind-data/dataset/Images/visible/015422.png
+70eaa3f1d92b0edb908d7c5974e4c8952d49f8f58e2c8dbdf7da4f352c4e7d8c  /root/rivermind-data/dataset/Images/visible/015429.png
+f3c38320d679d41d86376f9bdd8587f3d3168d6b22f83390453d1fdde59aac71  /root/rivermind-data/dataset/Images/visible/015436.png
+5292c6d0179d7dab1e9390629497817593ed5ef11d29c5cbc4c64d9052006457  /root/rivermind-data/dataset/Images/visible/015443.png
+877f56e13bc86d5eec872540b823e4cfcd12226efe60f7cc4ea46ebfeba3d89a  /root/rivermind-data/dataset/Images/visible/015450.png
+a315084cc90cf13ace1e2d8abdbf135ca502587cee3d42038292b147f447cd5a  /root/rivermind-data/dataset/Images/visible/015457.png
+e023971c30a2acdfc1b61ce3a3dc1ca1c547ded4bd8dc9305d85b88796d1e9cb  /root/rivermind-data/dataset/Images/visible/015471.png
+48284fa2e337ca077e2137974a05f8426ea0b07a0bc23b42d13270d3df0aff65  /root/rivermind-data/dataset/Images/visible/015478.png
+f80df8cda354e04ce93d970c8bbfbdd782f9c16af6af6c1ba7789c42a0218f7e  /root/rivermind-data/dataset/Images/visible/015485.png
+a13fa33c5bb4996b3b48b21fd36f22e6147f396e806d4719cdfc1a846b0e46bc  /root/rivermind-data/dataset/Images/visible/015492.png
+6eca5dd6e57b44c9adeb639dab1c779bcbaafcd651dd52ffc9aa97f4a2259228  /root/rivermind-data/dataset/Images/visible/015499.png
+0a2c78cd688797bba5653aad8748891f80f76d2ba21f6ed76c3999610b179a1d  /root/rivermind-data/dataset/Images/visible/015506.png
+c389adaa8c62f0d4300be600c448b1c191d80ad1cc36c324edfdd69abf63419b  /root/rivermind-data/dataset/Images/visible/015513.png
+f5fc6b70c3443cc469031e7cb664770a72637df26b7f7a34b85e754d60d4e52f  /root/rivermind-data/dataset/Images/visible/015520.png
+dfabd83989f24f1fd6df5f4700b91da5de758033804e814db453744c0038b65b  /root/rivermind-data/dataset/Images/visible/015527.png
+eb533c30bc52022791bdeb449e3cc61eaf66301b5ffb8c2c4688cfcff25bfe8e  /root/rivermind-data/dataset/Images/visible/015534.png
+67c2e8c24babac8e9b45a26d88cd3847ea50ed1f25b33cc57763aa4cfd4f5691  /root/rivermind-data/dataset/Images/visible/015541.png
+0b6f06c4029b07d4edd269691a262532289dfc2184a4f3ede180b47df0677048  /root/rivermind-data/dataset/Images/visible/015548.png
+c1c5521509d9adff3c22d00c233eb4cfc5f6b79b9f29202d13ae4d36f190abc9  /root/rivermind-data/dataset/Images/visible/015555.png
+fcfd227efd1e899e8f2d748f23cc82ef08a01d15a6fdd4af41217cc8a1587902  /root/rivermind-data/dataset/Images/visible/015562.png
+4db3f30156914de01fdecf27d10bd1261480a92219864d673770855a758fcfa3  /root/rivermind-data/dataset/Images/visible/015569.png
+52ee903b39c45e19b5395e937466c1124002e5951f9bdd85c6893102273ed78a  /root/rivermind-data/dataset/Images/visible/015576.png
+2575ccbd897c9ff5bfe26fe1cd1432a52b52b21c7bf84febf034a849e01928c7  /root/rivermind-data/dataset/Images/visible/015583.png
+8e4cd74e8afbd21f8603928ccae68577dd529d1d7a3b58a9b963852c624b89f9  /root/rivermind-data/dataset/Images/visible/015590.png
+27536fe96cbd407b83c931f104fdff1b8fea29291dd871ab94127a26668da750  /root/rivermind-data/dataset/Images/visible/015597.png
+b8034c128023e49c8d60796b5cd8f38787711d8a2dc9d7444c919416c5ac9191  /root/rivermind-data/dataset/Images/visible/015604.png
+fc02c39f677fae16b7052c03cbf10e1f4c39fef6342c90b0f975176c60483502  /root/rivermind-data/dataset/Images/visible/015611.png
+47a3dfa78490aaca285b1b00c9201b470a48f677cdefd5c593e65092103ff5e1  /root/rivermind-data/dataset/Images/visible/015618.png
+47648dd72b578afb7374e359c024a450646b96b49d8deb37d8be5ad2d135baf4  /root/rivermind-data/dataset/Images/visible/015625.png
+4bf36f18e74a6cdb0f5d35681a554e6ffa0ce78e30cf1241d2462a5f1d266bc5  /root/rivermind-data/dataset/Images/visible/015632.png
+c7aaf00ddee37a7a1820a15811b379080854a0f172de4dc6201739e4dd3d03b7  /root/rivermind-data/dataset/Images/visible/015639.png
+fffd50bcca1c84c16ede382edbd5c3221c19740a56231b4af8a5f3d6a9cfc77d  /root/rivermind-data/dataset/Images/visible/015646.png
+3118b9e55330baf7db7297446df20aca4a3e3a1e216909743c5e1b229d2ef008  /root/rivermind-data/dataset/Images/visible/015653.png
+e05a1fb3b3ed9a4fa42febf31ea9cff8bf151178aa7667df6ab08f0f0f23a78a  /root/rivermind-data/dataset/Images/visible/015660.png
+0da8ce5ac0d389714ffc3cf0e6770d29864edbc3c3aefd32750bce45dbb1faa8  /root/rivermind-data/dataset/Images/visible/015667.png
+e58f9b5a46b744d21569be5c7c438394972c85cb918d3e4b2d417027c09e6204  /root/rivermind-data/dataset/Images/visible/015674.png
+bc7058c298bf9680ef35a647c3ecc8d44baac47a2c7154b671a5bbf17d7744d4  /root/rivermind-data/dataset/Images/visible/015681.png
+9235cf53e5116df95df47f6a23abad9fcc81857a85e9110204f6916d85d9eb3f  /root/rivermind-data/dataset/Images/visible/015688.png
+87d4396a75eb6321f763c9c47ebab77607d02f8b018bf89f147a5ef5594ab829  /root/rivermind-data/dataset/Images/visible/015695.png
+a060974f3a049306a301239478b1ee1a492d474a336c4307cb0d210fd7172055  /root/rivermind-data/dataset/Images/visible/015702.png
+a6fd59da94f74bd736ed26066bd3d4e9dda97ac835ebe3cd329a99732b8bca32  /root/rivermind-data/dataset/Images/visible/015709.png
+6bfce03ee81ee9eaa80b39708334b549fc4eda39ade58166c0039000f9609ed0  /root/rivermind-data/dataset/Images/visible/015716.png
+31334ebcbc00e445569377fc5256cd0442b36f8d0c7b5fe761d6381313be1275  /root/rivermind-data/dataset/Images/visible/015723.png
+1f67260677f732dd1407e9b39d3c9830953b7ddc99c16c6b3ab5cb4aa4d02c43  /root/rivermind-data/dataset/Images/visible/015730.png
+9afab859d5e2cce900f676a790a02253bbd3107d39e1a9413d95fa9ca2a00219  /root/rivermind-data/dataset/Images/visible/015737.png
+179937bcbfa1973576190eb272fb7864b653c8eaf4eeca5f3897f3aebfc4ba73  /root/rivermind-data/dataset/Images/visible/015744.png
+3ea065d4e133278d7ee35db708b0c2515be743bb2b92b3907630dafb2ae03579  /root/rivermind-data/dataset/Images/visible/015751.png
+e1b3ebc8b5adffa8db878a00bd4d6a8aff04ffef5b91babe3c48b566536c0324  /root/rivermind-data/dataset/Images/visible/015758.png
+42bc1adc6c0aca6cc606b46ab25c3fdb59ac84d718c199639e70e0aa7b9daac7  /root/rivermind-data/dataset/Images/visible/015765.png
+ad26d4dbeb1436d7d5bdbd649323e74797da72d8b0fc877dbd262a4f695a39d6  /root/rivermind-data/dataset/Images/visible/015772.png
+a060de64ce16761982e12009f3071218848e135f33d8883d8ff70054c3df11cc  /root/rivermind-data/dataset/Images/visible/015779.png
+27175062c212fb993519b70ee26bc0fb553a78c9c3936a43e010b5ed5cb2a477  /root/rivermind-data/dataset/Images/visible/015786.png
+35bdaf8008fe742cc1b1fd08d7fb26386b6e557111e664e60e76928da2150fd6  /root/rivermind-data/dataset/Images/visible/015793.png
+6396bb1b0f4c06d11a1b9902d710f45f9f2bce951be45a1049d5c31f37e59f73  /root/rivermind-data/dataset/Images/visible/015800.png
+4b5a7e69fa90ee21ed9ae53c6b039ed4786e81872a4c10a4883482e96ab9cd1f  /root/rivermind-data/dataset/Images/visible/015807.png
+5404445edde40ffc135a4781322c00b2cc74a5912f6bdf68ee2e9c1a3a42b790  /root/rivermind-data/dataset/Images/visible/015814.png
+7cf77f5111d22018a087923ec918cd240727b205af7b51475c659d62e35d37d5  /root/rivermind-data/dataset/Images/visible/015821.png
+8622de9dcdd63c13136c4e258db42e4604b2c1906c805a9589f6a9aacd275961  /root/rivermind-data/dataset/Images/visible/015828.png
+aaa15b085670b71e7174be482589337b3d04d65fef7f9350931727914d354139  /root/rivermind-data/dataset/Images/visible/015835.png
+48cec8bd07ede83853a8558f803e5f9e90414faf1e35b8793cd3b9d71b869354  /root/rivermind-data/dataset/Images/visible/015842.png
+5c3a22695626a83e253aa38f76784754cba70bc3f6129793f944728791efa7ec  /root/rivermind-data/dataset/Images/visible/015849.png
+c8827f5b051b13bc0aae442245b394595a58596e3a8cb2c249bfba7af601a7f3  /root/rivermind-data/dataset/Images/visible/015856.png
+75755889fa2d15ba44c93391ec258e3ae32480271053f0e3103c3489d0fd52d7  /root/rivermind-data/dataset/Images/visible/015863.png
+8bd25ade627de3d9fdab3c0c6ccfd0b8fe77e04a21ff18a59d6d9357181dd9f2  /root/rivermind-data/dataset/Images/visible/015870.png
+a3e3cc6115c634ed2a90dfb5ae668eed290bc8f1e1433c4140b5554968e3b7fa  /root/rivermind-data/dataset/Images/visible/015877.png
+080f7d1f06bad1dbd665271551180c409b2734fef9ca3f00d2a87eb9134067b6  /root/rivermind-data/dataset/Images/visible/015884.png
+1466f6cfdefe92ea4cf4e5d730792032494debe153faba7475af9bc0d85ef97d  /root/rivermind-data/dataset/Images/visible/015891.png
+5135a0be43f0467520b6840deb036fcc115e20a64acf2000117dc2359a437e12  /root/rivermind-data/dataset/Images/visible/015898.png
+a848ad3c37090223974d9bf077e7944c2f24633230bebe6230eaada639f18d59  /root/rivermind-data/dataset/Images/visible/015905.png
+14d0a31b291fe24df754ee67613f40d202378efc63dca17340c1f287a5caf647  /root/rivermind-data/dataset/Images/visible/015912.png
+24c7411563c2394e3cb1759ef7758243f006b4657ce85ba92d27f5fdf13fe305  /root/rivermind-data/dataset/Images/visible/015919.png
+2fc0dea7aa80410b09d042db157ccef71868f134782f956f761288e8b6551dc9  /root/rivermind-data/dataset/Images/visible/015926.png
+c22bb9cf0c05d03ede6dcd5619c508505b700e02a4b5ebc2fee23c17753e948e  /root/rivermind-data/dataset/Images/visible/015933.png
+9e6134a8b559da7295d76027a2eb8427b62ba621973b248b3f6292a431ad0dd6  /root/rivermind-data/dataset/Images/visible/015940.png
+3e3e600211888a50344ff4e6cb318e04ba605154e7870fbccff998bd907131b8  /root/rivermind-data/dataset/Images/visible/015947.png
+c5042ac96f39a735c47b6788cd6ac2cb26faf2bc706811c891623642681ced6d  /root/rivermind-data/dataset/Images/visible/015954.png
+0d1c7f064363f755b6e5d230d9cee0df8ab3099be0234b51cbfd49109196fad1  /root/rivermind-data/dataset/Images/visible/015961.png
+e67f9f300996794800860fc14dfe4fe94e54bd9c9312d20f51036767f16f060c  /root/rivermind-data/dataset/Images/visible/015968.png
+5ce74af58ed2a512babe71867b5fac1ab65974006f5cb4a205e6a404dc02b93e  /root/rivermind-data/dataset/Images/visible/015975.png
+22f03a58b40a5558461698f50e3470955d25aa2f61b615d2a4fc8134b66ad452  /root/rivermind-data/dataset/Images/visible/015982.png
+f4c360ae5c4094998ef8d740d2975fdf5a910c318009a6bd0fd9c8f08c5a3851  /root/rivermind-data/dataset/Images/visible/015989.png
+c7ab9027f814a166d72f7edcb53e72273b944196ad054667e5dac379ba5cf1e5  /root/rivermind-data/dataset/Images/visible/015996.png
+9ddb5e716d993966b11c88cf8aed0b519a722dff773239dd4d8352162431ce42  /root/rivermind-data/dataset/Images/visible/016003.png
+16d05883c079a0b79b227e8a5527dd22721561e3949dfaac48feaf4caaf10bcb  /root/rivermind-data/dataset/Images/visible/016010.png
+91e80bdf84a518c430d858a4c526713662ef4ad394a8becc50731c253d3e974e  /root/rivermind-data/dataset/Images/visible/016017.png
+6546c3fbb1fd8ae8651e3d4ce034fefa90e977c0e75c17d091cc0c83a87fa8f8  /root/rivermind-data/dataset/Images/visible/016024.png
+f6ad7faac05d9cfe2060dc58bc52d73e4a87fe80a380501dd6a8ad1e63718a7f  /root/rivermind-data/dataset/Images/visible/016031.png
+1dfdecfefaa7c0f25ee244168abf18824254c387eb93a2a75d4d572a3c44219f  /root/rivermind-data/dataset/Images/visible/016038.png
+5e3773eba6485554a0144860265e1b18014e33eb12bfe4393236d6f368bf8918  /root/rivermind-data/dataset/Images/visible/016045.png
+dc56fc1314a444a122afabc19ffe21b3ac60c8012a9bec1134956a35d562ac9d  /root/rivermind-data/dataset/Images/visible/016052.png
+fce2ca07e1013dbee0c28b3071fa40947a04a18e418dec3dc0bc9ebb6d7935d1  /root/rivermind-data/dataset/Images/visible/016059.png
+fc96ab79b67c890200c635144bbfdfd8b8022e81b3070ad1079c39a039057cbf  /root/rivermind-data/dataset/Images/visible/016066.png
+4f98cda354f49927dd47d9fced8b9dfe90dc12301534ebe09538a24bd1ad243d  /root/rivermind-data/dataset/Images/visible/016073.png
+b18c1903234acf988a4d24e2fdfe4a8155b8ccad0aa2e5613aff453c2f0c76c1  /root/rivermind-data/dataset/Images/visible/016080.png
+79ee93815580e0bd7ca340b368b8ee989872fa965e4d8734952ebab261696e6a  /root/rivermind-data/dataset/Images/visible/016087.png
+204a77d40269e4b4013c4db4b087b645c8c6bccf6f9d62fb076fe9cefac8b291  /root/rivermind-data/dataset/Images/visible/016094.png
+a05502861e46d3c3d93b5a8c1dd5dc91bc8676627f1bc98af4a860f264448a7a  /root/rivermind-data/dataset/Images/visible/016101.png
+921df7b47754faca3b235fbb0fc069a3ca99898294a183ef6265959551650f38  /root/rivermind-data/dataset/Images/visible/016108.png
+70c05d53a6ba9d53dfe223bd8ee1f92872f7a170cfdf0d74f8f832b5cee7a276  /root/rivermind-data/dataset/Images/visible/016115.png
+4fe7c191706fb3ef0c1b418a892eee09a891b4b47e267439d7e9cf34bf1ac3af  /root/rivermind-data/dataset/Images/visible/016122.png
+fd39024f6592c69ec6cd8e446f4fdad60b41434fd9f3dd823cb622eb59c5b738  /root/rivermind-data/dataset/Images/visible/016129.png
+de047851db403524b79e1cfe13e03dbaa69b9f6a72e318ad8865b9494b1ac9ca  /root/rivermind-data/dataset/Images/visible/016136.png
+04f69109a1ba0fe4f347fca999f415e87a707a6b436d61be032378bf76aa375b  /root/rivermind-data/dataset/Images/visible/016143.png
+46ddcad57a2c72cc23feeb223f2071e9bc5f90d1b16f2105ee0183911ec98335  /root/rivermind-data/dataset/Images/visible/016150.png
+7d7d7f1371e7e27aeb0e84bb382d9a7f4517c10212a5b3aeddb53e0973137eeb  /root/rivermind-data/dataset/Images/visible/016157.png
+8441aa3e38a7436fed3bf9b493620680ec87c53b8793f2e56b182ae2f29de758  /root/rivermind-data/dataset/Images/visible/016164.png
+19f158b6bbc9b690ac0956219a4cb6b14a07de9466eac594a3249368e5b99df2  /root/rivermind-data/dataset/Images/visible/016171.png
+cce084c36dcd6f8dcf307ce1b7103cadc6488792e72230851ba3985696b776cd  /root/rivermind-data/dataset/Images/visible/016178.png
+827c4ebea9240b579504ef2145123af3525a669fc877808085af17a4f46ce738  /root/rivermind-data/dataset/Images/visible/016185.png
+4392e21d4a18ac908e5c2bbfe772382b3a3f8a089672f5849f6d6cd89e70c95c  /root/rivermind-data/dataset/Images/visible/016192.png
+d9a608c1538c8ec57c37845e1bd174735749b63137849bfbc4d9f08237642d30  /root/rivermind-data/dataset/Images/visible/016199.png
+a2432b8e917f3982203890eee81a1a2309c448aaab8d21ed0da01314209e53bf  /root/rivermind-data/dataset/Images/visible/016206.png
+5fbc2b8210afacabc3646f6c5aa6c14f6674a7cbdf44bbf63c889e76fa6d8310  /root/rivermind-data/dataset/Images/visible/016213.png
+32e9f02b030c9f2599c8ba468ab14c8b0fa26fb6a440b714bdeae15287d0a331  /root/rivermind-data/dataset/Images/visible/016220.png
+4a820d0d20243663b5cea14d366f50da4cfcfba70221fd27766a944d33804af4  /root/rivermind-data/dataset/Images/visible/016227.png
+abbf297097155e68731eddb9eec2ae11671491f7d70aee650afeabd5aa46e5f9  /root/rivermind-data/dataset/Images/visible/016234.png
+242266baa08d1d90063976c25d5206630c12a50a67a84a57015190b86e5c61c3  /root/rivermind-data/dataset/Images/visible/016241.png
+018fd59a6602ae61127f982e4170cef11b18ad4ba8525eda8c76f03d02586737  /root/rivermind-data/dataset/Images/visible/016248.png
+988ae5a5830d021f7a27dcb119176bd3f58ef13c1e02d248ad104ad6c61459ae  /root/rivermind-data/dataset/Images/visible/016255.png
+e93ca20120bb81a7f651e19c6724c1dbd703a6498ed5ca04c4e0cc35fec2a8fb  /root/rivermind-data/dataset/Images/visible/016262.png
+d09f667910d7afe7f8575d74322ba7a66b5861ee216e5aae9f0c6de0a26b5d86  /root/rivermind-data/dataset/Images/visible/016269.png
+a96e063f9560d6139fd06478c4ed853465fb3e84ebe59111a382f9660639f412  /root/rivermind-data/dataset/Images/visible/016276.png
+fd6b6b9d7a55d3c82fe3d1332e583c2c43900ecfff4d69a52ec3f25cd41fec1e  /root/rivermind-data/dataset/Images/visible/016283.png
+d72477c17010434e800d5fee96686bcacc8ac57e88be24e5b81fd3510e7ab76a  /root/rivermind-data/dataset/Images/visible/016290.png
+64f0f801fa1e4d39aeb14f2d9f82c938e5b1ca22465a7e8751c75526b266d6b9  /root/rivermind-data/dataset/Images/visible/016297.png
+06bc89379db0fc1f9af13556484fa9f46a69138ef672566a3ac807edc28a95d3  /root/rivermind-data/dataset/Images/visible/016304.png
+85bd4cc8aff7cb6ad0dea0ed7f459cda3a0873e52f4c495988ea4164c6757003  /root/rivermind-data/dataset/Images/visible/016311.png
+93d968d8b90b8d6ebff5313495b1fdb16884e478bed6f036682f3a2c66282fb6  /root/rivermind-data/dataset/Images/visible/016318.png
+16dcc013cb2614aa6d45a4801f30600b0068645e7998d39b9c1f82179aceb771  /root/rivermind-data/dataset/Images/visible/016325.png
+c8b20b64b0233380e623a3f575304940175da7a9f8bf77570f39fe167b0b87e5  /root/rivermind-data/dataset/Images/visible/016332.png
+0a6051be6bc7a082759144c9e21bef0f0c534806406ed4130c41aaef4efa209a  /root/rivermind-data/dataset/Images/visible/016339.png
+6ad2cd296867116d92142f241d4a4911897b557d41bd43c483de4628b3defbc2  /root/rivermind-data/dataset/Images/visible/016346.png
+c5d7a92405a94a3919ed10f4659822fa6b62357f58ba574bdbe48d0120c01454  /root/rivermind-data/dataset/Images/visible/016353.png
+70bb5c4c30fe81dcccc4b7463fc47e7ea4d131aaed1e24d827d8404dc38030c3  /root/rivermind-data/dataset/Images/visible/016360.png
+732a085166240b3c9a449b1ee334dde6612cbfba3350139ceba3adf7f89e421d  /root/rivermind-data/dataset/Images/visible/016367.png
+1559d353d0823f39d43038f5946ecf92d3a7a4be05f455098b56fbd8b6fc4086  /root/rivermind-data/dataset/Images/visible/016374.png
+eb1b3f926680d9230a7855395faf956616abe29fdceb4da627352c92b9f7c90b  /root/rivermind-data/dataset/Images/visible/016381.png
+8511caf9466d8452f60c59fae5d96ca059b174ca8c95696f7575d44531f2f9eb  /root/rivermind-data/dataset/Images/visible/016388.png
+1045ff769b35b86e500446d75ca078a6c87026b0ce91bc7d75a4cefa0b937c8e  /root/rivermind-data/dataset/Images/visible/016395.png
+5e790ffd5ffb1ba6d79b123c401d4c9b8d9c4ad21f18bcee0cc2a9d47a8ab29e  /root/rivermind-data/dataset/Images/visible/016402.png
+e955152c29d1454958bf0b47eb21fb77be73b940269708cdab71ac4b0ec54ccc  /root/rivermind-data/dataset/Images/visible/016409.png
+915af7dea64c31bbc12a9c9d8c82f70c17fadce93279ea415636127de0c4422b  /root/rivermind-data/dataset/Images/visible/016416.png
+fb79319b92853841bd8794fd48bf911189e547376acddba1130e9c871a277423  /root/rivermind-data/dataset/Images/visible/016423.png
+093710fa9ca16d65e4cd6add6e01e282646816db91cbc7ccf8765029f74151c1  /root/rivermind-data/dataset/Images/visible/016430.png
+9c3632ed444282d88d5c2e2cf4f95db3f9e7589002194a5ba4fda9a7e4f0074e  /root/rivermind-data/dataset/Images/visible/016437.png
+921ceb6006d3864b8a764be10d7666e23bcdca5f89c5c5129ec19bf81bd4f7b7  /root/rivermind-data/dataset/Images/visible/016444.png
+c773d7e6a6f987d7bc9783d8587ea5f24ca9eee2c265cb41811148b184580fbb  /root/rivermind-data/dataset/Images/visible/016451.png
+fda9c783862d4bf74244f4da3b69732acca7c56edb533bbaee4e262eb4c9e856  /root/rivermind-data/dataset/Images/visible/016458.png
+48cb9dd05ca40bdaf7fd1a98441d76c1b7087d6b482c8ee0493b4d9f67188128  /root/rivermind-data/dataset/Images/visible/016465.png
+fb3b3acff7ce72705cc72475912185536b0230e55e360a55440f0aab2dbfcbca  /root/rivermind-data/dataset/Images/visible/016472.png
+dec166da32e4dbed05e7c83feacfc12a5eb8539f8bb81bfc017d8194e0f472e8  /root/rivermind-data/dataset/Images/visible/016479.png
+e63bb32cc911aff57062c1fa13726f2e45ee0843c6ec94610cb7df904fe5be05  /root/rivermind-data/dataset/Images/visible/016486.png
+392d374143bb52064010f716c3ce0a44f222e7972355e3f15de50ba3c817233a  /root/rivermind-data/dataset/Images/visible/016493.png
+0e6c4ff435e1b74909dbb03daf4fc47726ce951bc4eab634f5fae3f7509c737b  /root/rivermind-data/dataset/Images/visible/016500.png
+154bfbcac19d1f8261e771c4fac304c4bb0d5506a9e9be47c88ce2cea6ba99a5  /root/rivermind-data/dataset/Images/visible/016507.png
+e3b274d24bec4baea7b7c75a4cd5168081242e27e00d979fd295cd2582e9c58a  /root/rivermind-data/dataset/Images/visible/016514.png
+9c3f53f66debb9dbe982b56f74972e4fb474508afa55ae10992deaca34f008ec  /root/rivermind-data/dataset/Images/visible/016521.png
+130db020067a34596a9af40604ec5d77af9a744987b94786e5aab6d333fa826f  /root/rivermind-data/dataset/Images/visible/016528.png
+8753197bec69308151380d40eb054898bbae08b4cfc1b1051284110b6cc6df92  /root/rivermind-data/dataset/Images/visible/016535.png
+4abe9aeb9ab38b92427f9730a087d72650688a36501d92c72df3d3a8b4d695bc  /root/rivermind-data/dataset/Images/visible/016542.png
+dc2df72d94f6f7f6f21a911b8bf19f21471136988e833bce726b003d75111e4a  /root/rivermind-data/dataset/Images/visible/016549.png
+ca5f4763aeddef52804bc5b58c73ad77ad55316bd2a35a53480d8c39957c6184  /root/rivermind-data/dataset/Images/visible/016556.png
+a16dd5d2dd6f70a49820a58259356642e0dce6d4feb44afce3e3e9ea7681595d  /root/rivermind-data/dataset/Images/visible/016563.png
+e68dc77a988cbb18007c9851e4f5c97966db6a247d5164b0234b42ada03abfd7  /root/rivermind-data/dataset/Images/visible/016570.png
+56c836dda8bd394fc1f80711d082cf74d8c8622c2b16f515df9759306f7e2e8b  /root/rivermind-data/dataset/Images/visible/016577.png
+f10a9ceed4f70e32404ac4ff43bcd80c81f559d27f2533d259f5e4c5fb68179b  /root/rivermind-data/dataset/Images/visible/016584.png
+d383ae1e6da57e54ccb1e832e9bc072d9a609c544ef8d4e21694842b3e48867e  /root/rivermind-data/dataset/Images/visible/016591.png
+c7245de7be6a071f31663e2cb8ab6314839f0b2c114be77b19211b51e733c21d  /root/rivermind-data/dataset/Images/visible/016598.png
+8f6cee89b46dfb7a7ec155bd8f0566fd2dab2e709785f805eeb73f82bf071769  /root/rivermind-data/dataset/Images/visible/016605.png
+34a1a159e4a4079578a14219b2f4217a190b454553b958fa4b6b1c0d6d6c4849  /root/rivermind-data/dataset/Images/visible/016612.png
+a185b3f13bf9e8351a66253de0ef43e49dc97269c248a6c4a657ad902a037d15  /root/rivermind-data/dataset/Images/visible/016619.png
+e3819afd7b7d3310d0d31ea4b5c3aeab0a03c1e4f9bc2d229df40561188df44e  /root/rivermind-data/dataset/Images/visible/016626.png
+76fdde3f727f72d931a4b0ab1db076e1e1508ebd76ff4cf9b16c3f2450c08985  /root/rivermind-data/dataset/Images/visible/016633.png
+3fb992765b614e669d05323e65380c25adab6580a293174c0dfedaa959afa81b  /root/rivermind-data/dataset/Images/visible/016640.png
+3fce1b1acb905852b1c9d25154468785b58d5e4d7b37b69ee79073222f08f764  /root/rivermind-data/dataset/Images/visible/016647.png
+6796fae39a6f06a74759aa258064f9d8facf70d3724af647abed6bfcd7488f43  /root/rivermind-data/dataset/Images/visible/016654.png
+87814e9da42ec1f4bdaaf64133896561925e39240a6ff1fee6f0e1460ef84631  /root/rivermind-data/dataset/Images/visible/016661.png
+b6354a85d85a14075903d9f2dfc98ecb765624399d7bf4a901e97bbed56e8996  /root/rivermind-data/dataset/Images/visible/016668.png
+c085c9b5cce8ecbf0ccc689d2a24d4362de179f4e14739f1eb15bdb73367311d  /root/rivermind-data/dataset/Images/visible/016675.png
+cefac129582969263109463b1e286703f6fd13c852ed2748b93fd0c1378eeee8  /root/rivermind-data/dataset/Images/visible/016682.png
+82c14f7950c0a4029053efd73ee966d6fca5af0f6f4b611be55b99e360ff7805  /root/rivermind-data/dataset/Images/visible/016689.png
+41c37f8f972e96216edac8daf07b2bafa22d93638ac134177bb5386024ec49c6  /root/rivermind-data/dataset/Images/visible/016696.png
+ae737cbd9cd5209aa1ab78711bdec0060427266ac19ba5ca89edc477b2f0f0f8  /root/rivermind-data/dataset/Images/visible/016703.png
+fcedc383d46eb45b652cfa048accebfc7b5da566fdf598d0ace0ef34e5b3d454  /root/rivermind-data/dataset/Images/visible/016710.png
+92b472eacc23dbe11d5d583453fd9606a0e7559a2132935e837cae6e67413fda  /root/rivermind-data/dataset/Images/visible/016717.png
+e90df65eb51e9b1ed5f169cf7aeb46d914cd12e881179e94987567dab7d46c39  /root/rivermind-data/dataset/Images/visible/016724.png
+f90bf603ab295e16316a3d4c3d4a66dcd4b5ec4d01b1c3233c9bacfe22a92e3e  /root/rivermind-data/dataset/Images/visible/016731.png
+052977690aad044b3538855b3683c6c206393bf6bacb7e588999bdad90019336  /root/rivermind-data/dataset/Images/visible/016738.png
+f999bf4291c6b16d123856805a604208117c1b03db66e1052f71297d75aa8624  /root/rivermind-data/dataset/Images/visible/016745.png
+0cf3b8202b6ed50e9238f9c8ead02ecba82266c87429f6ea56b4cdfcb9743389  /root/rivermind-data/dataset/Images/visible/016752.png
+2eb24e8d57c07afed87b39894341a94ff95a0f8411cfe7ba8ea73226efacf026  /root/rivermind-data/dataset/Images/visible/016759.png
+5f368f7cb76e932f53a8d2d98720661ea5ba7700280725aca893e3b2d2b5924a  /root/rivermind-data/dataset/Images/visible/016766.png
+ff513d02f26f51c083707cea67104bd376aaf2b3731a215faed89ca40956ebb5  /root/rivermind-data/dataset/Images/visible/016773.png
+9e79573f2e63f143dba69b64fade8636302ddd343f9534333f72fd879287fef8  /root/rivermind-data/dataset/Images/visible/016780.png
+f394ae5bcbb0a2fc2ce70ee637b59062e14c7a69a0dc2d7db3a7482616998ac8  /root/rivermind-data/dataset/Images/visible/016787.png
+96c315dbf5f9405b550b0fefd644c1ce2b0052270366b41b206e028033e215f5  /root/rivermind-data/dataset/Images/visible/016794.png
+77179421f8b1a599c05097d04e5ee25cbdf741e5ea53816d285b060be9024bca  /root/rivermind-data/dataset/Images/visible/016801.png
+c3c7ee775504ba4d0960e8ee572ec0a8798333e5c9da8d60fdc41203b58e6879  /root/rivermind-data/dataset/Images/visible/016808.png
+d5b5b6e2f2afd7f5b73a520f00139da1d5d0c06939435dcf79cf9ee92708c659  /root/rivermind-data/dataset/Images/visible/016815.png
+7c61101dea13079e7d7f1b02f19e6353157b494969e4f3344e1615f0198d44ca  /root/rivermind-data/dataset/Images/visible/016822.png
+466124921694f13d39cf6befa238a2a2c2eaa338c9a336a78b30e229c2b3670a  /root/rivermind-data/dataset/Images/visible/016829.png
+411adc961a3212fe6865077d13d93c6a3991b586d426434e9759cef31d803f8b  /root/rivermind-data/dataset/Images/visible/016836.png
+6ab951b8ba88510a5b593f59ec0aebd97038bcf3f0c89fc383ba42c4b364b1d8  /root/rivermind-data/dataset/Images/visible/016843.png
+66d28d27178ce71aba0433a0f6e3922ef84e08816bf178cbff593cdbf3e60751  /root/rivermind-data/dataset/Images/visible/016850.png
+dacd50e80e0bdc4d1f7e9aabba62cb0362facb241172b0f85ba9391117dd9896  /root/rivermind-data/dataset/Images/visible/016857.png
+7e9c67e6c7b73f5a2d86ddd98119430cf15f368a6333e5321347e6cba27c4d13  /root/rivermind-data/dataset/Images/visible/016864.png
+f838fa411ae4deae7c28f0cae054baa1b27b6a64b933e868da70b04a39ae8820  /root/rivermind-data/dataset/Images/visible/016871.png
+ae56f6525b6e11bcdd2788369a852dc7866ccd2114202a930bb8d3db92d036c6  /root/rivermind-data/dataset/Images/visible/016878.png
+e960ef15f6e95690b5cc2f06c73f77665a14db0956874c42f43574d03ad2c6b2  /root/rivermind-data/dataset/Images/visible/016885.png
+b18e87690d406a29968e1b9ef93f89316284558faced8066b4af5a363ea26acd  /root/rivermind-data/dataset/Images/visible/016892.png
+5ad741ad8a3d0d926df5675be4192fa7c1f1dab4b522ce91afb3e64a4bf12c99  /root/rivermind-data/dataset/Images/visible/016899.png
+63686bf0b25b8c35180eeb994a1f62f87416f20255f1852cd36d8aff5cb4caee  /root/rivermind-data/dataset/Images/visible/016906.png
+078566da3ee6e0af0bf510311f9613bca110b05f320b6dbbaad682a6046afa00  /root/rivermind-data/dataset/Images/visible/016913.png
+70646d9844122dd27d4b0ac5699af2512c7f2d3f434d0b49362097c8ab4c5081  /root/rivermind-data/dataset/Images/visible/016920.png
+03fd751e0c7a45f736e613d6f9bb23c8e65a97b92099936bcf84c79a1cc279c7  /root/rivermind-data/dataset/Images/visible/016927.png
+b0c72041b493058e8c0580ed67f112b705ea5bb38816c3f63cafb4e24a8fcec5  /root/rivermind-data/dataset/Images/visible/016934.png
+12c4eb383b410498b125e72e388f072f2f49330a36c8cb0d41dbd927320a0870  /root/rivermind-data/dataset/Images/visible/016941.png
+6bb72d9ba7251a5709bc28c75fcaa2fa310d37c386d2749025c7d32587155f84  /root/rivermind-data/dataset/Images/visible/016948.png
+7cadb312eb69ab43b6b662890f70441f11cc2baa447d3eaa985ae7448427606d  /root/rivermind-data/dataset/Images/visible/016955.png
+fb5a955729ff3a497ddf780b526755be32e279acae46340de40409993890ad87  /root/rivermind-data/dataset/Images/visible/016962.png
+16848001cb2c7eb7fb87111e3b2387e2084603ebda56f6345e3303d13c47af09  /root/rivermind-data/dataset/Images/visible/016969.png
+ce5e85f76c3efa5afe9e48476b477e460987b86ffbf0e97dd24798c4f6178649  /root/rivermind-data/dataset/Images/visible/016976.png
+ce97ebb2ad01325ee979fa345d87f6695ea5d01fdb3c5d2959ee497558324a65  /root/rivermind-data/dataset/Images/visible/016983.png
+bd3916e44c56e22c83b1c5bc3da3bd97750f53b92331d8869f7a95612828f68d  /root/rivermind-data/dataset/Images/visible/016990.png
+03bdbc8b9ab36ea47bb2184694675a27f89e05d46c9978ef3225002bc1c7faa1  /root/rivermind-data/dataset/Images/visible/016997.png
+7d83e7a03a81d9e1737755d208f1b18ec3b642f279311b0b26c552b27bf655d2  /root/rivermind-data/dataset/Images/visible/017004.png
+77d8d7211d7619c4cdfc28f879444f71d67903010878a4138deddb00ca37a86d  /root/rivermind-data/dataset/Images/visible/017011.png
+0071d96a615a2ffd0d439fa45907e7d4ef6db2d5d83b581d6ab2a34a8d1d64a0  /root/rivermind-data/dataset/Images/visible/017018.png
+25bb57d69cc2c9a9b369b899dc92d8a181d3b091d027f9eaf15141b6e2d81f67  /root/rivermind-data/dataset/Images/visible/017025.png
+928959e213e7284f814966c9512bd12f02d6c06da2c270c7ac94c171a3c1125e  /root/rivermind-data/dataset/Images/visible/017032.png
+1667b804702ee6da8edece23eacd3d15e06665e35f50c13759ea405cfea8a2b6  /root/rivermind-data/dataset/Images/visible/017039.png
+4cf6914c7b482ec76584a474910f52e3ed528fb03ec0440cc1708f12f0870b93  /root/rivermind-data/dataset/Images/visible/017046.png
+04a0e2b6822ae68bd4385930188201154602c36eee74c1091786a90aba192bb8  /root/rivermind-data/dataset/Images/visible/017053.png
+6fbe0282c38e3d91dc78119ff5c421cb972fa734bf8d760aae6f29b9937deb2e  /root/rivermind-data/dataset/Images/visible/017060.png
+589400e2820c82d43b8fdb7a996986bdf7fbaab098baa2b0c7970f862f1299a4  /root/rivermind-data/dataset/Images/visible/017067.png
+244bbface1fb662eaa277f82ada1bb9836f11e0389f37cb5458111dbaad6465d  /root/rivermind-data/dataset/Images/visible/017074.png
+97e13b5549bf0a3b5ac9c28b6d5875b993d81a41605064d329d55707bccb230b  /root/rivermind-data/dataset/Images/visible/017081.png
+e29ad471b0816dcab85c0f0fa8f696f18600cebafd1d6ddb7509ba89ec95a333  /root/rivermind-data/dataset/Images/visible/017088.png
+551d9162d54250ca87abe8088d9b98aeab627062978ba5c7259de3126370e53d  /root/rivermind-data/dataset/Images/visible/017095.png
+118cd33aa34b9ee840da8aad88dd8b82284b7609fcbaaad76cf321a6edb35c3d  /root/rivermind-data/dataset/Images/visible/017102.png
+cee724a2d3e66c57d8ed7e6e34500dd27e4c6cc503c761f18d5dbc2b0daa96b9  /root/rivermind-data/dataset/Images/visible/017109.png
+d94d6e3bf19e3c8a4935c92fbcaf9f544c6d17e6c1d412b08aac7797347ccfa0  /root/rivermind-data/dataset/Images/visible/017116.png
+de828fc34ef16f344ac37aa1bfe33da261a70fa47704883d8565beff5c1a24c0  /root/rivermind-data/dataset/Images/visible/017123.png
+a28486b6c556fdcfc6c1630555517d52ca7dc4911a0153b9df125419f0baecfa  /root/rivermind-data/dataset/Images/visible/017130.png
+4be258b37e63b9d8e651fc13be11765f5edb866eac295447aaaeacc662cea000  /root/rivermind-data/dataset/Images/visible/017137.png
+eb80e9b69a3ac3512b2802f8416ef4c6160bfaf8dc2037cc73e735016874144f  /root/rivermind-data/dataset/Images/visible/017144.png
+4570d9c79a20603c62539247919b899c29eb77d8a04f43fcf8e07f33eadedba0  /root/rivermind-data/dataset/Images/visible/017151.png
+13bd8a6e5b7f74c0e04022b2b6ae0e204711ec717ec01573769658293a0ec438  /root/rivermind-data/dataset/Images/visible/017158.png
+44b44aa42684bcc43080937090987eb5b3bafa9aef87ae3d06b6dc361a6125e4  /root/rivermind-data/dataset/Images/visible/017165.png
+2bebcd212351a86a7ee499296ae9f40a004d7d99772b8969ef63a85c7399defe  /root/rivermind-data/dataset/Images/visible/017172.png
+1c8931d5c262619733048212281002166836522fe639e1420890ec6932a2ef41  /root/rivermind-data/dataset/Images/visible/017179.png
+1b9b8372130abdab6747acd83cf375fde007d80263a276f33b478e0d6afaa4a9  /root/rivermind-data/dataset/Images/visible/017186.png
+abe6352eae99af06fc5d7c35eda11d47942c1a2088032d56bc23eb9b93c63d78  /root/rivermind-data/dataset/Images/visible/017193.png
+d818ee30f3e5804d9c0afe534e5a7f99ea01b9c9906f52c8f9663d5bcc21fd18  /root/rivermind-data/dataset/Images/visible/017200.png
+aa02861d396c49c1224869860acee7e1ffcf62c4fa2b600c3bc9a7d1399bed70  /root/rivermind-data/dataset/Images/visible/017207.png
+7a13d79f22d4b2b391debdb3b9b6c35ade722b13ed2a389c44d60011734eadb1  /root/rivermind-data/dataset/Images/visible/017214.png
+8ff4526ebf87661c8785d3113e999db10ba81780a85c9165016c3954131e6538  /root/rivermind-data/dataset/Images/visible/017221.png
+ac2be3d5ce4020433571e1da1ad09d3e9b5755053b284c7f9b6c91a1b2f20411  /root/rivermind-data/dataset/Images/visible/017228.png
+08e08bc0026d84ee023f9f2c866aabe184a326d74b4c7097b30c2d240b1f9aa3  /root/rivermind-data/dataset/Images/visible/017235.png
+c5d02fa216ec7538876e823fc2c682378e49fe058afb7472e4c82b9dceb0ab5d  /root/rivermind-data/dataset/Images/visible/017242.png
+1adab4e6e4449451e578502770b502fa5239cc93720434c200f985540dc59305  /root/rivermind-data/dataset/Images/visible/017249.png
+1faecb810c2c56153c9e6a95b353e658178a1a6526e93c5ed8a114419e232cdd  /root/rivermind-data/dataset/Images/visible/017256.png
+70e784d02259f8c305cbc3fe9b1ca99b7dc24c919389a52bce5e35ff23e89694  /root/rivermind-data/dataset/Images/visible/017263.png
+becb043b6221f6ea4926cf5980e92f82d8a3c11e4c2575072f6e9e21a938d33b  /root/rivermind-data/dataset/Images/visible/017270.png
+055e3f56845dd1dada8c42d03a070c7bf45ec8fcf64481f10fdb5e2d8d632a4f  /root/rivermind-data/dataset/Images/visible/017277.png
+9230b555472a8bb382dace70445a5f7cbbaa11b1e645623c54a11c50e80d097f  /root/rivermind-data/dataset/Images/visible/017284.png
+71286c76ad7155e607f5693ca5aec8a96369f11c26618cfd0bdbe765870d52f8  /root/rivermind-data/dataset/Images/visible/017291.png
+2a9517bd1b64ea30e18c75dbcc55e4c53af5992ab01c64d0420a7d43d728cb58  /root/rivermind-data/dataset/Images/visible/017298.png
+91e1f4ab65625d1ad48d6432b4edca650d915d3810e8a1f6bb766f5d573e4464  /root/rivermind-data/dataset/Images/visible/017305.png
+260375a14fdad7c72c5dce69dfba0daa36b3916972a0fe0fc27537d48d3abba8  /root/rivermind-data/dataset/Images/visible/017312.png
+f2b92fa3854a4f160abca54ff377e38601908f7ff33e06dd10668f29e34294e7  /root/rivermind-data/dataset/Images/visible/017319.png
+2e4781c8dc3fa9b057e586e0c8892d2a16f0d22950ac9d8a0de75b966fd637fc  /root/rivermind-data/dataset/Images/visible/017326.png
+b451acf466893a2d41f7e32de02025dca58b0d070f566422688c8a54a29203fc  /root/rivermind-data/dataset/Images/visible/019071.png
+
+========== [STAGE-2] 交付件 0.7963 阶段（Qwen3.8-27B / vLLM 0.23.0 / torch 2.11+cu130） ==========
+记录时间(UTC): 2026-10-03 18:14:19
+
+--- 驱动 / CUDA ---
+NVRM version: NVIDIA UNIX Open Kernel Module for x86_64  580.126.09  Release Build  (dvs-builder@U22-I3-AM02-24-3)  Wed Jan  7 22:51:36 UTC 2026
+GCC version:  gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+
+--- 系统 / Python ---
+OS: Ubuntu 22.04.5 LTS
+kernel: 6.8.0-90-generic
+python 3.10.12
+
+--- 推理栈版本 ---
+vllm 0.23.0
+torch 2.11.0+cu130
+transformers 4.57.6
+torch.version.cuda 13.0
+cuda_available False
+
+--- pip freeze（venv_q38）---
+agent-detector==2.0.0
+aiohappyeyeballs==2.7.1
+aiohttp==3.14.3
+aiosignal==1.4.0
+annotated-doc==0.0.5
+annotated-types==0.8.0
+anthropic==1.11.0
+anyio==4.15.1
+apache-tvm-ffi==0.1.9
+astor==0.8.1
+async-timeout==5.0.1
+attrs==26.1.0
+backports.strenum==1.3.1
+blake3==1.0.10
+cachetools==7.2.0
+cbor2==6.1.5
+certifi==2026.7.22
+cffi==2.1.1
+charset-normalizer==3.5.2
+click==8.5.0
+cloudpickle==3.1.2
+compressed-tensors==0.17.0
+cryptography==50.0.2
+cuda-bindings==13.4.3
+cuda-core==1.2.1
+cuda-pathfinder==1.8.3
+cuda-python==13.4.1
+cuda-tile==1.3.0
+cuda-toolkit==13.0.2
+depyf==0.20.0
+detect-installer==0.2.1
+dill==0.4.1
+diskcache==5.6.3
+dnspython==2.8.0
+docstring_parser==0.18.0
+einops==0.8.2
+email-validator==2.3.0
+exceptiongroup==1.3.1
+fastapi==0.136.3
+fastapi-cli==0.0.32
+fastapi-cloud-cli==0.26.0
+fastar==0.12.0
+fastsafetensors==0.4.0
+filelock==4.0.9
+fla-core==0.5.2
+flash-linear-attention==0.5.2
+flashinfer-cubin==0.6.12
+flashinfer-python==0.6.12
+frozenlist==1.8.0
+fsspec==2026.9.0
+gguf==0.19.0
+googleapis-common-protos==1.75.5
+grpcio==1.84.0
+h11==0.16.0
+hf-xet==1.6.0
+httpcore==1.0.9
+httpcore2==2.13.1
+httptools==0.8.0
+httpx==0.28.1
+httpx2==2.13.1
+huggingface_hub==0.36.2
+humming-kernels==0.1.4
+idna==3.20
+ijson==3.5.1
+interegular==0.3.3
+Jinja2==3.1.6
+jiter==0.17.0
+jmespath==1.1.0
+jsonschema==4.26.0
+jsonschema-specifications==2025.9.1
+lark==1.2.2
+llguidance==1.7.6
+llvmlite==0.47.0
+lm-format-enforcer==0.11.3
+loguru==0.7.3
+markdown-it-py==4.2.0
+MarkupSafe==3.0.4
+mcp==2.3.0
+mcp-types==2.3.0
+mdurl==0.1.2
+mistral_common==1.12.0
+ml_dtypes==0.6.0
+model-hosting-container-standards==0.1.16
+mpmath==1.3.0
+msgspec==0.22.0
+multidict==6.9.1
+networkx==3.4.2
+ninja==1.13.2
+numba==0.65.0
+numpy==2.2.6
+nvidia-cublas==13.1.0.3
+nvidia-cuda-cccl==13.3.4.3.1
+nvidia-cuda-crt==13.4.92
+nvidia-cuda-cupti==13.0.85
+nvidia-cuda-nvcc==13.2.86
+nvidia-cuda-nvrtc==13.0.88
+nvidia-cuda-runtime==13.0.96
+nvidia-cuda-tileiras==13.2.86
+nvidia-cudnn-cu13==9.19.0.56
+nvidia-cudnn-frontend==1.28.0
+nvidia-cufft==12.0.0.61
+nvidia-cufile==1.15.1.6
+nvidia-curand==10.4.0.35
+nvidia-cusolver==12.0.4.66
+nvidia-cusparse==12.6.3.3
+nvidia-cusparselt-cu13==0.8.0
+nvidia-cutlass-dsl==4.5.2
+nvidia-cutlass-dsl-libs-base==4.5.2
+nvidia-cutlass-dsl-libs-cu13==4.5.2
+nvidia-ml-py==13.615.71
+nvidia-nccl-cu13==2.28.9
+nvidia-nvjitlink==13.0.88
+nvidia-nvshmem-cu13==3.4.5
+nvidia-nvtx==13.0.85
+nvidia-nvvm==13.2.86
+openai==3.24.0
+openai-harmony==0.0.8
+opencv-python-headless==5.0.0.93
+opentelemetry-api==1.45.0
+opentelemetry-exporter-http-transport==0.66b0
+opentelemetry-exporter-otlp==1.45.0
+opentelemetry-exporter-otlp-common==0.66b0
+opentelemetry-exporter-otlp-proto-common==1.45.0
+opentelemetry-exporter-otlp-proto-grpc==1.45.0
+opentelemetry-exporter-otlp-proto-http==1.45.0
+opentelemetry-proto==1.45.0
+opentelemetry-sdk==1.45.0
+opentelemetry-semantic-conventions==0.66b0
+opentelemetry-semantic-conventions-ai==0.5.1
+outlines_core==0.2.14
+packaging==26.3
+partial-json-parser==0.2.1.1.post7
+pillow==12.3.0
+prometheus-fastapi-instrumentator==8.1.0
+prometheus_client==0.26.0
+propcache==0.5.4
+protobuf==7.36.2
+psutil==7.2.2
+py-cpuinfo==9.0.0
+pybase64==1.5.0
+pycountry==26.2.16
+pycparser==3.0
+pydantic==2.13.5
+pydantic-extra-types==2.11.1
+pydantic-settings==2.15.0
+pydantic_core==2.46.5
+pyelftools==0.33
+Pygments==2.21.0
+PyJWT==2.15.1
+python-dotenv==1.2.4
+python-json-logger==4.2.0
+python-multipart==0.0.32
+PyYAML==6.0.3
+pyzmq==27.2.0
+quack-kernels==0.5.0
+referencing==0.37.0
+regex==2026.9.29
+requests==2.34.2
+rich==15.0.0
+rich-toolkit==0.20.5
+rignore==0.8.1
+rpds-py==0.30.0
+safetensors==0.8.0
+sentencepiece==0.2.2
+sentry-sdk==2.71.0
+setproctitle==1.3.8
+shellingham==1.5.4
+sniffio==1.3.1
+sse-starlette==3.5.0
+starlette==1.7.0
+supervisor==4.3.0
+sympy==1.14.0
+tabulate==0.10.0
+tiktoken==0.14.0
+tilelang==0.1.9
+tokenizers==0.22.2
+tokenspeed-mla==0.1.2
+tokenspeed-triton==3.8.10.post20260920
+tomli==2.4.1
+torch==2.11.0
+torch_c_dlpack_ext==0.1.5
+torchaudio==2.11.0
+torchvision==0.26.0
+tqdm==4.70.1
+transformers==4.57.6
+triton==3.6.0
+truststore==0.10.4
+typer==0.27.2
+typing-inspection==0.4.4
+typing_extensions==4.16.0
+urllib3==2.8.0
+uvicorn==0.54.0
+uvloop==0.23.0
+vllm==0.23.0
+watchfiles==1.3.0
+websockets==16.1.1
+xgrammar==0.2.5.post1
+yarl==1.25.1
+z3-solver==4.15.4.0
+
+--- 架构登记 ---
+架构总数 365
+Qwen3_5ForConditionalGeneration 已登记: True
+
+--- 权重目录 ---
+52G	/root/rivermind-data/models/Qwen3.8-27B
+分片数: 18
+
+--- 权重逐分片 SHA256（由 model.safetensors.index.json 的引用集确定）---
+ba0ce20aae489ad196733da5064bcdf159a1fe84f53336648196e1ebb7751b1c  model-00001-of-00018.safetensors  3966730552
+06a148c01bfbe3faa14a5f184a7ff29a706f7ae1c8b2705d2058e26d17a001fb  model-00002-of-00018.safetensors  3043080328
+2e1bf62cbcd406eaa64b60d10353e1f0ef4039d0976e56f05cabe953454f9968  model-00003-of-00018.safetensors  2542796952
+511e34063187882659753c4d93f3859f93c019fd438d8813071921c81d9a3f1a  model-00004-of-00018.safetensors  3988973152
+635cb53446dc74f219740fc59e18b774f877b803b9722e289ca62575a6efa701  model-00005-of-00018.safetensors  2099339864
+0bc5214fac607f0e6cc92eec3789d4b8559410ef9fce66621ba8158e8410dae0  model-00006-of-00018.safetensors  3979553696
+80b0c49033e9a0d5762562aa12f4acdb7f54da586f3d0110f28c48d91cf07892  model-00007-of-00018.safetensors  2108759344
+7192c5b66185d3592927daabee1cc19e6f6e0ce75988ee20e824b624765fda79  model-00008-of-00018.safetensors  3979553696
+af3c48cc37af44f3db6ae0579baf019180d48d9c527caa0a1f03ff85813a56d8  model-00009-of-00018.safetensors  2108759344
+163490a76f3bea3a40855b7efc04ce6d27afaf1a34f0bbde495b9491f76457c9  model-00010-of-00018.safetensors  3979553696
+5f3ae1b948aeee39da77aec558e8236cd65fe4d7cb7686a76bb007acc563c6d8  model-00011-of-00018.safetensors  2108759344
+a3de1c7114677a8f5ac5c4892c90e8238ea5c1e2038c80e757dfc87c3902ca55  model-00012-of-00018.safetensors  3979553696
+06ab79a41f74c9c5cb734816feb0c7fc364104b227165ee7391231e1155aa02a  model-00013-of-00018.safetensors  2108759344
+4138ed94603065ba884bbcadedb04d7718bb40117e85e6f5c6fc5b9c05b7a85b  model-00014-of-00018.safetensors  3979553696
+69224e27b9de4e7dbf6fc936c6eaae08447bda3b80a6c31a871ab451173afd22  model-00015-of-00018.safetensors  2108759344
+73cb9a1089fb6155cb648609478d6633be8a5c7d9ca5a05bc8925ce8a553cefe  model-00016-of-00018.safetensors  3979564040
+beb51f01056142ac4984bd800507b0dd0fd18de57f8e9ef6ea41d1a3598983a8  model-00017-of-00018.safetensors  2108759344
+1d3479509e21494658f9b64d317f5ea8e55c4025d28c702d6c4d0b356ce8ea06  model-00018-of-00018.safetensors  3392197344
+
+--- key 文件 SHA256 ---
+191e0af232104ed8b65258cf3fb2b842e288008baca7633c11b82a1ac7203aab  /root/rivermind-data/models/Qwen3.8-27B/config.json
+0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3  /root/rivermind-data/models/Qwen3.8-27B/tokenizer.json
+77042094076611b69791a610065f28b7013b8c621795fa86ddccc8bac7d1b9df  /root/rivermind-data/models/Qwen3.8-27B/model.safetensors.index.json
+
+--- 服务命令行（实测）---
+vllm serve /root/rivermind-data/models/Qwen3.8-27B --served-model-name qwen38-27b --host 0.0.0.0 --port 8000 \
+  --tensor-parallel-size 2 --trust-remote-code --max-model-len 8192 \
+  --gpu-memory-utilization 0.90 --max-num-seqs 8 \
+  --limit-mm-per-prompt {"image":1,"video":0} --max-num-batched-tokens 2048 \
+  --disable-custom-all-reduce
+（+ PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True；完整脚本见 code/remote_shell/_get_serve_q38.sh）
+
+--- 客户端环境（本地/远端 HTTP 客户端 venv）---
+openai 3.19.2
+pillow 12.3.0
+
+--- 数据集 ---
+queries: 1279352 字节
+visible 图: 1295 张
+
+========== [STAGE-2 END] ==========

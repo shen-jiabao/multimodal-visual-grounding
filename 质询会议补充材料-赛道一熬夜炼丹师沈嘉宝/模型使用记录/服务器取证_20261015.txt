@@ -1,0 +1,136 @@
+﻿########## 0) 主机与采集时间 ##########
+autodl-container-a19d43b48e-bedc3b24
+本地时间(CST): 2026-10-15 12:26:04 +0800
+UTC: 2026-10-15 04:26:04
+实例目录创建时间(autodl-tmp): 2026-10-05 02:06:20.202849270 +0800
+容器镜像: Ubuntu 22.04.5 LTS \n \l
+
+########## 1) q38 全链文件时间戳（full-iso，按 mtime 排序）##########
+  2026-10-05 02:11:37.309558913 +0800 |        568 B | _q38_env.sh
+  2026-10-05 02:50:25.544974546 +0800 |       3996 B | _q38_build.sh
+  2026-10-05 02:53:20.552121383 +0800 |       8336 B | _q38_dl.sh
+  2026-10-05 03:15:01.256522433 +0800 |      10338 B | q38_env.log
+  2026-10-05 03:15:01.260522441 +0800 |       3542 B | _q38_build.out
+  2026-10-05 03:51:10.057088434 +0800 |       2168 B | q38_dl.log
+  2026-10-05 04:16:09.081133090 +0800 |       6815 B | _q38_gate.py
+  2026-10-05 04:16:48.812884641 +0800 |       9725 B | _get_serve_q38.sh
+  2026-10-05 04:29:02.730940395 +0800 |       1570 B | _q38_gate.sh
+  2026-10-05 04:30:04.870367967 +0800 |       4096 B | q38_gate_vis
+  2026-10-05 04:32:11.760825777 +0800 |       6472 B | _q38_gate20.json
+  2026-10-05 04:31:12.415239277 +0800 |       6281 B | _q38_gate20_panel.json
+  2026-10-05 04:36:11.407980517 +0800 |       6357 B | _launch_q38.sh
+  2026-10-05 11:20:18.095224694 +0800 |        157 B | _serve_run.sh
+  2026-10-05 11:42:30.905166450 +0800 |      78855 B | vllm38.log
+  2026-10-05 11:22:19.369210328 +0800 |       3193 B | _q38_serve.log
+  2026-10-05 13:42:26.591472791 +0800 |      38089 B | _qwen_full_pipeline.py
+  2026-10-05 13:43:49.630608298 +0800 |       2539 B | _make_submission.py
+  2026-10-05 03:17:48.344732650 +0800 |      33093 B | _ordinal_cores_r2.json
+  2026-10-05 03:51:09.965090312 +0800 |       4096 B | models/Qwen3.8-27B
+
+########## 2) q38_gate_vis 目检图时间戳 ##########
+total 55164
+drwxr-xr-x  2 root root    4096 2026-10-05 04:30:04.870367967 +0800 .
+drwxr-xr-x 12 root root    4096 2026-10-05 13:43:43.974672793 +0800 ..
+-rw-r--r--  1 root root 2828476 2026-10-05 04:31:26.841625599 +0800 000001_001.png
+-rw-r--r--  1 root root 2829563 2026-10-05 04:31:27.473555749 +0800 000001_002.png
+-rw-r--r--  1 root root 2828468 2026-10-05 04:31:30.065269936 +0800 000001_003.png
+-rw-r--r--  1 root root 2831632 2026-10-05 04:31:28.117484621 +0800 000001_004.png
+-rw-r--r--  1 root root 2824662 2026-10-05 04:31:28.769412701 +0800 000001_005.png
+
+########## 3) q38_dl.log 原文（权重逐片双验）##########
+--- 首 6 行 ---
+[03:04:53] mon model-00002-of-00018.safetensors ✓ 大小+sha256 双验通过（2902 MB）
+[03:09:49] mon model-00001-of-00018.safetensors ✓ 大小+sha256 双验通过（3782 MB）
+[03:13:44] mon model-00003-of-00018.safetensors ✓ 大小+sha256 双验通过（2425 MB）
+[03:15:45] mon model-00005-of-00018.safetensors ✓ 大小+sha256 双验通过（2002 MB）
+[03:19:26] mon model-00007-of-00018.safetensors ✓ 大小+sha256 双验通过（2011 MB）
+[03:23:48] mon model-00009-of-00018.safetensors ✓ 大小+sha256 双验通过（2011 MB）
+--- 尾 6 行 ---
+[03:48:21] w12 worker 结束
+[03:48:32] mon model-00012-of-00018.safetensors ✓ 大小+sha256 双验通过（3795 MB）
+[03:49:19] mon model-00014-of-00018.safetensors ✓ 大小+sha256 双验通过（3795 MB）
+[03:50:28] mon model-00016-of-00018.safetensors ✓ 大小+sha256 双验通过（3795 MB）
+[03:51:09] mon model-00018-of-00018.safetensors ✓ 大小+sha256 双验通过（3235 MB）
+[03:51:10] mon 全部 18 个分片就位，monitor 退出
+--- 双验计数 ---
+0
+
+########## 4) _q38_serve.log 原文（起服自证）##########
+=== 0) 目录名断言（★防起错模型） ===
+  目标 /root/rivermind-data/models/Qwen3.8-27B
+  ✓ 含 Qwen3.8-27B
+
+=== 1) GPU 前置检查 + 自动定 TP ===
+  0, NVIDIA RTX PRO 6000 Blackwell Server Edition, 97887 MiB, 97251 MiB
+  GPU 数 1｜单卡最大 95 GB
+  ⇒ TP=1｜util=0.90｜maxlen=16384｜batch=2048｜mm={"image":1,"video":0}
+  custom all-reduce：关闭（退回 NCCL）
+
+=== 2) 权重完整性（本地，不联网） ===
+  分片 18｜缺失 0｜合计 51.75 GiB｜权重条目 1199
+
+=== 3) 环境 ===
+    vllm 0.23.0 | torch 2.11.0+cu130
+WARNING 10-05 11:20:25 [config.py:71] Support for Transformers v4 is deprecated. The Transformers v4 codepath will become unmaintained in vLLM v0.22.0 and will be removed in vLLM v0.24.0. Please upgrade to Transformers v5: pip install --upgrade transformers
+  架构登记 Qwen3_5ForConditionalGeneration: True
+  已载入环境文件 /root/rivermind-data/_q38_env.sh
+  CUDA_HOME=/usr/local/cuda｜nvcc /usr/local/cuda/bin/nvcc
+  /usr/local/cuda → /usr/local/cuda-13.0
+  flashinfer 探测：/usr/local/cuda
+  attention 候选：[] [FLASHINFER] [TRITON_ATTN] [XFORMERS] 
+
+=== 4) 起 vLLM（逐后端重试；后台分离） ===
+  （无旧 vllm）
+  --- 尝试后端：缺省 ---
+    已启动｜日志 /root/rivermind-data/vllm38.log
+      …60s｜(EngineCore pid=2176) 
+Loading safetensors checkpoint shards:  61% Completed | 11/18 [00:35<00:
+    ✓ 就绪（110 秒）
+  ⇒ 成功后端：缺省
+    (APIServer pid=1960) INFO 10-05 11:20:33 [model.py:611] Resolved architecture: Qwen3_5ForConditionalGeneration
+    (EngineCore pid=2176) INFO 10-05 11:21:49 [gpu_model_runner.py:6200] Encoder cache will be initialized with a budget of 16384 tokens, and profiled with 1 image items of the maximum feature size.
+    (EngineCore pid=2176) INFO 10-05 11:22:00 [gpu_worker.py:480] Available KV cache memory: 32.2 GiB
+    (EngineCore pid=2176) INFO 10-05 11:22:00 [gpu_worker.py:495] CUDA graph memory profiling is enabled (default since v0.21.0). The current --gpu-memory-utilization=0.9000 is equivalent to --gpu-memory-utilization=0.8989 without CUDA graph memory profiling. To maintain the same effective KV cache size as before, increase --gpu-memory-utilization to 0.9011. To disable, set VLLM_MEMORY_PROFILER_ESTIMATE_CUDAGRAPHS=0.
+    (EngineCore pid=2176) INFO 10-05 11:22:00 [kv_cache_utils.py:1744] GPU KV cache size: 458,752 tokens
+
+=== 5) ★起服后自证（确认是 Qwen3.8-27B，非 32B） ===
+  "data":[{"id":"qwen38-27b"
+  "root":"/root/rivermind-data/models/Qwen3.8-27B"
+  "permission":[{"id":"modelperm-8aab809d6e129a3f"
+
+=== 6) 客户端环境（本机无旧 venv 时回退 venv_q38 —— 它也含 openai/pillow） ===
+  客户端解释器: /root/rivermind-data/venv_q38/bin/python
+    ✓ openai 3.24.0 | pillow 12.3.0
+
+=== 7) 下一步 ===
+  ① 20 条冒烟（G2 可解析 ≥16/20、G3 方向 ≥12/20；8~11 放行但登记"接地能力弱"；<8 停）
+  ② 过闸 → 全量 4587 条非序数 → 装配（--base result_semi_n32bf16_nonord，锚 ord 689 / 非序数 3741）
+  ③ 读数：得分 × 5690 − 689 对 3741；Δ = (得分 − 0.7786) × 5690
+=== 结束 ===
+=== SERVE-DONE rc=0 ===
+
+########## 5) vllm38.log 关键行（起服参数与架构解析）##########
+8:(APIServer pid=1960) INFO 10-05 11:20:33 [api_utils.py:273] non-default args: {'model_tag': '/root/rivermind-data/models/Qwen3.8-27B', 'host': '0.0.0.0', 'model': '/root/rivermind-data/models/Qwen3.8-27B', 'trust_remote_code': True, 'max_model_len': 16384, 'served_model_name': ['qwen38-27b'], 'disable_custom_all_reduce': True, 'gpu_memory_utilization': 0.9, 'limit_mm_per_prompt': {'image': 1, 'video': 0}, 'max_num_batched_tokens': 2048, 'max_num_seqs': 8}
+9:(APIServer pid=1960) INFO 10-05 11:20:33 [model.py:611] Resolved architecture: Qwen3_5ForConditionalGeneration
+14:(EngineCore pid=2176) INFO 10-05 11:20:44 [core.py:113] Initializing a V1 LLM engine (v0.23.0) with config: model='/root/rivermind-data/models/Qwen3.8-27B', speculative_config=None, tokenizer='/root/rivermind-data/models/Qwen3.8-27B', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, tokenizer_revision=None, trust_remote_code=True, dtype=torch.bfloat16, max_seq_len=16384, download_dir=None, load_format=auto, tensor_parallel_size=1, pipeline_parallel_size=1, data_parallel_size=1, decode_context_parallel_size=1, dcp_comm_backend=ag_rs, disable_custom_all_reduce=True, quantization=None, quantization_config=None, enforce_eager=False, enable_return_routed_experts=False, kv_cache_dtype=auto, device_config=cuda, structured_outputs_config=StructuredOutputsConfig(backend='auto', disable_any_whitespace=False, disable_additional_properties=False, reasoning_parser='', reasoning_parser_plugin='', enable_in_reasoning=False), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None, kv_cache_metrics=False, kv_cache_metrics_sample=0.01, cudagraph_metrics=False, enable_layerwise_nvtx_tracing=False, enable_mfu_metrics=False, enable_mm_processor_stats=False, enable_logging_iteration_details=False), seed=0, served_model_name=qwen38-27b, enable_prefix_caching=False, enable_chunked_prefill=True, pooler_config=None, compilation_config={'mode': <CompilationMode.VLLM_COMPILE: 3>, 'debug_dump_path': None, 'cache_dir': '', 'compile_cache_save_format': 'binary', 'backend': 'inductor', 'custom_ops': ['none'], 'ir_enable_torch_wrap': True, 'splitting_ops': ['vllm::unified_attention_with_output', 'vllm::unified_mla_attention_with_output', 'vllm::mamba_mixer2', 'vllm::mamba_mixer', 'vllm::short_conv', 'vllm::linear_attention', 'vllm::plamo2_mamba_mixer', 'vllm::qwen_gdn_attention_core', 'vllm::gdn_attention_core_xpu', 'vllm::olmo_hybrid_gdn_full_forward', 'vllm::kda_attention', 'vllm::sparse_attn_indexer', 'vllm::rocm_aiter_sparse_attn_indexer', 'vllm::deepseek_v4_attention', 'vllm::unified_kv_cache_update', 'vllm::unified_mla_kv_cache_update'], 'compile_mm_encoder': False, 'cudagraph_mm_encoder': False, 'encoder_cudagraph_token_budgets': [], 'encoder_cudagraph_max_vision_items_per_batch': 0, 'encoder_cudagraph_max_frames_per_batch': None, 'compile_sizes': [], 'compile_ranges_endpoints': [2048], 'inductor_compile_config': {'enable_auto_functionalized_v2': False, 'size_asserts': False, 'alignment_asserts': False, 'scalar_asserts': False, 'combo_kernels': True, 'benchmark_combo_kernel': True}, 'inductor_passes': {}, 'cudagraph_mode': <CUDAGraphMode.FULL_AND_PIECEWISE: (2, 1)>, 'cudagraph_num_of_warmups': 1, 'cudagraph_capture_sizes': [1, 2, 4, 8, 16], 'cudagraph_copy_inputs': False, 'cudagraph_specialize_lora': True, 'use_inductor_graph_partition': False, 'pass_config': {'fuse_norm_quant': False, 'fuse_act_quant': False, 'fuse_attn_quant': False, 'enable_sp': False, 'fuse_gemm_comms': False, 'fuse_allreduce_rms': False, 'fuse_rope_kvcache_cat_mla': False, 'fuse_act_padding': False}, 'max_cudagraph_capture_size': 16, 'dynamic_shapes_config': {'type': <DynamicShapesType.BACKED: 'backed'>, 'evaluate_guards': False, 'assume_32_bit_indexing': False}, 'local_cache_dir': None, 'fast_moe_cold_start': False, 'static_all_moe_layers': []}, kernel_config=KernelConfig(ir_op_priority=IrOpPriorityConfig(rms_norm=['native'], fused_add_rms_norm=['native']), enable_flashinfer_autotune=True, moe_backend='auto', linear_backend='auto')
+48:(EngineCore pid=2176) INFO 10-05 11:21:49 [gpu_model_runner.py:5187] Model loading took 51.08 GiB memory and 58.398754 seconds
+60:(EngineCore pid=2176) INFO 10-05 11:22:00 [gpu_worker.py:480] Available KV cache memory: 32.2 GiB
+
+########## 6) 会话痕迹 ##########
+--- /root/.bash_history 行数 ---
+--- 尾 25 行 ---
+--- 是否有其他用户登录记录 ---
+
+wtmp begins Mon Jun 22 09:18:28 2026
+
+########## 7) 目录级统计 ##########
+  .                                42 项  78G
+  output                            5 项  3.4M
+  models                            1 项  52G
+  models/Qwen3.8-27B               31 项  52G
+  q38_gate_vis                     21 项  54M
+  venv_q38                          6 项  9.0G
+  dataset/Images/visible         1295 项  3.9G
+  dataset/Images/infrared        1295 项  1.9G
+  dataset/Images/depth           1295 项  1.9G
+=== DONE ===

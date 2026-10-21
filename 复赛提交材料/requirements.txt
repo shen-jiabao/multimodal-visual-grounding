@@ -1,0 +1,81 @@
+# 复赛提交材料 · 环境依赖
+#
+# 依赖分两部分，因为本方案的运行是两段式的：
+#   A. 离线段（数据预处理 / 序数规则层 / 装配 / 读数 / 硬约束校验）—— 纯 CPU，无需 GPU
+#   B. 推理段（Qwen3-VL 直接定位 + 序数 Set-of-Mark）—— 需 GPU（≥40 GB 显存）
+#
+# 版本号为**实测值**，取自实际产出结果的机器，不是估计：
+#   A 段取自本地离线机；B 段取自跑出提交件那台服务器的 pip freeze 实录。
+# 完整环境（驱动版本、CUDA、模型分片 SHA256、服务命令行、全量 pip freeze）见
+# 随包的 `env_record.txt`。
+
+# ================= A. 离线段（必需）=================
+pillow==12.2.0            # 图像读取与 SoM 编号绘制（_fuse_qwen 依赖）
+numpy==2.5.1              # 数值计算
+paramiko==5.0.0           # 远端通道 _rc.py / _up_semi.py（仅上传下载用，可省）
+requests==2.33.1          # HTTP 辅助
+
+# 仅 `_variant_depth_semi.py`（深度轴序数变体，读 16 位深度图）额外需要：
+# opencv-python-headless
+
+# ================= B. 推理段（可选，需 GPU）=================
+# 实测环境：NVIDIA A100-SXM4-40GB｜驱动 580.126.09｜torch CUDA 12.8｜Python 3.10.12
+torch==2.8.0
+torchvision==0.23.0
+transformers==4.57.6      # ★必须 <5.0：transformers 5.x 移除了
+                          # Qwen2Tokenizer.all_special_tokens_extended，
+                          # vLLM 启动会直接抛 AttributeError。此坑已实测踩过。
+vllm==0.11.0              # AWQ 走 awq_marlin 内核，TP=1；
+                          # gpu_memory_utilization 只影响 KV cache，不改模型数学
+openai==3.19.2            # 走 vLLM 的 OpenAI 兼容接口（api32b 引擎）
+sentencepiece==0.2.2
+tokenizers==0.22.2
+huggingface_hub==0.36.2
+safetensors==0.8.0
+accelerate                # 本地 transformers 路线（hf8b 引擎）需要，版本以实装为准
+triton==3.4.0
+xformers==0.0.32.post1
+compressed-tensors==0.11.0
+
+# 仅 GroundingDINO 备选分支（`predict_gd_3modal.py` / `_gd_enum.py`）额外需要：
+# opencv-python-headless==5.0.0.93
+# 并在项目内提供 GroundingDINO 源码与权重，见 README「模型权重下载链接」。
+
+# ================= B2. 推理段 · **交付件 0.7963 阶段**（Qwen3.8-27B）=================
+# ★与 B 段的差别（这一条不满足会直接起不来）：
+#   `Qwen3_5ForConditionalGeneration` 从 **vLLM ≥ 0.22.1** 才登记在 registry 里，
+#   故 B 段的 vLLM 0.11.0 **起不了本模型**。本段是**独立的 venv**，版本为实测值。
+#
+# 实测环境：2×NVIDIA A100-SXM4-40GB（NV12 NVLink）｜驱动 580.126.09
+#          ｜driver CUDA 13.0｜Ubuntu 22.04.5｜Python 3.10.12
+# 全量 pip freeze 与权重**逐分片 SHA256**见 `env_record.txt` 的 `[STAGE-2]` 段。
+torch==2.11.0             # 构建为 +cu130（本项目实测 torch.version.cuda = 13.0）
+torchvision==0.26.0
+transformers==4.57.6      # ★同 B 段：必须 <5.0（原因见上）
+tokenizers==0.22.2
+sentencepiece==0.2.2
+safetensors==0.8.0
+vllm==0.23.0              # ★必须 ≥0.22.1（架构登记门槛）
+triton==3.6.0
+numpy==2.2.6
+pillow==12.3.0
+# Gated DeltaNet 相关依赖（本模型 64 层里 48 层为线性注意力）。
+# vLLM 原生实现 GDN（`layers/mamba/gdn/qwen_gdn_linear_attn.py`），
+# 下列包是随 vLLM 带入的依赖，**经核实非阻断项**：
+flash-linear-attention==0.5.2
+fla-core==0.5.2
+flashinfer-python==0.6.12
+flashinfer-cubin==0.6.12
+compressed-tensors==0.17.0
+cuda-toolkit==13.0.2
+cuda-python==13.4.1
+
+# ★起服必加的两个参数（否则起不来，均为实测踩坑；完整脚本见 code/remote_shell/_get_serve_q38.sh）：
+#   --disable-custom-all-reduce
+#       cu130 + A100(cc8.0) + 驱动 580 组合下 custom all-reduce 内核在 CUDA graph
+#       捕获阶段崩（`custom_all_reduce.cuh:455 'invalid argument'` → TP1 死 →
+#       `Engine core initialization failed`）。拓扑与 P2P 均正常，退回 NCCL 即可。
+#   --limit-mm-per-prompt '{"image":1,"video":0}'
+#       否则编码器按"最大尺寸视频"做探测，一次性分配 5.77 GiB 而 OOM。
+#
+# 客户端（HTTP 侧）沿用 A 段：openai==3.19.2 + pillow==12.3.0

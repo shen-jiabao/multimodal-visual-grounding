@@ -1,0 +1,9 @@
+51CD093556C43745FAA0586F4D3097FBE0EBF77E03914D0FFB7FA2A7065D4D6C  result.zip
+内部文件: submission.json
+条目数: 5690（与 queries.json 键集一致）
+校验: 四项硬约束全过（条数/键集/字段回显/bbox 合法性）
+线上得分: 0.8116（2026-10-05 平台提交，复赛排行榜 ACC@0.5）
+
+生成方式: code27b/scripts/consensus_vote.py（确定性管线，同输入必得同哈希）
+谱系: predictions_27b.json（27B 全量推理主件）
+      → 多产物共识投票后处理 → result.zip

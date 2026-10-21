@@ -1,0 +1,9 @@
+FB6C2E471A4F5E8907318FF540A5CAABAEC17A29ECAFC17EB651F512A4AE8F35  result_semi_q38_nonord.zip
+内部文件: result_semi_q38_nonord.json
+条目数: 5690（与 queries.json 键集一致）
+校验: 四项硬约束全过（条数 / 键集 / 字段回显 / bbox 合法性）
+线上得分: 0.7963（复赛排行榜 ACC@0.5；已实测最高，作为本交付件）
+
+生成方式: 跨代换模型 Qwen3.8-27B 重跑非序数层 → code/_assembly_32b.py 装配
+          （单变量替换：只换非序数层，序数层 1103 条逐位不动）
+读数: 0.7963 × 5690 = 4531 = 非序数 3842 + 序数 689（Δ = +101 条 vs 0.7786 基线）

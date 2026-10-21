@@ -1,0 +1,76 @@
+=== 1) 建独立 venv（--clear 保证干净） ===
+  ✓ /root/rivermind-data/venv_q38
+Python 3.12.3
+=== 2) 升级 pip（有 uv 则跳过——uv 不用 pip，省掉一次慢下载） ===
+  ✓ 已装 uv，跳过 pip 升级
+=== 3) 装 vLLM==0.23.0（含 torch；约 2-3 GB） ===
+  装包器: uv 0.12.23  index=https://mirrors.aliyun.com/pypi/simple
+  退出码 0
+=== 4) 版本自检 ===
+  torch                  2.11.0+cu130
+  transformers           4.57.6
+  vllm                   0.23.0
+  flash_linear_attention ✗ ModuleNotFoundError
+  causal_conv1d          ✗ ModuleNotFoundError
+  triton                 3.6.0
+=== 5) ★关键：registry 是否登记 Qwen3_5ForConditionalGeneration ===
+WARNING 10-05 03:14:02 [config.py:71] Support for Transformers v4 is deprecated. The Transformers v4 codepath will become unmaintained in vLLM v0.22.0 and will be removed in vLLM v0.24.0. Please upgrade to Transformers v5: pip install --upgrade transformers
+INFO 10-05 03:14:09 [importing.py:46] Triton is installed but 0 active driver(s) found (expected 1). Disabling Triton to prevent runtime errors.
+INFO 10-05 03:14:09 [importing.py:81] Triton not installed or not compatible; certain GPU-related functions will not be available.
+  架构总数 365
+  Qwen3_5 系：['ColQwen3_5', 'Qwen3_5ForConditionalGeneration', 'Qwen3_5MTP', 'Qwen3_5MoeForConditionalGeneration', 'Qwen3_5MoeMTP']
+  ✓ 已登记（可加载 Qwen3.8-27B）
+=== 6) CUDA 可用性（无卡时应为 False，属正常） ===
+  torch 2.11.0+cu130 | cuda build 13.0 | avail False
+=== 7) 磁盘（构建后） ===
+=== 结束 ===
+ + sse-starlette==3.5.0
+ + starlette==1.7.0
+ + supervisor==4.3.0
+ + sympy==1.14.0
+ + tabulate==0.10.0
+ + tiktoken==0.14.0
+ + tilelang==0.1.9
+ + tokenizers==0.22.2
+ + tokenspeed-mla==0.1.2
+ + tokenspeed-triton==3.8.10.post20260920
+ + torch==2.11.0
+ + torch-c-dlpack-ext==0.1.5
+ + torchaudio==2.11.0
+ + torchvision==0.26.0
+ + tqdm==4.70.1
+ + transformers==4.57.6
+ + triton==3.6.0
+ + truststore==0.10.4
+ + typer==0.27.2
+ + typing-extensions==4.16.0
+ + typing-inspection==0.4.4
+ + urllib3==2.8.0
+ + uvicorn==0.54.0
+ + uvloop==0.23.0
+ + vllm==0.23.0
+ + watchfiles==1.3.0
+ + websockets==17.2
+ + xgrammar==0.2.5.post1
+ + yarl==1.25.1
+ + z3-solver==4.15.4.0
+  退出码 0
+=== 4) 版本自检 ===
+  torch                  2.11.0+cu130
+  transformers           4.57.6
+  vllm                   0.23.0
+  flash_linear_attention ✗ ModuleNotFoundError
+  causal_conv1d          ✗ ModuleNotFoundError
+  triton                 3.6.0
+=== 5) ★关键：registry 是否登记 Qwen3_5ForConditionalGeneration ===
+WARNING 10-05 03:14:02 [config.py:71] Support for Transformers v4 is deprecated. The Transformers v4 codepath will become unmaintained in vLLM v0.22.0 and will be removed in vLLM v0.24.0. Please upgrade to Transformers v5: pip install --upgrade transformers
+INFO 10-05 03:14:09 [importing.py:46] Triton is installed but 0 active driver(s) found (expected 1). Disabling Triton to prevent runtime errors.
+INFO 10-05 03:14:09 [importing.py:81] Triton not installed or not compatible; certain GPU-related functions will not be available.
+  架构总数 365
+  Qwen3_5 系：['ColQwen3_5', 'Qwen3_5ForConditionalGeneration', 'Qwen3_5MTP', 'Qwen3_5MoeForConditionalGeneration', 'Qwen3_5MoeMTP']
+  ✓ 已登记（可加载 Qwen3.8-27B）
+=== 6) CUDA 可用性（无卡时应为 False，属正常） ===
+  torch 2.11.0+cu130 | cuda build 13.0 | avail False
+=== 7) 磁盘（构建后） ===
+/dev/md0        120G   48G   73G  40% /root/autodl-tmp
+=== 结束 ===

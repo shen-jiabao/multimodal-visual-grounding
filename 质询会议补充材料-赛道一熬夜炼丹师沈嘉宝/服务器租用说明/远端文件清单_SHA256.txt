@@ -1,0 +1,46 @@
+﻿# 远端关键文件清单（只读采集）
+# 主机: autodl-container-a19d43b48e-bedc3b24
+# 采集时间(UTC): 2026-10-14 15:54:49
+
+文件(相对 rivermind-data)                            字节  mtime(+0800)          sha256
+_qwen_full_pipeline.py                                    38089  2026-10-05 13:42:26   6a91dc2beb6077830143c809c9906c21da3dd3d46e38d6bf93eea9c781e10d5b
+_qwen_full_pipeline.py.bak20261005                        36092  2026-10-05 04:16:07   6dd2acb8e9cd2a644595a4a9328b012e885ad6f369b5137ba09d863bc230a2e2
+_get_serve_q38.sh                                          9725  2026-10-05 04:16:48   409dcd334c59181eefd163a645a0fd8639359477234c97d198314d062430aac9
+_q38_gate.py                                               6815  2026-10-05 04:16:09   3cada92b2668a44f9864c9e85b24f24f673580941911e479b4670b102d2764fd
+_q38_gate.sh                                               1570  2026-10-05 04:29:02   28b83cd2e799370fd07f4c7378fe035ede0aafaaadf3343304582a4cb325c910
+_launch_q38.sh                                             6357  2026-10-05 04:36:11   c6e7f5ab401ea65960a2791eb4ace9833efd646e31cf8260c0fa6f48c3eeb48b
+_q38_dl.sh                                                 8336  2026-10-05 02:53:20   1404e58a44b70d94dbaff9f46ae2aed2473b965e34920b1802e81ac078794333
+_q38_build.sh                                              3996  2026-10-05 02:50:25   2a6e997c0406168868d001cdc29d52f3dc66bfc6e1e4da047e0a5bda12ccd055
+_q38_env.sh                                                 568  2026-10-05 02:11:37   e94c3000f304238f90c6b05ecaea6f61ca77319e5d306eb8e8e42f442434f637
+_make_submission.py                                        2539  2026-10-05 13:43:49   e5a1071879dd9836f91eb162884f4f91d2c698f03b583b6948d077ccafdee875
+_serve_run.sh                                               157  2026-10-05 11:20:18   3257355ed5120e52eda33b431532bb26c29c492dd72f2aeea6e1c4af988387e6
+_ordinal_cores_r2.json                                    33093  2026-10-05 03:17:48   cfba587d75ae3fb53cd64bfcc5e684eb81369c6b67aea022f4d7b945daeb80c2
+_q38_gate20.json                                           6472  2026-10-05 04:32:11   12b08f0558d74246aad39f6e6d25cfb0a7bcb1217728043169839489bb445da7
+_q38_gate20_panel.json                                     6281  2026-10-05 04:31:12   ad4f55c210c5942f22d00314b71640d2fed7f5bfda0de2bba9fafe3582c0d27f
+q38_env.log                                               10338  2026-10-05 03:15:01   a0d0113440c2645dfd553a413014edc5c00d0e48e7666c52dbc5b0caf506e981
+q38_dl.log                                                 2168  2026-10-05 03:51:10   790c26a2163f59c73e0bfefb794b7efe43be76f96ff230c43c78f8ee7eeafac3
+_q38_build.out                                             3542  2026-10-05 03:15:01   caedcf7cd251b59f64aed084bb0852981ecd33e6fd4fc3de2cccfb0f7bc62884
+_q38_serve.log                                             3193  2026-10-05 11:22:19   3d58f4f8b210d0c0a6b509e3ca2c7c38898fbafbd7ccee578b700bd95e4dd753
+vllm38.log                                                78855  2026-10-05 11:42:30   b25506a32a3a7257cd201297f7566c2bda9f7e06ecdf2d03943ca64a56f95b30
+q38_gate_vis/_sheet.png                                  849199  2026-10-05 04:32:12   f082de6658d073eb97dc0b6cf7dc8844398273b0271bebcf81500e35a3d4c2a6
+models/Qwen3.8-27B/config.json                             4312  2026-10-05 02:54:09   191e0af232104ed8b65258cf3fb2b842e288008baca7633c11b82a1ac7203aab
+models/Qwen3.8-27B/tokenizer.json                      12809320  2026-10-05 02:54:16   0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3
+models/Qwen3.8-27B/model.safetensors.index.json          112216  2026-10-05 02:54:13   77042094076611b69791a610065f28b7013b8c621795fa86ddccc8bac7d1b9df
+dataset/queries/queries.json                            1279352  2026-10-05 03:17:46   717d15a1b9c270befa3b5930d0b9b00ef9c567c91bd0d54819ef0e17de5795c4
+
+# 目录级统计
+  q38_gate_vis = 21 项 / 54M
+  output = 5 项 / 3.4M
+  models = 1 项 / 52G
+  models/Qwen3.8-27B = 31 项 / 52G
+  venv_q38 = 6 项 / 9.0G
+  dataset/Images = 3 项 / 7.5G
+  dataset/Images/visible = 1295 项 / 3.9G
+
+# 权重分片数（应为 18）
+18
+
+# GPU 可用性（本实例当前为无卡模式时应为 Permission denied / False）
+-rw-r--r-- 1 root root 0 Oct  5 02:06 /usr/bin/nvidia-smi
+NVRM version: NVIDIA UNIX Open Kernel Module for x86_64  580.95.05  Release Build  (dvs-builder@U22-I3-B17-02-5)  Tue Sep 23 09:55:41 UTC 2025
+=== DONE ===

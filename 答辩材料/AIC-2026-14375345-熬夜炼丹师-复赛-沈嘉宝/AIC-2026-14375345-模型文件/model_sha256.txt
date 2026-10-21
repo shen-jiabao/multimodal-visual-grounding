@@ -1,0 +1,49 @@
+# 模型权重逐文件 SHA256（实测，取自 env_record.txt [STAGE-1]/[STAGE-2]）
+# 下载后可用 download_models.py --verify 逐文件校验一致性
+
+## Qwen3.8-27B  ← 交付件 0.7963 实际使用的模型（18 分片，约 52 GiB）
+ba0ce20aae489ad196733da5064bcdf159a1fe84f53336648196e1ebb7751b1c  Qwen3.8-27B/model-00001-of-00018.safetensors
+06a148c01bfbe3faa14a5f184a7ff29a706f7ae1c8b2705d2058e26d17a001fb  Qwen3.8-27B/model-00002-of-00018.safetensors
+2e1bf62cbcd406eaa64b60d10353e1f0ef4039d0976e56f05cabe953454f9968  Qwen3.8-27B/model-00003-of-00018.safetensors
+511e34063187882659753c4d93f3859f93c019fd438d8813071921c81d9a3f1a  Qwen3.8-27B/model-00004-of-00018.safetensors
+635cb53446dc74f219740fc59e18b774f877b803b9722e289ca62575a6efa701  Qwen3.8-27B/model-00005-of-00018.safetensors
+0bc5214fac607f0e6cc92eec3789d4b8559410ef9fce66621ba8158e8410dae0  Qwen3.8-27B/model-00006-of-00018.safetensors
+80b0c49033e9a0d5762562aa12f4acdb7f54da586f3d0110f28c48d91cf07892  Qwen3.8-27B/model-00007-of-00018.safetensors
+7192c5b66185d3592927daabee1cc19e6f6e0ce75988ee20e824b624765fda79  Qwen3.8-27B/model-00008-of-00018.safetensors
+af3c48cc37af44f3db6ae0579baf019180d48d9c527caa0a1f03ff85813a56d8  Qwen3.8-27B/model-00009-of-00018.safetensors
+163490a76f3bea3a40855b7efc04ce6d27afaf1a34f0bbde495b9491f76457c9  Qwen3.8-27B/model-00010-of-00018.safetensors
+5f3ae1b948aeee39da77aec558e8236cd65fe4d7cb7686a76bb007acc563c6d8  Qwen3.8-27B/model-00011-of-00018.safetensors
+a3de1c7114677a8f5ac5c4892c90e8238ea5c1e2038c80e757dfc87c3902ca55  Qwen3.8-27B/model-00012-of-00018.safetensors
+06ab79a41f74c9c5cb734816feb0c7fc364104b227165ee7391231e1155aa02a  Qwen3.8-27B/model-00013-of-00018.safetensors
+4138ed94603065ba884bbcadedb04d7718bb40117e85e6f5c6fc5b9c05b7a85b  Qwen3.8-27B/model-00014-of-00018.safetensors
+69224e27b9de4e7dbf6fc936c6eaae08447bda3b80a6c31a871ab451173afd22  Qwen3.8-27B/model-00015-of-00018.safetensors
+73cb9a1089fb6155cb648609478d6633be8a5c7d9ca5a05bc8925ce8a553cefe  Qwen3.8-27B/model-00016-of-00018.safetensors
+beb51f01056142ac4984bd800507b0dd0fd18de57f8e9ef6ea41d1a3598983a8  Qwen3.8-27B/model-00017-of-00018.safetensors
+1d3479509e21494658f9b64d317f5ea8e55c4025d28c702d6c4d0b356ce8ea06  Qwen3.8-27B/model-00018-of-00018.safetensors
+191e0af232104ed8b65258cf3fb2b842e288008baca7633c11b82a1ac7203aab  Qwen3.8-27B/config.json
+0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3  Qwen3.8-27B/tokenizer.json
+77042094076611b69791a610065f28b7013b8c621795fa86ddccc8bac7d1b9df  Qwen3.8-27B/model.safetensors.index.json
+
+## Qwen3-VL-32B-Instruct-AWQ（非序数层首次重跑，中间层）
+5c72a170d2a4a1a3bc5adad2e689ae28138a9700e5b8c96c0266331e86c0acce  Qwen3-VL-32B-Instruct-AWQ/chat_template.json
+acb471fbb398a9867c24b961bb4a1715ebf5f04a9fb174932f8924a999fbf46d  Qwen3-VL-32B-Instruct-AWQ/config.json
+2d4464e2ead06bc9bc718c781309ad1e7baded626d66e8dcdc8b469ba185faf0  Qwen3-VL-32B-Instruct-AWQ/configuration.json
+1e241830b48b397cb0900101421df5450baddc7adf01e5fc86b5615865f3bae4  Qwen3-VL-32B-Instruct-AWQ/generation_config.json
+81825c7c8ba6a8a681cc3b9351a2a13ca566bda1f3ec84c0aa82b59957da322a  Qwen3-VL-32B-Instruct-AWQ/model-00001-of-00007.safetensors
+2eaae89ec0faf54f2ce68303343a558379140b17963b2d70c340c885cd16cc40  Qwen3-VL-32B-Instruct-AWQ/model-00002-of-00007.safetensors
+11909b5e0cd18644562368c019fefba04ad2708e3fac5c83fc57ca7e0fb7ec98  Qwen3-VL-32B-Instruct-AWQ/model-00003-of-00007.safetensors
+4e18a8af024d0c40764b2cfe95b0ccce2493fcb42cfd3084de1fa3a3b072bc7d  Qwen3-VL-32B-Instruct-AWQ/model-00004-of-00007.safetensors
+0f8974d741222950c64013152860a9ef256c9c84ff8b3e67a96ec363ea07ffb1  Qwen3-VL-32B-Instruct-AWQ/model-00005-of-00007.safetensors
+e1c423c657c8fe201e71c16669524b6550cf2b87c2b2500217f755a83957719f  Qwen3-VL-32B-Instruct-AWQ/model-00006-of-00007.safetensors
+0b30cbf523ce65c063868151b681c0873df506f305bef99afbfc0a4f93444ae6  Qwen3-VL-32B-Instruct-AWQ/model-00007-of-00007.safetensors
+dc074ac793a7952c72c3437cf72b96900e059e9b337a9610614d8ca608550c1c  Qwen3-VL-32B-Instruct-AWQ/model.safetensors.index.json
+27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516  Qwen3-VL-32B-Instruct-AWQ/preprocessor_config.json
+a5d85b6dcc535e6b93115a9ef287e6132fdbf30270da6218194ba742261173c7  Qwen3-VL-32B-Instruct-AWQ/tokenizer.json
+c2da771801886ad9ae98181793ffd3dfb7f1af30f6f7c6a4e15d7dbba52e2399  Qwen3-VL-32B-Instruct-AWQ/tokenizer_config.json
+7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13  Qwen3-VL-32B-Instruct-AWQ/video_preprocessor_config.json
+ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910  Qwen3-VL-32B-Instruct-AWQ/vocab.json
+
+## 其余模型（Qwen3-VL-8B-Instruct / Qwen3-VL-32B-Instruct bf16 / LocateAnything-3B）
+# 均为逐文件一致的开源权重，此处不再逐文件列出 SHA256；
+# 交付件（0.7963）只依赖上两节（Qwen3.8-27B 直接定位 + Qwen3-VL-32B bf16 基线），
+# 其余模型用于历史版本层的复现（详见 复现流程.md）。

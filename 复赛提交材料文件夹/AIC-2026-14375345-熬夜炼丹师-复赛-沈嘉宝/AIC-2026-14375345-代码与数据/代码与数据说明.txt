@@ -1,0 +1,21 @@
+目录说明
+========
+
+code/            复赛正式链路代码（40 个 Python 脚本）
+  ├── remote_shell/     远端起服与闸门 shell 脚本
+  └── training_未采用/  训练与评估脚手架（未采用，仅为环节完整）
+data_outputs/    管线输入与算法自产的中间产物
+  ├── _*.json             序数核心词表 / 8B 两阶段输出 / 枚举重跑 / 作用域清单等
+  ├── queries/queries.json 赛题查询索引（官方提供，未修改）
+  └── env_record.txt      实测环境（驱动/CUDA/全量 pip freeze/模型逐文件 SHA256/服务命令行）
+baselines/       各版本提交件（按线上得分归目录，8 个 JSON）＋ SHA256.txt 谱系
+README.md        项目说明（简介/权重链接/运行配置/文件介绍/测试命令/注意事项）
+requirements.txt 依赖（分 A 离线 / B 推理 / B2 交付件阶段 三节，版本为实测值）
+复现流程.md      宏观复现手册（两条复现路径、全链 6 级命令、判据参数总表、验收清单）
+技术报告素材_方法学结论.md  方法学结论、数据格式发现、不足之处（如实陈述）
+技术方案_0.7963路线.md      技术方案文档源（与本包 AIC-2026-14375345-技术方案.PDF 同源）
+
+结果件与代码的对应关系：
+  AIC-2026-14375345-赛题结果文档/result_semi_q38_nonord.zip
+  由 code/_assembly_32b.py 以 baselines/0.7786/result_semi_n32bf16_nonord.json
+  为底座、装配 data_outputs 中的 q38 直出产物得到，可离线逐条复算。

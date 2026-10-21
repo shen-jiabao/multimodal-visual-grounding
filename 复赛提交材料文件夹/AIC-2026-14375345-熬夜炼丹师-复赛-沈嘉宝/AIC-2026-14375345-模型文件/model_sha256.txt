@@ -1,0 +1,26 @@
+# 模型权重逐文件 SHA256（实测，来自 env_record.txt）
+# 下载后可用 download_models.py --verify 校验一致性
+
+## Qwen3-VL-32B-Instruct-AWQ
+5c72a170d2a4a1a3bc5adad2e689ae28138a9700e5b8c96c0266331e86c0acce  Qwen3-VL-32B-Instruct-AWQ/chat_template.json
+acb471fbb398a9867c24b961bb4a1715ebf5f04a9fb174932f8924a999fbf46d  Qwen3-VL-32B-Instruct-AWQ/config.json
+2d4464e2ead06bc9bc718c781309ad1e7baded626d66e8dcdc8b469ba185faf0  Qwen3-VL-32B-Instruct-AWQ/configuration.json
+1e241830b48b397cb0900101421df5450baddc7adf01e5fc86b5615865f3bae4  Qwen3-VL-32B-Instruct-AWQ/generation_config.json
+81825c7c8ba6a8a681cc3b9351a2a13ca566bda1f3ec84c0aa82b59957da322a  Qwen3-VL-32B-Instruct-AWQ/model-00001-of-00007.safetensors
+2eaae89ec0faf54f2ce68303343a558379140b17963b2d70c340c885cd16cc40  Qwen3-VL-32B-Instruct-AWQ/model-00002-of-00007.safetensors
+11909b5e0cd18644562368c019fefba04ad2708e3fac5c83fc57ca7e0fb7ec98  Qwen3-VL-32B-Instruct-AWQ/model-00003-of-00007.safetensors
+4e18a8af024d0c40764b2cfe95b0ccce2493fcb42cfd3084de1fa3a3b072bc7d  Qwen3-VL-32B-Instruct-AWQ/model-00004-of-00007.safetensors
+0f8974d741222950c64013152860a9ef256c9c84ff8b3e67a96ec363ea07ffb1  Qwen3-VL-32B-Instruct-AWQ/model-00005-of-00007.safetensors
+e1c423c657c8fe201e71c16669524b6550cf2b87c2b2500217f755a83957719f  Qwen3-VL-32B-Instruct-AWQ/model-00006-of-00007.safetensors
+0b30cbf523ce65c063868151b681c0873df506f305bef99afbfc0a4f93444ae6  Qwen3-VL-32B-Instruct-AWQ/model-00007-of-00007.safetensors
+dc074ac793a7952c72c3437cf72b96900e059e9b337a9610614d8ca608550c1c  Qwen3-VL-32B-Instruct-AWQ/model.safetensors.index.json
+27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516  Qwen3-VL-32B-Instruct-AWQ/preprocessor_config.json
+a5d85b6dcc535e6b93115a9ef287e6132fdbf30270da6218194ba742261173c7  Qwen3-VL-32B-Instruct-AWQ/tokenizer.json
+c2da771801886ad9ae98181793ffd3dfb7f1af30f6f7c6a4e15d7dbba52e2399  Qwen3-VL-32B-Instruct-AWQ/tokenizer_config.json
+7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13  Qwen3-VL-32B-Instruct-AWQ/video_preprocessor_config.json
+ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910  Qwen3-VL-32B-Instruct-AWQ/vocab.json
+
+## Qwen3.8-27B
+191e0af232104ed8b65258cf3fb2b842e288008baca7633c11b82a1ac7203aab  Qwen3.8-27B/config.json
+77042094076611b69791a610065f28b7013b8c621795fa86ddccc8bac7d1b9df  Qwen3.8-27B/model.safetensors.index.json
+0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3  Qwen3.8-27B/tokenizer.json

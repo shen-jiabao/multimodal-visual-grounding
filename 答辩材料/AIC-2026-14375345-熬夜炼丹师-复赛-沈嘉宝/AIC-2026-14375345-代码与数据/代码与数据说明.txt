@@ -1,0 +1,58 @@
+目录说明
+========
+
+本目录 = 交付件 `result_semi_q38_nonord.zip`（线上 ACC@0.5 = 0.7963）的
+可运行代码、中间产物与历史版本件。技术路线为「跨代换模型 Qwen3.8-27B 重跑非序数层」。
+
+本目录即脚本的 AIC_ROOT（所有 Python 脚本经 AIC_ROOT 解析路径，缺省为 code/ 的上一级），
+解压后**无需改任何代码**即可运行。
+
+code/            复赛正式链路代码（32 个 Python 脚本）
+  ├── remote_shell/     远端起服与闸门 shell 脚本（11 个，原样复制、不做路径注入；
+  │                     其中 _get_serve_q38.sh 为交付件级起服脚本）
+  └── training_未采用/  训练与评估脚手架（8 个，未采用，仅为环节完整）
+
+复赛数据集-基于大模型的多模态视觉理解与推理/queries/queries.json
+                 赛题查询索引（官方提供，未修改，1.2 MB）——键集来源。
+                 （数据集图像为大文件，按赛方要求不入包；脚本按此相对路径读取查询。）
+
+submission_zips/semifinal/   各版本提交件（按线上实际得分归子目录：0.7459 → 0.7963）
+  ├── SHA256.txt             提交件谱系（各版本 SHA256、读数链）
+  ├── 0.7963/result_semi_q38_nonord.json    ★ 本交付件（装配产物，与赛题结果文档/F 的 zip 同源）
+  └── 待提交/result_semi_k72b_n519.json      未提交变体（留档，非交付件）
+
+判据预登记/      判据预登记件（17 份：作用域 / 闸门 / 事前预期 / 止损线均写在跑之前）+ 跑后实录
+远端现场证据/    现场证据：环境构建实录 / 权重下载双验 / 起服自证 / vLLM 完整日志 /
+                 闸门 G2·G3 产物与目检图 / 远端原件脚本 + 运维脚本归档（246 个，
+                 本队实例 /root 镜像）+ 服务器取证/（2026-10-15 只读采集原文、
+                 6 张证据附图、开发会话时间线）+ 只读清单
+过程记录/        过程文档：消融实验复盘.md / 赛事数据核验.txt / 工作区过程痕迹.md /
+                 改动面可视化/（交付件 vs 基线的 519 处改动拼版）
+自检/            交付包一键自检：_verify_package.py + 包内文件清单_SHA256.txt
+初赛提交谱系_SHA256.txt   初赛阶段（9555 条评测集）12 次提交的得分与 SHA256 指纹
+
+_*.json          管线输入与算法自产的中间产物
+  ├── _ordinal_cores_r2.json      序数核心词表（1103 条，判据作用域）
+  ├── _qwen38_direct.json         ★ Qwen3.8-27B 非序数直出产物（交付件装配输入）
+  ├── _semi_qwen3vl_all.json / _semi_qwen3vl_som_all.json   8B 两阶段输出
+  ├── _enum_raw.json / _enum_targets.json                   枚举重跑产物
+  ├── _qwen32b_direct_ord.json / _qwen32b_direct_*.json     32B 层产物
+  ├── _k72b_direct_*.json / _k_scope*.json                  异质模型路线（留档）
+  └── _d_sample300.json / _d_scope.json / _vs_delivered 等   小样与作用域清单
+
+env_record.txt   实测环境（STAGE-1 + STAGE-2：驱动 / CUDA / 全量 pip freeze /
+                 模型逐分片 SHA256 / 服务命令行 / 数据集统计）
+README.md        项目说明（六节：项目简介 / 权重链接 / 运行配置 / 文件介绍 / 测试命令 / 注意事项）
+requirements.txt 依赖（分 A 离线 / B 推理 / B2 交付件阶段 三节，版本为实测值）
+复现流程.md      宏观复现手册（两条复现路径、全链 6 级逐级命令、判据参数总表、验收清单）
+技术报告素材_方法学结论.md  方法学结论、数据格式发现、不足之处（如实陈述）
+技术方案_0.7963路线.md      技术方案文档源（与顶层 AIC-2026-14375345-技术方案.PDF 同源）
+
+结果件与代码的对应关系：
+  ../AIC-2026-14375345-赛题结果文档/result_semi_q38_nonord.zip
+  由 code/_assembly_32b.py 以 submission_zips/semifinal/0.7786/result_semi_n32bf16_nonord.json
+  为底座、装配 _qwen38_direct.json 得到，可离线逐条复算（见 README.md §5 第 3 条，已实测一致）：
+
+  python code/_assembly_32b.py --direct _qwen38_direct.json \
+      --base result_semi_n32bf16_nonord --base-score 0.7786 \
+      --ord-correct 689 --base-correct 3741 --stem result_semi_q38_nonord --zip

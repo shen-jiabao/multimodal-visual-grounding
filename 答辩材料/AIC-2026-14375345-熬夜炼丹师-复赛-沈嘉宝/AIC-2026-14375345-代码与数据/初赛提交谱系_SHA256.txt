@@ -1,0 +1,25 @@
+# 初赛阶段（9555 条评测集）提交件谱系 —— 线上 ACC@0.5
+#
+# 说明：初赛提交件（zip，内含同名 JSON，9555 条，键集与初赛 test.json 一致）
+#       存档于本队工作区 submission_zips/<得分>/ 下（未随本包分发，避免与复赛件混淆）；
+#       此处记录其 SHA256 指纹，供评审与谱系核对。
+#
+# 线上得分            文件                                   SHA256
+0.6693  result_locate_merge.zip              D2B4C34B2C9629C34BD293FE508BD40BF126AB62EE929AF9D21EC5D924D8A6AF
+0.6695  result_locate_merge_som.zip          12932E0D316259E99F6A68B856B065449C0264ECC3E625A6A1D8E95FAA026E39
+0.7075  result_qwen_safe.zip                 83D3CF170D80FF716B00B469B4DA16D6F851BA0BADB3B54BB1BB4E1412FCD65A
+0.7082  result_qwen_shrink.zip               D8F852341F8B1BD46EB74DB57142526828DDB8285462BFB781A675FF17674F4F
+0.7590  result_qwen_qwen.zip                 8BEEF2E60A9AA8242D1742E32C3F3E42B4FAF8006F1F492606C6FA876D85035C
+0.7606  result_qwen_full.zip                 295E1231CC55781F2B299066F6FE11B5B31A2658BC08F1320C95667E92B541B4
+0.7613  result_qwen_det_rb.zip               7DFC876D13F9C66EE725AB89811AC7A62C5643E29399F494C5FCA20B020D2387
+0.7692  result_qwen_det.zip                  00A25F9C770887FA31D51B00D36B654E4DAE0B76B5776219D2E49BA112D851DD
+0.7709  result_qwen_det_full.zip             D0677630155D26E1BBFC5AFABCCAD4A6FD419BEB8618BC085365B43598FC1E1A
+0.7795  result_qwen_det_full_qfb.zip         2E2D5DF6552DB56AAB8C5483725B42C63F702AD751CFAD12F04CB97219D337AA
+0.7798  result_qwen_det_full_qfb_wide.zip    AF685528C5E84E5C85E366FC2A709CE321A8192E4F5FDD683675D2623700F47A
+0.7827  result_qwen_det_full_qfb_nosom.zip   09C188D4E9E62FC2DC9FA896B8ED488823A728053B7316DA0690845D871EFFBD
+#
+# 初赛最高分 = 0.7827（result_qwen_det_full_qfb_nosom.zip）
+#
+# 与复赛阶段的衔接（外部交叉验证，证据见复赛谱系 submission_zips/semifinal/SHA256.txt）：
+#   把初赛归档件 0.7827 的内部 JSON 在加装"垂直序数轴"（axes 默认只开 x）后的管线上重跑，
+#   内部 JSON 的 SHA256 仍为 C176BDB9…，**9555 条 bbox 零差异** ⇒ 规则层改动零回归。

@@ -1,0 +1,51 @@
+=== 0) 目录名断言（★防起错模型） ===
+  目标 /root/rivermind-data/models/Qwen3.8-27B
+  ✓ 含 Qwen3.8-27B
+
+=== 1) GPU 前置检查 + 自动定 TP ===
+  0, NVIDIA RTX PRO 6000 Blackwell Server Edition, 97887 MiB, 97251 MiB
+  GPU 数 1｜单卡最大 95 GB
+  ⇒ TP=1｜util=0.90｜maxlen=16384｜batch=2048｜mm={"image":1,"video":0}
+  custom all-reduce：关闭（退回 NCCL）
+
+=== 2) 权重完整性（本地，不联网） ===
+  分片 18｜缺失 0｜合计 51.75 GiB｜权重条目 1199
+
+=== 3) 环境 ===
+    vllm 0.23.0 | torch 2.11.0+cu130
+WARNING 10-05 11:20:25 [config.py:71] Support for Transformers v4 is deprecated. The Transformers v4 codepath will become unmaintained in vLLM v0.22.0 and will be removed in vLLM v0.24.0. Please upgrade to Transformers v5: pip install --upgrade transformers
+  架构登记 Qwen3_5ForConditionalGeneration: True
+  已载入环境文件 /root/rivermind-data/_q38_env.sh
+  CUDA_HOME=/usr/local/cuda｜nvcc /usr/local/cuda/bin/nvcc
+  /usr/local/cuda → /usr/local/cuda-13.0
+  flashinfer 探测：/usr/local/cuda
+  attention 候选：[] [FLASHINFER] [TRITON_ATTN] [XFORMERS] 
+
+=== 4) 起 vLLM（逐后端重试；后台分离） ===
+  （无旧 vllm）
+  --- 尝试后端：缺省 ---
+    已启动｜日志 /root/rivermind-data/vllm38.log
+      …60s｜(EngineCore pid=2176) Loading safetensors checkpoint shards:  61% Completed | 11/18 [00:35<00:
+    ✓ 就绪（110 秒）
+  ⇒ 成功后端：缺省
+    (APIServer pid=1960) INFO 10-05 11:20:33 [model.py:611] Resolved architecture: Qwen3_5ForConditionalGeneration
+    (EngineCore pid=2176) INFO 10-05 11:21:49 [gpu_model_runner.py:6200] Encoder cache will be initialized with a budget of 16384 tokens, and profiled with 1 image items of the maximum feature size.
+    (EngineCore pid=2176) INFO 10-05 11:22:00 [gpu_worker.py:480] Available KV cache memory: 32.2 GiB
+    (EngineCore pid=2176) INFO 10-05 11:22:00 [gpu_worker.py:495] CUDA graph memory profiling is enabled (default since v0.21.0). The current --gpu-memory-utilization=0.9000 is equivalent to --gpu-memory-utilization=0.8989 without CUDA graph memory profiling. To maintain the same effective KV cache size as before, increase --gpu-memory-utilization to 0.9011. To disable, set VLLM_MEMORY_PROFILER_ESTIMATE_CUDAGRAPHS=0.
+    (EngineCore pid=2176) INFO 10-05 11:22:00 [kv_cache_utils.py:1744] GPU KV cache size: 458,752 tokens
+
+=== 5) ★起服后自证（确认是 Qwen3.8-27B，非 32B） ===
+  "data":[{"id":"qwen38-27b"
+  "root":"/root/rivermind-data/models/Qwen3.8-27B"
+  "permission":[{"id":"modelperm-8aab809d6e129a3f"
+
+=== 6) 客户端环境（本机无旧 venv 时回退 venv_q38 —— 它也含 openai/pillow） ===
+  客户端解释器: /root/rivermind-data/venv_q38/bin/python
+    ✓ openai 3.24.0 | pillow 12.3.0
+
+=== 7) 下一步 ===
+  ① 20 条冒烟（G2 可解析 ≥16/20、G3 方向 ≥12/20；8~11 放行但登记"接地能力弱"；<8 停）
+  ② 过闸 → 全量 4587 条非序数 → 装配（--base result_semi_n32bf16_nonord，锚 ord 689 / 非序数 3741）
+  ③ 读数：得分 × 5690 − 689 对 3741；Δ = (得分 − 0.7786) × 5690
+=== 结束 ===
+=== SERVE-DONE rc=0 ===

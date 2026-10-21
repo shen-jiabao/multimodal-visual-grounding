@@ -1,0 +1,59 @@
+赛事数据核验（本队机器上实测）
+================================
+
+目的：证明本队机器上确实持有**赛事官方复赛数据**，且其与官方 `queries.json` 严格对应；
+并复核技术文档中「1295 张 / 两个格式子群」这两条事实。
+
+核验环境：Windows + Python 3.12，数据目录
+`复赛数据集-基于大模型的多模态视觉理解与推理/`（本队机器上的实际路径）。
+
+一、查询索引
+------------
+  queries/queries.json 条数：**5690**
+  样例条目（键 000001_001）：
+    visible : Images/visible/000001.png
+    infrared: Images/infrared/000001.png
+    depth   : Images/depth/000001.png
+    query   : "A squatting person"
+
+二、被引用图像齐备性（逐条比对 queries 中的路径与实际文件）
+--------------------------------------------------------
+  模态       目录内张数   被引用唯一图数   缺失
+  visible        2000          1295          0
+  infrared       2000          1295          0
+  depth          2000          1295          0
+
+  ⇒ 「三模态各被引用 1295 张、缺失 0」与技术文档一致。
+
+三、"两个格式子群"复核（赛题文档只描述了其中一个）
+--------------------------------------------------
+  被引用 visible 图的扩展名分布：**{.png: 1198, .jpg: 97}**
+  ⇒ 与技术文档/`_prereg_D.md` 的记载**完全一致**：
+     · 1198 张属 1920×1080 的 `.png` 组（深度 `I;16` 单通道 uint16、毫米、0–19999）
+     ·  97 张（7.5%）属 640×360 的 `.jpg` 组（深度为 `RGB` 三通道且**逐像素相同** ⇒ 8 位灰度）
+
+四、复算方式（评审可照做）
+--------------------------
+  把 `queries/queries.json` 与数据目录放在一起后：
+
+    python - <<'PY'
+    import json
+    from pathlib import Path
+    from collections import Counter
+    DS = Path("复赛数据集-基于大模型的多模态视觉理解与推理")
+    q = json.loads((DS/"queries"/"queries.json").read_text("utf-8"))
+    print("queries:", len(q))
+    for m in ("visible","infrared","depth"):
+        ref = {v[m] for v in q.values()}
+        have = {f"Images/{m}/{p.name}" for p in (DS/"Images"/m).iterdir() if p.is_file()}
+        print(m, "引用", len(ref), "缺失", len(ref-have))
+    ref = [v["visible"] for v in q.values()]
+    print("扩展名分布:", dict(Counter(Path(x).suffix.lower() for x in ref)))
+    PY
+
+  预期输出：queries 5690；三模态 引用 1295 / 缺失 0；扩展名分布 {'.png': 1198, '.jpg': 97}。
+
+五、与提交件的关系
+------------------
+  提交件 `result_semi_q38_nonord.zip`（5690 条）的键集与上述 `queries.json` 键集一致
+  （由 `code/_validate_semi.py` 的第 [1][2] 项硬约束校验，实测通过）。
