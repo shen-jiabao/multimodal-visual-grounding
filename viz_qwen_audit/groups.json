@@ -1,0 +1,9261 @@
+{
+ "C_BOTH_BIG": [
+  {
+   "qid": "013232_008",
+   "query": "A surveillance pole",
+   "iou": 0.7544,
+   "base_bbox": [
+    0.001746,
+    0.185918,
+    0.717051,
+    0.804984
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.0,
+    0.715,
+    0.796
+   ],
+   "base_area": 0.44282,
+   "qwen_area": 0.56914,
+   "ratio": 1.285,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "000212_005",
+   "query": "The reflective glass window showing mirrored images of the illuminated letters",
+   "iou": 0.2692,
+   "base_bbox": [
+    0.106874,
+    0.38033,
+    0.881597,
+    0.99603
+   ],
+   "qwen_bbox": [
+    0.1,
+    0.0,
+    1.0,
+    0.678
+   ],
+   "base_area": 0.477,
+   "qwen_area": 0.6102,
+   "ratio": 1.279,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "003600_001",
+   "query": "The tree closest to the camera",
+   "iou": 0.8381,
+   "base_bbox": [
+    0.076,
+    0.0,
+    0.599,
+    0.868
+   ],
+   "qwen_bbox": [
+    0.075,
+    0.0,
+    0.699,
+    0.868
+   ],
+   "base_area": 0.45396,
+   "qwen_area": 0.54163,
+   "ratio": 1.193,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "007709_002",
+   "query": "The tree closest to the camera and covered with green leaves",
+   "iou": 0.9165,
+   "base_bbox": [
+    0.0,
+    0.0,
+    0.469,
+    0.784
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.0,
+    0.472,
+    0.85
+   ],
+   "base_area": 0.3677,
+   "qwen_area": 0.4012,
+   "ratio": 1.091,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "014044_007",
+   "query": "The paved stone walkway curving from the bottom right towards the background.",
+   "iou": 0.9268,
+   "base_bbox": [
+    0.396,
+    0.35,
+    0.999,
+    0.998
+   ],
+   "qwen_bbox": [
+    0.396,
+    0.302,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.39074,
+   "qwen_area": 0.42159,
+   "ratio": 1.079,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "012980_001",
+   "query": "The person wearing a dark sweater holding a blue card",
+   "iou": 0.9521,
+   "base_bbox": [
+    0.554874,
+    0.004607,
+    0.998411,
+    0.996451
+   ],
+   "qwen_bbox": [
+    0.537,
+    0.0,
+    1.0,
+    0.998
+   ],
+   "base_area": 0.43992,
+   "qwen_area": 0.46207,
+   "ratio": 1.05,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "012980_004",
+   "query": "The person holding the card",
+   "iou": 0.9606,
+   "base_bbox": [
+    0.547769,
+    0.003327,
+    0.996664,
+    0.992172
+   ],
+   "qwen_bbox": [
+    0.537,
+    0.0,
+    1.0,
+    0.998
+   ],
+   "base_area": 0.44389,
+   "qwen_area": 0.46207,
+   "ratio": 1.041,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "010978_004",
+   "query": "A dense forest",
+   "iou": 0.9627,
+   "base_bbox": [
+    0.004827,
+    0.006552,
+    0.981499,
+    0.992243
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.9627,
+   "qwen_area": 1.0,
+   "ratio": 1.039,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "014688_003",
+   "query": "The paved walkway extending into the background",
+   "iou": 0.964,
+   "base_bbox": [
+    0.0,
+    0.328,
+    0.535,
+    0.998
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.305,
+    0.535,
+    1.0
+   ],
+   "base_area": 0.35845,
+   "qwen_area": 0.37183,
+   "ratio": 1.037,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "009823_003",
+   "query": "The yellow building with blue window frames located behind the elephant",
+   "iou": 0.9627,
+   "base_bbox": [
+    0.044879,
+    0.002363,
+    0.996732,
+    0.377582
+   ],
+   "qwen_bbox": [
+    0.046,
+    0.0,
+    1.0,
+    0.388
+   ],
+   "base_area": 0.35715,
+   "qwen_area": 0.37015,
+   "ratio": 1.036,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "011314_001",
+   "query": "The white reception desk",
+   "iou": 0.9737,
+   "base_bbox": [
+    0.002416,
+    0.293319,
+    0.997164,
+    0.724999
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.291,
+    1.0,
+    0.732
+   ],
+   "base_area": 0.42941,
+   "qwen_area": 0.441,
+   "ratio": 1.027,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "002466_003",
+   "query": "The trees behind",
+   "iou": 0.9747,
+   "base_bbox": [
+    0.004089,
+    0.003247,
+    0.995411,
+    0.462398
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.0,
+    1.0,
+    0.467
+   ],
+   "base_area": 0.45517,
+   "qwen_area": 0.467,
+   "ratio": 1.026,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "008199_005",
+   "query": "A meadow",
+   "iou": 0.977,
+   "base_bbox": [
+    0.004787,
+    0.004546,
+    0.994117,
+    0.992035
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.97695,
+   "qwen_area": 1.0,
+   "ratio": 1.024,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "003852_002",
+   "query": "A murky green water pool below the platform",
+   "iou": 0.9788,
+   "base_bbox": [
+    0.0,
+    0.644,
+    0.999,
+    1.0
+   ],
+   "qwen_bbox": [
+    0.001,
+    0.637,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.35564,
+   "qwen_area": 0.36264,
+   "ratio": 1.02,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "011916_009",
+   "query": "The large, textured concrete wall dominating the foreground, appearing as the closest large surface in the depth image.",
+   "iou": 0.981,
+   "base_bbox": [
+    0.0,
+    0.563,
+    0.999,
+    0.998
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.557,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.43457,
+   "qwen_area": 0.443,
+   "ratio": 1.019,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "002137_003",
+   "query": "A fence used for queuing",
+   "iou": 0.9824,
+   "base_bbox": [
+    0.00302,
+    0.252093,
+    0.995471,
+    0.992544
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.252,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.73486,
+   "qwen_area": 0.748,
+   "ratio": 1.018,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "016025_003",
+   "query": "The fence below the picture",
+   "iou": 0.9807,
+   "base_bbox": [
+    0.004521,
+    0.4726,
+    0.996558,
+    0.994366
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.473,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.51761,
+   "qwen_area": 0.527,
+   "ratio": 1.018,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "012952_003",
+   "query": "The person sitting on the bench",
+   "iou": 0.9832,
+   "base_bbox": [
+    0.427556,
+    0.00353,
+    0.996854,
+    0.993132
+   ],
+   "qwen_bbox": [
+    0.427,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.56338,
+   "qwen_area": 0.573,
+   "ratio": 1.017,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "000996_001",
+   "query": "Trees with thick dark green canopy on left",
+   "iou": 0.9785,
+   "base_bbox": [
+    0.003455,
+    0.004689,
+    0.437324,
+    0.992968
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.0,
+    0.436,
+    0.999
+   ],
+   "base_area": 0.42878,
+   "qwen_area": 0.43556,
+   "ratio": 1.016,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "002137_002",
+   "query": "The entire metal railing structure forming the queue path in the foreground",
+   "iou": 0.9832,
+   "base_bbox": [
+    0.003034,
+    0.249722,
+    0.996203,
+    0.993733
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.251,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.73893,
+   "qwen_area": 0.749,
+   "ratio": 1.014,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "002137_004",
+   "query": "The entire metal railing structure forming the queue path in the foreground",
+   "iou": 0.9832,
+   "base_bbox": [
+    0.003034,
+    0.249722,
+    0.996203,
+    0.993733
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.251,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.73893,
+   "qwen_area": 0.749,
+   "ratio": 1.014,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "003705_003",
+   "query": "A wire fence.",
+   "iou": 0.9862,
+   "base_bbox": [
+    0.002266,
+    0.513633,
+    0.999691,
+    0.995158
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.513,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.48029,
+   "qwen_area": 0.487,
+   "ratio": 1.014,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "008731_003",
+   "query": "The metal fence running across the foreground of the image.",
+   "iou": 0.9804,
+   "base_bbox": [
+    0.002109,
+    0.493502,
+    0.996962,
+    0.994152
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.495,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.49807,
+   "qwen_area": 0.505,
+   "ratio": 1.014,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "008584_001",
+   "query": "The stack of blue stools",
+   "iou": 0.9789,
+   "base_bbox": [
+    0.002541,
+    0.003633,
+    0.417442,
+    0.994274
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.0,
+    0.415,
+    1.0
+   ],
+   "base_area": 0.41102,
+   "qwen_area": 0.415,
+   "ratio": 1.01,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "015850_002",
+   "query": "The wall with the mural",
+   "iou": 0.9898,
+   "base_bbox": [
+    0.0,
+    0.273,
+    1.0,
+    0.76
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.27,
+    1.0,
+    0.762
+   ],
+   "base_area": 0.487,
+   "qwen_area": 0.492,
+   "ratio": 1.01,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "001423_008",
+   "query": "The large, broad green plant leaves dominating the foreground on the right side of the image",
+   "iou": 0.9914,
+   "base_bbox": [
+    0.403,
+    0.281,
+    0.999,
+    0.998
+   ],
+   "qwen_bbox": [
+    0.403,
+    0.278,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.42733,
+   "qwen_area": 0.43103,
+   "ratio": 1.009,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "002284_003",
+   "query": "The stainless steel railing",
+   "iou": 0.9729,
+   "base_bbox": [
+    0.002732,
+    0.424822,
+    0.996537,
+    0.993065
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.43,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.56472,
+   "qwen_area": 0.57,
+   "ratio": 1.009,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "002963_005",
+   "query": "The iron frame on the pavilion",
+   "iou": 0.9738,
+   "base_bbox": [
+    0.421928,
+    0.004407,
+    0.99639,
+    0.992953
+   ],
+   "qwen_bbox": [
+    0.427,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.56788,
+   "qwen_area": 0.573,
+   "ratio": 1.009,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "013085_003",
+   "query": "The yellow pipe on the wall",
+   "iou": 0.9869,
+   "base_bbox": [
+    0.195,
+    0.0,
+    0.643,
+    0.932
+   ],
+   "qwen_bbox": [
+    0.195,
+    0.0,
+    0.648,
+    0.93
+   ],
+   "base_area": 0.41754,
+   "qwen_area": 0.42129,
+   "ratio": 1.009,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "013981_001",
+   "query": "The person walking to the right",
+   "iou": 0.9885,
+   "base_bbox": [
+    0.621479,
+    0.003138,
+    0.977394,
+    0.994796
+   ],
+   "qwen_bbox": [
+    0.622,
+    0.0,
+    0.978,
+    1.0
+   ],
+   "base_area": 0.35295,
+   "qwen_area": 0.356,
+   "ratio": 1.009,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "003866_002",
+   "query": "A metal wire fence with a grid pattern",
+   "iou": 0.979,
+   "base_bbox": [
+    0.003161,
+    0.311479,
+    0.916406,
+    0.992801
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.316,
+    0.917,
+    1.0
+   ],
+   "base_area": 0.62221,
+   "qwen_area": 0.62723,
+   "ratio": 1.008,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "003663_005",
+   "query": "A prominent tree with dense green foliage standing on the right side of the image.",
+   "iou": 0.9927,
+   "base_bbox": [
+    0.509,
+    0.0,
+    0.999,
+    0.785
+   ],
+   "qwen_bbox": [
+    0.507,
+    0.0,
+    1.0,
+    0.786
+   ],
+   "base_area": 0.38465,
+   "qwen_area": 0.3875,
+   "ratio": 1.007,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "013729_002",
+   "query": "The white painted line on the asphalt road surface",
+   "iou": 0.9928,
+   "base_bbox": [
+    0.555,
+    0.194,
+    0.999,
+    0.998
+   ],
+   "qwen_bbox": [
+    0.555,
+    0.192,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.35698,
+   "qwen_area": 0.35956,
+   "ratio": 1.007,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "014289_003",
+   "query": "A wide area of ground cover plants on the right side of the picture",
+   "iou": 0.9849,
+   "base_bbox": [
+    0.378,
+    0.261,
+    0.999,
+    0.998
+   ],
+   "qwen_bbox": [
+    0.372,
+    0.263,
+    1.0,
+    0.997
+   ],
+   "base_area": 0.45768,
+   "qwen_area": 0.46095,
+   "ratio": 1.007,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "003166_003",
+   "query": "A path paved with curved tiles",
+   "iou": 0.9941,
+   "base_bbox": [
+    0.0,
+    0.0,
+    0.509,
+    1.0
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.0,
+    0.512,
+    1.0
+   ],
+   "base_area": 0.509,
+   "qwen_area": 0.512,
+   "ratio": 1.006,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "014051_006",
+   "query": "The paved walkway made of irregular stone tiles on the right side of the scene.",
+   "iou": 0.9767,
+   "base_bbox": [
+    0.390699,
+    0.252701,
+    0.997181,
+    0.995029
+   ],
+   "qwen_bbox": [
+    0.396,
+    0.25,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.45021,
+   "qwen_area": 0.453,
+   "ratio": 1.006,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "007758_006",
+   "query": "The stone path on the right side of the seat",
+   "iou": 0.9949,
+   "base_bbox": [
+    0.303,
+    0.095,
+    0.999,
+    0.998
+   ],
+   "qwen_bbox": [
+    0.302,
+    0.095,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.62849,
+   "qwen_area": 0.63169,
+   "ratio": 1.005,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "009389_007",
+   "query": "The light grey tiled wall section on the right side of the metallic doors.",
+   "iou": 0.9952,
+   "base_bbox": [
+    0.643,
+    0.0,
+    0.999,
+    0.998
+   ],
+   "qwen_bbox": [
+    0.643,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.35529,
+   "qwen_area": 0.357,
+   "ratio": 1.005,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "010166_001",
+   "query": "The nearest tree",
+   "iou": 0.9949,
+   "base_bbox": [
+    0.275,
+    0.0,
+    1.0,
+    0.801
+   ],
+   "qwen_bbox": [
+    0.274,
+    0.0,
+    1.0,
+    0.804
+   ],
+   "base_area": 0.58073,
+   "qwen_area": 0.5837,
+   "ratio": 1.005,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "017215_001",
+   "query": "A pond with fallen leaves",
+   "iou": 0.9953,
+   "base_bbox": [
+    0.0,
+    0.0,
+    0.82,
+    0.431
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.0,
+    0.822,
+    0.432
+   ],
+   "base_area": 0.35342,
+   "qwen_area": 0.3551,
+   "ratio": 1.005,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "014611_002",
+   "query": "The wooden boat behind the pelican",
+   "iou": 0.9816,
+   "base_bbox": [
+    0.002473,
+    0.04937,
+    0.778789,
+    0.524936
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.051,
+    0.785,
+    0.523
+   ],
+   "base_area": 0.36919,
+   "qwen_area": 0.37052,
+   "ratio": 1.004,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "017250_003",
+   "query": "A yellow ornament on a black base",
+   "iou": 0.9839,
+   "base_bbox": [
+    0.003061,
+    0.003155,
+    0.443579,
+    0.950317
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.0,
+    0.442,
+    0.948
+   ],
+   "base_area": 0.41724,
+   "qwen_area": 0.41902,
+   "ratio": 1.004,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "001108_007",
+   "query": "The large trees on the right side of the image, shading the path and the parked white scooter.",
+   "iou": 0.9737,
+   "base_bbox": [
+    0.408,
+    0.0,
+    0.999,
+    0.599
+   ],
+   "qwen_bbox": [
+    0.4,
+    0.0,
+    1.0,
+    0.592
+   ],
+   "base_area": 0.35401,
+   "qwen_area": 0.3552,
+   "ratio": 1.003,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "013729_005",
+   "query": "The nearest electric scooter",
+   "iou": 0.9939,
+   "base_bbox": [
+    0.087777,
+    0.001618,
+    0.661546,
+    0.698121
+   ],
+   "qwen_bbox": [
+    0.087,
+    0.0,
+    0.662,
+    0.697
+   ],
+   "base_area": 0.39963,
+   "qwen_area": 0.40077,
+   "ratio": 1.003,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "016949_002",
+   "query": "A decorative wall with linear ambient lighting on the right side of the image",
+   "iou": 0.9922,
+   "base_bbox": [
+    0.589,
+    0.002,
+    0.999,
+    0.998
+   ],
+   "qwen_bbox": [
+    0.59,
+    0.0,
+    1.0,
+    0.999
+   ],
+   "base_area": 0.40836,
+   "qwen_area": 0.40959,
+   "ratio": 1.003,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "002487_001",
+   "query": "The large patch of low green vegetation in the immediate foreground, extending across the bottom of the frame",
+   "iou": 0.9899,
+   "base_bbox": [
+    0.0,
+    0.561,
+    0.999,
+    0.998
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.563,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.43656,
+   "qwen_area": 0.437,
+   "ratio": 1.001,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "014604_007",
+   "query": "The dark, flat surface in the foreground closest to the camera",
+   "iou": 0.9874,
+   "base_bbox": [
+    0.0,
+    0.485,
+    0.999,
+    0.997
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.488,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.51149,
+   "qwen_area": 0.512,
+   "ratio": 1.001,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "002837_001",
+   "query": "The pedestrian in the foreground wearing a light beige coat",
+   "iou": 0.9954,
+   "base_bbox": [
+    0.098,
+    0.0,
+    0.531,
+    1.0
+   ],
+   "qwen_bbox": [
+    0.099,
+    0.0,
+    0.532,
+    1.0
+   ],
+   "base_area": 0.433,
+   "qwen_area": 0.433,
+   "ratio": 1.0,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "013757_001",
+   "query": "The closest white car",
+   "iou": 0.9958,
+   "base_bbox": [
+    0.250638,
+    0.001507,
+    0.862702,
+    0.795434
+   ],
+   "qwen_bbox": [
+    0.251,
+    0.0,
+    0.862,
+    0.795
+   ],
+   "base_area": 0.48593,
+   "qwen_area": 0.48575,
+   "ratio": 1.0,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "002487_002",
+   "query": "The uneven grass at the bottom",
+   "iou": 0.9967,
+   "base_bbox": [
+    0.0,
+    0.561,
+    0.999,
+    1.0
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.562,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.43856,
+   "qwen_area": 0.438,
+   "ratio": 0.999,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "002487_003",
+   "query": "The uneven grass at the bottom",
+   "iou": 0.9967,
+   "base_bbox": [
+    0.0,
+    0.561,
+    0.999,
+    1.0
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.562,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.43856,
+   "qwen_area": 0.438,
+   "ratio": 0.999,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "002487_004",
+   "query": "The uneven grass at the bottom",
+   "iou": 0.9967,
+   "base_bbox": [
+    0.0,
+    0.561,
+    0.999,
+    1.0
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.562,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.43856,
+   "qwen_area": 0.438,
+   "ratio": 0.999,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "002487_005",
+   "query": "The uneven grass at the bottom",
+   "iou": 0.9967,
+   "base_bbox": [
+    0.0,
+    0.561,
+    0.999,
+    1.0
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.562,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.43856,
+   "qwen_area": 0.438,
+   "ratio": 0.999,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "002494_002",
+   "query": "The large area of bare, dark brown soil in the foreground",
+   "iou": 0.9869,
+   "base_bbox": [
+    0.0,
+    0.589,
+    0.999,
+    0.998
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.592,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.40859,
+   "qwen_area": 0.408,
+   "ratio": 0.999,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "002494_004",
+   "query": "The large area of bare, dark brown soil in the foreground",
+   "iou": 0.9869,
+   "base_bbox": [
+    0.0,
+    0.589,
+    0.999,
+    0.998
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.592,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.40859,
+   "qwen_area": 0.408,
+   "ratio": 0.999,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "012056_003",
+   "query": "The low shrubs near the metal railings in the foreground of the picture",
+   "iou": 0.9969,
+   "base_bbox": [
+    0.0,
+    0.522,
+    0.999,
+    1.0
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.523,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.47752,
+   "qwen_area": 0.477,
+   "ratio": 0.999,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "008241_003",
+   "query": "A net made of seven iron wires",
+   "iou": 0.961,
+   "base_bbox": [
+    0.003179,
+    0.589476,
+    0.995576,
+    0.99548
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.598,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.40292,
+   "qwen_area": 0.402,
+   "ratio": 0.998,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "014051_011",
+   "query": "The cement floor beside the bench",
+   "iou": 0.9891,
+   "base_bbox": [
+    0.392,
+    0.25,
+    0.999,
+    0.998
+   ],
+   "qwen_bbox": [
+    0.396,
+    0.25,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.45404,
+   "qwen_area": 0.453,
+   "ratio": 0.998,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "016200_002",
+   "query": "The single-story building with a light yellow exterior that is at the right front of the turquoise-colored wall",
+   "iou": 0.9931,
+   "base_bbox": [
+    0.61,
+    0.0,
+    1.0,
+    0.919
+   ],
+   "qwen_bbox": [
+    0.609,
+    0.0,
+    1.0,
+    0.915
+   ],
+   "base_area": 0.35841,
+   "qwen_area": 0.35776,
+   "ratio": 0.998,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "007737_002",
+   "query": "A person picking up a dark-colored backpack",
+   "iou": 0.9812,
+   "base_bbox": [
+    0.15344,
+    0.005651,
+    0.525591,
+    0.99786
+   ],
+   "qwen_bbox": [
+    0.154,
+    0.0,
+    0.522,
+    1.0
+   ],
+   "base_area": 0.36925,
+   "qwen_area": 0.368,
+   "ratio": 0.997,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "009872_004",
+   "query": "The large grass shed on the right.",
+   "iou": 0.9939,
+   "base_bbox": [
+    0.374,
+    0.002,
+    1.0,
+    0.697
+   ],
+   "qwen_bbox": [
+    0.376,
+    0.001,
+    1.0,
+    0.696
+   ],
+   "base_area": 0.43507,
+   "qwen_area": 0.43368,
+   "ratio": 0.997,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "013729_001",
+   "query": "The motor scooter parked on the side of the road",
+   "iou": 0.9968,
+   "base_bbox": [
+    0.086,
+    0.0,
+    0.662,
+    0.698
+   ],
+   "qwen_bbox": [
+    0.087,
+    0.0,
+    0.662,
+    0.697
+   ],
+   "base_area": 0.40205,
+   "qwen_area": 0.40077,
+   "ratio": 0.997,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "015507_007",
+   "query": "The warm bright person standing in the center",
+   "iou": 0.9838,
+   "base_bbox": [
+    0.284736,
+    0.003438,
+    0.755166,
+    0.993541
+   ],
+   "qwen_bbox": [
+    0.287,
+    0.0,
+    0.753,
+    0.997
+   ],
+   "base_area": 0.46577,
+   "qwen_area": 0.4646,
+   "ratio": 0.997,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "010187_002",
+   "query": "The river",
+   "iou": 0.9829,
+   "base_bbox": [
+    0.0,
+    0.465,
+    0.659,
+    1.0
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.468,
+    0.663,
+    0.997
+   ],
+   "base_area": 0.35256,
+   "qwen_area": 0.35073,
+   "ratio": 0.995,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "016130_002",
+   "query": "The murky brown water body behind the concrete curb",
+   "iou": 0.9934,
+   "base_bbox": [
+    0.0,
+    0.0,
+    0.999,
+    0.535
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.0,
+    1.0,
+    0.532
+   ],
+   "base_area": 0.53447,
+   "qwen_area": 0.532,
+   "ratio": 0.995,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "001535_006",
+   "query": "The curved concrete edge separating the grass from the pond",
+   "iou": 0.974,
+   "base_bbox": [
+    0.0,
+    0.278,
+    0.934,
+    0.674
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.284,
+    0.933,
+    0.678
+   ],
+   "base_area": 0.36986,
+   "qwen_area": 0.3676,
+   "ratio": 0.994,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "013848_003",
+   "query": "A white truck on the road",
+   "iou": 0.9908,
+   "base_bbox": [
+    0.419,
+    0.01,
+    0.999,
+    0.68
+   ],
+   "qwen_bbox": [
+    0.419,
+    0.013,
+    1.0,
+    0.678
+   ],
+   "base_area": 0.3886,
+   "qwen_area": 0.38637,
+   "ratio": 0.994,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "001045_013",
+   "query": "The large leafy tree with its trunk on the far right spreads above the gate in the upper-right part of the scene.",
+   "iou": 0.9916,
+   "base_bbox": [
+    0.493,
+    0.0,
+    1.0,
+    0.814
+   ],
+   "qwen_bbox": [
+    0.496,
+    0.0,
+    1.0,
+    0.812
+   ],
+   "base_area": 0.4127,
+   "qwen_area": 0.40925,
+   "ratio": 0.992,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "008780_003",
+   "query": "The black metal fence with a thick and weathered top rail in the foreground",
+   "iou": 0.9668,
+   "base_bbox": [
+    0.001916,
+    0.521789,
+    0.934032,
+    0.994782
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.527,
+    0.925,
+    1.0
+   ],
+   "base_area": 0.44088,
+   "qwen_area": 0.43752,
+   "ratio": 0.992,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "013750_003",
+   "query": "The gray concrete curb separating the grass from the pavement",
+   "iou": 0.9902,
+   "base_bbox": [
+    0.0,
+    0.245,
+    0.999,
+    0.922
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.246,
+    1.0,
+    0.917
+   ],
+   "base_area": 0.67632,
+   "qwen_area": 0.671,
+   "ratio": 0.992,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "015248_003",
+   "query": "The calm lake water, covering the right half of the scene with gentle ripple",
+   "iou": 0.9887,
+   "base_bbox": [
+    0.29,
+    0.0,
+    0.999,
+    0.998
+   ],
+   "qwen_bbox": [
+    0.297,
+    0.0,
+    1.0,
+    0.998
+   ],
+   "base_area": 0.70758,
+   "qwen_area": 0.70159,
+   "ratio": 0.992,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "002494_005",
+   "query": "The large patch of bare, dark brown soil in the foreground.",
+   "iou": 0.9749,
+   "base_bbox": [
+    0.0,
+    0.585,
+    0.999,
+    0.997
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.592,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.41159,
+   "qwen_area": 0.408,
+   "ratio": 0.991,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "009725_004",
+   "query": "The curved concrete edge separating the pond from the dry ground area",
+   "iou": 0.991,
+   "base_bbox": [
+    0.0,
+    0.0,
+    0.474,
+    0.868
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.0,
+    0.473,
+    0.862
+   ],
+   "base_area": 0.41143,
+   "qwen_area": 0.40773,
+   "ratio": 0.991,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "014296_003",
+   "query": "The stone-brick floor on the lower middle of the picture",
+   "iou": 0.9914,
+   "base_bbox": [
+    0.0,
+    0.533,
+    1.0,
+    1.0
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.535,
+    1.0,
+    0.998
+   ],
+   "base_area": 0.467,
+   "qwen_area": 0.463,
+   "ratio": 0.991,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "013337_002",
+   "query": "The person wearing a black top",
+   "iou": 0.97,
+   "base_bbox": [
+    0.362222,
+    0.003941,
+    0.752147,
+    0.992843
+   ],
+   "qwen_bbox": [
+    0.366,
+    0.0,
+    0.748,
+    0.999
+   ],
+   "base_area": 0.3856,
+   "qwen_area": 0.38162,
+   "ratio": 0.99,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "009270_002",
+   "query": "The double yellow painted lines running diagonally across the paved ground in the foreground.",
+   "iou": 0.9791,
+   "base_bbox": [
+    0.151,
+    0.485,
+    0.999,
+    0.998
+   ],
+   "qwen_bbox": [
+    0.153,
+    0.492,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.43502,
+   "qwen_area": 0.43028,
+   "ratio": 0.989,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "008549_001",
+   "query": "The black chair",
+   "iou": 0.9639,
+   "base_bbox": [
+    0.408469,
+    0.269458,
+    0.90736,
+    0.993145
+   ],
+   "qwen_bbox": [
+    0.419,
+    0.273,
+    0.908,
+    1.0
+   ],
+   "base_area": 0.36104,
+   "qwen_area": 0.3555,
+   "ratio": 0.985,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "002053_001",
+   "query": "The light-colored ground",
+   "iou": 0.9805,
+   "base_bbox": [
+    0.0,
+    0.623,
+    0.999,
+    1.0
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.63,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.37662,
+   "qwen_area": 0.37,
+   "ratio": 0.982,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "012973_001",
+   "query": "The person wearing a dark jacket and grey sweatpants",
+   "iou": 0.9627,
+   "base_bbox": [
+    0.36939,
+    0.004091,
+    0.793095,
+    0.993819
+   ],
+   "qwen_bbox": [
+    0.377,
+    0.0,
+    0.789,
+    1.0
+   ],
+   "base_area": 0.41935,
+   "qwen_area": 0.412,
+   "ratio": 0.982,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "002074_001",
+   "query": "The man‑made ground",
+   "iou": 0.9813,
+   "base_bbox": [
+    0.0,
+    0.625,
+    1.0,
+    1.0
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.632,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.375,
+   "qwen_area": 0.368,
+   "ratio": 0.981,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "002053_003",
+   "query": "The tiled floor",
+   "iou": 0.9761,
+   "base_bbox": [
+    0.0,
+    0.623,
+    1.0,
+    1.0
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.632,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.377,
+   "qwen_area": 0.368,
+   "ratio": 0.976,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "003768_002",
+   "query": "A small shelter with a corrugated metal roof and white walls",
+   "iou": 0.9764,
+   "base_bbox": [
+    0.385884,
+    0.211228,
+    0.94716,
+    0.934916
+   ],
+   "qwen_bbox": [
+    0.387,
+    0.22,
+    0.944,
+    0.932
+   ],
+   "base_area": 0.40619,
+   "qwen_area": 0.39658,
+   "ratio": 0.976,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "014030_007",
+   "query": "The red brick pedestrian path curving along the right side of the scene.",
+   "iou": 0.9709,
+   "base_bbox": [
+    0.535,
+    0.0,
+    0.999,
+    0.998
+   ],
+   "qwen_bbox": [
+    0.535,
+    0.027,
+    1.0,
+    0.998
+   ],
+   "base_area": 0.46307,
+   "qwen_area": 0.45151,
+   "ratio": 0.975,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "002053_002",
+   "query": "The reflective ground",
+   "iou": 0.9673,
+   "base_bbox": [
+    0.0,
+    0.622,
+    0.999,
+    0.999
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.633,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.37662,
+   "qwen_area": 0.367,
+   "ratio": 0.974,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "007464_001",
+   "query": "The person wearing a black hoodie with white text on the sleeve standing in the foreground",
+   "iou": 0.9722,
+   "base_bbox": [
+    0.497,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "qwen_bbox": [
+    0.498,
+    0.0,
+    0.987,
+    1.0
+   ],
+   "base_area": 0.503,
+   "qwen_area": 0.489,
+   "ratio": 0.972,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "009900_003",
+   "query": "The shed with two zebras.",
+   "iou": 0.962,
+   "base_bbox": [
+    0.17538,
+    0.056553,
+    0.996328,
+    0.787532
+   ],
+   "qwen_bbox": [
+    0.182,
+    0.06,
+    1.0,
+    0.772
+   ],
+   "base_area": 0.6001,
+   "qwen_area": 0.58242,
+   "ratio": 0.971,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "013827_001",
+   "query": "The laptop on the table",
+   "iou": 0.9714,
+   "base_bbox": [
+    0.029879,
+    0.316688,
+    0.690405,
+    0.97819
+   ],
+   "qwen_bbox": [
+    0.031,
+    0.326,
+    0.688,
+    0.972
+   ],
+   "base_area": 0.43694,
+   "qwen_area": 0.42442,
+   "ratio": 0.971,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "010362_005",
+   "query": "The building in the left",
+   "iou": 0.9573,
+   "base_bbox": [
+    0.002061,
+    0.018127,
+    0.512426,
+    0.79895
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.021,
+    0.512,
+    0.772
+   ],
+   "base_area": 0.3985,
+   "qwen_area": 0.38451,
+   "ratio": 0.965,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "008885_002",
+   "query": "Teal metal fence with vertical bars, enclosing the water tank and separating it from the concrete platform",
+   "iou": 0.9144,
+   "base_bbox": [
+    0.002252,
+    0.003103,
+    0.656563,
+    0.769272
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.0,
+    0.615,
+    0.783
+   ],
+   "base_area": 0.50131,
+   "qwen_area": 0.48155,
+   "ratio": 0.961,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "007688_003",
+   "query": "A red large truck driving from left to right",
+   "iou": 0.9507,
+   "base_bbox": [
+    0.426702,
+    0.002843,
+    0.946956,
+    0.706276
+   ],
+   "qwen_bbox": [
+    0.43,
+    0.0,
+    0.927,
+    0.707
+   ],
+   "base_area": 0.36596,
+   "qwen_area": 0.35138,
+   "ratio": 0.96,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "016571_001",
+   "query": "The large multi-colored archway structure with red, blue, and pink curved beams",
+   "iou": 0.936,
+   "base_bbox": [
+    0.00239,
+    0.024878,
+    0.59425,
+    0.720942
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.062,
+    0.598,
+    0.722
+   ],
+   "base_area": 0.41197,
+   "qwen_area": 0.39468,
+   "ratio": 0.958,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "014079_010",
+   "query": "The blue sky in the picture",
+   "iou": 0.9234,
+   "base_bbox": [
+    0.0,
+    0.0,
+    0.999,
+    0.541
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.0,
+    1.0,
+    0.5
+   ],
+   "base_area": 0.54046,
+   "qwen_area": 0.5,
+   "ratio": 0.925,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "003670_003",
+   "query": "A tree with dense green foliage standing to the right of the rhino enclosure.",
+   "iou": 0.9204,
+   "base_bbox": [
+    0.492,
+    0.0,
+    0.999,
+    0.998
+   ],
+   "qwen_bbox": [
+    0.5,
+    0.0,
+    1.0,
+    0.935
+   ],
+   "base_area": 0.50599,
+   "qwen_area": 0.4675,
+   "ratio": 0.924,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "013533_003",
+   "query": "The large tree on the right side of the frame that is closest to the camera",
+   "iou": 0.8971,
+   "base_bbox": [
+    0.446,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "qwen_bbox": [
+    0.503,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.554,
+   "qwen_area": 0.497,
+   "ratio": 0.897,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "015675_003",
+   "query": "The black chair in front of the computer",
+   "iou": 0.8355,
+   "base_bbox": [
+    0.333583,
+    0.273333,
+    0.913283,
+    0.994889
+   ],
+   "qwen_bbox": [
+    0.424,
+    0.278,
+    0.914,
+    0.997
+   ],
+   "base_area": 0.41829,
+   "qwen_area": 0.35231,
+   "ratio": 0.842,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "001437_010",
+   "query": "The long building in the background featuring large glass windows and a thatched roof",
+   "iou": 0.8044,
+   "base_bbox": [
+    0.0,
+    0.0,
+    0.999,
+    0.561
+   ],
+   "qwen_bbox": [
+    0.159,
+    0.023,
+    1.0,
+    0.562
+   ],
+   "base_area": 0.56044,
+   "qwen_area": 0.4533,
+   "ratio": 0.809,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "010635_003",
+   "query": "The leafless tree standing in the center foreground",
+   "iou": 0.7868,
+   "base_bbox": [
+    0.211,
+    0.015,
+    0.663,
+    1.0
+   ],
+   "qwen_bbox": [
+    0.207,
+    0.197,
+    0.652,
+    0.997
+   ],
+   "base_area": 0.44522,
+   "qwen_area": 0.356,
+   "ratio": 0.8,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "010138_007",
+   "query": "The paved sidewalk area in the immediate foreground with brick pattern",
+   "iou": 0.7518,
+   "base_bbox": [
+    0.0,
+    0.465,
+    0.999,
+    0.998
+   ],
+   "qwen_bbox": [
+    0.172,
+    0.512,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.53247,
+   "qwen_area": 0.40406,
+   "ratio": 0.759,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "016606_001",
+   "query": "The land with grass growing on the left",
+   "iou": 0.7327,
+   "base_bbox": [
+    0.0,
+    0.0,
+    0.999,
+    1.0
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.0,
+    0.732,
+    1.0
+   ],
+   "base_area": 0.999,
+   "qwen_area": 0.732,
+   "ratio": 0.733,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "009823_006",
+   "query": "The grassy area in the foreground where shadows from trees are cast",
+   "iou": 0.7312,
+   "base_bbox": [
+    0.0,
+    0.342,
+    0.999,
+    0.998
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.517,
+    1.0,
+    0.997
+   ],
+   "base_area": 0.65534,
+   "qwen_area": 0.48,
+   "ratio": 0.732,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "010257_005",
+   "query": "Red bricks In the prospect",
+   "iou": 0.7097,
+   "base_bbox": [
+    0.163987,
+    0.138797,
+    0.994718,
+    0.993505
+   ],
+   "qwen_bbox": [
+    0.174,
+    0.372,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.71003,
+   "qwen_area": 0.51873,
+   "ratio": 0.731,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "000261_003",
+   "query": "The metal and wood shelter with a sloped roof over the left enclosure",
+   "iou": 0.6902,
+   "base_bbox": [
+    0.002428,
+    0.0043,
+    0.647769,
+    0.992529
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.0,
+    0.646,
+    0.693
+   ],
+   "base_area": 0.63774,
+   "qwen_area": 0.44768,
+   "ratio": 0.702,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "012945_003",
+   "query": "The person wearing dark sweatpants",
+   "iou": 0.6819,
+   "base_bbox": [
+    0.289864,
+    0.004619,
+    0.97697,
+    0.99347
+   ],
+   "qwen_bbox": [
+    0.503,
+    0.0,
+    0.98,
+    0.999
+   ],
+   "base_area": 0.67945,
+   "qwen_area": 0.47652,
+   "ratio": 0.701,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "008675_001",
+   "query": "The grass near the camera",
+   "iou": 0.6886,
+   "base_bbox": [
+    0.0,
+    0.467,
+    1.0,
+    1.0
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.633,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.533,
+   "qwen_area": 0.367,
+   "ratio": 0.689,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "008871_004",
+   "query": "The reflection of the green metal fence in the water",
+   "iou": 0.5702,
+   "base_bbox": [
+    0.002728,
+    0.147241,
+    0.996938,
+    0.992673
+   ],
+   "qwen_bbox": [
+    0.001,
+    0.168,
+    0.762,
+    0.8
+   ],
+   "base_area": 0.84054,
+   "qwen_area": 0.48095,
+   "ratio": 0.572,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "002956_002",
+   "query": "The glass shed",
+   "iou": 0.5377,
+   "base_bbox": [
+    0.004012,
+    0.003972,
+    0.99544,
+    0.994017
+   ],
+   "qwen_bbox": [
+    0.457,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.98156,
+   "qwen_area": 0.543,
+   "ratio": 0.553,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "013743_004",
+   "query": "The dark asphalt road surface i",
+   "iou": 0.441,
+   "base_bbox": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.557,
+    1.0,
+    0.998
+   ],
+   "base_area": 1.0,
+   "qwen_area": 0.441,
+   "ratio": 0.441,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "002053_004",
+   "query": "The tiled floor made of pieces",
+   "iou": 0.363,
+   "base_bbox": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.637,
+    1.0,
+    1.0
+   ],
+   "base_area": 1.0,
+   "qwen_area": 0.363,
+   "ratio": 0.363,
+   "group": "C_BOTH_BIG",
+   "policies": [],
+   "actionable": false
+  }
+ ],
+ "C_QWEN_BIG": [
+  {
+   "qid": "007968_003",
+   "query": "A white building with four signboards with a window and a black eave",
+   "iou": 0.0027,
+   "base_bbox": [
+    0.009,
+    0.324,
+    0.082,
+    0.358
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.0,
+    0.934,
+    1.0
+   ],
+   "base_area": 0.00248,
+   "qwen_area": 0.934,
+   "ratio": 376.309,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "002648_005",
+   "query": "Two colors of tiles spliced together on the road",
+   "iou": 0.0034,
+   "base_bbox": [
+    0.0,
+    0.767,
+    0.025,
+    0.822
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.6,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.00137,
+   "qwen_area": 0.4,
+   "ratio": 290.909,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "012952_006",
+   "query": "The person closest to the camera",
+   "iou": 0.0078,
+   "base_bbox": [
+    0.567978,
+    0.376433,
+    0.608241,
+    0.48716
+   ],
+   "qwen_bbox": [
+    0.427,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.00446,
+   "qwen_area": 0.573,
+   "ratio": 128.527,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "012938_002",
+   "query": "The person closest to the camera",
+   "iou": 0.0,
+   "base_bbox": [
+    0.958105,
+    0.372742,
+    0.997627,
+    0.541452
+   ],
+   "qwen_bbox": [
+    0.395,
+    0.0,
+    0.903,
+    1.0
+   ],
+   "base_area": 0.00667,
+   "qwen_area": 0.508,
+   "ratio": 76.188,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "002648_004",
+   "query": "Tiles spliced on the road",
+   "iou": 0.0135,
+   "base_bbox": [
+    0.0,
+    0.639,
+    0.067,
+    0.721
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.593,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.00549,
+   "qwen_area": 0.407,
+   "ratio": 74.081,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "001675_004",
+   "query": "The closest object to the camera which is the person standing in the center",
+   "iou": 0.0201,
+   "base_bbox": [
+    0.253355,
+    0.327325,
+    0.31385,
+    0.444222
+   ],
+   "qwen_bbox": [
+    0.236,
+    0.047,
+    0.606,
+    0.997
+   ],
+   "base_area": 0.00707,
+   "qwen_area": 0.3515,
+   "ratio": 49.705,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "001675_001",
+   "query": "The person in the white t-shirt holding two black circular objects",
+   "iou": 0.0206,
+   "base_bbox": [
+    0.526684,
+    0.283108,
+    0.590047,
+    0.397375
+   ],
+   "qwen_bbox": [
+    0.236,
+    0.048,
+    0.606,
+    0.997
+   ],
+   "base_area": 0.00724,
+   "qwen_area": 0.35113,
+   "ratio": 48.497,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "013421_001",
+   "query": "The person closest to the camera",
+   "iou": 0.0,
+   "base_bbox": [
+    0.968036,
+    0.444409,
+    0.999704,
+    0.778049
+   ],
+   "qwen_bbox": [
+    0.153,
+    0.0,
+    0.587,
+    1.0
+   ],
+   "base_area": 0.01057,
+   "qwen_area": 0.434,
+   "ratio": 41.076,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "013645_001",
+   "query": "The car closest to the person",
+   "iou": 0.026,
+   "base_bbox": [
+    0.65391,
+    0.252529,
+    0.712465,
+    0.44818
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.256,
+    0.737,
+    0.842
+   ],
+   "base_area": 0.01146,
+   "qwen_area": 0.43188,
+   "ratio": 37.698,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "002277_003",
+   "query": "The winding fence in the bottom right corner of the screen",
+   "iou": 0.0,
+   "base_bbox": [
+    0.798956,
+    0.078608,
+    0.977769,
+    0.162916
+   ],
+   "qwen_bbox": [
+    0.162,
+    0.322,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.01508,
+   "qwen_area": 0.56816,
+   "ratio": 37.688,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "013204_007",
+   "query": "The person standing",
+   "iou": 0.0311,
+   "base_bbox": [
+    0.583788,
+    0.427471,
+    0.670129,
+    0.689039
+   ],
+   "qwen_bbox": [
+    0.273,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.02258,
+   "qwen_area": 0.727,
+   "ratio": 32.191,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "000191_002",
+   "query": "The multi-story gray concrete building with rectangular windows on the left",
+   "iou": 0.0341,
+   "base_bbox": [
+    0.092565,
+    0.176757,
+    0.148903,
+    0.418107
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.0,
+    0.399,
+    1.0
+   ],
+   "base_area": 0.0136,
+   "qwen_area": 0.399,
+   "ratio": 29.344,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "007625_001",
+   "query": "The car closest to the camera",
+   "iou": 0.0327,
+   "base_bbox": [
+    0.827876,
+    0.083456,
+    0.99936,
+    0.250489
+   ],
+   "qwen_bbox": [
+    0.214,
+    0.117,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.02864,
+   "qwen_area": 0.69404,
+   "ratio": 24.23,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "013631_002",
+   "query": "The white car closest to the person",
+   "iou": 0.0,
+   "base_bbox": [
+    0.089,
+    0.34,
+    0.302,
+    0.471
+   ],
+   "qwen_bbox": [
+    0.364,
+    0.011,
+    1.0,
+    0.998
+   ],
+   "base_area": 0.0279,
+   "qwen_area": 0.62773,
+   "ratio": 22.497,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "013715_001",
+   "query": "The nearest red seat",
+   "iou": 0.0,
+   "base_bbox": [
+    0.837434,
+    0.056137,
+    0.978222,
+    0.321606
+   ],
+   "qwen_bbox": [
+    0.321,
+    0.021,
+    0.69,
+    0.996
+   ],
+   "base_area": 0.03737,
+   "qwen_area": 0.35977,
+   "ratio": 9.626,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "010460_005",
+   "query": "A large shadow on the road",
+   "iou": 0.1094,
+   "base_bbox": [
+    0.0,
+    0.0,
+    0.284,
+    0.222
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.0,
+    0.577,
+    0.999
+   ],
+   "base_area": 0.06305,
+   "qwen_area": 0.57642,
+   "ratio": 9.143,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "007982_004",
+   "query": "Worn stone brick with yellow and green paint stains on the curved border.",
+   "iou": 0.0184,
+   "base_bbox": [
+    0.36135,
+    0.380755,
+    0.558432,
+    0.611374
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.0,
+    0.396,
+    1.0
+   ],
+   "base_area": 0.04545,
+   "qwen_area": 0.396,
+   "ratio": 8.713,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "013911_001",
+   "query": "The nearest car",
+   "iou": 0.0375,
+   "base_bbox": [
+    0.218343,
+    0.000112,
+    0.647817,
+    0.146615
+   ],
+   "qwen_bbox": [
+    0.512,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.06292,
+   "qwen_area": 0.488,
+   "ratio": 7.756,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "013176_002",
+   "query": "The person on the right side of the keyboard",
+   "iou": 0.0148,
+   "base_bbox": [
+    0.173296,
+    0.58467,
+    0.651668,
+    0.705317
+   ],
+   "qwen_bbox": [
+    0.596,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.05771,
+   "qwen_area": 0.404,
+   "ratio": 7.0,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "013323_003",
+   "query": "The closest white table",
+   "iou": 0.1364,
+   "base_bbox": [
+    0.619466,
+    0.507491,
+    0.766007,
+    0.865191
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.524,
+    0.768,
+    0.998
+   ],
+   "base_area": 0.05242,
+   "qwen_area": 0.36403,
+   "ratio": 6.945,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "009865_003",
+   "query": "The largest plant in the frame that naturally blocks sunlight.",
+   "iou": 0.1052,
+   "base_bbox": [
+    0.0,
+    0.575,
+    0.321,
+    1.0
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.0,
+    1.0,
+    0.875
+   ],
+   "base_area": 0.13643,
+   "qwen_area": 0.875,
+   "ratio": 6.414,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "001325_007",
+   "query": "The smooth concrete surface spanning the bottom portion of the scene below the brick line",
+   "iou": 0.1768,
+   "base_bbox": [
+    0.003317,
+    0.694388,
+    0.473315,
+    0.842194
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.607,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.06947,
+   "qwen_area": 0.393,
+   "ratio": 5.657,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "001353_009",
+   "query": "The tall green wire mesh fence curving along the right side of the enclosure",
+   "iou": 0.18,
+   "base_bbox": [
+    0.630327,
+    0.128967,
+    0.845279,
+    0.673425
+   ],
+   "qwen_bbox": [
+    0.298,
+    0.071,
+    1.0,
+    0.997
+   ],
+   "base_area": 0.11703,
+   "qwen_area": 0.65005,
+   "ratio": 5.554,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "002137_005",
+   "query": "The entry-guiding object",
+   "iou": 0.2842,
+   "base_bbox": [
+    0.709236,
+    0.250474,
+    0.996195,
+    0.993312
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.25,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.21316,
+   "qwen_area": 0.75,
+   "ratio": 3.518,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "001059_001",
+   "query": "The closest silver minivan positioned over a pedestrian crosswalk",
+   "iou": 0.1186,
+   "base_bbox": [
+    0.002598,
+    0.727627,
+    0.506602,
+    0.977958
+   ],
+   "qwen_bbox": [
+    0.27,
+    0.412,
+    1.0,
+    0.965
+   ],
+   "base_area": 0.12617,
+   "qwen_area": 0.40369,
+   "ratio": 3.2,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "010110_001",
+   "query": "The large dark reflection of a building on the left side of the water surface",
+   "iou": 0.4312,
+   "base_bbox": [
+    0.0,
+    0.001,
+    0.239,
+    0.876
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.0,
+    0.552,
+    0.87
+   ],
+   "base_area": 0.20913,
+   "qwen_area": 0.48024,
+   "ratio": 2.296,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "013750_001",
+   "query": "The row of curbs closest to us",
+   "iou": 0.222,
+   "base_bbox": [
+    0.231273,
+    0.079252,
+    0.958732,
+    0.488678
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.247,
+    1.0,
+    0.917
+   ],
+   "base_area": 0.29784,
+   "qwen_area": 0.67,
+   "ratio": 2.25,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "001360_008",
+   "query": "The green metal mesh fence curving along the right side of the enclosure, which forms a distinct vertical boundary in the depth map",
+   "iou": 0.0071,
+   "base_bbox": [
+    0.295426,
+    0.005256,
+    0.585599,
+    0.565927
+   ],
+   "qwen_bbox": [
+    0.577,
+    0.135,
+    1.0,
+    0.997
+   ],
+   "base_area": 0.16269,
+   "qwen_area": 0.36463,
+   "ratio": 2.241,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "002879_003",
+   "query": "The blossoming tree located immediately to the left of the metal structure",
+   "iou": 0.4591,
+   "base_bbox": [
+    0.541,
+    0.0,
+    0.798,
+    0.674
+   ],
+   "qwen_bbox": [
+    0.267,
+    0.0,
+    0.788,
+    0.683
+   ],
+   "base_area": 0.17322,
+   "qwen_area": 0.35584,
+   "ratio": 2.054,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "007548_001",
+   "query": "The paved sidewalk area and adjacent raised concrete curb on the right side of the image.",
+   "iou": 0.5117,
+   "base_bbox": [
+    0.634,
+    0.503,
+    0.999,
+    0.998
+   ],
+   "qwen_bbox": [
+    0.6,
+    0.117,
+    1.0,
+    0.997
+   ],
+   "base_area": 0.18068,
+   "qwen_area": 0.352,
+   "ratio": 1.948,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "001339_002",
+   "query": "The large rectangular stone slab located in the grass directly below the slab that the white pigeon is standing on",
+   "iou": 0.1948,
+   "base_bbox": [
+    0.269,
+    0.105,
+    0.741,
+    0.63
+   ],
+   "qwen_bbox": [
+    0.356,
+    0.347,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.2478,
+   "qwen_area": 0.42053,
+   "ratio": 1.697,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "001339_003",
+   "query": "The large rectangular stone slab located directly below the one the pigeon is standing on",
+   "iou": 0.1951,
+   "base_bbox": [
+    0.269,
+    0.105,
+    0.741,
+    0.63
+   ],
+   "qwen_bbox": [
+    0.357,
+    0.347,
+    1.0,
+    0.997
+   ],
+   "base_area": 0.2478,
+   "qwen_area": 0.41795,
+   "ratio": 1.687,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "008675_002",
+   "query": "The tall pittosporum beside the railing.",
+   "iou": 0.0,
+   "base_bbox": [
+    0.468927,
+    0.002994,
+    0.896036,
+    0.625762
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.634,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.26599,
+   "qwen_area": 0.366,
+   "ratio": 1.376,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "008528_003",
+   "query": "The left leaf of the light wooden double door in the image is the half with the silver handle near its right edge.",
+   "iou": 0.8476,
+   "base_bbox": [
+    0.277,
+    0.0,
+    0.609,
+    1.0
+   ],
+   "qwen_bbox": [
+    0.22,
+    0.0,
+    0.607,
+    0.999
+   ],
+   "base_area": 0.332,
+   "qwen_area": 0.38661,
+   "ratio": 1.164,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "010712_001",
+   "query": "The far-right white building",
+   "iou": 0.8174,
+   "base_bbox": [
+    0.55,
+    0.224,
+    1.0,
+    1.0
+   ],
+   "qwen_bbox": [
+    0.462,
+    0.242,
+    1.0,
+    0.997
+   ],
+   "base_area": 0.3492,
+   "qwen_area": 0.40619,
+   "ratio": 1.163,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "007723_003",
+   "query": "Greenery next to a white car",
+   "iou": 0.0987,
+   "base_bbox": [
+    0.642996,
+    0.00281,
+    0.997704,
+    0.869836
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.0,
+    0.773,
+    0.462
+   ],
+   "base_area": 0.30754,
+   "qwen_area": 0.35713,
+   "ratio": 1.161,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "002473_001",
+   "query": "The forked road",
+   "iou": 0.9286,
+   "base_bbox": [
+    0.0,
+    0.67,
+    0.999,
+    1.0
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.645,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.32967,
+   "qwen_area": 0.355,
+   "ratio": 1.077,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "002053_005",
+   "query": "The white tile flooring",
+   "iou": 0.9255,
+   "base_bbox": [
+    0.030362,
+    0.627569,
+    0.983996,
+    0.99325
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.632,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.34873,
+   "qwen_area": 0.368,
+   "ratio": 1.055,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "010789_002",
+   "query": "The green fence on the left side of the road",
+   "iou": 0.0788,
+   "base_bbox": [
+    0.002627,
+    0.578123,
+    0.841097,
+    0.99436
+   ],
+   "qwen_bbox": [
+    0.001,
+    0.267,
+    0.97,
+    0.64
+   ],
+   "base_area": 0.349,
+   "qwen_area": 0.36144,
+   "ratio": 1.036,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "009844_007",
+   "query": "The grassy area in the foreground where the elephant is walking",
+   "iou": 0.9713,
+   "base_bbox": [
+    0.0,
+    0.511,
+    0.71,
+    0.998
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.5,
+    0.712,
+    1.0
+   ],
+   "base_area": 0.34577,
+   "qwen_area": 0.356,
+   "ratio": 1.03,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "010789_001",
+   "query": "A pond with floating leaves",
+   "iou": 0.9881,
+   "base_bbox": [
+    0.0,
+    0.586,
+    0.836,
+    1.0
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.583,
+    0.84,
+    1.0
+   ],
+   "base_area": 0.3461,
+   "qwen_area": 0.35028,
+   "ratio": 1.012,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "016088_003",
+   "query": "The lake above the picture",
+   "iou": 0.9905,
+   "base_bbox": [
+    0.0,
+    0.0,
+    0.999,
+    0.348
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.0,
+    1.0,
+    0.351
+   ],
+   "base_area": 0.34765,
+   "qwen_area": 0.351,
+   "ratio": 1.01,
+   "group": "C_QWEN_BIG",
+   "policies": [],
+   "actionable": false
+  }
+ ],
+ "Q_REJECT": [],
+ "B_BASE_BIG": [],
+ "A_TINY_VS_BIG": [
+  {
+   "qid": "003145_004",
+   "query": "The green plants at the bottom of the screen",
+   "iou": 0.0,
+   "base_bbox": [
+    0.0,
+    0.944,
+    0.012,
+    1.0
+   ],
+   "qwen_bbox": [
+    0.205,
+    0.715,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.00067,
+   "qwen_area": 0.22658,
+   "ratio": 337.165,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "013792_002",
+   "query": "The dark brown SUV closest to the camera",
+   "iou": 0.0034,
+   "base_bbox": [
+    0.957,
+    0.977,
+    0.98,
+    1.0
+   ],
+   "qwen_bbox": [
+    0.554,
+    0.651,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.00053,
+   "qwen_area": 0.15565,
+   "ratio": 294.242,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "002914_003",
+   "query": "The large tree trunk in the foreground, located behind the small dog and to the right of the person in beige pants",
+   "iou": 0.0,
+   "base_bbox": [
+    0.905709,
+    0.022257,
+    0.919955,
+    0.055668
+   ],
+   "qwen_bbox": [
+    0.413,
+    0.0,
+    0.562,
+    0.602
+   ],
+   "base_area": 0.00048,
+   "qwen_area": 0.0897,
+   "ratio": 188.452,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "007632_003",
+   "query": "The left rear taillight of the red car parked beneath the red merchant sign on the left side of the image.",
+   "iou": 0.0054,
+   "base_bbox": [
+    0.179,
+    0.41,
+    0.184,
+    0.427
+   ],
+   "qwen_bbox": [
+    0.175,
+    0.358,
+    0.315,
+    0.47
+   ],
+   "base_area": 9e-05,
+   "qwen_area": 0.01568,
+   "ratio": 184.471,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "007562_005",
+   "query": "The passenger door handle of a white truck",
+   "iou": 0.0055,
+   "base_bbox": [
+    0.733,
+    0.538,
+    0.747,
+    0.569
+   ],
+   "qwen_bbox": [
+    0.738,
+    0.282,
+    0.868,
+    0.67
+   ],
+   "base_area": 0.00043,
+   "qwen_area": 0.05044,
+   "ratio": 116.221,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "001038_010",
+   "query": "The illuminated rear-left taillight of the partially visible rightmost black car is at the far right edge.",
+   "iou": 0.0088,
+   "base_bbox": [
+    0.935,
+    0.776,
+    0.969,
+    0.788
+   ],
+   "qwen_bbox": [
+    0.841,
+    0.71,
+    1.0,
+    1.0
+   ],
+   "base_area": 0.00041,
+   "qwen_area": 0.04611,
+   "ratio": 113.015,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "014457_002",
+   "query": "Person taking photos of flowers with a camera",
+   "iou": 0.0,
+   "base_bbox": [
+    0.630029,
+    0.480026,
+    0.646276,
+    0.50067
+   ],
+   "qwen_bbox": [
+    0.288,
+    0.22,
+    0.377,
+    0.617
+   ],
+   "base_area": 0.00034,
+   "qwen_area": 0.03533,
+   "ratio": 105.345,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "002508_002",
+   "query": "Three small yellow flowers on the green grass",
+   "iou": 0.0101,
+   "base_bbox": [
+    0.526,
+    0.605,
+    0.535,
+    0.617
+   ],
+   "qwen_bbox": [
+    0.525,
+    0.603,
+    0.685,
+    0.67
+   ],
+   "base_area": 0.00011,
+   "qwen_area": 0.01072,
+   "ratio": 99.259,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "001738_008",
+   "query": "The person on the left who is about to hit the ball with their paddle raised",
+   "iou": 0.0,
+   "base_bbox": [
+    0.288652,
+    0.556168,
+    0.309509,
+    0.59152
+   ],
+   "qwen_bbox": [
+    0.31,
+    0.443,
+    0.465,
+    0.892
+   ],
+   "base_area": 0.00074,
+   "qwen_area": 0.0696,
+   "ratio": 94.387,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "008241_002",
+   "query": "Connection node of seven iron wires",
+   "iou": 0.0124,
+   "base_bbox": [
+    0.057,
+    0.967,
+    0.075,
+    0.994
+   ],
+   "qwen_bbox": [
+    0.056,
+    0.671,
+    0.175,
+    1.0
+   ],
+   "base_area": 0.00049,
+   "qwen_area": 0.03915,
+   "ratio": 80.558,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "012371_008",
+   "query": "The bright, square light panel mounted on a stand on the left side of the room.",
+   "iou": 0.0,
+   "base_bbox": [
+    0.03461,
+    0.874267,
+    0.050396,
+    0.923835
+   ],
+   "qwen_bbox": [
+    0.304,
+    0.598,
+    0.456,
+    0.997
+   ],
+   "base_area": 0.00078,
+   "qwen_area": 0.06065,
+   "ratio": 77.507,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "010502_003",
+   "query": "The blue trash can",
+   "iou": 0.0,
+   "base_bbox": [
+    0.279,
+    0.336,
+    0.299,
+    0.356
+   ],
+   "qwen_bbox": [
+    0.151,
+    0.463,
+    0.27,
+    0.723
+   ],
+   "base_area": 0.0004,
+   "qwen_area": 0.03094,
+   "ratio": 77.35,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "010152_001",
+   "query": "The top part of the grey metal pole in the foreground on the right side of the image.",
+   "iou": 0.013,
+   "base_bbox": [
+    0.804,
+    0.0,
+    0.819,
+    0.015
+   ],
+   "qwen_bbox": [
+    0.799,
+    0.0,
+    0.823,
+    0.72
+   ],
+   "base_area": 0.00022,
+   "qwen_area": 0.01728,
+   "ratio": 76.8,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "012938_001",
+   "query": "The blue trash bin with a black liner",
+   "iou": 0.0,
+   "base_bbox": [
+    0.279,
+    0.336,
+    0.299,
+    0.356
+   ],
+   "qwen_bbox": [
+    0.152,
+    0.463,
+    0.27,
+    0.723
+   ],
+   "base_area": 0.0004,
+   "qwen_area": 0.03068,
+   "ratio": 76.7,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "001276_007",
+   "query": "The small black umbrella logo on the lower front of the box the man is carrying is near the center of the box's bottom edge.",
+   "iou": 0.0136,
+   "base_bbox": [
+    0.523,
+    0.508,
+    0.542,
+    0.534
+   ],
+   "qwen_bbox": [
+    0.502,
+    0.385,
+    0.651,
+    0.628
+   ],
+   "base_area": 0.00049,
+   "qwen_area": 0.03621,
+   "ratio": 73.294,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "007639_003",
+   "query": "The left front door handle of the car closer to the camera",
+   "iou": 0.015,
+   "base_bbox": [
+    0.585,
+    0.35,
+    0.618,
+    0.376
+   ],
+   "qwen_bbox": [
+    0.452,
+    0.185,
+    0.627,
+    0.512
+   ],
+   "base_area": 0.00086,
+   "qwen_area": 0.05722,
+   "ratio": 66.696,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "014982_001",
+   "query": "The rightmost person",
+   "iou": 0.0,
+   "base_bbox": [
+    0.557659,
+    0.270876,
+    0.576203,
+    0.30728
+   ],
+   "qwen_bbox": [
+    0.415,
+    0.343,
+    0.512,
+    0.805
+   ],
+   "base_area": 0.00068,
+   "qwen_area": 0.04481,
+   "ratio": 66.384,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "000310_004",
+   "query": "The green connecting fitting of the blue water pipe",
+   "iou": 0.0,
+   "base_bbox": [
+    0.515,
+    0.627,
+    0.521,
+    0.639
+   ],
+   "qwen_bbox": [
+    0.067,
+    0.735,
+    0.345,
+    0.752
+   ],
+   "base_area": 7e-05,
+   "qwen_area": 0.00473,
+   "ratio": 65.639,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "001269_007",
+   "query": "The small gray rectangular ceiling fixture at the extreme top-right corner is attached just to the right of the nearest fluorescent light panel.",
+   "iou": 0.0155,
+   "base_bbox": [
+    0.927,
+    0.061,
+    0.944,
+    0.082
+   ],
+   "qwen_bbox": [
+    0.846,
+    0.0,
+    0.998,
+    0.152
+   ],
+   "base_area": 0.00036,
+   "qwen_area": 0.0231,
+   "ratio": 64.717,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "001024_005",
+   "query": "The small blue brand label on the upper front of the rightmost outdoor air-conditioning unit is visible just above the hedge at the lower right.",
+   "iou": 0.0192,
+   "base_bbox": [
+    0.666,
+    0.754,
+    0.675,
+    0.767
+   ],
+   "qwen_bbox": [
+    0.62,
+    0.743,
+    0.684,
+    0.838
+   ],
+   "base_area": 0.00012,
+   "qwen_area": 0.00608,
+   "ratio": 51.966,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "013204_001",
+   "query": "The rectangular object held by the person",
+   "iou": 0.0,
+   "base_bbox": [
+    0.642518,
+    0.49078,
+    0.666844,
+    0.521263
+   ],
+   "qwen_bbox": [
+    0.297,
+    0.317,
+    0.413,
+    0.627
+   ],
+   "base_area": 0.00074,
+   "qwen_area": 0.03596,
+   "ratio": 48.494,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "001122_001",
+   "query": "The warmer person in light hoodie sitting on the right end of the curved low concrete bench",
+   "iou": 0.0,
+   "base_bbox": [
+    0.615644,
+    0.342597,
+    0.622706,
+    0.370436
+   ],
+   "qwen_bbox": [
+    0.542,
+    0.43,
+    0.605,
+    0.574
+   ],
+   "base_area": 0.0002,
+   "qwen_area": 0.00907,
+   "ratio": 46.145,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "010621_002",
+   "query": "The car closest to the camera",
+   "iou": 0.0,
+   "base_bbox": [
+    0.218485,
+    0.407382,
+    0.235747,
+    0.42516
+   ],
+   "qwen_bbox": [
+    0.8,
+    0.338,
+    0.913,
+    0.46
+   ],
+   "base_area": 0.00031,
+   "qwen_area": 0.01379,
+   "ratio": 44.923,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "015374_003",
+   "query": "The leftmost person",
+   "iou": 0.0,
+   "base_bbox": [
+    0.200683,
+    0.521047,
+    0.20577,
+    0.543658
+   ],
+   "qwen_bbox": [
+    0.238,
+    0.453,
+    0.272,
+    0.603
+   ],
+   "base_area": 0.00012,
+   "qwen_area": 0.0051,
+   "ratio": 44.339,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "012077_005",
+   "query": "The yellow and black speed bump at the bottom of the screen",
+   "iou": 0.0,
+   "base_bbox": [
+    0.482618,
+    0.89202,
+    0.503515,
+    0.925555
+   ],
+   "qwen_bbox": [
+    0.517,
+    0.913,
+    0.852,
+    1.0
+   ],
+   "base_area": 0.0007,
+   "qwen_area": 0.02914,
+   "ratio": 41.589,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "013505_001",
+   "query": "A black electric scooter",
+   "iou": 0.0,
+   "base_bbox": [
+    0.009,
+    0.563,
+    0.056,
+    0.576
+   ],
+   "qwen_bbox": [
+    0.768,
+    0.522,
+    0.902,
+    0.694
+   ],
+   "base_area": 0.00061,
+   "qwen_area": 0.02305,
+   "ratio": 37.722,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "015829_001",
+   "query": "The leftmost flamingo",
+   "iou": 0.0,
+   "base_bbox": [
+    0.180343,
+    0.641888,
+    0.191806,
+    0.654131
+   ],
+   "qwen_bbox": [
+    0.424,
+    0.706,
+    0.472,
+    0.815
+   ],
+   "base_area": 0.00014,
+   "qwen_area": 0.00523,
+   "ratio": 37.28,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "010509_004",
+   "query": "The person with their head lowered",
+   "iou": 0.0,
+   "base_bbox": [
+    0.312169,
+    0.959207,
+    0.332002,
+    0.988388
+   ],
+   "qwen_bbox": [
+    0.586,
+    0.458,
+    0.674,
+    0.688
+   ],
+   "base_area": 0.00058,
+   "qwen_area": 0.02024,
+   "ratio": 34.972,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "008794_001",
+   "query": "The black hole on the left side of the door",
+   "iou": 0.0,
+   "base_bbox": [
+    0.489,
+    0.234,
+    0.508,
+    0.272
+   ],
+   "qwen_bbox": [
+    0.635,
+    0.29,
+    0.716,
+    0.57
+   ],
+   "base_area": 0.00072,
+   "qwen_area": 0.02268,
+   "ratio": 31.413,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "012203_004",
+   "query": "The garbage in the bottom right corner",
+   "iou": 0.0311,
+   "base_bbox": [
+    0.969,
+    0.772,
+    1.0,
+    0.799
+   ],
+   "qwen_bbox": [
+    0.885,
+    0.773,
+    1.0,
+    0.998
+   ],
+   "base_area": 0.00084,
+   "qwen_area": 0.02587,
+   "ratio": 30.914,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "014947_001",
+   "query": "The scene-leftmost stone",
+   "iou": 0.0,
+   "base_bbox": [
+    0.200519,
+    0.233579,
+    0.220431,
+    0.278355
+   ],
+   "qwen_bbox": [
+    0.285,
+    0.412,
+    0.411,
+    0.626
+   ],
+   "base_area": 0.00089,
+   "qwen_area": 0.02696,
+   "ratio": 30.243,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "010593_005",
+   "query": "The blue sign",
+   "iou": 0.035,
+   "base_bbox": [
+    0.769,
+    0.466,
+    0.793,
+    0.484
+   ],
+   "qwen_bbox": [
+    0.73,
+    0.453,
+    0.833,
+    0.573
+   ],
+   "base_area": 0.00043,
+   "qwen_area": 0.01236,
+   "ratio": 28.611,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "008255_002",
+   "query": "The small round hole on the left side of the green door",
+   "iou": 0.0,
+   "base_bbox": [
+    0.416,
+    0.487,
+    0.421,
+    0.497
+   ],
+   "qwen_bbox": [
+    0.403,
+    0.438,
+    0.434,
+    0.482
+   ],
+   "base_area": 5e-05,
+   "qwen_area": 0.00136,
+   "ratio": 27.28,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "013708_007",
+   "query": "The circular light fixture closest to the central air conditioning vent",
+   "iou": 0.0,
+   "base_bbox": [
+    0.56,
+    0.409,
+    0.591,
+    0.436
+   ],
+   "qwen_bbox": [
+    0.227,
+    0.218,
+    0.39,
+    0.352
+   ],
+   "base_area": 0.00084,
+   "qwen_area": 0.02184,
+   "ratio": 26.096,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "010978_003",
+   "query": "A red panda with a white nose and a black nose tip",
+   "iou": 0.0384,
+   "base_bbox": [
+    0.523194,
+    0.687658,
+    0.543335,
+    0.722404
+   ],
+   "qwen_bbox": [
+    0.496,
+    0.659,
+    0.558,
+    0.953
+   ],
+   "base_area": 0.0007,
+   "qwen_area": 0.01823,
+   "ratio": 26.047,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "001003_010",
+   "query": "The tiny red square label on the upper-left front of the white utility box mounted beside the large pole is visible.",
+   "iou": 0.0,
+   "base_bbox": [
+    0.536,
+    0.868,
+    0.541,
+    0.879
+   ],
+   "qwen_bbox": [
+    0.546,
+    0.555,
+    0.577,
+    0.6
+   ],
+   "base_area": 6e-05,
+   "qwen_area": 0.00139,
+   "ratio": 25.364,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "010502_002",
+   "query": "The green campus card",
+   "iou": 0.0,
+   "base_bbox": [
+    0.279,
+    0.336,
+    0.299,
+    0.356
+   ],
+   "qwen_bbox": [
+    0.331,
+    0.543,
+    0.42,
+    0.656
+   ],
+   "base_area": 0.0004,
+   "qwen_area": 0.01006,
+   "ratio": 25.143,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "010670_008",
+   "query": "The person furthest from the camera standing under the green umbrella based on depth ordering",
+   "iou": 0.0,
+   "base_bbox": [
+    0.089,
+    0.715,
+    0.124,
+    0.743
+   ],
+   "qwen_bbox": [
+    0.339,
+    0.393,
+    0.403,
+    0.768
+   ],
+   "base_area": 0.00098,
+   "qwen_area": 0.024,
+   "ratio": 24.49,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "013232_006",
+   "query": "The metal bracket connecting the vertical pole to the main diagonal pole on the left",
+   "iou": 0.0,
+   "base_bbox": [
+    0.0,
+    0.18,
+    0.007,
+    0.203
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.207,
+    0.037,
+    0.312
+   ],
+   "base_area": 0.00016,
+   "qwen_area": 0.00388,
+   "ratio": 24.13,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "011034_004",
+   "query": "The mouth of the person holding both hands out",
+   "iou": 0.042,
+   "base_bbox": [
+    0.556,
+    0.101,
+    0.576,
+    0.119
+   ],
+   "qwen_bbox": [
+    0.542,
+    0.01,
+    0.607,
+    0.142
+   ],
+   "base_area": 0.00036,
+   "qwen_area": 0.00858,
+   "ratio": 23.833,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "010957_004",
+   "query": "The forth monkey from the right to the left",
+   "iou": 0.0,
+   "base_bbox": [
+    0.98451,
+    0.67584,
+    0.999574,
+    0.691785
+   ],
+   "qwen_bbox": [
+    0.398,
+    0.53,
+    0.448,
+    0.637
+   ],
+   "base_area": 0.00024,
+   "qwen_area": 0.00535,
+   "ratio": 22.274,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "016242_003",
+   "query": "A pink hair tie",
+   "iou": 0.0,
+   "base_bbox": [
+    0.819,
+    0.43,
+    0.827,
+    0.445
+   ],
+   "qwen_bbox": [
+    0.835,
+    0.485,
+    0.871,
+    0.558
+   ],
+   "base_area": 0.00012,
+   "qwen_area": 0.00263,
+   "ratio": 21.9,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "014653_004",
+   "query": "The buoy attached to the chain on the left",
+   "iou": 0.0,
+   "base_bbox": [
+    0.122466,
+    0.223747,
+    0.14302,
+    0.262849
+   ],
+   "qwen_bbox": [
+    0.2,
+    0.772,
+    0.318,
+    0.912
+   ],
+   "base_area": 0.0008,
+   "qwen_area": 0.01652,
+   "ratio": 20.555,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "015017_003",
+   "query": "The blue sign on the right side",
+   "iou": 0.0,
+   "base_bbox": [
+    0.813,
+    0.535,
+    0.846,
+    0.565
+   ],
+   "qwen_bbox": [
+    0.752,
+    0.762,
+    0.891,
+    0.905
+   ],
+   "base_area": 0.00099,
+   "qwen_area": 0.01988,
+   "ratio": 20.078,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "002515_007",
+   "query": "Three pedestrians walking on the far left sidewalk",
+   "iou": 0.0499,
+   "base_bbox": [
+    0.022,
+    0.898,
+    0.033,
+    0.955
+   ],
+   "qwen_bbox": [
+    0.02,
+    0.895,
+    0.142,
+    0.998
+   ],
+   "base_area": 0.00063,
+   "qwen_area": 0.01257,
+   "ratio": 20.041,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "012434_002",
+   "query": "The sign on the trash can indicating other waste",
+   "iou": 0.05,
+   "base_bbox": [
+    0.565,
+    0.386,
+    0.597,
+    0.405
+   ],
+   "qwen_bbox": [
+    0.55,
+    0.273,
+    0.613,
+    0.466
+   ],
+   "base_area": 0.00061,
+   "qwen_area": 0.01216,
+   "ratio": 19.998,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "007639_004",
+   "query": "The left rear door handle of the car closer to the camera",
+   "iou": 0.0,
+   "base_bbox": [
+    0.694,
+    0.342,
+    0.723,
+    0.366
+   ],
+   "qwen_bbox": [
+    0.583,
+    0.185,
+    0.627,
+    0.5
+   ],
+   "base_area": 0.0007,
+   "qwen_area": 0.01386,
+   "ratio": 19.914,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "009767_004",
+   "query": "The leftmost rectangular ventilation grille located directly above the glass doors featuring purple advertisements.",
+   "iou": 0.0,
+   "base_bbox": [
+    0.256,
+    0.21,
+    0.271,
+    0.238
+   ],
+   "qwen_bbox": [
+    0.2,
+    0.0,
+    0.255,
+    0.152
+   ],
+   "base_area": 0.00042,
+   "qwen_area": 0.00836,
+   "ratio": 19.905,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "000695_003",
+   "query": "The fixed strip on the top of the back of the square sign",
+   "iou": 0.0515,
+   "base_bbox": [
+    0.545,
+    0.465,
+    0.59,
+    0.47
+   ],
+   "qwen_bbox": [
+    0.541,
+    0.463,
+    0.593,
+    0.547
+   ],
+   "base_area": 0.00022,
+   "qwen_area": 0.00437,
+   "ratio": 19.413,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "016802_002",
+   "query": "The rightmost soccer ball",
+   "iou": 0.0,
+   "base_bbox": [
+    0.937561,
+    0.434309,
+    0.943838,
+    0.4421
+   ],
+   "qwen_bbox": [
+    0.809,
+    0.559,
+    0.833,
+    0.598
+   ],
+   "base_area": 5e-05,
+   "qwen_area": 0.00094,
+   "ratio": 19.139,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "008479_004",
+   "query": "The left tip of the curved drawer handle on the light-wood cabinet above the black bin at the far right edge of the image points slightly leftward.",
+   "iou": 0.0,
+   "base_bbox": [
+    0.176,
+    0.427,
+    0.203,
+    0.45
+   ],
+   "qwen_bbox": [
+    0.952,
+    0.553,
+    0.998,
+    0.807
+   ],
+   "base_area": 0.00062,
+   "qwen_area": 0.01168,
+   "ratio": 18.815,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "008948_001",
+   "query": "The stone brick at the feet of the peacock",
+   "iou": 0.0538,
+   "base_bbox": [
+    0.479,
+    0.797,
+    0.491,
+    0.81
+   ],
+   "qwen_bbox": [
+    0.473,
+    0.788,
+    0.573,
+    0.817
+   ],
+   "base_area": 0.00016,
+   "qwen_area": 0.0029,
+   "ratio": 18.59,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "002753_003",
+   "query": "Four air conditioner outdoor units mounted on the wall of a gray building in the background",
+   "iou": 0.0545,
+   "base_bbox": [
+    0.121,
+    0.118,
+    0.14,
+    0.143
+   ],
+   "qwen_bbox": [
+    0.119,
+    0.117,
+    0.218,
+    0.205
+   ],
+   "base_area": 0.00048,
+   "qwen_area": 0.00871,
+   "ratio": 18.341,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "013225_008",
+   "query": "The streetlight at the bottom of the screen",
+   "iou": 0.0,
+   "base_bbox": [
+    0.728,
+    0.944,
+    0.738,
+    1.0
+   ],
+   "qwen_bbox": [
+    0.932,
+    0.329,
+    0.984,
+    0.512
+   ],
+   "base_area": 0.00056,
+   "qwen_area": 0.00952,
+   "ratio": 16.993,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "012469_005",
+   "query": "The person in brown on the left side of image",
+   "iou": 0.0,
+   "base_bbox": [
+    0.20998,
+    0.491418,
+    0.217032,
+    0.529457
+   ],
+   "qwen_bbox": [
+    0.247,
+    0.45,
+    0.279,
+    0.585
+   ],
+   "base_area": 0.00027,
+   "qwen_area": 0.00432,
+   "ratio": 16.104,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "016851_001",
+   "query": "The farthest green sign",
+   "iou": 0.0,
+   "base_bbox": [
+    0.369,
+    0.912,
+    0.389,
+    0.928
+   ],
+   "qwen_bbox": [
+    0.367,
+    0.855,
+    0.454,
+    0.912
+   ],
+   "base_area": 0.00032,
+   "qwen_area": 0.00496,
+   "ratio": 15.497,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "008479_003",
+   "query": "The tiny curved silver handle grip extends leftward from the light wooden panel at the extreme right edge of the image.",
+   "iou": 0.0426,
+   "base_bbox": [
+    0.955,
+    0.548,
+    0.984,
+    0.575
+   ],
+   "qwen_bbox": [
+    0.951,
+    0.557,
+    0.999,
+    0.807
+   ],
+   "base_area": 0.00078,
+   "qwen_area": 0.012,
+   "ratio": 15.326,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "011804_003",
+   "query": "The stadium lights on the left side of the scene",
+   "iou": 0.0653,
+   "base_bbox": [
+    0.236,
+    0.313,
+    0.259,
+    0.332
+   ],
+   "qwen_bbox": [
+    0.234,
+    0.284,
+    0.262,
+    0.523
+   ],
+   "base_area": 0.00044,
+   "qwen_area": 0.00669,
+   "ratio": 15.314,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "016795_002",
+   "query": "The hydrant on the left side of the manhole cover",
+   "iou": 0.0661,
+   "base_bbox": [
+    0.517995,
+    0.390272,
+    0.537326,
+    0.430801
+   ],
+   "qwen_bbox": [
+    0.517,
+    0.325,
+    0.576,
+    0.526
+   ],
+   "base_area": 0.00078,
+   "qwen_area": 0.01186,
+   "ratio": 15.137,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "003621_005",
+   "query": "A small pipe-like object protruding near the base of the wall on the far right edge of the image.",
+   "iou": 0.0776,
+   "base_bbox": [
+    0.925,
+    0.789,
+    0.934,
+    0.801
+   ],
+   "qwen_bbox": [
+    0.923,
+    0.784,
+    0.952,
+    0.832
+   ],
+   "base_area": 0.00011,
+   "qwen_area": 0.00139,
+   "ratio": 12.889,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "009683_003",
+   "query": "The left ear of the brown bear walking towards the distance",
+   "iou": 0.0612,
+   "base_bbox": [
+    0.263,
+    0.582,
+    0.267,
+    0.589
+   ],
+   "qwen_bbox": [
+    0.264,
+    0.572,
+    0.278,
+    0.596
+   ],
+   "base_area": 3e-05,
+   "qwen_area": 0.00034,
+   "ratio": 12.0,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "011125_005",
+   "query": "The row of small cars aligned against the wall",
+   "iou": 0.0,
+   "base_bbox": [
+    0.308,
+    0.657,
+    0.337,
+    0.69
+   ],
+   "qwen_bbox": [
+    0.536,
+    0.65,
+    0.823,
+    0.69
+   ],
+   "base_area": 0.00096,
+   "qwen_area": 0.01148,
+   "ratio": 11.996,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "010621_004",
+   "query": "The electric scooter closest to the car",
+   "iou": 0.0,
+   "base_bbox": [
+    0.532,
+    0.293,
+    0.546,
+    0.328
+   ],
+   "qwen_bbox": [
+    0.403,
+    0.432,
+    0.452,
+    0.55
+   ],
+   "base_area": 0.00049,
+   "qwen_area": 0.00578,
+   "ratio": 11.8,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "001143_007",
+   "query": "The small gray stone sphere sits in the middle of the driveway just beyond the zebra crossing, to the right of the larger stone sphere.",
+   "iou": 0.0,
+   "base_bbox": [
+    0.41,
+    0.49,
+    0.422,
+    0.51
+   ],
+   "qwen_bbox": [
+    0.344,
+    0.557,
+    0.385,
+    0.626
+   ],
+   "base_area": 0.00024,
+   "qwen_area": 0.00283,
+   "ratio": 11.787,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "001437_003",
+   "query": "The flamingo standing in the foreground on the left side of the dirt bank, facing right with its head lowered towards the ground",
+   "iou": 0.0,
+   "base_bbox": [
+    0.004448,
+    0.636025,
+    0.025929,
+    0.678322
+   ],
+   "qwen_bbox": [
+    0.137,
+    0.643,
+    0.196,
+    0.821
+   ],
+   "base_area": 0.00091,
+   "qwen_area": 0.0105,
+   "ratio": 11.559,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "011776_001",
+   "query": "The left rearview mirror of the nearest white car",
+   "iou": 0.0,
+   "base_bbox": [
+    0.267,
+    0.492,
+    0.27,
+    0.499
+   ],
+   "qwen_bbox": [
+    0.28,
+    0.483,
+    0.292,
+    0.502
+   ],
+   "base_area": 2e-05,
+   "qwen_area": 0.00023,
+   "ratio": 10.857,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "009375_002",
+   "query": "The person wearing a pink jacket walking away from the camera in the distance on the paved walkway.",
+   "iou": 0.0,
+   "base_bbox": [
+    0.511819,
+    0.585736,
+    0.521846,
+    0.648114
+   ],
+   "qwen_bbox": [
+    0.579,
+    0.603,
+    0.617,
+    0.781
+   ],
+   "base_area": 0.00063,
+   "qwen_area": 0.00676,
+   "ratio": 10.814,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "008472_003",
+   "query": "The small square patch within the shadowed upper section of the dark blue left side panel on the front stacked plastic stool.",
+   "iou": 0.0951,
+   "base_bbox": [
+    0.434,
+    0.788,
+    0.455,
+    0.831
+   ],
+   "qwen_bbox": [
+    0.417,
+    0.788,
+    0.462,
+    0.999
+   ],
+   "base_area": 0.0009,
+   "qwen_area": 0.0095,
+   "ratio": 10.515,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "010537_004",
+   "query": "The roadside surveillance camera",
+   "iou": 0.0975,
+   "base_bbox": [
+    0.883,
+    0.186,
+    0.91,
+    0.223
+   ],
+   "qwen_bbox": [
+    0.883,
+    0.186,
+    0.911,
+    0.552
+   ],
+   "base_area": 0.001,
+   "qwen_area": 0.01025,
+   "ratio": 10.258,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "002564_006",
+   "query": "Two people walking in the distance on the right side of the park",
+   "iou": 0.0,
+   "base_bbox": [
+    0.834167,
+    0.32976,
+    0.838781,
+    0.349963
+   ],
+   "qwen_bbox": [
+    0.736,
+    0.296,
+    0.76,
+    0.335
+   ],
+   "base_area": 9e-05,
+   "qwen_area": 0.00094,
+   "ratio": 10.041,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "010075_005",
+   "query": "The complete ceiling light fixture positioned furthest to the right near the window frame",
+   "iou": 0.0,
+   "base_bbox": [
+    0.634162,
+    0.044834,
+    0.652335,
+    0.072723
+   ],
+   "qwen_bbox": [
+    0.705,
+    0.0,
+    0.807,
+    0.048
+   ],
+   "base_area": 0.00051,
+   "qwen_area": 0.0049,
+   "ratio": 9.66,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "002753_005",
+   "query": "A red and white striped post on the far left side of the image, near the road",
+   "iou": 0.0,
+   "base_bbox": [
+    0.003,
+    0.211,
+    0.012,
+    0.257
+   ],
+   "qwen_bbox": [
+    0.087,
+    0.234,
+    0.123,
+    0.343
+   ],
+   "base_area": 0.00041,
+   "qwen_area": 0.00392,
+   "ratio": 9.478,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "009221_001",
+   "query": "The right ear of the large cartoon character wearing a skirt in the picture",
+   "iou": 0.0,
+   "base_bbox": [
+    0.682,
+    0.509,
+    0.691,
+    0.531
+   ],
+   "qwen_bbox": [
+    0.694,
+    0.666,
+    0.72,
+    0.738
+   ],
+   "base_area": 0.0002,
+   "qwen_area": 0.00187,
+   "ratio": 9.455,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "000765_003",
+   "query": "The left lamp head of the streetlight in the distance",
+   "iou": 0.1069,
+   "base_bbox": [
+    0.396,
+    0.202,
+    0.401,
+    0.215
+   ],
+   "qwen_bbox": [
+    0.392,
+    0.196,
+    0.408,
+    0.234
+   ],
+   "base_area": 6e-05,
+   "qwen_area": 0.00061,
+   "ratio": 9.354,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "007821_002",
+   "query": "The prohibition icons on the reminder sign",
+   "iou": 0.0986,
+   "base_bbox": [
+    0.364,
+    0.724,
+    0.385,
+    0.761
+   ],
+   "qwen_bbox": [
+    0.359,
+    0.701,
+    0.485,
+    0.758
+   ],
+   "base_area": 0.00078,
+   "qwen_area": 0.00718,
+   "ratio": 9.243,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "008297_003",
+   "query": "The black phone held by the person in pink clothing in the lower left corner",
+   "iou": 0.1116,
+   "base_bbox": [
+    0.073,
+    0.9,
+    0.078,
+    0.91
+   ],
+   "qwen_bbox": [
+    0.068,
+    0.892,
+    0.084,
+    0.92
+   ],
+   "base_area": 5e-05,
+   "qwen_area": 0.00045,
+   "ratio": 8.96,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "011776_002",
+   "query": "The right rearview mirror of the nearest white car",
+   "iou": 0.0,
+   "base_bbox": [
+    0.314,
+    0.491,
+    0.318,
+    0.498
+   ],
+   "qwen_bbox": [
+    0.288,
+    0.483,
+    0.3,
+    0.502
+   ],
+   "base_area": 3e-05,
+   "qwen_area": 0.00023,
+   "ratio": 8.143,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "009648_001",
+   "query": "Some English characters on the sign on the yellow wall",
+   "iou": 0.1179,
+   "base_bbox": [
+    0.026,
+    0.143,
+    0.045,
+    0.169
+   ],
+   "qwen_bbox": [
+    0.027,
+    0.114,
+    0.085,
+    0.182
+   ],
+   "base_area": 0.00049,
+   "qwen_area": 0.00394,
+   "ratio": 7.984,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "000289_005",
+   "query": "A black steering wheel inside the red and white bumper car in the middle background.",
+   "iou": 0.0,
+   "base_bbox": [
+    0.37,
+    0.232,
+    0.387,
+    0.258
+   ],
+   "qwen_bbox": [
+    0.233,
+    0.445,
+    0.283,
+    0.515
+   ],
+   "base_area": 0.00044,
+   "qwen_area": 0.0035,
+   "ratio": 7.919,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "010838_001",
+   "query": "The big red characters on the distant house",
+   "iou": 0.127,
+   "base_bbox": [
+    0.452,
+    0.093,
+    0.462,
+    0.109
+   ],
+   "qwen_bbox": [
+    0.451,
+    0.087,
+    0.496,
+    0.115
+   ],
+   "base_area": 0.00016,
+   "qwen_area": 0.00126,
+   "ratio": 7.875,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "000597_002",
+   "query": "The small, blurry figure of a person wearing a dark shirt, standing in the background near the far right end of the wooden fence behind the camels.",
+   "iou": 0.1324,
+   "base_bbox": [
+    0.90278,
+    0.598616,
+    0.912737,
+    0.621093
+   ],
+   "qwen_bbox": [
+    0.897,
+    0.597,
+    0.923,
+    0.662
+   ],
+   "base_area": 0.00022,
+   "qwen_area": 0.00169,
+   "ratio": 7.551,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "010663_006",
+   "query": "The row of green trash bins visible in the distance on the left side of the road",
+   "iou": 0.136,
+   "base_bbox": [
+    0.37,
+    0.589,
+    0.379,
+    0.611
+   ],
+   "qwen_bbox": [
+    0.37,
+    0.588,
+    0.422,
+    0.616
+   ],
+   "base_area": 0.0002,
+   "qwen_area": 0.00146,
+   "ratio": 7.354,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "011832_003",
+   "query": "The three yellow and metallic-looking Chinese artistic letterings on the building",
+   "iou": 0.1368,
+   "base_bbox": [
+    0.503,
+    0.188,
+    0.517,
+    0.222
+   ],
+   "qwen_bbox": [
+    0.498,
+    0.182,
+    0.522,
+    0.327
+   ],
+   "base_area": 0.00048,
+   "qwen_area": 0.00348,
+   "ratio": 7.311,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "012126_006",
+   "query": "The person in the blue kayak near the left in the background",
+   "iou": 0.0,
+   "base_bbox": [
+    0.156,
+    0.266,
+    0.166,
+    0.284
+   ],
+   "qwen_bbox": [
+    0.044,
+    0.272,
+    0.073,
+    0.317
+   ],
+   "base_area": 0.00018,
+   "qwen_area": 0.0013,
+   "ratio": 7.25,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "011958_009",
+   "query": "The central pole supporting the peak of the white canopy tent.",
+   "iou": 0.0703,
+   "base_bbox": [
+    0.548,
+    0.215,
+    0.557,
+    0.247
+   ],
+   "qwen_bbox": [
+    0.552,
+    0.216,
+    0.56,
+    0.475
+   ],
+   "base_area": 0.00029,
+   "qwen_area": 0.00207,
+   "ratio": 7.194,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "012140_006",
+   "query": "The person in the yellow kayak furthest away in the center background",
+   "iou": 0.1429,
+   "base_bbox": [
+    0.501,
+    0.226,
+    0.507,
+    0.238
+   ],
+   "qwen_bbox": [
+    0.494,
+    0.223,
+    0.518,
+    0.244
+   ],
+   "base_area": 7e-05,
+   "qwen_area": 0.0005,
+   "ratio": 7.0,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "012406_002",
+   "query": "The right ear of the person who is closest to the camera",
+   "iou": 0.0,
+   "base_bbox": [
+    0.082,
+    0.541,
+    0.095,
+    0.585
+   ],
+   "qwen_bbox": [
+    0.147,
+    0.457,
+    0.185,
+    0.562
+   ],
+   "base_area": 0.00057,
+   "qwen_area": 0.00399,
+   "ratio": 6.976,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "012413_002",
+   "query": "The right eye of the person looking at the camera",
+   "iou": 0.0952,
+   "base_bbox": [
+    0.288,
+    0.785,
+    0.294,
+    0.792
+   ],
+   "qwen_bbox": [
+    0.278,
+    0.772,
+    0.292,
+    0.792
+   ],
+   "base_area": 4e-05,
+   "qwen_area": 0.00028,
+   "ratio": 6.667,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "016879_003",
+   "query": "The rightmost rooftop round light",
+   "iou": 0.0423,
+   "base_bbox": [
+    0.434,
+    0.006,
+    0.447,
+    0.027
+   ],
+   "qwen_bbox": [
+    0.443,
+    0.0,
+    0.472,
+    0.062
+   ],
+   "base_area": 0.00027,
+   "qwen_area": 0.0018,
+   "ratio": 6.586,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "011804_002",
+   "query": "The right arm of the person on the far left of the screen",
+   "iou": 0.0,
+   "base_bbox": [
+    0.165,
+    0.559,
+    0.171,
+    0.578
+   ],
+   "qwen_bbox": [
+    0.247,
+    0.533,
+    0.262,
+    0.583
+   ],
+   "base_area": 0.00011,
+   "qwen_area": 0.00075,
+   "ratio": 6.579,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "003481_003",
+   "query": "White surveillance",
+   "iou": 0.135,
+   "base_bbox": [
+    0.422,
+    0.385,
+    0.432,
+    0.404
+   ],
+   "qwen_bbox": [
+    0.419,
+    0.383,
+    0.431,
+    0.487
+   ],
+   "base_area": 0.00019,
+   "qwen_area": 0.00125,
+   "ratio": 6.568,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "012672_003",
+   "query": "The window on the far left",
+   "iou": 0.0,
+   "base_bbox": [
+    0.0,
+    0.576,
+    0.01,
+    0.604
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.617,
+    0.031,
+    0.674
+   ],
+   "base_area": 0.00028,
+   "qwen_area": 0.00177,
+   "ratio": 6.311,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "016172_003",
+   "query": "The rightmost monkey",
+   "iou": 0.0,
+   "base_bbox": [
+    0.92,
+    0.144,
+    0.943,
+    0.182
+   ],
+   "qwen_bbox": [
+    0.792,
+    0.805,
+    0.852,
+    0.896
+   ],
+   "base_area": 0.00087,
+   "qwen_area": 0.00546,
+   "ratio": 6.247,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "015346_003",
+   "query": "The left side-view mirror",
+   "iou": 0.0918,
+   "base_bbox": [
+    0.489,
+    0.513,
+    0.494,
+    0.522
+   ],
+   "qwen_bbox": [
+    0.48,
+    0.512,
+    0.492,
+    0.535
+   ],
+   "base_area": 5e-05,
+   "qwen_area": 0.00028,
+   "ratio": 6.133,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "009676_001",
+   "query": "The left eye of the bear approaching nearby",
+   "iou": 0.0606,
+   "base_bbox": [
+    0.436,
+    0.494,
+    0.439,
+    0.499
+   ],
+   "qwen_bbox": [
+    0.437,
+    0.487,
+    0.446,
+    0.497
+   ],
+   "base_area": 2e-05,
+   "qwen_area": 9e-05,
+   "ratio": 6.0,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "008822_005",
+   "query": "The pair of shoes",
+   "iou": 0.1758,
+   "base_bbox": [
+    0.902,
+    0.019,
+    0.914,
+    0.039
+   ],
+   "qwen_bbox": [
+    0.9,
+    0.0,
+    0.935,
+    0.039
+   ],
+   "base_area": 0.00024,
+   "qwen_area": 0.00137,
+   "ratio": 5.688,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "004538_002",
+   "query": "The mobile phone held in the hand of the person wearing the yellow jacket.",
+   "iou": 0.0304,
+   "base_bbox": [
+    0.472,
+    0.782,
+    0.481,
+    0.801
+   ],
+   "qwen_bbox": [
+    0.478,
+    0.75,
+    0.5,
+    0.793
+   ],
+   "base_area": 0.00017,
+   "qwen_area": 0.00095,
+   "ratio": 5.532,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "008752_001",
+   "query": "The white swan closest to the camera",
+   "iou": 0.0,
+   "base_bbox": [
+    0.479353,
+    0.957456,
+    0.497724,
+    0.979067
+   ],
+   "qwen_bbox": [
+    0.946,
+    0.712,
+    0.988,
+    0.764
+   ],
+   "base_area": 0.0004,
+   "qwen_area": 0.00218,
+   "ratio": 5.501,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "001612_005",
+   "query": "The dark shadow cast directly to the right of the deer's front legs on the edge of the brick pavement",
+   "iou": 0.1063,
+   "base_bbox": [
+    0.334,
+    0.368,
+    0.36,
+    0.405
+   ],
+   "qwen_bbox": [
+    0.262,
+    0.372,
+    0.352,
+    0.43
+   ],
+   "base_area": 0.00096,
+   "qwen_area": 0.00522,
+   "ratio": 5.426,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "009578_005",
+   "query": "The nose of the nearest wolf",
+   "iou": 0.0405,
+   "base_bbox": [
+    0.617,
+    0.448,
+    0.623,
+    0.456
+   ],
+   "qwen_bbox": [
+    0.612,
+    0.43,
+    0.625,
+    0.45
+   ],
+   "base_area": 5e-05,
+   "qwen_area": 0.00026,
+   "ratio": 5.417,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "013988_003",
+   "query": "The QR code on the pillar",
+   "iou": 0.1857,
+   "base_bbox": [
+    0.243,
+    0.947,
+    0.256,
+    0.971
+   ],
+   "qwen_bbox": [
+    0.238,
+    0.917,
+    0.268,
+    0.973
+   ],
+   "base_area": 0.00031,
+   "qwen_area": 0.00168,
+   "ratio": 5.385,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "011020_003",
+   "query": "The right ear of the person turning left",
+   "iou": 0.1253,
+   "base_bbox": [
+    0.507,
+    0.168,
+    0.514,
+    0.188
+   ],
+   "qwen_bbox": [
+    0.507,
+    0.145,
+    0.527,
+    0.182
+   ],
+   "base_area": 0.00014,
+   "qwen_area": 0.00074,
+   "ratio": 5.286,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "013295_008",
+   "query": "The pole in the top-right corner",
+   "iou": 0.0,
+   "base_bbox": [
+    0.956,
+    0.0,
+    0.964,
+    0.054
+   ],
+   "qwen_bbox": [
+    0.513,
+    0.0,
+    0.535,
+    0.102
+   ],
+   "base_area": 0.00043,
+   "qwen_area": 0.00224,
+   "ratio": 5.194,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "012994_003",
+   "query": "The security camera on the far right of the screen",
+   "iou": 0.1932,
+   "base_bbox": [
+    0.801,
+    0.43,
+    0.809,
+    0.445
+   ],
+   "qwen_bbox": [
+    0.8,
+    0.423,
+    0.827,
+    0.446
+   ],
+   "base_area": 0.00012,
+   "qwen_area": 0.00062,
+   "ratio": 5.175,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "008283_005",
+   "query": "The Tiger's Left Ear",
+   "iou": 0.1955,
+   "base_bbox": [
+    0.168,
+    0.627,
+    0.176,
+    0.64
+   ],
+   "qwen_bbox": [
+    0.157,
+    0.617,
+    0.176,
+    0.645
+   ],
+   "base_area": 0.0001,
+   "qwen_area": 0.00053,
+   "ratio": 5.115,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "016998_003",
+   "query": "The left ear of the nearest zebra",
+   "iou": 0.1516,
+   "base_bbox": [
+    0.486,
+    0.73,
+    0.496,
+    0.756
+   ],
+   "qwen_bbox": [
+    0.464,
+    0.723,
+    0.494,
+    0.767
+   ],
+   "base_area": 0.00026,
+   "qwen_area": 0.00132,
+   "ratio": 5.077,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "011741_002",
+   "query": "A digital sticker on the electric bicycle",
+   "iou": 0.0,
+   "base_bbox": [
+    0.091,
+    0.615,
+    0.112,
+    0.631
+   ],
+   "qwen_bbox": [
+    0.043,
+    0.607,
+    0.077,
+    0.657
+   ],
+   "base_area": 0.00034,
+   "qwen_area": 0.0017,
+   "ratio": 5.06,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "001038_009",
+   "query": "The small bright silver screw on the left side of the blue rear license plate of the rightmost black sedan.",
+   "iou": 0.0,
+   "base_bbox": [
+    0.941,
+    0.866,
+    0.945,
+    0.877
+   ],
+   "qwen_bbox": [
+    0.892,
+    0.852,
+    0.902,
+    0.874
+   ],
+   "base_area": 4e-05,
+   "qwen_area": 0.00022,
+   "ratio": 5.0,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "002774_003",
+   "query": "The white rectangular label attached to the rightmost tree trunk in the background",
+   "iou": 0.2,
+   "base_bbox": [
+    0.788,
+    0.005,
+    0.795,
+    0.025
+   ],
+   "qwen_bbox": [
+    0.783,
+    0.0,
+    0.797,
+    0.05
+   ],
+   "base_area": 0.00014,
+   "qwen_area": 0.0007,
+   "ratio": 5.0,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "009354_004",
+   "query": "The Chinese characters '坡'on the yellow sign",
+   "iou": 0.1479,
+   "base_bbox": [
+    0.284,
+    0.625,
+    0.3,
+    0.659
+   ],
+   "qwen_bbox": [
+    0.277,
+    0.528,
+    0.296,
+    0.666
+   ],
+   "base_area": 0.00054,
+   "qwen_area": 0.00262,
+   "ratio": 4.82,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "009746_002",
+   "query": "The right horn of the giraffe statue",
+   "iou": 0.0,
+   "base_bbox": [
+    0.939,
+    0.111,
+    0.955,
+    0.15
+   ],
+   "qwen_bbox": [
+    0.888,
+    0.123,
+    0.927,
+    0.2
+   ],
+   "base_area": 0.00062,
+   "qwen_area": 0.003,
+   "ratio": 4.813,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "000765_004",
+   "query": "The right lamp head of the streetlight in the distance",
+   "iou": 0.2122,
+   "base_bbox": [
+    0.4,
+    0.217,
+    0.408,
+    0.23
+   ],
+   "qwen_bbox": [
+    0.394,
+    0.197,
+    0.408,
+    0.232
+   ],
+   "base_area": 0.0001,
+   "qwen_area": 0.00049,
+   "ratio": 4.712,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "017257_002",
+   "query": "A cup",
+   "iou": 0.0,
+   "base_bbox": [
+    0.282,
+    0.237,
+    0.317,
+    0.257
+   ],
+   "qwen_bbox": [
+    0.44,
+    0.557,
+    0.473,
+    0.655
+   ],
+   "base_area": 0.0007,
+   "qwen_area": 0.00323,
+   "ratio": 4.62,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "008941_004",
+   "query": "Three blue stools",
+   "iou": 0.2167,
+   "base_bbox": [
+    0.902,
+    0.313,
+    0.916,
+    0.346
+   ],
+   "qwen_bbox": [
+    0.9,
+    0.312,
+    0.952,
+    0.353
+   ],
+   "base_area": 0.00046,
+   "qwen_area": 0.00213,
+   "ratio": 4.615,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "008297_002",
+   "query": "A white surveillance camera in the center of the screen",
+   "iou": 0.2195,
+   "base_bbox": [
+    0.445,
+    0.351,
+    0.454,
+    0.362
+   ],
+   "qwen_bbox": [
+    0.443,
+    0.347,
+    0.454,
+    0.388
+   ],
+   "base_area": 0.0001,
+   "qwen_area": 0.00045,
+   "ratio": 4.556,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "000723_002",
+   "query": "The three black swans on the right are swimming to the left together",
+   "iou": 0.2199,
+   "base_bbox": [
+    0.794,
+    0.529,
+    0.817,
+    0.55
+   ],
+   "qwen_bbox": [
+    0.792,
+    0.516,
+    0.853,
+    0.552
+   ],
+   "base_area": 0.00048,
+   "qwen_area": 0.0022,
+   "ratio": 4.547,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "001297_004",
+   "query": "The small white duck swimming alone near the rocky waterfall at the far end of the lake",
+   "iou": 0.0,
+   "base_bbox": [
+    0.729,
+    0.496,
+    0.74,
+    0.517
+   ],
+   "qwen_bbox": [
+    0.72,
+    0.573,
+    0.745,
+    0.615
+   ],
+   "base_area": 0.00023,
+   "qwen_area": 0.00105,
+   "ratio": 4.545,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "016907_001",
+   "query": "The right eyebrow of the person who is closest",
+   "iou": 0.0,
+   "base_bbox": [
+    0.693,
+    0.409,
+    0.705,
+    0.431
+   ],
+   "qwen_bbox": [
+    0.647,
+    0.357,
+    0.687,
+    0.387
+   ],
+   "base_area": 0.00026,
+   "qwen_area": 0.0012,
+   "ratio": 4.545,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "002774_002",
+   "query": "The small white rectangular sign attached to the dark pole in the top right background.",
+   "iou": 0.2286,
+   "base_bbox": [
+    0.788,
+    0.0,
+    0.796,
+    0.02
+   ],
+   "qwen_bbox": [
+    0.782,
+    0.0,
+    0.796,
+    0.05
+   ],
+   "base_area": 0.00016,
+   "qwen_area": 0.0007,
+   "ratio": 4.375,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "011804_001",
+   "query": "The left arm of the person in black closest to the camera",
+   "iou": 0.0,
+   "base_bbox": [
+    0.685,
+    0.507,
+    0.693,
+    0.549
+   ],
+   "qwen_bbox": [
+    0.657,
+    0.497,
+    0.683,
+    0.553
+   ],
+   "base_area": 0.00034,
+   "qwen_area": 0.00146,
+   "ratio": 4.333,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "009578_002",
+   "query": "The right front paw of the nearest wolf",
+   "iou": 0.2333,
+   "base_bbox": [
+    0.57,
+    0.525,
+    0.576,
+    0.546
+   ],
+   "qwen_bbox": [
+    0.562,
+    0.52,
+    0.582,
+    0.547
+   ],
+   "base_area": 0.00013,
+   "qwen_area": 0.00054,
+   "ratio": 4.286,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "014114_003",
+   "query": "The left rear taillight of the white car",
+   "iou": 0.2353,
+   "base_bbox": [
+    0.273,
+    0.956,
+    0.283,
+    0.974
+   ],
+   "qwen_bbox": [
+    0.267,
+    0.953,
+    0.284,
+    0.998
+   ],
+   "base_area": 0.00018,
+   "qwen_area": 0.00076,
+   "ratio": 4.25,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "007562_006",
+   "query": "The sign above the entrance of the distant store",
+   "iou": 0.2389,
+   "base_bbox": [
+    0.176,
+    0.298,
+    0.213,
+    0.325
+   ],
+   "qwen_bbox": [
+    0.144,
+    0.292,
+    0.246,
+    0.333
+   ],
+   "base_area": 0.001,
+   "qwen_area": 0.00418,
+   "ratio": 4.186,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "000289_002",
+   "query": "A black steering wheel held by a man in a white shirt inside the blue and white bumper car in the middle right.",
+   "iou": 0.0,
+   "base_bbox": [
+    0.701,
+    0.2,
+    0.714,
+    0.225
+   ],
+   "qwen_bbox": [
+    0.935,
+    0.227,
+    0.968,
+    0.268
+   ],
+   "base_area": 0.00033,
+   "qwen_area": 0.00135,
+   "ratio": 4.163,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "010992_002",
+   "query": "The right front leg of the sika deer closest to the right tree trunk",
+   "iou": 0.0,
+   "base_bbox": [
+    0.219,
+    0.254,
+    0.23,
+    0.334
+   ],
+   "qwen_bbox": [
+    0.802,
+    0.478,
+    0.832,
+    0.6
+   ],
+   "base_area": 0.00088,
+   "qwen_area": 0.00366,
+   "ratio": 4.159,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "009746_001",
+   "query": "The left horn of the giraffe statue",
+   "iou": 0.0,
+   "base_bbox": [
+    0.939,
+    0.111,
+    0.955,
+    0.15
+   ],
+   "qwen_bbox": [
+    0.888,
+    0.124,
+    0.922,
+    0.2
+   ],
+   "base_area": 0.00062,
+   "qwen_area": 0.00258,
+   "ratio": 4.141,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "013253_006",
+   "query": "The dark metal handle attached to the frame of the window on the right.",
+   "iou": 0.0,
+   "base_bbox": [
+    0.879,
+    0.565,
+    0.897,
+    0.603
+   ],
+   "qwen_bbox": [
+    0.725,
+    0.218,
+    0.762,
+    0.293
+   ],
+   "base_area": 0.00068,
+   "qwen_area": 0.00278,
+   "ratio": 4.057,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "000688_001",
+   "query": "Three circular signs placed side by side",
+   "iou": 0.2468,
+   "base_bbox": [
+    0.914,
+    0.287,
+    0.925,
+    0.308
+   ],
+   "qwen_bbox": [
+    0.911,
+    0.284,
+    0.95,
+    0.308
+   ],
+   "base_area": 0.00023,
+   "qwen_area": 0.00094,
+   "ratio": 4.052,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "008318_002",
+   "query": "The person wearing dark clothes visible inside the glass window of the wooden structure on the left.",
+   "iou": 0.0,
+   "base_bbox": [
+    0.41,
+    0.426,
+    0.423,
+    0.463
+   ],
+   "qwen_bbox": [
+    0.507,
+    0.422,
+    0.545,
+    0.473
+   ],
+   "base_area": 0.00048,
+   "qwen_area": 0.00194,
+   "ratio": 4.029,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "010180_005",
+   "query": "The right-side shoe",
+   "iou": 0.254,
+   "base_bbox": [
+    0.643,
+    0.819,
+    0.651,
+    0.827
+   ],
+   "qwen_bbox": [
+    0.638,
+    0.815,
+    0.652,
+    0.833
+   ],
+   "base_area": 6e-05,
+   "qwen_area": 0.00025,
+   "ratio": 3.937,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "007471_003",
+   "query": "The left rearview mirror of a black car",
+   "iou": 0.2543,
+   "base_bbox": [
+    0.457,
+    0.626,
+    0.485,
+    0.659
+   ],
+   "qwen_bbox": [
+    0.457,
+    0.623,
+    0.503,
+    0.702
+   ],
+   "base_area": 0.00092,
+   "qwen_area": 0.00363,
+   "ratio": 3.933,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "013981_002",
+   "query": "The no pets sign on the door",
+   "iou": 0.2546,
+   "base_bbox": [
+    0.038,
+    0.198,
+    0.062,
+    0.238
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.185,
+    0.065,
+    0.243
+   ],
+   "base_area": 0.00096,
+   "qwen_area": 0.00377,
+   "ratio": 3.927,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "001045_008",
+   "query": "The small white round sign on a short black post stands behind the red-and-white gate arm in the center-right background.",
+   "iou": 0.0,
+   "base_bbox": [
+    0.604,
+    0.661,
+    0.612,
+    0.675
+   ],
+   "qwen_bbox": [
+    0.733,
+    0.607,
+    0.756,
+    0.626
+   ],
+   "base_area": 0.00011,
+   "qwen_area": 0.00044,
+   "ratio": 3.902,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "010180_004",
+   "query": "The left-side shoe",
+   "iou": 0.2571,
+   "base_bbox": [
+    0.643,
+    0.818,
+    0.651,
+    0.827
+   ],
+   "qwen_bbox": [
+    0.638,
+    0.812,
+    0.652,
+    0.832
+   ],
+   "base_area": 7e-05,
+   "qwen_area": 0.00028,
+   "ratio": 3.889,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "000947_001",
+   "query": "Blue and white buoy floating in the lake to the left of the yellow buoy.",
+   "iou": 0.0,
+   "base_bbox": [
+    0.628,
+    0.366,
+    0.645,
+    0.405
+   ],
+   "qwen_bbox": [
+    0.536,
+    0.388,
+    0.611,
+    0.422
+   ],
+   "base_area": 0.00066,
+   "qwen_area": 0.00255,
+   "ratio": 3.846,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "008269_001",
+   "query": "The right eye of the fawn facing to the right",
+   "iou": 0.2674,
+   "base_bbox": [
+    0.545,
+    0.968,
+    0.556,
+    0.989
+   ],
+   "qwen_bbox": [
+    0.538,
+    0.962,
+    0.562,
+    0.998
+   ],
+   "base_area": 0.00023,
+   "qwen_area": 0.00086,
+   "ratio": 3.74,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "003481_005",
+   "query": "Monitor the street light on the left side",
+   "iou": 0.0,
+   "base_bbox": [
+    0.422,
+    0.384,
+    0.432,
+    0.404
+   ],
+   "qwen_bbox": [
+    0.352,
+    0.447,
+    0.372,
+    0.484
+   ],
+   "base_area": 0.0002,
+   "qwen_area": 0.00074,
+   "ratio": 3.7,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "004587_001",
+   "query": "A person standing on the far left.",
+   "iou": 0.2703,
+   "base_bbox": [
+    6.2e-05,
+    0.766816,
+    0.010045,
+    0.861361
+   ],
+   "qwen_bbox": [
+    0.0,
+    0.766,
+    0.036,
+    0.863
+   ],
+   "base_area": 0.00094,
+   "qwen_area": 0.00349,
+   "ratio": 3.7,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "009865_004",
+   "query": "The Chinese character meaning 'long' on the sign attached to the building.",
+   "iou": 0.2706,
+   "base_bbox": [
+    0.228,
+    0.171,
+    0.235,
+    0.194
+   ],
+   "qwen_bbox": [
+    0.227,
+    0.168,
+    0.244,
+    0.203
+   ],
+   "base_area": 0.00016,
+   "qwen_area": 0.00059,
+   "ratio": 3.696,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "010404_003",
+   "query": "The forth basketball hoop from the right",
+   "iou": 0.0,
+   "base_bbox": [
+    0.458,
+    0.405,
+    0.476,
+    0.438
+   ],
+   "qwen_bbox": [
+    0.133,
+    0.407,
+    0.163,
+    0.478
+   ],
+   "base_area": 0.00059,
+   "qwen_area": 0.00213,
+   "ratio": 3.586,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "004545_002",
+   "query": "The left arm of a person wearing a black top.",
+   "iou": 0.2798,
+   "base_bbox": [
+    0.475,
+    0.7,
+    0.489,
+    0.747
+   ],
+   "qwen_bbox": [
+    0.472,
+    0.684,
+    0.5,
+    0.768
+   ],
+   "base_area": 0.00066,
+   "qwen_area": 0.00235,
+   "ratio": 3.574,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "001325_006",
+   "query": "The small, distinct white stone lying on the ground between the two pigeons",
+   "iou": 0.0,
+   "base_bbox": [
+    0.665,
+    0.522,
+    0.686,
+    0.561
+   ],
+   "qwen_bbox": [
+    0.573,
+    0.604,
+    0.627,
+    0.658
+   ],
+   "base_area": 0.00082,
+   "qwen_area": 0.00292,
+   "ratio": 3.56,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "016956_002",
+   "query": "The right ear of the person wearing a white top",
+   "iou": 0.2408,
+   "base_bbox": [
+    0.793,
+    0.719,
+    0.803,
+    0.745
+   ],
+   "qwen_bbox": [
+    0.787,
+    0.705,
+    0.812,
+    0.742
+   ],
+   "base_area": 0.00026,
+   "qwen_area": 0.00093,
+   "ratio": 3.558,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "009543_001",
+   "query": "The right eye of the elephant",
+   "iou": 0.2815,
+   "base_bbox": [
+    0.709,
+    0.42,
+    0.717,
+    0.439
+   ],
+   "qwen_bbox": [
+    0.703,
+    0.407,
+    0.718,
+    0.443
+   ],
+   "base_area": 0.00015,
+   "qwen_area": 0.00054,
+   "ratio": 3.553,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "010992_005",
+   "query": "The left front leg of the sika deer closest to the right tree trunk",
+   "iou": 0.0,
+   "base_bbox": [
+    0.219,
+    0.254,
+    0.23,
+    0.334
+   ],
+   "qwen_bbox": [
+    0.804,
+    0.483,
+    0.83,
+    0.6
+   ],
+   "base_area": 0.00088,
+   "qwen_area": 0.00304,
+   "ratio": 3.457,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "003922_001",
+   "query": "The closest left eye of the spotted deer to the camera",
+   "iou": 0.0,
+   "base_bbox": [
+    0.538,
+    0.708,
+    0.545,
+    0.72
+   ],
+   "qwen_bbox": [
+    0.288,
+    0.588,
+    0.3,
+    0.612
+   ],
+   "base_area": 8e-05,
+   "qwen_area": 0.00029,
+   "ratio": 3.429,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "009039_005",
+   "query": "A blue sign with white characters outside a building with a thatched roof",
+   "iou": 0.0,
+   "base_bbox": [
+    0.167,
+    0.44,
+    0.183,
+    0.486
+   ],
+   "qwen_bbox": [
+    0.688,
+    0.484,
+    0.732,
+    0.541
+   ],
+   "base_area": 0.00074,
+   "qwen_area": 0.00251,
+   "ratio": 3.408,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "010397_005",
+   "query": "A Volkswagen logo",
+   "iou": 0.0,
+   "base_bbox": [
+    0.378,
+    0.473,
+    0.385,
+    0.482
+   ],
+   "qwen_bbox": [
+    0.353,
+    0.455,
+    0.367,
+    0.47
+   ],
+   "base_area": 6e-05,
+   "qwen_area": 0.00021,
+   "ratio": 3.333,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "012182_004",
+   "query": "The red dustpan on the mans left hand",
+   "iou": 0.3004,
+   "base_bbox": [
+    0.433,
+    0.467,
+    0.452,
+    0.492
+   ],
+   "qwen_bbox": [
+    0.422,
+    0.464,
+    0.453,
+    0.515
+   ],
+   "base_area": 0.00047,
+   "qwen_area": 0.00158,
+   "ratio": 3.328,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "003894_001",
+   "query": "The left ear of the lemur on the far right",
+   "iou": 0.1944,
+   "base_bbox": [
+    0.486,
+    0.386,
+    0.492,
+    0.396
+   ],
+   "qwen_bbox": [
+    0.485,
+    0.375,
+    0.496,
+    0.393
+   ],
+   "base_area": 6e-05,
+   "qwen_area": 0.0002,
+   "ratio": 3.3,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "004132_003",
+   "query": "The head of the person below and to the right of the drone.",
+   "iou": 0.303,
+   "base_bbox": [
+    0.484,
+    0.619,
+    0.497,
+    0.639
+   ],
+   "qwen_bbox": [
+    0.478,
+    0.617,
+    0.5,
+    0.656
+   ],
+   "base_area": 0.00026,
+   "qwen_area": 0.00086,
+   "ratio": 3.3,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "002851_002",
+   "query": "The entrance of the bird house",
+   "iou": 0.3033,
+   "base_bbox": [
+    0.424,
+    0.778,
+    0.437,
+    0.806
+   ],
+   "qwen_bbox": [
+    0.418,
+    0.762,
+    0.442,
+    0.812
+   ],
+   "base_area": 0.00036,
+   "qwen_area": 0.0012,
+   "ratio": 3.297,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "011776_004",
+   "query": "The left front headlight of the nearest white car",
+   "iou": 0.0,
+   "base_bbox": [
+    0.304,
+    0.513,
+    0.311,
+    0.526
+   ],
+   "qwen_bbox": [
+    0.27,
+    0.497,
+    0.285,
+    0.517
+   ],
+   "base_area": 9e-05,
+   "qwen_area": 0.0003,
+   "ratio": 3.297,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "010999_002",
+   "query": "The right antler of the sika deer whose butt is facing the camera",
+   "iou": 0.3034,
+   "base_bbox": [
+    0.454,
+    0.301,
+    0.464,
+    0.323
+   ],
+   "qwen_bbox": [
+    0.452,
+    0.298,
+    0.477,
+    0.327
+   ],
+   "base_area": 0.00022,
+   "qwen_area": 0.00072,
+   "ratio": 3.295,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "010740_004",
+   "query": "The far-left soccer ball",
+   "iou": 0.0,
+   "base_bbox": [
+    0.066445,
+    0.58358,
+    0.074444,
+    0.592996
+   ],
+   "qwen_bbox": [
+    0.123,
+    0.615,
+    0.136,
+    0.634
+   ],
+   "base_area": 8e-05,
+   "qwen_area": 0.00025,
+   "ratio": 3.279,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "009655_003",
+   "query": "The right front foot of the alpaca",
+   "iou": 0.0,
+   "base_bbox": [
+    0.586,
+    0.608,
+    0.596,
+    0.645
+   ],
+   "qwen_bbox": [
+    0.56,
+    0.572,
+    0.577,
+    0.643
+   ],
+   "base_area": 0.00037,
+   "qwen_area": 0.00121,
+   "ratio": 3.262,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "009802_003",
+   "query": "The person standing behind the rainbow wheel display partially obscured by the yellow smiley sphere",
+   "iou": 0.3074,
+   "base_bbox": [
+    0.514,
+    0.361,
+    0.538,
+    0.4
+   ],
+   "qwen_bbox": [
+    0.507,
+    0.361,
+    0.542,
+    0.448
+   ],
+   "base_area": 0.00094,
+   "qwen_area": 0.00305,
+   "ratio": 3.253,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "008290_003",
+   "query": "The left hind paw of the tiger walking to the right",
+   "iou": 0.3095,
+   "base_bbox": [
+    0.479,
+    0.627,
+    0.492,
+    0.647
+   ],
+   "qwen_bbox": [
+    0.472,
+    0.612,
+    0.496,
+    0.647
+   ],
+   "base_area": 0.00026,
+   "qwen_area": 0.00084,
+   "ratio": 3.231,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "012518_004",
+   "query": "The basketball goal on the far left",
+   "iou": 0.3118,
+   "base_bbox": [
+    0.09,
+    0.294,
+    0.119,
+    0.328
+   ],
+   "qwen_bbox": [
+    0.089,
+    0.29,
+    0.12,
+    0.392
+   ],
+   "base_area": 0.00099,
+   "qwen_area": 0.00316,
+   "ratio": 3.207,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "000919_001",
+   "query": "A camera in the corner of the ceiling",
+   "iou": 0.0,
+   "base_bbox": [
+    0.599,
+    0.132,
+    0.608,
+    0.146
+   ],
+   "qwen_bbox": [
+    0.593,
+    0.112,
+    0.613,
+    0.132
+   ],
+   "base_area": 0.00013,
+   "qwen_area": 0.0004,
+   "ratio": 3.175,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "009774_002",
+   "query": "The right eye of the red inflatable bear doll",
+   "iou": 0.0,
+   "base_bbox": [
+    0.154,
+    0.058,
+    0.165,
+    0.081
+   ],
+   "qwen_bbox": [
+    0.176,
+    0.103,
+    0.194,
+    0.147
+   ],
+   "base_area": 0.00025,
+   "qwen_area": 0.00079,
+   "ratio": 3.13,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "010509_003",
+   "query": "The card being held by someone",
+   "iou": 0.0,
+   "base_bbox": [
+    0.659,
+    0.509,
+    0.671,
+    0.522
+   ],
+   "qwen_bbox": [
+    0.68,
+    0.512,
+    0.707,
+    0.53
+   ],
+   "base_area": 0.00016,
+   "qwen_area": 0.00049,
+   "ratio": 3.115,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "009564_002",
+   "query": "The right eye of the meerkat sitting on the ground.",
+   "iou": 0.1739,
+   "base_bbox": [
+    0.559,
+    0.492,
+    0.565,
+    0.503
+   ],
+   "qwen_bbox": [
+    0.552,
+    0.483,
+    0.564,
+    0.5
+   ],
+   "base_area": 7e-05,
+   "qwen_area": 0.0002,
+   "ratio": 3.091,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "008472_004",
+   "query": "The slim silver cabinet-door handle is mounted vertically on the right edge of the left glass cabinet door near the upper-right side of the image.",
+   "iou": 0.2277,
+   "base_bbox": [
+    0.905,
+    0.378,
+    0.917,
+    0.428
+   ],
+   "qwen_bbox": [
+    0.892,
+    0.367,
+    0.914,
+    0.45
+   ],
+   "base_area": 0.0006,
+   "qwen_area": 0.00183,
+   "ratio": 3.043,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "001311_006",
+   "query": "The dark-colored pigeon positioned at the far left edge of the main flock.",
+   "iou": 0.0,
+   "base_bbox": [
+    0.264,
+    0.444,
+    0.282,
+    0.465
+   ],
+   "qwen_bbox": [
+    0.325,
+    0.417,
+    0.35,
+    0.463
+   ],
+   "base_area": 0.00038,
+   "qwen_area": 0.00115,
+   "ratio": 3.042,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "010159_005",
+   "query": "The taillight of the white car",
+   "iou": 0.329,
+   "base_bbox": [
+    0.83,
+    0.777,
+    0.84,
+    0.81
+   ],
+   "qwen_bbox": [
+    0.827,
+    0.773,
+    0.844,
+    0.832
+   ],
+   "base_area": 0.00033,
+   "qwen_area": 0.001,
+   "ratio": 3.039,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "007891_004",
+   "query": "The person sitting down",
+   "iou": 0.0,
+   "base_bbox": [
+    0.453,
+    0.781,
+    0.472,
+    0.816
+   ],
+   "qwen_bbox": [
+    0.342,
+    0.77,
+    0.372,
+    0.837
+   ],
+   "base_area": 0.00066,
+   "qwen_area": 0.00201,
+   "ratio": 3.023,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "009319_001",
+   "query": "The black watch band",
+   "iou": 0.3309,
+   "base_bbox": [
+    0.264,
+    0.283,
+    0.273,
+    0.298
+   ],
+   "qwen_bbox": [
+    0.259,
+    0.276,
+    0.276,
+    0.3
+   ],
+   "base_area": 0.00014,
+   "qwen_area": 0.00041,
+   "ratio": 3.022,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  },
+  {
+   "qid": "009165_002",
+   "query": "The rearview mirror furthest from the vehicle's left front headlight",
+   "iou": 0.0,
+   "base_bbox": [
+    0.457,
+    0.281,
+    0.471,
+    0.306
+   ],
+   "qwen_bbox": [
+    0.512,
+    0.232,
+    0.542,
+    0.267
+   ],
+   "base_area": 0.00035,
+   "qwen_area": 0.00105,
+   "ratio": 3.0,
+   "group": "A_TINY_VS_BIG",
+   "policies": [
+    "qwen",
+    "full"
+   ],
+   "actionable": true
+  }
+ ],
+ "E_QWEN_NOBOX": [
+  {
+   "qid": "000247_008",
+   "query": "A drone above the bicycles",
+   "iou": null,
+   "base_bbox": [
+    0.801566,
+    0.458081,
+    0.856662,
+    0.54415
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00474,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "000275_001",
+   "query": "A tourist wearing a blue shirt",
+   "iou": null,
+   "base_bbox": [
+    0.887,
+    0.047,
+    0.91,
+    0.092
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00104,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "000282_001",
+   "query": "The yellow signboard in the middle and far of the screen",
+   "iou": null,
+   "base_bbox": [
+    0.844,
+    0.0,
+    0.918,
+    0.081
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00599,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "000282_008",
+   "query": "The person in a pink shirt driving a red bumper car on the left background",
+   "iou": null,
+   "base_bbox": [
+    0.031242,
+    0.324432,
+    0.136802,
+    0.506846
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.01926,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "000611_007",
+   "query": "A man in a military green shirt",
+   "iou": null,
+   "base_bbox": [
+    0.667051,
+    0.156178,
+    0.740441,
+    0.32379
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.0123,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "000723_001",
+   "query": "The small green text overlay with white characters located on the right side of the image.",
+   "iou": null,
+   "base_bbox": [
+    0.670623,
+    0.36963,
+    0.757596,
+    0.501968
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.01151,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "000737_002",
+   "query": "A person on the road",
+   "iou": null,
+   "base_bbox": [
+    0.003927,
+    0.595305,
+    0.994949,
+    0.993244
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.39437,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "001318_007",
+   "query": "The two trash cans placed side by side",
+   "iou": null,
+   "base_bbox": [
+    0.684,
+    0.063,
+    0.705,
+    0.098
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00073,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "002277_004",
+   "query": "The tail of a white American camel",
+   "iou": null,
+   "base_bbox": [
+    0.37,
+    0.242,
+    0.384,
+    0.263
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00029,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "002543_006",
+   "query": "The red fire truck",
+   "iou": null,
+   "base_bbox": [
+    0.347567,
+    0.801378,
+    0.39006,
+    0.954028
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00649,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "002571_007",
+   "query": "A person walking on the stone bridge, partially hidden by the white railings",
+   "iou": null,
+   "base_bbox": [
+    0.142355,
+    0.09033,
+    0.86136,
+    0.292786
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.14557,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "002774_001",
+   "query": "A green plant in the shape of a lotus flower",
+   "iou": null,
+   "base_bbox": [
+    0.481,
+    0.415,
+    0.625,
+    0.594
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.02578,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "002921_005",
+   "query": "A walking people",
+   "iou": null,
+   "base_bbox": [
+    0.007646,
+    0.009418,
+    0.993462,
+    0.982452
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.95923,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "003047_002",
+   "query": "A person heading down in red hair under the pavilion",
+   "iou": null,
+   "base_bbox": [
+    0.119,
+    0.406,
+    0.344,
+    1.0
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.13365,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "003264_004",
+   "query": "The blue submarine sailing in the lake",
+   "iou": null,
+   "base_bbox": [
+    0.516908,
+    0.410766,
+    0.679838,
+    0.572005
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.02627,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "004027_002",
+   "query": "White delivery tricycle",
+   "iou": null,
+   "base_bbox": [
+    0.458849,
+    0.642875,
+    0.540116,
+    0.707252
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00523,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "004062_001",
+   "query": "Flying objects on the football field",
+   "iou": null,
+   "base_bbox": [
+    0.004252,
+    0.682621,
+    0.99676,
+    0.99563
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.31066,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "004097_001",
+   "query": "Low altitude flying unmanned aerial vehicles",
+   "iou": null,
+   "base_bbox": [
+    0.460365,
+    0.646077,
+    0.539679,
+    0.706075
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00476,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "004272_001",
+   "query": "The drone on the far right.",
+   "iou": null,
+   "base_bbox": [
+    0.812537,
+    0.693716,
+    0.84053,
+    0.729312
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.001,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "004272_002",
+   "query": "The drone on the far left.",
+   "iou": null,
+   "base_bbox": [
+    0.0,
+    0.494,
+    0.048,
+    0.811
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.01522,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "004307_001",
+   "query": "The bird flying at the highest altitude.",
+   "iou": null,
+   "base_bbox": [
+    0.002567,
+    0.003611,
+    0.996567,
+    0.290288
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.28496,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "004328_002",
+   "query": "The drone flying furthest towards the top-left.",
+   "iou": null,
+   "base_bbox": [
+    0.198138,
+    0.556495,
+    0.37574,
+    0.743094
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.03314,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "004342_001",
+   "query": "The drone located above and to the right of the swing.",
+   "iou": null,
+   "base_bbox": [
+    0.700578,
+    0.66539,
+    0.723046,
+    0.716405
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00115,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "004356_001",
+   "query": "The drone on the far left.",
+   "iou": null,
+   "base_bbox": [
+    0.256796,
+    0.607872,
+    0.296676,
+    0.717367
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00437,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "004363_001",
+   "query": "The drone in the top-left corner.",
+   "iou": null,
+   "base_bbox": [
+    0.453544,
+    0.561242,
+    0.519854,
+    0.812025
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.01663,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "004412_001",
+   "query": "The drone on the far right.",
+   "iou": null,
+   "base_bbox": [
+    0.772476,
+    0.963292,
+    0.848997,
+    0.994931
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00242,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "004433_001",
+   "query": "The leftmost drone hovering in front of the trees, positioned below the left section of the large building.",
+   "iou": null,
+   "base_bbox": [
+    0.013752,
+    0.667036,
+    0.103696,
+    0.710638
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00392,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "004587_002",
+   "query": "A drone flying very close to the height of the building.",
+   "iou": null,
+   "base_bbox": [
+    0.519146,
+    0.589844,
+    0.884358,
+    0.807308
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.07942,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "007499_005",
+   "query": "The blue bus blocked by the large red and orange flower sculpture",
+   "iou": null,
+   "base_bbox": [
+    0.93182,
+    0.268328,
+    0.998129,
+    0.362676
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00626,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "007520_004",
+   "query": "The seat cushion of a bicycle blocked by bushes",
+   "iou": null,
+   "base_bbox": [
+    0.068639,
+    0.003005,
+    0.918635,
+    0.787502
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.66682,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "007548_004",
+   "query": "The rearview mirror on the left side of the car",
+   "iou": null,
+   "base_bbox": [
+    0.568,
+    0.038,
+    0.592,
+    0.093
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00132,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "007800_002",
+   "query": "The silver trash can blocked by trees",
+   "iou": null,
+   "base_bbox": [
+    0.092,
+    0.858,
+    0.105,
+    0.88
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00029,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "007919_005",
+   "query": "The person facing the camera without a mask",
+   "iou": null,
+   "base_bbox": [
+    0.361,
+    0.188,
+    0.437,
+    0.553
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.02774,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "007968_001",
+   "query": "An air conditioner outdoor unit",
+   "iou": null,
+   "base_bbox": [
+    0.009,
+    0.323,
+    0.083,
+    0.359
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00266,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "007968_004",
+   "query": "A white air conditioner outdoor unit in the corner of the building",
+   "iou": null,
+   "base_bbox": [
+    0.009,
+    0.324,
+    0.082,
+    0.358
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00248,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "008031_001",
+   "query": "Two boats side by side obscured by tree leaves",
+   "iou": null,
+   "base_bbox": [
+    0.572,
+    0.391,
+    0.681,
+    0.473
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00894,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "008129_005",
+   "query": "The person sitting in blue clothes and a blue hat",
+   "iou": null,
+   "base_bbox": [
+    0.716,
+    0.355,
+    0.733,
+    0.415
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00102,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "008241_001",
+   "query": "Red cigarette box",
+   "iou": null,
+   "base_bbox": [
+    0.898,
+    0.129,
+    0.908,
+    0.144
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00015,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "008584_002",
+   "query": "The computer with a blue screen",
+   "iou": null,
+   "base_bbox": [
+    0.955,
+    0.042,
+    1.0,
+    0.24
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00891,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "008584_004",
+   "query": "The white doll on the stool",
+   "iou": null,
+   "base_bbox": [
+    0.866693,
+    0.717275,
+    0.956573,
+    0.990568
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.02456,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "008591_002",
+   "query": "The yellow line under the doll",
+   "iou": null,
+   "base_bbox": [
+    0.09099,
+    0.064787,
+    0.268956,
+    0.343097
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.04953,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "008668_001",
+   "query": "The peacock closest to the camera",
+   "iou": null,
+   "base_bbox": [
+    0.483881,
+    0.570971,
+    0.517114,
+    0.631435
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00201,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "008878_001",
+   "query": "The crocodile swimming towards the camera",
+   "iou": null,
+   "base_bbox": [
+    0.527,
+    0.531,
+    0.62,
+    0.565
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00316,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "008878_004",
+   "query": "The crocodile floating on the water with both eyes visible",
+   "iou": null,
+   "base_bbox": [
+    0.526,
+    0.531,
+    0.621,
+    0.567
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00342,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "008969_004",
+   "query": "The gray wire mesh on the far left",
+   "iou": null,
+   "base_bbox": [
+    0.161,
+    0.0,
+    0.259,
+    0.109
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.01068,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "009053_005",
+   "query": "A black swan flapping its wings",
+   "iou": null,
+   "base_bbox": [
+    0.184,
+    0.542,
+    0.294,
+    0.714
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.01892,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "009473_003",
+   "query": "The iron gate on the left side of the tiger",
+   "iou": null,
+   "base_bbox": [
+    0.493,
+    0.415,
+    0.533,
+    0.503
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00352,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "009704_001",
+   "query": "The streetlight farthest from the camera in the upper right corner of the frame",
+   "iou": null,
+   "base_bbox": [
+    0.944,
+    0.185,
+    0.96,
+    0.31
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.002,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "010082_006",
+   "query": "The warm heat signature of the air conditioning unit indicating it is running or recently used",
+   "iou": null,
+   "base_bbox": [
+    0.638,
+    0.437,
+    0.653,
+    0.456
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00029,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "011384_003",
+   "query": "The umbrella by the wall",
+   "iou": null,
+   "base_bbox": [
+    0.042,
+    0.281,
+    0.132,
+    0.627
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.03114,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "011384_004",
+   "query": "The folded umbrella",
+   "iou": null,
+   "base_bbox": [
+    0.042,
+    0.323,
+    0.132,
+    0.626
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.02727,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "011419_004",
+   "query": "The table farthest from the camera",
+   "iou": null,
+   "base_bbox": [
+    0.0,
+    0.281,
+    0.067,
+    0.635
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.02372,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "011524_007",
+   "query": "The bright heat signature of the person walking in the immediate foreground",
+   "iou": null,
+   "base_bbox": [
+    0.339,
+    0.698,
+    0.458,
+    1.0
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.03594,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "011559_004",
+   "query": "The blue stools on the far left",
+   "iou": null,
+   "base_bbox": [
+    0.324,
+    0.662,
+    0.383,
+    0.796
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00791,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "011811_001",
+   "query": "The streetlight on the far right",
+   "iou": null,
+   "base_bbox": [
+    0.853,
+    0.105,
+    0.865,
+    0.384
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00335,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "012742_003",
+   "query": "The person closest to the camera",
+   "iou": null,
+   "base_bbox": [
+    0.242046,
+    0.791664,
+    0.25899,
+    0.870017
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00133,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "013092_003",
+   "query": "The black sedan driving towards the right front",
+   "iou": null,
+   "base_bbox": [
+    0.0,
+    0.674,
+    0.126,
+    0.842
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.02117,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "013106_002",
+   "query": "The person holding an umbrella",
+   "iou": null,
+   "base_bbox": [
+    0.033139,
+    0.770624,
+    0.132101,
+    0.993141
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.02202,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "013288_003",
+   "query": "The pine tree on the far right",
+   "iou": null,
+   "base_bbox": [
+    0.807414,
+    0.529659,
+    0.972923,
+    0.730032
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.03316,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "013288_008",
+   "query": "The left rearview mirror of the car on the far right",
+   "iou": null,
+   "base_bbox": [
+    0.126006,
+    0.518648,
+    0.142509,
+    0.546886
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00047,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "013372_002",
+   "query": "The person on the far right of the screen",
+   "iou": null,
+   "base_bbox": [
+    0.901,
+    0.691,
+    0.909,
+    0.708
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00014,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "013631_001",
+   "query": "The person closest to the camera",
+   "iou": null,
+   "base_bbox": [
+    0.478902,
+    0.171738,
+    0.572156,
+    0.415339
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.02272,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "013918_001",
+   "query": "The person walking backward while making a phone call",
+   "iou": null,
+   "base_bbox": [
+    0.182,
+    0.113,
+    0.207,
+    0.231
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00295,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "013974_002",
+   "query": "The black hat",
+   "iou": null,
+   "base_bbox": [
+    0.167689,
+    0.347095,
+    0.246993,
+    0.404097
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00452,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "014023_006",
+   "query": "The leaf that is entirely green in the upper-left corner of the image",
+   "iou": null,
+   "base_bbox": [
+    0.027,
+    0.059,
+    0.069,
+    0.095
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00151,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "014023_009",
+   "query": "The longest branch in the upper-left corner of the image",
+   "iou": null,
+   "base_bbox": [
+    0.0,
+    0.0,
+    0.095,
+    0.148
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.01406,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "014121_003",
+   "query": "The person cycling in the distance",
+   "iou": null,
+   "base_bbox": [
+    0.109,
+    0.748,
+    0.123,
+    0.836
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00123,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "014135_001",
+   "query": "The bridge in the upper part of the picture",
+   "iou": null,
+   "base_bbox": [
+    0.906973,
+    0.001163,
+    0.995823,
+    0.034162
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00293,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "014415_003",
+   "query": "The blue label on the right",
+   "iou": null,
+   "base_bbox": [
+    0.258864,
+    0.969439,
+    0.275401,
+    0.987168
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00029,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "014492_003",
+   "query": "The trash can in the center of the image",
+   "iou": null,
+   "base_bbox": [
+    0.566,
+    0.468,
+    0.589,
+    0.503
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00081,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "015031_002",
+   "query": "The closest die-hard supporter",
+   "iou": null,
+   "base_bbox": [
+    0.002192,
+    0.875553,
+    0.99824,
+    0.997384
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.12135,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "015150_003",
+   "query": "The woman wearing a blue dress on the left side of the picture",
+   "iou": null,
+   "base_bbox": [
+    0.147,
+    0.159,
+    0.27,
+    0.838
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.08352,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "015353_002",
+   "query": "The haystack closest to the camera",
+   "iou": null,
+   "base_bbox": [
+    0.678326,
+    0.770573,
+    0.99756,
+    0.995523
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.07181,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "015619_002",
+   "query": "A stack of blue stools on the right",
+   "iou": null,
+   "base_bbox": [
+    0.000898,
+    0.367044,
+    0.066086,
+    0.509318
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00927,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "015913_001",
+   "query": "The streetlight in the upper left corner of the screen",
+   "iou": null,
+   "base_bbox": [
+    0.932991,
+    0.334079,
+    0.988447,
+    0.382047
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.00266,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "016508_002",
+   "query": "The white billboard standing on the ground at the far left",
+   "iou": null,
+   "base_bbox": [
+    0.469,
+    0.414,
+    0.553,
+    0.794
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.03192,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "017040_002",
+   "query": "The whole sign of 'elephant yard' on the wall",
+   "iou": null,
+   "base_bbox": [
+    0.311018,
+    0.002901,
+    0.997208,
+    0.530627
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.36212,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  },
+  {
+   "qid": "017271_001",
+   "query": "A person carrying a bag",
+   "iou": null,
+   "base_bbox": [
+    0.001153,
+    0.51268,
+    0.048269,
+    0.797133
+   ],
+   "qwen_bbox": null,
+   "base_area": 0.0134,
+   "qwen_area": null,
+   "ratio": null,
+   "group": "E_QWEN_NOBOX",
+   "policies": [],
+   "actionable": false
+  }
+ ],
+ "D_SMALL_DISAGREE": []
+}

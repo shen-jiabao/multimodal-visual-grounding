@@ -1,0 +1,18 @@
+{
+ "C_BOTH_BIG": {
+  "n": 108,
+  "desc": "两边都>0.35，都不可信(不采纳)"
+ },
+ "C_QWEN_BIG": {
+  "n": 42,
+  "desc": "Qwen 面积>0.35，疑 Qwen 合并大框(不采纳)"
+ },
+ "A_TINY_VS_BIG": {
+  "n": 169,
+  "desc": "基线极小且 Qwen 大3倍以上，需判断真小目标/Qwen退化"
+ },
+ "E_QWEN_NOBOX": {
+  "n": 78,
+  "desc": "Qwen 未输出框"
+ }
+}
