@@ -1,0 +1,472 @@
+﻿python : C:\Users\86189\AppData\Roaming\Python\Python312\site-packages\timm\models\layers\__init__.py:49: FutureWarning
+: Importing from timm.models.layers is deprecated, please import via timm.layers
+At line:17 char:1
++ python -B "d:\Desktop\2026AiC\predict_gd_3modal.py" --test_json "$sem ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\86189\...via timm.layers:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+d:\Desktop\2026AiC\weights\gdino_ms\AI-ModelScope\GroundingDINO\groundingdino\models\GroundingDINO\ms_deform_attn.py:33
+: UserWarning: Failed to load custom C++ ops. Running on CPU mode Only!
+  warnings.warn('Failed to load custom C++ ops. Running on CPU mode Only!')
+C:\Program Files\Python312\Lib\site-packages\torch\functional.py:534: UserWarning: torch.meshgrid: in an upcoming relea
+se, it will be required to pass the indexing argument. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch
+\builder\windows\pytorch\aten\src\ATen\native\TensorShape.cpp:3596.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+[INFO] 数据根目录 d:\Desktop\2026AiC\复赛数据集-基于大模型的多模态视觉理解与推理
+[INFO] 问句清单   d:\Desktop\2026AiC\复赛数据集-基于大模型的多模态视觉理解与推理\queries\queries.json
+============================================================
+加载 Grounding DINO + 5 通道早期融合 ...
+============================================================
+final text_encoder_type: D:/Desktop/2026AiC/weights/gdino_ms/AI-ModelScope/GroundingDINO/bert-base-uncased
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 11055.48it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: D:/Desktop/2026AiC/weights/gdino_ms/AI-ModelScope/GroundingDINO/bert
+-base-uncased
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+d:\Desktop\2026AiC\predict_gd_3modal.py:237: FutureWarning: You are using `torch.load` with `weights_only=False` (the c
+urrent default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle da
+ta which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#un
+trusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. 
+This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be l
+oaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We r
+ecommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. P
+lease open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(CKPT_PATH, map_location="cpu")
+[INFO] 模型就绪，设备 cuda
+共 5690 个待推理样本
+[transformers] `use_return_dict` is deprecated! Use `return_dict` instead!
+C:\Program Files\Python312\Lib\site-packages\torch\_dynamo\eval_frame.py:632: UserWarning: torch.utils.checkpoint: the 
+use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not 
+passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_
+reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+C:\Program Files\Python312\Lib\site-packages\torch\utils\checkpoint.py:87: UserWarning: None of the inputs have require
+s_grad=True. Gradients will be None
+  warnings.warn(
+d:\Desktop\2026AiC\weights\gdino_ms\AI-ModelScope\GroundingDINO\groundingdino\models\GroundingDINO\transformer.py:899: 
+FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` inste
+ad.
+  with torch.cuda.amp.autocast(enabled=False):
+  [20/5690] speed=0.10 img/s, elapsed=196s, eta=925min
+  [40/5690] speed=0.10 img/s, elapsed=390s, eta=918min
+  [60/5690] speed=0.10 img/s, elapsed=572s, eta=895min
+  [checkpoint] 已保存 64 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [80/5690] speed=0.10 img/s, elapsed=779s, eta=910min
+  [100/5690] speed=0.11 img/s, elapsed=944s, eta=879min
+  [checkpoint] 已保存 100 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [120/5690] speed=0.11 img/s, elapsed=1138s, eta=880min
+  [140/5690] speed=0.10 img/s, elapsed=1338s, eta=884min
+  [160/5690] speed=0.10 img/s, elapsed=1533s, eta=883min
+  [checkpoint] 已保存 161 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [180/5690] speed=0.10 img/s, elapsed=1817s, eta=927min
+  [200/5690] speed=0.10 img/s, elapsed=2023s, eta=926min
+  [checkpoint] 已保存 200 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [220/5690] speed=0.10 img/s, elapsed=2248s, eta=932min
+  [240/5690] speed=0.10 img/s, elapsed=2448s, eta=927min
+  [checkpoint] 已保存 257 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [260/5690] speed=0.10 img/s, elapsed=2649s, eta=922min
+  [280/5690] speed=0.10 img/s, elapsed=2814s, eta=906min
+  [300/5690] speed=0.10 img/s, elapsed=3038s, eta=910min
+  [checkpoint] 已保存 300 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [320/5690] speed=0.10 img/s, elapsed=3220s, eta=901min
+  [340/5690] speed=0.10 img/s, elapsed=3408s, eta=894min
+  [360/5690] speed=0.10 img/s, elapsed=3596s, eta=887min
+  [checkpoint] 已保存 367 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [380/5690] speed=0.10 img/s, elapsed=3736s, eta=870min
+  [400/5690] speed=0.10 img/s, elapsed=3937s, eta=868min
+  [checkpoint] 已保存 400 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [420/5690] speed=0.10 img/s, elapsed=4107s, eta=859min
+  [440/5690] speed=0.10 img/s, elapsed=4319s, eta=859min
+  [460/5690] speed=0.10 img/s, elapsed=4526s, eta=858min
+  [checkpoint] 已保存 461 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [480/5690] speed=0.10 img/s, elapsed=4702s, eta=851min
+  [500/5690] speed=0.10 img/s, elapsed=4884s, eta=845min
+  [checkpoint] 已保存 500 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [520/5690] speed=0.10 img/s, elapsed=5099s, eta=845min
+  [540/5690] speed=0.10 img/s, elapsed=5318s, eta=845min
+  [checkpoint] 已保存 552 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [560/5690] speed=0.10 img/s, elapsed=5597s, eta=855min
+  [580/5690] speed=0.10 img/s, elapsed=5840s, eta=857min
+  [600/5690] speed=0.10 img/s, elapsed=6016s, eta=851min
+  [checkpoint] 已保存 600 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [620/5690] speed=0.10 img/s, elapsed=6211s, eta=847min
+  [640/5690] speed=0.10 img/s, elapsed=6466s, eta=850min
+  [checkpoint] 已保存 657 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [660/5690] speed=0.10 img/s, elapsed=6660s, eta=846min
+  [680/5690] speed=0.10 img/s, elapsed=6843s, eta=840min
+  [700/5690] speed=0.10 img/s, elapsed=7050s, eta=838min
+  [checkpoint] 已保存 700 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [720/5690] speed=0.10 img/s, elapsed=7257s, eta=835min
+  [740/5690] speed=0.10 img/s, elapsed=7458s, eta=831min
+  [checkpoint] 已保存 757 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [760/5690] speed=0.10 img/s, elapsed=7676s, eta=830min
+  [780/5690] speed=0.10 img/s, elapsed=7871s, eta=826min
+  [800/5690] speed=0.10 img/s, elapsed=8096s, eta=825min
+  [checkpoint] 已保存 800 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [820/5690] speed=0.10 img/s, elapsed=8284s, eta=820min
+  [840/5690] speed=0.10 img/s, elapsed=8569s, eta=825min
+  [checkpoint] 已保存 852 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [860/5690] speed=0.10 img/s, elapsed=8782s, eta=822min
+  [880/5690] speed=0.10 img/s, elapsed=8988s, eta=819min
+  [900/5690] speed=0.10 img/s, elapsed=9202s, eta=816min
+  [checkpoint] 已保存 900 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [920/5690] speed=0.10 img/s, elapsed=9403s, eta=813min
+  [940/5690] speed=0.10 img/s, elapsed=9694s, eta=816min
+  [checkpoint] 已保存 947 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [960/5690] speed=0.10 img/s, elapsed=9961s, eta=818min
+  [980/5690] speed=0.10 img/s, elapsed=10193s, eta=816min
+  [checkpoint] 已保存 998 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [1000/5690] speed=0.10 img/s, elapsed=10430s, eta=815min
+  [checkpoint] 已保存 1000 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [1020/5690] speed=0.10 img/s, elapsed=10619s, eta=810min
+  [1040/5690] speed=0.10 img/s, elapsed=10862s, eta=809min
+  [checkpoint] 已保存 1056 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [1060/5690] speed=0.10 img/s, elapsed=11106s, eta=808min
+  [1080/5690] speed=0.10 img/s, elapsed=11344s, eta=807min
+  [1100/5690] speed=0.10 img/s, elapsed=11563s, eta=804min
+  [checkpoint] 已保存 1100 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [1120/5690] speed=0.09 img/s, elapsed=11800s, eta=802min
+  [1140/5690] speed=0.10 img/s, elapsed=11989s, eta=798min
+  [checkpoint] 已保存 1156 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [1160/5690] speed=0.10 img/s, elapsed=12208s, eta=795min
+  [1180/5690] speed=0.09 img/s, elapsed=12427s, eta=792min
+  [1200/5690] speed=0.10 img/s, elapsed=12604s, eta=786min
+  [checkpoint] 已保存 1200 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [1220/5690] speed=0.10 img/s, elapsed=12787s, eta=781min
+  [1240/5690] speed=0.10 img/s, elapsed=12976s, eta=776min
+  [checkpoint] 已保存 1255 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [1260/5690] speed=0.10 img/s, elapsed=13236s, eta=776min
+  [1280/5690] speed=0.10 img/s, elapsed=13419s, eta=771min
+  [1300/5690] speed=0.10 img/s, elapsed=13650s, eta=768min
+  [checkpoint] 已保存 1300 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [1320/5690] speed=0.10 img/s, elapsed=13821s, eta=763min
+  [1340/5690] speed=0.10 img/s, elapsed=13986s, eta=757min
+  [1360/5690] speed=0.10 img/s, elapsed=14169s, eta=752min
+  [checkpoint] 已保存 1371 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [1380/5690] speed=0.10 img/s, elapsed=14334s, eta=746min
+  [1400/5690] speed=0.10 img/s, elapsed=14529s, eta=742min
+  [checkpoint] 已保存 1400 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [1420/5690] speed=0.10 img/s, elapsed=14712s, eta=737min
+  [1440/5690] speed=0.10 img/s, elapsed=14877s, eta=732min
+  [1460/5690] speed=0.10 img/s, elapsed=15060s, eta=727min
+  [checkpoint] 已保存 1468 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [1480/5690] speed=0.10 img/s, elapsed=15249s, eta=723min
+  [1500/5690] speed=0.10 img/s, elapsed=15461s, eta=720min
+  [checkpoint] 已保存 1500 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [1520/5690] speed=0.10 img/s, elapsed=15668s, eta=716min
+  [1540/5690] speed=0.10 img/s, elapsed=15875s, eta=713min
+  [checkpoint] 已保存 1559 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [1560/5690] speed=0.10 img/s, elapsed=16070s, eta=709min
+  [1580/5690] speed=0.10 img/s, elapsed=16264s, eta=705min
+  [1600/5690] speed=0.10 img/s, elapsed=16429s, eta=700min
+  [checkpoint] 已保存 1600 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [1620/5690] speed=0.10 img/s, elapsed=16630s, eta=696min
+  [1640/5690] speed=0.10 img/s, elapsed=16813s, eta=692min
+  [1660/5690] speed=0.10 img/s, elapsed=16996s, eta=688min
+  [checkpoint] 已保存 1664 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [1680/5690] speed=0.10 img/s, elapsed=17172s, eta=683min
+  [1700/5690] speed=0.10 img/s, elapsed=17349s, eta=679min
+  [checkpoint] 已保存 1700 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [1720/5690] speed=0.10 img/s, elapsed=17615s, eta=678min
+  [1740/5690] speed=0.10 img/s, elapsed=17773s, eta=672min
+  [1760/5690] speed=0.10 img/s, elapsed=17932s, eta=667min
+  [checkpoint] 已保存 1762 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [1780/5690] speed=0.10 img/s, elapsed=18138s, eta=664min
+  [1800/5690] speed=0.10 img/s, elapsed=18380s, eta=662min
+  [checkpoint] 已保存 1800 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [1820/5690] speed=0.10 img/s, elapsed=18544s, eta=657min
+  [1840/5690] speed=0.10 img/s, elapsed=18714s, eta=653min
+  [1860/5690] speed=0.10 img/s, elapsed=18921s, eta=649min
+  [checkpoint] 已保存 1866 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [1880/5690] speed=0.10 img/s, elapsed=19193s, eta=648min
+  [1900/5690] speed=0.10 img/s, elapsed=19399s, eta=645min
+  [checkpoint] 已保存 1900 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [1920/5690] speed=0.10 img/s, elapsed=19557s, eta=640min
+  [1940/5690] speed=0.10 img/s, elapsed=19758s, eta=637min
+  [1960/5690] speed=0.10 img/s, elapsed=20000s, eta=634min
+  [checkpoint] 已保存 1960 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [1980/5690] speed=0.10 img/s, elapsed=20146s, eta=629min
+  [2000/5690] speed=0.10 img/s, elapsed=20317s, eta=625min
+  [checkpoint] 已保存 2000 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [2020/5690] speed=0.10 img/s, elapsed=20513s, eta=621min
+  [2040/5690] speed=0.10 img/s, elapsed=20719s, eta=618min
+  [2060/5690] speed=0.10 img/s, elapsed=20920s, eta=614min
+  [checkpoint] 已保存 2060 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [2080/5690] speed=0.10 img/s, elapsed=21126s, eta=611min
+  [2100/5690] speed=0.10 img/s, elapsed=21344s, eta=608min
+  [checkpoint] 已保存 2100 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [2120/5690] speed=0.10 img/s, elapsed=21586s, eta=606min
+  [2140/5690] speed=0.10 img/s, elapsed=21780s, eta=602min
+  [checkpoint] 已保存 2158 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [2160/5690] speed=0.10 img/s, elapsed=21969s, eta=598min
+  [2180/5690] speed=0.10 img/s, elapsed=22187s, eta=595min
+  [2200/5690] speed=0.10 img/s, elapsed=22393s, eta=592min
+  [checkpoint] 已保存 2200 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [2220/5690] speed=0.10 img/s, elapsed=22599s, eta=589min
+  [2240/5690] speed=0.10 img/s, elapsed=22817s, eta=586min
+  [2260/5690] speed=0.10 img/s, elapsed=22970s, eta=581min
+  [checkpoint] 已保存 2263 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [2280/5690] speed=0.10 img/s, elapsed=23194s, eta=578min
+  [2300/5690] speed=0.10 img/s, elapsed=23406s, eta=575min
+  [checkpoint] 已保存 2300 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [2320/5690] speed=0.10 img/s, elapsed=23600s, eta=571min
+  [2340/5690] speed=0.10 img/s, elapsed=23818s, eta=568min
+  [2360/5690] speed=0.10 img/s, elapsed=24007s, eta=565min
+  [checkpoint] 已保存 2360 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [2380/5690] speed=0.10 img/s, elapsed=24196s, eta=561min
+  [2400/5690] speed=0.10 img/s, elapsed=24384s, eta=557min
+  [checkpoint] 已保存 2400 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [2420/5690] speed=0.10 img/s, elapsed=24549s, eta=553min
+  [2440/5690] speed=0.10 img/s, elapsed=24725s, eta=549min
+  [2460/5690] speed=0.10 img/s, elapsed=24974s, eta=547min
+  [checkpoint] 已保存 2462 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [2480/5690] speed=0.10 img/s, elapsed=25126s, eta=542min
+  [2500/5690] speed=0.10 img/s, elapsed=25274s, eta=537min
+  [checkpoint] 已保存 2500 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [2520/5690] speed=0.10 img/s, elapsed=25444s, eta=533min
+  [2540/5690] speed=0.10 img/s, elapsed=25633s, eta=530min
+  [2560/5690] speed=0.10 img/s, elapsed=25803s, eta=526min
+  [checkpoint] 已保存 2569 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [2580/5690] speed=0.10 img/s, elapsed=25969s, eta=522min
+  [2600/5690] speed=0.10 img/s, elapsed=26134s, eta=518min
+  [checkpoint] 已保存 2600 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [2620/5690] speed=0.10 img/s, elapsed=26274s, eta=513min
+  [2640/5690] speed=0.10 img/s, elapsed=26451s, eta=509min
+  [2660/5690] speed=0.10 img/s, elapsed=26616s, eta=505min
+  [checkpoint] 已保存 2673 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [2680/5690] speed=0.10 img/s, elapsed=26805s, eta=502min
+  [2700/5690] speed=0.10 img/s, elapsed=26969s, eta=498min
+  [checkpoint] 已保存 2700 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [2720/5690] speed=0.10 img/s, elapsed=27134s, eta=494min
+  [2740/5690] speed=0.10 img/s, elapsed=27263s, eta=489min
+  [2760/5690] speed=0.10 img/s, elapsed=27475s, eta=486min
+  [checkpoint] 已保存 2772 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [2780/5690] speed=0.10 img/s, elapsed=27628s, eta=482min
+  [2800/5690] speed=0.10 img/s, elapsed=27787s, eta=478min
+  [checkpoint] 已保存 2800 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [2820/5690] speed=0.10 img/s, elapsed=27940s, eta=474min
+  [2840/5690] speed=0.10 img/s, elapsed=28182s, eta=471min
+  [2860/5690] speed=0.10 img/s, elapsed=28323s, eta=467min
+  [checkpoint] 已保存 2868 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [2880/5690] speed=0.10 img/s, elapsed=28464s, eta=463min
+  [2900/5690] speed=0.10 img/s, elapsed=28605s, eta=459min
+  [checkpoint] 已保存 2900 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [2920/5690] speed=0.10 img/s, elapsed=28734s, eta=454min
+  [2940/5690] speed=0.10 img/s, elapsed=28904s, eta=451min
+  [2960/5690] speed=0.10 img/s, elapsed=29039s, eta=446min
+  [2980/5690] speed=0.10 img/s, elapsed=29174s, eta=442min
+  [checkpoint] 已保存 2986 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [3000/5690] speed=0.10 img/s, elapsed=29374s, eta=439min
+  [checkpoint] 已保存 3000 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [3020/5690] speed=0.10 img/s, elapsed=29619s, eta=436min
+  [3040/5690] speed=0.10 img/s, elapsed=29835s, eta=433min
+  [checkpoint] 已保存 3049 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [3060/5690] speed=0.10 img/s, elapsed=30084s, eta=431min
+  [3080/5690] speed=0.10 img/s, elapsed=30318s, eta=428min
+  [3100/5690] speed=0.10 img/s, elapsed=30546s, eta=425min
+  [checkpoint] 已保存 3100 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [3120/5690] speed=0.10 img/s, elapsed=30798s, eta=423min
+  [3140/5690] speed=0.10 img/s, elapsed=30978s, eta=419min
+  [checkpoint] 已保存 3158 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [3160/5690] speed=0.10 img/s, elapsed=31169s, eta=416min
+  [3180/5690] speed=0.10 img/s, elapsed=31369s, eta=413min
+  [3200/5690] speed=0.10 img/s, elapsed=31580s, eta=410min
+  [checkpoint] 已保存 3200 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [3220/5690] speed=0.10 img/s, elapsed=31786s, eta=406min
+  [3240/5690] speed=0.10 img/s, elapsed=31957s, eta=403min
+  [3260/5690] speed=0.10 img/s, elapsed=32192s, eta=400min
+  [checkpoint] 已保存 3260 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [3280/5690] speed=0.10 img/s, elapsed=32440s, eta=397min
+  [3300/5690] speed=0.10 img/s, elapsed=32639s, eta=394min
+  [checkpoint] 已保存 3300 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [3320/5690] speed=0.10 img/s, elapsed=32893s, eta=391min
+  [3340/5690] speed=0.10 img/s, elapsed=33152s, eta=389min
+  [checkpoint] 已保存 3346 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [3360/5690] speed=0.10 img/s, elapsed=33406s, eta=386min
+  [3380/5690] speed=0.10 img/s, elapsed=33703s, eta=384min
+  [checkpoint] 已保存 3393 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [3400/5690] speed=0.10 img/s, elapsed=33921s, eta=381min
+  [checkpoint] 已保存 3400 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [3420/5690] speed=0.10 img/s, elapsed=34110s, eta=377min
+  [3440/5690] speed=0.10 img/s, elapsed=34322s, eta=374min
+  [3460/5690] speed=0.10 img/s, elapsed=34523s, eta=371min
+  [checkpoint] 已保存 3460 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [3480/5690] speed=0.10 img/s, elapsed=34717s, eta=367min
+  [3500/5690] speed=0.10 img/s, elapsed=34941s, eta=364min
+  [checkpoint] 已保存 3500 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [3520/5690] speed=0.10 img/s, elapsed=35111s, eta=361min
+  [3540/5690] speed=0.10 img/s, elapsed=35329s, eta=358min
+  [checkpoint] 已保存 3555 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [3560/5690] speed=0.10 img/s, elapsed=35601s, eta=355min
+  [3580/5690] speed=0.10 img/s, elapsed=35837s, eta=352min
+  [3600/5690] speed=0.10 img/s, elapsed=36049s, eta=349min
+  [checkpoint] 已保存 3600 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [3620/5690] speed=0.10 img/s, elapsed=36255s, eta=346min
+  [3640/5690] speed=0.10 img/s, elapsed=36444s, eta=342min
+  [3660/5690] speed=0.10 img/s, elapsed=36650s, eta=339min
+  [checkpoint] 已保存 3660 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [3680/5690] speed=0.10 img/s, elapsed=36881s, eta=336min
+  [3700/5690] speed=0.10 img/s, elapsed=37159s, eta=333min
+  [checkpoint] 已保存 3700 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [3720/5690] speed=0.10 img/s, elapsed=37359s, eta=330min
+  [3740/5690] speed=0.10 img/s, elapsed=37560s, eta=326min
+  [checkpoint] 已保存 3758 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [3760/5690] speed=0.10 img/s, elapsed=37790s, eta=323min
+  [3780/5690] speed=0.10 img/s, elapsed=38050s, eta=320min
+  [3800/5690] speed=0.10 img/s, elapsed=38214s, eta=317min
+  [checkpoint] 已保存 3800 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [3820/5690] speed=0.10 img/s, elapsed=38337s, eta=313min
+  [3840/5690] speed=0.10 img/s, elapsed=38489s, eta=309min
+  [3860/5690] speed=0.10 img/s, elapsed=38690s, eta=306min
+  [checkpoint] 已保存 3870 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [3880/5690] speed=0.10 img/s, elapsed=38956s, eta=303min
+  [3900/5690] speed=0.10 img/s, elapsed=39173s, eta=300min
+  [checkpoint] 已保存 3900 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [3920/5690] speed=0.10 img/s, elapsed=39404s, eta=297min
+  [3940/5690] speed=0.10 img/s, elapsed=39592s, eta=293min
+  [checkpoint] 已保存 3958 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [3960/5690] speed=0.10 img/s, elapsed=39787s, eta=290min
+  [3980/5690] speed=0.10 img/s, elapsed=40035s, eta=287min
+  [4000/5690] speed=0.10 img/s, elapsed=40248s, eta=283min
+  [checkpoint] 已保存 4000 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [4020/5690] speed=0.10 img/s, elapsed=40454s, eta=280min
+  [4040/5690] speed=0.10 img/s, elapsed=40636s, eta=277min
+  [checkpoint] 已保存 4059 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [4060/5690] speed=0.10 img/s, elapsed=40867s, eta=273min
+  [4080/5690] speed=0.10 img/s, elapsed=41073s, eta=270min
+  [4100/5690] speed=0.10 img/s, elapsed=41286s, eta=267min
+  [checkpoint] 已保存 4100 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [4120/5690] speed=0.10 img/s, elapsed=41475s, eta=263min
+  [4140/5690] speed=0.10 img/s, elapsed=41682s, eta=260min
+  [checkpoint] 已保存 4159 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [4160/5690] speed=0.10 img/s, elapsed=41902s, eta=257min
+  [4180/5690] speed=0.10 img/s, elapsed=42116s, eta=254min
+  [4200/5690] speed=0.10 img/s, elapsed=42329s, eta=250min
+  [checkpoint] 已保存 4200 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [4220/5690] speed=0.10 img/s, elapsed=42566s, eta=247min
+  [4240/5690] speed=0.10 img/s, elapsed=42792s, eta=244min
+  [checkpoint] 已保存 4249 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [4260/5690] speed=0.10 img/s, elapsed=43064s, eta=241min
+  [4280/5690] speed=0.10 img/s, elapsed=43300s, eta=238min
+  [4300/5690] speed=0.10 img/s, elapsed=43524s, eta=234min
+  [checkpoint] 已保存 4300 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [4320/5690] speed=0.10 img/s, elapsed=43700s, eta=231min
+  [4340/5690] speed=0.10 img/s, elapsed=43859s, eta=227min
+  [4360/5690] speed=0.10 img/s, elapsed=44060s, eta=224min
+  [checkpoint] 已保存 4366 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [4380/5690] speed=0.10 img/s, elapsed=44347s, eta=221min
+  [4400/5690] speed=0.10 img/s, elapsed=44558s, eta=218min
+  [checkpoint] 已保存 4400 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [4420/5690] speed=0.10 img/s, elapsed=44821s, eta=215min
+  [4440/5690] speed=0.10 img/s, elapsed=45106s, eta=212min
+  [checkpoint] 已保存 4443 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [4460/5690] speed=0.10 img/s, elapsed=45445s, eta=209min
+  [4480/5690] speed=0.10 img/s, elapsed=45673s, eta=206min
+  [checkpoint] 已保存 4490 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [4500/5690] speed=0.10 img/s, elapsed=45895s, eta=202min
+  [checkpoint] 已保存 4500 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [4520/5690] speed=0.10 img/s, elapsed=46162s, eta=199min
+  [4540/5690] speed=0.10 img/s, elapsed=46397s, eta=196min
+  [checkpoint] 已保存 4552 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [4560/5690] speed=0.10 img/s, elapsed=46574s, eta=192min
+  [4580/5690] speed=0.10 img/s, elapsed=46751s, eta=189min
+  [4600/5690] speed=0.10 img/s, elapsed=47068s, eta=186min
+  [checkpoint] 已保存 4600 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [4620/5690] speed=0.10 img/s, elapsed=47271s, eta=182min
+  [4640/5690] speed=0.10 img/s, elapsed=47519s, eta=179min
+  [checkpoint] 已保存 4656 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [4660/5690] speed=0.10 img/s, elapsed=47766s, eta=176min
+  [4680/5690] speed=0.10 img/s, elapsed=48040s, eta=173min
+  [checkpoint] 已保存 4697 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [4700/5690] speed=0.10 img/s, elapsed=48333s, eta=170min
+  [checkpoint] 已保存 4700 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [4720/5690] speed=0.10 img/s, elapsed=48586s, eta=166min
+  [4740/5690] speed=0.10 img/s, elapsed=48795s, eta=163min
+  [checkpoint] 已保存 4757 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [4760/5690] speed=0.10 img/s, elapsed=48953s, eta=159min
+  [4780/5690] speed=0.10 img/s, elapsed=49181s, eta=156min
+  [4800/5690] speed=0.10 img/s, elapsed=49384s, eta=153min
+  [checkpoint] 已保存 4800 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [4820/5690] speed=0.10 img/s, elapsed=49593s, eta=149min
+  [4840/5690] speed=0.10 img/s, elapsed=49827s, eta=146min
+  [checkpoint] 已保存 4854 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [4860/5690] speed=0.10 img/s, elapsed=50055s, eta=142min
+  [4880/5690] speed=0.10 img/s, elapsed=50264s, eta=139min
+  [4900/5690] speed=0.10 img/s, elapsed=50564s, eta=136min
+  [checkpoint] 已保存 4900 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [4920/5690] speed=0.10 img/s, elapsed=50863s, eta=133min
+  [4940/5690] speed=0.10 img/s, elapsed=51098s, eta=129min
+  [checkpoint] 已保存 4947 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [4960/5690] speed=0.10 img/s, elapsed=51334s, eta=126min
+  [4980/5690] speed=0.10 img/s, elapsed=51524s, eta=122min
+  [checkpoint] 已保存 4997 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [5000/5690] speed=0.10 img/s, elapsed=51791s, eta=119min
+  [checkpoint] 已保存 5000 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [5020/5690] speed=0.10 img/s, elapsed=52032s, eta=116min
+  [5040/5690] speed=0.10 img/s, elapsed=52312s, eta=112min
+  [checkpoint] 已保存 5046 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [5060/5690] speed=0.10 img/s, elapsed=52617s, eta=109min
+  [5080/5690] speed=0.10 img/s, elapsed=52916s, eta=106min
+  [checkpoint] 已保存 5085 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [5100/5690] speed=0.10 img/s, elapsed=53196s, eta=103min
+  [checkpoint] 已保存 5100 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [5120/5690] speed=0.10 img/s, elapsed=53425s, eta=99min
+  [5140/5690] speed=0.10 img/s, elapsed=53672s, eta=96min
+  [checkpoint] 已保存 5154 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [5160/5690] speed=0.10 img/s, elapsed=53862s, eta=92min
+  [5180/5690] speed=0.10 img/s, elapsed=54098s, eta=89min
+  [5200/5690] speed=0.10 img/s, elapsed=54359s, eta=85min
+  [checkpoint] 已保存 5200 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [5220/5690] speed=0.10 img/s, elapsed=54569s, eta=82min
+  [5240/5690] speed=0.10 img/s, elapsed=54823s, eta=78min
+  [checkpoint] 已保存 5252 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [5260/5690] speed=0.10 img/s, elapsed=55057s, eta=75min
+  [5280/5690] speed=0.10 img/s, elapsed=55298s, eta=72min
+  [5300/5690] speed=0.10 img/s, elapsed=55514s, eta=68min
+  [checkpoint] 已保存 5300 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [5320/5690] speed=0.10 img/s, elapsed=55826s, eta=65min
+  [checkpoint] 已保存 5335 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [5340/5690] speed=0.10 img/s, elapsed=56183s, eta=61min
+  [5360/5690] speed=0.09 img/s, elapsed=56431s, eta=58min
+  [5380/5690] speed=0.09 img/s, elapsed=56634s, eta=54min
+  [checkpoint] 已保存 5390 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [5400/5690] speed=0.10 img/s, elapsed=56824s, eta=51min
+  [checkpoint] 已保存 5400 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [5420/5690] speed=0.10 img/s, elapsed=57021s, eta=47min
+  [5440/5690] speed=0.09 img/s, elapsed=57313s, eta=44min
+  [checkpoint] 已保存 5449 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [5460/5690] speed=0.09 img/s, elapsed=57574s, eta=40min
+  [5480/5690] speed=0.09 img/s, elapsed=57808s, eta=37min
+  [5500/5690] speed=0.09 img/s, elapsed=58050s, eta=33min
+  [checkpoint] 已保存 5500 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [5520/5690] speed=0.09 img/s, elapsed=58362s, eta=30min
+  [checkpoint] 已保存 5536 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [5540/5690] speed=0.09 img/s, elapsed=58700s, eta=26min
+  [5560/5690] speed=0.09 img/s, elapsed=58922s, eta=23min
+  [5580/5690] speed=0.09 img/s, elapsed=59183s, eta=19min
+  [checkpoint] 已保存 5585 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [5600/5690] speed=0.09 img/s, elapsed=59469s, eta=16min
+  [checkpoint] 已保存 5600 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [5620/5690] speed=0.09 img/s, elapsed=59724s, eta=12min
+  [5640/5690] speed=0.09 img/s, elapsed=59927s, eta=9min
+  [checkpoint] 已保存 5656 条到 d:\Desktop\2026AiC\_gd_semi_all.json
+  [5660/5690] speed=0.09 img/s, elapsed=60162s, eta=5min
+  [5680/5690] speed=0.09 img/s, elapsed=60417s, eta=2min
+  [5690/5690] speed=0.09 img/s, elapsed=60560s, eta=0min
+
+结果已保存: d:\Desktop\2026AiC\_gd_semi_all.json
+总耗时: 1009.3 分钟

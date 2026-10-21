@@ -1,0 +1,926 @@
+{
+ "000001_001": {
+  "query": "A squatting person",
+  "img": "000001.png",
+  "direct_bbox": [
+   0.637,
+   0.725,
+   0.672,
+   0.825
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "[{\"bbox_2d\": [637, 725, 672, 825], \"label\": \"A squatting person\"}]",
+  "direct_s": 6.43
+ },
+ "000001_002": {
+  "query": "The white street light on the left side of the stone steps on the right",
+  "img": "000001.png",
+  "direct_bbox": [
+   0.605,
+   0.185,
+   0.659,
+   0.875
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "[{\"bbox_2d\": [605, 185, 659, 875], \"label\": \"The white street light on the left side of the stone steps on the right\"}]",
+  "direct_s": 1.71
+ },
+ "000001_004": {
+  "query": "The black circular planter with green shrubs in front of the restaurant",
+  "img": "000001.png",
+  "direct_bbox": [
+   0.142,
+   0.694,
+   0.2,
+   0.822
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "[{\"bbox_2d\": [142, 694, 200, 822], \"label\": \"The black circular planter with green shrubs in front of the restaurant\"}]",
+  "direct_s": 1.83
+ },
+ "000001_005": {
+  "query": "The large stone staircase in the foreground",
+  "img": "000001.png",
+  "direct_bbox": [
+   0.725,
+   0.262,
+   1.0,
+   0.885
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "[{\"bbox_2d\": [725, 262, 1000, 885], \"label\": \"The large stone staircase in the foreground\"}]",
+  "direct_s": 1.49
+ },
+ "000001_006": {
+  "query": "Three people near the entrance of the commercial building",
+  "img": "000001.png",
+  "direct_bbox": [
+   0.592,
+   0.609,
+   0.672,
+   0.82
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "[{\"bbox_2d\": [592, 609, 672, 820], \"label\": \"Three people near the entrance of the commercial building\"}]",
+  "direct_s": 1.52
+ },
+ "000015_001": {
+  "query": "The adult woman closest to the camera, leaning down",
+  "img": "000015.png",
+  "direct_bbox": [
+   0.088,
+   0.273,
+   0.308,
+   0.805
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "[{\"bbox_2d\": [88, 273, 308, 805], \"label\": \"The adult woman closest to the camera, leaning down\"}]",
+  "direct_s": 3.19
+ },
+ "000015_002": {
+  "query": "A mobile phone in the back pocket of the woman's light blue jeans",
+  "img": "000015.png",
+  "direct_bbox": [
+   0.088,
+   0.685,
+   0.125,
+   0.728
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "[{\"bbox_2d\": [88, 685, 125, 728], \"label\": \"A mobile phone in the back pocket of the woman's light blue jeans\"}]",
+  "direct_s": 1.65
+ },
+ "000015_003": {
+  "query": "A man in a blue T-shirt standing beside a stroller",
+  "img": "000015.png",
+  "direct_bbox": [
+   0.58,
+   0.0,
+   0.678,
+   0.342
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "[{\"bbox_2d\": [580, 0, 678, 342], \"label\": \"A man in a blue T-shirt standing beside a stroller\"}]",
+  "direct_s": 1.55
+ },
+ "000015_004": {
+  "query": "Curved concrete steps",
+  "img": "000015.png",
+  "direct_bbox": [
+   0.764,
+   0.18,
+   1.0,
+   0.999
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "[{\"bbox_2d\": [764, 180, 1000, 999], \"label\": \"Curved concrete steps\"}]",
+  "direct_s": 1.4
+ },
+ "000015_005": {
+  "query": "The dark floor tile closest to the camera",
+  "img": "000015.png",
+  "direct_bbox": [
+   0.535,
+   0.765,
+   0.618,
+   0.999
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "[{\"bbox_2d\": [535, 765, 618, 999], \"label\": \"The dark floor tile closest to the camera\"}]",
+  "direct_s": 1.49
+ },
+ "000022_001": {
+  "query": "The text 'INGYM' visible on the glass windows of the building.",
+  "img": "000022.png",
+  "direct_bbox": [
+   0.139,
+   0.244,
+   0.157,
+   0.308
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "[{\"bbox_2d\": [139, 244, 157, 308], \"label\": \"The text 'INGYM' visible on the glass windows of the building.\"}]",
+  "direct_s": 3.37
+ },
+ "000022_002": {
+  "query": "A person wearing a white shirt sitting at an outdoor table in a Starbucks store.",
+  "img": "000022.png",
+  "direct_bbox": [
+   0.879,
+   0.575,
+   0.94,
+   0.725
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "[{\"bbox_2d\": [879, 575, 940, 725], \"label\": \"person wearing a white shirt sitting at an outdoor table in a Starbucks store.\"}]",
+  "direct_s": 1.68
+ },
+ "000022_003": {
+  "query": "The white and brown alternating pillar on the far left",
+  "img": "000022.png",
+  "direct_bbox": [
+   0.043,
+   0.575,
+   0.059,
+   0.758
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "[{\"bbox_2d\": [43, 575, 59, 758], \"label\": \"The white and brown alternating pillar on the far left\"}]",
+  "direct_s": 1.49
+ },
+ "000022_004": {
+  "query": "A speed bump",
+  "img": "000022.png",
+  "direct_bbox": [
+   0.5,
+   0.914,
+   0.999,
+   0.999
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "[{\"bbox_2d\": [500, 914, 999, 999], \"label\": \"speed bump\"}]",
+  "direct_s": 1.3
+ },
+ "000022_005": {
+  "query": "The black sedan in the distance",
+  "img": "000022.png",
+  "direct_bbox": [
+   0.129,
+   0.693,
+   0.198,
+   0.725
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "[{\"bbox_2d\": [129, 693, 198, 725], \"label\": \"The black sedan in the distance\"}]",
+  "direct_s": 1.42
+ },
+ "000001_003": {
+  "query": "The second white patio umbrella in the outdoor seating area from left to right",
+  "img": "000001.png",
+  "direct_bbox": [
+   0.298,
+   0.532,
+   0.458,
+   0.604
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "[{\"bbox_2d\": [298, 532, 458, 604], \"label\": \"The second white patio umbrella in the outdoor seating area from left to right\"}]",
+  "direct_s": 1.69,
+  "core": "white patio umbrella in the",
+  "n_cands": 2,
+  "cands": [
+   [
+    0.059,
+    0.455,
+    0.313,
+    0.565
+   ],
+   [
+    0.298,
+    0.532,
+    0.458,
+    0.605
+   ]
+  ],
+  "sel_num": 2,
+  "sel_raw": "2",
+  "som_bbox": [
+   0.298,
+   0.532,
+   0.458,
+   0.605
+  ],
+  "som_s": 4.57
+ },
+ "000085_002": {
+  "query": "The first of three buildings of similar height from left to right",
+  "img": "000085.png",
+  "direct_bbox": [
+   0.477,
+   0.212,
+   0.522,
+   0.348
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "[{\"bbox_2d\": [477, 212, 522, 348], \"label\": \"The first of three buildings of similar height from left to right\"}]",
+  "direct_s": 3.29,
+  "core": "of three buildings of similar",
+  "n_cands": 3,
+  "cands": [
+   [
+    0.477,
+    0.212,
+    0.522,
+    0.348
+   ],
+   [
+    0.539,
+    0.228,
+    0.581,
+    0.352
+   ],
+   [
+    0.597,
+    0.238,
+    0.638,
+    0.355
+   ]
+  ],
+  "sel_num": 1,
+  "sel_raw": "1",
+  "som_bbox": [
+   0.477,
+   0.212,
+   0.522,
+   0.348
+  ],
+  "som_s": 5.76
+ },
+ "000085_003": {
+  "query": "The second of three buildings of similar height from left to right",
+  "img": "000085.png",
+  "direct_bbox": [
+   0.538,
+   0.228,
+   0.581,
+   0.33
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "[{\"bbox_2d\": [538, 228, 581, 330], \"label\": \"The second of three buildings of similar height from left to right\"}]",
+  "direct_s": 1.62,
+  "core": "of three buildings of similar",
+  "n_cands": 3,
+  "cands": [
+   [
+    0.477,
+    0.212,
+    0.522,
+    0.348
+   ],
+   [
+    0.539,
+    0.228,
+    0.581,
+    0.352
+   ],
+   [
+    0.597,
+    0.238,
+    0.638,
+    0.355
+   ]
+  ],
+  "sel_num": 2,
+  "sel_raw": "2",
+  "som_bbox": [
+   0.539,
+   0.228,
+   0.581,
+   0.352
+  ],
+  "som_s": 4.02
+ },
+ "000085_004": {
+  "query": "The third of three buildings of similar height from left to right",
+  "img": "000085.png",
+  "direct_bbox": [
+   0.596,
+   0.238,
+   0.638,
+   0.335
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "[{\"bbox_2d\": [596, 238, 638, 335], \"label\": \"The third of three buildings of similar height from left to right\"}]",
+  "direct_s": 1.61,
+  "core": "of three buildings of similar",
+  "n_cands": 3,
+  "cands": [
+   [
+    0.477,
+    0.212,
+    0.522,
+    0.348
+   ],
+   [
+    0.539,
+    0.228,
+    0.581,
+    0.352
+   ],
+   [
+    0.597,
+    0.238,
+    0.638,
+    0.355
+   ]
+  ],
+  "sel_num": 3,
+  "sel_raw": "3",
+  "som_bbox": [
+   0.597,
+   0.238,
+   0.638,
+   0.355
+  ],
+  "som_s": 4.02
+ },
+ "000113_002": {
+  "query": "From left to right, the first red letter L",
+  "img": "000113.png",
+  "direct_bbox": [
+   0.21,
+   0.555,
+   0.255,
+   0.705
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "[{\"bbox_2d\": [210, 555, 255, 705], \"label\": \"From left to right, the first red letter L\"}]",
+  "direct_s": 3.23,
+  "core": "red letter L",
+  "n_cands": 2,
+  "cands": [
+   [
+    0.212,
+    0.555,
+    0.255,
+    0.705
+   ],
+   [
+    0.585,
+    0.505,
+    0.684,
+    0.722
+   ]
+  ],
+  "sel_num": 1,
+  "sel_raw": "1",
+  "som_bbox": [
+   0.212,
+   0.555,
+   0.255,
+   0.705
+  ],
+  "som_s": 4.48
+ },
+ "000113_003": {
+  "query": "From left to right, the first red letter O",
+  "img": "000113.png",
+  "direct_bbox": [
+   0.267,
+   0.548,
+   0.329,
+   0.7
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "[{\"bbox_2d\": [267, 548, 329, 700], \"label\": \"From left to right, the first red letter O\"}]",
+  "direct_s": 1.54,
+  "core": "red letter O",
+  "n_cands": 1,
+  "cands": [
+   [
+    0.267,
+    0.55,
+    0.328,
+    0.7
+   ]
+  ],
+  "som_bbox": null,
+  "som_s": 1.46
+ },
+ "000113_004": {
+  "query": "From left to right, the first red letter V",
+  "img": "000113.png",
+  "direct_bbox": [
+   0.105,
+   0.57,
+   0.135,
+   0.7
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "[{\"bbox_2d\": [105, 570, 135, 700], \"label\": \"From left to right, the first red letter V\"}]",
+  "direct_s": 1.55,
+  "core": "red letter V",
+  "n_cands": 1,
+  "cands": [
+   [
+    0.108,
+    0.572,
+    0.135,
+    0.7
+   ]
+  ],
+  "som_bbox": null,
+  "som_s": 1.45
+ },
+ "000113_005": {
+  "query": "From left to right, the first red letter E",
+  "img": "000113.png",
+  "direct_bbox": [
+   0.15,
+   0.559,
+   0.191,
+   0.695
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "[{\"bbox_2d\": [150, 559, 191, 695], \"label\": \"From left to right, the first red letter E\"}]",
+  "direct_s": 1.55,
+  "core": "red letter E",
+  "n_cands": 2,
+  "cands": [
+   [
+    0.15,
+    0.562,
+    0.19,
+    0.695
+   ],
+   [
+    0.455,
+    0.52,
+    0.523,
+    0.708
+   ]
+  ],
+  "sel_num": 1,
+  "sel_raw": "1",
+  "som_bbox": [
+   0.15,
+   0.562,
+   0.19,
+   0.695
+  ],
+  "som_s": 4.43
+ },
+ "000141_005": {
+  "query": "The white covering on the third electric scooter from left to right below the camera",
+  "img": "000141.png",
+  "direct_bbox": [
+   0.34,
+   0.848,
+   0.508,
+   1.0
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "[{\"bbox_2d\": [340, 848, 508, 1000], \"label\": \"The white covering on the third electric scooter from left to right below the camera\"}]",
+  "direct_s": 3.45,
+  "core": "electric scooter",
+  "n_cands": 8,
+  "cands": [
+   [
+    0.01,
+    0.845,
+    0.136,
+    1.0
+   ],
+   [
+    0.171,
+    0.835,
+    0.329,
+    1.0
+   ],
+   [
+    0.34,
+    0.848,
+    0.508,
+    1.0
+   ],
+   [
+    0.497,
+    0.859,
+    0.601,
+    1.0
+   ],
+   [
+    0.645,
+    0.861,
+    0.745,
+    1.0
+   ],
+   [
+    0.785,
+    0.875,
+    0.875,
+    1.0
+   ],
+   [
+    0.875,
+    0.865,
+    0.96,
+    1.0
+   ],
+   [
+    0.95,
+    0.885,
+    1.0,
+    1.0
+   ]
+  ],
+  "sel_num": 3,
+  "sel_raw": "3",
+  "som_bbox": [
+   0.34,
+   0.848,
+   0.508,
+   1.0
+  ],
+  "som_s": 11.19
+ },
+ "000246_006": {
+  "query": "The first double glass entrance doors from the left to right",
+  "img": "000246.png",
+  "direct_bbox": [
+   0.64,
+   0.725,
+   0.68,
+   0.898
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "[{\"bbox_2d\": [640, 725, 680, 898], \"label\": \"The first double glass entrance doors from the left to right\"}]",
+  "direct_s": 3.38,
+  "core": "double glass entrance doors",
+  "n_cands": 1,
+  "cands": [
+   [
+    0.641,
+    0.685,
+    0.73,
+    0.9
+   ]
+  ],
+  "som_bbox": null,
+  "som_s": 1.52
+ },
+ "000281_001": {
+  "query": "The second red and white bumper car from left to right",
+  "img": "000281.png",
+  "direct_bbox": [
+   0.134,
+   0.385,
+   0.275,
+   0.53
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "[{\"bbox_2d\": [134, 385, 275, 530], \"label\": \"The second red and white bumper car from left to right\"}]",
+  "direct_s": 3.34,
+  "core": "red and white bumper car",
+  "n_cands": 3,
+  "cands": [
+   [
+    0.028,
+    0.38,
+    0.116,
+    0.492
+   ],
+   [
+    0.135,
+    0.392,
+    0.275,
+    0.531
+   ],
+   [
+    0.592,
+    0.367,
+    0.697,
+    0.515
+   ]
+  ],
+  "sel_num": 2,
+  "sel_raw": "2",
+  "som_bbox": [
+   0.135,
+   0.392,
+   0.275,
+   0.531
+  ],
+  "som_s": 5.78
+ },
+ "000281_003": {
+  "query": "The first red and white bumper car from right to left",
+  "img": "000281.png",
+  "direct_bbox": [
+   0.59,
+   0.365,
+   0.698,
+   0.517
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "[{\"bbox_2d\": [590, 365, 698, 517], \"label\": \"The first red and white bumper car from right to left\"}]",
+  "direct_s": 1.59,
+  "core": "red and white bumper car",
+  "n_cands": 3,
+  "cands": [
+   [
+    0.028,
+    0.38,
+    0.116,
+    0.492
+   ],
+   [
+    0.135,
+    0.392,
+    0.275,
+    0.531
+   ],
+   [
+    0.592,
+    0.367,
+    0.697,
+    0.515
+   ]
+  ],
+  "sel_num": 3,
+  "sel_raw": "3",
+  "som_bbox": [
+   0.592,
+   0.367,
+   0.697,
+   0.515
+  ],
+  "som_s": 3.99
+ },
+ "000393_003": {
+  "query": "The deer with antlers that is second closest to the camera",
+  "img": "000393.png",
+  "direct_bbox": [
+   0.444,
+   0.26,
+   0.542,
+   0.521
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "[{\"bbox_2d\": [444, 260, 542, 521], \"label\": \"The deer with antlers that is second closest to the camera\"}]",
+  "direct_s": 3.33,
+  "core": "antlers that is",
+  "n_cands": 2,
+  "cands": [
+   [
+    0.362,
+    0.588,
+    0.418,
+    0.668
+   ],
+   [
+    0.444,
+    0.387,
+    0.517,
+    0.475
+   ]
+  ],
+  "sel_num": 2,
+  "sel_raw": "2",
+  "som_bbox": [
+   0.444,
+   0.387,
+   0.517,
+   0.475
+  ],
+  "som_s": 4.57
+ },
+ "000512_004": {
+  "query": "The fifth spherical protrusion from the top on the vertical silver metal pillar",
+  "img": "000512.png",
+  "direct_bbox": [
+   0.455,
+   0.666,
+   0.475,
+   0.699
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "[{\"bbox_2d\": [455, 666, 475, 699], \"label\": \"The fifth spherical protrusion from the top on the vertical silver metal pillar\"}]",
+  "direct_s": 3.41,
+  "core": "spherical protrusion",
+  "n_cands": 11,
+  "cands": [
+   [
+    0.434,
+    0.977,
+    0.458,
+    1.0
+   ],
+   [
+    0.44,
+    0.918,
+    0.461,
+    0.955
+   ],
+   [
+    0.444,
+    0.848,
+    0.465,
+    0.887
+   ],
+   [
+    0.446,
+    0.789,
+    0.468,
+    0.825
+   ],
+   [
+    0.45,
+    0.725,
+    0.471,
+    0.762
+   ],
+   [
+    0.454,
+    0.665,
+    0.475,
+    0.7
+   ],
+   [
+    0.458,
+    0.604,
+    0.479,
+    0.64
+   ],
+   [
+    0.462,
+    0.545,
+    0.483,
+    0.581
+   ],
+   [
+    0.466,
+    0.487,
+    0.487,
+    0.522
+   ],
+   [
+    0.469,
+    0.43,
+    0.49,
+    0.465
+   ],
+   [
+    0.472,
+    0.375,
+    0.492,
+    0.41
+   ]
+  ],
+  "sel_num": 7,
+  "sel_raw": "7",
+  "som_bbox": [
+   0.458,
+   0.604,
+   0.479,
+   0.64
+  ],
+  "som_s": 15.0
+ },
+ "000624_003": {
+  "query": "The first yellow brick at the bottom closest to the camera",
+  "img": "000624.png",
+  "direct_bbox": [
+   0.055,
+   0.868,
+   0.1,
+   0.908
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "[{\"bbox_2d\": [55, 868, 100, 908], \"label\": \"The first yellow brick at the bottom closest to the camera\"}]",
+  "direct_s": 3.28,
+  "core": "yellow brick",
+  "n_cands": 15,
+  "cands": [
+   [
+    0.054,
+    0.87,
+    0.1,
+    0.908
+   ],
+   [
+    0.141,
+    0.592,
+    0.17,
+    0.61
+   ],
+   [
+    0.182,
+    0.648,
+    0.212,
+    0.67
+   ],
+   [
+    0.215,
+    0.622,
+    0.25,
+    0.644
+   ],
+   [
+    0.251,
+    0.777,
+    0.29,
+    0.804
+   ],
+   [
+    0.484,
+    0.498,
+    0.51,
+    0.512
+   ],
+   [
+    0.571,
+    0.516,
+    0.598,
+    0.53
+   ],
+   [
+    0.664,
+    0.602,
+    0.695,
+    0.618
+   ],
+   [
+    0.755,
+    0.686,
+    0.79,
+    0.704
+   ],
+   [
+    0.882,
+    0.672,
+    0.914,
+    0.692
+   ],
+   [
+    0.925,
+    0.728,
+    0.96,
+    0.748
+   ],
+   [
+    0.982,
+    0.762,
+    1.0,
+    0.782
+   ],
+   [
+    0.982,
+    0.822,
+    1.0,
+    0.842
+   ],
+   [
+    0.972,
+    0.574,
+    0.999,
+    0.592
+   ],
+   [
+    0.582,
+    0.734,
+    0.62,
+    0.758
+   ]
+  ],
+  "sel_num": 15,
+  "sel_raw": "15",
+  "som_bbox": [
+   0.582,
+   0.734,
+   0.62,
+   0.758
+  ],
+  "som_s": 18.5
+ }
+}

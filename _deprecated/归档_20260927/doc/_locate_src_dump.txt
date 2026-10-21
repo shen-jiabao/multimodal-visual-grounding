@@ -1,0 +1,649 @@
+﻿################ /root/locate_run_v3.py ################
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+import os
+import json
+import re
+import torch
+from PIL import Image
+from transformers import AutoModel, AutoTokenizer, AutoProcessor
+
+# ==================== 可调参数 ====================
+MODEL_PATH = "/models/LocateAnything-3B/LocateAnything-3B"
+DATA_ROOT = "/root/dataset/初赛数据集-基于大模型的多模态视觉理解与推理"
+JSON_FILE = os.path.join(DATA_ROOT, "queries", "queries.json")
+OUTPUT_DIR = "/root/output"
+ENRICHED_FILE = "/root/output/enriched_queries_qwen25.json"
+USE_ORIGINAL_IF_MISSING = True
+OUTPUT_JSON = os.path.join(OUTPUT_DIR, "predictions_v3_slow_enriched.json")
+CHECKPOINT_INTERVAL = 100
+CHECKPOINT_FILE = os.path.join(OUTPUT_DIR, "checkpoint_v3_slow_enriched.json")
+
+MAX_IMAGE_SIZE = 2500
+GENERATION_MODE = "slow"       # ★ 使用 slow 模式追求最高精度
+MAX_NEW_TOKENS = 256           # 降低 token 数加速
+DO_SAMPLE = False              # 贪婪解码
+PRELOAD_IMAGES = False          # 预加载图像到内存
+# =================================================
+
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+# ==================== 加载模型 ====================
+print("🔄 正在加载 LocateAnything-3B 模型...")
+device = "cuda" if torch.cuda.is_available() else "cpu"
+
+tokenizer = AutoTokenizer.from_pretrained(
+    MODEL_PATH,
+    trust_remote_code=True,
+    fix_mistral_regex=True
+)
+
+processor = AutoProcessor.from_pretrained(
+    MODEL_PATH,
+    trust_remote_code=True
+)
+
+model = AutoModel.from_pretrained(
+    MODEL_PATH,
+    dtype=torch.bfloat16,
+    trust_remote_code=True,
+).to(device).eval()
+
+print("✅ 模型加载完成！")
+print(f"   设备: {device}")
+print(f"   最大图像长边: {MAX_IMAGE_SIZE} px")
+print(f"   生成模式: {GENERATION_MODE}")
+print(f"   预加载图像到内存: {PRELOAD_IMAGES}")
+
+# ==================== 工具函数 ====================
+def resize_image(image, max_size):
+    """按比例缩放图像，使长边不超过 max_size"""
+    w, h = image.size
+    if max(w, h) > max_size:
+        scale = max_size / max(w, h)
+        new_w = int(w * scale)
+        new_h = int(h * scale)
+        image = image.resize((new_w, new_h), Image.LANCZOS)
+        print(f"   图像缩放: {w}x{h} -> {new_w}x{new_h}")
+    return image
+
+def parse_boxes(answer):
+    """从模型输出解析所有归一化框（0-1000整数 → 0-1浮点）"""
+    boxes = []
+    for m in re.finditer(r"<box><(\d+)><(\d+)><(\d+)><(\d+)></box>", answer):
+        x1, y1, x2, y2 = map(int, m.groups())
+        boxes.append([x1 / 1000, y1 / 1000, x2 / 1000, y2 / 1000])
+    return boxes
+
+def is_valid_box(box, area_thresh_low=0.01, area_thresh_high=0.9):
+    """检查框是否合理：面积在 [1%, 90%] 之间，且坐标顺序正确"""
+    x1, y1, x2, y2 = box
+    if x1 >= x2 or y1 >= y2:
+        return False
+    area = (x2 - x1) * (y2 - y1)
+    return area_thresh_low <= area <= area_thresh_high
+
+def locate(image, query, generation_mode="slow"):
+    """输入图像和文本，返回模型原始输出字符串"""
+    image = resize_image(image, MAX_IMAGE_SIZE)
+
+    messages = [
+        {"role": "user", "content": [
+            {"type": "image", "image": image},
+            {"type": "text", "text": query},
+        ]}
+    ]
+
+    text = processor.py_apply_chat_template(
+        messages, tokenize=False, add_generation_prompt=True
+    )
+    images, _ = processor.process_vision_info(messages)
+    inputs = processor(text=[text], images=images, return_tensors="pt").to(device)
+    pixel_values = inputs["pixel_values"].to(model.dtype)
+
+    with torch.no_grad():
+        response = model.generate(
+            pixel_values=pixel_values,
+            input_ids=inputs["input_ids"],
+            attention_mask=inputs["attention_mask"],
+            image_grid_hws=inputs.get("image_grid_hws"),
+            tokenizer=tokenizer,
+            max_new_tokens=MAX_NEW_TOKENS,
+            use_cache=True,
+            generation_mode=generation_mode,
+            do_sample=DO_SAMPLE,
+            verbose=False,
+        )
+
+    if isinstance(response, tuple):
+        answer = response[0][0] if isinstance(response[0], list) else response[0]
+    else:
+        answer = response[0] if isinstance(response, list) else response
+    return answer
+
+# ==================== 加载测试集 ====================
+if not os.path.exists(JSON_FILE):
+    print(f"❌ 找不到测试集 JSON: {JSON_FILE}")
+    exit(1)
+
+with open(JSON_FILE, 'r', encoding='utf-8') as f:
+    data = json.load(f)
+
+total = len(data)
+print(f"📊 共 {total} 个样本待处理")
+
+# ==================== 加载扩写查询 ====================
+enriched_queries = {}
+if os.path.exists(ENRICHED_FILE):
+    with open(ENRICHED_FILE, 'r', encoding='utf-8') as f:
+        enriched_queries = json.load(f)
+    print(f"✅ 已加载 {len(enriched_queries)} 条扩写查询")
+else:
+    print(f"⚠️ 未找到扩写查询文件 {ENRICHED_FILE}，将使用原始查询")
+
+
+
+# ==================== 预加载图像到内存（可选） ====================
+image_cache = {}
+if PRELOAD_IMAGES:
+    print("🔄 正在将所有可见光图像加载到内存...")
+    for qid, info in data.items():
+        vis_path = os.path.join(DATA_ROOT, info["visible"])
+        try:
+            img = Image.open(vis_path).convert("RGB")
+            img = resize_image(img, MAX_IMAGE_SIZE)  # 提前缩放
+            image_cache[qid] = img
+        except Exception as e:
+            print(f"⚠️ 无法加载图像 {vis_path}: {e}")
+    print(f"✅ 已加载 {len(image_cache)} 张图像到内存")
+
+# ==================== 续跑支持 ====================
+predictions = {}
+start_idx = 0
+if os.path.exists(CHECKPOINT_FILE):
+    with open(CHECKPOINT_FILE, 'r', encoding='utf-8') as f:
+        ckpt = json.load(f)
+    predictions = ckpt.get("predictions", {})
+    start_idx = ckpt.get("last_idx", 0)
+    print(f"🔄 从第 {start_idx+1} 个样本继续（已有 {len(predictions)} 个结果）")
+
+items = list(data.items())
+
+# ==================== 推理循环 ====================
+for idx, (query_id, info) in enumerate(items[start_idx:], start=start_idx+1):
+    # 获取图像（优先从内存缓存取）
+    if PRELOAD_IMAGES and query_id in image_cache:
+        image = image_cache[query_id]
+    else:
+        vis_path = os.path.join(DATA_ROOT, info["visible"])
+        if not os.path.exists(vis_path):
+            print(f"⚠️ [{idx}/{total}] 图像不存在: {vis_path}，跳过")
+            continue
+        try:
+            image = Image.open(vis_path).convert("RGB")
+        except Exception as e:
+            print(f"❌ [{idx}/{total}] 读取图像失败: {e}")
+            continue
+
+    original_query = info["query"]
+    query_text = enriched_queries.get(query_id, original_query) if USE_ORIGINAL_IF_MISSING else enriched_queries.get(query_id)
+    if not query_text:
+        query_text = original_query
+    print(f"   原始: {original_query[:60]}")
+    print(f"   使用: {query_text[:80]}")
+    print(f"\n🔍 [{idx}/{total}] 处理 {query_id}: {query_text[:60]}...")
+
+    prompt = f"Locate a single instance that matches the following description: {query_text}."
+
+    try:
+        answer = locate(image, prompt, generation_mode=GENERATION_MODE)
+        print(f"   原始输出(前100字): {answer.strip()[:100]}")
+
+        boxes = parse_boxes(answer)
+        bbox_norm = None
+        for box in boxes:
+            if is_valid_box(box):
+                bbox_norm = box
+                break
+        if bbox_norm is None and boxes:
+            bbox_norm = boxes[0]
+        if bbox_norm is None:
+            bbox_norm = [0.45, 0.45, 0.55, 0.55]
+            print("   ⚠️ 未检测到框，使用兜底中心框")
+    except Exception as e:
+        print(f"   ❌ 推理失败: {e}")
+        bbox_norm = [0.45, 0.45, 0.55, 0.55]
+
+    # 确保坐标合法
+    x1, y1, x2, y2 = bbox_norm
+    if x1 >= x2:
+        x1, x2 = x2, x1
+    if y1 >= y2:
+        y1, y2 = y2, y1
+    bbox_norm = [max(0.0, min(1.0, v)) for v in [x1, y1, x2, y2]]
+
+    predictions[query_id] = {
+        "visible": info["visible"],
+        "infrared": info["infrared"],
+        "depth": info["depth"],
+        "query": info["query"],
+        "bbox": bbox_norm
+    }
+
+    print(f"   ✅ 预测框: [{bbox_norm[0]:.16f}, {bbox_norm[1]:.16f}, {bbox_norm[2]:.16f}, {bbox_norm[3]:.16f}]")
+
+    if idx % CHECKPOINT_INTERVAL == 0:
+        with open(CHECKPOINT_FILE, 'w', encoding='utf-8') as f:
+            json.dump({"last_idx": idx, "predictions": predictions}, f, indent=2)
+        print(f"💾 检查点已保存 ({idx}/{total})")
+
+# ==================== 最终保存 ====================
+with open(OUTPUT_JSON, 'w', encoding='utf-8') as f:
+    json.dump(predictions, f, indent=2, ensure_ascii=False)
+
+if os.path.exists(CHECKPOINT_FILE):
+    os.remove(CHECKPOINT_FILE)
+
+print(f"\n🎉 全部完成！共处理 {len(predictions)} 个样本")
+print(f"📁 结果保存至: {OUTPUT_JSON}")
+
+################ /root/locate_run_v2.py ################
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+import os
+import json
+import re
+import torch
+from PIL import Image
+from transformers import AutoModel, AutoTokenizer, AutoProcessor
+
+# ==================== 可调参数 ====================
+MODEL_PATH = "/models/LocateAnything-3B/LocateAnything-3B"
+DATA_ROOT = "/root/dataset/初赛数据集-基于大模型的多模态视觉理解与推理"
+JSON_FILE = os.path.join(DATA_ROOT, "queries", "queries.json")
+OUTPUT_DIR = "/root/output"
+OUTPUT_JSON = os.path.join(OUTPUT_DIR, "predictions_v2_highres_slow.json")  # ★ 新文件名
+CHECKPOINT_INTERVAL = 100
+CHECKPOINT_FILE = os.path.join(OUTPUT_DIR, "checkpoint_v2_highres_slow.json")
+
+MAX_IMAGE_SIZE = 2500          # ★ 输入图像长边最大像素（可改 2048/2300/2500/2800）
+GENERATION_MODE = "slow"       # ★ 使用 slow 模式追求最高精度
+MAX_NEW_TOKENS = 256           # 降低 token 数加速
+DO_SAMPLE = False              # 贪婪解码
+PRELOAD_IMAGES = True          # 预加载图像到内存
+# =================================================
+
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+# ==================== 加载模型 ====================
+print("🔄 正在加载 LocateAnything-3B 模型...")
+device = "cuda" if torch.cuda.is_available() else "cpu"
+
+tokenizer = AutoTokenizer.from_pretrained(
+    MODEL_PATH,
+    trust_remote_code=True,
+    fix_mistral_regex=True
+)
+
+processor = AutoProcessor.from_pretrained(
+    MODEL_PATH,
+    trust_remote_code=True
+)
+
+model = AutoModel.from_pretrained(
+    MODEL_PATH,
+    dtype=torch.bfloat16,
+    trust_remote_code=True,
+).to(device).eval()
+
+print("✅ 模型加载完成！")
+print(f"   设备: {device}")
+print(f"   最大图像长边: {MAX_IMAGE_SIZE} px")
+print(f"   生成模式: {GENERATION_MODE}")
+print(f"   预加载图像到内存: {PRELOAD_IMAGES}")
+
+# ==================== 工具函数 ====================
+def resize_image(image, max_size):
+    """按比例缩放图像，使长边不超过 max_size"""
+    w, h = image.size
+    if max(w, h) > max_size:
+        scale = max_size / max(w, h)
+        new_w = int(w * scale)
+        new_h = int(h * scale)
+        image = image.resize((new_w, new_h), Image.LANCZOS)
+        print(f"   图像缩放: {w}x{h} -> {new_w}x{new_h}")
+    return image
+
+def parse_boxes(answer):
+    """从模型输出解析所有归一化框（0-1000整数 → 0-1浮点）"""
+    boxes = []
+    for m in re.finditer(r"<box><(\d+)><(\d+)><(\d+)><(\d+)></box>", answer):
+        x1, y1, x2, y2 = map(int, m.groups())
+        boxes.append([x1 / 1000, y1 / 1000, x2 / 1000, y2 / 1000])
+    return boxes
+
+def is_valid_box(box, area_thresh_low=0.01, area_thresh_high=0.9):
+    """检查框是否合理：面积在 [1%, 90%] 之间，且坐标顺序正确"""
+    x1, y1, x2, y2 = box
+    if x1 >= x2 or y1 >= y2:
+        return False
+    area = (x2 - x1) * (y2 - y1)
+    return area_thresh_low <= area <= area_thresh_high
+
+def locate(image, query, generation_mode="slow"):
+    """输入图像和文本，返回模型原始输出字符串"""
+    image = resize_image(image, MAX_IMAGE_SIZE)
+
+    messages = [
+        {"role": "user", "content": [
+            {"type": "image", "image": image},
+            {"type": "text", "text": query},
+        ]}
+    ]
+
+    text = processor.py_apply_chat_template(
+        messages, tokenize=False, add_generation_prompt=True
+    )
+    images, _ = processor.process_vision_info(messages)
+    inputs = processor(text=[text], images=images, return_tensors="pt").to(device)
+    pixel_values = inputs["pixel_values"].to(model.dtype)
+
+    with torch.no_grad():
+        response = model.generate(
+            pixel_values=pixel_values,
+            input_ids=inputs["input_ids"],
+            attention_mask=inputs["attention_mask"],
+            image_grid_hws=inputs.get("image_grid_hws"),
+            tokenizer=tokenizer,
+            max_new_tokens=MAX_NEW_TOKENS,
+            use_cache=True,
+            generation_mode=generation_mode,
+            do_sample=DO_SAMPLE,
+            verbose=False,
+        )
+
+    if isinstance(response, tuple):
+        answer = response[0][0] if isinstance(response[0], list) else response[0]
+    else:
+        answer = response[0] if isinstance(response, list) else response
+    return answer
+
+# ==================== 加载测试集 ====================
+if not os.path.exists(JSON_FILE):
+    print(f"❌ 找不到测试集 JSON: {JSON_FILE}")
+    exit(1)
+
+with open(JSON_FILE, 'r', encoding='utf-8') as f:
+    data = json.load(f)
+
+total = len(data)
+print(f"📊 共 {total} 个样本待处理")
+
+# ==================== 预加载图像到内存（可选） ====================
+image_cache = {}
+if PRELOAD_IMAGES:
+    print("🔄 正在将所有可见光图像加载到内存...")
+    for qid, info in data.items():
+        vis_path = os.path.join(DATA_ROOT, info["visible"])
+        try:
+            img = Image.open(vis_path).convert("RGB")
+            img = resize_image(img, MAX_IMAGE_SIZE)  # 提前缩放
+            image_cache[qid] = img
+        except Exception as e:
+            print(f"⚠️ 无法加载图像 {vis_path}: {e}")
+    print(f"✅ 已加载 {len(image_cache)} 张图像到内存")
+
+# ==================== 续跑支持 ====================
+predictions = {}
+start_idx = 0
+if os.path.exists(CHECKPOINT_FILE):
+    with open(CHECKPOINT_FILE, 'r', encoding='utf-8') as f:
+        ckpt = json.load(f)
+    predictions = ckpt.get("predictions", {})
+    start_idx = ckpt.get("last_idx", 0)
+    print(f"🔄 从第 {start_idx+1} 个样本继续（已有 {len(predictions)} 个结果）")
+
+items = list(data.items())
+
+# ==================== 推理循环 ====================
+for idx, (query_id, info) in enumerate(items[start_idx:], start=start_idx+1):
+    # 获取图像（优先从内存缓存取）
+    if PRELOAD_IMAGES and query_id in image_cache:
+        image = image_cache[query_id]
+    else:
+        vis_path = os.path.join(DATA_ROOT, info["visible"])
+        if not os.path.exists(vis_path):
+            print(f"⚠️ [{idx}/{total}] 图像不存在: {vis_path}，跳过")
+            continue
+        try:
+            image = Image.open(vis_path).convert("RGB")
+        except Exception as e:
+            print(f"❌ [{idx}/{total}] 读取图像失败: {e}")
+            continue
+
+    query_text = info["query"]
+    print(f"\n🔍 [{idx}/{total}] 处理 {query_id}: {query_text[:60]}...")
+
+    prompt = f"Locate a single instance that matches the following description: {query_text}."
+
+    try:
+        answer = locate(image, prompt, generation_mode=GENERATION_MODE)
+        print(f"   原始输出(前100字): {answer.strip()[:100]}")
+
+        boxes = parse_boxes(answer)
+        bbox_norm = None
+        for box in boxes:
+            if is_valid_box(box):
+                bbox_norm = box
+                break
+        if bbox_norm is None and boxes:
+            bbox_norm = boxes[0]
+        if bbox_norm is None:
+            bbox_norm = [0.45, 0.45, 0.55, 0.55]
+            print("   ⚠️ 未检测到框，使用兜底中心框")
+    except Exception as e:
+        print(f"   ❌ 推理失败: {e}")
+        bbox_norm = [0.45, 0.45, 0.55, 0.55]
+
+    # 确保坐标合法
+    x1, y1, x2, y2 = bbox_norm
+    if x1 >= x2:
+        x1, x2 = x2, x1
+    if y1 >= y2:
+        y1, y2 = y2, y1
+    bbox_norm = [max(0.0, min(1.0, v)) for v in [x1, y1, x2, y2]]
+
+    predictions[query_id] = {
+        "visible": info["visible"],
+        "infrared": info["infrared"],
+        "depth": info["depth"],
+        "query": info["query"],
+        "bbox": bbox_norm
+    }
+
+    print(f"   ✅ 预测框: [{bbox_norm[0]:.16f}, {bbox_norm[1]:.16f}, {bbox_norm[2]:.16f}, {bbox_norm[3]:.16f}]")
+
+    if idx % CHECKPOINT_INTERVAL == 0:
+        with open(CHECKPOINT_FILE, 'w', encoding='utf-8') as f:
+            json.dump({"last_idx": idx, "predictions": predictions}, f, indent=2)
+        print(f"💾 检查点已保存 ({idx}/{total})")
+
+# ==================== 最终保存 ====================
+with open(OUTPUT_JSON, 'w', encoding='utf-8') as f:
+    json.dump(predictions, f, indent=2, ensure_ascii=False)
+
+if os.path.exists(CHECKPOINT_FILE):
+    os.remove(CHECKPOINT_FILE)
+
+print(f"\n🎉 全部完成！共处理 {len(predictions)} 个样本")
+print(f"📁 结果保存至: {OUTPUT_JSON}")
+
+################ /root/locate_run.py ################
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+import os
+import json
+import re
+import torch
+from PIL import Image
+from transformers import AutoModel, AutoTokenizer, AutoProcessor
+
+# ==================== 配置路径 ====================
+MODEL_PATH = "/models/LocateAnything-3B/LocateAnything-3B"          # 模型目录
+DATA_ROOT = "/root/dataset/初赛数据集-基于大模型的多模态视觉理解与推理"
+JSON_FILE = os.path.join(DATA_ROOT, "queries", "queries.json")
+OUTPUT_DIR = "/root/output"
+OUTPUT_JSON = os.path.join(OUTPUT_DIR, "predictions.json")
+CHECKPOINT_INTERVAL = 100
+CHECKPOINT_FILE = os.path.join(OUTPUT_DIR, "checkpoint.json")
+
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+# ==================== 加载模型 ====================
+print("🔄 正在加载 LocateAnything-3B 模型...")
+device = "cuda" if torch.cuda.is_available() else "cpu"
+tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH, trust_remote_code=True)
+processor = AutoProcessor.from_pretrained(MODEL_PATH, trust_remote_code=True)
+model = AutoModel.from_pretrained(
+    MODEL_PATH,
+    torch_dtype=torch.bfloat16,
+    trust_remote_code=True,
+).to(device).eval()
+print("✅ 模型加载完成！")
+
+# ==================== 工具函数 ====================
+def parse_boxes(answer, width, height):
+    """从模型输出解析归一化框（模型输出0-1000整数，转成0-1浮点）"""
+    boxes = []
+    for m in re.finditer(r"<box><(\d+)><(\d+)><(\d+)><(\d+)></box>", answer):
+        x1, y1, x2, y2 = map(int, m.groups())
+        boxes.append([x1 / 1000, y1 / 1000, x2 / 1000, y2 / 1000])
+    return boxes
+
+def locate(image, query, generation_mode="hybrid"):
+    """输入图像和文本，返回预测框（取第一个）"""
+    messages = [
+        {"role": "user", "content": [
+            {"type": "image", "image": image},
+            {"type": "text", "text": query},
+        ]}
+    ]
+    text = processor.py_apply_chat_template(
+        messages, tokenize=False, add_generation_prompt=True
+    )
+    images, _ = processor.process_vision_info(messages)
+    inputs = processor(text=[text], images=images, return_tensors="pt").to(device)
+    pixel_values = inputs["pixel_values"].to(model.dtype)
+
+    with torch.no_grad():
+        response = model.generate(
+            pixel_values=pixel_values,
+            input_ids=inputs["input_ids"],
+            attention_mask=inputs["attention_mask"],
+            image_grid_hws=inputs.get("image_grid_hws"),
+            tokenizer=tokenizer,
+            max_new_tokens=512,
+            use_cache=True,
+            generation_mode=generation_mode,
+            do_sample=False,
+            verbose=False,
+        )
+    if isinstance(response, tuple):
+        answer = response[0][0] if isinstance(response[0], list) else response[0]
+    else:
+        answer = response[0] if isinstance(response, list) else response
+    return answer
+
+# ==================== 加载测试集 ====================
+if not os.path.exists(JSON_FILE):
+    print(f"❌ 找不到测试集 JSON: {JSON_FILE}")
+    exit(1)
+
+with open(JSON_FILE, 'r', encoding='utf-8') as f:
+    data = json.load(f)
+
+total = len(data)
+print(f"📊 共 {total} 个样本待处理")
+
+# 续跑支持
+predictions = {}
+start_idx = 0
+if os.path.exists(CHECKPOINT_FILE):
+    with open(CHECKPOINT_FILE, 'r', encoding='utf-8') as f:
+        ckpt = json.load(f)
+    predictions = ckpt.get("predictions", {})
+    start_idx = ckpt.get("last_idx", 0)
+    print(f"🔄 从第 {start_idx+1} 个样本继续（已有 {len(predictions)} 个结果）")
+
+items = list(data.items())
+
+# ==================== 推理循环 ====================
+for idx, (query_id, info) in enumerate(items[start_idx:], start=start_idx+1):
+    vis_path = os.path.join(DATA_ROOT, info["visible"])
+    if not os.path.exists(vis_path):
+        print(f"⚠️ [{idx}/{total}] 图像不存在: {vis_path}，跳过")
+        continue
+
+    try:
+        image = Image.open(vis_path).convert("RGB")
+    except Exception as e:
+        print(f"❌ [{idx}/{total}] 读取图像失败: {e}")
+        continue
+
+    query_text = info["query"]
+    print(f"\n🔍 [{idx}/{total}] 处理 {query_id}: {query_text[:60]}...")
+
+    # 构造定位提示词
+    prompt = f"Locate a single instance that matches the following description: {query_text}."
+
+    try:
+        answer = locate(image, prompt)
+        boxes = parse_boxes(answer, image.width, image.height)
+        if boxes:
+            bbox_norm = boxes[0]
+            print(f"   原始模型输出: {answer.strip()[:100]}")  # 可选，打印部分原始回答
+        else:
+            bbox_norm = [0.45, 0.45, 0.55, 0.55]  # 兜底框
+            print("   ⚠️ 未检测到框，使用兜底中心框")
+    except Exception as e:
+        print(f"   ❌ 推理失败: {e}")
+        bbox_norm = [0.45, 0.45, 0.55, 0.55]
+
+    # 确保坐标合法
+    x1, y1, x2, y2 = bbox_norm
+    if x1 >= x2:
+        x1, x2 = x2, x1
+    if y1 >= y2:
+        y1, y2 = y2, y1
+    bbox_norm = [max(0.0, min(1.0, v)) for v in [x1, y1, x2, y2]]
+
+    predictions[query_id] = {
+        "visible": info["visible"],
+        "infrared": info["infrared"],
+        "depth": info["depth"],
+        "query": info["query"],
+        "bbox": bbox_norm
+    }
+
+    # 打印16位小数的预测框
+    print(f"   ✅ 预测框: [{bbox_norm[0]:.16f}, {bbox_norm[1]:.16f}, {bbox_norm[2]:.16f}, {bbox_norm[3]:.16f}]")
+
+    # 定期保存检查点
+    if idx % CHECKPOINT_INTERVAL == 0:
+        with open(CHECKPOINT_FILE, 'w', encoding='utf-8') as f:
+            json.dump({"last_idx": idx, "predictions": predictions}, f, indent=2)
+        print(f"💾 检查点已保存 ({idx}/{total})")
+
+# ==================== 最终保存 ====================
+with open(OUTPUT_JSON, 'w', encoding='utf-8') as f:
+    json.dump(predictions, f, indent=2, ensure_ascii=False)
+
+if os.path.exists(CHECKPOINT_FILE):
+    os.remove(CHECKPOINT_FILE)
+
+print(f"\n🎉 全部完成！共处理 {len(predictions)} 个样本")
+print(f"📁 结果保存至: {OUTPUT_JSON}")
+

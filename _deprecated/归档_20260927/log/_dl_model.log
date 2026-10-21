@@ -1,0 +1,28 @@
+[07:45:26] 取文件清单
+[07:45:27] 待下 20 个文件，合计 19.12 GB
+  [完成] .gitattributes 2656
+  [完成] chat_template.json 5499
+  [完成] config.json 1752
+  [完成] configuration.json 51
+  [完成] generation_config.json 269
+  [完成] merges.txt 1671839
+  [完成] preprocessor_config.json 390
+  [完成] README.md 8503
+  [完成] tokenizer.json 7032403
+  [完成] tokenizer_config.json 10868
+  [完成] video_preprocessor_config.json 385
+  [完成] vocab.json 2776833
+  [完成] model.safetensors.index.json 184538
+  [完成] model-00006-of-00007.safetensors 2767700088
+  [完成] model-00002-of-00007.safetensors 2971999496
+  [完成] model-00007-of-00007.safetensors 2882601152
+  [完成] model-00005-of-00007.safetensors 2969264624
+  [完成] model-00004-of-00007.safetensors 2993778792
+  [完成] model-00001-of-00007.safetensors 2958734384
+  [完成] model-00003-of-00007.safetensors 2971999616
+[07:55:01] 全部下载结束
+=== 核对 ===
+  字节数正确 20 个 | 不符 0 个 | 实下 19.12 GB / 期望 19.12 GB
+  目录体量: 20G
+/dev/mapper/lvmdata-pvc--dddc292b--73e4--4966--809d--b6e547e3ba9a   49G   38G   12G  77% /root/rivermind-data
+DONE_OK

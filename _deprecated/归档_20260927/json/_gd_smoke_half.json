@@ -1,0 +1,132 @@
+{
+  "000001_001": {
+    "visible": "Images/visible/000001.png",
+    "infrared": "Images/infrared/000001.png",
+    "depth": "Images/depth/000001.png",
+    "query": "A squatting person",
+    "bbox": [
+      0.25,
+      0.25,
+      0.75,
+      0.75
+    ],
+    "error": "invalid dtype for bias - should match query's dtype"
+  },
+  "000001_002": {
+    "visible": "Images/visible/000001.png",
+    "infrared": "Images/infrared/000001.png",
+    "depth": "Images/depth/000001.png",
+    "query": "The white street light on the left side of the stone steps on the right",
+    "bbox": [
+      0.25,
+      0.25,
+      0.75,
+      0.75
+    ],
+    "error": "invalid dtype for bias - should match query's dtype"
+  },
+  "000001_003": {
+    "visible": "Images/visible/000001.png",
+    "infrared": "Images/infrared/000001.png",
+    "depth": "Images/depth/000001.png",
+    "query": "The second white patio umbrella in the outdoor seating area from left to right",
+    "bbox": [
+      0.25,
+      0.25,
+      0.75,
+      0.75
+    ],
+    "error": "invalid dtype for bias - should match query's dtype"
+  },
+  "000001_004": {
+    "visible": "Images/visible/000001.png",
+    "infrared": "Images/infrared/000001.png",
+    "depth": "Images/depth/000001.png",
+    "query": "The black circular planter with green shrubs in front of the restaurant",
+    "bbox": [
+      0.25,
+      0.25,
+      0.75,
+      0.75
+    ],
+    "error": "invalid dtype for bias - should match query's dtype"
+  },
+  "000001_005": {
+    "visible": "Images/visible/000001.png",
+    "infrared": "Images/infrared/000001.png",
+    "depth": "Images/depth/000001.png",
+    "query": "The large stone staircase in the foreground",
+    "bbox": [
+      0.25,
+      0.25,
+      0.75,
+      0.75
+    ],
+    "error": "invalid dtype for bias - should match query's dtype"
+  },
+  "000001_006": {
+    "visible": "Images/visible/000001.png",
+    "infrared": "Images/infrared/000001.png",
+    "depth": "Images/depth/000001.png",
+    "query": "Three people near the entrance of the commercial building",
+    "bbox": [
+      0.25,
+      0.25,
+      0.75,
+      0.75
+    ],
+    "error": "invalid dtype for bias - should match query's dtype"
+  },
+  "000015_001": {
+    "visible": "Images/visible/000015.png",
+    "infrared": "Images/infrared/000015.png",
+    "depth": "Images/depth/000015.png",
+    "query": "The adult woman closest to the camera, leaning down",
+    "bbox": [
+      0.25,
+      0.25,
+      0.75,
+      0.75
+    ],
+    "error": "invalid dtype for bias - should match query's dtype"
+  },
+  "000015_002": {
+    "visible": "Images/visible/000015.png",
+    "infrared": "Images/infrared/000015.png",
+    "depth": "Images/depth/000015.png",
+    "query": "A mobile phone in the back pocket of the woman's light blue jeans",
+    "bbox": [
+      0.25,
+      0.25,
+      0.75,
+      0.75
+    ],
+    "error": "invalid dtype for bias - should match query's dtype"
+  },
+  "000015_003": {
+    "visible": "Images/visible/000015.png",
+    "infrared": "Images/infrared/000015.png",
+    "depth": "Images/depth/000015.png",
+    "query": "A man in a blue T-shirt standing beside a stroller",
+    "bbox": [
+      0.25,
+      0.25,
+      0.75,
+      0.75
+    ],
+    "error": "invalid dtype for bias - should match query's dtype"
+  },
+  "000015_004": {
+    "visible": "Images/visible/000015.png",
+    "infrared": "Images/infrared/000015.png",
+    "depth": "Images/depth/000015.png",
+    "query": "Curved concrete steps",
+    "bbox": [
+      0.25,
+      0.25,
+      0.75,
+      0.75
+    ],
+    "error": "invalid dtype for bias - should match query's dtype"
+  }
+}

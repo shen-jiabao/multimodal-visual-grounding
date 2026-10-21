@@ -1,0 +1,122 @@
+{
+  "000001_001": {
+    "visible": "Images/visible/000001.png",
+    "infrared": "Images/infrared/000001.png",
+    "depth": "Images/depth/000001.png",
+    "query": "A squatting person",
+    "bbox": [
+      0.634991,
+      0.70668,
+      0.672921,
+      0.825938
+    ]
+  },
+  "000001_002": {
+    "visible": "Images/visible/000001.png",
+    "infrared": "Images/infrared/000001.png",
+    "depth": "Images/depth/000001.png",
+    "query": "The white street light on the left side of the stone steps on the right",
+    "bbox": [
+      0.739217,
+      0.551039,
+      0.977974,
+      0.882615
+    ]
+  },
+  "000001_003": {
+    "visible": "Images/visible/000001.png",
+    "infrared": "Images/infrared/000001.png",
+    "depth": "Images/depth/000001.png",
+    "query": "The second white patio umbrella in the outdoor seating area from left to right",
+    "bbox": [
+      0.05603,
+      0.446551,
+      0.462891,
+      0.845692
+    ]
+  },
+  "000001_004": {
+    "visible": "Images/visible/000001.png",
+    "infrared": "Images/infrared/000001.png",
+    "depth": "Images/depth/000001.png",
+    "query": "The black circular planter with green shrubs in front of the restaurant",
+    "bbox": [
+      0.122602,
+      0.499085,
+      0.225026,
+      0.828888
+    ]
+  },
+  "000001_005": {
+    "visible": "Images/visible/000001.png",
+    "infrared": "Images/infrared/000001.png",
+    "depth": "Images/depth/000001.png",
+    "query": "The large stone staircase in the foreground",
+    "bbox": [
+      0.738133,
+      0.548773,
+      0.986649,
+      0.883698
+    ]
+  },
+  "000001_006": {
+    "visible": "Images/visible/000001.png",
+    "infrared": "Images/infrared/000001.png",
+    "depth": "Images/depth/000001.png",
+    "query": "Three people near the entrance of the commercial building",
+    "bbox": [
+      0.589293,
+      0.622475,
+      0.627475,
+      0.809738
+    ]
+  },
+  "000015_001": {
+    "visible": "Images/visible/000015.png",
+    "infrared": "Images/infrared/000015.png",
+    "depth": "Images/depth/000015.png",
+    "query": "The adult woman closest to the camera, leaning down",
+    "bbox": [
+      0.088356,
+      0.271242,
+      0.306558,
+      0.804396
+    ]
+  },
+  "000015_002": {
+    "visible": "Images/visible/000015.png",
+    "infrared": "Images/infrared/000015.png",
+    "depth": "Images/depth/000015.png",
+    "query": "A mobile phone in the back pocket of the woman's light blue jeans",
+    "bbox": [
+      0.088255,
+      0.270731,
+      0.306531,
+      0.804547
+    ]
+  },
+  "000015_003": {
+    "visible": "Images/visible/000015.png",
+    "infrared": "Images/infrared/000015.png",
+    "depth": "Images/depth/000015.png",
+    "query": "A man in a blue T-shirt standing beside a stroller",
+    "bbox": [
+      0.666899,
+      0.007264,
+      0.729496,
+      0.266535
+    ]
+  },
+  "000015_004": {
+    "visible": "Images/visible/000015.png",
+    "infrared": "Images/infrared/000015.png",
+    "depth": "Images/depth/000015.png",
+    "query": "Curved concrete steps",
+    "bbox": [
+      0.763593,
+      0.169403,
+      0.99821,
+      0.995589
+    ]
+  }
+}

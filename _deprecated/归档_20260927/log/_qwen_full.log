@@ -1,0 +1,366 @@
+图 1295，问句 5690，序数 1103
+已完成 direct=0 som=0
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.06it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.06it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.05it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.24it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.16it/s]
+[pipe] 模型就绪 显存 17.5GB
+待处理图 1295
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[1/1295] 000001.png direct=6 som=1 已用0.01h ETA8.5h
+[2/1295] 000015.png direct=11 som=1 已用0.01h ETA6.5h
+[3/1295] 000022.png direct=17 som=1 已用0.01h ETA6.2h
+[4/1295] 000029.png direct=21 som=1 已用0.02h ETA5.5h
+[5/1295] 000036.png direct=25 som=1 已用0.02h ETA5.1h
+[6/1295] 000043.png direct=29 som=1 已用0.02h ETA4.9h
+[7/1295] 000050.png direct=31 som=1 已用0.02h ETA4.5h
+[8/1295] 000057.png direct=32 som=1 已用0.02h ETA4.0h
+[9/1295] 000064.png direct=34 som=1 已用0.03h ETA3.9h
+[10/1295] 000085.png direct=38 som=4 已用0.03h ETA4.1h
+[11/1295] 000092.png direct=40 som=4 已用0.03h ETA3.9h
+[12/1295] 000113.png direct=45 som=8 已用0.04h ETA4.4h
+[A] 13/1295 图; 本图批 50 条 0.31 q/s
+[13/1295] 000120.png direct=50 som=8 已用0.04h ETA4.4h
+[14/1295] 000127.png direct=51 som=8 已用0.05h ETA4.2h
+[15/1295] 000134.png direct=54 som=8 已用0.05h ETA4.1h
+[16/1295] 000141.png direct=62 som=9 已用0.06h ETA4.6h
+[17/1295] 000155.png direct=69 som=9 已用0.06h ETA4.7h
+[18/1295] 000162.png direct=74 som=9 已用0.07h ETA4.6h
+[19/1295] 000183.png direct=82 som=9 已用0.07h ETA4.8h
+[20/1295] 000211.png direct=88 som=9 已用0.08h ETA4.8h
+[21/1295] 000225.png direct=94 som=9 已用0.08h ETA4.9h
+[A] 22/1295 图; 本图批 100 条 0.33 q/s
+[22/1295] 000246.png direct=106 som=10 已用0.09h ETA5.2h
+[23/1295] 000253.png direct=107 som=10 已用0.09h ETA5.0h
+[24/1295] 000260.png direct=112 som=10 已用0.09h ETA5.0h
+[25/1295] 000267.png direct=115 som=10 已用0.10h ETA4.9h
+[26/1295] 000281.png direct=128 som=12 已用0.11h ETA5.2h
+[27/1295] 000288.png direct=140 som=12 已用0.12h ETA5.5h
+[A] 28/1295 图; 本图批 150 条 0.34 q/s
+[28/1295] 000302.png direct=150 som=12 已用0.12h ETA5.6h
+[29/1295] 000309.png direct=154 som=12 已用0.13h ETA5.5h
+[30/1295] 000337.png direct=156 som=12 已用0.13h ETA5.4h
+[31/1295] 000351.png direct=159 som=12 已用0.13h ETA5.3h
+[32/1295] 000372.png direct=162 som=12 已用0.13h ETA5.2h
+[33/1295] 000393.png direct=167 som=13 已用0.14h ETA5.3h
+[34/1295] 000400.png direct=175 som=13 已用0.14h ETA5.3h
+[35/1295] 000407.png direct=177 som=13 已用0.15h ETA5.2h
+[36/1295] 000414.png direct=185 som=13 已用0.15h ETA5.3h
+[37/1295] 000421.png direct=189 som=13 已用0.15h ETA5.2h
+[38/1295] 000428.png direct=196 som=13 已用0.16h ETA5.2h
+[A] 39/1295 图; 本图批 200 条 0.34 q/s
+[39/1295] 000442.png direct=203 som=13 已用0.16h ETA5.3h
+[40/1295] 000449.png direct=208 som=13 已用0.17h ETA5.3h
+[41/1295] 000456.png direct=210 som=13 已用0.17h ETA5.2h
+[42/1295] 000463.png direct=214 som=13 已用0.17h ETA5.1h
+[43/1295] 000477.png direct=215 som=13 已用0.17h ETA5.0h
+[44/1295] 000491.png direct=220 som=13 已用0.18h ETA5.0h
+[45/1295] 000505.png direct=225 som=13 已用0.18h ETA5.0h
+[46/1295] 000512.png direct=232 som=14 已用0.19h ETA5.1h
+[47/1295] 000519.png direct=236 som=14 已用0.19h ETA5.1h
+[48/1295] 000526.png direct=241 som=14 已用0.20h ETA5.1h
+[49/1295] 000533.png direct=246 som=14 已用0.20h ETA5.1h
+[A] 50/1295 图; 本图批 250 条 0.34 q/s
+[50/1295] 000540.png direct=250 som=14 已用0.20h ETA5.0h
+[51/1295] 000547.png direct=255 som=14 已用0.21h ETA5.0h
+[52/1295] 000554.png direct=260 som=14 已用0.21h ETA5.0h
+[53/1295] 000561.png direct=265 som=14 已用0.21h ETA5.0h
+[54/1295] 000568.png direct=270 som=14 已用0.22h ETA5.0h
+[55/1295] 000575.png direct=274 som=14 已用0.22h ETA4.9h
+[56/1295] 000582.png direct=279 som=14 已用0.22h ETA4.9h
+[57/1295] 000589.png direct=284 som=14 已用0.23h ETA4.9h
+[58/1295] 000596.png direct=289 som=14 已用0.23h ETA4.9h
+[59/1295] 000603.png direct=294 som=14 已用0.23h ETA4.9h
+[60/1295] 000624.png direct=299 som=15 已用0.24h ETA5.0h
+[A] 61/1295 图; 本图批 300 条 0.34 q/s
+[61/1295] 000631.png direct=304 som=17 已用0.25h ETA5.0h
+[62/1295] 000638.png direct=306 som=17 已用0.25h ETA4.9h
+[63/1295] 000645.png direct=311 som=17 已用0.25h ETA4.9h
+[64/1295] 000652.png direct=316 som=17 已用0.25h ETA4.9h
+[65/1295] 000659.png direct=320 som=17 已用0.26h ETA4.9h
+[66/1295] 000666.png direct=325 som=17 已用0.26h ETA4.8h
+[67/1295] 000673.png direct=330 som=17 已用0.26h ETA4.8h
+[68/1295] 000680.png direct=335 som=19 已用0.27h ETA4.8h
+[69/1295] 000687.png direct=340 som=19 已用0.27h ETA4.8h
+[70/1295] 000694.png direct=345 som=20 已用0.28h ETA4.8h
+[A] 71/1295 图; 本图批 350 条 0.35 q/s
+[71/1295] 000701.png direct=350 som=20 已用0.28h ETA4.8h
+[72/1295] 000708.png direct=355 som=22 已用0.28h ETA4.8h
+[73/1295] 000715.png direct=360 som=22 已用0.29h ETA4.8h
+[74/1295] 000722.png direct=365 som=25 已用0.29h ETA4.9h
+[75/1295] 000729.png direct=368 som=25 已用0.30h ETA4.8h
+[76/1295] 000736.png direct=369 som=25 已用0.30h ETA4.8h
+[77/1295] 000743.png direct=374 som=26 已用0.30h ETA4.8h
+[78/1295] 000750.png direct=379 som=26 已用0.31h ETA4.8h
+[79/1295] 000757.png direct=384 som=26 已用0.31h ETA4.8h
+[80/1295] 000764.png direct=389 som=26 已用0.31h ETA4.8h
+[81/1295] 000778.png direct=394 som=27 已用0.32h ETA4.8h
+[82/1295] 000792.png direct=399 som=27 已用0.32h ETA4.8h
+[A] 83/1295 图; 本图批 400 条 0.34 q/s
+[83/1295] 000813.png direct=404 som=27 已用0.33h ETA4.7h
+[84/1295] 000820.png direct=409 som=27 已用0.33h ETA4.7h
+[85/1295] 000834.png direct=414 som=27 已用0.33h ETA4.7h
+[86/1295] 000841.png direct=419 som=27 已用0.34h ETA4.7h
+[87/1295] 000848.png direct=424 som=29 已用0.34h ETA4.7h
+[88/1295] 000855.png direct=429 som=31 已用0.35h ETA4.7h
+[89/1295] 000862.png direct=434 som=32 已用0.35h ETA4.8h
+[90/1295] 000869.png direct=439 som=32 已用0.35h ETA4.7h
+[91/1295] 000883.png direct=444 som=32 已用0.36h ETA4.7h
+[92/1295] 000890.png direct=449 som=32 已用0.36h ETA4.7h
+[A] 93/1295 图; 本图批 450 条 0.34 q/s
+[93/1295] 000904.png direct=454 som=32 已用0.37h ETA4.7h
+[94/1295] 000911.png direct=459 som=33 已用0.37h ETA4.8h
+[95/1295] 000925.png direct=464 som=33 已用0.38h ETA4.8h
+[96/1295] 000932.png direct=468 som=33 已用0.38h ETA4.7h
+[97/1295] 000946.png direct=473 som=33 已用0.38h ETA4.7h
+[98/1295] 000960.png direct=478 som=33 已用0.39h ETA4.7h
+[99/1295] 000967.png direct=483 som=35 已用0.39h ETA4.7h
+[100/1295] 000974.png direct=488 som=35 已用0.39h ETA4.7h
+[101/1295] 000981.png direct=493 som=35 已用0.40h ETA4.7h
+[102/1295] 000988.png direct=498 som=38 已用0.40h ETA4.7h
+[A] 103/1295 图; 本图批 500 条 0.34 q/s
+[103/1295] 000995.png direct=503 som=38 已用0.41h ETA4.7h
+[104/1295] 001002.png direct=512 som=38 已用0.41h ETA4.7h
+[105/1295] 001009.png direct=517 som=39 已用0.42h ETA4.8h
+[106/1295] 001016.png direct=522 som=39 已用0.42h ETA4.8h
+[107/1295] 001023.png direct=533 som=40 已用0.43h ETA4.8h
+[108/1295] 001030.png direct=545 som=44 已用0.45h ETA4.9h
+[A] 109/1295 图; 本图批 550 条 0.34 q/s
+[109/1295] 001037.png direct=555 som=44 已用0.46h ETA5.0h
+[110/1295] 001044.png direct=568 som=44 已用0.47h ETA5.0h
+[111/1295] 001051.png direct=579 som=44 已用0.48h ETA5.1h
+[112/1295] 001058.png direct=585 som=44 已用0.48h ETA5.1h
+[113/1295] 001065.png direct=590 som=44 已用0.48h ETA5.1h
+[114/1295] 001072.png direct=599 som=44 已用0.49h ETA5.1h
+[A] 115/1295 图; 本图批 600 条 0.34 q/s
+[115/1295] 001079.png direct=604 som=44 已用0.50h ETA5.1h
+[116/1295] 001086.png direct=608 som=44 已用0.50h ETA5.1h
+[117/1295] 001093.png direct=613 som=44 已用0.50h ETA5.1h
+[118/1295] 001100.png direct=620 som=44 已用0.51h ETA5.1h
+[119/1295] 001107.png direct=625 som=44 已用0.51h ETA5.1h
+[120/1295] 001114.png direct=634 som=47 已用0.52h ETA5.1h
+[121/1295] 001121.png direct=641 som=47 已用0.53h ETA5.1h
+[122/1295] 001128.png direct=649 som=47 已用0.53h ETA5.1h
+[A] 123/1295 图; 本图批 650 条 0.34 q/s
+[123/1295] 001135.png direct=661 som=47 已用0.54h ETA5.2h
+[124/1295] 001142.png direct=673 som=47 已用0.55h ETA5.2h
+[125/1295] 001149.png direct=680 som=47 已用0.56h ETA5.2h
+[126/1295] 001156.png direct=691 som=50 已用0.57h ETA5.2h
+[127/1295] 001163.png direct=696 som=50 已用0.57h ETA5.2h
+[A] 128/1295 图; 本图批 700 条 0.34 q/s
+[128/1295] 001170.png direct=701 som=50 已用0.57h ETA5.2h
+[129/1295] 001177.png direct=708 som=50 已用0.58h ETA5.2h
+[130/1295] 001184.png direct=716 som=50 已用0.59h ETA5.3h
+[131/1295] 001191.png direct=730 som=50 已用0.60h ETA5.3h
+[132/1295] 001198.png direct=735 som=50 已用0.60h ETA5.3h
+[133/1295] 001205.png direct=742 som=50 已用0.61h ETA5.3h
+[134/1295] 001212.png direct=748 som=50 已用0.61h ETA5.3h
+[A] 135/1295 图; 本图批 750 条 0.34 q/s
+[135/1295] 001219.png direct=757 som=51 已用0.62h ETA5.3h
+[136/1295] 001226.png direct=763 som=51 已用0.62h ETA5.3h
+[137/1295] 001233.png direct=775 som=51 已用0.63h ETA5.3h
+[138/1295] 001240.png direct=782 som=51 已用0.64h ETA5.3h
+[139/1295] 001247.png direct=791 som=51 已用0.64h ETA5.4h
+[A] 140/1295 图; 本图批 800 条 0.34 q/s
+[140/1295] 001254.png direct=800 som=51 已用0.65h ETA5.4h
+[141/1295] 001261.png direct=808 som=51 已用0.66h ETA5.4h
+[142/1295] 001268.png direct=816 som=51 已用0.66h ETA5.4h
+[143/1295] 001275.png direct=823 som=51 已用0.67h ETA5.4h
+[144/1295] 001282.png direct=832 som=52 已用0.68h ETA5.4h
+[145/1295] 001289.png direct=843 som=52 已用0.69h ETA5.4h
+[A] 146/1295 图; 本图批 850 条 0.34 q/s
+[146/1295] 001296.png direct=854 som=52 已用0.70h ETA5.5h
+[147/1295] 001303.png direct=865 som=52 已用0.71h ETA5.5h
+[148/1295] 001310.png direct=875 som=54 已用0.72h ETA5.6h
+[149/1295] 001317.png direct=886 som=54 已用0.73h ETA5.6h
+[150/1295] 001324.png direct=895 som=54 已用0.73h ETA5.6h
+[A] 151/1295 图; 本图批 900 条 0.34 q/s
+[151/1295] 001331.png direct=906 som=56 已用0.75h ETA5.7h
+[152/1295] 001338.png direct=916 som=57 已用0.76h ETA5.7h
+[153/1295] 001345.png direct=925 som=57 已用0.77h ETA5.8h
+[154/1295] 001352.png direct=934 som=58 已用0.78h ETA5.8h
+[155/1295] 001359.png direct=945 som=58 已用0.79h ETA5.8h
+[A] 156/1295 图; 本图批 950 条 0.33 q/s
+[156/1295] 001366.png direct=956 som=59 已用0.80h ETA5.9h
+[157/1295] 001373.png direct=967 som=60 已用0.81h ETA5.9h
+[158/1295] 001380.png direct=980 som=60 已用0.82h ETA5.9h
+[159/1295] 001387.png direct=992 som=60 已用0.83h ETA6.0h
+[A] 160/1295 图; 本图批 1000 条 0.33 q/s
+[160/1295] 001394.png direct=1001 som=60 已用0.84h ETA6.0h
+[161/1295] 001401.png direct=1012 som=60 已用0.85h ETA6.0h
+[162/1295] 001408.png direct=1022 som=60 已用0.86h ETA6.0h
+[163/1295] 001415.png direct=1033 som=60 已用0.87h ETA6.0h
+[164/1295] 001422.png direct=1043 som=61 已用0.88h ETA6.1h
+[A] 165/1295 图; 本图批 1050 条 0.33 q/s
+[165/1295] 001429.png direct=1054 som=61 已用0.89h ETA6.1h
+[166/1295] 001436.png direct=1065 som=62 已用0.90h ETA6.1h
+[167/1295] 001443.png direct=1077 som=62 已用0.92h ETA6.2h
+[168/1295] 001450.png direct=1091 som=62 已用0.94h ETA6.3h
+[A] 169/1295 图; 本图批 1100 条 0.32 q/s
+[169/1295] 001457.png direct=1103 som=62 已用0.96h ETA6.4h
+[170/1295] 001464.png direct=1114 som=62 已用0.98h ETA6.5h
+[171/1295] 001471.png direct=1128 som=62 已用1.00h ETA6.6h
+[172/1295] 001478.png direct=1138 som=62 已用1.02h ETA6.6h
+[A] 173/1295 图; 本图批 1150 条 0.31 q/s
+[173/1295] 001485.png direct=1150 som=62 已用1.04h ETA6.7h
+[174/1295] 001492.png direct=1161 som=62 已用1.05h ETA6.8h
+[175/1295] 001499.png direct=1171 som=62 已用1.07h ETA6.8h
+[176/1295] 001506.png direct=1176 som=62 已用1.08h ETA6.8h
+[177/1295] 001513.png direct=1186 som=63 已用1.09h ETA6.9h
+[178/1295] 001520.png direct=1196 som=63 已用1.11h ETA7.0h
+[A] 179/1295 图; 本图批 1200 条 0.30 q/s
+[179/1295] 001527.png direct=1202 som=64 已用1.12h ETA7.0h
+[180/1295] 001534.png direct=1211 som=66 已用1.14h ETA7.0h
+[181/1295] 001541.png direct=1221 som=68 已用1.15h ETA7.1h
+[182/1295] 001548.png direct=1226 som=69 已用1.15h ETA7.0h
+[183/1295] 001555.png direct=1235 som=70 已用1.16h ETA7.1h
+[184/1295] 001562.png direct=1245 som=71 已用1.17h ETA7.1h
+[A] 185/1295 图; 本图批 1250 条 0.30 q/s
+[185/1295] 001569.png direct=1256 som=73 已用1.19h ETA7.1h
+[186/1295] 001576.png direct=1260 som=73 已用1.19h ETA7.1h
+[187/1295] 001583.png direct=1266 som=73 已用1.19h ETA7.1h
+[188/1295] 001590.png direct=1273 som=73 已用1.20h ETA7.1h
+[189/1295] 001597.png direct=1278 som=73 已用1.20h ETA7.0h
+[190/1295] 001604.png direct=1285 som=74 已用1.21h ETA7.0h
+[191/1295] 001611.png direct=1288 som=74 已用1.21h ETA7.0h
+[192/1295] 001618.png direct=1298 som=76 已用1.22h ETA7.0h
+[A] 193/1295 图; 本图批 1300 条 0.29 q/s
+[193/1295] 001625.png direct=1304 som=77 已用1.23h ETA7.0h
+[194/1295] 001632.png direct=1310 som=77 已用1.23h ETA7.0h
+[195/1295] 001639.png direct=1316 som=78 已用1.24h ETA7.0h
+[196/1295] 001646.png direct=1324 som=78 已用1.25h ETA7.0h
+[197/1295] 001653.png direct=1333 som=79 已用1.25h ETA7.0h
+[198/1295] 001660.png direct=1339 som=79 已用1.26h ETA7.0h
+[199/1295] 001667.png direct=1347 som=80 已用1.27h ETA7.0h
+[A] 200/1295 图; 本图批 1350 条 0.30 q/s
+[200/1295] 001674.png direct=1355 som=80 已用1.27h ETA7.0h
+[201/1295] 001681.png direct=1362 som=81 已用1.28h ETA7.0h
+[202/1295] 001688.png direct=1369 som=82 已用1.29h ETA7.0h
+[203/1295] 001695.png direct=1375 som=83 已用1.29h ETA6.9h
+[204/1295] 001702.png direct=1380 som=84 已用1.30h ETA6.9h
+[205/1295] 001709.png direct=1387 som=85 已用1.30h ETA6.9h
+[206/1295] 001716.png direct=1396 som=86 已用1.31h ETA6.9h
+[A] 207/1295 图; 本图批 1400 条 0.30 q/s
+[207/1295] 001723.png direct=1403 som=87 已用1.32h ETA6.9h
+[208/1295] 001730.png direct=1411 som=88 已用1.33h ETA6.9h
+[209/1295] 001737.png direct=1419 som=89 已用1.33h ETA6.9h
+[210/1295] 001744.png direct=1428 som=89 已用1.34h ETA6.9h
+[211/1295] 001751.png direct=1439 som=89 已用1.35h ETA6.9h
+[212/1295] 001758.png direct=1449 som=90 已用1.36h ETA6.9h
+[A] 213/1295 图; 本图批 1450 条 0.30 q/s
+[213/1295] 001765.png direct=1457 som=91 已用1.36h ETA6.9h
+[214/1295] 001772.png direct=1466 som=93 已用1.37h ETA6.9h
+[215/1295] 001779.png direct=1474 som=93 已用1.38h ETA6.9h
+[216/1295] 001786.png direct=1480 som=95 已用1.38h ETA6.9h
+[217/1295] 001793.png direct=1484 som=95 已用1.39h ETA6.9h
+[218/1295] 001800.png direct=1492 som=97 已用1.40h ETA6.9h
+[219/1295] 001807.png direct=1497 som=97 已用1.40h ETA6.9h
+[A] 220/1295 图; 本图批 1500 条 0.30 q/s
+[220/1295] 001814.png direct=1505 som=97 已用1.41h ETA6.9h
+[221/1295] 001821.png direct=1511 som=98 已用1.41h ETA6.9h
+[222/1295] 001828.png direct=1518 som=99 已用1.42h ETA6.9h
+[223/1295] 001835.png direct=1527 som=100 已用1.43h ETA6.9h
+[224/1295] 001842.png direct=1536 som=101 已用1.44h ETA6.9h
+[225/1295] 001849.png direct=1545 som=102 已用1.45h ETA6.9h
+[A] 226/1295 图; 本图批 1550 条 0.30 q/s
+[226/1295] 001856.png direct=1554 som=103 已用1.46h ETA6.9h
+[227/1295] 001870.png direct=1563 som=104 已用1.46h ETA6.9h
+[228/1295] 001877.png direct=1570 som=105 已用1.47h ETA6.9h
+[229/1295] 001884.png direct=1577 som=106 已用1.48h ETA6.9h
+[230/1295] 001891.png direct=1585 som=107 已用1.49h ETA6.9h
+[231/1295] 001898.png direct=1593 som=108 已用1.49h ETA6.9h
+[A] 232/1295 图; 本图批 1600 条 0.30 q/s
+[232/1295] 001905.png direct=1603 som=109 已用1.50h ETA6.9h
+[233/1295] 001912.png direct=1611 som=109 已用1.51h ETA6.9h
+[234/1295] 001919.png direct=1621 som=110 已用1.52h ETA6.9h
+[235/1295] 001926.png direct=1629 som=111 已用1.53h ETA6.9h
+[236/1295] 001933.png direct=1635 som=111 已用1.53h ETA6.9h
+[237/1295] 001940.png direct=1645 som=113 已用1.54h ETA6.9h
+[A] 238/1295 图; 本图批 1650 条 0.30 q/s
+[238/1295] 001947.png direct=1651 som=113 已用1.55h ETA6.9h
+[239/1295] 001954.png direct=1659 som=114 已用1.55h ETA6.9h
+[240/1295] 001961.png direct=1667 som=115 已用1.56h ETA6.9h
+[241/1295] 001968.png direct=1675 som=115 已用1.57h ETA6.8h
+[242/1295] 001975.png direct=1683 som=116 已用1.57h ETA6.8h
+[243/1295] 001982.png direct=1692 som=117 已用1.58h ETA6.8h
+[244/1295] 001989.png direct=1699 som=117 已用1.59h ETA6.8h
+[A] 245/1295 图; 本图批 1700 条 0.30 q/s
+[245/1295] 001996.png direct=1705 som=117 已用1.59h ETA6.8h
+[246/1295] 002003.png direct=1710 som=117 已用1.59h ETA6.8h
+[247/1295] 002010.png direct=1715 som=120 已用1.60h ETA6.8h
+[248/1295] 002017.png direct=1720 som=120 已用1.60h ETA6.8h
+[249/1295] 002024.png direct=1725 som=120 已用1.61h ETA6.7h
+[250/1295] 002031.png direct=1730 som=120 已用1.61h ETA6.7h
+[251/1295] 002038.png direct=1735 som=120 已用1.61h ETA6.7h
+[252/1295] 002045.png direct=1740 som=120 已用1.62h ETA6.7h
+[253/1295] 002052.png direct=1745 som=120 已用1.62h ETA6.7h
+[A] 254/1295 图; 本图批 1750 条 0.30 q/s
+[254/1295] 002073.png direct=1750 som=120 已用1.62h ETA6.7h
+[255/1295] 002101.png direct=1755 som=120 已用1.63h ETA6.6h
+[256/1295] 002122.png direct=1760 som=120 已用1.63h ETA6.6h
+[257/1295] 002129.png direct=1765 som=120 已用1.64h ETA6.6h
+[258/1295] 002136.png direct=1770 som=120 已用1.64h ETA6.6h
+[259/1295] 002143.png direct=1775 som=125 已用1.65h ETA6.6h
+[260/1295] 002150.png direct=1780 som=125 已用1.66h ETA6.6h
+[261/1295] 002164.png direct=1785 som=125 已用1.66h ETA6.6h
+[262/1295] 002171.png direct=1789 som=127 已用1.66h ETA6.6h
+[263/1295] 002178.png direct=1794 som=127 已用1.67h ETA6.5h
+[264/1295] 002185.png direct=1799 som=127 已用1.67h ETA6.5h
+[A] 265/1295 图; 本图批 1800 条 0.30 q/s
+[265/1295] 002192.png direct=1804 som=127 已用1.67h ETA6.5h
+[266/1295] 002199.png direct=1809 som=130 已用1.68h ETA6.5h
+[267/1295] 002206.png direct=1814 som=130 已用1.68h ETA6.5h
+[268/1295] 002213.png direct=1819 som=134 已用1.69h ETA6.5h
+[269/1295] 002220.png direct=1824 som=134 已用1.69h ETA6.5h
+[270/1295] 002227.png direct=1829 som=134 已用1.70h ETA6.4h
+[271/1295] 002234.png direct=1834 som=134 已用1.70h ETA6.4h
+[272/1295] 002241.png direct=1839 som=134 已用1.70h ETA6.4h
+[273/1295] 002248.png direct=1844 som=134 已用1.71h ETA6.4h
+[274/1295] 002255.png direct=1849 som=134 已用1.71h ETA6.4h
+[A] 275/1295 图; 本图批 1850 条 0.30 q/s
+[275/1295] 002262.png direct=1854 som=134 已用1.71h ETA6.4h
+[276/1295] 002276.png direct=1859 som=134 已用1.72h ETA6.3h
+[277/1295] 002283.png direct=1864 som=134 已用1.72h ETA6.3h
+[278/1295] 002290.png direct=1869 som=139 已用1.73h ETA6.3h
+[279/1295] 002297.png direct=1873 som=143 已用1.73h ETA6.3h
+[280/1295] 002304.png direct=1878 som=143 已用1.74h ETA6.3h
+[281/1295] 002311.png direct=1883 som=144 已用1.74h ETA6.3h
+[282/1295] 002318.png direct=1888 som=144 已用1.75h ETA6.3h
+[283/1295] 002325.png direct=1893 som=147 已用1.75h ETA6.3h
+[284/1295] 002332.png direct=1898 som=149 已用1.76h ETA6.3h
+[A] 285/1295 图; 本图批 1900 条 0.30 q/s
+[285/1295] 002346.png direct=1903 som=153 已用1.77h ETA6.3h
+[286/1295] 002353.png direct=1908 som=153 已用1.77h ETA6.2h
+[287/1295] 002367.png direct=1913 som=156 已用1.77h ETA6.2h
+[288/1295] 002374.png direct=1918 som=157 已用1.78h ETA6.2h
+[289/1295] 002381.png direct=1923 som=157 已用1.78h ETA6.2h
+[290/1295] 002395.png direct=1928 som=162 已用1.79h ETA6.2h
+[291/1295] 002402.png direct=1933 som=162 已用1.79h ETA6.2h
+[292/1295] 002416.png direct=1938 som=162 已用1.79h ETA6.2h
+[293/1295] 002423.png direct=1943 som=165 已用1.80h ETA6.2h
+[294/1295] 002430.png direct=1948 som=165 已用1.81h ETA6.2h
+[A] 295/1295 图; 本图批 1950 条 0.30 q/s
+[295/1295] 002437.png direct=1953 som=165 已用1.81h ETA6.1h
+[296/1295] 002444.png direct=1958 som=165 已用1.81h ETA6.1h
+[297/1295] 002451.png direct=1963 som=165 已用1.82h ETA6.1h
+[298/1295] 002465.png direct=1968 som=165 已用1.82h ETA6.1h
+[299/1295] 002472.png direct=1973 som=165 已用1.82h ETA6.1h
+[300/1295] 002486.png direct=1978 som=165 已用1.83h ETA6.1h
+[301/1295] 002493.png direct=1983 som=165 已用1.83h ETA6.0h
+[302/1295] 002507.png direct=1990 som=165 已用1.84h ETA6.0h
+[303/1295] 002514.png direct=1995 som=167 已用1.84h ETA6.0h
+[A] 304/1295 图; 本图批 2000 条 0.30 q/s
+[304/1295] 002521.png direct=2000 som=167 已用1.85h ETA6.0h
+[305/1295] 002528.png direct=2005 som=170 已用1.85h ETA6.0h
+[306/1295] 002535.png direct=2010 som=175 已用1.86h ETA6.0h
+[307/1295] 002542.png direct=2015 som=175 已用1.86h ETA6.0h
+[308/1295] 002549.png direct=2020 som=176 已用1.87h ETA6.0h
+[309/1295] 002556.png direct=2025 som=180 已用1.87h ETA6.0h
+[310/1295] 002563.png direct=2030 som=185 已用1.88h ETA6.0h
+[311/1295] 002570.png direct=2035 som=185 已用1.88h ETA5.9h
+[312/1295] 002577.png direct=2040 som=188 已用1.89h ETA5.9h
+[313/1295] 002584.png direct=2045 som=188 已用1.89h ETA5.9h
+[A] 314/1295 图; 本图批 2050 条 0.30 q/s
+[314/1295] 002591.png direct=2052 som=188 已用1.89h ETA5.9h
+[315/1295] 002598.png direct=2057 som=188 已用1.90h ETA5.9h
+[316/1295] 002605.png direct=2062 som=188 已用1.90h ETA5.9h
+[317/1295] 002612.png direct=2067 som=193 已用1.91h ETA5.9h
+[318/1295] 002619.png direct=2072 som=198 已用1.92h ETA5.9h
+[319/1295] 002626.png direct=2077 som=198 已用1.92h ETA5.9h

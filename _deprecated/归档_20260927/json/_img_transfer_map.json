@@ -1,0 +1,32 @@
+[
+ {
+  "semi_img": "Images/visible/001695.png",
+  "init_img": "Images/visible/001696.png",
+  "query": "The small orange ball suspended in mid-air to the left of the person"
+ },
+ {
+  "semi_img": "Images/visible/001765.png",
+  "init_img": "Images/visible/001766.png",
+  "query": "The person's feet wearing black and white sneakers positioned on the floor"
+ },
+ {
+  "semi_img": "Images/visible/001961.png",
+  "init_img": "Images/visible/001962.png",
+  "query": "The person standing in the center of the room holding two plush toys"
+ },
+ {
+  "semi_img": "Images/visible/001961.png",
+  "init_img": "Images/visible/001962.png",
+  "query": "The white office chair with black armrests positioned on the far left side of the room"
+ },
+ {
+  "semi_img": "Images/visible/001961.png",
+  "init_img": "Images/visible/001962.png",
+  "query": "The wooden door located on the right wall of the room"
+ },
+ {
+  "semi_img": "Images/visible/003361.png",
+  "init_img": "Images/visible/003362.png",
+  "query": "the first car from left to right"
+ }
+]

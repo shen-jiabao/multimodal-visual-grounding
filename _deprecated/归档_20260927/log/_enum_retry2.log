@@ -1,0 +1,28 @@
+目标 39 条 | 控制 0 条 | 待枚举组合 19
+已有 0 对（断点续跑）
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.15s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.12s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.11s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.30s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.24s/it]
+[enum] 模型就绪 显存 17.5GB
+待处理 19 对
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[1/19] 'rectangular stepping stone'       {'p1': 18, 'p2': 10, 'p3': 16, 't1': 7, 't2': 10, 't3': 2, 't4': 3} 已用1.6min ETA29.5min
+[2/19] 'stepping stone'                   {'p1': 15, 'p2': 10, 'p3': 18, 't1': 11, 't2': 11, 't3': 3, 't4': 3} 已用3.3min ETA28.1min
+[3/19] 'person'                           {'p1': 16, 'p2': 15, 'p3': 17, 't1': 11, 't2': 7, 't3': 11, 't4': 7} 已用5.2min ETA27.6min
+[4/19] 'person'                           {'p1': 19, 'p2': 10, 'p3': 19, 't1': 0, 't2': 0, 't3': 11, 't4': 9} 已用6.6min ETA24.8min
+[5/19] 'person'                           {'p1': 18, 'p2': 5, 'p3': 19, 't1': 0, 't2': 0, 't3': 11, 't4': 2} 已用7.9min ETA22.0min
+[6/19] 'person'                           {'p1': 19, 'p2': 13, 'p3': 19, 't1': 11, 't2': 11, 't3': 0, 't4': 0} 已用9.5min ETA20.6min
+[7/19] 'window'                           {'p1': 19, 'p2': 1, 'p3': 19, 't1': 0, 't2': 0, 't3': 12, 't4': 11} 已用10.9min ETA18.6min
+[8/19] 'person'                           {'p1': 14, 'p2': 10, 'p3': 15, 't1': 8, 't2': 5, 't3': 8, 't4': 5} 已用12.3min ETA16.9min
+[9/19] 'person'                           {'p1': 19, 'p2': 1, 'p3': 18, 't1': 9, 't2': 11, 't3': 5, 't4': 10} 已用14.1min ETA15.6min
+[10/19] 'person'                           {'p1': 14, 'p2': 1, 'p3': 14, 't1': 9, 't2': 11, 't3': 8, 't4': 10} 已用15.7min ETA14.1min
+[11/19] 'person'                           {'p1': 19, 'p2': 20, 'p3': 19, 't1': 11, 't2': 11, 't3': 11, 't4': 12} 已用18.0min ETA13.1min
+[12/19] 'person running'                   {'p1': 19, 'p2': 15, 'p3': 19, 't1': 11, 't2': 11, 't3': 11, 't4': 11} 已用20.2min ETA11.8min
+[13/19] 'person'                           {'p1': 19, 'p2': 20, 'p3': 19, 't1': 11, 't2': 11, 't3': 12, 't4': 11} 已用22.5min ETA10.4min
+[14/19] 'person'                           {'p1': 19, 'p2': 20, 'p3': 19, 't1': 10, 't2': 11, 't3': 10, 't4': 12} 已用24.7min ETA8.8min
+[15/19] 'person'                           {'p1': 19, 'p2': 23, 'p3': 19, 't1': 11, 't2': 11, 't3': 12, 't4': 12} 已用26.9min ETA7.2min
+[16/19] 'person'                           {'p1': 19, 'p2': 20, 'p3': 19, 't1': 11, 't2': 11, 't3': 1, 't4': 0} 已用28.7min ETA5.4min
+[17/19] 'product'                          {'p1': 19, 'p2': 1, 'p3': 19, 't1': 11, 't2': 11, 't3': 13, 't4': 11} 已用30.6min ETA3.6min
+[18/19] 'chinese character'                {'p1': 14, 'p2': 12, 'p3': 18, 't1': 11, 't2': 11, 't3': 0, 't4': 0} 已用32.2min ETA1.8min
+[19/19] 'digit'                            {'p1': 19, 'p2': 10, 'p3': 19, 't1': 11, 't2': 4, 't3': 4, 't4': 1} 已用33.7min ETA0.0min
+
+完成：19 对，其中至少一种提示给出 ≥2 框的有 19 对
+输出 /srv/output/_enum_raw2.json

@@ -1,0 +1,539 @@
+﻿序数问句 2014；仍无法抽取 0 (0.0%)
+
+=== 仍失败样例 ===
+
+=== 'Nth closest' 型修复样例 ===
+  [stone pier]  <-  The stone pier behind the vertical metal fence bar located immediately to th
+  [white air conditioning unit]  <-  The dark side area of the third(from left to right) white air conditioning u
+  [The white crane]  <-  The white crane second closest to the camera
+  [and gray crane]  <-  The white and gray crane third closest to the camera
+  [tree]  <-  The trunk of the second tree from the right edge in the upper right area.
+  [parrot]  <-  The beak of the second parrot from the left.
+  [zebra]  <-  The tail of the third zebra from the left.
+  [the black swan]  <-  The neck of the black swan second closest to the camera.
+  [bicycle]  <-  The silver moving car on the highway directly behind the second bicycle from
+  [shared bicycle]  <-  The second shared bicycle from the left in the row parked along the sidewalk
+  [rectangular stone slab]  <-  The second rectangular stone slab from the bottom on the grassy path
+  [rectangular stone slab]  <-  The third rectangular stone slab from the bottom, positioned to the right of
+  [bank facing left]  <-  The grey bird standing on the rocky bank, facing left, positioned second fro
+  [crane]  <-  The third crane from the left, a dark gray bird facing right with its head h
+  [crane]  <-  The third crane from the left, a dark-bodied crane with a pale neck standing
+  [The gray crane]  <-  The gray crane standing second from the right on the muddy bank beside the p
+  [upper left area]  <-  The metal bolt secured to the concrete wall in the upper left area, second f
+  [its head lowered]  <-  The flamingo facing right with its head lowered, standing second from the le
+  [of the flamingo]  <-  The legs of the flamingo standing second from the right on the far-right dir
+  [rounded bush]  <-  The second rounded bush from the left along the grassy slope
+  [peacock]  <-  The second peacock from the left standing upright on the large rocks near th
+  [white pigeon]  <-  The second white pigeon from the left in the foreground grassy area
+  [white bird]  <-  The second white bird from the left standing on the grass under the wooden s
+  [tree trunk wrapped in protective]  <-  The second tree trunk wrapped in protective material from the left in the ba
+  [vertical green pole of the]  <-  The second vertical green pole of the exercise equipment from the left
+  [deer]  <-  The second deer from the left is on the ground in the middle near the shelte
+  [white deer]  <-  The second white deer from the left, partially obscured by the brown deer in
+  [brown deer]  <-  The third brown deer from the left, standing still and facing right
+  [white deer]  <-  The second white deer from the left, partially obscured by the first deer
+  [white deer]  <-  The third white deer from the left standing upright with antlers
+  [distinct roof structure]  <-  The second distinct roof structure from the left side of the background buil
+  [spotted deer]  <-  The second spotted deer from the left grazing near the paved walkway edge
+  [deer]  <-  The second deer from the left when counting all visible deer in the enclosur
+  [rectangular panel mounted]  <-  The second rectangular panel mounted on the back wall from the left
+  [black ping-pong paddle]  <-  The second black ping-pong paddle from the left held by the person
+  [yellow rectangular sign mounted]  <-  The second yellow rectangular sign mounted on the back wall from the left si
+  [rectangular yellow sign mounted]  <-  The second rectangular yellow sign mounted on the wall from the left side
+  [rectangular panel mounted]  <-  The second rectangular panel mounted on the back wall from the left
+  [rectangular wall-mounted panel]  <-  The second rectangular wall-mounted panel from the left on the back white wa
+  [yellow sign]  <-  The second yellow sign from the left mounted on the back wall
+  [rectangular panel]  <-  The second rectangular panel with yellow labeling from the left on the back 
+  [rectangular panel mounted]  <-  The second rectangular panel mounted on the white wall from the left
+  [door panel]  <-  The second door panel from the left in the wooden double door assembly
+  [wooden door panel]  <-  The second wooden door panel from the left in the double door set
+  [white sock]  <-  The second white sock from the left with visible text
+  [door panel]  <-  The second door panel from the left edge of the image frame
+  [paddle]  <-  The second paddle from the left which is the black one held in the person's 
+  [window]  <-  The second window from the left embedded in the reddish-brown rock wall
+  [rectangular barred window]  <-  The third rectangular barred window from the left embedded in the rock wall 
+  [rectangular panel mounted]  <-  The second rectangular panel mounted on the wall from the left side
+  [rectangular wall-mounted panel]  <-  The second rectangular wall-mounted panel from the left on the far white wal
+  [rectangular panel mounted]  <-  The second rectangular panel mounted on the wall from the left side
+  [rectangular panel mounted]  <-  The second rectangular panel mounted on the wall from the left side
+  [rectangular wall-mounted panel]  <-  The second rectangular wall-mounted panel from the left side of the back wal
+  [rectangular panel mounted]  <-  The second rectangular panel mounted on the wall from the left side of the i
+  [rectangular panel]  <-  The second rectangular panel with a yellow label mounted on the back wall fr
+  [rectangular panel]  <-  The second rectangular panel with a yellow label mounted on the wall from th
+  [yellow rectangular sign mounted]  <-  The second yellow rectangular sign mounted on the wall from the left
+  [rectangular panel mounted]  <-  The second rectangular panel mounted on the wall from the left side
+  [rectangular panel mounted]  <-  The second rectangular panel mounted on the white wall from the left side
+  [rectangular wall-mounted panel]  <-  The second rectangular wall-mounted panel from the left side of the room
+  [pelican]  <-  The second pelican from the left standing near the tree trunk
+  [yellow-labeled panel mounted]  <-  The second yellow-labeled panel mounted on the wall from the left
+  [yellow panel mounted]  <-  The second yellow panel mounted on the wall from the left
+  [plush toy]  <-  The second plush toy from the left when viewing the person's held items
+  [rectangular panel mounted]  <-  The second rectangular panel mounted on the back wall from the left
+  [plush toy]  <-  The second plush toy from the left held by the person
+  [animal]  <-  The second animal from the left
+  [animal]  <-  The third animal from the left
+  [animal]  <-  The fourth animal from the left
+  [prohibition icon]  <-  The second prohibition icon from the right on the bottom row of the brown si
+  [tree trunk]  <-  The second tree trunk from the left, painted white at the base, standing beh
+  [second]  <-  The second closest tree to the camera
+  [person in brown clothes]  <-  The second person in brown clothes from the right
+  [person]  <-  The second person from the right
+  [degree is the tree]  <-  The tree closest to the camera to the second degree is the tree closest to t
+  [tree that is]  <-  The nearest green shrub behind the tree that is second closest to the camera
+  [tree that is]  <-  The tree that is second closest to the camera
+  [dark vertical metal bar]  <-  The second dark vertical metal bar from the left in the foreground fence.
+  [deer that is]  <-  The deer that is second closest to the camera
+  [vertical metal fence post is]  <-  The fourth vertical metal fence post is located from right to left in the fe
+  [vertical metal fence post is]  <-  The third vertical metal fence post is located from right to left in the fen
+  [vertical metal fence post is]  <-  The second vertical metal fence post is located from right to left in the fe
+  [drone that is]  <-  The drone that is second closest to the camera
+  [grey stone]  <-  The second grey stone from the right
+  [person]  <-  The second person from the left
+  [person]  <-  The third person from the left
+  [person]  <-  The fourth person from the left
+  [person]  <-  The second person from the right
+  [person]  <-  The third person from the right
+  [person]  <-  The second person from the right
+  [person]  <-  The fourth person from the right
+  [woman counted]  <-  The second woman counted from the right
+  [ostrich when counting]  <-  The second ostrich when counting from the right
+  [ostrich]  <-  The third ostrich from the right
+  [parrot]  <-  The second parrot from the left
+  [pelican]  <-  The second pelican from the right when counting from the right side
+  [pelican]  <-  The third pelican from the right when counting from the right side
+  [pelican]  <-  The fourth pelican from the right when counting from the right side
+  [swan that is]  <-  The black swan that is the second closest to the camera
+  [person]  <-  The second person from the left
+  [child]  <-  The second child from the right
+  [camel]  <-  The second camel from the left
+  [light-colored animal]  <-  The second light-colored animal from the left standing in the background pen
+  [light-colored animal]  <-  The third light-colored animal from the left standing in the background pen 
+  [second]  <-  The second closest deer
+  [ring-tailed lemur]  <-  The second ring-tailed lemur from the left
+  [ring-tailed lemur]  <-  The third ring-tailed lemur from the left
+  [window]  <-  The third window from the left
+  [monkey]  <-  The second monkey from the left to the right
+  [monkey]  <-  The third monkey from the left to the right
+  [black railing]  <-  The second black railing from the right among the two railings closest to th
+  [deer]  <-  The second deer from the right
+  [lemur]  <-  The second lemur from the right
+  [lemur]  <-  The fourth lemur from the left
+  [tent]  <-  The second tent from the right
+  [cluster of pink flowers]  <-  The second cluster of pink flowers from the left
+  [tent]  <-  The second tent from the right when counting from the right side
+  [duck]  <-  The second duck from the right
+  [person]  <-  The third person from the right
+  [person]  <-  The second person from the right
+  [person]  <-  The second person from the left
+  [person]  <-  The second person from the left when counting from left to right
+  [water bottle]  <-  The second water bottle from the right
+  [mouse]  <-  The third mouse from the right
+  [person]  <-  The second person from the left
+  [person]  <-  The third person from the left
+  [person]  <-  The fourth person from the left
+  [cone bucket]  <-  The second cone bucket from the right
+  [rear light]  <-  The second rear light from the left when counting from the left side
+  [crane]  <-  The second crane from the left among the group of four cranes on the dirt ba
+  [grey crane]  <-  The second grey crane from the right
+  [palm tree]  <-  The second palm tree from the left
+  [palm tree]  <-  The third palm tree from the left
+  [palm tree]  <-  The fourth palm tree from the left
+  [lemur]  <-  The second lemur from the right when counting from the right side
+  [lemur]  <-  The third lemur from the right when counting from the right side
+  [lemur]  <-  The second lemur from the left
+  [rhinoceros]  <-  The second rhinoceros from the left when counting from left to right
+  [monkey]  <-  The second monkey from the top
+  [monkey]  <-  The second monkey from the left among the group on the upper wall ledge
+  [fence panel]  <-  The third fence panel from the left edge of the image
+  [ostrich when counting]  <-  The second ostrich when counting from the left
+  [ostrich when counting]  <-  The third ostrich when counting from the left
+  [rhinoceros]  <-  The third rhinoceros from the left when counting from left to right
+  [rhinoceros]  <-  The second rhinoceros from the left when counting from left to right
+  [blue tire buoy]  <-  The second blue tire buoy from the left in the line floating on the water ne
+  [zebra]  <-  The second zebra from the right
+  [zebra]  <-  The second zebra from the right when counting from the right side
+  [second]  <-  The second closest bench
+  [in dark clothing]  <-  The person in dark clothing second closest to the camera walking on the path
+  [The person]  <-  The person third closest to the trash can
+  [communication tower]  <-  The second communication tower from the right to the left
+  [white car]  <-  The second white car from the left
+  [white car]  <-  The third white car from the left
+  [oleander]  <-  The second oleander from the right
+  [person]  <-  The second person from the right in the image
+  [person]  <-  The second person from the left walking away
+  [on the ceiling]  <-  The large rectangular slatted air vent on the ceiling second closest to the 
+  [on the ceiling]  <-  The large rectangular slatted air vent on the ceiling third closest to the t
+  [and second rectangular air vents]  <-  The circular white fixture on the ceiling situated exactly between the first
+  [and third rectangular air vents]  <-  The smoke sensor on the ceiling situated exactly between the second and thir
+  [circular fixture]  <-  The second circular fixture from the left embedded in the ceiling.
+  [circular floor marker]  <-  The circular floor marker second closest to the camera
+  [The gray pillar]  <-  The gray pillar second closest to the tiger
+  [square window]  <-  The second square window from the left on the yellow building.
+  [hole]  <-  The second hole from the left on the wooden stake
+  [hole]  <-  The third hole from the left on the wooden stake
+  [hole]  <-  The fourth hole from the left on the wooden stake
+  [wolf]  <-  The fourth wolf with its head down from the right
+  [wolf]  <-  The third wolf with its head down from the right
+  [wolf]  <-  The second wolf with its head down from the right
+  [post]  <-  The second post from left to right of the fence closest to the camera
+  [post]  <-  The third post from left to right of the fence closest to the camera
+  [person]  <-  The second person from the left
+  [person]  <-  The third person from the right
+  [person]  <-  The fourth person from the right
+  [window]  <-  The second window from the left to the right
+  [person]  <-  The left foot of the second person from the left
+  [tree trunk]  <-  The fourth tree trunk from the right
+  [bumper car]  <-  The second bumper car from the left
+  [black street lamp]  <-  The black metal fence on the right side of the second black street lamp from
+  [red square]  <-  The reflection of the second red square from the left on the water surface
+  [person]  <-  The second person from the left wearing a black-and-white striped shirt and 
+  [escalator handrail]  <-  The second escalator handrail from the left
+  [person]  <-  The third person from the left
+  [person]  <-  The fourth person from the left 
+  [person]  <-  The second person from the right
+  [bear]  <-  The second bear from the left
+  [bear]  <-  The third bear from the left
+  [bear]  <-  The second bear from the right
+  [bear]  <-  The second bear from the right
+  [bear]  <-  The third bear from the right
+  [bear]  <-  The third bear from the right
+  [tree hole]  <-  The second tree hole from the right
+  [tree hole]  <-  The third tree hole from the right
+  [tree hole]  <-  The fourth tree hole from the right
+  [concrete bench]  <-  The second concrete bench from the left located under the shelter structure
+  [large beige structural pillar]  <-  The second large beige structural pillar from the left edge of the image sup
+  [large pillar]  <-  The second large pillar from the left edge of the image supporting the build
+  [car]  <-  The car driving on the road, visible through the trees as the second car fro
+  [vehicle]  <-  The second vehicle from the left in the line of parked cars
+  [chair]  <-  The third chair from the right
+  [chair]  <-  The second chair from the right
+  [and a hat]  <-  The person wearing a white shirt and a hat, walking third from the left in t
+  [a striped shirt]  <-  The woman wearing a black dress over a striped shirt, walking fourth from th
+  [person]  <-  The second person from the right
+  [person]  <-  The second person walking to the left from the right
+  [car]  <-  The second car from the right
+  [basketball hoop]  <-  The second basketball hoop from the right
+  [basketball hoop]  <-  The third basketball hoop from the right
+  [exit]  <-  The second exit from the left to the right
+  [zipper]  <-  The second zipper from the bottom
+  [electric scooter]  <-  The second electric scooter from the left
+  [electric scooter]  <-  The third electric scooter from the left
+  [electric scooter]  <-  The fourth electric scooter from the left
+  [sign]  <-  The second sign from the left
+  [sign]  <-  The third sign from the left
+  [sign]  <-  The fourth sign from the left
+  [person]  <-  The second person from the left when counting from the left to the right
+  [vehicle]  <-  The second vehicle from the left in the front of the traffic queue
+  [white SUV]  <-  The second white SUV from the right driving on the road in the background
+  [person]  <-  The second person from the left standing under the green umbrella
+  [person]  <-  The second person from the left crossing the street in the front
+  [person]  <-  The second person from the left walking on the zebra crossing
+  [blue trash bin]  <-  The second blue trash bin from the left
+  [second]  <-  The second closest swan
+  [person]  <-  The second person from the right wearing blue clothes
+  [flamingo]  <-  The third flamingo from the left has its head lowered close to the ground
+  [gray crane]  <-  The second gray crane from the left facing left by the waters edge
+  [gray crane]  <-  The second gray crane from the left
+  [peacock]  <-  The second peacock from the left
+  [parrot]  <-  The second parrot from the left
+  [blue parrot]  <-  The second blue parrot from the left
+  [window]  <-  The second window from the left on the left wall
+  [emu]  <-  The second emu from the left
+  [aerial platform]  <-  The second aerial platform from the right
+  [monkey]  <-  The second monkey from the right to the left
+  [monkey]  <-  The third monkey from the right to the left
+  [sign]  <-  The second sign from the right that has Chinese on it
+  [sign]  <-  The third sign from the right that has Chinese on it
+  [sign]  <-  The second sign from the left that has Chinese on it
+  [person]  <-  The second person from the right
+  [one]  <-  The fire sprinkler on the ceiling, the second one from the left
+  [footwear item]  <-  The second footwear item from the left worn by the person
+  [white square plate]  <-  The second white square plate on the wall from the left between the door and
+  [incandescent lamp]  <-  The second incandescent lamp from the left in the first column of grilles on
+  [incandescent lamp]  <-  The third incandescent lamp from the left in the second column of grilles on
+  [fire sprinkler]  <-  The second fire sprinkler from the left on the ceiling
+  [red plastic bucket]  <-  The second red plastic bucket from the left
+  [red plastic bucket]  <-  The third red plastic bucket from the left
+  [red trash can]  <-  The second red trash can from the left, positioned in front of the closed do
+  [red trash can]  <-  The third red trash can from the left, located between the door and the card
+  [dark brown door]  <-  The second dark brown door on the wall from the left
+  [person]  <-  The second person from the left sitting on the floor along the left sideline
+  [dark rectangular door]  <-  The second dark rectangular door from the left located on the right side of 
+  [red bin]  <-  The second red bin from the left, located between the other two red bins.
+  [rectangular window]  <-  The second rectangular window from the right on the upper wall behind the pe
+  [net]  <-  The person wearing a white shirt and dark shorts standing behind the second 
+  [large rectangular window]  <-  The second large rectangular window from the left located in the upper middl
+  [small rectangular panel]  <-  The second small rectangular panel from the left mounted on the wall directl
+  [person]  <-  The second person from the left
+  [person]  <-  The second person from the right
+  [chair]  <-  The second chair from the left
+  [monkey]  <-  The second monkey from the left
+  [monkey]  <-  The third monkey from the left
+  [monkey]  <-  The fourth monkey from the left
+  [fan]  <-  The second fan from the left
+  [fan]  <-  The second fan from the right
+  [garbage can]  <-  The second garbage can from the left
+  [container]  <-  The second container from the left
+  [deer]  <-  The second deer from the left in the group of three
+  [sign]  <-  The second sign from the top on top of the fire cabinet
+  [stool]  <-  The second stool from the right
+  [stool]  <-  The third stool from the right
+  [hole light]  <-  The third hole light from the left above the calligraphy and painting
+  [hole light]  <-  The second hole light from the left above the calligraphy and painting
+  [A deer]  <-  A deer second closest to the camera
+  [The deer]  <-  The deer third closest to the screen
+  [person]  <-  The second person from the right
+  [tree]  <-  The second tree from the right
+  [building]  <-  The second building from the right
+  [building]  <-  The third building from the right
+  [building]  <-  The circular sign on the exterior wall of the third building from the right
+  [The zebra]  <-  The zebra second closest to the screen
+  [sika deer]  <-  The second sika deer from the left
+  [second]  <-  The second wearing black clothes person from the right
+  [car]  <-  The right rearview mirror of the second car from the right to left
+  [car]  <-  The left rearview mirror of the second car from the right to left
+  [car]  <-  The right front light of the second car from the right to left
+  [car]  <-  The left front light of the second car from the right to left
+  [car]  <-  The second car from the right to left
+  [concrete pillar]  <-  The second concrete pillar from the left in front supporting the wooden stru
+  [concrete pillar]  <-  The second concrete pillar from the right edge supporting the wooden walkway
+  [white insulator]  <-  The second white insulator from the top on the vertical fence post.
+  [white insulator]  <-  The third white insulator from the top on the vertical fence post.
+  [small silver-colored metal circular light]  <-  The second small silver-colored metal circular light from the left near the 
+  [person]  <-  The second person from the right to left
+  [person]  <-  The third person from the right to left
+  [emu]  <-  The second emu from the left positioned behind the concrete feeding trough
+  [glass door]  <-  The white sign mounted on the pink wall near the third glass door from the r
+  [bicycle]  <-  The second bicycle from the left in the row of parked bikes along the wall
+  [person]  <-  The second person from the left in the blue kayak
+  [person]  <-  The second person from the left to right
+  [brightest heat signature]  <-  The person on the paddleboard appearing as the second brightest heat signatu
+  [person]  <-  The second person from the left in the blue kayak
+  [lifebuoy]  <-  The second lifebuoy from the left on the fence passed away
+  [large cylindrical white planter]  <-  The third large cylindrical white planter with a neatly trimmed round topiar
+  [large cylindrical white planter]  <-  The second large cylindrical white planter with a neatly trimmed round topia
+  [framed artwork]  <-  The second framed artwork from the left hanging on the distant grey wall in 
+  [white chair]  <-  The second white chair from the front on the left side of the room.
+  [white chair]  <-  The second white chair from the left, partially obscured behind the black ba
+  [white chair]  <-  The second white chair from the front on the left side, positioned behind th
+  [ventilation louver counted]  <-  The second ventilation louver counted from the right
+  [ventilation louver counted]  <-  The fourth ventilation louver counted from the right
+  [shoe]  <-  The second shoe from the left to right
+  [person]  <-  The second person from the left
+  [white pole]  <-  The second white pole from the right
+  [white pole]  <-  The third white pole from the right
+  [white rod]  <-  The fourth white rod from the right
+  [person]  <-  The second person from the left
+  [bicycle]  <-  The second bicycle from the left
+  [bicycle]  <-  The third bicycle from the left
+  [car]  <-  The second car from the left to right
+  [car]  <-  The third car from the left
+  [car]  <-  The fourth car from the left
+  [person]  <-  The second person from the left to right on the bus closest to the camera
+  [street lamp]  <-  The second street lamp from the right
+  [street lamp]  <-  The third street lamp from the right
+  [person]  <-  The second person from the left
+  [person]  <-  The third person from the left
+  [racket]  <-  The second racket from the left
+  [racket]  <-  The third racket from the left
+  [person]  <-  The second person from the left
+  [person]  <-  The third person from the left
+  [bicycle]  <-  The second bicycle from the left
+  [sign]  <-  The second sign from the right
+  [sign]  <-  The third sign from the right
+  [duck]  <-  The second duck from the left
+  [black swan]  <-  The third black swan from the left
+  [car]  <-  The second car from the left
+  [black street lamp]  <-  The second black street lamp from the right
+  [black street lamp]  <-  The third black street lamp from the right
+  [sofa cushion]  <-  The second sofa cushion from the left
+  [sofa cushion]  <-  The third sofa cushion from the left
+  [window panel]  <-  The second window panel from the left in the row of large glass windows
+  [person]  <-  The second person from the right
+  [manhole cover]  <-  The second manhole cover from the left on the ground
+  [camera]  <-  The second camera from the left on the roadside pole
+  [small red lantern]  <-  The second small red lantern from the left
+  [red lantern]  <-  The second red lantern from the left
+  [person]  <-  The second person from the right
+  [person]  <-  The third person from the right
+  [black traffic light counting down]  <-  The top lens of the second black traffic light counting down from the top
+  [security camera]  <-  The second security camera from the left
+  [security camera]  <-  The fourth security camera from the left
+  [security camera]  <-  The third security camera from the left
+  [security camera]  <-  The second security camera from the right
+  [pillar]  <-  The second pillar from the left under the pavilion closest to the camera
+  [pillar]  <-  The third pillar from the left under the pavilion closest to the camera
+  [pillar]  <-  The fourth pillar from the left under the pavilion closest to the camera
+  [red bench]  <-  The second red bench from the right
+  [black chair]  <-  The second black chair from the right
+  [trunk second]  <-  The fourth trunk second from the left
+  [tree trunk]  <-  The third tree trunk from the left
+  [roadblock]  <-  The second roadblock from the right
+  [wheel]  <-  The second wheel from the right
+  [reflector]  <-  The second reflector from the right to the left
+  [reflector]  <-  The third reflector from the right to the left
+  [stone ball]  <-  The second stone ball from the left to the right
+  [stone ball]  <-  The third stone ball from the left to the right
+  [handle]  <-  The second handle from the left
+  [handle]  <-  The third handle from the left
+  [wheel]  <-  The second wheel from the left
+  [wheel]  <-  The third wheel from the left
+  [person]  <-  The second person from the right
+  [wheel]  <-  The second wheel from the left
+  [person]  <-  The second person from the right
+  [person]  <-  The third person from the right
+  [tire]  <-  The second tire from the left
+  [tire]  <-  The third tire from the left
+  [stone pillar]  <-  The second stone pillar from the right
+  [stone pillar]  <-  The third stone pillar from the right
+  [circular light fixture]  <-  The second circular light fixture from the right
+  [circular light fixture]  <-  The third circular light fixture from the right
+  [red chair]  <-  The second red chair from the left in the distance
+  [red chair]  <-  The fourth red chair from the left in the distance
+  [red chair]  <-  The third red chair from the left in the distance
+  [person]  <-  The second person from the left
+  [column]  <-  The second column from the left
+  [column]  <-  The third column from the left
+  [car]  <-  The second car from the right
+  [stone]  <-  The second stone from the left in the cluster of rocks
+  [car]  <-  The second car from the left
+  [car]  <-  The left rear taillight of the second car from the left
+  [light fixture]  <-  The second light fixture from the front on the right side of the lantern
+  [light fixture]  <-  The third light fixture from the front on the right side of the lantern
+  [package]  <-  The third package from the left on the floor
+  [package]  <-  The second package from the left on the floor
+  [red sedan]  <-  The second red sedan from the right
+  [pack of tissues counting]  <-  The second pack of tissues counting from the right
+  [tree]  <-  The second tree from the front to the back on the left
+  [striped traffic cone]  <-  The red and white striped traffic cone located third from the left
+  [striped traffic cone]  <-  The red and white striped traffic cone located fourth from the left
+  [lookout post]  <-  The third lookout post from the right to the left on the bridge
+  [streetlight]  <-  The second streetlight from the right
+  [streetlight]  <-  The third streetlight from the right
+  [watch]  <-  The third watch from the left
+  [streetlight]  <-  The second streetlight from the right
+  [bicycle]  <-  The rear wheel of the second bicycle from the right
+  [person]  <-  The second person from the right
+  [person]  <-  The second person from the right
+  [person]  <-  The third person from the right
+  [plastic bag]  <-  The second plastic bag from the right
+  [plastic bag]  <-  The third plastic bag from the right
+  [person]  <-  The second person from the right
+  [person]  <-  The third person from the right
+  [wooden bench]  <-  The second wooden bench from the right
+  [wing of the drone]  <-  The second wing of the drone from the right
+  [wing of the drone]  <-  The third wing of the drone from the right
+  [ostrich leg]  <-  The second ostrich leg from the right
+  [ostrich leg]  <-  The third ostrich leg from the right
+  [basin]  <-  The second basin from the right
+  [basin]  <-  The third basin from the right
+  [white goose]  <-  The second white goose standing from the left
+  [white goose]  <-  The third white goose standing from the left
+  [hut]  <-  The second hut from the right
+  [hut]  <-  The third hut from the right
+  [parrot]  <-  The tail feathers of the second parrot from the right
+  [parrot]  <-  The tail feathers of the third parrot from the right
+  [billboard]  <-  The second billboard from the right
+  [parrot]  <-  The second parrot from the right sitting on the branch on the right side
+  [parrot]  <-  The second parrot from the left
+  [parrot]  <-  The third parrot from the left
+  [pelican]  <-  The second pelican from the left
+  [white bird]  <-  The second white bird from the right, sitting on the ground
+  [sign]  <-  The blue rectangular street sign mounted on a pole which is the second sign 
+  [tree trunk]  <-  The second tree trunk from the left along the sidewalk
+  [diamond shaped road sign]  <-  The third diamond shaped road sign from the left on the ground
+  [window]  <-  The second window from the left
+  [second-]  <-  The second-closest deer to the camera
+  [tiger]  <-  The second tiger from the left
+  [ring-tailed lemur]  <-  The second ring-tailed lemur from the right
+  [sika deer]  <-  The white rump spot of the second sika deer from the right
+  [deer]  <-  The second deer from the right to the right next to the stone-paved road
+  [tent]  <-  The second tent from the right to the left
+  [tent]  <-  The second tent from the right to the left
+  [tent]  <-  The third tent from the right to the left
+  [tent]  <-  The second tent from the right to the left
+  [tent]  <-  The second tent from the right to the left
+  [tent]  <-  The second tent from the left
+  [tent]  <-  The third tent from the left
+  [black swan]  <-  The second black swan from the right
+  [tent]  <-  The second tent from the right
+  [tent]  <-  The third tent from the right
+  [person]  <-  The second person from the right
+  [person]  <-  The third person from the right
+  [child carriage]  <-  The second child carriage from the left
+  [person when counting]  <-  The second person when counting from the right to the left
+  [person]  <-  The second person from the right
+  [person]  <-  The third person from the right
+  [tent]  <-  The second tent from the right
+  [tent]  <-  The third tent from the right
+  [blue stool]  <-  The second blue stool from the right
+  [box]  <-  The second box from the left above the computer
+  [window frame]  <-  The second window frame from the right
+  [white table]  <-  The leftmost flower pot on the second white table from the right
+  [white table]  <-  The rightmost flower pot on the second white table from the right
+  [white table]  <-  The flower pot in the middle of the second white table from the right
+  [underwater light]  <-  The second underwater light from the left
+  [underwater light]  <-  The third underwater light from the left
+  [person]  <-  The second person from the right
+  [person]  <-  The third person from the right
+  [coaching sign]  <-  The second coaching sign from the left
+  [white bird]  <-  The second white bird from the right
+  [green door]  <-  The second green door from the left
+  [zebra]  <-  The second zebra from the right to the left
+  [zebra]  <-  The second zebra from the left to right
+  [zebra]  <-  The second zebra from the right
+  [gray demoiselle crane]  <-  The second gray demoiselle crane from the right
+  [gray demoiselle crane]  <-  The second gray demoiselle crane from the right
+  [wooden window]  <-  The second wooden window from the right on the building
+  [blue stool]  <-  The second blue stool from the left
+  [blue stool]  <-  The third blue stool from the left
+  [peacock]  <-  The second peacock from the left
+  [peacock]  <-  The third peacock from the left
+  [person]  <-  The second person from the left
+  [wooden cabin]  <-  The second wooden cabin from the right
+  [person]  <-  The second person from the right
+  [person]  <-  The third person from the right
+  [streetlight]  <-  The second streetlight from the left to the right
+  [pelican]  <-  The second pelican from the right
+  [yellow pillar]  <-  The second yellow pillar from the left
+  [person]  <-  The second person from the left
+  [person]  <-  The third person from the left
+  [person]  <-  The second person from the right
+  [person]  <-  The third person from the right
+  [red car light]  <-  The second red car light from the left
+  [red car light]  <-  The third red car light from the left
+  [blue license plate]  <-  The second blue license plate from the left
+  [blue license plate]  <-  The third blue license plate from the left
+  [person]  <-  The second person from the left
+  [person]  <-  The third person from the left
+  [car]  <-  The second car from the right
+  [car]  <-  The third car from the right
+  [tree]  <-  The second tree from the left
+  [rock]  <-  The second rock from the left to the right
+  [large rock]  <-  The second large rock from the left, positioned closest to the camera on the
+  [person]  <-  The second person from the left
+  [person]  <-  The third person from the left
+  [bicycle]  <-  The second bicycle from the left
+  [electric bike]  <-  The third electric bike from the left
+  [person]  <-  The second person from the right is walking to the left
+  [surveillance camera]  <-  The second surveillance camera from the left
+  [second]  <-  The second from the right
+  [hanging green-light sign]  <-  The second hanging green-light sign from the left
+  [person]  <-  The second person from the right
+  [person]  <-  The third person from the right
+  [column]  <-  The second column from the right
+  [column]  <-  The third column from the right
+  [giraffe]  <-  The second giraffe from the left to right
+  [person]  <-  The second person from the left
+  [person]  <-  The third person from the left
+  [tree]  <-  The second tree from the left to the right
+  [bumper car]  <-  The second bumper car from the left
+  [bumper car]  <-  The third bumper car from the left
+  [person]  <-  The second person from the right
+  [red cube]  <-  The third red cube from the right
+  [black rectangular pillar]  <-  The second black rectangular pillar from the right
+  [store entrance]  <-  The two women standing together near the  second store entrance from the cam
+
+唯一 (图, 核心词) 组: 1165
+SoM 总调用 = 1165 + 2014 = 3179；≈2.6h
+已存 _ordinal_cores_v3.json

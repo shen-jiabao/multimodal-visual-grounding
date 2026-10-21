@@ -1,0 +1,26 @@
+{
+  "000001_001": {
+    "visible": "Images/visible/000001.png",
+    "infrared": "Images/infrared/000001.png",
+    "depth": "Images/depth/000001.png",
+    "query": "A squatting person",
+    "bbox": [
+      0.632774,
+      0.70217,
+      0.6723,
+      0.826042
+    ]
+  },
+  "000001_002": {
+    "visible": "Images/visible/000001.png",
+    "infrared": "Images/infrared/000001.png",
+    "depth": "Images/depth/000001.png",
+    "query": "The white street light on the left side of the stone steps on the right",
+    "bbox": [
+      0.738563,
+      0.545599,
+      0.982864,
+      0.883189
+    ]
+  }
+}

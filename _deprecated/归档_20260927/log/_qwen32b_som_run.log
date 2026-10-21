@@ -1,0 +1,133 @@
+图 1295，问句 5690，序数 1103
+已完成 direct=4587 som=0
+[pipe] 引擎 api32b → http://127.0.0.1:8000/v1 model=qwen3-vl-32b 并发=8 仅非序数=False 阶段=B
+待处理图 545
+[1/545] 000001.png direct=4587 som=1 已用0.00h ETA0.6h
+[2/545] 000085.png direct=4587 som=4 已用0.00h ETA0.7h
+[3/545] 000113.png direct=4587 som=8 已用0.00h ETA0.9h
+[4/545] 000141.png direct=4587 som=9 已用0.01h ETA1.0h
+[5/545] 000246.png direct=4587 som=10 已用0.01h ETA0.8h
+[6/545] 000281.png direct=4587 som=12 已用0.01h ETA0.8h
+[7/545] 000393.png direct=4587 som=13 已用0.01h ETA0.8h
+[8/545] 000512.png direct=4587 som=14 已用0.01h ETA0.9h
+[9/545] 000624.png direct=4587 som=15 已用0.02h ETA1.0h
+[10/545] 000631.png direct=4587 som=17 已用0.02h ETA0.9h
+[11/545] 000680.png direct=4587 som=19 已用0.02h ETA0.9h
+[12/545] 000694.png direct=4587 som=20 已用0.02h ETA0.8h
+[13/545] 000708.png direct=4587 som=22 已用0.02h ETA0.8h
+[14/545] 000722.png direct=4587 som=25 已用0.02h ETA0.8h
+[15/545] 000743.png direct=4587 som=26 已用0.02h ETA0.8h
+[16/545] 000778.png direct=4587 som=27 已用0.02h ETA0.8h
+[17/545] 000848.png direct=4587 som=29 已用0.02h ETA0.8h
+[18/545] 000855.png direct=4587 som=31 已用0.03h ETA0.8h
+[19/545] 000862.png direct=4587 som=32 已用0.03h ETA0.8h
+[20/545] 000911.png direct=4587 som=33 已用0.03h ETA0.8h
+[21/545] 000967.png direct=4587 som=35 已用0.03h ETA0.8h
+[22/545] 000988.png direct=4587 som=38 已用0.03h ETA0.8h
+[23/545] 001009.png direct=4587 som=39 已用0.03h ETA0.8h
+[24/545] 001023.png direct=4587 som=40 已用0.03h ETA0.7h
+[25/545] 001030.png direct=4587 som=44 已用0.04h ETA0.8h
+[26/545] 001114.png direct=4587 som=47 已用0.04h ETA0.8h
+[27/545] 001156.png direct=4587 som=50 已用0.04h ETA0.7h
+[28/545] 001219.png direct=4587 som=51 已用0.04h ETA0.7h
+[29/545] 001282.png direct=4587 som=52 已用0.04h ETA0.7h
+[30/545] 001310.png direct=4587 som=54 已用0.04h ETA0.7h
+[31/545] 001331.png direct=4587 som=56 已用0.05h ETA0.8h
+[32/545] 001338.png direct=4587 som=57 已用0.05h ETA0.8h
+[33/545] 001352.png direct=4587 som=58 已用0.05h ETA0.8h
+[34/545] 001366.png direct=4587 som=59 已用0.05h ETA0.8h
+[35/545] 001373.png direct=4587 som=60 已用0.05h ETA0.8h
+[36/545] 001422.png direct=4587 som=61 已用0.06h ETA0.8h
+[37/545] 001436.png direct=4587 som=62 已用0.06h ETA0.8h
+[38/545] 001513.png direct=4587 som=63 已用0.06h ETA0.8h
+[39/545] 001527.png direct=4587 som=64 已用0.06h ETA0.8h
+[40/545] 001534.png direct=4587 som=66 已用0.07h ETA0.8h
+[41/545] 001541.png direct=4587 som=68 已用0.07h ETA0.8h
+[42/545] 001548.png direct=4587 som=69 已用0.07h ETA0.8h
+[43/545] 001555.png direct=4587 som=70 已用0.07h ETA0.8h
+[44/545] 001562.png direct=4587 som=71 已用0.07h ETA0.8h
+[45/545] 001569.png direct=4587 som=73 已用0.08h ETA0.8h
+[46/545] 001604.png direct=4587 som=74 已用0.08h ETA0.8h
+[47/545] 001618.png direct=4587 som=76 已用0.08h ETA0.8h
+[48/545] 001625.png direct=4587 som=77 已用0.08h ETA0.8h
+[49/545] 001639.png direct=4587 som=78 已用0.08h ETA0.8h
+[50/545] 001653.png direct=4587 som=79 已用0.08h ETA0.8h
+[51/545] 001667.png direct=4587 som=80 已用0.08h ETA0.8h
+[52/545] 001681.png direct=4587 som=81 已用0.08h ETA0.8h
+[53/545] 001688.png direct=4587 som=82 已用0.09h ETA0.8h
+[54/545] 001695.png direct=4587 som=83 已用0.09h ETA0.8h
+[55/545] 001702.png direct=4587 som=84 已用0.09h ETA0.8h
+[56/545] 001709.png direct=4587 som=85 已用0.09h ETA0.8h
+[57/545] 001716.png direct=4587 som=86 已用0.09h ETA0.8h
+[58/545] 001723.png direct=4587 som=87 已用0.09h ETA0.8h
+[59/545] 001730.png direct=4587 som=88 已用0.09h ETA0.7h
+[60/545] 001737.png direct=4587 som=89 已用0.09h ETA0.7h
+[61/545] 001758.png direct=4587 som=90 已用0.09h ETA0.7h
+[62/545] 001765.png direct=4587 som=91 已用0.09h ETA0.7h
+[63/545] 001772.png direct=4587 som=93 已用0.10h ETA0.7h
+[64/545] 001786.png direct=4587 som=95 已用0.10h ETA0.7h
+[65/545] 001800.png direct=4587 som=97 已用0.10h ETA0.7h
+[66/545] 001821.png direct=4587 som=98 已用0.10h ETA0.7h
+[67/545] 001828.png direct=4587 som=99 已用0.10h ETA0.7h
+[68/545] 001835.png direct=4587 som=100 已用0.10h ETA0.7h
+[69/545] 001842.png direct=4587 som=101 已用0.10h ETA0.7h
+[70/545] 001849.png direct=4587 som=102 已用0.11h ETA0.7h
+[71/545] 001856.png direct=4587 som=103 已用0.11h ETA0.7h
+[72/545] 001870.png direct=4587 som=104 已用0.11h ETA0.7h
+[73/545] 001877.png direct=4587 som=105 已用0.11h ETA0.7h
+[74/545] 001884.png direct=4587 som=106 已用0.11h ETA0.7h
+[75/545] 001891.png direct=4587 som=107 已用0.11h ETA0.7h
+[76/545] 001898.png direct=4587 som=108 已用0.12h ETA0.7h
+[77/545] 001905.png direct=4587 som=109 已用0.12h ETA0.7h
+[78/545] 001919.png direct=4587 som=110 已用0.12h ETA0.7h
+[79/545] 001926.png direct=4587 som=111 已用0.12h ETA0.7h
+[80/545] 001940.png direct=4587 som=113 已用0.12h ETA0.7h
+[81/545] 001954.png direct=4587 som=114 已用0.12h ETA0.7h
+[82/545] 001961.png direct=4587 som=115 已用0.12h ETA0.7h
+[83/545] 001975.png direct=4587 som=116 已用0.13h ETA0.7h
+[84/545] 001982.png direct=4587 som=117 已用0.13h ETA0.7h
+[85/545] 002010.png direct=4587 som=120 已用0.13h ETA0.7h
+[86/545] 002143.png direct=4587 som=125 已用0.13h ETA0.7h
+[87/545] 002171.png direct=4587 som=127 已用0.13h ETA0.7h
+[88/545] 002199.png direct=4587 som=130 已用0.14h ETA0.7h
+[89/545] 002213.png direct=4587 som=134 已用0.14h ETA0.7h
+[90/545] 002290.png direct=4587 som=139 已用0.14h ETA0.7h
+[91/545] 002297.png direct=4587 som=143 已用0.14h ETA0.7h
+[92/545] 002311.png direct=4587 som=144 已用0.14h ETA0.7h
+[93/545] 002325.png direct=4587 som=147 已用0.14h ETA0.7h
+[94/545] 002332.png direct=4587 som=149 已用0.14h ETA0.7h
+[95/545] 002346.png direct=4587 som=153 已用0.15h ETA0.7h
+[96/545] 002367.png direct=4587 som=156 已用0.15h ETA0.7h
+[97/545] 002374.png direct=4587 som=157 已用0.15h ETA0.7h
+[98/545] 002395.png direct=4587 som=162 已用0.15h ETA0.7h
+[99/545] 002423.png direct=4587 som=165 已用0.15h ETA0.7h
+[100/545] 002514.png direct=4587 som=167 已用0.15h ETA0.7h
+[101/545] 002528.png direct=4587 som=170 已用0.16h ETA0.7h
+[102/545] 002535.png direct=4587 som=175 已用0.16h ETA0.7h
+[103/545] 002549.png direct=4587 som=176 已用0.16h ETA0.7h
+[104/545] 002556.png direct=4587 som=180 已用0.16h ETA0.7h
+[105/545] 002563.png direct=4587 som=185 已用0.16h ETA0.7h
+[106/545] 002577.png direct=4587 som=188 已用0.16h ETA0.7h
+[107/545] 002612.png direct=4587 som=193 已用0.16h ETA0.7h
+[108/545] 002619.png direct=4587 som=198 已用0.17h ETA0.7h
+[109/545] 002633.png direct=4587 som=203 已用0.17h ETA0.7h
+[110/545] 002640.png direct=4587 som=207 已用0.17h ETA0.7h
+[111/545] 002647.png direct=4587 som=212 已用0.18h ETA0.7h
+[112/545] 002668.png direct=4587 som=217 已用0.18h ETA0.7h
+[113/545] 002675.png direct=4587 som=222 已用0.18h ETA0.7h
+[114/545] 002682.png direct=4587 som=227 已用0.18h ETA0.7h
+[115/545] 002689.png direct=4587 som=232 已用0.19h ETA0.7h
+[116/545] 002696.png direct=4587 som=237 已用0.19h ETA0.7h
+[117/545] 002703.png direct=4587 som=242 已用0.20h ETA0.7h
+[118/545] 002724.png direct=4587 som=247 已用0.20h ETA0.7h
+[119/545] 002780.png direct=4587 som=250 已用0.20h ETA0.7h
+Traceback (most recent call last):
+  File "/root/_qwen_full_pipeline.py", line 319, in <module>
+    main()
+  File "/root/_qwen_full_pipeline.py", line 272, in main
+    som_img = draw_som(img, cands) if cands else None
+  File "/root/_qwen_full_pipeline.py", line 91, in draw_som
+    d.rectangle([x1, y1, x2, y2], outline=(255, 0, 0), width=3)
+  File "/root/rivermind-data/venv/lib/python3.10/site-packages/PIL/ImageDraw.py", line 388, in rectangle
+    self.draw.draw_rectangle(xy, ink, 0, width)
+ValueError: x1 must be greater than or equal to x0

@@ -1,0 +1,76 @@
+﻿小样抽样结果:
+  C1_RTL_num_eq_k      5 条
+  C2_RTL_other         4 条
+  C3_LTR               3 条
+  C4_CONTROL_match     3 条
+    [C1] 000870_003 RTL k=2 nc=2 exp=1 old=2  'The trunk of the second tree from the right edge in the up'
+    [C1] 004489_003 RTL k=4 nc=6 exp=3 old=4  'Number the fourth teaching building from right to left'
+    [C1] 009403_007 RTL k=2 nc=2 exp=1 old=2  'The second rectangular slatted vent from right to left on '
+    [C1] 012301_004 RTL k=4 nc=6 exp=3 old=4  'The fourth potted plant from right to left'
+    [C1] 013694_003 RTL k=5 nc=10 exp=6 old=5  'The fifth circular light from the right'
+    [C2] 002557_001 RTL k=1 nc=4 exp=4 old=3  'The first prohibition sign on the sign from right to left'
+    [C2] 009571_005 RTL k=1 nc=4 exp=4 old=3  'The first wolf with its head down from the right'
+    [C2] 011860_004 RTL k=4 nc=9 exp=6 old=5  'The fourth crane from right to left'
+    [C2] 014548_001 RTL k=1 nc=8 exp=8 old=6  'The first ostrich leg from the right'
+    [C3] 000142_006 LTR k=1 nc=5 exp=1 old=3  'First brown planter with green shrubs, in front of the uti'
+    [C3] 009760_003 LTR k=1 nc=6 exp=1 old=4  'The first glass door from left to right on the right side '
+    [C3] 013232_002 LTR k=2 nc=4 exp=2 old=3  'The second security camera from the left'
+    [C4] 000023_001 LTR k=1 nc=5 exp=1 old=1  'From left to right, the first stone pier'
+    [C4] 009242_004 LTR k=1 nc=2 exp=1 old=1  'The first tower crane from left to right in the background'
+    [C4] 012721_002 LTR k=2 nc=15 exp=2 old=2  'The second person from the left'
+
+已上传 sample + runner，开始执行（模型重载 ~3min）...
+小样条数 15
+
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]
+Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:04,  1.53s/it]
+Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.46s/it]
+Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.50s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.26s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.34s/it]
+模型就绪 显存 17.5GB
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[1/15] 000870_003 RTL k=2 nc=2 exp=1 old=2 | A=2 ok=False | B=1 ok=True  2s
+[2/15] 004489_003 RTL k=4 nc=6 exp=3 old=4 | A=4 ok=False | B=3 ok=True  2s
+[3/15] 009403_007 RTL k=2 nc=2 exp=1 old=2 | A=1 ok=True | B=2 ok=False  3s
+[4/15] 012301_004 RTL k=4 nc=6 exp=3 old=4 | A=4 ok=False | B=3 ok=True  4s
+[5/15] 013694_003 RTL k=5 nc=10 exp=6 old=5 | A=6 ok=True | B=6 ok=True  5s
+[6/15] 002557_001 RTL k=1 nc=4 exp=4 old=3 | A=4 ok=True | B=4 ok=True  6s
+[7/15] 009571_005 RTL k=1 nc=4 exp=4 old=3 | A=4 ok=True | B=4 ok=True  7s
+[8/15] 011860_004 RTL k=4 nc=9 exp=6 old=5 | A=5 ok=False | B=6 ok=True  8s
+[9/15] 014548_001 RTL k=1 nc=8 exp=8 old=6 | A=6 ok=False | B=6 ok=False  9s
+[10/15] 000142_006 LTR k=1 nc=5 exp=1 old=3 | A=3 ok=False | B=3 ok=False  10s
+[11/15] 009760_003 LTR k=1 nc=6 exp=1 old=4 | A=4 ok=False | B=4 ok=False  11s
+[12/15] 013232_002 LTR k=2 nc=4 exp=2 old=3 | A=2 ok=True | B=2 ok=True  12s
+[13/15] 000023_001 LTR k=1 nc=5 exp=1 old=1 | A=1 ok=True | B=1 ok=True  13s
+[14/15] 009242_004 LTR k=1 nc=2 exp=1 old=1 | A=1 ok=True | B=1 ok=True  14s
+[15/15] 012721_002 LTR k=2 nc=15 exp=2 old=2 | A=2 ok=True | B=2 ok=True  15s
+
+写出 /srv/output/som_reask_probe.json
+
+
+=== 小样结果汇总 ===
+  C1_RTL_num_eq_k      n= 5  A 合规 2/5  B 合规 4/5
+  C2_RTL_other         n= 4  A 合规 2/4  B 合规 3/4
+  C3_LTR               n= 3  A 合规 1/3  B 合规 1/3
+  C4_CONTROL_match     n= 3  A 合规 3/3  B 合规 3/3
+
+逐条（A/B 变体的新答案 vs 期望）：
+  qid          cat d     k  nc  exp  old    A    B
+  000870_003   C1  RTL   2   2    1    2    2    1
+  004489_003   C1  RTL   4   6    3    4    4    3
+  009403_007   C1  RTL   2   2    1    2    1    2
+  012301_004   C1  RTL   4   6    3    4    4    3
+  013694_003   C1  RTL   5  10    6    5    6    6
+  002557_001   C2  RTL   1   4    4    3    4    4
+  009571_005   C2  RTL   1   4    4    3    4    4
+  011860_004   C2  RTL   4   9    6    5    5    6
+  014548_001   C2  RTL   1   8    8    6    6    6
+  000142_006   C3  LTR   1   5    1    3    3    3
+  009760_003   C3  LTR   1   6    1    4    4    4
+  013232_002   C3  LTR   2   4    2    3    2    2
+  000023_001   C4  LTR   1   5    1    1    1    1
+  009242_004   C4  LTR   1   2    1    1    1    1
+  012721_002   C4  LTR   2  15    2    2    2    2
+
+已存 d:\Desktop\2026AiC\_som_reask_probe.json

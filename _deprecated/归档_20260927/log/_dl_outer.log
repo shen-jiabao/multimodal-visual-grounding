@@ -1,0 +1,10 @@
+[07:45:26] 取文件清单
+TOTAL	20527774138
+[07:45:27] 待下 20 个文件，合计 19.12 GB
+xargs: warning: options --max-args and --replace/-I/-i are mutually exclusive, ignoring previous --max-args value
+[07:55:01] 全部下载结束
+=== 核对 ===
+  字节数正确 20 个 | 不符 0 个 | 实下 19.12 GB / 期望 19.12 GB
+  目录体量: 20G
+/dev/mapper/lvmdata-pvc--dddc292b--73e4--4966--809d--b6e547e3ba9a   49G   38G   12G  77% /root/rivermind-data
+DONE_OK
