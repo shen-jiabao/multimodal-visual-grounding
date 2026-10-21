@@ -1,0 +1,34 @@
+== 1) 构造小样（12 图，direct 与序数混合）==
+  图 12 | 问句 80 (direct 60 / 序数 20)
+
+== 2) 跑探针（隔离 venv）==
+[probe] device=cuda 模型加载中...
+Encountered exception while importing decord: No module named 'decord'
+Encountered exception while importing lmdb: No module named 'lmdb'
+Traceback (most recent call last):
+  File "/root/_probe_locale.py", line 141, in <module>
+    main()
+    ~~~~^^
+  File "/root/_probe_locale.py", line 44, in main
+    processor = AutoProcessor.from_pretrained(
+        MODEL_PATH, trust_remote_code=True)
+  File "/root/miniconda3/envs/myconda/lib/python3.13/site-packages/transformers/models/auto/processing_auto.py", line 387, in from_pretrained
+    processor_class = get_class_from_dynamic_module(
+        processor_auto_map, pretrained_model_name_or_path, **kwargs
+    )
+  File "/root/miniconda3/envs/myconda/lib/python3.13/site-packages/transformers/dynamic_module_utils.py", line 604, in get_class_from_dynamic_module
+    final_module = get_cached_module_file(
+        repo_id,
+    ...<8 lines>...
+        repo_type=repo_type,
+    )
+  File "/root/miniconda3/envs/myconda/lib/python3.13/site-packages/transformers/dynamic_module_utils.py", line 427, in get_cached_module_file
+    modules_needed = check_imports(resolved_module_file)
+  File "/root/miniconda3/envs/myconda/lib/python3.13/site-packages/transformers/dynamic_module_utils.py", line 260, in check_imports
+    raise ImportError(
+    ...<2 lines>...
+    )
+ImportError: This modeling file requires the following packages that were not found in your environment: decord, lmdb. Run `pip install decord lmdb`
+
+== 3) 显存 ==
+17881 MiB, 49140 MiB, 80 %

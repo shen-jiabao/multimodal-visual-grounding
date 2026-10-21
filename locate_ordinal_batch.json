@@ -1,0 +1,214 @@
+{
+ "001773": {
+  "visible": "Images/visible/001773.png",
+  "core": "black paddle",
+  "prompt": "How many black paddles are there in this image? First state the count as a single number, then output one <box><x1><y1><x2><y2></box> for EACH black paddle from left to right. Include every instance, including ones partially cut off by the image edge and ones occluded by other objects.",
+  "queries": [
+   {
+    "qid": "001773_005",
+    "rank": 2,
+    "axis": "left_to_right"
+   }
+  ],
+  "raw": "<ref>How many black paddles are there in this image? First state the count as a single number, then output one  <1><y1><x2><y2> for EACH black paddle from left to right. Include every instance, including ones partially cut off by the image edge and ones occluded by other objects.</ref><box><385><303><440><439></box><|im_end|>",
+  "n_raw_boxes": 1,
+  "boxes": [
+   [
+    0.385,
+    0.303,
+    0.44,
+    0.439
+   ]
+  ]
+ },
+ "016333": {
+  "visible": "Images/visible/016333.png",
+  "core": "pelican",
+  "prompt": "How many pelicans are there in this image? First state the count as a single number, then output one <box><x1><y1><x2><y2></box> for EACH pelican from left to right. Include every instance, including ones partially cut off by the image edge and ones occluded by other objects.",
+  "queries": [
+   {
+    "qid": "016333_002",
+    "rank": 1,
+    "axis": "right_to_left"
+   }
+  ],
+  "raw": "<ref>pelicans are there in this image? First state the count as a single number, then output one <box><x1><y1><x2><y2></ref><box>None</box><ref>for EACH pelican from left to right. Include every instance, including ones partially cut off by the image edge and ones occluded by other objects</ref><box><236><365><284><422></box><box><291><276><314><368></box><box><326><325><354><365></box><box><572><434><616><484></box><box><596><387><622><420></box><box><849><871><918><933></box><|im_end|>",
+  "n_raw_boxes": 6,
+  "boxes": [
+   [
+    0.236,
+    0.365,
+    0.284,
+    0.422
+   ],
+   [
+    0.291,
+    0.276,
+    0.314,
+    0.368
+   ],
+   [
+    0.326,
+    0.325,
+    0.354,
+    0.365
+   ],
+   [
+    0.572,
+    0.434,
+    0.616,
+    0.484
+   ],
+   [
+    0.596,
+    0.387,
+    0.622,
+    0.42
+   ],
+   [
+    0.849,
+    0.871,
+    0.918,
+    0.933
+   ]
+  ]
+ },
+ "012826": {
+  "visible": "Images/visible/012826.png",
+  "core": "sofa cushion",
+  "prompt": "How many sofa cushions are there in this image? First state the count as a single number, then output one <box><x1><y1><x2><y2></box> for EACH sofa cushion from left to right. Include every instance, including ones partially cut off by the image edge and ones occluded by other objects.",
+  "queries": [
+   {
+    "qid": "012826_001",
+    "rank": 1,
+    "axis": "left_to_right"
+   }
+  ],
+  "raw": "<ref>sofa cushions are there in this image? First state the count as a single number, then output one  <1><y1><x2><y2> for EACH sofa cushion from left to right. Include every instance, including ones partially cut off by the image edge and ones occluded by other objects.</ref><box><504><762><988><999></box><|im_end|>",
+  "n_raw_boxes": 1,
+  "boxes": [
+   [
+    0.504,
+    0.762,
+    0.988,
+    0.999
+   ]
+  ]
+ },
+ "014716": {
+  "visible": "Images/visible/014716.png",
+  "core": "road sign",
+  "prompt": "How many road signs are there in this image? First state the count as a single number, then output one <box><x1><y1><x2><y2></box> for EACH road sign from left to right. Include every instance, including ones partially cut off by the image edge and ones occluded by other objects.",
+  "queries": [
+   {
+    "qid": "014716_003",
+    "rank": 1,
+    "axis": "left_to_right"
+   }
+  ],
+  "raw": "<ref>road signs are there in this image? First state the count as a single number, then output one <box><x1><y1><x2><y2></ref><box>None</box><ref>for EACH road sign from left to right. Include every instance, including ones partially cut off by the image edge and ones occluded by other objects</ref><box>None</box><|im_end|>",
+  "n_raw_boxes": 0,
+  "boxes": []
+ },
+ "010033": {
+  "visible": "Images/visible/010033.png",
+  "core": "bear",
+  "prompt": "How many bears are there in this image? First state the count as a single number, then output one <box><x1><y1><x2><y2></box> for EACH bear from left to right. Include every instance, including ones partially cut off by the image edge and ones occluded by other objects.",
+  "queries": [
+   {
+    "qid": "010033_004",
+    "rank": 3,
+    "axis": "right_to_left"
+   }
+  ],
+  "raw": "<ref><x1><y1><x2><y2> for EACH bear from left to right. Include every instance, including ones partially cut off by the image edge and ones occluded by other objects</ref><box>None</box><|im_end|>",
+  "n_raw_boxes": 0,
+  "boxes": []
+ },
+ "010019": {
+  "visible": "Images/visible/010019.png",
+  "core": "person",
+  "prompt": "How many people are there in this image? First state the count as a single number, then output one <box><x1><y1><x2><y2></box> for EACH person from left to right. Include every instance, including ones partially cut off by the image edge and ones occluded by other objects.",
+  "queries": [
+   {
+    "qid": "010019_003",
+    "rank": 5,
+    "axis": "left_to_right"
+   }
+  ],
+  "raw": "<ref>people in this image</ref><box><212><361><232><428></box><box><229><358><245><426></box><box><243><359><254><424></box><ref><x1><y1><x2><y2></ref><box><212><361><232><428></box><ref>for EACH person from left to right</ref><box><212><361><232><428></box><ref>one occluded by other objects</ref><box><243><359><254><424></box><|im_end|>",
+  "n_raw_boxes": 6,
+  "boxes": [
+   [
+    0.212,
+    0.361,
+    0.232,
+    0.428
+   ],
+   [
+    0.229,
+    0.358,
+    0.245,
+    0.426
+   ],
+   [
+    0.243,
+    0.359,
+    0.254,
+    0.424
+   ],
+   [
+    0.212,
+    0.361,
+    0.232,
+    0.428
+   ],
+   [
+    0.212,
+    0.361,
+    0.232,
+    0.428
+   ],
+   [
+    0.243,
+    0.359,
+    0.254,
+    0.424
+   ]
+  ]
+ },
+ "016774": {
+  "visible": "Images/visible/016774.png",
+  "core": "person",
+  "prompt": "How many people are there in this image? First state the count as a single number, then output one <box><x1><y1><x2><y2></box> for EACH person from left to right. Include every instance, including ones partially cut off by the image edge and ones occluded by other objects.",
+  "queries": [
+   {
+    "qid": "016774_001",
+    "rank": 3,
+    "axis": "left_to_right"
+   }
+  ],
+  "raw": "<ref>people in this image</ref><box><50><340><115><644></box><box><151><341><162><397></box><box><167><346><178><396></box><ref><x1><y1><x2><y2></ref><box>None</box><|im_end|>",
+  "n_raw_boxes": 3,
+  "boxes": [
+   [
+    0.05,
+    0.34,
+    0.115,
+    0.644
+   ],
+   [
+    0.151,
+    0.341,
+    0.162,
+    0.397
+   ],
+   [
+    0.167,
+    0.346,
+    0.178,
+    0.396
+   ]
+  ]
+ }
+}

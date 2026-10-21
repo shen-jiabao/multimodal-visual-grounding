@@ -1,0 +1,587 @@
+{
+ "000023_001": {
+  "query": "From left to right, the first stone pier",
+  "img": "Images/visible/000023.png",
+  "time_s": 4.137,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.0,
+    0.816,
+    0.018,
+    0.891
+   ]
+  ],
+  "raw": "<ref>From left to right, the first stone pier</ref><box><0><816><18><891></box><|im_end|>"
+ },
+ "000023_002": {
+  "query": "From left to right, the second stone pier",
+  "img": "Images/visible/000023.png",
+  "time_s": 3.538,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.085,
+    0.788,
+    0.123,
+    0.862
+   ]
+  ],
+  "raw": "<ref>From left to right, the second stone pier</ref><box><85><788><123><862></box><|im_end|>"
+ },
+ "000023_003": {
+  "query": "From left to right, the third stone pier",
+  "img": "Images/visible/000023.png",
+  "time_s": 3.372,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.137,
+    0.776,
+    0.172,
+    0.847
+   ]
+  ],
+  "raw": "<ref>the third stone pier</ref><box><137><776><172><847></box><|im_end|>"
+ },
+ "000023_004": {
+  "query": "From left to right, the fourth stone pier",
+  "img": "Images/visible/000023.png",
+  "time_s": 3.375,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.137,
+    0.777,
+    0.172,
+    0.847
+   ]
+  ],
+  "raw": "<ref>the fourth stone pier</ref><box><137><777><172><847></box><|im_end|>"
+ },
+ "000023_005": {
+  "query": "The stone pier behind the vertical metal fence bar located immediately to the right of the fourth stone pier from the le",
+  "img": "Images/visible/000023.png",
+  "time_s": 3.964,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.185,
+    0.759,
+    0.219,
+    0.83
+   ]
+  ],
+  "raw": "<ref>stone pier behind the vertical metal fence bar located immediately to the right of the fourth stone pier from the left</ref><box><185><759><219><830></box><|im_end|>"
+ },
+ "000023_006": {
+  "query": "The white decorative lamp post standing directly in front of the large red inflatable rabbit.",
+  "img": "Images/visible/000023.png",
+  "time_s": 3.732,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.257,
+    0.147,
+    0.321,
+    0.87
+   ]
+  ],
+  "raw": "<ref>white decorative lamp post standing directly in front of the large red inflatable rabbit</ref><box><257><147><321><870></box><|im_end|>"
+ },
+ "000023_007": {
+  "query": "The person sitting outside the door wearing a blue shirt",
+  "img": "Images/visible/000023.png",
+  "time_s": 3.586,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.956,
+    0.561,
+    1.0,
+    0.689
+   ]
+  ],
+  "raw": "<ref>the person sitting outside the door wearing a blue shirt</ref><box><956><561><1000><689></box><|im_end|>"
+ },
+ "001038_001": {
+  "query": "Man wearing a black shirt walking across the road between a white suv and black sedan",
+  "img": "Images/visible/001038.png",
+  "time_s": 3.827,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.386,
+    0.758,
+    0.438,
+    1.0
+   ]
+  ],
+  "raw": "<ref>Man wearing a black shirt walking across the road between a white suv and black sedan</ref><box><386><758><438><1000></box><|im_end|>"
+ },
+ "001038_002": {
+  "query": "Large, dark-colored residential high-rise building in the center background featuring a solid white wall on its left sid",
+  "img": "Images/visible/001038.png",
+  "time_s": 3.973,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.342,
+    0.245,
+    0.603,
+    0.788
+   ]
+  ],
+  "raw": "<ref>Large, dark-colored residential high-rise building in the center background featuring a solid white wall on its left side</ref><box><342><245><603><788></box><|im_end|>"
+ },
+ "001038_003": {
+  "query": "The closest silver sedan positioned at the leftmost edge of the traffic line",
+  "img": "Images/visible/001038.png",
+  "time_s": 3.726,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.112,
+    0.786,
+    0.328,
+    1.0
+   ]
+  ],
+  "raw": "<ref>The closest silver sedan positioned at the leftmost edge of the traffic line</ref><box><112><786><328><1000></box><|im_end|>"
+ },
+ "001038_004": {
+  "query": "The white compact SUV facing slightly toward the camera in the middle of the stopped traffic queue is partly hidden behi",
+  "img": "Images/visible/001038.png",
+  "time_s": 4.443,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.311,
+    0.776,
+    0.458,
+    0.934
+   ]
+  ],
+  "raw": "<ref>the white compact SUV facing slightly toward the camera in the middle of the stopped traffic queue is partly hidden behind the pedestrian carrying a white bag and sits immediately left of the black SUV</ref><box><311><776><458><934></box><|im_end|>"
+ },
+ "001038_005": {
+  "query": "The circular 30 km/h speed limit sign next to the green trees near the road",
+  "img": "Images/visible/001038.png",
+  "time_s": 3.862,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.714,
+    0.661,
+    0.742,
+    0.716
+   ]
+  ],
+  "raw": "<ref>circular 30 km/h speed limit sign next to the green trees near the road</ref><box><714><661><742><716></box><|im_end|>"
+ },
+ "001038_006": {
+  "query": "The tallest curved white street light to the left of the tallest high rise building",
+  "img": "Images/visible/001038.png",
+  "time_s": 3.765,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.071,
+    0.248,
+    0.175,
+    0.788
+   ]
+  ],
+  "raw": "<ref>tallest curved white street light to the left of the tallest high rise building</ref><box><71><248><175><788></box><|im_end|>"
+ },
+ "001038_007": {
+  "query": "The rightmost black sedan, seen from behind with a blue license plate and a red brake light, is stopped beside the black",
+  "img": "Images/visible/001038.png",
+  "time_s": 4.142,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.842,
+    0.709,
+    1.0,
+    1.0
+   ]
+  ],
+  "raw": "<ref>the rightmost black sedan, seen from behind with a blue license plate and a red brake light, is stopped beside the black SUV</ref><box><842><709><1000><1000></box><|im_end|>"
+ },
+ "001038_008": {
+  "query": "The blue rear license plate marked 'B9692A' on the rightmost black sedan is at the bottom-right edge.",
+  "img": "Images/visible/001038.png",
+  "time_s": 4.02,
+  "n_boxes": 0,
+  "boxes": [],
+  "raw": "<ref>blue rear license plate marked 'B9692A' on the rightmost black sedan is at the bottom-right edge</ref><box>None</box><|im_end|>"
+ },
+ "001038_009": {
+  "query": "The small bright silver screw on the left side of the blue rear license plate of the rightmost black sedan.",
+  "img": "Images/visible/001038.png",
+  "time_s": 3.957,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.941,
+    0.866,
+    0.945,
+    0.877
+   ]
+  ],
+  "raw": "<ref>small bright silver screw on the left side of the blue rear license plate of the rightmost black sedan</ref><box><941><866><945><877></box><|im_end|>"
+ },
+ "001038_010": {
+  "query": "The illuminated rear-left taillight of the partially visible rightmost black car is at the far right edge.",
+  "img": "Images/visible/001038.png",
+  "time_s": 4.072,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.935,
+    0.776,
+    0.969,
+    0.788
+   ]
+  ],
+  "raw": "<ref>illuminated rear-left taillight of the partially visible rightmost black car is at the far right edge</ref><box><935><776><969><788></box><|im_end|>"
+ },
+ "001038_011": {
+  "query": "The silver-spoked rear wheel of the black car is at the lower center-right, immediately left of the dark sedan.",
+  "img": "Images/visible/001038.png",
+  "time_s": 3.906,
+  "n_boxes": 0,
+  "boxes": [],
+  "raw": "<ref>silver-spoked rear wheel of the black car is at the lower center-right, immediately left of the dark sedan</ref><box>None</box><|im_end|>"
+ },
+ "001038_012": {
+  "query": "The silver rear left wheel of the black car in the foreground, located at the bottom center just to the right of the sta",
+  "img": "Images/visible/001038.png",
+  "time_s": 4.012,
+  "n_boxes": 0,
+  "boxes": [],
+  "raw": "<ref>silver rear left wheel of the black car in the foreground, located at the bottom center just to the right of the standing man</ref><box>None</box><|im_end|>"
+ },
+ "001038_013": {
+  "query": "The small rounded rectangular fuel door on the rear side panel of the left-foreground silver car is visible.",
+  "img": "Images/visible/001038.png",
+  "time_s": 3.907,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.234,
+    0.884,
+    0.266,
+    0.918
+   ]
+  ],
+  "raw": "<ref>small rounded rectangular fuel door on the rear side panel of the left-foreground silver car is visible</ref><box><234><884><266><918></box><|im_end|>"
+ },
+ "001038_014": {
+  "query": "The glowing red rear taillight on the silver sedan is on the back corner of the leftmost car in the foreground.",
+  "img": "Images/visible/001038.png",
+  "time_s": 4.076,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.278,
+    0.88,
+    0.321,
+    0.909
+   ]
+  ],
+  "raw": "<ref>glowing red rear taillight on the silver sedan is on the back corner of the leftmost car in the foreground</ref><box><278><880><321><909></box><|im_end|>"
+ },
+ "000002_001": {
+  "query": "Red promotional sign with food imagery",
+  "img": "Images/visible/000002.png",
+  "time_s": 3.465,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.477,
+    0.428,
+    0.553,
+    0.512
+   ]
+  ],
+  "raw": "<ref>Red promotional sign with food imagery</ref><box><477><428><553><512></box><|im_end|>"
+ },
+ "000002_002": {
+  "query": "Two white umbrellas above the outdoor dining area",
+  "img": "Images/visible/000002.png",
+  "time_s": 3.772,
+  "n_boxes": 2,
+  "boxes": [
+   [
+    0.083,
+    0.251,
+    0.335,
+    0.402
+   ],
+   [
+    0.317,
+    0.353,
+    0.478,
+    0.434
+   ]
+  ],
+  "raw": "<ref>Two white umbrellas above the outdoor dining area</ref><box><83><251><335><402></box><box><317><353><478><434></box><|im_end|>"
+ },
+ "000002_003": {
+  "query": "A man in a checkered shirt beside the white street lamp",
+  "img": "Images/visible/000002.png",
+  "time_s": 3.639,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.654,
+    0.459,
+    0.69,
+    0.673
+   ]
+  ],
+  "raw": "<ref>man in a checkered shirt beside the white street lamp</ref><box><654><459><690><673></box><|im_end|>"
+ },
+ "000002_004": {
+  "query": "A black metal awning over the glass entrance doors",
+  "img": "Images/visible/000002.png",
+  "time_s": 3.572,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.0,
+    0.04,
+    0.121,
+    0.169
+   ]
+  ],
+  "raw": "<ref>black metal awning over the glass entrance doors</ref><box><0><40><121><169></box><|im_end|>"
+ },
+ "000002_005": {
+  "query": "The passage to the upper level of the building",
+  "img": "Images/visible/000002.png",
+  "time_s": 3.576,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.0,
+    0.0,
+    0.999,
+    0.774
+   ]
+  ],
+  "raw": "<ref>The passage to the upper level of the building</ref><box><0><0><999><774></box><|im_end|>"
+ },
+ "000002_006": {
+  "query": "The leftmost security camera mounted on the stone pillar, located directly below the black awning.",
+  "img": "Images/visible/000002.png",
+  "time_s": 3.88,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.104,
+    0.179,
+    0.126,
+    0.21
+   ]
+  ],
+  "raw": "<ref>The leftmost security camera mounted on the stone pillar, located directly below the black awning</ref><box><104><179><126><210></box><|im_end|>"
+ },
+ "000002_007": {
+  "query": "A golden menu standing in front of the black dining barrier",
+  "img": "Images/visible/000002.png",
+  "time_s": 3.624,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.266,
+    0.501,
+    0.311,
+    0.654
+   ]
+  ],
+  "raw": "<ref>golden menu standing in front of the black dining barrier</ref><box><266><501><311><654></box><|im_end|>"
+ },
+ "000212_001": {
+  "query": "The large illuminated letter 'm' with embedded white bulbs and colorful neon borders",
+  "img": "Images/visible/000212.png",
+  "time_s": 4.353,
+  "n_boxes": 4,
+  "boxes": [
+   [
+    0.108,
+    0.67,
+    0.24,
+    0.998
+   ],
+   [
+    0.205,
+    0.378,
+    0.434,
+    0.806
+   ],
+   [
+    0.426,
+    0.634,
+    0.481,
+    0.998
+   ],
+   [
+    0.503,
+    0.629,
+    0.878,
+    0.998
+   ]
+  ],
+  "raw": "<ref>large illuminated letter 'm' with embedded white bulbs and colorful neon borders</ref><box><108><670><240><998></box><box><205><378><434><806></box><box><426><634><481><998></box><box><503><629><878><998></box><|im_end|>"
+ },
+ "000212_002": {
+  "query": "The physical large illuminated letter 'U' in the foreground, featuring embedded white bulbs and colorful neon borders.",
+  "img": "Images/visible/000212.png",
+  "time_s": 4.321,
+  "n_boxes": 3,
+  "boxes": [
+   [
+    0.109,
+    0.674,
+    0.238,
+    0.998
+   ],
+   [
+    0.205,
+    0.379,
+    0.429,
+    0.806
+   ],
+   [
+    0.503,
+    0.63,
+    0.877,
+    0.998
+   ]
+  ],
+  "raw": "<ref>physical large illuminated letter 'U' in the foreground, featuring embedded white bulbs and colorful neon borders</ref><box><109><674><238><998></box><box><205><379><429><806></box><box><503><630><877><998></box><|im_end|>"
+ },
+ "000212_003": {
+  "query": "The large illuminated letter 'Y' positioned on the far right of the sign next to the letter 'U', featuring embedded whit",
+  "img": "Images/visible/000212.png",
+  "time_s": 4.285,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.502,
+    0.629,
+    0.878,
+    1.0
+   ]
+  ],
+  "raw": "<ref>the large illuminated letter 'Y' positioned on the far right of the sign next to the letter 'U', featuring embedded white bulbs and colorful neon borders</ref><box><502><629><878><1000></box><|im_end|>"
+ },
+ "000212_004": {
+  "query": "The smaller illuminated letter 'Y' with embedded white bulbs and colorful neon borders",
+  "img": "Images/visible/000212.png",
+  "time_s": 3.82,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.108,
+    0.67,
+    0.24,
+    0.998
+   ]
+  ],
+  "raw": "<ref>smaller illuminated letter 'Y' with embedded white bulbs and colorful neon borders</ref><box><108><670><240><998></box><|im_end|>"
+ },
+ "000212_005": {
+  "query": "The reflective glass window showing mirrored images of the illuminated letters",
+  "img": "Images/visible/000212.png",
+  "time_s": 3.639,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.0,
+    0.0,
+    0.999,
+    0.999
+   ]
+  ],
+  "raw": "<ref>reflective glass window showing mirrored images of the illuminated letters</ref><box><0><0><999><999></box><|im_end|>"
+ },
+ "000212_006": {
+  "query": "The dark striped entrance mat visible through the right glass",
+  "img": "Images/visible/000212.png",
+  "time_s": 3.609,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.0,
+    0.29,
+    0.153,
+    0.678
+   ]
+  ],
+  "raw": "<ref>the dark striped entrance mat visible through the right glass</ref><box><0><290><153><678></box><|im_end|>"
+ },
+ "000212_007": {
+  "query": "The mirrored image of the letter 'U' in the reflective glass",
+  "img": "Images/visible/000212.png",
+  "time_s": 3.714,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.0,
+    0.0,
+    0.999,
+    0.999
+   ]
+  ],
+  "raw": "<ref>mirrored image of the letter 'U' in the reflective glass</ref><box><0><0><999><999></box><|im_end|>"
+ },
+ "000212_008": {
+  "query": "The mirrored image of the letter 'Y' in the reflective glass",
+  "img": "Images/visible/000212.png",
+  "time_s": 3.713,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.0,
+    0.0,
+    0.999,
+    0.999
+   ]
+  ],
+  "raw": "<ref>mirrored image of the letter 'Y' in the reflective glass</ref><box><0><0><999><999></box><|im_end|>"
+ },
+ "000212_009": {
+  "query": "The curved black line marking on the tiled plaza reflection",
+  "img": "Images/visible/000212.png",
+  "time_s": 3.611,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.285,
+    0.0,
+    0.999,
+    0.674
+   ]
+  ],
+  "raw": "<ref>the curved black line marking on the tiled plaza reflection</ref><box><285><0><999><674></box><|im_end|>"
+ },
+ "000212_010": {
+  "query": "The small blue sign with white text in the top left corner",
+  "img": "Images/visible/000212.png",
+  "time_s": 3.644,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.0,
+    0.0,
+    0.092,
+    0.09
+   ]
+  ],
+  "raw": "<ref>small blue sign with white text in the top left corner</ref><box><0><0><92><90></box><|im_end|>"
+ }
+}

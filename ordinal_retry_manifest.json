@@ -1,0 +1,83 @@
+{
+ "001773": {
+  "tag": "001773",
+  "visible": "Images/visible/001773.png",
+  "core": "paddle",
+  "prompt": "Locate every table tennis paddle in this image. Output one <box><x1><y1><x2><y2></box> for EACH paddle from left to right, including partially visible ones.",
+  "queries": [
+   "001773_005"
+  ]
+ },
+ "010019": {
+  "tag": "010019",
+  "visible": "Images/visible/010019.png",
+  "core": "person",
+  "prompt": "Locate every person in this image, including very small distant people standing behind the railing or among trees. Output one <box><x1><y1><x2><y2></box> for EACH person from left to right. Do not skip any person.",
+  "queries": [
+   "010019_003"
+  ]
+ },
+ "016774": {
+  "tag": "016774",
+  "visible": "Images/visible/016774.png",
+  "core": "person",
+  "prompt": "Locate every person in this image, including very small distant pedestrians on the sidewalk. Output one <box><x1><y1><x2><y2></box> for EACH person from left to right. Do not skip any person.",
+  "queries": [
+   "016774_001"
+  ]
+ },
+ "010033a": {
+  "tag": "010033a",
+  "visible": "Images/visible/010033.png",
+  "core": "bear",
+  "prompt": "Locate every bear in this image, including the bear in the water pool and bears standing in shadow. Output one <box><x1><y1><x2><y2></box> for EACH bear from left to right.",
+  "queries": [
+   "010033_004"
+  ]
+ },
+ "010033b": {
+  "tag": "010033b",
+  "visible": "Images/visible/010033.png",
+  "core": "bear",
+  "prompt": "How many bears (brown bears and black bears) are in this image? Output one <box><x1><y1><x2><y2></box> for EACH bear from left to right including partially visible ones.",
+  "queries": [
+   "010033_004"
+  ]
+ },
+ "014716a": {
+  "tag": "014716a",
+  "visible": "Images/visible/014716.png",
+  "core": "diamond road marking",
+  "prompt": "Locate every diamond-shaped white road marking painted on the asphalt ground. Output one <box><x1><y1><x2><y2></box> for EACH diamond marking from left to right.",
+  "queries": [
+   "014716_003"
+  ]
+ },
+ "014716b": {
+  "tag": "014716b",
+  "visible": "Images/visible/014716.png",
+  "core": "diamond road sign",
+  "prompt": "Locate every diamond shaped sign lying on the ground (white outlined diamonds painted on the road surface). Output one <box><x1><y1><x2><y2></box> for EACH from left to right.",
+  "queries": [
+   "014716_003"
+  ]
+ },
+ "012826": {
+  "tag": "012826",
+  "visible": "Images/visible/012826.png",
+  "core": "sofa cushion",
+  "prompt": "Locate every individual sofa seat cushion in this image; the sofa has several separate cushions. Output one tight <box><x1><y1><x2><y2></box> for EACH separate cushion from left to right.",
+  "queries": [
+   "012826_001"
+  ]
+ },
+ "016333": {
+  "tag": "016333",
+  "visible": "Images/visible/016333.png",
+  "core": "white pelican",
+  "prompt": "Locate every WHITE pelican in this image. Do not include the black swan swimming in the water. Output one <box><x1><y1><x2><y2></box> for EACH white pelican from left to right.",
+  "queries": [
+   "016333_002"
+  ]
+ }
+}

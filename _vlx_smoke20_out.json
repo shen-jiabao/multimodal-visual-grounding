@@ -1,0 +1,302 @@
+{
+ "000001_001": {
+  "query": "A squatting person",
+  "img": "000001.png",
+  "n_cand": 100,
+  "answer": "<ground>A squatting person</ground><objects><obj22></objects>",
+  "bbox": [
+   0.637131,
+   0.709388,
+   0.671289,
+   0.823461
+  ],
+  "object_index": "<obj22>",
+  "label": "A squatting person",
+  "n_ret": 1
+ },
+ "000001_002": {
+  "query": "The white street light on the left side of the stone steps on the right",
+  "img": "000001.png",
+  "n_cand": 100,
+  "answer": "<ground>The white street light on the left side of the stone steps on the right</ground><objects><obj2></objects>",
+  "bbox": [
+   0.608986,
+   0.182485,
+   0.660676,
+   0.884882
+  ],
+  "object_index": "<obj2>",
+  "label": "The white street light on the left side of the stone steps on the right",
+  "n_ret": 1
+ },
+ "000001_003": {
+  "query": "The second white patio umbrella in the outdoor seating area from left to right",
+  "img": "000001.png",
+  "n_cand": 100,
+  "answer": "<ground>The second white patio umbrella in the outdoor seating area from left to right</ground><objects><obj7></objects>",
+  "bbox": [
+   0.295814,
+   0.53126,
+   0.458007,
+   0.664666
+  ],
+  "object_index": "<obj7>",
+  "label": "The second white patio umbrella in the outdoor seating area from left to right",
+  "n_ret": 1
+ },
+ "000001_004": {
+  "query": "The black circular planter with green shrubs in front of the restaurant",
+  "img": "000001.png",
+  "n_cand": 100,
+  "answer": "<ground>The black circular planter with green shrubs in front of the restaurant</ground><objects><obj1></objects>",
+  "bbox": [
+   0.122222,
+   0.496177,
+   0.227882,
+   0.823883
+  ],
+  "object_index": "<obj1>",
+  "label": "The black circular planter with green shrubs in front of the restaurant",
+  "n_ret": 1
+ },
+ "000001_005": {
+  "query": "The large stone staircase in the foreground",
+  "img": "000001.png",
+  "n_cand": 100,
+  "answer": "<ground>The large stone staircase in the foreground</ground><objects><obj4></objects>",
+  "bbox": [
+   0.723494,
+   0.258124,
+   0.999754,
+   0.886423
+  ],
+  "object_index": "<obj4>",
+  "label": "The large stone staircase in the foreground",
+  "n_ret": 1
+ },
+ "000001_006": {
+  "query": "Three people near the entrance of the commercial building",
+  "img": "000001.png",
+  "n_cand": 100,
+  "answer": "<ground>Three people near the entrance of the commercial building</ground><objects><obj5></objects>",
+  "bbox": [
+   0.593009,
+   0.629465,
+   0.622977,
+   0.795711
+  ],
+  "object_index": "<obj5>",
+  "label": "Three people near the entrance of the commercial building",
+  "n_ret": 1
+ },
+ "000015_001": {
+  "query": "The adult woman closest to the camera, leaning down",
+  "img": "000015.png",
+  "n_cand": 100,
+  "answer": "<ground>The adult woman closest to the camera, leaning down</ground><objects><obj1></objects>",
+  "bbox": [
+   0.089435,
+   0.270256,
+   0.304526,
+   0.805403
+  ],
+  "object_index": "<obj1>",
+  "label": "The adult woman closest to the camera, leaning down",
+  "n_ret": 1
+ },
+ "000015_002": {
+  "query": "A mobile phone in the back pocket of the woman's light blue jeans",
+  "img": "000015.png",
+  "n_cand": 100,
+  "answer": "<ground>A mobile phone in the back pocket of the woman's light blue jeans</ground><objects><obj36></objects>",
+  "bbox": [
+   0.089616,
+   0.693225,
+   0.119848,
+   0.729864
+  ],
+  "object_index": "<obj36>",
+  "label": "A mobile phone in the back pocket of the woman's light blue jeans",
+  "n_ret": 1
+ },
+ "000015_003": {
+  "query": "A man in a blue T-shirt standing beside a stroller",
+  "img": "000015.png",
+  "n_cand": 100,
+  "answer": "<ground>A man in a blue T-shirt standing beside a stroller</ground><objects><obj2></objects>",
+  "bbox": [
+   0.58143,
+   0.0,
+   0.679529,
+   0.341481
+  ],
+  "object_index": "<obj2>",
+  "label": "A man in a blue T-shirt standing beside a stroller",
+  "n_ret": 1
+ },
+ "000015_004": {
+  "query": "Curved concrete steps",
+  "img": "000015.png",
+  "n_cand": 100,
+  "answer": "<ground>Curved concrete steps</ground><objects><obj32></objects>",
+  "bbox": [
+   0.7648,
+   0.137477,
+   0.999928,
+   1.0
+  ],
+  "object_index": "<obj32>",
+  "label": "Curved concrete steps",
+  "n_ret": 1
+ },
+ "000015_005": {
+  "query": "The dark floor tile closest to the camera",
+  "img": "000015.png",
+  "n_cand": 100,
+  "answer": "<ground>The dark floor tile closest to the camera</ground><objects><obj84></objects>",
+  "bbox": [
+   0.608095,
+   0.734199,
+   0.746047,
+   0.962028
+  ],
+  "object_index": "<obj84>",
+  "label": "The dark floor tile closest to the camera",
+  "n_ret": 1
+ },
+ "000085_002": {
+  "query": "The first of three buildings of similar height from left to right",
+  "img": "000085.png",
+  "n_cand": 100,
+  "answer": "<ground>The first of three buildings of similar height from left to right</ground><objects><obj1></objects>",
+  "bbox": [
+   0.475812,
+   0.212279,
+   0.520741,
+   0.345716
+  ],
+  "object_index": "<obj1>",
+  "label": "The first of three buildings of similar height from left to right",
+  "n_ret": 1
+ },
+ "000085_003": {
+  "query": "The second of three buildings of similar height from left to right",
+  "img": "000085.png",
+  "n_cand": 100,
+  "answer": "<ground>The second of three buildings of similar height from left to right</ground><objects><obj2></objects>",
+  "bbox": [
+   0.53843,
+   0.227535,
+   0.58031,
+   0.330406
+  ],
+  "object_index": "<obj2>",
+  "label": "The second of three buildings of similar height from left to right",
+  "n_ret": 1
+ },
+ "000085_004": {
+  "query": "The third of three buildings of similar height from left to right",
+  "img": "000085.png",
+  "n_cand": 100,
+  "answer": "<ground>The third of three buildings of similar height from left to right</ground><objects><obj2></objects>",
+  "bbox": [
+   0.53843,
+   0.227535,
+   0.58031,
+   0.330406
+  ],
+  "object_index": "<obj2>",
+  "label": "The third of three buildings of similar height from left to right",
+  "n_ret": 1
+ },
+ "000113_002": {
+  "query": "From left to right, the first red letter L",
+  "img": "000113.png",
+  "n_cand": 100,
+  "answer": "<ground>From left to right, the first red letter L</ground><objects><obj77></objects>",
+  "bbox": [
+   0.212449,
+   0.556969,
+   0.252545,
+   0.707821
+  ],
+  "object_index": "<obj77>",
+  "label": "From left to right, the first red letter L",
+  "n_ret": 1
+ },
+ "000113_003": {
+  "query": "From left to right, the first red letter O",
+  "img": "000113.png",
+  "n_cand": 100,
+  "answer": "<ground>From left to right, the first red letter O</ground><objects><obj43></objects>",
+  "bbox": [
+   0.268176,
+   0.547876,
+   0.328256,
+   0.703182
+  ],
+  "object_index": "<obj43>",
+  "label": "From left to right, the first red letter O",
+  "n_ret": 1
+ },
+ "000113_004": {
+  "query": "From left to right, the first red letter V",
+  "img": "000113.png",
+  "n_cand": 100,
+  "answer": "<ground>From left to right, the first red letter V</ground><objects><obj67></objects>",
+  "bbox": [
+   0.027558,
+   0.581983,
+   0.057308,
+   0.705064
+  ],
+  "object_index": "<obj67>",
+  "label": "From left to right, the first red letter V",
+  "n_ret": 1
+ },
+ "000113_005": {
+  "query": "From left to right, the first red letter E",
+  "img": "000113.png",
+  "n_cand": 100,
+  "answer": "<ground>From left to right, the first red letter E</ground><objects><obj74></objects>",
+  "bbox": [
+   0.152502,
+   0.565951,
+   0.190139,
+   0.691663
+  ],
+  "object_index": "<obj74>",
+  "label": "From left to right, the first red letter E",
+  "n_ret": 1
+ },
+ "000141_005": {
+  "query": "The white covering on the third electric scooter from left to right below the camera",
+  "img": "000141.png",
+  "n_cand": 100,
+  "answer": "<ground>The white covering on the third electric scooter from left to right below the camera</ground><objects><obj55></objects>",
+  "bbox": [
+   0.339027,
+   0.849737,
+   0.503741,
+   0.999233
+  ],
+  "object_index": "<obj55>",
+  "label": "The white covering on the third electric scooter from left to right below the camera",
+  "n_ret": 1
+ },
+ "000246_006": {
+  "query": "The first double glass entrance doors from the left to right",
+  "img": "000246.png",
+  "n_cand": 100,
+  "answer": "<ground>The first double glass entrance doors from the left to right</ground><objects><obj56></objects>",
+  "bbox": [
+   0.638521,
+   0.686214,
+   0.732801,
+   0.897343
+  ],
+  "object_index": "<obj56>",
+  "label": "The first double glass entrance doors from the left to right",
+  "n_ret": 1
+ }
+}

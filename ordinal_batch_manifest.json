@@ -1,0 +1,79 @@
+{
+ "001773": {
+  "visible": "Images/visible/001773.png",
+  "core": "black paddle",
+  "queries": [
+   {
+    "qid": "001773_005",
+    "rank": 2,
+    "axis": "left_to_right"
+   }
+  ]
+ },
+ "016333": {
+  "visible": "Images/visible/016333.png",
+  "core": "pelican",
+  "queries": [
+   {
+    "qid": "016333_002",
+    "rank": 1,
+    "axis": "right_to_left"
+   }
+  ]
+ },
+ "012826": {
+  "visible": "Images/visible/012826.png",
+  "core": "sofa cushion",
+  "queries": [
+   {
+    "qid": "012826_001",
+    "rank": 1,
+    "axis": "left_to_right"
+   }
+  ]
+ },
+ "014716": {
+  "visible": "Images/visible/014716.png",
+  "core": "road sign",
+  "queries": [
+   {
+    "qid": "014716_003",
+    "rank": 1,
+    "axis": "left_to_right"
+   }
+  ]
+ },
+ "010033": {
+  "visible": "Images/visible/010033.png",
+  "core": "bear",
+  "queries": [
+   {
+    "qid": "010033_004",
+    "rank": 3,
+    "axis": "right_to_left"
+   }
+  ]
+ },
+ "010019": {
+  "visible": "Images/visible/010019.png",
+  "core": "person",
+  "queries": [
+   {
+    "qid": "010019_003",
+    "rank": 5,
+    "axis": "left_to_right"
+   }
+  ]
+ },
+ "016774": {
+  "visible": "Images/visible/016774.png",
+  "core": "person",
+  "queries": [
+   {
+    "qid": "016774_001",
+    "rank": 3,
+    "axis": "left_to_right"
+   }
+  ]
+ }
+}

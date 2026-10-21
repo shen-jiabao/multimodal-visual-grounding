@@ -1,0 +1,127 @@
+技术文档：Qwen3.8-27B 多模态视觉定位推理（2026-10-05 版本）
+  对应提交文件：AIC-2026-14375345-赛题结果文档/result.zip（内部文件名 submission.json）
+  
+  主件推理时间：2026-10-05 02:01:15 – 07:23:51
+1. 任务与方案概述
+本方案面向「基于大模型的多模态视觉理解与推理」赛题：给定同一场景的可见光（visible）、红外（infrared）、深
+度（depth）三模态图像与一条描述目标的英文查询（如  "A  squatting
+person"），模型需输出目标在可见光图像中的归一化边界框 [x1, y1, x2, y2]（取值范围 0~1）。
+方案采用预训练多模态大语言模型 Qwen3.8-27B-Instruct 零样本推理路线：
+   - 不训练、不微调，直接利用大模型已有的视觉 - 语言对齐能力完成开放词汇目标定位；
+   -  三模态图像以分图（split）方式组织为多模态输入，配合数据预处理的多模态协同策略提升低光  /
+红外场景鲁棒性；
+   - 模型以 multi_box 模式一次生成多个候选框，经解析与后处理输出每查询一个归一化 bbox；
+   - 推理结果再经多产物共识投票后处理（§3.5）消除单次解码的系统性偏差，提升定位一致性。
+2. 数据集
+本方案仅使用赛事官方提供的测试集进行推理，未使用任何外部训练数据（零样本推理，无训练环节）。
+项目 内容
+图像规模 1295 张场景图像（三模态各一份）
+查询规模 5690 条查询（多查询 / 图）
+模态 visible / infrared / depth（depth 为深度图）
+输入 三模态图像路径 + queries.json
+输出 Query ID → {visible, infrared, depth, query, bbox}
+3. 技术方案
+3.1 模型
+属性 取值
+模型 Qwen3.8-27B-Instruct（ModelScope Qwen/Qwen3.8-27B）
+参数量 27.78B
+精度 bfloat16
+权重 Safetensors 18 分片，约 54GB
+加载 AutoModelForImageTextToText + AutoProcessor
+3.2 多模态输入与预处理（src/data/）
+   - RGB 归一化：uint8 → float32 / 255.0；
+   - 红外去噪：红外三通道视觉特征高度一致，转灰度后中值滤波去除椒盐噪声，再恢复三通道；
+   - 深度离群剔除：深度值超出有效范围（0 ~ 19999 毫米）视为无效并剔除；
+   -  低光多模态协同：可见光亮度低于阈值（low_light_threshold:  60）时，以门控融合引入红外  /
+- 1 -
+深度特征增强可见光；
+   -  输入组织：multimodal_input_mode:  "split"  ——  可见光  /  红外  /
+深度分图送入视觉编码器，保持三模态空间对齐。
+3.3 推理（src/inference/、src/models/qwen3_vl.py）
+   -  模式：multi_box（单图一次生成多个检测框），enable_thinking:
+false（关闭思维链以提速），max_new_tokens: 1024；
+   -  视觉特征缓存：feature_cache:  true、cache_max_entries:  4  ——
+同一图像的多条查询共享视觉特征，显著减少重复前向计算；
+   - 文本 - 检测框匹配：解析模型输出坐标 → matcher 做文本标签与检测框匹配 → bbox 归一化；
+   - 未启用项：序数链约束 chain_enforce: "off"、深度先验 enable_depth_prior: false。
+3.4 后处理与提交格式（src/postprocess/、make_sub.py）
+   - bbox 归一化到 [0,1]，坐标 round 至 4 位小数；
+   - 非法 / 缺失输出回退到占位框 [0.49, 0.49, 0.51, 0.51]；
+   -  每查询条目附原始三模态路径与查询文本，形成  submission.json；zip  压缩（内部文件名
+submission.json）供平台提交。
+3.5 多产物共识投票后处理（scripts/consensus_vote.py）
+问题：单次解码得到的主件，在其与其它解码结果不一致的位置上存在系统性偏差；此类位置占比不高，且单一模型无
+法自证孰是孰非。
+办法：引入多产物共识投票。
+   -  以主件与参照件（另一套解码结果）的真分歧位（两框互  IoU  <
+0.5，即两套结果指向不同区域）为候选改动面；两框互 IoU ≥ 0.5 的同侧位置不构成有效改动，一律跳过；
+   - 对每个候选位，由 32 套产物逐个判定其更接近主件还是参照件，分别累计两侧票数；
+   - 仅当「主件零票、参照件满票」时采纳参照件框，其余候选位一律保持主件。
+阈值确定：由投票一致性原理确定  ——
+只有当主件在候选位上未获得任何支持票、参照件获得全体支持票时，才判定该分歧源自主件的单侧偏差，此时采纳参
+照件；一旦出现任何异见票，说明该分歧存在非单侧成因，一律保持主件不动。该策略保证每一处改动均由全体产物的
+一致意见支撑，不引入低置信扰动。
+实现：scripts/consensus_vote.py，投票池  consensus_pool.json.gz（32
+套产物的坐标，随包分发以保证离线复现）；输出 zip 固定时间戳，同输入必得同 SHA256。
+效果：本次共修正 59 处（占 5690 条的 1.04%），其余 5631 条保持主件；全程由管线自动产出，结果可逐条复算。
+4. 运行配置（configs/server_32b.yaml 关键项）
+data:
+  root: "/root/autodl-tmp/work"            # 测试集根目录（Images/ + queries.json）
+model:
+  type: "qwen3_vl"
+  name_or_path: "/root/autodl-tmp/models/Qwen3.8-27B"
+  device: "cuda:0"
+  use_half_precision: true
+  box_threshold: 0.20
+  text_threshold: 0.15
+inference:
+  max_queries_per_prompt: 20
+  enable_multimodal_fusion: true
+  low_light_threshold: 60
+- 2 -
+  fusion_mode: "low_light"
+  multimodal_input_mode: "split"
+  enable_depth_prior: false
+  chain_enforce: "off"
+  diag_dump: false
+qwen:
+  output_mode: "multi_box"
+  max_new_tokens: 1024
+  enable_thinking: false
+  feature_cache: true
+  cache_max_entries: 4
+postprocess:
+  fallback_bbox: [0.49, 0.49, 0.51, 0.51]
+5. 运行结果（2026-10-05 实跑记录）
+阶段 时间 说明
+启动 02:01:15 载入 1295 张图像 / 5690 条查询
+模型加载 02:01:26 bfloat16 + multi_box + 视觉缓存就绪
+首批进度 02:06:42 20/1295
+末批进度 07:21:14 1280/1295
+完成 07:23:51 5690 条预测，用时 19356.8 秒（约 5.38 小时）
+结果落盘 07:23:51 predictions_27b.json
+提交生成 — consensus_vote.py → result.zip（修正 59 处）
+质量校验：
+   - 5690 / 5690 条预测齐全，无缺漏；
+   - 全部 bbox 为合法归一化坐标 [x1,y1,x2,y2]（0~1），无越界；
+   - 提交件四项硬约束校验通过（条数 / 键集 / 字段回显 / bbox 合法性）；
+   - 同一配置下多次独立全量推理之间存在约 11% 的逐条浮点 / 采样级差异，属正常解码波动。
+6. 环境与复现
+依赖 版本 / 要求
+GPU 显存 ≥ 60GB（实测 RTX PRO 6000 Blackwell 96GB）
+系统 Linux（Ubuntu），磁盘 ≥ 100GB
+Python 3.12
+CUDA 12.4
+关键依赖：torch≥2.6、transformers≥5.18.0、accelerate、opencv-python、Pillow、numpy、PyYAML、tqdm（详见
+requirements.txt）。
+复现步骤（完整版见 code27b/README.md）：
+pip install -r requirements.txt
+# 下载模型：modelscope snapshot_download('Qwen/Qwen3.8-27B', cache_dir='./models')
+# 放置测试集：data.root 下 Images/visible|infrared|depth + queries.json
+python scripts/infer.py --config configs/server_32b.yaml
+python scripts/consensus_vote.py                   # 共识投票后处理，产出 result.zip
+- 3 -
+7. 版本说明
+本技术文档对应  2026-10-05  运行的提交版本：主件为  predictions_27b.json（5690
+条），在其上施加多产物共识投票后处理（§3.5，共 59 处修正），得到最终提交件 result.zip。
+- 4 -

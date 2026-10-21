@@ -1,0 +1,103 @@
+{
+ "P1_all_l2r": {
+  "prompt": "Locate ALL stone piers in this image. Output EVERY stone pier as a separate box in the format <box><x1><y1><x2><y2></box>, ordered from left to right. Include stone piers that are partially cut off by the image edge.",
+  "raw": "<ref>stone piers as a separate box in the format <1><y1><x2><y2></ref><box>None</box><|im_end|>",
+  "boxes": []
+ },
+ "P2_every_enum": {
+  "prompt": "List every spherical stone bollard (stone pier) visible in the image, one box each. Enumerate them from the far left to the far right and output a <box><x1><y1><x2><y2></box> for each, including partial ones at the border.",
+  "raw": "<ref>stone pier) visible in the image, one box each. Enumerate them from the far left to the far right and</ref><box><0><816><18><891></box><box><35><801><75><877></box><box><85><788><123><862></box><box><137><776><173><848></box><|im_end|>",
+  "boxes": [
+   [
+    0.0,
+    0.816,
+    0.018,
+    0.891
+   ],
+   [
+    0.035,
+    0.801,
+    0.075,
+    0.877
+   ],
+   [
+    0.085,
+    0.788,
+    0.123,
+    0.862
+   ],
+   [
+    0.137,
+    0.776,
+    0.173,
+    0.848
+   ]
+  ]
+ },
+ "P3_count_then_box": {
+  "prompt": "How many stone piers are there in this image? First state the count, then output one <box><x1><y1><x2><y2></box> for each stone pier from left to right, including any partially visible at the edge.",
+  "raw": "<ref>stone piers are there in this image</ref><box><0><816><17><891></box><box><35><801><75><877></box><box><85><788><123><862></box><box><136><776><173><848></box><box><186><760><219><830></box><ref><x1><y1><x2><y2></ref><box><0><817><17><891></box><ref>for each stone pier from left to right, including any partially visible at the edge</ref><box><35><801><75><877></box><box><85><788><123><862></box><box><136><776><173><848></box><box><186><760><219><830></box><|im_end|>",
+  "boxes": [
+   [
+    0.0,
+    0.816,
+    0.017,
+    0.891
+   ],
+   [
+    0.035,
+    0.801,
+    0.075,
+    0.877
+   ],
+   [
+    0.085,
+    0.788,
+    0.123,
+    0.862
+   ],
+   [
+    0.136,
+    0.776,
+    0.173,
+    0.848
+   ],
+   [
+    0.186,
+    0.76,
+    0.219,
+    0.83
+   ],
+   [
+    0.0,
+    0.817,
+    0.017,
+    0.891
+   ],
+   [
+    0.035,
+    0.801,
+    0.075,
+    0.877
+   ],
+   [
+    0.085,
+    0.788,
+    0.123,
+    0.862
+   ],
+   [
+    0.136,
+    0.776,
+    0.173,
+    0.848
+   ],
+   [
+    0.186,
+    0.76,
+    0.219,
+    0.83
+   ]
+  ]
+ }
+}

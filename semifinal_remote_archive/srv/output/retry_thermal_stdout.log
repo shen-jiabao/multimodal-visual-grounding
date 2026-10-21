@@ -1,0 +1,38 @@
+待补 164 条 | 输出 /srv/output/retry_thermal.json | alt_only=True
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.09it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.07it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.07it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.26it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.18it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[5/164] 本轮 5/164 出框 4 用时 0.2min ETA 6.9min
+[10/164] 本轮 10/164 出框 9 用时 0.5min ETA 7.1min
+[15/164] 本轮 15/164 出框 13 用时 0.7min ETA 7.0min
+[20/164] 本轮 20/164 出框 18 用时 0.9min ETA 6.8min
+[25/164] 本轮 25/164 出框 22 用时 1.1min ETA 6.4min
+[30/164] 本轮 30/164 出框 27 用时 1.4min ETA 6.4min
+[35/164] 本轮 35/164 出框 32 用时 1.7min ETA 6.2min
+[40/164] 本轮 40/164 出框 37 用时 2.0min ETA 6.1min
+[45/164] 本轮 45/164 出框 42 用时 2.2min ETA 5.9min
+[50/164] 本轮 50/164 出框 47 用时 2.5min ETA 5.7min
+[55/164] 本轮 55/164 出框 52 用时 2.7min ETA 5.4min
+[60/164] 本轮 60/164 出框 57 用时 3.0min ETA 5.1min
+[65/164] 本轮 65/164 出框 62 用时 3.2min ETA 4.9min
+[70/164] 本轮 70/164 出框 67 用时 3.4min ETA 4.6min
+[75/164] 本轮 75/164 出框 72 用时 3.7min ETA 4.3min
+[80/164] 本轮 80/164 出框 77 用时 3.9min ETA 4.1min
+[85/164] 本轮 85/164 出框 82 用时 4.1min ETA 3.8min
+[90/164] 本轮 90/164 出框 87 用时 4.4min ETA 3.6min
+[95/164] 本轮 95/164 出框 92 用时 4.6min ETA 3.3min
+[100/164] 本轮 100/164 出框 97 用时 4.8min ETA 3.1min
+[105/164] 本轮 105/164 出框 102 用时 5.1min ETA 2.9min
+[110/164] 本轮 110/164 出框 107 用时 5.3min ETA 2.6min
+[115/164] 本轮 115/164 出框 111 用时 5.5min ETA 2.4min
+[120/164] 本轮 120/164 出框 116 用时 5.8min ETA 2.1min
+[125/164] 本轮 125/164 出框 121 用时 6.0min ETA 1.9min
+[130/164] 本轮 130/164 出框 126 用时 6.3min ETA 1.6min
+[135/164] 本轮 135/164 出框 131 用时 6.5min ETA 1.4min
+[140/164] 本轮 140/164 出框 136 用时 6.8min ETA 1.2min
+[145/164] 本轮 145/164 出框 141 用时 7.0min ETA 0.9min
+[150/164] 本轮 150/164 出框 146 用时 7.3min ETA 0.7min
+[155/164] 本轮 155/164 出框 151 用时 7.5min ETA 0.4min
+[160/164] 本轮 160/164 出框 156 用时 7.7min ETA 0.2min
+[164/164] 本轮 164/164 出框 160 用时 7.9min ETA 0.0min
+
+完成 164 条 | 出框 160 | 仍无框 4

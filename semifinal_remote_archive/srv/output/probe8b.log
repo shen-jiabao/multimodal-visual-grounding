@@ -1,0 +1,35 @@
+远端图 116 张，可完整读取 112 张
+探针条目 30 条（direct+序数），图 11 张
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.06it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.06it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.05it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.24it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.16it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[1/30] 000001_001 000001.png direct=[0.636, 0.722, 0.672, 0.823] n_cands=None num=None (3s)
+[2/30] 000001_002 000001.png direct=[0.605, 0.183, 0.661, 0.874] n_cands=None num=None (6s)
+[3/30] 000001_004 000001.png direct=[0.141, 0.692, 0.203, 0.823] n_cands=None num=None (8s)
+[4/30] 000001_005 000001.png direct=[0.725, 0.262, 1.0, 0.885] n_cands=None num=None (11s)
+[5/30] 000001_006 000001.png direct=[0.592, 0.625, 0.624, 0.797] n_cands=None num=None (16s)
+[6/30] 000015_001 000015.png direct=[0.089, 0.274, 0.306, 0.803] n_cands=None num=None (19s)
+[7/30] 000015_002 000015.png direct=[0.089, 0.688, 0.126, 0.727] n_cands=None num=None (22s)
+[8/30] 000015_003 000015.png direct=[0.581, 0.0, 0.681, 0.34] n_cands=None num=None (24s)
+[9/30] 000015_004 000015.png direct=[0.764, 0.182, 1.0, 0.997] n_cands=None num=None (27s)
+[10/30] 000015_005 000015.png direct=[0.535, 0.342, 0.75, 1.0] n_cands=None num=None (29s)
+[11/30] 000022_001 000022.png direct=[0.373, 0.183, 0.405, 0.26] n_cands=None num=None (32s)
+[12/30] 000022_002 000022.png direct=[0.878, 0.576, 0.937, 0.728] n_cands=None num=None (35s)
+[13/30] 000022_003 000022.png direct=[0.043, 0.573, 0.062, 0.763] n_cands=None num=None (37s)
+[14/30] 000022_004 000022.png direct=[0.498, 0.902, 1.0, 1.0] n_cands=None num=None (39s)
+[15/30] 000022_005 000022.png direct=[0.123, 0.693, 0.198, 0.724] n_cands=None num=None (42s)
+[16/30] 000001_003 000001.png direct=[0.296, 0.533, 0.457, 0.605] n_cands=2 num=2 (49s)
+[17/30] 000085_002 000085.png direct=[0.0, 0.133, 0.088, 0.29] n_cands=3 num=1 (58s)
+[18/30] 000085_003 000085.png direct=[0.476, 0.213, 0.522, 0.346] n_cands=3 num=2 (66s)
+[19/30] 000085_004 000085.png direct=[0.476, 0.213, 0.522, 0.347] n_cands=3 num=3 (75s)
+[20/30] 000113_002 000113.png direct=[0.212, 0.553, 0.25, 0.703] n_cands=3 num=1 (83s)
+[21/30] 000113_003 000113.png direct=[0.057, 0.575, 0.1, 0.7] n_cands=1 num=None (88s)
+[22/30] 000113_004 000113.png direct=[0.037, 0.578, 0.1, 0.7] n_cands=1 num=None (93s)
+[23/30] 000113_005 000113.png direct=[0.15, 0.562, 0.194, 0.693] n_cands=3 num=1 (101s)
+[24/30] 000141_005 000141.png direct=[0.341, 0.85, 0.507, 1.0] n_cands=8 num=3 (117s)
+[25/30] 000246_006 000246.png direct=[0.639, 0.683, 0.73, 0.9] n_cands=1 num=None (122s)
+[26/30] 000281_001 000281.png direct=[0.133, 0.357, 0.273, 0.532] n_cands=3 num=2 (130s)
+[27/30] 000281_003 000281.png direct=[0.59, 0.357, 0.697, 0.517] n_cands=3 num=2 (139s)
+[28/30] 000393_003 000393.png direct=[0.444, 0.261, 0.543, 0.523] n_cands=4 num=2 (149s)
+[29/30] 000512_004 000512.png direct=[0.443, 0.851, 0.467, 0.893] n_cands=11 num=5 (169s)
+[30/30] 000624_003 000624.png direct=[0.054, 0.87, 0.098, 0.912] n_cands=15 num=7 (193s)
+已存 /srv/output/probe_8b.json；总耗时 193s；条目 30

@@ -1,0 +1,6 @@
+GPU: NVIDIA RTX PRO 6000 Blackwell Server Edition, 97887 MiB
+Driver: 580.95.05
+Python: Python 3.12.3
+torch 2.8.0+cu128 | cuda 12.8
+transformers 5.18.0
+model dir: /root/autodl-tmp/models/Qwen3.8-27B (ModelScope: Qwen/Qwen3.8-27B)

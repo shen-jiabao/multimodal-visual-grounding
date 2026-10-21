@@ -1,0 +1,39 @@
+# 关服状态清单   Tue Sep 29 06:00:05 Asia 2026
+
+## 1) 在跑进程（应只剩 vLLM 服务本体）
+  ✓ 无管线在跑
+  vLLM: PID=643
+
+## 2) GPU
+  NVIDIA A100-SXM4-40GB, 0 %, 37785 MiB, 40960 MiB
+
+## 3) 磁盘
+  /dev/mapper/lvmdata-pvc--dddc292b--73e4--4966--809d--b6e547e3ba9a   49G   35G   15G  71% /root/rivermind-data
+
+## 4) 关键文件哈希
+  9afe1dc8c6b11949d9e9028216b432bcca2b852750cd30875af87f169e64bf0f  _qwen_full_pipeline.py
+  07b7357b16df046fed37c89064fc380a3df63890e89755697d95641ed7d3da1b  _d_scope.json
+  7ea02172e37eabad01ed250810e5b2523027306b01295c7dafde0517d8e3851e  _d_sample300.json
+  cfba587d75ae3fb53cd64bfcc5e684eb81369c6b67aea022f4d7b945daeb80c2  _ordinal_cores_v3.json
+  b8e2f9e24fb24594cb316a4565e90cf5fb1793798fe35c46c56d4354dae98522  output/qwen32b_direct.json
+  8b9456d62f0a4225e05e3fd8253d1831b7279ea2fab98e6ba4bb6fc2c8238526  output/qwen32b_direct_ord.json
+  (不存在)                                                      output/qwen32b_som_scoped.json
+  50370bd329ba876363572e0ac21fad460bc1dd6e3a3b35e2b8ca73dbba0ef39d  output/qwen32b_d3_full.json
+  06390ccf12be44b1cc98886544089cd1ba1c52f15969bbd437450dbe9d0d3890  output/qwen32b_d3_sample.json
+
+## 5) 远端脚本目录
+  _d_run_full.sh
+  _qwen_full_pipeline.py
+
+## 6) 日志
+  d_full_run.log
+  d_sample_resume.log
+  d_sample_run.log
+  dl_model.log
+  dl_outer.log
+  install_outer.log
+  qwen32b_ord_direct.log
+  qwen32b_run.log
+  qwen32b_som_run.log
+  qwen32b_som_run2.log
+  vllm_serve.log

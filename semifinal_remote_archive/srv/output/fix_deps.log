@@ -1,0 +1,73 @@
+=== [Tue Sep 22 15:23:26 CST 2026] 扫描 remote code 依赖 ===
+== 1) remote code 里出现的第三方模块 ==
+  第三方候选: ['PIL', 'batch_utils', 'cv2', 'decord', 'flash_attn', 'kernel_utils', 'lmdb', 'magi_attention', 'numpy', 'packaging', 'peft', 'requests', 'torch', 'torchvision', 'transformers', 'triton']
+
+== 2) 在 venv 里逐个试 import，列出缺失 ==
+  OK      PIL
+  MISSING batch_utils  (ModuleNotFoundError)
+  OK      cv2
+  OK      decord
+  MISSING flash_attn  (ModuleNotFoundError)
+  MISSING kernel_utils  (ModuleNotFoundError)
+  OK      lmdb
+  MISSING magi_attention  (ModuleNotFoundError)
+  OK      numpy
+  OK      packaging
+  MISSING peft  (ModuleNotFoundError)
+  OK      requests
+  OK      torch
+  OK      torchvision
+  OK      transformers
+  OK      triton
+
+== 3) 安装缺失项（官方 PyPI）==
+  将安装: batch_utils flash_attn kernel_utils magi_attention peft
+  PIP_RC=1
+ERROR: Could not find a version that satisfies the requirement batch_utils (from versions: none)
+
+[notice] A new release of pip is available: 25.1.1 -> 26.2.1
+[notice] To update, run: /srv/venv-la2/bin/python -m pip install --upgrade pip
+ERROR: No matching distribution found for batch_utils
+
+== 4) 复检 ==
+  仍缺失: [('batch_utils', 'ModuleNotFoundError'), ('flash_attn', 'ModuleNotFoundError'), ('kernel_utils', 'ModuleNotFoundError'), ('magi_attention', 'ModuleNotFoundError'), ('peft', 'ModuleNotFoundError')]
+
+== 5) 重跑复赛小样探针 ==
+== 1) 构造小样（12 图，direct 与序数混合）==
+  图 12 | 问句 80 (direct 60 / 序数 20)
+
+== 2) 跑探针（隔离 venv）==
+Traceback (most recent call last):
+  File "/root/_probe_locale.py", line 141, in <module>
+    main()
+    ~~~~^^
+  File "/root/_probe_locale.py", line 51, in main
+    model = AutoModel.from_pretrained(
+            ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        MODEL_PATH, config=config, torch_dtype=torch.bfloat16,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        trust_remote_code=True
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ).to(device).eval()
+    ^
+  File "/root/miniconda3/envs/myconda/lib/python3.13/site-packages/transformers/models/auto/auto_factory.py", line 586, in from_pretrained
+    model_class = get_class_from_dynamic_module(
+        class_ref, pretrained_model_name_or_path, code_revision=code_revision, **hub_kwargs, **kwargs
+    )
+  File "/root/miniconda3/envs/myconda/lib/python3.13/site-packages/transformers/dynamic_module_utils.py", line 604, in get_class_from_dynamic_module
+    final_module = get_cached_module_file(
+        repo_id,
+    ...<8 lines>...
+        repo_type=repo_type,
+    )
+  File "/root/miniconda3/envs/myconda/lib/python3.13/site-packages/transformers/dynamic_module_utils.py", line 427, in get_cached_module_file
+    modules_needed = check_imports(resolved_module_file)
+  File "/root/miniconda3/envs/myconda/lib/python3.13/site-packages/transformers/dynamic_module_utils.py", line 260, in check_imports
+    raise ImportError(
+    ...<2 lines>...
+    )
+ImportError: This modeling file requires the following packages that were not found in your environment: peft. Run `pip install peft`
+
+== 3) 显存 ==
+17881 MiB, 49140 MiB, 79 %
+=== [Tue Sep 22 15:23:42 CST 2026] 结束 ===

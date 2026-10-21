@@ -1,0 +1,16 @@
+图 1295，问句 5690，序数 1103
+[pipe] 模态=3 作用范围=300 条 提示词=三图
+已完成 direct=290 som=0
+[pipe] 引擎 api32b → http://127.0.0.1:8000/v1 model=qwen3-vl-32b 并发=8 仅非序数=True 阶段=A
+待处理图 9
+[1/9] 004005.jpg direct=291 som=0 已用0.00h ETA0.0h
+[2/9] 004019.jpg direct=292 som=0 已用0.00h ETA0.0h
+[3/9] 004026.jpg direct=293 som=0 已用0.00h ETA0.0h
+[4/9] 004131.jpg direct=295 som=0 已用0.00h ETA0.0h
+[5/9] 004180.jpg direct=296 som=0 已用0.00h ETA0.0h
+[6/9] 004187.jpg direct=297 som=0 已用0.00h ETA0.0h
+[7/9] 004313.jpg direct=298 som=0 已用0.00h ETA0.0h
+[8/9] 004369.jpg direct=299 som=0 已用0.00h ETA0.0h
+[9/9] 004488.jpg direct=300 som=0 已用0.00h ETA0.0h
+
+完成 direct 300(有框287) som 0(有框0)

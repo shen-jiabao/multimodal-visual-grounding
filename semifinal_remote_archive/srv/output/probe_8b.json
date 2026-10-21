@@ -1,0 +1,950 @@
+{
+ "000001_001": {
+  "query": "A squatting person",
+  "img": "000001.png",
+  "direct_bbox": [
+   0.636,
+   0.722,
+   0.672,
+   0.823
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "```json\n[\n\t{\"bbox_2d\": [636, 722, 672, 823], \"label\": \"A squatting person\"}\n]\n```",
+  "direct_s": 2.77
+ },
+ "000001_002": {
+  "query": "The white street light on the left side of the stone steps on the right",
+  "img": "000001.png",
+  "direct_bbox": [
+   0.605,
+   0.183,
+   0.661,
+   0.874
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "```json\n[\n\t{\"bbox_2d\": [605, 183, 661, 874], \"label\": \"The white street light on the left side of the stone steps on the right\"}\n]\n```",
+  "direct_s": 2.75
+ },
+ "000001_004": {
+  "query": "The black circular planter with green shrubs in front of the restaurant",
+  "img": "000001.png",
+  "direct_bbox": [
+   0.141,
+   0.692,
+   0.203,
+   0.823
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "```json\n[\n\t{\"bbox_2d\": [141, 692, 203, 823], \"label\": \"The black circular planter with green shrubs in front of the restaurant\"}\n]\n```",
+  "direct_s": 2.7
+ },
+ "000001_005": {
+  "query": "The large stone staircase in the foreground",
+  "img": "000001.png",
+  "direct_bbox": [
+   0.725,
+   0.262,
+   1.0,
+   0.885
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "[{\"bbox_2d\": [725, 262, 1000, 885], \"label\": \"The large stone staircase in the foreground\"}]",
+  "direct_s": 2.26
+ },
+ "000001_006": {
+  "query": "Three people near the entrance of the commercial building",
+  "img": "000001.png",
+  "direct_bbox": [
+   0.592,
+   0.625,
+   0.624,
+   0.797
+  ],
+  "direct_nbox": 3,
+  "direct_raw": "```json\n[\n\t{\"bbox_2d\": [592, 625, 624, 797], \"label\": \"Three people near the entrance of the commercial building\"},\n\t{\"bbox_2d\": [633, 615, 670, 748], \"label\": \"Three people near the entrance of the c",
+  "direct_s": 5.75
+ },
+ "000015_001": {
+  "query": "The adult woman closest to the camera, leaning down",
+  "img": "000015.png",
+  "direct_bbox": [
+   0.089,
+   0.274,
+   0.306,
+   0.803
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "```json\n[\n\t{\"bbox_2d\": [89, 274, 306, 803], \"label\": \"The adult woman closest to the camera, leaning down\"}\n]\n```",
+  "direct_s": 2.51
+ },
+ "000015_002": {
+  "query": "A mobile phone in the back pocket of the woman's light blue jeans",
+  "img": "000015.png",
+  "direct_bbox": [
+   0.089,
+   0.688,
+   0.126,
+   0.727
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "```json\n[\n\t{\"bbox_2d\": [89, 688, 126, 727], \"label\": \"A mobile phone in the back pocket of the woman's light blue jeans\"}\n]\n```",
+  "direct_s": 2.68
+ },
+ "000015_003": {
+  "query": "A man in a blue T-shirt standing beside a stroller",
+  "img": "000015.png",
+  "direct_bbox": [
+   0.581,
+   0.0,
+   0.681,
+   0.34
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "```json\n[\n\t{\"bbox_2d\": [581, 0, 681, 340], \"label\": \"A man in a blue T-shirt standing beside a stroller\"}\n]\n```",
+  "direct_s": 2.65
+ },
+ "000015_004": {
+  "query": "Curved concrete steps",
+  "img": "000015.png",
+  "direct_bbox": [
+   0.764,
+   0.182,
+   1.0,
+   0.997
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "```json\n[\n\t{\"bbox_2d\": [764, 182, 1000, 997], \"label\": \"Curved concrete steps\"}\n]\n```",
+  "direct_s": 2.34
+ },
+ "000015_005": {
+  "query": "The dark floor tile closest to the camera",
+  "img": "000015.png",
+  "direct_bbox": [
+   0.535,
+   0.342,
+   0.75,
+   1.0
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "```json\n[\n\t{\"bbox_2d\": [535, 342, 750, 1000], \"label\": \"The dark floor tile closest to the camera\"}\n]\n```",
+  "direct_s": 2.52
+ },
+ "000022_001": {
+  "query": "The text 'INGYM' visible on the glass windows of the building.",
+  "img": "000022.png",
+  "direct_bbox": [
+   0.373,
+   0.183,
+   0.405,
+   0.26
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "```json\n[\n\t{\"bbox_2d\": [373, 183, 405, 260], \"label\": \"The text 'INGYM' visible on the glass windows of the building.\"}\n]\n```",
+  "direct_s": 2.76
+ },
+ "000022_002": {
+  "query": "A person wearing a white shirt sitting at an outdoor table in a Starbucks store.",
+  "img": "000022.png",
+  "direct_bbox": [
+   0.878,
+   0.576,
+   0.937,
+   0.728
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "```json\n[\n\t{\"bbox_2d\": [878, 576, 937, 728], \"label\": \"A person wearing a white shirt sitting at an outdoor table in a Starbucks store.\"}\n]\n```",
+  "direct_s": 2.79
+ },
+ "000022_003": {
+  "query": "The white and brown alternating pillar on the far left",
+  "img": "000022.png",
+  "direct_bbox": [
+   0.043,
+   0.573,
+   0.062,
+   0.763
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "```json\n[\n\t{\"bbox_2d\": [43, 573, 62, 763], \"label\": \"The white and brown alternating pillar on the far left\"}\n]\n```",
+  "direct_s": 2.48
+ },
+ "000022_004": {
+  "query": "A speed bump",
+  "img": "000022.png",
+  "direct_bbox": [
+   0.498,
+   0.902,
+   1.0,
+   1.0
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "```json\n[\n\t{\"bbox_2d\": [498, 902, 1000, 1000], \"label\": \"speed bump\"}\n]\n```",
+  "direct_s": 2.32
+ },
+ "000022_005": {
+  "query": "The black sedan in the distance",
+  "img": "000022.png",
+  "direct_bbox": [
+   0.123,
+   0.693,
+   0.198,
+   0.724
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "```json\n[\n\t{\"bbox_2d\": [123, 693, 198, 724], \"label\": \"The black sedan in the distance\"}\n]\n```",
+  "direct_s": 2.41
+ },
+ "000001_003": {
+  "query": "The second white patio umbrella in the outdoor seating area from left to right",
+  "img": "000001.png",
+  "direct_bbox": [
+   0.296,
+   0.533,
+   0.457,
+   0.605
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "```json\n[\n\t{\"bbox_2d\": [296, 533, 457, 605], \"label\": \"The second white patio umbrella in the outdoor seating area from left to right\"}\n]\n```",
+  "direct_s": 2.81,
+  "core": "white patio umbrella in the",
+  "n_cands": 2,
+  "cands": [
+   [
+    0.059,
+    0.455,
+    0.312,
+    0.572
+   ],
+   [
+    0.296,
+    0.533,
+    0.456,
+    0.602
+   ]
+  ],
+  "sel_num": 2,
+  "sel_raw": "2",
+  "som_bbox": [
+   0.296,
+   0.533,
+   0.456,
+   0.602
+  ],
+  "som_s": 4.46
+ },
+ "000085_002": {
+  "query": "The first of three buildings of similar height from left to right",
+  "img": "000085.png",
+  "direct_bbox": [
+   0.0,
+   0.133,
+   0.088,
+   0.29
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "```json\n[\n\t{\"bbox_2d\": [0, 133, 88, 290], \"label\": \"The first of three buildings of similar height from left to right\"}\n]\n```",
+  "direct_s": 2.51,
+  "core": "of three buildings of similar",
+  "n_cands": 3,
+  "cands": [
+   [
+    0.475,
+    0.212,
+    0.522,
+    0.346
+   ],
+   [
+    0.539,
+    0.226,
+    0.582,
+    0.333
+   ],
+   [
+    0.596,
+    0.238,
+    0.637,
+    0.333
+   ]
+  ],
+  "sel_num": 1,
+  "sel_raw": "1",
+  "som_bbox": [
+   0.475,
+   0.212,
+   0.522,
+   0.346
+  ],
+  "som_s": 6.02
+ },
+ "000085_003": {
+  "query": "The second of three buildings of similar height from left to right",
+  "img": "000085.png",
+  "direct_bbox": [
+   0.476,
+   0.213,
+   0.522,
+   0.346
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "```json\n[\n\t{\"bbox_2d\": [476, 213, 522, 346], \"label\": \"The second of three buildings of similar height from left to right\"}\n]\n```",
+  "direct_s": 2.63,
+  "core": "of three buildings of similar",
+  "n_cands": 3,
+  "cands": [
+   [
+    0.475,
+    0.212,
+    0.522,
+    0.346
+   ],
+   [
+    0.539,
+    0.226,
+    0.582,
+    0.333
+   ],
+   [
+    0.596,
+    0.238,
+    0.637,
+    0.333
+   ]
+  ],
+  "sel_num": 2,
+  "sel_raw": "2",
+  "som_bbox": [
+   0.539,
+   0.226,
+   0.582,
+   0.333
+  ],
+  "som_s": 5.97
+ },
+ "000085_004": {
+  "query": "The third of three buildings of similar height from left to right",
+  "img": "000085.png",
+  "direct_bbox": [
+   0.476,
+   0.213,
+   0.522,
+   0.347
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "```json\n[\n\t{\"bbox_2d\": [476, 213, 522, 347], \"label\": \"The third of three buildings of similar height from left to right\"}\n]\n```",
+  "direct_s": 2.65,
+  "core": "of three buildings of similar",
+  "n_cands": 3,
+  "cands": [
+   [
+    0.475,
+    0.212,
+    0.522,
+    0.346
+   ],
+   [
+    0.539,
+    0.226,
+    0.582,
+    0.333
+   ],
+   [
+    0.596,
+    0.238,
+    0.637,
+    0.333
+   ]
+  ],
+  "sel_num": 3,
+  "sel_raw": "3",
+  "som_bbox": [
+   0.596,
+   0.238,
+   0.637,
+   0.333
+  ],
+  "som_s": 5.98
+ },
+ "000113_002": {
+  "query": "From left to right, the first red letter L",
+  "img": "000113.png",
+  "direct_bbox": [
+   0.212,
+   0.553,
+   0.25,
+   0.703
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "```json\n[\n\t{\"bbox_2d\": [212, 553, 250, 703], \"label\": \"From left to right, the first red letter L\"}\n]\n```",
+  "direct_s": 2.56,
+  "core": "red letter L",
+  "n_cands": 3,
+  "cands": [
+   [
+    0.212,
+    0.555,
+    0.25,
+    0.702
+   ],
+   [
+    0.453,
+    0.515,
+    0.523,
+    0.712
+   ],
+   [
+    0.586,
+    0.505,
+    0.684,
+    0.723
+   ]
+  ],
+  "sel_num": 1,
+  "sel_raw": "1",
+  "som_bbox": [
+   0.212,
+   0.555,
+   0.25,
+   0.702
+  ],
+  "som_s": 5.83
+ },
+ "000113_003": {
+  "query": "From left to right, the first red letter O",
+  "img": "000113.png",
+  "direct_bbox": [
+   0.057,
+   0.575,
+   0.1,
+   0.7
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "```json\n[\n\t{\"bbox_2d\": [57, 575, 100, 700], \"label\": \"From left to right, the first red letter O\"}\n]\n```",
+  "direct_s": 2.54,
+  "core": "red letter O",
+  "n_cands": 1,
+  "cands": [
+   [
+    0.268,
+    0.547,
+    0.327,
+    0.7
+   ]
+  ],
+  "som_bbox": null,
+  "som_s": 2.29
+ },
+ "000113_004": {
+  "query": "From left to right, the first red letter V",
+  "img": "000113.png",
+  "direct_bbox": [
+   0.037,
+   0.578,
+   0.1,
+   0.7
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "```json\n[\n\t{\"bbox_2d\": [37, 578, 100, 700], \"label\": \"From left to right, the first red letter V\"}\n]\n```",
+  "direct_s": 2.52,
+  "core": "red letter V",
+  "n_cands": 1,
+  "cands": [
+   [
+    0.372,
+    0.535,
+    0.412,
+    0.6
+   ]
+  ],
+  "som_bbox": null,
+  "som_s": 2.27
+ },
+ "000113_005": {
+  "query": "From left to right, the first red letter E",
+  "img": "000113.png",
+  "direct_bbox": [
+   0.15,
+   0.562,
+   0.194,
+   0.693
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "[{\"bbox_2d\": [150, 562, 194, 693], \"label\": \"From left to right, the first red letter E\"}]",
+  "direct_s": 2.36,
+  "core": "red letter E",
+  "n_cands": 3,
+  "cands": [
+   [
+    0.15,
+    0.562,
+    0.192,
+    0.692
+   ],
+   [
+    0.453,
+    0.512,
+    0.523,
+    0.712
+   ],
+   [
+    0.587,
+    0.505,
+    0.684,
+    0.722
+   ]
+  ],
+  "sel_num": 1,
+  "sel_raw": "1",
+  "som_bbox": [
+   0.15,
+   0.562,
+   0.192,
+   0.692
+  ],
+  "som_s": 5.75
+ },
+ "000141_005": {
+  "query": "The white covering on the third electric scooter from left to right below the camera",
+  "img": "000141.png",
+  "direct_bbox": [
+   0.341,
+   0.85,
+   0.507,
+   1.0
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "```json\n[\n\t{\"bbox_2d\": [341, 850, 507, 1000], \"label\": \"The white covering on the third electric scooter from left to right below the camera\"}\n]\n```",
+  "direct_s": 2.83,
+  "core": "electric scooter",
+  "n_cands": 8,
+  "cands": [
+   [
+    0.012,
+    0.845,
+    0.135,
+    1.0
+   ],
+   [
+    0.17,
+    0.845,
+    0.328,
+    1.0
+   ],
+   [
+    0.341,
+    0.853,
+    0.507,
+    1.0
+   ],
+   [
+    0.507,
+    0.862,
+    0.602,
+    1.0
+   ],
+   [
+    0.645,
+    0.905,
+    0.742,
+    1.0
+   ],
+   [
+    0.784,
+    0.915,
+    0.876,
+    1.0
+   ],
+   [
+    0.876,
+    0.915,
+    0.958,
+    1.0
+   ],
+   [
+    0.948,
+    0.905,
+    1.0,
+    1.0
+   ]
+  ],
+  "sel_num": 3,
+  "sel_raw": "3",
+  "som_bbox": [
+   0.341,
+   0.853,
+   0.507,
+   1.0
+  ],
+  "som_s": 12.79
+ },
+ "000246_006": {
+  "query": "The first double glass entrance doors from the left to right",
+  "img": "000246.png",
+  "direct_bbox": [
+   0.639,
+   0.683,
+   0.73,
+   0.9
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "```json\n[\n\t{\"bbox_2d\": [639, 683, 730, 900], \"label\": \"The first double glass entrance doors from the left to right\"}\n]\n```",
+  "direct_s": 2.6,
+  "core": "double glass entrance doors",
+  "n_cands": 1,
+  "cands": [
+   [
+    0.638,
+    0.683,
+    0.73,
+    0.9
+   ]
+  ],
+  "som_bbox": null,
+  "som_s": 2.33
+ },
+ "000281_001": {
+  "query": "The second red and white bumper car from left to right",
+  "img": "000281.png",
+  "direct_bbox": [
+   0.133,
+   0.357,
+   0.273,
+   0.532
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "```json\n[\n\t{\"bbox_2d\": [133, 357, 273, 532], \"label\": \"The second red and white bumper car from left to right\"}\n]\n```",
+  "direct_s": 2.61,
+  "core": "red and white bumper car",
+  "n_cands": 3,
+  "cands": [
+   [
+    0.029,
+    0.38,
+    0.117,
+    0.492
+   ],
+   [
+    0.134,
+    0.38,
+    0.272,
+    0.532
+   ],
+   [
+    0.59,
+    0.365,
+    0.696,
+    0.517
+   ]
+  ],
+  "sel_num": 2,
+  "sel_raw": "2",
+  "som_bbox": [
+   0.134,
+   0.38,
+   0.272,
+   0.532
+  ],
+  "som_s": 5.94
+ },
+ "000281_003": {
+  "query": "The first red and white bumper car from right to left",
+  "img": "000281.png",
+  "direct_bbox": [
+   0.59,
+   0.357,
+   0.697,
+   0.517
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "```json\n[\n\t{\"bbox_2d\": [590, 357, 697, 517], \"label\": \"The first red and white bumper car from right to left\"}\n]\n```",
+  "direct_s": 2.6,
+  "core": "red and white bumper car",
+  "n_cands": 3,
+  "cands": [
+   [
+    0.029,
+    0.38,
+    0.117,
+    0.492
+   ],
+   [
+    0.134,
+    0.38,
+    0.272,
+    0.532
+   ],
+   [
+    0.59,
+    0.365,
+    0.696,
+    0.517
+   ]
+  ],
+  "sel_num": 2,
+  "sel_raw": "2",
+  "som_bbox": [
+   0.134,
+   0.38,
+   0.272,
+   0.532
+  ],
+  "som_s": 5.99
+ },
+ "000393_003": {
+  "query": "The deer with antlers that is second closest to the camera",
+  "img": "000393.png",
+  "direct_bbox": [
+   0.444,
+   0.261,
+   0.543,
+   0.523
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "```json\n[\n\t{\"bbox_2d\": [444, 261, 543, 523], \"label\": \"The deer with antlers that is second closest to the camera\"}\n]\n```",
+  "direct_s": 2.7,
+  "core": "antlers that is",
+  "n_cands": 4,
+  "cands": [
+   [
+    0.359,
+    0.592,
+    0.417,
+    0.672
+   ],
+   [
+    0.444,
+    0.386,
+    0.517,
+    0.455
+   ],
+   [
+    0.329,
+    0.116,
+    0.366,
+    0.166
+   ],
+   [
+    0.43,
+    0.153,
+    0.467,
+    0.198
+   ]
+  ],
+  "sel_num": 2,
+  "sel_raw": "2",
+  "som_bbox": [
+   0.444,
+   0.386,
+   0.517,
+   0.455
+  ],
+  "som_s": 7.31
+ },
+ "000512_004": {
+  "query": "The fifth spherical protrusion from the top on the vertical silver metal pillar",
+  "img": "000512.png",
+  "direct_bbox": [
+   0.443,
+   0.851,
+   0.467,
+   0.893
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "```json\n[\n\t{\"bbox_2d\": [443, 851, 467, 893], \"label\": \"The fifth spherical protrusion from the top on the vertical silver metal pillar\"}\n]\n```",
+  "direct_s": 2.7,
+  "core": "spherical protrusion",
+  "n_cands": 11,
+  "cands": [
+   [
+    0.434,
+    0.972,
+    0.455,
+    1.0
+   ],
+   [
+    0.437,
+    0.912,
+    0.458,
+    0.942
+   ],
+   [
+    0.443,
+    0.852,
+    0.464,
+    0.882
+   ],
+   [
+    0.446,
+    0.785,
+    0.467,
+    0.815
+   ],
+   [
+    0.45,
+    0.725,
+    0.471,
+    0.755
+   ],
+   [
+    0.453,
+    0.665,
+    0.474,
+    0.695
+   ],
+   [
+    0.456,
+    0.605,
+    0.477,
+    0.635
+   ],
+   [
+    0.459,
+    0.545,
+    0.48,
+    0.575
+   ],
+   [
+    0.463,
+    0.485,
+    0.484,
+    0.515
+   ],
+   [
+    0.466,
+    0.425,
+    0.487,
+    0.455
+   ],
+   [
+    0.469,
+    0.397,
+    0.49,
+    0.427
+   ]
+  ],
+  "sel_num": 5,
+  "sel_raw": "5",
+  "som_bbox": [
+   0.45,
+   0.725,
+   0.471,
+   0.755
+  ],
+  "som_s": 17.15
+ },
+ "000624_003": {
+  "query": "The first yellow brick at the bottom closest to the camera",
+  "img": "000624.png",
+  "direct_bbox": [
+   0.054,
+   0.87,
+   0.098,
+   0.912
+  ],
+  "direct_nbox": 1,
+  "direct_raw": "```json\n[\n\t{\"bbox_2d\": [54, 870, 98, 912], \"label\": \"The first yellow brick at the bottom closest to the camera\"}\n]\n```",
+  "direct_s": 2.51,
+  "core": "yellow brick",
+  "n_cands": 15,
+  "cands": [
+   [
+    0.056,
+    0.872,
+    0.097,
+    0.912
+   ],
+   [
+    0.139,
+    0.592,
+    0.167,
+    0.612
+   ],
+   [
+    0.181,
+    0.653,
+    0.217,
+    0.673
+   ],
+   [
+    0.212,
+    0.625,
+    0.247,
+    0.645
+   ],
+   [
+    0.25,
+    0.778,
+    0.289,
+    0.805
+   ],
+   [
+    0.355,
+    0.615,
+    0.382,
+    0.632
+   ],
+   [
+    0.427,
+    0.885,
+    0.507,
+    0.952
+   ],
+   [
+    0.479,
+    0.5,
+    0.507,
+    0.515
+   ],
+   [
+    0.553,
+    0.722,
+    0.618,
+    0.762
+   ],
+   [
+    0.604,
+    0.935,
+    0.653,
+    0.972
+   ],
+   [
+    0.664,
+    0.602,
+    0.697,
+    0.617
+   ],
+   [
+    0.755,
+    0.685,
+    0.787,
+    0.702
+   ],
+   [
+    0.887,
+    0.673,
+    0.914,
+    0.69
+   ],
+   [
+    0.923,
+    0.73,
+    0.96,
+    0.752
+   ],
+   [
+    0.977,
+    0.82,
+    1.0,
+    0.842
+   ]
+  ],
+  "sel_num": 7,
+  "sel_raw": "7",
+  "som_bbox": [
+   0.427,
+   0.885,
+   0.507,
+   0.952
+  ],
+  "som_s": 21.51
+ }
+}

@@ -1,0 +1,1289 @@
+{
+ "000001_001": {
+  "query": "A squatting person",
+  "img": "Images/visible/000001.png",
+  "time_s": 9.961,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.638,
+    0.713,
+    0.672,
+    0.823
+   ]
+  ],
+  "raw": "<ref>squatting person</ref><box><638><713><672><823></box><|im_end|>"
+ },
+ "000001_002": {
+  "query": "The white street light on the left side of the stone steps on the right",
+  "img": "Images/visible/000001.png",
+  "time_s": 9.895,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.604,
+    0.185,
+    0.655,
+    0.875
+   ]
+  ],
+  "raw": "<ref>the white street light on the left side of the stone steps on the right</ref><box><604><185><655><875></box><|im_end|>"
+ },
+ "000001_003": {
+  "query": "The second white patio umbrella in the outdoor seating area from left to right",
+  "img": "Images/visible/000001.png",
+  "time_s": 9.861,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.296,
+    0.534,
+    0.457,
+    0.604
+   ]
+  ],
+  "raw": "<ref>The second white patio umbrella in the outdoor seating area from left to right</ref><box><296><534><457><604></box><|im_end|>"
+ },
+ "000001_004": {
+  "query": "The black circular planter with green shrubs in front of the restaurant",
+  "img": "Images/visible/000001.png",
+  "time_s": 9.771,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.141,
+    0.694,
+    0.198,
+    0.823
+   ]
+  ],
+  "raw": "<ref>black circular planter with green shrubs in front of the restaurant</ref><box><141><694><198><823></box><|im_end|>"
+ },
+ "000001_005": {
+  "query": "The large stone staircase in the foreground",
+  "img": "Images/visible/000001.png",
+  "time_s": 9.581,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.726,
+    0.255,
+    0.999,
+    0.884
+   ]
+  ],
+  "raw": "<ref>The large stone staircase in the foreground</ref><box><726><255><999><884></box><|im_end|>"
+ },
+ "000001_006": {
+  "query": "Three people near the entrance of the commercial building",
+  "img": "Images/visible/000001.png",
+  "time_s": 10.161,
+  "n_boxes": 3,
+  "boxes": [
+   [
+    0.592,
+    0.626,
+    0.623,
+    0.796
+   ],
+   [
+    0.634,
+    0.61,
+    0.669,
+    0.748
+   ],
+   [
+    0.637,
+    0.715,
+    0.672,
+    0.822
+   ]
+  ],
+  "raw": "<ref>Three people near the entrance of the commercial building</ref><box><592><626><623><796></box><box><634><610><669><748></box><box><637><715><672><822></box><|im_end|>"
+ },
+ "000085_001": {
+  "query": "Three buildings of similar height",
+  "img": "Images/visible/000085.png",
+  "time_s": 12.269,
+  "n_boxes": 12,
+  "boxes": [
+   [
+    0.0,
+    0.134,
+    0.088,
+    0.288
+   ],
+   [
+    0.114,
+    0.223,
+    0.164,
+    0.289
+   ],
+   [
+    0.172,
+    0.221,
+    0.209,
+    0.294
+   ],
+   [
+    0.195,
+    0.232,
+    0.282,
+    0.308
+   ],
+   [
+    0.25,
+    0.231,
+    0.35,
+    0.314
+   ],
+   [
+    0.316,
+    0.26,
+    0.356,
+    0.32
+   ]
+  ],
+  "raw": "<ref>Three buildings of similar height</ref><box><0><134><88><288></box><box><114><223><164><289></box><box><172><221><209><294></box><box><195><232><282><308></box><box><250><231><350><314></box><box><316><260><356><320></box><box><373><256><400><331></box><box><408><254><454><339></box><box><477><"
+ },
+ "000085_002": {
+  "query": "The first of three buildings of similar height from left to right",
+  "img": "Images/visible/000085.png",
+  "time_s": 9.823,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.475,
+    0.212,
+    0.521,
+    0.35
+   ]
+  ],
+  "raw": "<ref>first of three buildings of similar height from left to right</ref><box><475><212><521><350></box><|im_end|>"
+ },
+ "000085_003": {
+  "query": "The second of three buildings of similar height from left to right",
+  "img": "Images/visible/000085.png",
+  "time_s": 9.715,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.476,
+    0.212,
+    0.521,
+    0.35
+   ]
+  ],
+  "raw": "<ref>the second of three buildings of similar height from left to right</ref><box><476><212><521><350></box><|im_end|>"
+ },
+ "000085_004": {
+  "query": "The third of three buildings of similar height from left to right",
+  "img": "Images/visible/000085.png",
+  "time_s": 9.763,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.476,
+    0.212,
+    0.521,
+    0.35
+   ]
+  ],
+  "raw": "<ref>third of three buildings of similar height from left to right</ref><box><476><212><521><350></box><|im_end|>"
+ },
+ "000113_001": {
+  "query": "A man in a white shirt and hat sweeps the tiled promenade with a broom",
+  "img": "Images/visible/000113.png",
+  "time_s": 10.03,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.318,
+    0.555,
+    0.484,
+    0.802
+   ]
+  ],
+  "raw": "<ref>man in a white shirt and hat sweeps the tiled promenade with a broom</ref><box><318><555><484><802></box><|im_end|>"
+ },
+ "000113_002": {
+  "query": "From left to right, the first red letter L",
+  "img": "Images/visible/000113.png",
+  "time_s": 9.389,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.588,
+    0.507,
+    0.684,
+    0.721
+   ]
+  ],
+  "raw": "<ref>the first red letter L</ref><box><588><507><684><721></box><|im_end|>"
+ },
+ "000113_003": {
+  "query": "From left to right, the first red letter O",
+  "img": "Images/visible/000113.png",
+  "time_s": 9.523,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.269,
+    0.551,
+    0.326,
+    0.697
+   ]
+  ],
+  "raw": "<ref>the first red letter O</ref><box><269><551><326><697></box><|im_end|>"
+ },
+ "000113_004": {
+  "query": "From left to right, the first red letter V",
+  "img": "Images/visible/000113.png",
+  "time_s": 9.366,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.066,
+    0.585,
+    0.093,
+    0.691
+   ]
+  ],
+  "raw": "<ref>the first red letter V</ref><box><66><585><93><691></box><|im_end|>"
+ },
+ "000113_005": {
+  "query": "From left to right, the first red letter E",
+  "img": "Images/visible/000113.png",
+  "time_s": 9.367,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.454,
+    0.523,
+    0.522,
+    0.707
+   ]
+  ],
+  "raw": "<ref>the first red letter E</ref><box><454><523><522><707></box><|im_end|>"
+ },
+ "000141_001": {
+  "query": "A green traffic sign with Chinese text and a 4m height limit",
+  "img": "Images/visible/000141.png",
+  "time_s": 9.798,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.401,
+    0.335,
+    0.494,
+    0.465
+   ]
+  ],
+  "raw": "<ref>A green traffic sign with Chinese text and a 4m height limit</ref><box><401><335><494><465></box><|im_end|>"
+ },
+ "000141_002": {
+  "query": "Black metal gantry spanning across the urban street",
+  "img": "Images/visible/000141.png",
+  "time_s": 9.627,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.338,
+    0.215,
+    0.909,
+    0.481
+   ]
+  ],
+  "raw": "<ref>Black metal gantry spanning across the urban street</ref><box><338><215><909><481></box><|im_end|>"
+ },
+ "000141_003": {
+  "query": "Large gray commercial building with 'MIXC ON! WORLD' text, on the right",
+  "img": "Images/visible/000141.png",
+  "time_s": 10.105,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.722,
+    0.298,
+    1.0,
+    0.881
+   ]
+  ],
+  "raw": "<ref>Large gray commercial building with 'MIXC ON! WORLD' text, on the right</ref><box><722><298><1000><881></box><|im_end|>"
+ },
+ "000141_004": {
+  "query": "White car parked on the left side of the street",
+  "img": "Images/visible/000141.png",
+  "time_s": 9.74,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.0,
+    0.695,
+    0.065,
+    0.818
+   ]
+  ],
+  "raw": "<ref>White car parked on the left side of the street</ref><box><0><695><65><818></box><|im_end|>"
+ },
+ "000141_005": {
+  "query": "The white covering on the third electric scooter from left to right below the camera",
+  "img": "Images/visible/000141.png",
+  "time_s": 9.713,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.34,
+    0.849,
+    0.507,
+    1.0
+   ]
+  ],
+  "raw": "<ref>white covering on the third electric scooter from left to right below the camera</ref><box><340><849><507><1000></box><|im_end|>"
+ },
+ "000141_006": {
+  "query": "Person in a white shirt, standing in front of the utility building",
+  "img": "Images/visible/000141.png",
+  "time_s": 9.774,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.512,
+    0.769,
+    0.531,
+    0.926
+   ]
+  ],
+  "raw": "<ref>Person in a white shirt, standing in front of the utility building</ref><box><512><769><531><926></box><|im_end|>"
+ },
+ "000141_007": {
+  "query": "Person in a dark shirt, standing next to the person in white",
+  "img": "Images/visible/000141.png",
+  "time_s": 9.778,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.522,
+    0.772,
+    0.543,
+    0.926
+   ]
+  ],
+  "raw": "<ref>Person in a dark shirt, standing next to the person in white</ref><box><522><772><543><926></box><|im_end|>"
+ },
+ "000141_008": {
+  "query": "Person in a yellow helmet",
+  "img": "Images/visible/000141.png",
+  "time_s": 9.446,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.75,
+    0.806,
+    0.764,
+    0.842
+   ]
+  ],
+  "raw": "<ref>Person in a yellow helmet</ref><box><750><806><764><842></box><|im_end|>"
+ },
+ "000246_001": {
+  "query": "The blue Chinese character on the building facade",
+  "img": "Images/visible/000246.png",
+  "time_s": 11.054,
+  "n_boxes": 7,
+  "boxes": [
+   [
+    0.258,
+    0.51,
+    0.287,
+    0.568
+   ],
+   [
+    0.292,
+    0.507,
+    0.328,
+    0.566
+   ],
+   [
+    0.333,
+    0.506,
+    0.369,
+    0.562
+   ],
+   [
+    0.374,
+    0.503,
+    0.407,
+    0.559
+   ],
+   [
+    0.412,
+    0.503,
+    0.441,
+    0.557
+   ],
+   [
+    0.448,
+    0.5,
+    0.477,
+    0.554
+   ]
+  ],
+  "raw": "<ref>The blue Chinese character on the building facade</ref><box><258><510><287><568></box><box><292><507><328><566></box><box><333><506><369><562></box><box><374><503><407><559></box><box><412><503><441><557></box><box><448><500><477><554></box><box><480><498><509><553></box><|im_end|>"
+ },
+ "000246_002": {
+  "query": "The English text 'Institute of Advanced Technology' below the Chinese characters",
+  "img": "Images/visible/000246.png",
+  "time_s": 9.624,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.265,
+    0.58,
+    0.508,
+    0.623
+   ]
+  ],
+  "raw": "<ref>Institute of Advanced Technology' below the Chinese characters</ref><box><265><580><508><623></box><|im_end|>"
+ },
+ "000246_003": {
+  "query": "The person in a turquoise shirt walking near the right entrance",
+  "img": "Images/visible/000246.png",
+  "time_s": 9.629,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.755,
+    0.764,
+    0.795,
+    0.895
+   ]
+  ],
+  "raw": "<ref>person in a turquoise shirt walking near the right entrance</ref><box><755><764><795><895></box><|im_end|>"
+ },
+ "000246_004": {
+  "query": "The lit street lamp pole in front of the main building facade",
+  "img": "Images/visible/000246.png",
+  "time_s": 9.827,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.374,
+    0.643,
+    0.411,
+    1.0
+   ]
+  ],
+  "raw": "<ref>The lit street lamp pole in front of the main building facade</ref><box><374><643><411><1000></box><|im_end|>"
+ },
+ "000246_005": {
+  "query": "The small young tree on the far right",
+  "img": "Images/visible/000246.png",
+  "time_s": 9.496,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.938,
+    0.748,
+    1.0,
+    0.87
+   ]
+  ],
+  "raw": "<ref>the small young tree on the far right</ref><box><938><748><1000><870></box><|im_end|>"
+ },
+ "000246_006": {
+  "query": "The first double glass entrance doors from the left to right",
+  "img": "Images/visible/000246.png",
+  "time_s": 9.601,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.636,
+    0.678,
+    0.733,
+    0.902
+   ]
+  ],
+  "raw": "<ref>The first double glass entrance doors from the left to right</ref><box><636><678><733><902></box><|im_end|>"
+ },
+ "000246_007": {
+  "query": "The dark gray door at the base of the left building",
+  "img": "Images/visible/000246.png",
+  "time_s": 9.713,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.062,
+    0.878,
+    0.154,
+    0.999
+   ]
+  ],
+  "raw": "<ref>The dark gray door at the base of the left building</ref><box><62><878><154><999></box><|im_end|>"
+ },
+ "000246_008": {
+  "query": "The framed display board on the sidewalk near the right entrance",
+  "img": "Images/visible/000246.png",
+  "time_s": 9.854,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.677,
+    0.898,
+    0.722,
+    0.964
+   ]
+  ],
+  "raw": "<ref>The framed display board on the sidewalk near the right entrance</ref><box><677><898><722><964></box><|im_end|>"
+ },
+ "000246_009": {
+  "query": "The tree leaves on the far left edge of the image",
+  "img": "Images/visible/000246.png",
+  "time_s": 9.697,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.0,
+    0.0,
+    0.03,
+    0.398
+   ]
+  ],
+  "raw": "<ref>the tree leaves on the far left edge of the image</ref><box><0><0><30><398></box><|im_end|>"
+ },
+ "000246_010": {
+  "query": "The lsky visible in the top left corner",
+  "img": "Images/visible/000246.png",
+  "time_s": 9.528,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.0,
+    0.0,
+    0.215,
+    0.202
+   ]
+  ],
+  "raw": "<ref>The lsky visible in the top left corner</ref><box><0><0><215><202></box><|im_end|>"
+ },
+ "000246_011": {
+  "query": "A drone with a green navigation light",
+  "img": "Images/visible/000246.png",
+  "time_s": 9.416,
+  "n_boxes": 0,
+  "boxes": [],
+  "raw": "<ref>A drone with a green navigation light</ref><box>None</box><|im_end|>"
+ },
+ "000246_012": {
+  "query": "The two trees on the left side of the pedestrian",
+  "img": "Images/visible/000246.png",
+  "time_s": 10.035,
+  "n_boxes": 2,
+  "boxes": [
+   [
+    0.0,
+    0.0,
+    0.03,
+    0.398
+   ],
+   [
+    0.403,
+    0.8,
+    0.477,
+    0.999
+   ]
+  ],
+  "raw": "<ref>the two trees on the left side of the pedestrian</ref><box><0><0><30><398></box><box><403><800><477><999></box><|im_end|>"
+ },
+ "000281_001": {
+  "query": "The second red and white bumper car from left to right",
+  "img": "Images/visible/000281.png",
+  "time_s": 9.59,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.135,
+    0.368,
+    0.276,
+    0.533
+   ]
+  ],
+  "raw": "<ref>The second red and white bumper car from left to right</ref><box><135><368><276><533></box><|im_end|>"
+ },
+ "000281_002": {
+  "query": "The yellow and white bumper car",
+  "img": "Images/visible/000281.png",
+  "time_s": 9.506,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.26,
+    0.344,
+    0.439,
+    0.538
+   ]
+  ],
+  "raw": "<ref>the yellow and white bumper car</ref><box><260><344><439><538></box><|im_end|>"
+ },
+ "000281_003": {
+  "query": "The first red and white bumper car from right to left",
+  "img": "Images/visible/000281.png",
+  "time_s": 9.706,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.59,
+    0.343,
+    0.699,
+    0.519
+   ]
+  ],
+  "raw": "<ref>The first red and white bumper car from right to left</ref><box><590><343><699><519></box><|im_end|>"
+ },
+ "000281_004": {
+  "query": "The green and white bumper car with a person driving on the right",
+  "img": "Images/visible/000281.png",
+  "time_s": 9.744,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.562,
+    0.328,
+    0.682,
+    0.441
+   ]
+  ],
+  "raw": "<ref>green and white bumper car with a person driving on the right</ref><box><562><328><682><441></box><|im_end|>"
+ },
+ "000281_005": {
+  "query": "The red and white bumper car parked on the far left",
+  "img": "Images/visible/000281.png",
+  "time_s": 9.684,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.027,
+    0.379,
+    0.121,
+    0.494
+   ]
+  ],
+  "raw": "<ref>red and white bumper car parked on the far left</ref><box><27><379><121><494></box><|im_end|>"
+ },
+ "000281_006": {
+  "query": "The blue and white bumper car with a person in a white shirt driving on the left",
+  "img": "Images/visible/000281.png",
+  "time_s": 9.847,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.129,
+    0.369,
+    0.278,
+    0.531
+   ]
+  ],
+  "raw": "<ref>blue and white bumper car with a person in a white shirt driving on the left</ref><box><129><369><278><531></box><|im_end|>"
+ },
+ "000281_007": {
+  "query": "The green and white bumper car parked behind the yellow and white car on the left",
+  "img": "Images/visible/000281.png",
+  "time_s": 9.745,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.294,
+    0.344,
+    0.39,
+    0.424
+   ]
+  ],
+  "raw": "<ref>green and white bumper car parked behind the yellow and white car on the left</ref><box><294><344><390><424></box><|im_end|>"
+ },
+ "000281_008": {
+  "query": "The person in a blue patterned shirt standing at the right fence",
+  "img": "Images/visible/000281.png",
+  "time_s": 9.804,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.887,
+    0.197,
+    1.0,
+    0.822
+   ]
+  ],
+  "raw": "<ref>the person in a blue patterned shirt standing at the right fence</ref><box><887><197><1000><822></box><|im_end|>"
+ },
+ "000281_009": {
+  "query": "The child in a white and green shirt standing beside the right fence",
+  "img": "Images/visible/000281.png",
+  "time_s": 9.84,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.927,
+    0.398,
+    0.958,
+    0.557
+   ]
+  ],
+  "raw": "<ref>the child in a white and green shirt standing beside the right fence</ref><box><927><398><958><557></box><|im_end|>"
+ },
+ "000281_010": {
+  "query": "The person in a striped shirt standing at the right ticket booth",
+  "img": "Images/visible/000281.png",
+  "time_s": 9.706,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.881,
+    0.225,
+    0.919,
+    0.451
+   ]
+  ],
+  "raw": "<ref>person in a striped shirt standing at the right ticket booth</ref><box><881><225><919><451></box><|im_end|>"
+ },
+ "000281_011": {
+  "query": "The red sign with white text mounted above the right ticket booth",
+  "img": "Images/visible/000281.png",
+  "time_s": 9.585,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.943,
+    0.075,
+    1.0,
+    0.161
+   ]
+  ],
+  "raw": "<ref>red sign with white text mounted above the right ticket booth</ref><box><943><75><1000><161></box><|im_end|>"
+ },
+ "000281_012": {
+  "query": "The brown sign with black text at the left",
+  "img": "Images/visible/000281.png",
+  "time_s": 9.579,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.005,
+    0.344,
+    0.034,
+    0.376
+   ]
+  ],
+  "raw": "<ref>brown sign with black text at the left</ref><box><5><344><34><376></box><|im_end|>"
+ },
+ "000281_013": {
+  "query": "A person wearing a mask",
+  "img": "Images/visible/000281.png",
+  "time_s": 9.26,
+  "n_boxes": 0,
+  "boxes": [],
+  "raw": "<ref>person wearing a mask</ref><box>None</box><|im_end|>"
+ },
+ "000393_001": {
+  "query": "The antlered deer in the center bending its head to the ground",
+  "img": "Images/visible/000393.png",
+  "time_s": 9.611,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.443,
+    0.261,
+    0.543,
+    0.522
+   ]
+  ],
+  "raw": "<ref>antlered deer in the center bending its head to the ground</ref><box><443><261><543><522></box><|im_end|>"
+ },
+ "000393_002": {
+  "query": "The white deer on the left side walking toward the background",
+  "img": "Images/visible/000393.png",
+  "time_s": 9.635,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.088,
+    0.172,
+    0.178,
+    0.355
+   ]
+  ],
+  "raw": "<ref>white deer on the left side walking toward the background</ref><box><88><172><178><355></box><|im_end|>"
+ },
+ "000393_003": {
+  "query": "The deer with antlers that is second closest to the camera",
+  "img": "Images/visible/000393.png",
+  "time_s": 9.704,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.444,
+    0.262,
+    0.543,
+    0.522
+   ]
+  ],
+  "raw": "<ref>deer with antlers that is second closest to the camera</ref><box><444><262><543><522></box><|im_end|>"
+ },
+ "000393_004": {
+  "query": "The brown wooden guardrail on the far right of the pavement",
+  "img": "Images/visible/000393.png",
+  "time_s": 9.619,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.858,
+    0.12,
+    1.0,
+    0.39
+   ]
+  ],
+  "raw": "<ref>brown wooden guardrail on the far right of the pavement</ref><box><858><120><1000><390></box><|im_end|>"
+ },
+ "000393_005": {
+  "query": "A dark eye of the spotted deer closest to the camera",
+  "img": "Images/visible/000393.png",
+  "time_s": 9.676,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.384,
+    0.681,
+    0.396,
+    0.698
+   ]
+  ],
+  "raw": "<ref>dark eye of the spotted deer closest to the camera</ref><box><384><681><396><698></box><|im_end|>"
+ },
+ "000512_001": {
+  "query": "A monkey sitting on the ground ",
+  "img": "Images/visible/000512.png",
+  "time_s": 9.528,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.528,
+    0.556,
+    0.609,
+    0.728
+   ]
+  ],
+  "raw": "<ref>monkey sitting on the ground </ref><box><528><556><609><728></box><|im_end|>"
+ },
+ "000512_002": {
+  "query": "Thin white horizontal wires ",
+  "img": "Images/visible/000512.png",
+  "time_s": 19.958,
+  "n_boxes": 41,
+  "boxes": [
+   [
+    0.0,
+    0.424,
+    1.0,
+    1.0
+   ],
+   [
+    0.0,
+    0.424,
+    1.0,
+    1.0
+   ],
+   [
+    0.0,
+    0.424,
+    1.0,
+    1.0
+   ],
+   [
+    0.0,
+    0.424,
+    1.0,
+    1.0
+   ],
+   [
+    0.0,
+    0.424,
+    1.0,
+    1.0
+   ],
+   [
+    0.0,
+    0.424,
+    1.0,
+    1.0
+   ]
+  ],
+  "raw": "<ref>Thin white horizontal wires</ref><box><0><424><1000><1000></box><box><0><424><1000><1000></box><box><0><424><1000><1000></box><box><0><424><1000><1000></box><box><0><424><1000><1000></box><box><0><424><1000><1000></box><box><0><424><1000><1000></box><box><0><424><1000><1000></box><box><0><424><"
+ },
+ "000512_003": {
+  "query": "The vertical silver metal pillar",
+  "img": "Images/visible/000512.png",
+  "time_s": 9.402,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.434,
+    0.41,
+    0.489,
+    1.0
+   ]
+  ],
+  "raw": "<ref>vertical silver metal pillar</ref><box><434><410><489><1000></box><|im_end|>"
+ },
+ "000512_004": {
+  "query": "The fifth spherical protrusion from the top on the vertical silver metal pillar",
+  "img": "Images/visible/000512.png",
+  "time_s": 9.775,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.451,
+    0.728,
+    0.471,
+    0.765
+   ]
+  ],
+  "raw": "<ref>the fifth spherical protrusion from the top on the vertical silver metal pillar</ref><box><451><728><471><765></box><|im_end|>"
+ },
+ "000512_005": {
+  "query": "The middle spherical protrusion from bottom to top on the vertical silver metal pillar",
+  "img": "Images/visible/000512.png",
+  "time_s": 9.788,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.443,
+    0.852,
+    0.465,
+    0.888
+   ]
+  ],
+  "raw": "<ref>middle spherical protrusion from bottom to top on the vertical silver metal pillar</ref><box><443><852><465><888></box><|im_end|>"
+ },
+ "000512_006": {
+  "query": "The uppermost hand on the right side of the monkey",
+  "img": "Images/visible/000512.png",
+  "time_s": 9.646,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.468,
+    0.436,
+    0.488,
+    0.466
+   ]
+  ],
+  "raw": "<ref>uppermost hand on the right side of the monkey</ref><box><468><436><488><466></box><|im_end|>"
+ },
+ "000512_007": {
+  "query": "The lowest foot on the left side of the monkey",
+  "img": "Images/visible/000512.png",
+  "time_s": 9.756,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.529,
+    0.698,
+    0.548,
+    0.728
+   ]
+  ],
+  "raw": "<ref>the lowest foot on the left side of the monkey</ref><box><529><698><548><728></box><|im_end|>"
+ },
+ "000624_001": {
+  "query": "A yak walking to the right",
+  "img": "Images/visible/000624.png",
+  "time_s": 9.423,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.507,
+    0.216,
+    0.69,
+    0.411
+   ]
+  ],
+  "raw": "<ref>yak walking to the right</ref><box><507><216><690><411></box><|im_end|>"
+ },
+ "000624_002": {
+  "query": "A yellow brick in the lower leftmost corner",
+  "img": "Images/visible/000624.png",
+  "time_s": 9.569,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.056,
+    0.87,
+    0.098,
+    0.914
+   ]
+  ],
+  "raw": "<ref>yellow brick in the lower leftmost corner</ref><box><56><870><98><914></box><|im_end|>"
+ },
+ "000624_003": {
+  "query": "The first yellow brick at the bottom closest to the camera",
+  "img": "Images/visible/000624.png",
+  "time_s": 9.712,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.056,
+    0.869,
+    0.098,
+    0.914
+   ]
+  ],
+  "raw": "<ref>The first yellow brick at the bottom closest to the camera</ref><box><56><869><98><914></box><|im_end|>"
+ },
+ "000624_004": {
+  "query": "A yak near the trough",
+  "img": "Images/visible/000624.png",
+  "time_s": 9.384,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.16,
+    0.128,
+    0.268,
+    0.28
+   ]
+  ],
+  "raw": "<ref>yak near the trough</ref><box><160><128><268><280></box><|im_end|>"
+ },
+ "000624_005": {
+  "query": "The fence gate on the far right",
+  "img": "Images/visible/000624.png",
+  "time_s": 9.539,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.0,
+    0.0,
+    1.0,
+    0.469
+   ]
+  ],
+  "raw": "<ref>The fence gate on the far right</ref><box><0><0><1000><469></box><|im_end|>"
+ },
+ "000631_001": {
+  "query": "The Yak's tail",
+  "img": "Images/visible/000631.png",
+  "time_s": 9.309,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.586,
+    0.615,
+    0.666,
+    1.0
+   ]
+  ],
+  "raw": "<ref>Yak's tail</ref><box><586><615><666><1000></box><|im_end|>"
+ },
+ "000631_002": {
+  "query": "A white yak with thick fur",
+  "img": "Images/visible/000631.png",
+  "time_s": 9.557,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.398,
+    0.419,
+    0.666,
+    1.0
+   ]
+  ],
+  "raw": "<ref>a white yak with thick fur</ref><box><398><419><666><1000></box><|im_end|>"
+ },
+ "000631_003": {
+  "query": "The first thicker railing on the leftmost",
+  "img": "Images/visible/000631.png",
+  "time_s": 9.599,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.04,
+    0.098,
+    0.081,
+    0.442
+   ]
+  ],
+  "raw": "<ref>the first thicker railing on the leftmost</ref><box><40><98><81><442></box><|im_end|>"
+ },
+ "000631_004": {
+  "query": "The second thicker railing from left to right",
+  "img": "Images/visible/000631.png",
+  "time_s": 9.58,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.274,
+    0.093,
+    0.302,
+    0.398
+   ]
+  ],
+  "raw": "<ref>the second thicker railing from left to right</ref><box><274><93><302><398></box><|im_end|>"
+ },
+ "000631_005": {
+  "query": "The left front hoof of the yak",
+  "img": "Images/visible/000631.png",
+  "time_s": 9.381,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.497,
+    0.932,
+    0.522,
+    0.983
+   ]
+  ],
+  "raw": "<ref>left front hoof of the yak</ref><box><497><932><522><983></box><|im_end|>"
+ },
+ "000680_001": {
+  "query": "A road sign",
+  "img": "Images/visible/000680.png",
+  "time_s": 9.394,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.776,
+    0.0,
+    0.845,
+    0.074
+   ]
+  ],
+  "raw": "<ref>road sign</ref><box><776><0><845><74></box><|im_end|>"
+ },
+ "000680_002": {
+  "query": "The green trunk of theelectric vehicle",
+  "img": "Images/visible/000680.png",
+  "time_s": 9.528,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.883,
+    0.422,
+    1.0,
+    0.776
+   ]
+  ],
+  "raw": "<ref>the green trunk of theelectric vehicle</ref><box><883><422><1000><776></box><|im_end|>"
+ },
+ "000680_003": {
+  "query": "The first electric vehicle from bottom to top",
+  "img": "Images/visible/000680.png",
+  "time_s": 9.622,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.856,
+    0.421,
+    1.0,
+    1.0
+   ]
+  ],
+  "raw": "<ref>the first electric vehicle from bottom to top</ref><box><856><421><1000><1000></box><|im_end|>"
+ },
+ "000680_004": {
+  "query": "The trunk of the first electric vehicle from top to bottom",
+  "img": "Images/visible/000680.png",
+  "time_s": 9.604,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.234,
+    0.433,
+    0.356,
+    0.535
+   ]
+  ],
+  "raw": "<ref>the trunk of the first electric vehicle from top to bottom</ref><box><234><433><356><535></box><|im_end|>"
+ },
+ "000680_005": {
+  "query": "The white pole supporting the yellow sign",
+  "img": "Images/visible/000680.png",
+  "time_s": 9.495,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.806,
+    0.049,
+    0.856,
+    0.428
+   ]
+  ],
+  "raw": "<ref>the white pole supporting the yellow sign</ref><box><806><49><856><428></box><|im_end|>"
+ },
+ "000694_001": {
+  "query": "The building on the far left",
+  "img": "Images/visible/000694.png",
+  "time_s": 9.605,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.13,
+    0.0,
+    0.301,
+    0.442
+   ]
+  ],
+  "raw": "<ref>building on the far left</ref><box><130><0><301><442></box><|im_end|>"
+ },
+ "000694_002": {
+  "query": "The second building in the middle",
+  "img": "Images/visible/000694.png",
+  "time_s": 9.479,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.438,
+    0.0,
+    0.776,
+    0.461
+   ]
+  ],
+  "raw": "<ref>the second building in the middle</ref><box><438><0><776><461></box><|im_end|>"
+ },
+ "000694_003": {
+  "query": "The white street lamp on the right",
+  "img": "Images/visible/000694.png",
+  "time_s": 9.366,
+  "n_boxes": 0,
+  "boxes": [],
+  "raw": "<ref>white street lamp on the right</ref><box>None</box><|im_end|>"
+ },
+ "000694_004": {
+  "query": "The building on the far right",
+  "img": "Images/visible/000694.png",
+  "time_s": 9.597,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.885,
+    0.0,
+    1.0,
+    0.226
+   ]
+  ],
+  "raw": "<ref>the building on the far right</ref><box><885><0><1000><226></box><|im_end|>"
+ },
+ "000694_005": {
+  "query": "The black car on the left",
+  "img": "Images/visible/000694.png",
+  "time_s": 9.341,
+  "n_boxes": 1,
+  "boxes": [
+   [
+    0.0,
+    0.691,
+    0.159,
+    0.871
+   ]
+  ],
+  "raw": "<ref>the black car on the left</ref><box><0><691><159><871></box><|im_end|>"
+ }
+}

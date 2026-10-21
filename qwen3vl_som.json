@@ -1,0 +1,106 @@
+{
+ "000023": {
+  "core": "stone pier",
+  "n_cands": 5,
+  "candidates": [
+   [
+    0.0,
+    0.817,
+    0.02,
+    0.888
+   ],
+   [
+    0.036,
+    0.796,
+    0.077,
+    0.873
+   ],
+   [
+    0.086,
+    0.788,
+    0.123,
+    0.862
+   ],
+   [
+    0.137,
+    0.775,
+    0.172,
+    0.847
+   ],
+   [
+    0.187,
+    0.762,
+    0.219,
+    0.83
+   ]
+  ],
+  "enum_raw": "```json\n[\n\t{\"bbox_2d\": [0, 817, 20, 888], \"label\": \"stone pier\"},\n\t{\"bbox_2d\": [36, 796, 77, 873], \"label\": \"stone pier\"},\n\t{\"bbox_2d\": [86, 788, 123, 862], \"label\": \"stone pier\"},\n\t{\"bbox_2d\": [137, 775, 172, 847], \"label\": \"stone pier\"},\n\t{\"bbox_2d\": [187, 762, 219, 830], \"label\": \"stone pier\"}\n]\n```",
+  "queries": {
+   "000023_001": {
+    "query": "From left to right, the first stone pier",
+    "answer_num": 1,
+    "n_cands": 5,
+    "bbox": [
+     0.0,
+     0.817,
+     0.02,
+     0.888
+    ],
+    "time_s": 0.41,
+    "raw": "1"
+   },
+   "000023_002": {
+    "query": "From left to right, the second stone pier",
+    "answer_num": 2,
+    "n_cands": 5,
+    "bbox": [
+     0.036,
+     0.796,
+     0.077,
+     0.873
+    ],
+    "time_s": 0.41,
+    "raw": "2"
+   },
+   "000023_003": {
+    "query": "From left to right, the third stone pier",
+    "answer_num": 3,
+    "n_cands": 5,
+    "bbox": [
+     0.086,
+     0.788,
+     0.123,
+     0.862
+    ],
+    "time_s": 0.41,
+    "raw": "3"
+   },
+   "000023_004": {
+    "query": "From left to right, the fourth stone pier",
+    "answer_num": 4,
+    "n_cands": 5,
+    "bbox": [
+     0.137,
+     0.775,
+     0.172,
+     0.847
+    ],
+    "time_s": 0.41,
+    "raw": "4"
+   },
+   "000023_005": {
+    "query": "The stone pier behind the vertical metal fence bar located immediately to the right of the fourth stone pier from the left.",
+    "answer_num": 5,
+    "n_cands": 5,
+    "bbox": [
+     0.187,
+     0.762,
+     0.219,
+     0.83
+    ],
+    "time_s": 0.41,
+    "raw": "5"
+   }
+  }
+ }
+}

@@ -1,0 +1,31 @@
+待补 19 条
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.07it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.06it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.05it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.24it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.17it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[3/19] 本轮 3/19 出框 2 用时 0.2min
+[6/19] 本轮 6/19 出框 4 用时 0.4min
+[9/19] 本轮 9/19 出框 7 用时 0.6min
+[12/19] 本轮 12/19 出框 10 用时 0.8min
+[15/19] 本轮 15/19 出框 10 用时 1.2min
+[18/19] 本轮 18/19 出框 11 用时 1.5min
+[19/19] 本轮 19/19 出框 12 用时 1.6min
+
+完成 19 条 | 出框 12 | 仍无框 7
+  000246_011 -> None None
+  001121_007 -> direct@infrared [0.427, 0.423, 0.472, 0.588]
+  001401_001 -> direct@infrared [0.274, 0.099, 0.367, 0.227]
+  001506_004 -> direct@infrared [0.782, 0.048, 0.882, 0.158]
+  002780_010 -> None None
+  003186_002 -> direct@depth [0.159, 0.0, 0.28, 0.203]
+  003200_004 -> direct@depth [0.766, 0.732, 0.978, 0.997]
+  003368_005 -> direct@depth [0.362, 0.348, 0.402, 0.697]
+  003431_004 -> direct@depth [0.001, 0.557, 1.0, 0.666]
+  003452_005 -> direct@depth [0.0, 0.0, 1.0, 1.0]
+  004299_001 -> direct@infrared [0.812, 0.117, 0.845, 0.162]
+  013623_003 -> direct@infrared [0.085, 0.75, 0.157, 1.0]
+  014113_002 -> None None
+  014134_001 -> None None
+  014211_003 -> None None
+  014575_002 -> None None
+  015835_002 -> None None
+  016304_002 -> direct@infrared [0.464, 0.357, 0.526, 0.468]
+  016836_001 -> direct@infrared [0.407, 0.671, 0.527, 0.997]

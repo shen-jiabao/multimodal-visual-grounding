@@ -1,0 +1,3340 @@
+{
+ "grade": {
+  "strict": 1391,
+  "lt2": 373,
+  "severe": 213,
+  "slight": 37
+ },
+ "details": [
+  {
+   "qid": "000023_005",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 4,
+   "nc": 5,
+   "exp": 4,
+   "num": 5,
+   "query": "The stone pier behind the vertical metal fence bar located immediately to the right of the fourth stone pier from the left."
+  },
+  {
+   "qid": "000142_006",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 5,
+   "exp": 1,
+   "num": 3,
+   "query": "First brown planter with green shrubs, in front of the utility building (from left to right)"
+  },
+  {
+   "qid": "000870_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 2,
+   "exp": 1,
+   "num": 2,
+   "query": "The trunk of the second tree from the right edge in the upper right area."
+  },
+  {
+   "qid": "001360_002",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 3,
+   "nc": 8,
+   "exp": 3,
+   "num": 5,
+   "query": "The third crane from the left, a dark gray bird facing right with its head held high, stands partially behind another crane on the rocky bank beside the green wire fence"
+  },
+  {
+   "qid": "001360_003",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 3,
+   "nc": 8,
+   "exp": 3,
+   "num": 5,
+   "query": "The third crane from the left, a dark-bodied crane with a pale neck standing on the rocky bank by the fence, faces left and is partially obscured by the adjacent crane on its left"
+  },
+  {
+   "qid": "001542_004",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 2,
+   "nc": 6,
+   "exp": 2,
+   "num": 3,
+   "query": "The second tree trunk wrapped in protective material from the left in the background row"
+  },
+  {
+   "qid": "001556_003",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 1,
+   "nc": 9,
+   "exp": 9,
+   "num": 8,
+   "query": "The first deer with large antlers standing in the middle of the paved area from right to left"
+  },
+  {
+   "qid": "001556_004",
+   "grade": "severe",
+   "d": "LTR",
+   "k": 2,
+   "nc": 9,
+   "exp": 2,
+   "num": 3,
+   "query": "The second deer from the left is on the ground in the middle near the shelter"
+  },
+  {
+   "qid": "001563_003",
+   "grade": "slight",
+   "d": "LTR",
+   "k": 2,
+   "nc": 3,
+   "exp": 2,
+   "num": 3,
+   "query": "The second white deer from the left, partially obscured by the brown deer in front of it"
+  },
+  {
+   "qid": "001584_005",
+   "grade": "severe",
+   "d": "LTR",
+   "k": 2,
+   "nc": 2,
+   "exp": 2,
+   "num": 1,
+   "query": "The second distinct roof structure from the left side of the background buildings"
+  },
+  {
+   "qid": "001647_003",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 6,
+   "exp": 1,
+   "num": 2,
+   "query": "The first rectangular ceiling light fixture from the left in the front row of lights"
+  },
+  {
+   "qid": "001689_002",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 2,
+   "nc": 3,
+   "exp": 2,
+   "num": 3,
+   "query": "The second rectangular yellow sign mounted on the wall from the left side"
+  },
+  {
+   "qid": "002144_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 4,
+   "exp": 2,
+   "num": 3,
+   "query": "The third sign with words from right to left"
+  },
+  {
+   "qid": "002144_004",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 4,
+   "nc": 4,
+   "exp": 1,
+   "num": 4,
+   "query": "The fourth sign with words from right to left"
+  },
+  {
+   "qid": "002235_002",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 3,
+   "exp": 1,
+   "num": 2,
+   "query": "The first bear leaning against the wall from left to right"
+  },
+  {
+   "qid": "002396_001",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 3,
+   "nc": 3,
+   "exp": 1,
+   "num": 3,
+   "query": "The third monkey from right to left"
+  },
+  {
+   "qid": "002557_001",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 4,
+   "exp": 4,
+   "num": 3,
+   "query": "The first prohibition sign on the sign from right to left"
+  },
+  {
+   "qid": "002557_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 4,
+   "exp": 2,
+   "num": 3,
+   "query": "The third prohibition sign on the sign from right to left"
+  },
+  {
+   "qid": "002557_004",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 4,
+   "nc": 4,
+   "exp": 1,
+   "num": 4,
+   "query": "The fourth prohibition sign on the sign from right to left"
+  },
+  {
+   "qid": "002578_001",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 4,
+   "exp": 4,
+   "num": 3,
+   "query": "The first bridge opening and its reflection from right to left"
+  },
+  {
+   "qid": "002578_002",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 4,
+   "exp": 3,
+   "num": 2,
+   "query": "The second bridge opening and its reflection from right to left"
+  },
+  {
+   "qid": "002578_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 4,
+   "exp": 2,
+   "num": 3,
+   "query": "The third bridge opening and its reflection from right to left"
+  },
+  {
+   "qid": "002620_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 4,
+   "exp": 2,
+   "num": 3,
+   "query": "The third white-painted tree trunk from right to left"
+  },
+  {
+   "qid": "002739_002",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 1,
+   "nc": 15,
+   "exp": 15,
+   "num": 7,
+   "query": "The first character on the second line of the sign from right to left"
+  },
+  {
+   "qid": "002739_003",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 2,
+   "nc": 15,
+   "exp": 14,
+   "num": 6,
+   "query": "The second character on the second line of the sign from right to left"
+  },
+  {
+   "qid": "002739_004",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 3,
+   "nc": 15,
+   "exp": 13,
+   "num": 6,
+   "query": "The third character on the second line of the sign from right to left"
+  },
+  {
+   "qid": "002739_005",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 4,
+   "nc": 15,
+   "exp": 12,
+   "num": 6,
+   "query": "The fourth character on the second line of the sign from right to left"
+  },
+  {
+   "qid": "002760_002",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 2,
+   "nc": 12,
+   "exp": 2,
+   "num": 3,
+   "query": "The second white-painted tree trunk from left to right"
+  },
+  {
+   "qid": "002760_004",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 4,
+   "nc": 12,
+   "exp": 4,
+   "num": 6,
+   "query": "The fourth white-painted tree trunk from left to right"
+  },
+  {
+   "qid": "002844_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 2,
+   "exp": 1,
+   "num": 2,
+   "query": "The second white shoe from right to left"
+  },
+  {
+   "qid": "002998_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 5,
+   "exp": 3,
+   "num": 4,
+   "query": "The third person from right to left"
+  },
+  {
+   "qid": "003397_005",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 6,
+   "exp": 6,
+   "num": 3,
+   "query": "Count the first red shrub from right to left"
+  },
+  {
+   "qid": "003418_002",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 1,
+   "nc": 9,
+   "exp": 9,
+   "num": 8,
+   "query": "Count the first red vertical banner from right to left"
+  },
+  {
+   "qid": "003495_002",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 1,
+   "nc": 3,
+   "exp": 3,
+   "num": 1,
+   "query": "Count the first tiger from right to left"
+  },
+  {
+   "qid": "003509_004",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 1,
+   "nc": 4,
+   "exp": 4,
+   "num": 1,
+   "query": "Count the first animal from right to left"
+  },
+  {
+   "qid": "003558_005",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 4,
+   "exp": 1,
+   "num": 2,
+   "query": "Count the first person wearing blue clothes from left to right"
+  },
+  {
+   "qid": "003600_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 2,
+   "exp": 2,
+   "num": 1,
+   "query": "Count the first white animal from right to left"
+  },
+  {
+   "qid": "003614_003",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 2,
+   "exp": 1,
+   "num": 2,
+   "query": "Count the head of the first lemur from left to right"
+  },
+  {
+   "qid": "003824_005",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 6,
+   "exp": 4,
+   "num": 5,
+   "query": "Count the third wooden stake from right to left"
+  },
+  {
+   "qid": "003887_005",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 4,
+   "exp": 4,
+   "num": 3,
+   "query": "The first vertical pole of the wooden structure is counted from right to left"
+  },
+  {
+   "qid": "003901_001",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 5,
+   "exp": 5,
+   "num": 1,
+   "query": "Count the first monkey from right to left"
+  },
+  {
+   "qid": "003901_002",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 5,
+   "exp": 4,
+   "num": 1,
+   "query": "Count the second monkey from right to left"
+  },
+  {
+   "qid": "003901_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 5,
+   "exp": 3,
+   "num": 1,
+   "query": "Count the third monkey from right to left"
+  },
+  {
+   "qid": "003901_004",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 4,
+   "nc": 5,
+   "exp": 2,
+   "num": 1,
+   "query": "Count the fourth monkey from right to left"
+  },
+  {
+   "qid": "003999_005",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 3,
+   "exp": 3,
+   "num": 2,
+   "query": "Number the baby strollers next to the first white tent from right to left"
+  },
+  {
+   "qid": "004468_001",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 3,
+   "exp": 1,
+   "num": 3,
+   "query": "Count the third teaching building from right to left"
+  },
+  {
+   "qid": "004468_004",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 3,
+   "exp": 1,
+   "num": 3,
+   "query": "Count the third teaching building from right to left"
+  },
+  {
+   "qid": "004489_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 4,
+   "nc": 6,
+   "exp": 3,
+   "num": 4,
+   "query": "Number the fourth teaching building from right to left"
+  },
+  {
+   "qid": "007520_005",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 2,
+   "nc": 6,
+   "exp": 2,
+   "num": 4,
+   "query": "The second stone bollard from left to right"
+  },
+  {
+   "qid": "007667_002",
+   "grade": "severe",
+   "d": "LTR",
+   "k": 2,
+   "nc": 6,
+   "exp": 2,
+   "num": 4,
+   "query": "Second car from left to right"
+  },
+  {
+   "qid": "007667_003",
+   "grade": "severe",
+   "d": "LTR",
+   "k": 3,
+   "nc": 6,
+   "exp": 3,
+   "num": 4,
+   "query": "The third car from left to right"
+  },
+  {
+   "qid": "007709_003",
+   "grade": "severe",
+   "d": "LTR",
+   "k": 1,
+   "nc": 11,
+   "exp": 1,
+   "num": 4,
+   "query": "The rearview mirror of the first car from the left when counting from the left to the right"
+  },
+  {
+   "qid": "007779_005",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 4,
+   "exp": 1,
+   "num": 2,
+   "query": "The first grey stone from the left."
+  },
+  {
+   "qid": "007786_004",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 4,
+   "exp": 3,
+   "num": 2,
+   "query": "The second grey stone from the right"
+  },
+  {
+   "qid": "007786_005",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 4,
+   "exp": 4,
+   "num": 3,
+   "query": "The first grey stone from the right"
+  },
+  {
+   "qid": "007814_005",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 5,
+   "exp": 4,
+   "num": 2,
+   "query": "The second pedestrian from right to left on the stone arch bridge"
+  },
+  {
+   "qid": "007814_006",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 5,
+   "exp": 3,
+   "num": 2,
+   "query": "The third pedestrian from right to left on the stone arch bridge"
+  },
+  {
+   "qid": "007856_002",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 2,
+   "nc": 4,
+   "exp": 2,
+   "num": 3,
+   "query": "The second person from the left"
+  },
+  {
+   "qid": "007905_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 5,
+   "exp": 3,
+   "num": 4,
+   "query": "The third person from the right"
+  },
+  {
+   "qid": "007905_005",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 4,
+   "nc": 5,
+   "exp": 2,
+   "num": 4,
+   "query": "The fourth person from the right"
+  },
+  {
+   "qid": "008003_002",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 2,
+   "exp": 1,
+   "num": 2,
+   "query": "The second potted plant in pink pot from right to left"
+  },
+  {
+   "qid": "008010_004",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 4,
+   "nc": 5,
+   "exp": 2,
+   "num": 4,
+   "query": "The fourth potted plant on shelf from right to left"
+  },
+  {
+   "qid": "008017_003",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 3,
+   "nc": 4,
+   "exp": 2,
+   "num": 3,
+   "query": "The third pelican from the right when counting from the right side"
+  },
+  {
+   "qid": "008024_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 4,
+   "exp": 4,
+   "num": 3,
+   "query": "The first pelican from the right when counting from the right side"
+  },
+  {
+   "qid": "008241_005",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 1,
+   "nc": 5,
+   "exp": 5,
+   "num": 4,
+   "query": "The first water stain area from right to left"
+  },
+  {
+   "qid": "008255_003",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 1,
+   "nc": 3,
+   "exp": 3,
+   "num": 2,
+   "query": "The right hind leg of the first rhino counting from right to left"
+  },
+  {
+   "qid": "008269_004",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 2,
+   "exp": 1,
+   "num": 2,
+   "query": "The second black railing from the right among the two railings closest to the camera"
+  },
+  {
+   "qid": "008304_001",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 6,
+   "exp": 1,
+   "num": 2,
+   "query": "The first person wearing a mask from left to right in the house to the left of the tiger"
+  },
+  {
+   "qid": "008332_003",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 2,
+   "nc": 4,
+   "exp": 3,
+   "num": 2,
+   "query": "The second lemur from the right"
+  },
+  {
+   "qid": "008332_004",
+   "grade": "severe",
+   "d": "LTR",
+   "k": 4,
+   "nc": 4,
+   "exp": 4,
+   "num": 3,
+   "query": "The fourth lemur from the left"
+  },
+  {
+   "qid": "008353_006",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 1,
+   "nc": 13,
+   "exp": 13,
+   "num": 12,
+   "query": "The first person from the right when counting from the right to the left"
+  },
+  {
+   "qid": "008514_004",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 4,
+   "exp": 1,
+   "num": 2,
+   "query": "The first wheel from the left when counting from the left to the right"
+  },
+  {
+   "qid": "008542_001",
+   "grade": "severe",
+   "d": "LTR",
+   "k": 1,
+   "nc": 11,
+   "exp": 1,
+   "num": 2,
+   "query": "The first tree from left to right"
+  },
+  {
+   "qid": "008682_001",
+   "grade": "severe",
+   "d": "LTR",
+   "k": 2,
+   "nc": 16,
+   "exp": 2,
+   "num": 3,
+   "query": "The second pole from left to right in front of the camera."
+  },
+  {
+   "qid": "008682_003",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 1,
+   "nc": 16,
+   "exp": 16,
+   "num": 3,
+   "query": "The first pole from right to left in front of the camera."
+  },
+  {
+   "qid": "008682_004",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 2,
+   "nc": 16,
+   "exp": 15,
+   "num": 3,
+   "query": "The second pole from right to left in front of the camera."
+  },
+  {
+   "qid": "008682_005",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 3,
+   "nc": 16,
+   "exp": 14,
+   "num": 3,
+   "query": "The third pole from right to left in front of the camera."
+  },
+  {
+   "qid": "008689_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 3,
+   "exp": 3,
+   "num": 2,
+   "query": "The first Chinese character from right to left."
+  },
+  {
+   "qid": "008689_005",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 3,
+   "exp": 1,
+   "num": 2,
+   "query": "The third Chinese character from right to left."
+  },
+  {
+   "qid": "008710_002",
+   "grade": "slight",
+   "d": "RTL",
+   "k": 2,
+   "nc": 2,
+   "exp": 1,
+   "num": 2,
+   "query": "The second person from right to left"
+  },
+  {
+   "qid": "008773_002",
+   "grade": "severe",
+   "d": "LTR",
+   "k": 1,
+   "nc": 4,
+   "exp": 1,
+   "num": 2,
+   "query": "The first zebra from the left"
+  },
+  {
+   "qid": "008815_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 4,
+   "nc": 4,
+   "exp": 1,
+   "num": 4,
+   "query": "The fourth blue-framed window with metal fences from right to left on the yellow building"
+  },
+  {
+   "qid": "008836_001",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 4,
+   "exp": 1,
+   "num": 3,
+   "query": "The first crane from left to right"
+  },
+  {
+   "qid": "008857_005",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 2,
+   "exp": 1,
+   "num": 2,
+   "query": "The second bird from right to left on the riverbank on its side"
+  },
+  {
+   "qid": "008934_004",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 2,
+   "nc": 5,
+   "exp": 2,
+   "num": 3,
+   "query": "The second flamingo from left to right in the center of the water"
+  },
+  {
+   "qid": "009039_002",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 4,
+   "exp": 1,
+   "num": 3,
+   "query": "The first boat with panda decorations from left to right"
+  },
+  {
+   "qid": "009039_003",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 2,
+   "nc": 4,
+   "exp": 2,
+   "num": 3,
+   "query": "The second boat with panda decorations from left to right"
+  },
+  {
+   "qid": "009060_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 4,
+   "exp": 2,
+   "num": 3,
+   "query": "The third person from right to left"
+  },
+  {
+   "qid": "009067_002",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 5,
+   "exp": 1,
+   "num": 3,
+   "query": "The first pelican from left to right"
+  },
+  {
+   "qid": "009074_002",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 5,
+   "exp": 4,
+   "num": 3,
+   "query": "The second emu from right to left"
+  },
+  {
+   "qid": "009102_001",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 4,
+   "exp": 4,
+   "num": 3,
+   "query": "The first vertical wooden stump from right to left"
+  },
+  {
+   "qid": "009102_002",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 4,
+   "exp": 3,
+   "num": 2,
+   "query": "The second vertical wooden stump from right to left"
+  },
+  {
+   "qid": "009102_003",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 1,
+   "nc": 9,
+   "exp": 9,
+   "num": 3,
+   "query": "The first wooden stump to the left-rear of the second vertical wooden stump from right to left"
+  },
+  {
+   "qid": "009102_004",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 2,
+   "nc": 9,
+   "exp": 8,
+   "num": 3,
+   "query": "The second wooden stump to the left-rear of the second vertical wooden stump from right to left"
+  },
+  {
+   "qid": "009102_005",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 3,
+   "nc": 9,
+   "exp": 7,
+   "num": 3,
+   "query": "The third wooden stump to the left-rear of the second vertical wooden stump from right to left"
+  },
+  {
+   "qid": "009130_001",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 1,
+   "nc": 5,
+   "exp": 5,
+   "num": 4,
+   "query": "The first person from right to left"
+  },
+  {
+   "qid": "009130_002",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 2,
+   "nc": 5,
+   "exp": 4,
+   "num": 3,
+   "query": "The second person from right to left"
+  },
+  {
+   "qid": "009130_004",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 4,
+   "nc": 5,
+   "exp": 2,
+   "num": 3,
+   "query": "The fourth person from right to left"
+  },
+  {
+   "qid": "009130_005",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 5,
+   "nc": 5,
+   "exp": 1,
+   "num": 3,
+   "query": "The fifth person from right to left"
+  },
+  {
+   "qid": "009151_001",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 4,
+   "exp": 1,
+   "num": 3,
+   "query": "The first person riding a bicycle from left to right"
+  },
+  {
+   "qid": "009172_002",
+   "grade": "severe",
+   "d": "LTR",
+   "k": 2,
+   "nc": 2,
+   "exp": 2,
+   "num": 1,
+   "query": "The second white car from the left"
+  },
+  {
+   "qid": "009249_004",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 3,
+   "exp": 3,
+   "num": 2,
+   "query": "The first black street lamp from the right"
+  },
+  {
+   "qid": "009340_004",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 15,
+   "exp": 13,
+   "num": 4,
+   "query": "The third person from right to left"
+  },
+  {
+   "qid": "009340_005",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 15,
+   "exp": 15,
+   "num": 7,
+   "query": "The first person from right to left"
+  },
+  {
+   "qid": "009361_002",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 1,
+   "nc": 3,
+   "exp": 3,
+   "num": 1,
+   "query": "The first white pole from right to left"
+  },
+  {
+   "qid": "009361_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 4,
+   "exp": 3,
+   "num": 2,
+   "query": "The second pole from right to left"
+  },
+  {
+   "qid": "009396_006",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 2,
+   "exp": 1,
+   "num": 2,
+   "query": "The circular white fixture on the ceiling situated exactly between the first and second rectangular air vents from the left"
+  },
+  {
+   "qid": "009403_007",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 2,
+   "exp": 1,
+   "num": 2,
+   "query": "The second rectangular slatted vent from right to left on the ceiling"
+  },
+  {
+   "qid": "009564_005",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 5,
+   "exp": 5,
+   "num": 4,
+   "query": "The first hollow on the tree from right to left"
+  },
+  {
+   "qid": "009571_002",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 4,
+   "nc": 4,
+   "exp": 1,
+   "num": 4,
+   "query": "The fourth wolf with its head down from the right"
+  },
+  {
+   "qid": "009571_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 4,
+   "exp": 2,
+   "num": 3,
+   "query": "The third wolf with its head down from the right"
+  },
+  {
+   "qid": "009571_005",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 4,
+   "exp": 4,
+   "num": 3,
+   "query": "The first wolf with its head down from the right"
+  },
+  {
+   "qid": "009592_005",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 3,
+   "nc": 6,
+   "exp": 3,
+   "num": 4,
+   "query": "The third post from left to right of the fence closest to the camera"
+  },
+  {
+   "qid": "009620_001",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 15,
+   "exp": 15,
+   "num": 14,
+   "query": "The first person from the right"
+  },
+  {
+   "qid": "009620_002",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 15,
+   "exp": 13,
+   "num": 12,
+   "query": "The third person from the right"
+  },
+  {
+   "qid": "009620_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 4,
+   "nc": 15,
+   "exp": 12,
+   "num": 10,
+   "query": "The fourth person from the right"
+  },
+  {
+   "qid": "009669_002",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 2,
+   "nc": 6,
+   "exp": 2,
+   "num": 5,
+   "query": "The left foot of the second person from the left"
+  },
+  {
+   "qid": "009732_002",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 5,
+   "exp": 4,
+   "num": 3,
+   "query": "The second green and white bumper car from right to left"
+  },
+  {
+   "qid": "009739_004",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 4,
+   "nc": 5,
+   "exp": 2,
+   "num": 3,
+   "query": "The fourth tree trunk from the right"
+  },
+  {
+   "qid": "009760_003",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 6,
+   "exp": 1,
+   "num": 4,
+   "query": "The first glass door from left to right on the right side of the man sweeping the floor"
+  },
+  {
+   "qid": "009886_002",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 3,
+   "exp": 1,
+   "num": 2,
+   "query": "The first zebra from left to right."
+  },
+  {
+   "qid": "009921_001",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 7,
+   "exp": 7,
+   "num": 6,
+   "query": "The first swan from right to left."
+  },
+  {
+   "qid": "009921_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 7,
+   "exp": 5,
+   "num": 4,
+   "query": "The third swan from right to left."
+  },
+  {
+   "qid": "010054_001",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 4,
+   "exp": 4,
+   "num": 2,
+   "query": "The first tree hole from the right"
+  },
+  {
+   "qid": "010054_002",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 4,
+   "exp": 3,
+   "num": 2,
+   "query": "The second tree hole from the right"
+  },
+  {
+   "qid": "010096_004",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 2,
+   "nc": 5,
+   "exp": 2,
+   "num": 3,
+   "query": "The second large beige structural pillar from the left edge of the image supporting the upper floor, located next to a parked scooter"
+  },
+  {
+   "qid": "010285_001",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 5,
+   "exp": 5,
+   "num": 4,
+   "query": "The first person from right to left"
+  },
+  {
+   "qid": "010355_004",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 4,
+   "exp": 4,
+   "num": 3,
+   "query": "The first person from the right"
+  },
+  {
+   "qid": "010362_001",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 4,
+   "exp": 1,
+   "num": 3,
+   "query": "The first three-wheeler from left to right"
+  },
+  {
+   "qid": "010404_002",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 8,
+   "exp": 6,
+   "num": 3,
+   "query": "The third basketball hoop from the right"
+  },
+  {
+   "qid": "010691_007",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 2,
+   "nc": 8,
+   "exp": 2,
+   "num": 4,
+   "query": "The second person from the left walking on the zebra crossing"
+  },
+  {
+   "qid": "010782_001",
+   "grade": "severe",
+   "d": "LTR",
+   "k": 2,
+   "nc": 8,
+   "exp": 2,
+   "num": 3,
+   "query": "The second gray crane from the left facing left by the waters edge"
+  },
+  {
+   "qid": "010782_004",
+   "grade": "severe",
+   "d": "LTR",
+   "k": 3,
+   "nc": 8,
+   "exp": 3,
+   "num": 4,
+   "query": "The third gray crane from left in the foreground"
+  },
+  {
+   "qid": "010782_005",
+   "grade": "severe",
+   "d": "LTR",
+   "k": 1,
+   "nc": 8,
+   "exp": 1,
+   "num": 3,
+   "query": "The first gray crane from the left in the foreground on the right"
+  },
+  {
+   "qid": "010838_005",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 14,
+   "exp": 14,
+   "num": 13,
+   "query": "The first black-and-white pigeon from the right"
+  },
+  {
+   "qid": "010845_002",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 10,
+   "exp": 10,
+   "num": 8,
+   "query": "The first emu from right to left"
+  },
+  {
+   "qid": "010845_004",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 10,
+   "exp": 8,
+   "num": 4,
+   "query": "The third emu from right to left"
+  },
+  {
+   "qid": "010852_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 5,
+   "exp": 5,
+   "num": 4,
+   "query": "The first badminton net from right to left"
+  },
+  {
+   "qid": "010894_003",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 4,
+   "exp": 1,
+   "num": 2,
+   "query": "The first brown-furred deer from left to right"
+  },
+  {
+   "qid": "010908_004",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 5,
+   "exp": 5,
+   "num": 4,
+   "query": "The first window with a metal fence from right to left"
+  },
+  {
+   "qid": "010915_004",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 2,
+   "exp": 1,
+   "num": 2,
+   "query": "The second vertical green metal pole from right to left"
+  },
+  {
+   "qid": "010957_001",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 1,
+   "nc": 6,
+   "exp": 6,
+   "num": 4,
+   "query": "The first monkey from the right to the left"
+  },
+  {
+   "qid": "010957_002",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 2,
+   "nc": 6,
+   "exp": 5,
+   "num": 3,
+   "query": "The second monkey from the right to the left"
+  },
+  {
+   "qid": "010957_003",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 3,
+   "nc": 6,
+   "exp": 4,
+   "num": 3,
+   "query": "The third monkey from the right to the left"
+  },
+  {
+   "qid": "010957_005",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 5,
+   "nc": 6,
+   "exp": 2,
+   "num": 5,
+   "query": "The fifth monkey from the right to the left"
+  },
+  {
+   "qid": "011048_005",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 6,
+   "exp": 1,
+   "num": 2,
+   "query": "The first badminton racket from the left"
+  },
+  {
+   "qid": "011055_001",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 7,
+   "exp": 7,
+   "num": 5,
+   "query": "The first remote-controlled car from right to left"
+  },
+  {
+   "qid": "011160_003",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 1,
+   "nc": 6,
+   "exp": 6,
+   "num": 5,
+   "query": "The first incandescent lamp from the right in the first column of grilles on the ceiling"
+  },
+  {
+   "qid": "011209_010",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 2,
+   "nc": 10,
+   "exp": 2,
+   "num": 3,
+   "query": "The second person from the left sitting on the floor along the left sideline of the badminton court."
+  },
+  {
+   "qid": "011258_006",
+   "grade": "severe",
+   "d": "LTR",
+   "k": 2,
+   "nc": 2,
+   "exp": 2,
+   "num": 1,
+   "query": "The second large rectangular window from the left located in the upper middle section of the white wall."
+  },
+  {
+   "qid": "011328_003",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 2,
+   "nc": 3,
+   "exp": 2,
+   "num": 3,
+   "query": "The second yellow-gray rectangular panel on the wall to the left of the wooden door from left to right"
+  },
+  {
+   "qid": "011328_004",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 3,
+   "exp": 1,
+   "num": 3,
+   "query": "The third yellow-gray rectangular panel on the wall to the left of the wooden door from right to left"
+  },
+  {
+   "qid": "011370_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 9,
+   "exp": 7,
+   "num": 8,
+   "query": "The third poster from right to left"
+  },
+  {
+   "qid": "011370_004",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 4,
+   "nc": 9,
+   "exp": 6,
+   "num": 4,
+   "query": "The fourth poster from right to left"
+  },
+  {
+   "qid": "011377_001",
+   "grade": "severe",
+   "d": "LTR",
+   "k": 1,
+   "nc": 15,
+   "exp": 1,
+   "num": 12,
+   "query": "The first light from left to right at the third floor"
+  },
+  {
+   "qid": "011377_002",
+   "grade": "severe",
+   "d": "LTR",
+   "k": 3,
+   "nc": 15,
+   "exp": 3,
+   "num": 12,
+   "query": "The third light from left to right at the third floor"
+  },
+  {
+   "qid": "011377_003",
+   "grade": "severe",
+   "d": "LTR",
+   "k": 6,
+   "nc": 15,
+   "exp": 6,
+   "num": 12,
+   "query": "The sixth light from left to right at the third floor"
+  },
+  {
+   "qid": "011377_004",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 2,
+   "nc": 15,
+   "exp": 14,
+   "num": 13,
+   "query": "The second light from right to left at the third floor"
+  },
+  {
+   "qid": "011377_005",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 5,
+   "nc": 15,
+   "exp": 11,
+   "num": 10,
+   "query": "The fifth light from right to left at the third floor"
+  },
+  {
+   "qid": "011412_003",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 1,
+   "nc": 3,
+   "exp": 3,
+   "num": 2,
+   "query": "The first chair from the right"
+  },
+  {
+   "qid": "011447_001",
+   "grade": "severe",
+   "d": "LTR",
+   "k": 1,
+   "nc": 2,
+   "exp": 1,
+   "num": 2,
+   "query": "The first smoke detector from the left"
+  },
+  {
+   "qid": "011447_002",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 1,
+   "nc": 2,
+   "exp": 2,
+   "num": 1,
+   "query": "The first smoke detector from the right"
+  },
+  {
+   "qid": "011629_005",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 6,
+   "nc": 14,
+   "exp": 9,
+   "num": 6,
+   "query": "The sixth calligraphy from right to left"
+  },
+  {
+   "qid": "011643_002",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 15,
+   "exp": 14,
+   "num": 13,
+   "query": "The second person on the soccer field from right to left"
+  },
+  {
+   "qid": "011643_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 15,
+   "exp": 13,
+   "num": 11,
+   "query": "The third person on the soccer field from right to left"
+  },
+  {
+   "qid": "011671_004",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 5,
+   "exp": 1,
+   "num": 2,
+   "query": "The first blue tent top on the stands from left to right"
+  },
+  {
+   "qid": "011678_002",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 2,
+   "nc": 15,
+   "exp": 14,
+   "num": 3,
+   "query": "The second person from right to left on the right side of the sandpit"
+  },
+  {
+   "qid": "011678_003",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 1,
+   "nc": 15,
+   "exp": 15,
+   "num": 4,
+   "query": "The first person from right to left on the right side of the sandpit"
+  },
+  {
+   "qid": "011706_005",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 4,
+   "exp": 2,
+   "num": 3,
+   "query": "The circular sign on the exterior wall of the third building from the right"
+  },
+  {
+   "qid": "011825_004",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 5,
+   "exp": 3,
+   "num": 4,
+   "query": "The third person from right to left"
+  },
+  {
+   "qid": "011860_004",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 4,
+   "nc": 9,
+   "exp": 6,
+   "num": 5,
+   "query": "The fourth crane from right to left"
+  },
+  {
+   "qid": "011867_001",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 1,
+   "nc": 5,
+   "exp": 5,
+   "num": 3,
+   "query": "The first crane from right to left"
+  },
+  {
+   "qid": "011867_002",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 2,
+   "nc": 5,
+   "exp": 4,
+   "num": 2,
+   "query": "The second crane from right to left"
+  },
+  {
+   "qid": "011867_003",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 3,
+   "nc": 5,
+   "exp": 3,
+   "num": 1,
+   "query": "The third crane from right to left"
+  },
+  {
+   "qid": "011867_004",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 4,
+   "nc": 5,
+   "exp": 2,
+   "num": 1,
+   "query": "The fourth crane from right to left"
+  },
+  {
+   "qid": "011958_008",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 15,
+   "exp": 1,
+   "num": 2,
+   "query": "The first small cylinder on the fence from left to right"
+  },
+  {
+   "qid": "011972_002",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 4,
+   "exp": 3,
+   "num": 2,
+   "query": "The second lantern from right to left"
+  },
+  {
+   "qid": "012028_002",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 1,
+   "nc": 5,
+   "exp": 5,
+   "num": 2,
+   "query": "The first tree trunk from right to left"
+  },
+  {
+   "qid": "012028_003",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 2,
+   "nc": 5,
+   "exp": 4,
+   "num": 2,
+   "query": "The second tree trunk from right to left"
+  },
+  {
+   "qid": "012035_002",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 7,
+   "exp": 6,
+   "num": 5,
+   "query": "The second person from the right to left"
+  },
+  {
+   "qid": "012056_004",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 4,
+   "exp": 4,
+   "num": 3,
+   "query": "The first window with a burglar bar from the right behind the shrub on the right side of the wooden house"
+  },
+  {
+   "qid": "012070_004",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 3,
+   "nc": 3,
+   "exp": 1,
+   "num": 3,
+   "query": "The white sign mounted on the pink wall near the third glass door from the right"
+  },
+  {
+   "qid": "012098_004",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 2,
+   "nc": 14,
+   "exp": 2,
+   "num": 3,
+   "query": "The second bicycle from the left in the row of parked bikes along the wall"
+  },
+  {
+   "qid": "012252_002",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 2,
+   "exp": 1,
+   "num": 2,
+   "query": "The second red metal English letter O with heart shape decoration from right to left on the mesh fence"
+  },
+  {
+   "qid": "012252_005",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 2,
+   "exp": 1,
+   "num": 2,
+   "query": "The second red metal heart decoration with a lock on the mesh fence from right to left"
+  },
+  {
+   "qid": "012301_004",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 4,
+   "nc": 6,
+   "exp": 3,
+   "num": 4,
+   "query": "The fourth potted plant from right to left"
+  },
+  {
+   "qid": "012301_005",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 5,
+   "nc": 6,
+   "exp": 2,
+   "num": 5,
+   "query": "The fifth potted plant from right to left"
+  },
+  {
+   "qid": "012315_010",
+   "grade": "severe",
+   "d": "LTR",
+   "k": 2,
+   "nc": 10,
+   "exp": 2,
+   "num": 7,
+   "query": "The second framed artwork from the left hanging on the distant grey wall in the background."
+  },
+  {
+   "qid": "012392_001",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 6,
+   "exp": 6,
+   "num": 5,
+   "query": "The first ventilation louver counted from the right"
+  },
+  {
+   "qid": "012392_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 4,
+   "nc": 6,
+   "exp": 3,
+   "num": 4,
+   "query": "The fourth ventilation louver counted from the right"
+  },
+  {
+   "qid": "012392_004",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 6,
+   "nc": 6,
+   "exp": 1,
+   "num": 6,
+   "query": "The sixth ventilation louver counted from the right"
+  },
+  {
+   "qid": "012399_001",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 10,
+   "exp": 1,
+   "num": 2,
+   "query": "The first person sitting from left to right"
+  },
+  {
+   "qid": "012399_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 10,
+   "exp": 10,
+   "num": 9,
+   "query": "The first person standing from the right"
+  },
+  {
+   "qid": "012399_005",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 10,
+   "exp": 10,
+   "num": 8,
+   "query": "The left leg of the first person standing from the right"
+  },
+  {
+   "qid": "012413_004",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 2,
+   "exp": 1,
+   "num": 2,
+   "query": "The first shoe from the left to right"
+  },
+  {
+   "qid": "012441_004",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 3,
+   "exp": 1,
+   "num": 2,
+   "query": "The third white pole from the right"
+  },
+  {
+   "qid": "012448_002",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 6,
+   "exp": 6,
+   "num": 5,
+   "query": "The first person wearing black clothes from the right"
+  },
+  {
+   "qid": "012448_005",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 6,
+   "exp": 6,
+   "num": 5,
+   "query": "The left arm of the first person wearing black clothes counting from the right"
+  },
+  {
+   "qid": "012455_002",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 5,
+   "exp": 5,
+   "num": 4,
+   "query": "The tree trunk near the first duck from right to left"
+  },
+  {
+   "qid": "012469_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 6,
+   "exp": 6,
+   "num": 5,
+   "query": "The first person from right to left"
+  },
+  {
+   "qid": "012490_001",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 13,
+   "exp": 13,
+   "num": 11,
+   "query": "The first person from right to left"
+  },
+  {
+   "qid": "012504_002",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 1,
+   "nc": 4,
+   "exp": 4,
+   "num": 2,
+   "query": "The first person from right to left"
+  },
+  {
+   "qid": "012504_003",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 2,
+   "nc": 4,
+   "exp": 3,
+   "num": 2,
+   "query": "The second person with an umbralla from right to left"
+  },
+  {
+   "qid": "012504_004",
+   "grade": "severe",
+   "d": "LTR",
+   "k": 1,
+   "nc": 4,
+   "exp": 1,
+   "num": 2,
+   "query": "The first person from left to right"
+  },
+  {
+   "qid": "012518_002",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 15,
+   "exp": 1,
+   "num": 12,
+   "query": "The first person from left to right"
+  },
+  {
+   "qid": "012518_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 15,
+   "exp": 15,
+   "num": 12,
+   "query": "The first person from right to left"
+  },
+  {
+   "qid": "012525_005",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 5,
+   "nc": 8,
+   "exp": 4,
+   "num": 5,
+   "query": "The fifth person from right to left"
+  },
+  {
+   "qid": "012532_002",
+   "grade": "slight",
+   "d": "RTL",
+   "k": 1,
+   "nc": 14,
+   "exp": 14,
+   "num": 12,
+   "query": "The first tree from right to left on the right side of the road"
+  },
+  {
+   "qid": "012532_004",
+   "grade": "slight",
+   "d": "RTL",
+   "k": 3,
+   "nc": 14,
+   "exp": 12,
+   "num": 11,
+   "query": "The third tree from right to left on the right side of the road"
+  },
+  {
+   "qid": "012546_002",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 1,
+   "nc": 15,
+   "exp": 15,
+   "num": 12,
+   "query": "The first person from right to left"
+  },
+  {
+   "qid": "012546_003",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 2,
+   "nc": 15,
+   "exp": 14,
+   "num": 11,
+   "query": "The second person from right to left"
+  },
+  {
+   "qid": "012546_004",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 3,
+   "nc": 15,
+   "exp": 13,
+   "num": 11,
+   "query": "The third person from right to left"
+  },
+  {
+   "qid": "012546_005",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 4,
+   "nc": 15,
+   "exp": 12,
+   "num": 7,
+   "query": "The fourth person from right to left"
+  },
+  {
+   "qid": "012560_005",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 8,
+   "exp": 6,
+   "num": 7,
+   "query": "The third person from right to left"
+  },
+  {
+   "qid": "012567_002",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 12,
+   "exp": 1,
+   "num": 2,
+   "query": "The first blue shared bicycle from left to right"
+  },
+  {
+   "qid": "012588_002",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 3,
+   "exp": 1,
+   "num": 2,
+   "query": "The first bicycle from the left"
+  },
+  {
+   "qid": "012609_001",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 2,
+   "exp": 1,
+   "num": 2,
+   "query": "The first car from the left"
+  },
+  {
+   "qid": "012637_002",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 2,
+   "nc": 15,
+   "exp": 2,
+   "num": 14,
+   "query": "The second person from the left to right on the bus closest to the camera"
+  },
+  {
+   "qid": "012665_002",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 11,
+   "exp": 1,
+   "num": 3,
+   "query": "The first window from left to right"
+  },
+  {
+   "qid": "012665_003",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 2,
+   "nc": 11,
+   "exp": 2,
+   "num": 3,
+   "query": "The second window from left to right"
+  },
+  {
+   "qid": "012714_003",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 3,
+   "nc": 7,
+   "exp": 5,
+   "num": 6,
+   "query": "The third street lamp from the right"
+  },
+  {
+   "qid": "012728_001",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 6,
+   "exp": 1,
+   "num": 4,
+   "query": "The first racket from the left"
+  },
+  {
+   "qid": "012728_002",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 2,
+   "nc": 6,
+   "exp": 2,
+   "num": 4,
+   "query": "The second racket from the left"
+  },
+  {
+   "qid": "012728_003",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 3,
+   "nc": 6,
+   "exp": 3,
+   "num": 4,
+   "query": "The third racket from the left"
+  },
+  {
+   "qid": "012735_003",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 3,
+   "nc": 7,
+   "exp": 3,
+   "num": 2,
+   "query": "The third person from the left"
+  },
+  {
+   "qid": "012749_001",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 3,
+   "exp": 3,
+   "num": 2,
+   "query": "The first sign from the right"
+  },
+  {
+   "qid": "012749_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 3,
+   "exp": 1,
+   "num": 3,
+   "query": "The third sign from the right"
+  },
+  {
+   "qid": "012763_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 7,
+   "exp": 7,
+   "num": 2,
+   "query": "The first bicycle from the right to left"
+  },
+  {
+   "qid": "012791_002",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 2,
+   "exp": 1,
+   "num": 2,
+   "query": "The second black street lamp from the right"
+  },
+  {
+   "qid": "012812_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 3,
+   "exp": 1,
+   "num": 3,
+   "query": "The third lit screen counting from right to left"
+  },
+  {
+   "qid": "013211_010",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 4,
+   "exp": 2,
+   "num": 3,
+   "query": "The third person from the right"
+  },
+  {
+   "qid": "013232_002",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 2,
+   "nc": 4,
+   "exp": 2,
+   "num": 3,
+   "query": "The second security camera from the left"
+  },
+  {
+   "qid": "013274_008",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 3,
+   "exp": 3,
+   "num": 2,
+   "query": "The first round wooden tabletop counting from the right"
+  },
+  {
+   "qid": "013274_014",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 2,
+   "nc": 5,
+   "exp": 4,
+   "num": 3,
+   "query": "The second black chair from the right"
+  },
+  {
+   "qid": "013421_003",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 1,
+   "nc": 8,
+   "exp": 8,
+   "num": 1,
+   "query": "The first black chair from right to left"
+  },
+  {
+   "qid": "013512_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 2,
+   "exp": 1,
+   "num": 2,
+   "query": "The second stone pillar counting from right to left"
+  },
+  {
+   "qid": "013519_002",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 3,
+   "exp": 1,
+   "num": 2,
+   "query": "The first traffic sign from left to right"
+  },
+  {
+   "qid": "013596_001",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 6,
+   "nc": 7,
+   "exp": 6,
+   "num": 4,
+   "query": "The sixth stone pillar from left to right"
+  },
+  {
+   "qid": "013596_002",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 5,
+   "nc": 7,
+   "exp": 5,
+   "num": 4,
+   "query": "The fifth stone pillar from left to right"
+  },
+  {
+   "qid": "013617_001",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 2,
+   "exp": 1,
+   "num": 2,
+   "query": "The first handle from the left"
+  },
+  {
+   "qid": "013638_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 4,
+   "exp": 3,
+   "num": 2,
+   "query": "The second person from the right"
+  },
+  {
+   "qid": "013659_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 4,
+   "exp": 2,
+   "num": 3,
+   "query": "The third person from the right"
+  },
+  {
+   "qid": "013694_002",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 6,
+   "nc": 10,
+   "exp": 5,
+   "num": 6,
+   "query": "The sixth circular light from the right"
+  },
+  {
+   "qid": "013694_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 5,
+   "nc": 10,
+   "exp": 6,
+   "num": 5,
+   "query": "The fifth circular light from the right"
+  },
+  {
+   "qid": "013701_007",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 3,
+   "nc": 8,
+   "exp": 6,
+   "num": 7,
+   "query": "The third circular light fixture from the right"
+  },
+  {
+   "qid": "013708_001",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 1,
+   "nc": 8,
+   "exp": 8,
+   "num": 3,
+   "query": "The first large yellow lantern counting from the right"
+  },
+  {
+   "qid": "013757_005",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 2,
+   "nc": 5,
+   "exp": 4,
+   "num": 2,
+   "query": "The second car from the right"
+  },
+  {
+   "qid": "013911_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 5,
+   "exp": 4,
+   "num": 3,
+   "query": "The second car from right to left"
+  },
+  {
+   "qid": "013953_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 2,
+   "exp": 1,
+   "num": 2,
+   "query": "The second letter K on the brown board from right to left"
+  },
+  {
+   "qid": "013995_001",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 2,
+   "nc": 6,
+   "exp": 2,
+   "num": 3,
+   "query": "The second pack of napkins from left to right"
+  },
+  {
+   "qid": "014156_001",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 1,
+   "nc": 3,
+   "exp": 3,
+   "num": 2,
+   "query": "The first big rock from the right"
+  },
+  {
+   "qid": "014163_002",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 4,
+   "exp": 2,
+   "num": 3,
+   "query": "The third streetlight from the right"
+  },
+  {
+   "qid": "014170_003",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 15,
+   "exp": 1,
+   "num": 13,
+   "query": "The first person wearing a yellow top from left to right"
+  },
+  {
+   "qid": "014191_002",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 2,
+   "exp": 1,
+   "num": 2,
+   "query": "The rear wheel of the second bicycle from the right"
+  },
+  {
+   "qid": "014212_003",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 15,
+   "exp": 1,
+   "num": 4,
+   "query": "The first person running from left to right"
+  },
+  {
+   "qid": "014233_001",
+   "grade": "slight",
+   "d": "LTR",
+   "k": 1,
+   "nc": 15,
+   "exp": 1,
+   "num": 2,
+   "query": "The first person running from left to right"
+  },
+  {
+   "qid": "014331_002",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 4,
+   "exp": 4,
+   "num": 3,
+   "query": "The first person from right to left"
+  },
+  {
+   "qid": "014450_001",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 1,
+   "nc": 7,
+   "exp": 7,
+   "num": 6,
+   "query": "The first person from the right"
+  },
+  {
+   "qid": "014450_002",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 2,
+   "nc": 7,
+   "exp": 6,
+   "num": 5,
+   "query": "The second person from the right"
+  },
+  {
+   "qid": "014506_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 4,
+   "exp": 2,
+   "num": 3,
+   "query": "The third plastic bag from the right"
+  },
+  {
+   "qid": "014513_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 13,
+   "exp": 11,
+   "num": 12,
+   "query": "The third person from the right"
+  },
+  {
+   "qid": "014534_002",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 2,
+   "exp": 1,
+   "num": 2,
+   "query": "The second wing of the drone from the right"
+  },
+  {
+   "qid": "014548_001",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 8,
+   "exp": 8,
+   "num": 6,
+   "query": "The first ostrich leg from the right"
+  },
+  {
+   "qid": "014548_002",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 8,
+   "exp": 7,
+   "num": 5,
+   "query": "The second ostrich leg from the right"
+  },
+  {
+   "qid": "014548_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 8,
+   "exp": 6,
+   "num": 5,
+   "query": "The third ostrich leg from the right"
+  },
+  {
+   "qid": "014583_001",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 1,
+   "nc": 6,
+   "exp": 6,
+   "num": 5,
+   "query": "The tail feathers of the first parrot from the right"
+  },
+  {
+   "qid": "014583_003",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 3,
+   "nc": 6,
+   "exp": 4,
+   "num": 3,
+   "query": "The tail feathers of the third parrot from the right"
+  },
+  {
+   "qid": "014618_006",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 2,
+   "nc": 5,
+   "exp": 4,
+   "num": 3,
+   "query": "The second white bird from the right, sitting on the ground"
+  },
+  {
+   "qid": "014667_003",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 1,
+   "nc": 5,
+   "exp": 5,
+   "num": 3,
+   "query": "The black SUV positioned on the right side of the street which is the first vehicle from the right"
+  },
+  {
+   "qid": "014842_002",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 3,
+   "nc": 4,
+   "exp": 2,
+   "num": 3,
+   "query": "The third deer from right to left"
+  },
+  {
+   "qid": "015101_001",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 1,
+   "nc": 6,
+   "exp": 6,
+   "num": 2,
+   "query": "The first deer from right to left"
+  },
+  {
+   "qid": "015101_002",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 2,
+   "nc": 6,
+   "exp": 5,
+   "num": 2,
+   "query": "The second deer from the right to the right next to the stone-paved road"
+  },
+  {
+   "qid": "015122_001",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 9,
+   "exp": 9,
+   "num": 6,
+   "query": "The first tent from right to left"
+  },
+  {
+   "qid": "015122_002",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 9,
+   "exp": 8,
+   "num": 6,
+   "query": "The second tent from the right to the left"
+  },
+  {
+   "qid": "015122_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 9,
+   "exp": 7,
+   "num": 6,
+   "query": "The third tent from the right to the left"
+  },
+  {
+   "qid": "015129_002",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 6,
+   "exp": 5,
+   "num": 2,
+   "query": "The second tent from the right to the left"
+  },
+  {
+   "qid": "015136_001",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 10,
+   "exp": 10,
+   "num": 7,
+   "query": "The first tent from right to left"
+  },
+  {
+   "qid": "015136_002",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 10,
+   "exp": 9,
+   "num": 6,
+   "query": "The second tent from the right to the left"
+  },
+  {
+   "qid": "015143_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 7,
+   "exp": 7,
+   "num": 6,
+   "query": "The first tent from right to left"
+  },
+  {
+   "qid": "015157_002",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 11,
+   "exp": 1,
+   "num": 5,
+   "query": "The first tent from left to right"
+  },
+  {
+   "qid": "015367_001",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 6,
+   "exp": 1,
+   "num": 3,
+   "query": "The first person to the right of the rock from left to right"
+  },
+  {
+   "qid": "015367_002",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 2,
+   "nc": 6,
+   "exp": 2,
+   "num": 4,
+   "query": "The second person to the right of the rock from left to right"
+  },
+  {
+   "qid": "015367_003",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 3,
+   "nc": 6,
+   "exp": 3,
+   "num": 4,
+   "query": "The third person to the right of the rock from left to right"
+  },
+  {
+   "qid": "015374_002",
+   "grade": "severe",
+   "d": "LTR",
+   "k": 2,
+   "nc": 2,
+   "exp": 2,
+   "num": 1,
+   "query": "The second streetlight from left to right"
+  },
+  {
+   "qid": "015381_001",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 7,
+   "exp": 1,
+   "num": 2,
+   "query": "The first tree from left to right on the other side of the road"
+  },
+  {
+   "qid": "015381_003",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 3,
+   "nc": 7,
+   "exp": 3,
+   "num": 4,
+   "query": "The third tree from left to right on the other side of the road"
+  },
+  {
+   "qid": "015423_002",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 1,
+   "nc": 15,
+   "exp": 15,
+   "num": 4,
+   "query": "The first person from the right"
+  },
+  {
+   "qid": "015430_002",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 2,
+   "nc": 16,
+   "exp": 15,
+   "num": 16,
+   "query": "The second person from the right"
+  },
+  {
+   "qid": "015430_003",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 3,
+   "nc": 16,
+   "exp": 14,
+   "num": 15,
+   "query": "The third person from the right"
+  },
+  {
+   "qid": "015486_001",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 15,
+   "exp": 15,
+   "num": 5,
+   "query": "The first person from the right"
+  },
+  {
+   "qid": "015486_002",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 15,
+   "exp": 14,
+   "num": 5,
+   "query": "The second person from the right"
+  },
+  {
+   "qid": "015486_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 15,
+   "exp": 13,
+   "num": 4,
+   "query": "The third person from the right"
+  },
+  {
+   "qid": "015493_001",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 3,
+   "exp": 3,
+   "num": 2,
+   "query": "The first tent from the right"
+  },
+  {
+   "qid": "015612_002",
+   "grade": "slight",
+   "d": "LTR",
+   "k": 2,
+   "nc": 13,
+   "exp": 2,
+   "num": 11,
+   "query": "The second box from the left above the computer"
+  },
+  {
+   "qid": "015612_003",
+   "grade": "slight",
+   "d": "LTR",
+   "k": 1,
+   "nc": 13,
+   "exp": 1,
+   "num": 11,
+   "query": "The first box from the left above the computer"
+  },
+  {
+   "qid": "015703_001",
+   "grade": "severe",
+   "d": "LTR",
+   "k": 1,
+   "nc": 3,
+   "exp": 1,
+   "num": 2,
+   "query": "The first street lamp from left to right"
+  },
+  {
+   "qid": "015738_003",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 6,
+   "exp": 1,
+   "num": 5,
+   "query": "The first electric bicycle from left to right"
+  },
+  {
+   "qid": "015780_001",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 5,
+   "exp": 5,
+   "num": 4,
+   "query": "The first ostrich from right to left"
+  },
+  {
+   "qid": "015780_002",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 5,
+   "exp": 4,
+   "num": 3,
+   "query": "The second ostrich from right to left"
+  },
+  {
+   "qid": "015787_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 4,
+   "exp": 4,
+   "num": 3,
+   "query": "The first alpaca from the right"
+  },
+  {
+   "qid": "015906_002",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 2,
+   "exp": 1,
+   "num": 2,
+   "query": "The rightmost flower pot on the second white table from the right"
+  },
+  {
+   "qid": "015906_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 2,
+   "exp": 1,
+   "num": 2,
+   "query": "The flower pot in the middle of the second white table from the right"
+  },
+  {
+   "qid": "015934_001",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 3,
+   "exp": 3,
+   "num": 2,
+   "query": "The first person from the right"
+  },
+  {
+   "qid": "015934_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 3,
+   "exp": 1,
+   "num": 3,
+   "query": "The third person from the right"
+  },
+  {
+   "qid": "015941_003",
+   "grade": "slight",
+   "d": "RTL",
+   "k": 2,
+   "nc": 7,
+   "exp": 6,
+   "num": 2,
+   "query": "The second white bird from the right"
+  },
+  {
+   "qid": "016018_002",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 2,
+   "nc": 6,
+   "exp": 5,
+   "num": 1,
+   "query": "The second zebra from the right"
+  },
+  {
+   "qid": "016179_001",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 3,
+   "exp": 1,
+   "num": 2,
+   "query": "The first monkey from left to right"
+  },
+  {
+   "qid": "016200_001",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 2,
+   "exp": 1,
+   "num": 2,
+   "query": "The second wooden window from the right on the building"
+  },
+  {
+   "qid": "016263_001",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 8,
+   "exp": 8,
+   "num": 7,
+   "query": "The first yellow column from right to left"
+  },
+  {
+   "qid": "016263_002",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 8,
+   "exp": 7,
+   "num": 6,
+   "query": "The second yellow column from right to left"
+  },
+  {
+   "qid": "016284_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 3,
+   "nc": 4,
+   "exp": 2,
+   "num": 3,
+   "query": "The third person from the right"
+  },
+  {
+   "qid": "016298_002",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 4,
+   "exp": 4,
+   "num": 3,
+   "query": "The first tree from the right to the left"
+  },
+  {
+   "qid": "016319_001",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 7,
+   "exp": 1,
+   "num": 6,
+   "query": "The first person wearing pink top from the left"
+  },
+  {
+   "qid": "016333_002",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 1,
+   "nc": 5,
+   "exp": 5,
+   "num": 4,
+   "query": "The first pelican from the right"
+  },
+  {
+   "qid": "016347_001",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 4,
+   "exp": 1,
+   "num": 2,
+   "query": "The first pillar of the first greenhouse from left to right"
+  },
+  {
+   "qid": "016396_002",
+   "grade": "severe",
+   "d": "LTR",
+   "k": 1,
+   "nc": 7,
+   "exp": 1,
+   "num": 4,
+   "query": "The first post of the white shed from left to right"
+  },
+  {
+   "qid": "016396_003",
+   "grade": "severe",
+   "d": "LTR",
+   "k": 2,
+   "nc": 7,
+   "exp": 2,
+   "num": 4,
+   "query": "The second post of the white shed from left to right"
+  },
+  {
+   "qid": "016410_002",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 3,
+   "exp": 1,
+   "num": 2,
+   "query": "The first yellow pillar from the left when counting from left to right"
+  },
+  {
+   "qid": "016424_001",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 1,
+   "nc": 8,
+   "exp": 8,
+   "num": 4,
+   "query": "The first person from the right"
+  },
+  {
+   "qid": "016424_002",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 2,
+   "nc": 8,
+   "exp": 7,
+   "num": 4,
+   "query": "The second person from the right"
+  },
+  {
+   "qid": "016424_003",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 3,
+   "nc": 8,
+   "exp": 6,
+   "num": 3,
+   "query": "The third person from the right"
+  },
+  {
+   "qid": "016452_001",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 4,
+   "exp": 1,
+   "num": 2,
+   "query": "The first person riding a bicycle from left to right"
+  },
+  {
+   "qid": "016452_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 4,
+   "exp": 4,
+   "num": 3,
+   "query": "The first person riding a bicycle from right to left"
+  },
+  {
+   "qid": "016557_003",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 3,
+   "exp": 1,
+   "num": 2,
+   "query": "The first person from the left"
+  },
+  {
+   "qid": "016697_001",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 1,
+   "nc": 9,
+   "exp": 1,
+   "num": 4,
+   "query": "The first model holding a black basketball from the left"
+  },
+  {
+   "qid": "016718_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 2,
+   "exp": 2,
+   "num": 1,
+   "query": "The first street lamp from right to left"
+  },
+  {
+   "qid": "016739_002",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 2,
+   "nc": 15,
+   "exp": 14,
+   "num": 2,
+   "query": "The second person from right to left sitting under the sunshade"
+  },
+  {
+   "qid": "016739_003",
+   "grade": "severe",
+   "d": "RTL",
+   "k": 3,
+   "nc": 15,
+   "exp": 13,
+   "num": 3,
+   "query": "The third person from right to left sitting under the sunshade"
+  },
+  {
+   "qid": "016767_003",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 4,
+   "exp": 3,
+   "num": 2,
+   "query": "The second road pole from right to left"
+  },
+  {
+   "qid": "016914_001",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 6,
+   "exp": 6,
+   "num": 5,
+   "query": "The first person from the right"
+  },
+  {
+   "qid": "016914_002",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 2,
+   "nc": 6,
+   "exp": 5,
+   "num": 4,
+   "query": "The second person from the right"
+  },
+  {
+   "qid": "017068_002",
+   "grade": "strict",
+   "d": "LTR",
+   "k": 2,
+   "nc": 7,
+   "exp": 2,
+   "num": 3,
+   "query": "The second hole from left to right on the log"
+  },
+  {
+   "qid": "017334_001",
+   "grade": "strict",
+   "d": "RTL",
+   "k": 1,
+   "nc": 5,
+   "exp": 5,
+   "num": 4,
+   "query": "The first tree from the right, protected by a wooden frame"
+  }
+ ]
+}

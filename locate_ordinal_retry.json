@@ -1,0 +1,279 @@
+{
+ "001773": {
+  "img": "001773",
+  "visible": "Images/visible/001773.png",
+  "core": "paddle",
+  "prompt": "Locate every table tennis paddle in this image. Output one <box><x1><y1><x2><y2></box> for EACH paddle from left to right, including partially visible ones.",
+  "queries": [
+   "001773_005"
+  ],
+  "raw": "<ref>table tennis paddle in this image</ref><box><193><333><247><477></box><box><365><298><440><442></box><ref>for</ref><box><0><0><1000><1000></box><|im_end|>",
+  "n_raw_boxes": 3,
+  "boxes": [
+   [
+    0.193,
+    0.333,
+    0.247,
+    0.477
+   ],
+   [
+    0.365,
+    0.298,
+    0.44,
+    0.442
+   ],
+   [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ]
+  ]
+ },
+ "010019": {
+  "img": "010019",
+  "visible": "Images/visible/010019.png",
+  "core": "person",
+  "prompt": "Locate every person in this image, including very small distant people standing behind the railing or among trees. Output one <box><x1><y1><x2><y2></box> for EACH person from left to right. Do not skip any person.",
+  "queries": [
+   "010019_003"
+  ],
+  "raw": "<ref>very small distant people standing behind the railing or among trees</ref><box><212><360><231><428></box><box><229><358><245><426></box><box><242><359><254><425></box><|im_end|>",
+  "n_raw_boxes": 3,
+  "boxes": [
+   [
+    0.212,
+    0.36,
+    0.231,
+    0.428
+   ],
+   [
+    0.229,
+    0.358,
+    0.245,
+    0.426
+   ],
+   [
+    0.242,
+    0.359,
+    0.254,
+    0.425
+   ]
+  ]
+ },
+ "016774": {
+  "img": "016774",
+  "visible": "Images/visible/016774.png",
+  "core": "person",
+  "prompt": "Locate every person in this image, including very small distant pedestrians on the sidewalk. Output one <box><x1><y1><x2><y2></box> for EACH person from left to right. Do not skip any person.",
+  "queries": [
+   "016774_001"
+  ],
+  "raw": "<ref><x1><y1><x2><y2></ref><box>None</box><|im_end|>",
+  "n_raw_boxes": 0,
+  "boxes": []
+ },
+ "010033a": {
+  "img": "010033a",
+  "visible": "Images/visible/010033.png",
+  "core": "bear",
+  "prompt": "Locate every bear in this image, including the bear in the water pool and bears standing in shadow. Output one <box><x1><y1><x2><y2></box> for EACH bear from left to right.",
+  "queries": [
+   "010033_004"
+  ],
+  "raw": "<ref>bear in the water pool and bears standing in shadow</ref><box><0><644><100><771></box><box><492><523><605><696></box><box><544><535><611><774></box><|im_end|>",
+  "n_raw_boxes": 3,
+  "boxes": [
+   [
+    0.0,
+    0.644,
+    0.1,
+    0.771
+   ],
+   [
+    0.492,
+    0.523,
+    0.605,
+    0.696
+   ],
+   [
+    0.544,
+    0.535,
+    0.611,
+    0.774
+   ]
+  ]
+ },
+ "010033b": {
+  "img": "010033b",
+  "visible": "Images/visible/010033.png",
+  "core": "bear",
+  "prompt": "How many bears (brown bears and black bears) are in this image? Output one <box><x1><y1><x2><y2></box> for EACH bear from left to right including partially visible ones.",
+  "queries": [
+   "010033_004"
+  ],
+  "raw": "<ref><x1><y1><x2><y2> for EACH bear from left to right including partially visible ones</ref><box><0><644><100><771></box><box><492><535><562><696></box><box><544><523><611><774></box><|im_end|>",
+  "n_raw_boxes": 3,
+  "boxes": [
+   [
+    0.0,
+    0.644,
+    0.1,
+    0.771
+   ],
+   [
+    0.492,
+    0.535,
+    0.562,
+    0.696
+   ],
+   [
+    0.544,
+    0.523,
+    0.611,
+    0.774
+   ]
+  ]
+ },
+ "014716a": {
+  "img": "014716a",
+  "visible": "Images/visible/014716.png",
+  "core": "diamond road marking",
+  "prompt": "Locate every diamond-shaped white road marking painted on the asphalt ground. Output one <box><x1><y1><x2><y2></box> for EACH diamond marking from left to right.",
+  "queries": [
+   "014716_003"
+  ],
+  "raw": "<ref>diamond-shaped white road marking painted on the asphalt ground</ref><box><157><654><239><676></box><box><304><663><374><688></box><box><470><674><542><701></box><box><599><595><629><609></box><box><627><596><651><609></box><box><652><597><676><610></box><box><678><598><701><611></box><box><705><598><726><612></box><box><733><601><753><614></box><|im_end|>",
+  "n_raw_boxes": 9,
+  "boxes": [
+   [
+    0.157,
+    0.654,
+    0.239,
+    0.676
+   ],
+   [
+    0.304,
+    0.663,
+    0.374,
+    0.688
+   ],
+   [
+    0.47,
+    0.674,
+    0.542,
+    0.701
+   ],
+   [
+    0.599,
+    0.595,
+    0.629,
+    0.609
+   ],
+   [
+    0.627,
+    0.596,
+    0.651,
+    0.609
+   ],
+   [
+    0.652,
+    0.597,
+    0.676,
+    0.61
+   ],
+   [
+    0.678,
+    0.598,
+    0.701,
+    0.611
+   ],
+   [
+    0.705,
+    0.598,
+    0.726,
+    0.612
+   ],
+   [
+    0.733,
+    0.601,
+    0.753,
+    0.614
+   ]
+  ]
+ },
+ "014716b": {
+  "img": "014716b",
+  "visible": "Images/visible/014716.png",
+  "core": "diamond road sign",
+  "prompt": "Locate every diamond shaped sign lying on the ground (white outlined diamonds painted on the road surface). Output one <box><x1><y1><x2><y2></box> for EACH from left to right.",
+  "queries": [
+   "014716_003"
+  ],
+  "raw": "<ref>diamond shaped sign lying on the ground (white outlined diamonds painted on the road surface)</ref><box>None</box><|im_end|>",
+  "n_raw_boxes": 0,
+  "boxes": []
+ },
+ "012826": {
+  "img": "012826",
+  "visible": "Images/visible/012826.png",
+  "core": "sofa cushion",
+  "prompt": "Locate every individual sofa seat cushion in this image; the sofa has several separate cushions. Output one tight <box><x1><y1><x2><y2></box> for EACH separate cushion from left to right.",
+  "queries": [
+   "012826_001"
+  ],
+  "raw": "<ref>the sofa has several separate cushions from left to right</ref><box><502><761><986><1000></box><|im_end|>",
+  "n_raw_boxes": 1,
+  "boxes": [
+   [
+    0.502,
+    0.761,
+    0.986,
+    1.0
+   ]
+  ]
+ },
+ "016333": {
+  "img": "016333",
+  "visible": "Images/visible/016333.png",
+  "core": "white pelican",
+  "prompt": "Locate every WHITE pelican in this image. Do not include the black swan swimming in the water. Output one <box><x1><y1><x2><y2></box> for EACH white pelican from left to right.",
+  "queries": [
+   "016333_002"
+  ],
+  "raw": "<ref><x1><y1><x2><y2> for EACH white pelican from left to right</ref><box><237><366><284><421></box><box><291><276><314><368></box><box><327><325><354><365></box><box><572><434><616><483></box><box><596><387><621><419></box><|im_end|>",
+  "n_raw_boxes": 5,
+  "boxes": [
+   [
+    0.237,
+    0.366,
+    0.284,
+    0.421
+   ],
+   [
+    0.291,
+    0.276,
+    0.314,
+    0.368
+   ],
+   [
+    0.327,
+    0.325,
+    0.354,
+    0.365
+   ],
+   [
+    0.572,
+    0.434,
+    0.616,
+    0.483
+   ],
+   [
+    0.596,
+    0.387,
+    0.621,
+    0.419
+   ]
+  ]
+ }
+}

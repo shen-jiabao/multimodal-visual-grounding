@@ -1,0 +1,42 @@
+待补条目 45 条
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+/root/miniconda3/envs/myconda/lib/python3.13/site-packages/transformers/models/auto/image_processing_auto.py:647: FutureWarning: The image_processor_class argument is deprecated and will be removed in v4.42. Please use `slow_image_processor_class`, or `fast_image_processor_class` instead
+  warnings.warn(
+The tokenizer you are loading from '/srv/models/LocateAnything-3B' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Qwen2ForCausalLM has generative capabilities, as `prepare_inputs_for_generation` is explicitly defined. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
+  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
+  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 23.52it/s]
+加载完成; 文本 attn = sdpa
+[5/45] 本轮 5/45 0.18 q/s 有框 2 ETA 3.8min
+[10/45] 本轮 10/45 0.18 q/s 有框 6 ETA 3.3min
+[15/45] 本轮 15/45 0.18 q/s 有框 10 ETA 2.7min
+[20/45] 本轮 20/45 0.18 q/s 有框 12 ETA 2.3min
+[25/45] 本轮 25/45 0.21 q/s 有框 14 ETA 1.6min
+[30/45] 本轮 30/45 0.22 q/s 有框 19 ETA 1.2min
+[35/45] 本轮 35/45 0.21 q/s 有框 20 ETA 0.8min
+[40/45] 本轮 40/45 0.21 q/s 有框 24 ETA 0.4min
+[45/45] 本轮 45/45 0.21 q/s 有框 26 ETA 0.0min
+
+完成 45 条，红外图出框 26，仍无框 19
+  [仍无框] 000246_011: '<ref>drone with a green navigation light</ref><box>None</box><|im_end|>'
+  [仍无框] 001121_007: '<ref>The distant person in red clothing with a white hat stands partly occluded by a dark '
+  [仍无框] 001401_001: '<ref>small monkey sitting on the rock formation near the concrete wall, appearing as a bri'
+  [仍无框] 001506_004: '<ref>light beneath the rock located in the upper-right corner of the frame</ref><box>None<'
+  [仍无框] 002780_010: '<ref>A girl flying a kite</ref><box>None</box><|im_end|>'
+  [仍无框] 003186_002: '<ref>person is standing on a metal railing, partially obscured by a structure, emitting a '
+  [仍无框] 003200_004: '<ref>The carrot closest to the camera</ref><box>None</box><|im_end|>'
+  [仍无框] 003368_005: '<ref>A man riding a bike</ref><box>None</box><|im_end|>'
+  [仍无框] 003431_004: '<ref>a bridge</ref><box>None</box><|im_end|>'
+  [仍无框] 003452_005: '<ref>monitor</ref><box>None</box><|im_end|>'
+  [仍无框] 004299_001: '<ref>The black drone on the far right</ref><box>None</box><|im_end|>'
+  [仍无框] 013623_003: '<ref>The rear wheels of the car</ref><box>None</box><|im_end|>'
+  [仍无框] 014113_002: '<ref>red electric scooter in the picture</ref><box>None</box><|im_end|>'
+  [仍无框] 014134_001: '<ref>blue trash can in the upper left corner of the screen</ref><box>None</box><|im_end|>'
+  [仍无框] 014211_003: '<ref>the speed limit 30 sign by the roadside</ref><box>None</box><|im_end|>'
+  [仍无框] 014575_002: '<ref>the orange house</ref><box>None</box><|im_end|>'
+  [仍无框] 015835_002: '<ref>small red house</ref><box>None</box><|im_end|>'
+  [仍无框] 016304_002: '<ref>the black schoolbag</ref><box>None</box><|im_end|>'
+  [仍无框] 016836_001: '<ref>fire hydrant</ref><box>None</box><|im_end|>'

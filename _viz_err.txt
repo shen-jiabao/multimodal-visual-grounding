@@ -1,0 +1,91 @@
+﻿本件 result_semi_k72b_n519.json｜条目 5690
+
+改动条目 304｜未改动 5386
+  改动面 IoU：p10=0.000 p50=0.004 p90=0.423
+
+改动条目抽样明细（蓝=基线，红=本件）：
+  000015_005  IoU=0.000
+     基线 [0.538, 0.902, 0.610, 0.999]
+     本件 [0.744, 0.701, 0.927, 0.999]
+     Q: The dark floor tile closest to the camera
+  000575_001  IoU=0.000
+     基线 [0.074, 0.946, 0.105, 0.999]
+     本件 [0.445, 0.607, 0.480, 0.636]
+     Q: A ground lamp on the ground
+  001163_005  IoU=0.000
+     基线 [0.326, 0.705, 0.341, 0.715]
+     本件 [0.413, 0.599, 0.430, 0.628]
+     Q: The tiny black left-pointing arrow is on the small pale sign near the center, just left of the crouching man at the driveway gate.
+  001751_010  IoU=0.000
+     基线 [0.091, 0.926, 0.176, 0.991]
+     本件 [0.030, 0.947, 0.070, 1.000]
+     Q: The sneakers with white soles and dark uppers worn by the person standing on the tiled floor
+  002857_003  IoU=0.000
+     基线 [0.665, 0.478, 0.718, 0.571]
+     本件 [0.155, 0.000, 0.541, 0.621]
+     Q: The green leafy branch next to the bird's nest
+  003466_004  IoU=0.000
+     基线 [0.343, 0.098, 0.358, 0.201]
+     本件 [0.271, 0.119, 0.288, 0.181]
+     Q: A road light
+  004005_003  IoU=0.000
+     基线 [0.731, 0.687, 0.741, 0.713]
+     本件 [0.756, 0.673, 0.766, 0.714]
+     Q: The person on the far right.
+  012636_002  IoU=0.000
+     基线 [0.196, 0.492, 0.265, 0.710]
+     本件 [0.276, 0.502, 0.351, 0.707]
+     Q: The passenger in the front seat of the bus
+  014050_006  IoU=0.000
+     基线 [0.458, 0.000, 0.597, 0.203]
+     本件 [0.351, 0.000, 0.416, 0.114]
+     Q: The tree trunk with white paint on its lower half located directly behind the bench
+  016248_003  IoU=0.000
+     基线 [0.915, 0.965, 0.999, 0.999]
+     本件 [0.501, 0.680, 0.782, 1.000]
+     Q: The forth stone slab from the left to right
+  017123_002  IoU=0.000
+     基线 [0.887, 0.342, 0.999, 0.600]
+     本件 [0.424, 0.552, 0.571, 0.801]
+     Q: The tiger facing to the left
+  003445_001  IoU=0.039
+     基线 [0.682, 0.000, 0.871, 0.677]
+     本件 [0.595, 0.000, 0.694, 0.805]
+     Q: A tree by the river
+  000687_003  IoU=0.078
+     基线 [0.876, 0.626, 0.999, 0.656]
+     本件 [0.810, 0.629, 0.900, 0.687]
+     Q: The white fence on the rightmost
+  000540_004  IoU=0.153
+     基线 [0.020, 0.588, 0.095, 0.661]
+     本件 [0.000, 0.585, 0.163, 0.805]
+     Q: A tender green blade of grass on the left ground
+  002780_007  IoU=0.193
+     基线 [0.615, 0.051, 0.628, 0.171]
+     本件 [0.615, 0.051, 0.630, 0.076]
+     Q: A street lamp
+  000456_002  IoU=0.227
+     基线 [0.000, 0.706, 0.152, 0.999]
+     本件 [0.000, 0.444, 0.354, 1.000]
+     Q: The green bottom of the green railing on the far left
+  002101_002  IoU=0.310
+     基线 [0.458, 0.083, 0.481, 0.318]
+     本件 [0.447, 0.000, 0.501, 0.324]
+     Q: The white pillar.
+  012811_003  IoU=0.351
+     基线 [0.000, 0.536, 0.076, 0.998]
+     本件 [0.000, 0.526, 0.211, 0.999]
+     Q: The glass door on the left side of the entrance
+  013007_001  IoU=0.407
+     基线 [0.196, 0.085, 0.210, 0.100]
+     本件 [0.194, 0.078, 0.210, 0.109]
+     Q: The blue road sign on the far left
+  014974_003  IoU=0.444
+     基线 [0.313, 0.626, 0.326, 0.650]
+     本件 [0.313, 0.635, 0.323, 0.653]
+     Q: The right eye of the nearest rhino
+
+  图 k_n519_viz
+    k_n519_viz\_sheet_changed.png   （蓝=基线，红=本件）
+    k_n519_viz\_sheet_kept.png
+=== DONE ===

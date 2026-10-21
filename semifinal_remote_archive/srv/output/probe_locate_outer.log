@@ -1,0 +1,17 @@
+== 1) 构造小样（12 图，direct 与序数混合）==
+  图 12 | 问句 80 (direct 60 / 序数 20)
+
+== 2) 跑探针（隔离 venv）==
+/srv/venv-locate/lib/python3.13/site-packages/transformers/loss/loss_for_object_detection.py:28: UserWarning: A NumPy version >=2.0.0 and <2.8.0 is required for this version of SciPy (detected version 1.26.4)
+  from scipy.optimize import linear_sum_assignment
+/root/miniconda3/envs/myconda/lib/python3.13/site-packages/scipy/sparse/_sputils.py:17: FutureWarning: In the future `np.long` will be defined as the corresponding NumPy scalar.
+  np.uintc, np.long, np.ulong, np.longlong, np.ulonglong,
+/root/miniconda3/envs/myconda/lib/python3.13/site-packages/scipy/sparse/_sputils.py:17: FutureWarning: In the future `np.long` will be defined as the corresponding NumPy scalar.
+  np.uintc, np.long, np.ulong, np.longlong, np.ulonglong,
+Traceback (most recent call last):
+  File "/root/_probe_locale.py", line 15, in <module>
+    from transformers import AutoModel, AutoTokenizer, AutoProcessor, AutoConfig
+ImportError: cannot import name 'AutoProcessor' from 'transformers' (/srv/venv-locate/lib/python3.13/site-packages/transformers/__init__.py)
+
+== 3) 显存 ==
+17881 MiB, 49140 MiB, 80 %

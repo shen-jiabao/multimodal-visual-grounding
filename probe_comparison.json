@@ -1,0 +1,762 @@
+{
+ "rows": [
+  {
+   "qid": "000023_001",
+   "query": "From left to right, the first stone pier",
+   "loc_hit": true,
+   "loc_n_boxes": 1,
+   "loc_bbox": [
+    0.0,
+    0.816,
+    0.018,
+    0.891
+   ],
+   "gd_bbox": [
+    0.001872,
+    0.765125,
+    0.229075,
+    0.949204
+   ],
+   "iou": 0.0288,
+   "time_s": 4.137
+  },
+  {
+   "qid": "000023_002",
+   "query": "From left to right, the second stone pier",
+   "loc_hit": true,
+   "loc_n_boxes": 1,
+   "loc_bbox": [
+    0.085,
+    0.788,
+    0.123,
+    0.862
+   ],
+   "gd_bbox": [
+    0.035,
+    0.801,
+    0.075,
+    0.877
+   ],
+   "iou": 0.0,
+   "time_s": 3.538
+  },
+  {
+   "qid": "000023_003",
+   "query": "From left to right, the third stone pier",
+   "loc_hit": true,
+   "loc_n_boxes": 1,
+   "loc_bbox": [
+    0.137,
+    0.776,
+    0.172,
+    0.847
+   ],
+   "gd_bbox": [
+    0.085,
+    0.788,
+    0.123,
+    0.862
+   ],
+   "iou": 0.0,
+   "time_s": 3.372
+  },
+  {
+   "qid": "000023_004",
+   "query": "From left to right, the fourth stone pier",
+   "loc_hit": true,
+   "loc_n_boxes": 1,
+   "loc_bbox": [
+    0.137,
+    0.777,
+    0.172,
+    0.847
+   ],
+   "gd_bbox": [
+    0.136,
+    0.776,
+    0.173,
+    0.848
+   ],
+   "iou": 0.9197,
+   "time_s": 3.375
+  },
+  {
+   "qid": "000023_005",
+   "query": "The stone pier behind the vertical metal fence bar located immediately to the right of the fourth stone pier from the left.",
+   "loc_hit": true,
+   "loc_n_boxes": 1,
+   "loc_bbox": [
+    0.185,
+    0.759,
+    0.219,
+    0.83
+   ],
+   "gd_bbox": [
+    0.171423,
+    0.672942,
+    0.344233,
+    0.947047
+   ],
+   "iou": 0.051,
+   "time_s": 3.964
+  },
+  {
+   "qid": "000023_006",
+   "query": "The white decorative lamp post standing directly in front of the large red inflatable rabbit.",
+   "loc_hit": true,
+   "loc_n_boxes": 1,
+   "loc_bbox": [
+    0.257,
+    0.147,
+    0.321,
+    0.87
+   ],
+   "gd_bbox": [
+    0.257,
+    0.147,
+    0.323,
+    0.87
+   ],
+   "iou": 0.9697,
+   "time_s": 3.732
+  },
+  {
+   "qid": "000023_007",
+   "query": "The person sitting outside the door wearing a blue shirt",
+   "loc_hit": true,
+   "loc_n_boxes": 1,
+   "loc_bbox": [
+    0.956,
+    0.561,
+    1.0,
+    0.689
+   ],
+   "gd_bbox": [
+    0.95152,
+    0.55185,
+    0.997213,
+    0.701901
+   ],
+   "iou": 0.7314,
+   "time_s": 3.586
+  },
+  {
+   "qid": "001038_001",
+   "query": "Man wearing a black shirt walking across the road between a white suv and black sedan",
+   "loc_hit": true,
+   "loc_n_boxes": 1,
+   "loc_bbox": [
+    0.386,
+    0.758,
+    0.438,
+    1.0
+   ],
+   "gd_bbox": [
+    0.382237,
+    0.754637,
+    0.443933,
+    0.998788
+   ],
+   "iou": 0.8278,
+   "time_s": 3.827
+  },
+  {
+   "qid": "001038_002",
+   "query": "Large, dark-colored residential high-rise building in the center background featuring a solid white wall on its left side.",
+   "loc_hit": true,
+   "loc_n_boxes": 1,
+   "loc_bbox": [
+    0.342,
+    0.245,
+    0.603,
+    0.788
+   ],
+   "gd_bbox": [
+    0.340518,
+    0.268437,
+    0.375974,
+    0.779873
+   ],
+   "iou": 0.1219,
+   "time_s": 3.973
+  },
+  {
+   "qid": "001038_003",
+   "query": "The closest silver sedan positioned at the leftmost edge of the traffic line",
+   "loc_hit": true,
+   "loc_n_boxes": 1,
+   "loc_bbox": [
+    0.112,
+    0.786,
+    0.328,
+    1.0
+   ],
+   "gd_bbox": [
+    0.841466,
+    0.710955,
+    0.998984,
+    0.995939
+   ],
+   "iou": 0.0,
+   "time_s": 3.726
+  },
+  {
+   "qid": "001038_004",
+   "query": "The white compact SUV facing slightly toward the camera in the middle of the stopped traffic queue is partly hidden behind the pedestrian carrying a white bag and sits immediately left of the black SUV.",
+   "loc_hit": true,
+   "loc_n_boxes": 1,
+   "loc_bbox": [
+    0.311,
+    0.776,
+    0.458,
+    0.934
+   ],
+   "gd_bbox": [
+    0.382444,
+    0.755523,
+    0.444852,
+    0.999127
+   ],
+   "iou": 0.3452,
+   "time_s": 4.443
+  },
+  {
+   "qid": "001038_005",
+   "query": "The circular 30 km/h speed limit sign next to the green trees near the road",
+   "loc_hit": true,
+   "loc_n_boxes": 1,
+   "loc_bbox": [
+    0.714,
+    0.661,
+    0.742,
+    0.716
+   ],
+   "gd_bbox": [
+    0.711875,
+    0.656401,
+    0.744129,
+    0.720284
+   ],
+   "iou": 0.7474,
+   "time_s": 3.862
+  },
+  {
+   "qid": "001038_006",
+   "query": "The tallest curved white street light to the left of the tallest high rise building",
+   "loc_hit": true,
+   "loc_n_boxes": 1,
+   "loc_bbox": [
+    0.071,
+    0.248,
+    0.175,
+    0.788
+   ],
+   "gd_bbox": [
+    0.326882,
+    0.479209,
+    0.383806,
+    0.78025
+   ],
+   "iou": 0.0,
+   "time_s": 3.765
+  },
+  {
+   "qid": "001038_007",
+   "query": "The rightmost black sedan, seen from behind with a blue license plate and a red brake light, is stopped beside the black SUV.",
+   "loc_hit": true,
+   "loc_n_boxes": 1,
+   "loc_bbox": [
+    0.842,
+    0.709,
+    1.0,
+    1.0
+   ],
+   "gd_bbox": [
+    0.841466,
+    0.710955,
+    0.998984,
+    0.995939
+   ],
+   "iou": 0.9698,
+   "time_s": 4.142
+  },
+  {
+   "qid": "001038_008",
+   "query": "The blue rear license plate marked 'B9692A' on the rightmost black sedan is at the bottom-right edge.",
+   "loc_hit": false,
+   "loc_n_boxes": 0,
+   "loc_bbox": null,
+   "gd_bbox": [
+    0.841466,
+    0.710955,
+    0.998984,
+    0.995939
+   ],
+   "iou": 0.0,
+   "time_s": 4.02
+  },
+  {
+   "qid": "001038_009",
+   "query": "The small bright silver screw on the left side of the blue rear license plate of the rightmost black sedan.",
+   "loc_hit": true,
+   "loc_n_boxes": 1,
+   "loc_bbox": [
+    0.941,
+    0.866,
+    0.945,
+    0.877
+   ],
+   "gd_bbox": [
+    0.841466,
+    0.710955,
+    0.998984,
+    0.995939
+   ],
+   "iou": 0.001,
+   "time_s": 3.957
+  },
+  {
+   "qid": "001038_010",
+   "query": "The illuminated rear-left taillight of the partially visible rightmost black car is at the far right edge.",
+   "loc_hit": true,
+   "loc_n_boxes": 1,
+   "loc_bbox": [
+    0.935,
+    0.776,
+    0.969,
+    0.788
+   ],
+   "gd_bbox": [
+    0.841831,
+    0.712235,
+    0.999662,
+    0.998272
+   ],
+   "iou": 0.009,
+   "time_s": 4.072
+  },
+  {
+   "qid": "001038_011",
+   "query": "The silver-spoked rear wheel of the black car is at the lower center-right, immediately left of the dark sedan.",
+   "loc_hit": false,
+   "loc_n_boxes": 0,
+   "loc_bbox": null,
+   "gd_bbox": [
+    0.478365,
+    0.886301,
+    0.538465,
+    0.992949
+   ],
+   "iou": 0.0,
+   "time_s": 3.906
+  },
+  {
+   "qid": "001038_012",
+   "query": "The silver rear left wheel of the black car in the foreground, located at the bottom center just to the right of the standing man.",
+   "loc_hit": false,
+   "loc_n_boxes": 0,
+   "loc_bbox": null,
+   "gd_bbox": [
+    0.477192,
+    0.887298,
+    0.538902,
+    0.995946
+   ],
+   "iou": 0.0,
+   "time_s": 4.012
+  },
+  {
+   "qid": "001038_013",
+   "query": "The small rounded rectangular fuel door on the rear side panel of the left-foreground silver car is visible.",
+   "loc_hit": true,
+   "loc_n_boxes": 1,
+   "loc_bbox": [
+    0.234,
+    0.884,
+    0.266,
+    0.918
+   ],
+   "gd_bbox": [
+    0.232217,
+    0.876295,
+    0.2668,
+    0.922433
+   ],
+   "iou": 0.6819,
+   "time_s": 3.907
+  },
+  {
+   "qid": "001038_014",
+   "query": "The glowing red rear taillight on the silver sedan is on the back corner of the leftmost car in the foreground.",
+   "loc_hit": true,
+   "loc_n_boxes": 1,
+   "loc_bbox": [
+    0.278,
+    0.88,
+    0.321,
+    0.909
+   ],
+   "gd_bbox": [
+    0.10908,
+    0.787988,
+    0.326918,
+    0.997894
+   ],
+   "iou": 0.0273,
+   "time_s": 4.076
+  },
+  {
+   "qid": "000002_001",
+   "query": "Red promotional sign with food imagery",
+   "loc_hit": true,
+   "loc_n_boxes": 1,
+   "loc_bbox": [
+    0.477,
+    0.428,
+    0.553,
+    0.512
+   ],
+   "gd_bbox": [
+    0.478098,
+    0.420963,
+    0.555685,
+    0.515719
+   ],
+   "iou": 0.8452,
+   "time_s": 3.465
+  },
+  {
+   "qid": "000002_002",
+   "query": "Two white umbrellas above the outdoor dining area",
+   "loc_hit": true,
+   "loc_n_boxes": 2,
+   "loc_bbox": [
+    0.083,
+    0.251,
+    0.335,
+    0.402
+   ],
+   "gd_bbox": [
+    0.080607,
+    0.246716,
+    0.482339,
+    0.443398
+   ],
+   "iou": 0.4816,
+   "time_s": 3.772
+  },
+  {
+   "qid": "000002_003",
+   "query": "A man in a checkered shirt beside the white street lamp",
+   "loc_hit": true,
+   "loc_n_boxes": 1,
+   "loc_bbox": [
+    0.654,
+    0.459,
+    0.69,
+    0.673
+   ],
+   "gd_bbox": [
+    0.653582,
+    0.469658,
+    0.689809,
+    0.571304
+   ],
+   "iou": 0.4699,
+   "time_s": 3.639
+  },
+  {
+   "qid": "000002_004",
+   "query": "A black metal awning over the glass entrance doors",
+   "loc_hit": true,
+   "loc_n_boxes": 1,
+   "loc_bbox": [
+    0.0,
+    0.04,
+    0.121,
+    0.169
+   ],
+   "gd_bbox": [
+    0.247465,
+    0.026013,
+    0.497513,
+    0.250377
+   ],
+   "iou": 0.0,
+   "time_s": 3.572
+  },
+  {
+   "qid": "000002_005",
+   "query": "The passage to the upper level of the building",
+   "loc_hit": true,
+   "loc_n_boxes": 1,
+   "loc_bbox": [
+    0.0,
+    0.0,
+    0.999,
+    0.774
+   ],
+   "gd_bbox": [
+    0.41883,
+    0.002879,
+    0.950037,
+    0.131365
+   ],
+   "iou": 0.0883,
+   "time_s": 3.576
+  },
+  {
+   "qid": "000002_006",
+   "query": "The leftmost security camera mounted on the stone pillar, located directly below the black awning.",
+   "loc_hit": true,
+   "loc_n_boxes": 1,
+   "loc_bbox": [
+    0.104,
+    0.179,
+    0.126,
+    0.21
+   ],
+   "gd_bbox": [
+    0.247415,
+    0.026952,
+    0.498612,
+    0.251488
+   ],
+   "iou": 0.0,
+   "time_s": 3.88
+  },
+  {
+   "qid": "000002_007",
+   "query": "A golden menu standing in front of the black dining barrier",
+   "loc_hit": true,
+   "loc_n_boxes": 1,
+   "loc_bbox": [
+    0.266,
+    0.501,
+    0.311,
+    0.654
+   ],
+   "gd_bbox": [
+    0.265087,
+    0.496866,
+    0.311172,
+    0.657201
+   ],
+   "iou": 0.9318,
+   "time_s": 3.624
+  },
+  {
+   "qid": "000212_001",
+   "query": "The large illuminated letter 'm' with embedded white bulbs and colorful neon borders",
+   "loc_hit": true,
+   "loc_n_boxes": 4,
+   "loc_bbox": [
+    0.108,
+    0.67,
+    0.24,
+    0.998
+   ],
+   "gd_bbox": [
+    0.108305,
+    0.400903,
+    0.480167,
+    0.997363
+   ],
+   "iou": 0.1942,
+   "time_s": 4.353
+  },
+  {
+   "qid": "000212_002",
+   "query": "The physical large illuminated letter 'U' in the foreground, featuring embedded white bulbs and colorful neon borders.",
+   "loc_hit": true,
+   "loc_n_boxes": 3,
+   "loc_bbox": [
+    0.109,
+    0.674,
+    0.238,
+    0.998
+   ],
+   "gd_bbox": [
+    0.501879,
+    0.630522,
+    0.881147,
+    0.997772
+   ],
+   "iou": 0.0,
+   "time_s": 4.321
+  },
+  {
+   "qid": "000212_003",
+   "query": "The large illuminated letter 'Y' positioned on the far right of the sign next to the letter 'U', featuring embedded white bulbs and colorful neon borders.",
+   "loc_hit": true,
+   "loc_n_boxes": 1,
+   "loc_bbox": [
+    0.502,
+    0.629,
+    0.878,
+    1.0
+   ],
+   "gd_bbox": [
+    0.502461,
+    0.631882,
+    0.879904,
+    0.997247
+   ],
+   "iou": 0.9787,
+   "time_s": 4.285
+  },
+  {
+   "qid": "000212_004",
+   "query": "The smaller illuminated letter 'Y' with embedded white bulbs and colorful neon borders",
+   "loc_hit": true,
+   "loc_n_boxes": 1,
+   "loc_bbox": [
+    0.108,
+    0.67,
+    0.24,
+    0.998
+   ],
+   "gd_bbox": [
+    0.108612,
+    0.403991,
+    0.478871,
+    0.995952
+   ],
+   "iou": 0.195,
+   "time_s": 3.82
+  },
+  {
+   "qid": "000212_005",
+   "query": "The reflective glass window showing mirrored images of the illuminated letters",
+   "loc_hit": true,
+   "loc_n_boxes": 1,
+   "loc_bbox": [
+    0.0,
+    0.0,
+    0.999,
+    0.999
+   ],
+   "gd_bbox": [
+    0.106874,
+    0.38033,
+    0.881597,
+    0.99603
+   ],
+   "iou": 0.478,
+   "time_s": 3.639
+  },
+  {
+   "qid": "000212_006",
+   "query": "The dark striped entrance mat visible through the right glass",
+   "loc_hit": true,
+   "loc_n_boxes": 1,
+   "loc_bbox": [
+    0.0,
+    0.29,
+    0.153,
+    0.678
+   ],
+   "gd_bbox": [
+    0.239195,
+    0.762118,
+    0.390515,
+    0.995569
+   ],
+   "iou": 0.0,
+   "time_s": 3.609
+  },
+  {
+   "qid": "000212_007",
+   "query": "The mirrored image of the letter 'U' in the reflective glass",
+   "loc_hit": true,
+   "loc_n_boxes": 1,
+   "loc_bbox": [
+    0.0,
+    0.0,
+    0.999,
+    0.999
+   ],
+   "gd_bbox": [
+    0.109997,
+    0.382241,
+    0.480868,
+    0.99708
+   ],
+   "iou": 0.2285,
+   "time_s": 3.714
+  },
+  {
+   "qid": "000212_008",
+   "query": "The mirrored image of the letter 'Y' in the reflective glass",
+   "loc_hit": true,
+   "loc_n_boxes": 1,
+   "loc_bbox": [
+    0.0,
+    0.0,
+    0.999,
+    0.999
+   ],
+   "gd_bbox": [
+    0.109997,
+    0.382241,
+    0.480868,
+    0.99708
+   ],
+   "iou": 0.2285,
+   "time_s": 3.713
+  },
+  {
+   "qid": "000212_009",
+   "query": "The curved black line marking on the tiled plaza reflection",
+   "loc_hit": true,
+   "loc_n_boxes": 1,
+   "loc_bbox": [
+    0.285,
+    0.0,
+    0.999,
+    0.674
+   ],
+   "gd_bbox": [
+    0.285072,
+    0.224469,
+    0.5496,
+    0.430856
+   ],
+   "iou": 0.1134,
+   "time_s": 3.611
+  },
+  {
+   "qid": "000212_010",
+   "query": "The small blue sign with white text in the top left corner",
+   "loc_hit": true,
+   "loc_n_boxes": 1,
+   "loc_bbox": [
+    0.0,
+    0.0,
+    0.092,
+    0.09
+   ],
+   "gd_bbox": [
+    0.50132,
+    0.630467,
+    0.877909,
+    0.992699
+   ],
+   "iou": 0.0,
+   "time_s": 3.644
+  }
+ ],
+ "summary": {
+  "n": 38,
+  "hits": 35,
+  "hit_rate": 92.11,
+  "iou_mean": 0.3333,
+  "iou_median": 0.1942,
+  "iou_ge70": 9,
+  "iou_ge50": 10,
+  "bad_bbox": 0,
+  "time_avg": 3.832,
+  "time_p95": 4.321,
+  "eta_h_avg": 10.17
+ }
+}

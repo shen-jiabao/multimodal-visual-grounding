@@ -1,0 +1,252 @@
+### 一、原代码功能与问题分析
+
+#### 核心功能
+
+这段代码实现了**Grounding DINO 文本引导目标检测 + SAM 实例分割**的经典流水线：输入单张RGB图像+英文文本prompt，输出目标检测框与像素级分割掩码，用于单张图片可视化验证。
+
+#### 核心问题（无法直接用于本次比赛）
+
+1. **单模态输入限制**：仅读取可见光RGB图像，完全未利用红外、深度模态，不符合赛题三模态输入要求。
+2. **输出格式不匹配**：输出像素级坐标，未做`[0,1]`归一化；没有按赛题要求生成以Query ID为索引的JSON结果文件。
+3. **设备与效率问题**：
+   - 定义了`device`但模型加载、推理未使用，`predict`硬编码`device="cpu"`，推理速度极慢。
+   - SAM每次推理都重复初始化`SamPredictor`，冗余加载，效率极低。
+4. **工程与语法缺陷**：缩进异常、缺少批量推理逻辑、无NMS后处理，易出现重复框/无效框。
+5. **功能冗余**：赛题仅要求输出边界框（BBox），SAM分割属于额外功能，提交阶段可移除以提升速度。
+
+---
+
+### 二、适配比赛的改造代码（单模态基线版）
+
+先修复所有问题，对齐赛题输入输出规范，跑出单模态RGB基线结果，验证全流程。
+
+```
+# -*- coding: utf-8 -*-
+import os
+import json
+import cv2
+import numpy as np
+import torch
+from torchvision.ops import nms, box_convert
+from groundingdino.util.inference import load_model, load_image, predict
+
+# ===================== 全局配置 =====================
+DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
+# Grounding DINO 路径配置
+CFG_PATH = r'../DIR_VLP/GroundingDINO/groundingdino/config/GroundingDINO_SwinT_OGC.py'
+WEIGHT_PATH = r'../DIR_VLP/GroundingDINO/weights/groundingdino_swint_ogc.pth'
+
+# 检测阈值（可根据验证集调优）
+BOX_THRESHOLD = 0.35
+TEXT_THRESHOLD = 0.25
+NMS_IOU_THRESHOLD = 0.6
+
+# 测试集与输出路径
+TEST_JSON = r'data/test.json'  # 赛题官方JSON索引文件
+OUTPUT_JSON = r'result/prediction.json'
+
+# ===================== 加载模型 =====================
+print('Loading Grounding DINO model...')
+model = load_model(CFG_PATH, WEIGHT_PATH)
+model = model.to(DEVICE)
+print('Model loaded on', DEVICE)
+
+# ===================== 核心推理函数 =====================
+def predict_single_image(img_path, text_prompt):
+    """
+    单张图像推理，返回归一化xyxy坐标
+    :param img_path: 可见光图像路径
+    :param text_prompt: 英文查询文本
+    :return: 归一化bbox [x1, y1, x2, y2]，取值0~1
+    """
+    # 加载图像
+    image_source, image = load_image(img_path)
+    h, w = image_source.shape[:2]
+
+    # 模型推理
+    boxes, logits, _ = predict(
+        model=model,
+        image=image,
+        caption=text_prompt,
+        box_threshold=BOX_THRESHOLD,
+        text_threshold=TEXT_THRESHOLD,
+        device=DEVICE
+    )
+
+    if len(boxes) == 0:
+        # 无检测结果时返回兜底小框（避免提交无效）
+        return [0.0, 0.0, 0.01, 0.01]
+
+    # 坐标转换：cxcywh -> xyxy（像素坐标）
+    boxes_xyxy = box_convert(boxes=boxes, in_fmt="cxcywh", out_fmt="xyxy")
+    boxes_xyxy = boxes_xyxy * torch.tensor([w, h, w, h], device=DEVICE)
+
+    # NMS去重
+    keep_idx = nms(boxes_xyxy, logits, NMS_IOU_THRESHOLD)
+    boxes_xyxy = boxes_xyxy[keep_idx]
+    logits = logits[keep_idx]
+
+    # 取置信度最高的框（赛题每个query对应唯一目标）
+    best_idx = torch.argmax(logits)
+    best_box = boxes_xyxy[best_idx].cpu().numpy()
+
+    # 归一化到[0,1]，并裁剪边界
+    best_box = best_box / np.array([w, h, w, h])
+    best_box = np.clip(best_box, 0.0, 1.0)
+
+    # 保证x1<x2, y1<y2
+    x1, y1, x2, y2 = best_box
+    if x1 >= x2:
+        x1, x2 = max(0, x2 - 0.01), min(1, x1 + 0.01)
+    if y1 >= y2:
+        y1, y2 = max(0, y2 - 0.01), min(1, y1 + 0.01)
+
+    return [float(x1), float(y1), float(x2), float(y2)]
+
+# ===================== 批量推理与结果生成 =====================
+def generate_submission():
+    """批量处理测试集，生成符合赛题要求的JSON结果"""
+    # 读取测试集索引
+    with open(TEST_JSON, 'r', encoding='utf-8') as f:
+        test_data = json.load(f)
+
+    results = {}
+    total = len(test_data)
+    for idx, (query_id, info) in enumerate(test_data.items()):
+        if idx % 10 == 0:
+            print(f'Processing {idx}/{total} ...')
+
+        visible_path = info['visible']
+        query_text = info['query']
+
+        # 推理预测
+        bbox = predict_single_image(visible_path, query_text)
+
+        # 按赛题格式保存
+        results[query_id] = {
+            "visible": info['visible'],
+            "infrared": info['infrared'],
+            "depth": info['depth'],
+            "query": query_text,
+            "bbox": bbox
+        }
+
+    # 保存结果
+    os.makedirs(os.path.dirname(OUTPUT_JSON), exist_ok=True)
+    with open(OUTPUT_JSON, 'w', encoding='utf-8') as f:
+        json.dump(results, f, indent=2)
+    print(f'Result saved to {OUTPUT_JSON}')
+    print('请将该JSON压缩为zip后提交')
+
+if __name__ == '__main__':
+    generate_submission()
+```
+
+---
+
+### 三、三模态融合增强版（核心提分点）
+
+在单模态基础上，加入**红外+深度模态的早期融合**，修改模型输入层，利用多模态互补信息提升精度，对应技术方案中的「早期融合」策略。
+
+#### 改造思路
+
+1. 将RGB（3通道）、红外（1通道）、深度（1通道）在输入层拼接为5通道张量。
+2. 修改Grounding DINO视觉编码器第一层卷积，输入通道从3改为5，前3通道加载预训练权重，后2通道高斯初始化。
+3. 推理时同步读取三模态图像，预处理后拼接输入模型。
+
+```
+# 仅展示多模态核心改造部分，其余逻辑同单模态版
+import torch.nn as nn
+
+def modify_model_input_channels(model):
+    """修改模型第一层卷积为5通道，适配三模态输入"""
+    # 获取原第一层卷积
+    backbone = model.backbone
+    # 不同backbone位置不同，SwinT对应patch_embed.proj
+    old_conv = backbone.patch_embed.proj
+    in_channels = 5  # RGB(3) + 红外(1) + 深度(1)
+
+    # 创建新卷积层
+    new_conv = nn.Conv2d(
+        in_channels=in_channels,
+        out_channels=old_conv.out_channels,
+        kernel_size=old_conv.kernel_size,
+        stride=old_conv.stride,
+        padding=old_conv.padding,
+        bias=old_conv.bias is not None
+    )
+
+    # 初始化权重：前3通道复用预训练，后2通道高斯初始化
+    with torch.no_grad():
+        new_conv.weight[:, :3, :, :] = old_conv.weight
+        nn.init.normal_(new_conv.weight[:, 3:, :, :], mean=0.0, std=0.01)
+        if old_conv.bias is not None:
+            new_conv.bias = old_conv.bias
+
+    # 替换原卷积
+    backbone.patch_embed.proj = new_conv
+    return model
+
+def load_multimodal_image(rgb_path, ir_path, depth_path):
+    """加载并预处理三模态图像，拼接为5通道输入"""
+    # 1. 可见光RGB
+    rgb = cv2.imread(rgb_path)
+    rgb = cv2.cvtColor(rgb, cv2.COLOR_BGR2RGB)
+    h, w = rgb.shape[:2]
+    rgb = rgb.astype(np.float32) / 255.0
+
+    # 2. 红外图像（三通道转单通道，直方图均衡化）
+    ir = cv2.imread(ir_path, cv2.IMREAD_GRAYSCALE)
+    ir = cv2.equalizeHist(ir)
+    ir = cv2.resize(ir, (w, h))
+    ir = ir.astype(np.float32) / 255.0
+
+    # 3. 深度图像（无效值处理+归一化）
+    depth = cv2.imread(depth_path, cv2.IMREAD_UNCHANGED)
+    depth = cv2.resize(depth, (w, h))
+    # 无效值0替换为邻域均值
+    depth[depth == 0] = np.mean(depth[depth > 0])
+    # 对数压缩0~20000mm到0~1
+    depth = np.clip(depth, 0, 20000)
+    depth = np.log1p(depth) / np.log1p(20000)
+    depth = depth.astype(np.float32)
+
+    # 4. 通道拼接：RGB + IR + Depth -> [5, H, W]
+    multimodal = np.concatenate([
+        rgb.transpose(2, 0, 1),
+        ir[np.newaxis, :, :],
+        depth[np.newaxis, :, :]
+    ], axis=0)
+
+    # 转为Tensor，增加batch维度
+    multimodal_tensor = torch.from_numpy(multimodal).unsqueeze(0).to(DEVICE)
+    return rgb, multimodal_tensor, h, w
+```
+
+---
+
+### 四、关键调参与比赛对齐说明
+
+#### 1. 阈值调参（直接影响[ACC@0.5](mailto:ACC@0.5)）
+
+| 参数 | 推荐初始值 | 调优方向 |
+| --- | --- | --- |
+| `BOX_THRESHOLD` | 0.35 | 漏检多则降低，假阳性多则升高 |
+| `TEXT_THRESHOLD` | 0.25 | 语义不匹配时升高 |
+| `NMS_IOU_THRESHOLD` | 0.6 | 密集目标调至0.7，稀疏场景调至0.5 |
+
+#### 2. 赛题输出合规校验
+
+- 坐标必须是`[x1, y1, x2, y2]`，且`0 ≤ x1 < x2 ≤ 1`，`0 ≤ y1 < y2 ≤ 1`。
+- 仅修改`bbox`字段，保留其他原始字段，否则评测匹配失败。
+- 最终将`prediction.json`打包为**zip压缩包**提交。
+
+#### 3. 进阶提分方向
+
+1. **特征层融合**：替换早期融合为门控特征融合，精度提升更明显。
+2. **LoRA微调**：用赛题训练集对模型做轻量化微调，适配场景分布。
+3. **多模型集成**：融合Grounding DINO与Locate-Anything的预测结果，降低单模型偏差。
+4. **空间语义增强**：解析文本中的“最远/最近/左边”等空间词，加权深度特征响应。
+
+需要我补充**LoRA微调代码**、**特征层融合模块实现**，或者**结果可视化与验证脚本**吗？

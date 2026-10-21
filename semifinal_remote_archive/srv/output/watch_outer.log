@@ -1,0 +1,68 @@
+=== [Tue Sep 22 19:49:29 CST 2026] 监视 8B 主任务，结束即启动 LA ===
+[19:49:29] 心跳 第 1 次检查：8B 仍在运行
+[19:59:29] 心跳 第 11 次检查：8B 仍在运行
+[Tue Sep 22 20:07:29 CST 2026] 8B 主任务进程已退出；等 45s 让显存释放...
+0 MiB, 49140 MiB
+
+=== [#3] 8B 产物完整性核对（进程退出不代表产物完整）===
+  qwen3vl_all.json: 5690 条 | 有框 5645 | err 0
+  qwen3vl_som_all.json: 1103 条 | 有框 832 | err 0
+  期望: direct 5690 条、som 1103 条
+  qwen_full.log 中 [ERR] 计数: 0
+
+[Tue Sep 22 20:08:14 CST 2026] 调用 LA 启动器（其闸门 4 做最终判断）...
+===== 闸门 1) 模型权重 =====
+safetensors=2 (应 2)  incomplete=0 (应 0)
+
+===== 闸门 2) 解释器依赖 =====
+  torch         2.8.0+cu128
+  transformers  4.57.6
+  peft          0.21.0
+  decord        0.6.0
+  lmdb          2.3.0
+  PIL           11.0.0
+  AutoProcessor 可导入
+
+===== 闸门 3) 数据：queries + 引用图完整可读 =====
+  queries 5690 | 引用图 1295 | 缺失 0 | 不可读 0
+
+===== 闸门 4) GPU 必须空闲（须等 8B 主任务跑完）=====
+  GPU 空闲
+
+PASS: 可以启动 LocateAnything 全量
+已启动 PID=6296
+--- 日志首 12 行 ---
+问句总数 5690
+待处理 5690/5690
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+/root/miniconda3/envs/myconda/lib/python3.13/site-packages/transformers/models/auto/image_processing_auto.py:647: FutureWarning: The image_processor_class argument is deprecated and will be removed in v4.42. Please use `slow_image_processor_class`, or `fast_image_processor_class` instead
+  warnings.warn(
+The tokenizer you are loading from '/srv/models/LocateAnything-3B' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Qwen2ForCausalLM has generative capabilities, as `prepare_inputs_for_generation` is explicitly defined. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
+  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
+  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 24.26it/s]
+[Tue Sep 22 20:09:46 CST 2026] 启动器返回码 rc=0
+
+=== [#4] 启动后核对 ===
+--- LA 进程 ---
+ 6296       00:00 /srv/venv-la2/bin/python -u /root/_locate_full.py
+--- GPU ---
+24911 MiB, 49140 MiB, 100 %
+75939, 24902 MiB
+--- LA 日志前 12 行 ---
+问句总数 5690
+待处理 5690/5690
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+/root/miniconda3/envs/myconda/lib/python3.13/site-packages/transformers/models/auto/image_processing_auto.py:647: FutureWarning: The image_processor_class argument is deprecated and will be removed in v4.42. Please use `slow_image_processor_class`, or `fast_image_processor_class` instead
+  warnings.warn(
+The tokenizer you are loading from '/srv/models/LocateAnything-3B' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Qwen2ForCausalLM has generative capabilities, as `prepare_inputs_for_generation` is explicitly defined. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
+  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
+  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 24.26it/s]
+=== [Tue Sep 22 20:10:07 CST 2026] 衔接流程结束 ===

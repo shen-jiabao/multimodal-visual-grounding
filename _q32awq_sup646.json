@@ -1,0 +1,6172 @@
+{
+ "000015_001": {
+  "bbox": [
+   0.088,
+   0.273,
+   0.308,
+   0.805
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [88, 273, 308, 805], \"label\": \"The adult woman closest to the camera, leaning down\"}]"
+ },
+ "000015_005": {
+  "bbox": [
+   0.535,
+   0.765,
+   0.618,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [535, 765, 618, 999], \"label\": \"The dark floor tile closest to the camera\"}]"
+ },
+ "000029_001": {
+  "bbox": [
+   0.307,
+   0.714,
+   0.452,
+   0.978
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [307, 714, 452, 978], \"label\": \"The leftmost roadblock\"}]"
+ },
+ "000036_003": {
+  "bbox": [
+   0.144,
+   0.397,
+   0.182,
+   0.544
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [144, 397, 182, 544], \"label\": \"The person in the leftmost\"}]"
+ },
+ "000155_006": {
+  "bbox": [
+   0.769,
+   0.695,
+   0.815,
+   0.717
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [769, 695, 815, 717], \"label\": \"A white car behind the fence on the rightmost\"}]"
+ },
+ "000393_005": {
+  "bbox": [
+   0.381,
+   0.675,
+   0.4,
+   0.704
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [381, 675, 400, 704], \"label\": \"A dark eye of the spotted deer closest to the camera\"}]"
+ },
+ "000400_002": {
+  "bbox": [
+   0.508,
+   0.468,
+   0.558,
+   0.572
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [508, 468, 558, 572], \"label\": \"A white deer walking towards the background closest to the camera\"}]"
+ },
+ "000400_004": {
+  "bbox": [
+   0.38,
+   0.795,
+   0.72,
+   1.0
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [380, 795, 720, 1000], \"label\": \"The back of a deer head closest to the camera\"}]"
+ },
+ "000400_005": {
+  "bbox": [
+   0.802,
+   0.51,
+   0.84,
+   0.559
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [802, 510, 840, 559], \"label\": \"A deer near the tree trunk on the rightmost side of the image\"}]"
+ },
+ "000414_002": {
+  "bbox": [
+   0.07,
+   0.438,
+   0.085,
+   0.492
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [70, 438, 85, 492], \"label\": \"The person wearing white clothes on the leftmost side\"}]"
+ },
+ "000414_004": {
+  "bbox": [
+   0.07,
+   0.438,
+   0.085,
+   0.494
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [70, 438, 85, 494], \"label\": \"The person wearing a white hat on the leftmost side\"}]"
+ },
+ "000414_005": {
+  "bbox": [
+   0.929,
+   0.634,
+   1.0,
+   0.83
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [929, 634, 1000, 830], \"label\": \"The bear closest to the camera\"}]"
+ },
+ "000442_001": {
+  "bbox": [
+   0.575,
+   0.565,
+   0.627,
+   0.895
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [575, 565, 627, 895], \"label\": \"The white crane closest to the camera\"}]"
+ },
+ "000442_002": {
+  "bbox": [
+   0.933,
+   0.27,
+   0.965,
+   0.35
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [933, 270, 965, 350], \"label\": \"The white crane on the rightmost with the largest area obscured by leaves\"}]"
+ },
+ "000449_003": {
+  "bbox": [
+   0.37,
+   0.571,
+   0.428,
+   0.758
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [370, 571, 428, 758], \"label\": \"The white crane lowering its head to peck closest to the camera\"}]"
+ },
+ "000463_004": {
+  "bbox": [
+   0.283,
+   0.325,
+   0.427,
+   0.498
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [283, 325, 427, 498], \"label\": \"The zebra with thermal radiation information closest to the camera\"}]"
+ },
+ "000491_001": {
+  "bbox": [
+   0.0,
+   0.607,
+   0.048,
+   0.648
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 607, 48, 648], \"label\": \"The leftmost white goose\"}]"
+ },
+ "000491_002": {
+  "bbox": [
+   0.475,
+   0.527,
+   0.507,
+   0.548
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [475, 527, 507, 548], \"label\": \"The farthest white goose\"}]"
+ },
+ "000505_003": {
+  "bbox": [
+   0.714,
+   0.27,
+   0.778,
+   0.357
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [714, 270, 778, 357], \"label\": \"The swan with the longest outstretched neck farthest to the camera\"}]"
+ },
+ "000519_001": {
+  "bbox": [
+   0.0,
+   0.27,
+   0.039,
+   0.378
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 270, 39, 378], \"label\": \"The leftmost monkey\"}]"
+ },
+ "000519_002": {
+  "bbox": [
+   0.44,
+   0.717,
+   0.465,
+   0.775
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [440, 717, 465, 775], \"label\": \"The left hand and left foot of the monkey closest to the camera\"}]"
+ },
+ "000519_003": {
+  "bbox": [
+   0.44,
+   0.717,
+   0.465,
+   0.775
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [440, 717, 465, 775], \"label\": \"The right hand and right foot of the monkey closest to the camera\"}]"
+ },
+ "000519_004": {
+  "bbox": [
+   0.02,
+   0.267,
+   0.039,
+   0.292
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [20, 267, 39, 292], \"label\": \"The tail of the monkey farthest from the camera\"}]"
+ },
+ "000547_005": {
+  "bbox": [
+   0.417,
+   0.375,
+   0.614,
+   0.555
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [417, 375, 614, 555], \"label\": \"The peacock closest to the camera\"}]"
+ },
+ "000575_003": {
+  "bbox": [
+   0.825,
+   0.421,
+   1.0,
+   0.855
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [825, 421, 1000, 855], \"label\": \"The white and green shrub on the rightmost\"}]"
+ },
+ "000582_002": {
+  "bbox": [
+   0.0,
+   0.188,
+   0.067,
+   0.488
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 188, 67, 488], \"label\": \"The fence on the leftmost\"}]"
+ },
+ "000589_003": {
+  "bbox": [
+   0.555,
+   0.575,
+   0.59,
+   0.642
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [555, 575, 590, 642], \"label\": \"The left ear of the white deer closest to the camera\"}]"
+ },
+ "000589_004": {
+  "bbox": [
+   0.625,
+   0.565,
+   0.662,
+   0.655
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [625, 565, 662, 655], \"label\": \"The right ear of the white deer closest to the camera\"}]"
+ },
+ "000596_001": {
+  "bbox": [
+   0.805,
+   0.638,
+   0.925,
+   0.775
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [805, 638, 925, 775], \"label\": \"The hump on the leftmost of the camel\"}]"
+ },
+ "000596_003": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "000596_004": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "000624_002": {
+  "bbox": [
+   0.054,
+   0.868,
+   0.1,
+   0.908
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [54, 868, 100, 908], \"label\": \"A yellow brick in the lower leftmost corner\"}]"
+ },
+ "000638_001": {
+  "bbox": [
+   0.0,
+   0.534,
+   0.198,
+   0.66
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 534, 198, 660], \"label\": \"A grey cement floor on the leftmost\"}]"
+ },
+ "000645_004": {
+  "bbox": [
+   0.0,
+   0.585,
+   0.04,
+   0.715
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 585, 40, 715], \"label\": \"The grey wall on the leftmost\"}]"
+ },
+ "000645_005": {
+  "bbox": [
+   0.114,
+   0.0,
+   0.595,
+   0.745
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [114, 0, 595, 745], \"label\": \"The tree closest to the camera on the grassland\"}]"
+ },
+ "000652_003": {
+  "bbox": [
+   0.955,
+   0.63,
+   0.982,
+   0.675
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [955, 630, 982, 675], \"label\": \"A yellow roadblock beside the car at the rightmost\"}]"
+ },
+ "000652_005": {
+  "bbox": [
+   0.0,
+   0.0,
+   0.275,
+   0.775
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 0, 275, 775], \"label\": \"The tree on the leftmost\"}]"
+ },
+ "000666_003": {
+  "bbox": [
+   0.359,
+   0.538,
+   0.38,
+   0.598
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [359, 538, 380, 598], \"label\": \"The leftmost window of the white flat floor\"}]"
+ },
+ "000687_003": {
+  "bbox": [
+   0.805,
+   0.625,
+   1.0,
+   0.685
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [805, 625, 1000, 685], \"label\": \"The white fence on the rightmost\"}]"
+ },
+ "000701_004": {
+  "bbox": [
+   0.0,
+   0.581,
+   1.0,
+   0.958
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 581, 1000, 958], \"label\": \"The grey fence closest to the camera\"}]"
+ },
+ "000701_005": {
+  "bbox": [
+   0.0,
+   0.47,
+   1.0,
+   0.62
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 470, 1000, 620], \"label\": \"The grey fence farthest to the camera\"}]"
+ },
+ "000743_004": {
+  "bbox": [
+   0.375,
+   0.162,
+   0.402,
+   0.202
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [375, 162, 402, 202], \"label\": \"The face of the topmost ring-tailed lemur\"}]"
+ },
+ "000757_003": {
+  "bbox": [
+   0.884,
+   0.865,
+   0.999,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [884, 865, 999, 999], \"label\": \"Brown deer head at bottom rightmost corner\"}]"
+ },
+ "000757_005": {
+  "bbox": [
+   0.524,
+   0.808,
+   0.55,
+   0.865
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [524, 808, 550, 865], \"label\": \"The right ear of a white deer closest to the camera\"}]"
+ },
+ "000764_001": {
+  "bbox": [
+   0.84,
+   0.294,
+   0.885,
+   0.345
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [840, 294, 885, 345], \"label\": \"The hat of the man closest to the camera\"}]"
+ },
+ "000764_002": {
+  "bbox": [
+   0.815,
+   0.835,
+   0.847,
+   0.892
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [815, 835, 847, 892], \"label\": \"The left shoe of the man closest to the camera\"}]"
+ },
+ "000764_003": {
+  "bbox": [
+   0.875,
+   0.845,
+   0.904,
+   0.898
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [875, 845, 904, 898], \"label\": \"The right shoe of the man closest to the camera\"}]"
+ },
+ "000764_004": {
+  "bbox": [
+   0.888,
+   0.365,
+   0.929,
+   0.417
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [888, 365, 929, 417], \"label\": \"The hat of the person behind the man closest to the camera\"}]"
+ },
+ "000778_003": {
+  "bbox": [
+   0.692,
+   0.567,
+   0.907,
+   0.725
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [692, 567, 907, 725], \"label\": \"The stone closest to the green pillar closest to the camera\"}]"
+ },
+ "000778_005": {
+  "bbox": [
+   0.769,
+   0.788,
+   0.848,
+   0.935
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [769, 788, 848, 935], \"label\": \"The yak horn closest to the camera\"}]"
+ },
+ "000813_003": {
+  "bbox": [
+   0.495,
+   0.342,
+   0.582,
+   0.61
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [495, 342, 582, 610], \"label\": \"The white pelican closest to the green fence with its back to the camera\"}]"
+ },
+ "000834_005": {
+  "bbox": [
+   0.102,
+   0.625,
+   0.159,
+   0.685
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [102, 625, 159, 685], \"label\": \"The single light-colored rock closest to the camera\"}]"
+ },
+ "000841_003": {
+  "bbox": [
+   0.278,
+   0.808,
+   0.38,
+   0.999
+  ],
+  "n": 2,
+  "raw": "[{\"bbox_2d\": [278, 808, 380, 999], \"label\": \"The two rhinos closest to the road\"}, {\"bbox_2d\": [364, 762, 470, 919], \"label\": \"The two rhinos closest to the road\"}]"
+ },
+ "000848_005": {
+  "bbox": [
+   0.412,
+   0.675,
+   0.438,
+   0.735
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [412, 675, 438, 735], \"label\": \"The left front foot of the rhinoceros closest to the camera.\"}]"
+ },
+ "000883_001": {
+  "bbox": [
+   0.0,
+   0.438,
+   0.165,
+   0.714
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 438, 165, 714], \"label\": \"The gray rock on the left grassy area closest to the camera\"}]"
+ },
+ "000890_003": {
+  "bbox": [
+   0.058,
+   0.958,
+   0.19,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [58, 958, 190, 999], \"label\": \"The branch closest to the camera\"}]"
+ },
+ "000925_002": {
+  "bbox": [
+   0.382,
+   0.109,
+   0.405,
+   0.148
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [382, 109, 405, 148], \"label\": \"White swan furthest from camera with neck extended upward\"}]"
+ },
+ "000925_004": {
+  "bbox": [
+   0.325,
+   0.778,
+   0.522,
+   0.885
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [325, 778, 522, 885], \"label\": \"White swan closest to camera with body facing left\"}]"
+ },
+ "000967_002": {
+  "bbox": [
+   0.773,
+   0.575,
+   1.0,
+   0.7
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [773, 575, 1000, 700], \"label\": \"The square ground under the wooden shed on the rightmost\"}]"
+ },
+ "000967_003": {
+  "bbox": [
+   0.744,
+   0.298,
+   0.775,
+   0.725
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [744, 298, 775, 725], \"label\": \"The pillar of the wooden shed closest to the camera\"}]"
+ },
+ "000995_005": {
+  "bbox": [
+   0.435,
+   0.625,
+   0.698,
+   0.715
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [435, 625, 698, 715], \"label\": \"The topmost metal ring on the white column\"}]"
+ },
+ "001016_002": {
+  "bbox": [
+   0.83,
+   0.775,
+   0.892,
+   0.857
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [830, 775, 892, 857], \"label\": \"The small dark delineator post with two pale reflective bands stands at the lower right, beside the rightmost pole and just left of the zebra crossing.\"}]"
+ },
+ "001016_004": {
+  "bbox": [
+   0.145,
+   0.855,
+   0.175,
+   0.975
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [145, 855, 175, 975], \"label\": \"The leftmost orange-and-white traffic cone at the bottom left stands beside the large roadside sign pole.\"}]"
+ },
+ "001023_001": {
+  "bbox": [
+   0.0,
+   0.514,
+   0.24,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 514, 240, 999], \"label\": \"The small tree with reddish leaves near the lower left edge of the frame closest to the camera\"}]"
+ },
+ "001023_004": {
+  "bbox": [
+   0.669,
+   0.725,
+   0.735,
+   0.83
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [669, 725, 735, 830], \"label\": \"The farthest white air conditioning external unit along the ground floor near the small blue sticker\"}]"
+ },
+ "001030_001": {
+  "bbox": [
+   0.659,
+   0.625,
+   0.672,
+   0.642
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [659, 625, 672, 642], \"label\": \"A small blue rectangular sticker label attached to the rightmost outdoor air conditioning unit installed on the lower exterior facade of a modern multi-sto"
+ },
+ "001037_001": {
+  "bbox": [
+   0.305,
+   0.702,
+   0.982,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [305, 702, 982, 999], \"label\": \"The black car closest to the camera\"}]"
+ },
+ "001037_005": {
+  "bbox": [
+   0.0,
+   0.208,
+   0.112,
+   0.765
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 208, 112, 765], \"label\": \"The leftmost curved metal street lamp positioned above the road traffic light pole\"}]"
+ },
+ "001037_007": {
+  "bbox": [
+   0.05,
+   0.815,
+   0.118,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [50, 815, 118, 999], \"label\": \"The partially visible rear of the leftmost silver sedan sits behind a gray roadside panel at the bottom-left corner.\"}]"
+ },
+ "001037_010": {
+  "bbox": [
+   0.327,
+   0.95,
+   0.38,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [327, 950, 380, 999], \"label\": \"The blue rear license plate on the nearest black sedan sits partly cut off at the bottom center of the image.\"}]"
+ },
+ "001044_003": {
+  "bbox": [
+   0.283,
+   0.715,
+   0.304,
+   0.798
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [283, 715, 304, 798], \"label\": \"The camera-closest of three consecutive traffic cones\"}]"
+ },
+ "001044_004": {
+  "bbox": [
+   0.585,
+   0.535,
+   0.628,
+   0.745
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [585, 535, 628, 745], \"label\": \"The back-facing person in a dark jacket, gray pants, and white-soled shoes on the right-side shaded walkway, closest to the camera and immediately left of "
+ },
+ "001044_005": {
+  "bbox": [
+   0.439,
+   0.575,
+   0.508,
+   0.617
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [439, 575, 508, 617], \"label\": \"The farthest white passenger car visible in the distance behind the entry barrier arms\"}]"
+ },
+ "001044_011": {
+  "bbox": [
+   0.648,
+   0.521,
+   0.689,
+   0.675
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [648, 521, 689, 675], \"label\": \"The rightmost dark-clothed person is partly hidden behind the tree on the right-side sidewalk near the guard booth.\"}]"
+ },
+ "001051_004": {
+  "bbox": [
+   0.492,
+   0.762,
+   0.53,
+   0.83
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [492, 762, 530, 830], \"label\": \"The nearest grey spherical bollard to the person wearing a red hard hat and orange pants\"}]"
+ },
+ "001051_009": {
+  "bbox": [
+   0.515,
+   0.637,
+   0.531,
+   0.715
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [515, 637, 531, 715], \"label\": \"The farthest pedestrian wearing a white cap walking toward the main building entrance\"}]"
+ },
+ "001058_004": {
+  "bbox": [
+   0.0,
+   0.722,
+   0.473,
+   0.985
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 722, 473, 985], \"label\": \"The crosswalk closest to the camera\"}]"
+ },
+ "001072_003": {
+  "bbox": [
+   0.0,
+   0.0,
+   0.279,
+   0.258
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 0, 279, 258], \"label\": \"The closest tree foliage at the top left of the frame that partially covers the beige buildings behind it\"}]"
+ },
+ "001072_008": {
+  "bbox": [
+   0.18,
+   0.208,
+   0.234,
+   0.331
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [180, 208, 234, 331], \"label\": \"The rightmost of the two tall beige residential buildings visible behind the left side tree line\"}]"
+ },
+ "001072_009": {
+  "bbox": [
+   0.698,
+   0.575,
+   1.0,
+   0.775
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [698, 575, 1000, 775], \"label\": \"The rightmost shaded strip of lawn lies beneath the trees above the pond.\"}]"
+ },
+ "001079_002": {
+  "bbox": [
+   0.034,
+   0.04,
+   0.217,
+   0.225
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [34, 40, 217, 225], \"label\": \"The farthest tall beige residential building located behind the dense green tree line\"}]"
+ },
+ "001079_005": {
+  "bbox": [
+   0.395,
+   0.398,
+   0.57,
+   0.468
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [395, 398, 570, 468], \"label\": \"The leftmost long dark purple trimmed leafy hedge stretches horizontally across the center-left sloped green lawn, immediately to the right of the worker a"
+ },
+ "001086_002": {
+  "bbox": [
+   0.533,
+   0.152,
+   0.778,
+   0.381
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [533, 152, 778, 381], \"label\": \"The deep red rounded shrub located to the right of the tree with white painted lower trunk closest to the camera\"}]"
+ },
+ "001086_003": {
+  "bbox": [
+   0.838,
+   0.115,
+   0.882,
+   0.218
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [838, 115, 882, 218], \"label\": \"The farthest person from the camera sitting on a stone bench next to the upper walking path\"}]"
+ },
+ "001086_004": {
+  "bbox": [
+   0.0,
+   0.53,
+   0.18,
+   0.998
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 530, 180, 998], \"label\": \"The clump of tall thin grass in the bottom left corner closest to the camera lens\"}]"
+ },
+ "001093_001": {
+  "bbox": [
+   0.348,
+   0.517,
+   0.416,
+   0.695
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [348, 517, 416, 695], \"label\": \"The warmer human figure seated fishing by the lake left of the closest large tree to the camera\"}]"
+ },
+ "001093_002": {
+  "bbox": [
+   0.578,
+   0.0,
+   0.698,
+   0.738
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [578, 0, 698, 738], \"label\": \"The nearest tree trunk to the camera sitting to the right of the person fishing by the water\"}]"
+ },
+ "001093_003": {
+  "bbox": [
+   0.782,
+   0.214,
+   0.999,
+   0.514
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [782, 214, 999, 514], \"label\": \"object\"}]"
+ },
+ "001100_002": {
+  "bbox": [
+   0.648,
+   0.0,
+   0.765,
+   0.745
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [648, 0, 765, 745], \"label\": \"The thickest tree trunk nearest to the camera in the right half of the scene\"}]"
+ },
+ "001100_007": {
+  "bbox": [
+   0.815,
+   0.0,
+   0.958,
+   0.478
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [815, 0, 958, 478], \"label\": \"The slim rightmost tree trunk with a white-painted base stands behind the red bush near the upper-right edge.\"}]"
+ },
+ "001114_005": {
+  "bbox": [
+   0.704,
+   0.506,
+   0.765,
+   0.575
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [704, 506, 765, 575], \"label\": \"The teal wire front basket on the rightmost parked bicycle sits beside the road.\"}]"
+ },
+ "001121_001": {
+  "bbox": [
+   0.104,
+   0.758,
+   0.245,
+   0.988
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [104, 758, 245, 988], \"label\": \"Plastic bag held by the partially visible leftmost person\"}]"
+ },
+ "001121_003": {
+  "bbox": [
+   0.0,
+   0.018,
+   0.19,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 18, 190, 999], \"label\": \"The black cal closest to the camera\"}]"
+ },
+ "001121_006": {
+  "bbox": [
+   0.0,
+   0.019,
+   0.19,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 19, 190, 999], \"label\": \"The leftmost foreground person\"}]"
+ },
+ "001128_001": {
+  "bbox": [
+   0.176,
+   0.939,
+   0.197,
+   0.972
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [176, 939, 197, 972], \"label\": \"The flower closest to the rocky bend\"}]"
+ },
+ "001128_002": {
+  "bbox": [
+   0.679,
+   0.351,
+   0.745,
+   0.5
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [679, 351, 745, 500], \"label\": \"The person closest to the camera\"}]"
+ },
+ "001128_008": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "001135_001": {
+  "bbox": [
+   0.597,
+   0.417,
+   0.727,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [597, 417, 727, 999], \"label\": \"The closest woman to the camera wearing a red puffer jacket and light blue jeans\"}]"
+ },
+ "001135_003": {
+  "bbox": [
+   0.507,
+   0.119,
+   0.629,
+   0.515
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [507, 119, 629, 515], \"label\": \"The tall building between the two person closest to the camera\"}]"
+ },
+ "001135_006": {
+  "bbox": [
+   0.507,
+   0.119,
+   0.629,
+   0.515
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [507, 119, 629, 515], \"label\": \"The tallest building in the left of the woman closest to the camera\"}]"
+ },
+ "001142_001": {
+  "bbox": [
+   0.248,
+   0.435,
+   0.432,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [248, 435, 432, 999], \"label\": \"The closest person to the camera wearing a black shirt crossing the zebra crossing\"}]"
+ },
+ "001142_003": {
+  "bbox": [
+   0.358,
+   0.495,
+   0.378,
+   0.599
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [358, 495, 378, 599], \"label\": \"The warmest farthest pedestrian walking near the main building entrance on the paved path\"}]"
+ },
+ "001149_005": {
+  "bbox": [
+   0.3,
+   0.594,
+   0.338,
+   0.658
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [300, 594, 338, 658], \"label\": \"The leftmost stone bollard\"}]"
+ },
+ "001156_001": {
+  "bbox": [
+   0.253,
+   0.178,
+   0.378,
+   0.81
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [253, 178, 378, 810], \"label\": \"The closest person to the camera wearing a blue and black striped shirt holding a red shopping bag\"}]"
+ },
+ "001170_001": {
+  "bbox": [
+   0.228,
+   0.0,
+   0.315,
+   0.888
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [228, 0, 315, 888], \"label\": \"The closest tree to the camera with a white mark on its trunk on the left side of the path\"}]"
+ },
+ "001177_001": {
+  "bbox": [
+   0.517,
+   0.488,
+   0.661,
+   0.815
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [517, 488, 661, 815], \"label\": \"The closest deer to the camera eating food beside the grey rocks on brick pavement\"}]"
+ },
+ "001177_004": {
+  "bbox": [
+   0.07,
+   0.219,
+   0.138,
+   0.395
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [70, 219, 138, 395], \"label\": \"The farthest spotted deer grazing on the dirt patch at the upper left of the scene\"}]"
+ },
+ "001177_005": {
+  "bbox": [
+   0.865,
+   0.219,
+   1.0,
+   0.514
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [865, 219, 1000, 514], \"label\": \"The rightmost gray metal fence section stands in the background behind the tree guard at the far right edge.\"}]"
+ },
+ "001177_006": {
+  "bbox": [
+   0.837,
+   0.78,
+   0.915,
+   0.85
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [837, 780, 915, 850], \"label\": \"The small rightmost light-gray rock on the brick pavement, just to the right of the metal tree guard, sits partly in shadow.\"}]"
+ },
+ "001184_001": {
+  "bbox": [
+   0.295,
+   0.509,
+   0.5,
+   0.781
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [295, 509, 500, 781], \"label\": \"The brown spotted deer closest to the camera walking on the red paved brick area\"}]"
+ },
+ "001184_002": {
+  "bbox": [
+   0.347,
+   0.528,
+   0.514,
+   0.73
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [347, 528, 514, 730], \"label\": \"The partially hidden spotted deer standing directly behind the closest deer near the dirt edge\"}]"
+ },
+ "001184_006": {
+  "bbox": [
+   0.092,
+   0.614,
+   0.305,
+   0.66
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [92, 614, 305, 660], \"label\": \"The longest dark horizontal log lying parallel to the paved edge nearest to the camera\"}]"
+ },
+ "001191_007": {
+  "bbox": [
+   0.222,
+   0.04,
+   0.322,
+   0.092
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [222, 40, 322, 92], \"label\": \"The ceiling light closest to the air conditioning vent\"}]"
+ },
+ "001191_013": {
+  "bbox": [
+   0.315,
+   0.895,
+   0.369,
+   0.982
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [315, 895, 369, 982], \"label\": \"The leftmost blue-and-white high-top sneaker worn by the standing man is pointed left near the bottom center-left.\"}]"
+ },
+ "001198_002": {
+  "bbox": [
+   0.332,
+   0.585,
+   0.374,
+   0.668
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [332, 585, 374, 668], \"label\": \"The closest ping pong paddle to the camera held in the man's right hand\"}]"
+ },
+ "001233_002": {
+  "bbox": [
+   0.379,
+   0.504,
+   0.547,
+   0.832
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [379, 504, 547, 832], \"label\": \"The nearest blue wheeled flat cart to the camera holding a small robotic vehicle\"}]"
+ },
+ "001233_007": {
+  "bbox": [
+   0.0,
+   0.1,
+   0.04,
+   0.138
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 100, 40, 138], \"label\": \"The leftmost light in the front ceiling row\"}]"
+ },
+ "001233_009": {
+  "bbox": [
+   0.0,
+   0.1,
+   0.04,
+   0.138
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 100, 40, 138], \"label\": \"The leftmost light in the front ceiling row\"}]"
+ },
+ "001233_011": {
+  "bbox": [
+   0.607,
+   0.031,
+   0.705,
+   0.075
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [607, 31, 705, 75], \"label\": \"object\"}]"
+ },
+ "001247_002": {
+  "bbox": [
+   0.235,
+   0.738,
+   0.317,
+   0.807
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [235, 738, 317, 807], \"label\": \"The nearest small robotic car to the camera being touched by the crouching man's left hand\"}]"
+ },
+ "001247_006": {
+  "bbox": [
+   0.073,
+   0.432,
+   0.13,
+   0.492
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [73, 432, 130, 492], \"label\": \"The leftmost rectangular wall panel with a yellow interior mounted on the white back wall\"}]"
+ },
+ "001247_008": {
+  "bbox": [
+   0.639,
+   0.431,
+   0.684,
+   0.484
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [639, 431, 684, 484], \"label\": \"The rightmost rectangular wall panel with yellow interior mounted on the back wall near the small black sign\"}]"
+ },
+ "001247_009": {
+  "bbox": [
+   0.0,
+   0.1,
+   0.042,
+   0.14
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 100, 42, 140], \"label\": \"The leftmost light in the front ceiling row\"}]"
+ },
+ "001254_006": {
+  "bbox": [
+   0.073,
+   0.432,
+   0.13,
+   0.494
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [73, 432, 130, 494], \"label\": \"The leftmost wall mounted utility panel with a yellow interior near the orange floor bag\"}]"
+ },
+ "001254_008": {
+  "bbox": [
+   0.692,
+   0.4,
+   0.716,
+   0.421
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [692, 400, 716, 421], \"label\": \"The small black rectangular wall device is mounted on the right side of the white wall, just left of the doorway and immediately to the right of the rightm"
+ },
+ "001254_009": {
+  "bbox": [
+   0.638,
+   0.43,
+   0.684,
+   0.485
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [638, 430, 684, 485], \"label\": \"The rightmost gray-framed rectangular wall panel is mounted just left of the doorway on the back wall.\"}]"
+ },
+ "001261_002": {
+  "bbox": [
+   0.625,
+   0.63,
+   0.705,
+   0.852
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [625, 630, 705, 852], \"label\": \"The closest wooden crate to the camera being lifted by the person in the white t-shirt\"}]"
+ },
+ "001275_007": {
+  "bbox": [
+   0.784,
+   0.648,
+   0.823,
+   0.69
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [784, 648, 823, 690], \"label\": \"The rightmost small four-wheeled robot car rests on the floor against the back wall, immediately to the right of another similar car.\"}]"
+ },
+ "001282_002": {
+  "bbox": [
+   0.628,
+   0.514,
+   0.85,
+   0.983
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [628, 514, 850, 983], \"label\": \"The nearest wheeled cart to the camera with a blue base holding a wooden crate\"}]"
+ },
+ "001282_004": {
+  "bbox": [
+   0.383,
+   0.447,
+   0.432,
+   0.502
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [383, 447, 432, 502], \"label\": \"The leftmost rectangular yellow panel mounted on the plain white back wall of the room\"}]"
+ },
+ "001282_006": {
+  "bbox": [
+   0.535,
+   0.645,
+   0.735,
+   0.692
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [535, 645, 735, 692], \"label\": \"The farthest row of small dark robotic parts lined up along the base of the back white wall\"}]"
+ },
+ "001282_008": {
+  "bbox": [
+   0.795,
+   0.681,
+   0.822,
+   0.748
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [795, 681, 822, 748], \"label\": \"The rightmost wheel on the cart placed on the wooden box\"}]"
+ },
+ "001289_002": {
+  "bbox": [
+   0.745,
+   0.508,
+   0.935,
+   0.84
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [745, 508, 935, 840], \"label\": \"The nearest blue wheeled flatbed cart to the camera supporting a wooden box\"}]"
+ },
+ "001289_006": {
+  "bbox": [
+   0.382,
+   0.447,
+   0.432,
+   0.502
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [382, 447, 432, 502], \"label\": \"The leftmost yellow utility panel mounted on the white back wall between curtain and person\"}]"
+ },
+ "001289_011": {
+  "bbox": [
+   0.762,
+   0.788,
+   0.785,
+   0.82
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [762, 788, 785, 820], \"label\": \"The leftmost wheel on the cart placed on the wooden box\"}]"
+ },
+ "001296_008": {
+  "bbox": [
+   0.659,
+   0.598,
+   0.719,
+   0.66
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [659, 598, 719, 660], \"label\": \"The lower black swan on the rightmost side of the pond is swimming directly in front of another black swan.\"}]"
+ },
+ "001296_011": {
+  "bbox": [
+   0.659,
+   0.22,
+   0.682,
+   0.285
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [659, 220, 682, 285], \"label\": \"The leftmost tall dark arched window on the turquoise building in the background stands above the rocky lakeshore.\"}]"
+ },
+ "001303_011": {
+  "bbox": [
+   0.323,
+   0.558,
+   0.342,
+   0.588
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [323, 558, 342, 588], \"label\": \"The leftmost white bird swimming in the line of birds just left of the paddle boat, facing right.\"}]"
+ },
+ "001310_002": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "001310_005": {
+  "bbox": [
+   0.51,
+   0.484,
+   0.53,
+   0.514
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [510, 484, 530, 514], \"label\": \"The black swan swimming closest to the left side of the pedal boat.\"}]"
+ },
+ "001310_007": {
+  "bbox": [
+   0.679,
+   0.45,
+   0.688,
+   0.47
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [679, 450, 688, 470], \"label\": \"The rightmost white swan of the pair swimming away from the pedal boat.\"}]"
+ },
+ "001317_004": {
+  "bbox": [
+   0.825,
+   0.328,
+   0.922,
+   0.488
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [825, 328, 922, 488], \"label\": \"object\"}]"
+ },
+ "001317_008": {
+  "bbox": [
+   0.648,
+   0.165,
+   0.656,
+   0.195
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [648, 165, 656, 195], \"label\": \"The white pigeon standing furthest to the right in the background, facing left.\"}]"
+ },
+ "001317_010": {
+  "bbox": [
+   0.465,
+   0.212,
+   0.48,
+   0.231
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [465, 212, 480, 231], \"label\": \"The white pigeon standing furthest to the left in the main flock, facing right.\"}]"
+ },
+ "001331_003": {
+  "bbox": [
+   0.547,
+   0.0,
+   0.621,
+   0.13
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [547, 0, 621, 130], \"label\": \"The legs of the person wearing black pants and white shoes, walking on the stepping stones closest to the right.\"}]"
+ },
+ "001331_009": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "001338_004": {
+  "bbox": [
+   0.372,
+   0.738,
+   0.858,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [372, 738, 858, 999], \"label\": \"The large rectangular stepping stone closest to the bottom edge of the frame.\"}]"
+ },
+ "001338_008": {
+  "bbox": [
+   0.833,
+   0.172,
+   1.0,
+   0.298
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [833, 172, 1000, 298], \"label\": \"The large, flat grey rock positioned on the grass at the far right edge closest to the camera\"}]"
+ },
+ "001345_002": {
+  "bbox": [
+   0.577,
+   0.625,
+   0.615,
+   0.666
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [577, 625, 615, 666], \"label\": \"The leftmost small white bird standing at the edge of the water.\"}]"
+ },
+ "001345_003": {
+  "bbox": [
+   0.707,
+   0.632,
+   0.744,
+   0.675
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [707, 632, 744, 675], \"label\": \"The rightmost small white bird standing on the bank facing left.\"}]"
+ },
+ "001345_008": {
+  "bbox": [
+   0.865,
+   0.258,
+   0.935,
+   0.648
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [865, 258, 935, 648], \"label\": \"The closest green metal mesh fence panel with a white hanging object attached near its upper center borders the paved walkway on the right beside the pond."
+ },
+ "001352_001": {
+  "bbox": [
+   0.73,
+   0.575,
+   0.782,
+   0.738
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [730, 575, 782, 738], \"label\": \"The rightmost crane standing near the green fence, facing left.\"}]"
+ },
+ "001352_002": {
+  "bbox": [
+   0.668,
+   0.632,
+   0.735,
+   0.775
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [668, 632, 735, 775], \"label\": \"The crane standing to the left of the rightmost bird, facing right with its head lowered towards the ground.\"}]"
+ },
+ "001352_009": {
+  "bbox": [
+   0.347,
+   0.462,
+   0.392,
+   0.575
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [347, 462, 392, 575], \"label\": \"The crane standing furthest back on the left side of the rocky bank, partially hidden by foliage.\"}]"
+ },
+ "001359_002": {
+  "bbox": [
+   0.206,
+   0.148,
+   0.253,
+   0.275
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [206, 148, 253, 275], \"label\": \"The leftmost crane not obscured by leaves\"}]"
+ },
+ "001359_005": {
+  "bbox": [
+   0.064,
+   0.27,
+   0.104,
+   0.375
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [64, 270, 104, 375], \"label\": \"The bird in the leftmost\"}]"
+ },
+ "001359_006": {
+  "bbox": [
+   0.404,
+   0.394,
+   0.478,
+   0.542
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [404, 394, 478, 542], \"label\": \"The bird standing closest to the water's edge on the right side of the group, with its head bent down as if preening.\"}]"
+ },
+ "001359_007": {
+  "bbox": [
+   0.464,
+   0.328,
+   0.524,
+   0.495
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [464, 328, 524, 495], \"label\": \"The rightmost bird in the flock, standing near the green fence with its head tucked down, which emits a bright heat signature in the thermal image.\"}]"
+ },
+ "001359_011": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "001366_001": {
+  "bbox": [
+   0.535,
+   0.858,
+   0.632,
+   1.0
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [535, 858, 632, 1000], \"label\": \"The bird closest to the bottom edge of the frame, facing away from the camera.\"}]"
+ },
+ "001366_002": {
+  "bbox": [
+   0.671,
+   0.705,
+   0.75,
+   0.905
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [671, 705, 750, 905], \"label\": \"The crane on the right side closest to the fence\"}]"
+ },
+ "001366_007": {
+  "bbox": [
+   0.372,
+   0.208,
+   0.432,
+   0.317
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [372, 208, 432, 317], \"label\": \"The leftmost bird\"}]"
+ },
+ "001366_008": {
+  "bbox": [
+   0.37,
+   0.188,
+   0.432,
+   0.317
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [370, 188, 432, 317], \"label\": \"A crane in the rearmost position with part of it covered by foliage\"}]"
+ },
+ "001366_009": {
+  "bbox": [
+   0.37,
+   0.188,
+   0.432,
+   0.317
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [370, 188, 432, 317], \"label\": \"A crane in the rearmost position with part of it covered by foliage\"}]"
+ },
+ "001380_002": {
+  "bbox": [
+   0.061,
+   0.532,
+   0.082,
+   0.582
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [61, 532, 82, 582], \"label\": \"The monkey standing on the ground nearest to the left side of the rock enclosure, facing right.\"}]"
+ },
+ "001380_006": {
+  "bbox": [
+   0.0,
+   0.078,
+   0.169,
+   0.195
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 78, 169, 195], \"label\": \"The leftmost metal mesh platform attached to the concrete wall.\"}]"
+ },
+ "001380_007": {
+  "bbox": [
+   0.235,
+   0.0,
+   0.426,
+   0.035
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [235, 0, 426, 35], \"label\": \"The metal mesh platform attached to the concrete wall, located to the right of the leftmost platform.\"}]"
+ },
+ "001394_002": {
+  "bbox": [
+   0.419,
+   0.477,
+   0.465,
+   0.531
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [419, 477, 465, 531], \"label\": \"The rightmost brown monkey of the three swimming in the green pool is paddling near the middle, with its head angled slightly to the right and its upper ba"
+ },
+ "001422_001": {
+  "bbox": [
+   0.085,
+   0.354,
+   0.139,
+   0.5
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [85, 354, 139, 500], \"label\": \"The leftmost flamingo standing alone on the dirt bank, facing right.\"}]"
+ },
+ "001422_003": {
+  "bbox": [
+   0.225,
+   0.475,
+   0.263,
+   0.625
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [225, 475, 263, 625], \"label\": \"The closest pale pink flamingo to the camera stands alone in the center foreground on the bare muddy bank near the pond, with its bright orange neck bent s"
+ },
+ "001422_005": {
+  "bbox": [
+   0.387,
+   0.432,
+   0.427,
+   0.545
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [387, 432, 427, 545], \"label\": \"The rightmost flamingo standing near the tall green grass, facing left.\"}]"
+ },
+ "001429_001": {
+  "bbox": [
+   0.198,
+   0.472,
+   0.237,
+   0.562
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [198, 472, 237, 562], \"label\": \"The leftmost flamingo standing alone on the dirt mound, facing towards the ground.\"}]"
+ },
+ "001429_002": {
+  "bbox": [
+   0.459,
+   0.475,
+   0.528,
+   0.595
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [459, 475, 528, 595], \"label\": \"The rightmost flamingo, stretching its neck, stands near the green bushes, facing left.\"}]"
+ },
+ "001436_001": {
+  "bbox": [
+   0.246,
+   0.641,
+   0.288,
+   0.752
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [246, 641, 288, 752], \"label\": \"The leftmost pale orange flamingo on the bank, standing alone near the water's edge, faces left with its head lowered toward the ground, foraging.\"}]"
+ },
+ "001443_005": {
+  "bbox": [
+   0.644,
+   0.352,
+   0.663,
+   0.498
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [644, 352, 663, 498], \"label\": \"The pale white flamingo standing upright on the dirt bank at the water's edge, to the right of the rightmost palm trunks, with its back to the camera and j"
+ },
+ "001443_009": {
+  "bbox": [
+   0.36,
+   0.392,
+   0.382,
+   0.468
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [360, 392, 382, 468], \"label\": \"The flamingo standing in the water facing left, positioned furthest to the left among those in the water.\"}]"
+ },
+ "001450_010": {
+  "bbox": [
+   0.085,
+   0.012,
+   0.295,
+   0.538
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [85, 12, 295, 538], \"label\": \"The leftmost large palm tree on the separate bank left of the central island has a slender trunk and drooping dark green fronds arching over the narrow water"
+ },
+ "001450_014": {
+  "bbox": [
+   0.697,
+   0.438,
+   0.724,
+   0.542
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [697, 438, 724, 542], \"label\": \"The pale pink flamingo standing on the dirt path immediately to the left of the rightmost gray metal pole, facing left with its head lowered toward the gro"
+ },
+ "001478_010": {
+  "bbox": [
+   0.782,
+   0.648,
+   0.824,
+   0.692
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [782, 648, 824, 692], \"label\": \"The rightmost small robotic vehicle parked along the baseboard on the right side of the back wall.\"}]"
+ },
+ "001506_003": {
+  "bbox": [
+   0.658,
+   0.548,
+   0.86,
+   0.835
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [658, 548, 860, 835], \"label\": \"The closest large rock in the foreground on the right side of the scene\"}]"
+ },
+ "001513_004": {
+  "bbox": [
+   0.588,
+   0.612,
+   0.682,
+   0.962
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [588, 612, 682, 962], \"label\": \"The peacock standing on the dirt path closest to the camera in the foreground\"}]"
+ },
+ "001520_004": {
+  "bbox": [
+   0.0,
+   0.904,
+   0.252,
+   1.0
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 904, 252, 1000], \"label\": \"The closest large rock in the foreground near the bottom left corner\"}]"
+ },
+ "001534_002": {
+  "bbox": [
+   0.828,
+   0.728,
+   1.0,
+   0.881
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [828, 728, 1000, 881], \"label\": \"The closest white rectangular stepping stone in the foreground path\"}]"
+ },
+ "001534_008": {
+  "bbox": [
+   0.149,
+   0.111,
+   0.173,
+   0.144
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [149, 111, 173, 144], \"label\": \"The white bird standing alone on the grass bank furthest to the left\"}]"
+ },
+ "001541_004": {
+  "bbox": [
+   0.57,
+   0.785,
+   0.707,
+   0.881
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [570, 785, 707, 881], \"label\": \"The closest tiger to the camera, identifiable by its position in the foreground depth layer\"}]"
+ },
+ "001541_009": {
+  "bbox": [
+   0.564,
+   0.169,
+   0.678,
+   0.235
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [564, 169, 678, 235], \"label\": \"The farthest tiger from the viewpoint, positioned on the elevated stone platform\"}]"
+ },
+ "001548_003": {
+  "bbox": [
+   0.552,
+   0.0,
+   0.59,
+   0.378
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [552, 0, 590, 378], \"label\": \"The closest palm tree trunk standing between the climbing frame and the white tiger\"}]"
+ },
+ "001548_005": {
+  "bbox": [
+   0.935,
+   0.0,
+   0.972,
+   0.258
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [935, 0, 972, 258], \"label\": \"The farthest tree trunk visible on the right side of the background\"}]"
+ },
+ "001555_002": {
+  "bbox": [
+   0.562,
+   0.41,
+   0.737,
+   0.658
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [562, 410, 737, 658], \"label\": \"The spotted deer walking leftward on the brick ground closest to the camera in the foreground\"}]"
+ },
+ "001562_004": {
+  "bbox": [
+   0.415,
+   0.273,
+   0.51,
+   0.454
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [415, 273, 510, 454], \"label\": \"The deer located nearest away near the blue door\"}]"
+ },
+ "001562_007": {
+  "bbox": [
+   0.508,
+   0.59,
+   0.802,
+   0.972
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [508, 590, 802, 972], \"label\": \"The deer closest to the camera with its head lowered\"}]"
+ },
+ "001569_004": {
+  "bbox": [
+   0.755,
+   0.564,
+   0.932,
+   0.921
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [755, 564, 932, 921], \"label\": \"The closest white deer in the foreground on the right side looking towards the right edge of the frame\"}]"
+ },
+ "001569_010": {
+  "bbox": [
+   0.768,
+   0.333,
+   0.796,
+   0.421
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [768, 333, 796, 421], \"label\": \"The deer standing farthest from the camera near the wooden fence in the background\"}]"
+ },
+ "001583_006": {
+  "bbox": [
+   0.667,
+   0.675,
+   0.827,
+   0.965
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [667, 675, 827, 965], \"label\": \"the closest object to the camera based on depth data which is the grazing yak\"}]"
+ },
+ "001590_002": {
+  "bbox": [
+   0.75,
+   0.738,
+   0.988,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [750, 738, 988, 999], \"label\": \"The closest red cylindrical bollard in the bottom right foreground\"}]"
+ },
+ "001597_002": {
+  "bbox": [
+   0.613,
+   0.0,
+   0.661,
+   0.765
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [613, 0, 661, 765], \"label\": \"The green vertical support pole closest to the camera in the foreground\"}]"
+ },
+ "001604_005": {
+  "bbox": [
+   0.718,
+   0.765,
+   0.925,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [718, 765, 925, 999], \"label\": \"The closest rock formation in the bottom right corner\"}]"
+ },
+ "001611_003": {
+  "bbox": [
+   0.0,
+   0.0,
+   0.018,
+   0.12
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 0, 18, 120], \"label\": \"The farthest visible deerl partially obscured in the top left background\"}]"
+ },
+ "001618_003": {
+  "bbox": [
+   0.759,
+   0.4,
+   0.843,
+   0.648
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [759, 400, 843, 648], \"label\": \"The deer positioned closest to the camera in the foreground of the scene\"}]"
+ },
+ "001618_006": {
+  "bbox": [
+   0.224,
+   0.198,
+   0.347,
+   0.364
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [224, 198, 347, 364], \"label\": \"The deer located farthest from the camera in the background dirt area\"}]"
+ },
+ "001625_001": {
+  "bbox": [
+   0.792,
+   0.202,
+   0.977,
+   0.514
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [792, 202, 977, 514], \"label\": \"The spotted deer standing closest to the camera on the right side of the enclosure\"}]"
+ },
+ "001632_002": {
+  "bbox": [
+   0.565,
+   0.425,
+   0.666,
+   0.602
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [565, 425, 666, 602], \"label\": \"The deer with the warmest thermal signature standing closest to the camera on the pavement\"}]"
+ },
+ "001639_001": {
+  "bbox": [
+   0.418,
+   0.218,
+   0.595,
+   0.542
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [418, 218, 595, 542], \"label\": \"The spotted deer standing closest to the camera with its head turned toward the viewer\"}]"
+ },
+ "001660_003": {
+  "bbox": [
+   0.394,
+   0.108,
+   0.544,
+   0.967
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [394, 108, 544, 967], \"label\": \"The closest object to the camera which is the person standing on the tiled floor\"}]"
+ },
+ "001667_005": {
+  "bbox": [
+   0.359,
+   0.084,
+   0.53,
+   0.984
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [359, 84, 530, 984], \"label\": \"The closest person to the camera based on depth information\"}]"
+ },
+ "001674_004": {
+  "bbox": [
+   0.179,
+   0.048,
+   0.618,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [179, 48, 618, 999], \"label\": \"The closest foreground object which is the person performing the exercise\"}]"
+ },
+ "001674_008": {
+  "bbox": [
+   0.605,
+   0.458,
+   0.656,
+   0.545
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [605, 458, 656, 545], \"label\": \"The rightmost black paddle held by the person, appearing slightly blurred due to motion\"}]"
+ },
+ "001688_005": {
+  "bbox": [
+   0.205,
+   0.127,
+   0.524,
+   0.983
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [205, 127, 524, 983], \"label\": \"The closest object to the camera based on depth information, which is the person in the foreground\"}]"
+ },
+ "001709_006": {
+  "bbox": [
+   0.285,
+   0.442,
+   0.437,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [285, 442, 437, 999], \"label\": \"The closest object to the camera which is the person crouching in the foreground\"}]"
+ },
+ "001716_002": {
+  "bbox": [
+   0.218,
+   0.038,
+   0.32,
+   0.092
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [218, 38, 320, 92], \"label\": \"The closest ceiling light fixture to the camera on the left side\"}]"
+ },
+ "001723_004": {
+  "bbox": [
+   0.33,
+   0.448,
+   0.498,
+   0.985
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [330, 448, 498, 985], \"label\": \"The closest person to the camera who is wearing dark shorts and blue sneakers\"}]"
+ },
+ "001730_005": {
+  "bbox": [
+   0.212,
+   0.46,
+   0.508,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [212, 460, 508, 999], \"label\": \"The closest object to the camera which is the crouching man in the foreground\"}]"
+ },
+ "001737_006": {
+  "bbox": [
+   0.461,
+   0.448,
+   0.767,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [461, 448, 767, 999], \"label\": \"The closest person to the camera based on depth map segmentation\"}]"
+ },
+ "001744_004": {
+  "bbox": [
+   0.0,
+   0.428,
+   0.215,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 428, 215, 999], \"label\": \"The closest object in the scene which is the person swinging the racket\"}]"
+ },
+ "001751_006": {
+  "bbox": [
+   0.029,
+   0.124,
+   0.215,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [29, 124, 215, 999], \"label\": \"person standing in the foreground closest to the camera sensor relative to the wooden doors behind\"}]"
+ },
+ "001758_002": {
+  "bbox": [
+   0.124,
+   0.03,
+   0.295,
+   0.905
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [124, 30, 295, 905], \"label\": \"The leftmost wooden door panel featuring a silver handle\"}]"
+ },
+ "001758_005": {
+  "bbox": [
+   0.046,
+   0.134,
+   0.217,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [46, 134, 217, 999], \"label\": \"The closest object to the camera which is the person standing on the left side\"}]"
+ },
+ "001758_008": {
+  "bbox": [
+   0.114,
+   0.001,
+   0.468,
+   0.915
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [114, 1, 468, 915], \"label\": \"The farthest background element which is the closed wooden double door\"}]"
+ },
+ "001765_005": {
+  "bbox": [
+   0.226,
+   0.138,
+   0.418,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [226, 138, 418, 999], \"label\": \"The closest object to the camera which is the person performing the paddle activity\"}]"
+ },
+ "001779_006": {
+  "bbox": [
+   0.254,
+   0.169,
+   0.505,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [254, 169, 505, 999], \"label\": \"The closest object to the camera which is the person standing in the foreground\"}]"
+ },
+ "001793_004": {
+  "bbox": [
+   0.881,
+   0.327,
+   0.945,
+   0.427
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [881, 327, 945, 427], \"label\": \"The farthest window on the red rock wall behind the shelter structure\"}]"
+ },
+ "001800_003": {
+  "bbox": [
+   0.835,
+   0.731,
+   0.955,
+   0.819
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [835, 731, 955, 819], \"label\": \"The log lying closest to the camera in the grassy foreground\"}]"
+ },
+ "001800_006": {
+  "bbox": [
+   0.895,
+   0.527,
+   0.958,
+   0.615
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [895, 527, 958, 615], \"label\": \"The rightmost window on the enclosure wall\"}]"
+ },
+ "001800_008": {
+  "bbox": [
+   0.605,
+   0.68,
+   0.788,
+   0.74
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [605, 680, 788, 740], \"label\": \"The log situated between the shelter and the rightmost log in the field\"}]"
+ },
+ "001814_003": {
+  "bbox": [
+   0.474,
+   0.105,
+   0.732,
+   0.958
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [474, 105, 732, 958], \"label\": \"The closest person to the camera based on depth information, standing upright with arms extended\"}]"
+ },
+ "001814_006": {
+  "bbox": [
+   0.945,
+   0.43,
+   1.0,
+   0.492
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [945, 430, 1000, 492], \"label\": \"The farthest object from the camera along the back wall, appearing as a small yellow box near the right edge\"}]"
+ },
+ "001828_006": {
+  "bbox": [
+   0.0,
+   0.611,
+   0.054,
+   0.698
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 611, 54, 698], \"label\": \"The leftmost robotic component resting on the floor near the wall\"}]"
+ },
+ "001835_008": {
+  "bbox": [
+   0.154,
+   0.0,
+   0.255,
+   0.05
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [154, 0, 255, 50], \"label\": \"The closest rectangular ceiling light fixture visible in the upper left corner\"}]"
+ },
+ "001856_005": {
+  "bbox": [
+   0.317,
+   0.785,
+   0.445,
+   0.873
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [317, 785, 445, 873], \"label\": \"The closest robot to the camera being touched by the person's right hand\"}]"
+ },
+ "001856_009": {
+  "bbox": [
+   0.692,
+   0.4,
+   0.716,
+   0.42
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [692, 400, 716, 420], \"label\": \"The farthest visible object along the back wall, identifiable as a dark rectangular device\"}]"
+ },
+ "001870_005": {
+  "bbox": [
+   0.317,
+   0.81,
+   0.422,
+   0.909
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [317, 810, 422, 909], \"label\": \"The closest wheeled robot being touched by the person's hands\"}]"
+ },
+ "001884_006": {
+  "bbox": [
+   0.546,
+   0.875,
+   0.689,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [546, 875, 689, 999], \"label\": \"The closest wheeled device to the camera positioned under the person's foot\"}]"
+ },
+ "001905_008": {
+  "bbox": [
+   0.154,
+   0.014,
+   0.261,
+   0.068
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [154, 14, 261, 68], \"label\": \"The closest rectangular ceiling light fixture in the upper left portion of the image\"}]"
+ },
+ "001912_003": {
+  "bbox": [
+   0.468,
+   0.738,
+   0.552,
+   0.811
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [468, 738, 552, 811], \"label\": \"The small wheeled robot positioned on the floor closest to the camera near the blue cart\"}]"
+ },
+ "001919_009": {
+  "bbox": [
+   0.354,
+   0.765,
+   0.44,
+   0.833
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [354, 765, 440, 833], \"label\": \"The closest object to the camera based on depth, which is the small robot on the floor\"}]"
+ },
+ "001926_006": {
+  "bbox": [
+   0.114,
+   0.765,
+   0.168,
+   0.831
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [114, 765, 168, 831], \"label\": \"The closest robotic chassis to the camera positioned in the foreground near the person's feet\"}]"
+ },
+ "001940_007": {
+  "bbox": [
+   0.0,
+   0.434,
+   0.044,
+   0.582
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 434, 44, 582], \"label\": \"The leftmost pelican standing at the edge of the wooden boat\"}]"
+ },
+ "001940_010": {
+  "bbox": [
+   0.695,
+   0.765,
+   0.837,
+   0.998
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [695, 765, 837, 998], \"label\": \"The closest foreground object which is a square concrete post situated among the purple bushes\"}]"
+ },
+ "001954_007": {
+  "bbox": [
+   0.277,
+   0.018,
+   0.629,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [277, 18, 629, 999], \"label\": \"The person standing closest to the camera with the wall panels visible in the background\"}]"
+ },
+ "001961_007": {
+  "bbox": [
+   0.257,
+   0.105,
+   0.458,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [257, 105, 458, 999], \"label\": \"The closest object to the camera which is the person standing in the foreground\"}]"
+ },
+ "001975_007": {
+  "bbox": [
+   0.359,
+   0.078,
+   0.602,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [359, 78, 602, 999], \"label\": \"The closest object to the camera which is the man standing in the foreground\"}]"
+ },
+ "001982_006": {
+  "bbox": [
+   0.375,
+   0.07,
+   0.547,
+   0.992
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [375, 70, 547, 992], \"label\": \"The person standing closest to the camera in the foreground\"}]"
+ },
+ "001989_005": {
+  "bbox": [
+   0.379,
+   0.185,
+   0.604,
+   0.992
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [379, 185, 604, 992], \"label\": \"The closest object to the camera which is the person performing an action\"}]"
+ },
+ "001996_005": {
+  "bbox": [
+   0.378,
+   0.0,
+   0.542,
+   0.081
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [378, 0, 542, 81], \"label\": \"The ceiling air conditioning vent closest to the camera in the depth map\"}]"
+ },
+ "002101_001": {
+  "bbox": [
+   0.527,
+   0.15,
+   1.0,
+   0.85
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [527, 150, 1000, 850], \"label\": \"The shed closest to the screen.\"}]"
+ },
+ "002150_003": {
+  "bbox": [
+   0.3,
+   0.222,
+   0.318,
+   0.265
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [300, 222, 318, 265], \"label\": \"sign with words closest to the horse\"}]"
+ },
+ "002178_004": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "002199_004": {
+  "bbox": [
+   0.698,
+   0.828,
+   0.865,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [698, 828, 865, 999], \"label\": \"The stone closest to the pool.\"}]"
+ },
+ "002227_001": {
+  "bbox": [
+   0.608,
+   0.03,
+   0.72,
+   0.15
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [608, 30, 720, 150], \"label\": \"The stone closest to the wall.\"}]"
+ },
+ "002248_002": {
+  "bbox": [
+   0.371,
+   0.419,
+   0.392,
+   0.502
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [371, 419, 392, 502], \"label\": \"The animal farthest from the camera.\"}]"
+ },
+ "002262_001": {
+  "bbox": [
+   0.0,
+   0.845,
+   0.628,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 845, 628, 999], \"label\": \"The crossbar closest to the camera.\"}]"
+ },
+ "002262_002": {
+  "bbox": [
+   0.365,
+   0.0,
+   0.43,
+   0.865
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [365, 0, 430, 865], \"label\": \"The tree trunk closest to the camera.\"}]"
+ },
+ "002262_003": {
+  "bbox": [
+   0.742,
+   0.065,
+   0.765,
+   0.615
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [742, 65, 765, 615], \"label\": \"The vertical pole closest to the camera.\"}]"
+ },
+ "002262_004": {
+  "bbox": [
+   0.808,
+   0.298,
+   0.855,
+   0.382
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [808, 298, 855, 382], \"label\": \"The animal farthest on the right.\"}]"
+ },
+ "002262_005": {
+  "bbox": [
+   0.273,
+   0.488,
+   0.378,
+   0.645
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [273, 488, 378, 645], \"label\": \"The animal closest to the camera.\"}]"
+ },
+ "002276_005": {
+  "bbox": [
+   0.265,
+   0.832,
+   0.285,
+   0.868
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [265, 832, 285, 868], \"label\": \"The small stone closest to the camera.\"}]"
+ },
+ "002332_003": {
+  "bbox": [
+   0.475,
+   0.855,
+   0.925,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [475, 855, 925, 999], \"label\": \"The pedal closest to the camera\"}]"
+ },
+ "002381_002": {
+  "bbox": [
+   0.068,
+   0.472,
+   0.101,
+   0.542
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [68, 472, 101, 542], \"label\": \"The leftmost monkey\"}]"
+ },
+ "002451_003": {
+  "bbox": [
+   0.375,
+   0.308,
+   0.6,
+   0.958
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [375, 308, 600, 958], \"label\": \"The object closest to the camera\"}]"
+ },
+ "002549_004": {
+  "bbox": [
+   0.15,
+   0.314,
+   0.305,
+   0.688
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [150, 314, 305, 688], \"label\": \"The tree trunk closest to the speed limit sign\"}]"
+ },
+ "002556_001": {
+  "bbox": [
+   0.4,
+   0.448,
+   0.58,
+   0.84
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [400, 448, 580, 840], \"label\": \"The nearest pillar to the camera\"}]"
+ },
+ "002570_005": {
+  "bbox": [
+   0.608,
+   0.62,
+   1.0,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [608, 620, 1000, 999], \"label\": \"The nearest stone to the camera\"}]"
+ },
+ "002584_004": {
+  "bbox": [
+   0.385,
+   0.488,
+   0.688,
+   0.891
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [385, 488, 688, 891], \"label\": \"The stone with red text closest to the camera in the park\"}]"
+ },
+ "002731_003": {
+  "bbox": [
+   0.124,
+   0.0,
+   0.2,
+   0.308
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [124, 0, 200, 308], \"label\": \"The tree trunk with a white-painted base, rooted in the grassy area on the left, closest to the camera.\"}]"
+ },
+ "002738_001": {
+  "bbox": [
+   0.0,
+   0.0,
+   0.16,
+   0.435
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 0, 160, 435], \"label\": \"A tree trunk with a white-painted base rooted in the grassy area on the left, closest to the camera.\"}]"
+ },
+ "002752_001": {
+  "bbox": [
+   0.191,
+   0.922,
+   0.505,
+   1.0
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [191, 922, 505, 1000], \"label\": \"A white stone slab closest to the camera at the bottom of the image\"}]"
+ },
+ "002752_004": {
+  "bbox": [
+   0.098,
+   0.27,
+   0.144,
+   0.328
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [98, 270, 144, 328], \"label\": \"A gray stone farthest from the camera on the left side of the road\"}]"
+ },
+ "002752_006": {
+  "bbox": [
+   0.62,
+   0.262,
+   0.652,
+   0.3
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [620, 262, 652, 300], \"label\": \"A dark-colored car on the road in the background, farthest from the camera\"}]"
+ },
+ "002752_007": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "002759_001": {
+  "bbox": [
+   0.0,
+   0.681,
+   0.295,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 681, 295, 999], \"label\": \"A white stone slab closest to the camera on the left\"}]"
+ },
+ "002759_002": {
+  "bbox": [
+   0.868,
+   0.571,
+   1.0,
+   0.785
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [868, 571, 1000, 785], \"label\": \"A white stone slab farthest from the camera on the right\"}]"
+ },
+ "002759_004": {
+  "bbox": [
+   0.148,
+   0.0,
+   0.2,
+   0.195
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [148, 0, 200, 195], \"label\": \"A tree trunk with white paint closest to the gray stone on the left\"}]"
+ },
+ "002759_005": {
+  "bbox": [
+   0.87,
+   0.175,
+   0.961,
+   0.255
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [870, 175, 961, 255], \"label\": \"A gray stone with red characters farthest from the camera on the right\"}]"
+ },
+ "002780_005": {
+  "bbox": [
+   0.65,
+   0.0,
+   0.668,
+   0.225
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [650, 0, 668, 225], \"label\": \"The farthest post to the camera\"}]"
+ },
+ "002801_001": {
+  "bbox": [
+   0.498,
+   0.119,
+   0.648,
+   0.908
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [498, 119, 648, 908], \"label\": \"The person closest to the camera\"}]"
+ },
+ "002815_003": {
+  "bbox": [
+   0.235,
+   0.0,
+   0.277,
+   0.548
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [235, 0, 277, 548], \"label\": \"The tree trunk closest to the camera\"}]"
+ },
+ "002815_004": {
+  "bbox": [
+   0.204,
+   0.388,
+   0.232,
+   0.525
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [204, 388, 232, 525], \"label\": \"The black street lamp next to the closest tree trunk\"}]"
+ },
+ "002815_005": {
+  "bbox": [
+   0.427,
+   0.462,
+   0.607,
+   0.592
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [427, 462, 607, 592], \"label\": \"The stone closest to the camera\"}]"
+ },
+ "002843_001": {
+  "bbox": [
+   0.3,
+   0.0,
+   0.437,
+   0.838
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [300, 0, 437, 838], \"label\": \"The person closest to the camera\"}]"
+ },
+ "002843_005": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "002871_002": {
+  "bbox": [
+   0.558,
+   0.0,
+   0.771,
+   0.845
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [558, 0, 771, 845], \"label\": \"Tree tree closest to the camera\"}]"
+ },
+ "002878_001": {
+  "bbox": [
+   0.428,
+   0.0,
+   0.45,
+   0.265
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [428, 0, 450, 265], \"label\": \"The tree trunk closest to the camera\"}]"
+ },
+ "002885_001": {
+  "bbox": [
+   0.73,
+   0.598,
+   1.0,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [730, 598, 1000, 999], \"label\": \"The table closest to the camera\"}]"
+ },
+ "002885_002": {
+  "bbox": [
+   0.043,
+   0.288,
+   0.119,
+   0.465
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [43, 288, 119, 465], \"label\": \"The table farthest from the camera\"}]"
+ },
+ "002899_001": {
+  "bbox": [
+   0.0,
+   0.437,
+   0.088,
+   0.769
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 437, 88, 769], \"label\": \"The yellow stool closest to the camera\"}]"
+ },
+ "002913_002": {
+  "bbox": [
+   0.122,
+   0.0,
+   0.298,
+   0.498
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [122, 0, 298, 498], \"label\": \"The person closest to the camera\"}]"
+ },
+ "002913_003": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "002920_002": {
+  "bbox": [
+   0.82,
+   0.0,
+   1.0,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [820, 0, 1000, 999], \"label\": \"The tree closest to the camera\"}]"
+ },
+ "002920_004": {
+  "bbox": [
+   0.778,
+   0.104,
+   0.864,
+   0.335
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [778, 104, 864, 335], \"label\": \"The person in purple clothes closest to the stone slab\"}]"
+ },
+ "002934_001": {
+  "bbox": [
+   0.0,
+   0.885,
+   0.998,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 885, 998, 999], \"label\": \"The stone slab closest to the camera\"}]"
+ },
+ "002934_002": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "002934_003": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "002962_004": {
+  "bbox": [
+   0.619,
+   0.907,
+   0.734,
+   1.0
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [619, 907, 734, 1000], \"label\": \"The person closest to the camera\"}]"
+ },
+ "002997_005": {
+  "bbox": [
+   0.367,
+   0.557,
+   0.425,
+   0.618
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [367, 557, 425, 618], \"label\": \"A cluster of red vegetation closest to the camera\"}]"
+ },
+ "003011_004": {
+  "bbox": [
+   0.438,
+   0.288,
+   0.535,
+   0.748
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [438, 288, 535, 748], \"label\": \"The person closest to the dividing line\"}]"
+ },
+ "003032_001": {
+  "bbox": [
+   0.0,
+   0.0,
+   0.274,
+   0.695
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 0, 274, 695], \"label\": \"A tree with purple flowers closest to the walking people\"}]"
+ },
+ "003060_001": {
+  "bbox": [
+   0.204,
+   0.75,
+   0.525,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [204, 750, 525, 999], \"label\": \"A stone road closest to the camera\"}]"
+ },
+ "003060_005": {
+  "bbox": [
+   0.58,
+   0.0,
+   0.998,
+   0.84
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [580, 0, 998, 840], \"label\": \"A big tree closest to the street light\"}]"
+ },
+ "003067_002": {
+  "bbox": [
+   0.71,
+   0.0,
+   0.918,
+   0.595
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [710, 0, 918, 595], \"label\": \"A small tree closest to the camera\"}]"
+ },
+ "003186_003": {
+  "bbox": [
+   0.345,
+   0.799,
+   0.407,
+   0.965
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [345, 799, 407, 965], \"label\": \"The lemur closest to the camera\"}]"
+ },
+ "003200_004": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "003200_005": {
+  "bbox": [
+   0.557,
+   0.252,
+   0.579,
+   0.345
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [557, 252, 579, 345], \"label\": \"The parrot closest to the wire mesh\"}]"
+ },
+ "003256_003": {
+  "bbox": [
+   0.711,
+   0.352,
+   1.0,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [711, 352, 1000, 999], \"label\": \"A rust iron fence closest to the camera\"}]"
+ },
+ "003284_005": {
+  "bbox": [
+   0.579,
+   0.356,
+   0.646,
+   0.46
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [579, 356, 646, 460], \"label\": \"The white swan closest to the camera\"}]"
+ },
+ "003340_003": {
+  "bbox": [
+   0.754,
+   0.125,
+   0.875,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [754, 125, 875, 999], \"label\": \"The tree with no leaves closest to the camera\"}]"
+ },
+ "003368_003": {
+  "bbox": [
+   0.68,
+   0.0,
+   1.0,
+   0.352
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [680, 0, 1000, 352], \"label\": \"A tree closest to the camera\"}]"
+ },
+ "003431_005": {
+  "bbox": [
+   0.525,
+   0.0,
+   0.999,
+   0.708
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [525, 0, 999, 708], \"label\": \"A tree closest to the camera\"}]"
+ },
+ "003452_001": {
+  "bbox": [
+   0.477,
+   0.552,
+   0.608,
+   0.708
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [477, 552, 608, 708], \"label\": \"A yak about to touch the person closest to the camera.\"}]"
+ },
+ "003501_001": {
+  "bbox": [
+   0.322,
+   0.188,
+   0.878,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [322, 188, 878, 999], \"label\": \"object\"}]"
+ },
+ "003501_002": {
+  "bbox": [
+   0.749,
+   0.144,
+   0.788,
+   0.24
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [749, 144, 788, 240], \"label\": \"A camel farthest from the camera walks slowly from left to right.\"}]"
+ },
+ "003501_004": {
+  "bbox": [
+   0.328,
+   0.0,
+   0.415,
+   0.205
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [328, 0, 415, 205], \"label\": \"A grayish-brown tree stands in front of the farthest wall from the camera.\"}]"
+ },
+ "003508_001": {
+  "bbox": [
+   0.148,
+   0.205,
+   0.548,
+   0.828
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [148, 205, 548, 828], \"label\": \"The camel nearest to the camera raises its head through the metal railings.\"}]"
+ },
+ "003515_001": {
+  "bbox": [
+   0.617,
+   0.419,
+   0.765,
+   0.662
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [617, 419, 765, 662], \"label\": \"The camel nearest to the camera lowers its head to smell the ground.\"}]"
+ },
+ "003522_001": {
+  "bbox": [
+   0.535,
+   0.331,
+   0.648,
+   0.783
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [535, 331, 648, 783], \"label\": \"The camel nearest to the camera has its back to the camera.\"}]"
+ },
+ "003529_001": {
+  "bbox": [
+   0.314,
+   0.345,
+   0.527,
+   0.614
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [314, 345, 527, 614], \"label\": \"The camel nearest to the camera faces the camera with its right side and walks to the right.\"}]"
+ },
+ "004005_001": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "004026_001": {
+  "bbox": [
+   0.798,
+   0.165,
+   0.863,
+   0.215
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [798, 165, 863, 215], \"label\": \"The black flying object closest to the top-right\"}]"
+ },
+ "004026_002": {
+  "bbox": [
+   0.55,
+   0.428,
+   0.632,
+   0.475
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [550, 428, 632, 475], \"label\": \"The drone closest to the bottom of the frame\"}]"
+ },
+ "004026_003": {
+  "bbox": [
+   0.188,
+   0.1,
+   0.361,
+   0.218
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [188, 100, 361, 218], \"label\": \"The drone closest to the left side of the frame\"}]"
+ },
+ "004033_001": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "004033_003": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "004040_001": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "004047_001": {
+  "bbox": [
+   0.214,
+   0.275,
+   0.348,
+   0.365
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [214, 275, 348, 365], \"label\": \"The drone on the far left of the two drones closest to the camera\"}]"
+ },
+ "004054_002": {
+  "bbox": [
+   0.375,
+   0.365,
+   0.555,
+   0.475
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [375, 365, 555, 475], \"label\": \"The drone closest to the white drone\"}]"
+ },
+ "004054_003": {
+  "bbox": [
+   0.735,
+   0.1,
+   0.861,
+   0.194
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [735, 100, 861, 194], \"label\": \"The drone furthest from the white drone\"}]"
+ },
+ "004061_001": {
+  "bbox": [
+   0.517,
+   0.955,
+   0.611,
+   1.0
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [517, 955, 611, 1000], \"label\": \"The drone closest to the camera\"}]"
+ },
+ "004124_001": {
+  "bbox": [
+   0.464,
+   0.555,
+   0.5,
+   0.783
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [464, 555, 500, 783], \"label\": \"The person closest to the camera\"}]"
+ },
+ "004131_001": {
+  "bbox": [
+   0.483,
+   0.621,
+   0.5,
+   0.645
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [483, 621, 500, 645], \"label\": \"The head of the person closest to the camera\"}]"
+ },
+ "004138_001": {
+  "bbox": [
+   0.77,
+   0.202,
+   0.798,
+   0.23
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [770, 202, 798, 230], \"label\": \"The flying object furthest towards the top-right\"}]"
+ },
+ "004145_001": {
+  "bbox": [
+   0.5,
+   0.485,
+   0.517,
+   0.5
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [500, 485, 517, 500], \"label\": \"A drone hovering above the person closest to the camera\"}]"
+ },
+ "004159_001": {
+  "bbox": [
+   0.292,
+   0.135,
+   0.319,
+   0.158
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [292, 135, 319, 158], \"label\": \"The drone closest to the top-left corner\"}]"
+ },
+ "004187_001": {
+  "bbox": [
+   0.378,
+   0.405,
+   0.415,
+   0.43
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [378, 405, 415, 430], \"label\": \"The drone closest to the person wearing black\"}]"
+ },
+ "004187_002": {
+  "bbox": [
+   0.273,
+   0.312,
+   0.295,
+   0.325
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [273, 312, 295, 325], \"label\": \"The drone furthest from the person wearing black\"}]"
+ },
+ "004201_001": {
+  "bbox": [
+   0.417,
+   0.398,
+   0.45,
+   0.419
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [417, 398, 450, 419], \"label\": \"The drone closest to the football goal on the far right\"}]"
+ },
+ "004208_001": {
+  "bbox": [
+   0.396,
+   0.518,
+   0.418,
+   0.53
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [396, 518, 418, 530], \"label\": \"The flying object closest to the person dressed in black\"}]"
+ },
+ "004313_001": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "004313_002": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "004369_001": {
+  "bbox": [
+   0.16,
+   0.39,
+   0.198,
+   0.42
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [160, 390, 198, 420], \"label\": \"The drone flying furthest to the left\"}]"
+ },
+ "004390_002": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "004397_001": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "004418_001": {
+  "bbox": [
+   0.852,
+   0.885,
+   0.881,
+   1.0
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [852, 885, 881, 1000], \"label\": \"The person closest to the bottom right corner\"}]"
+ },
+ "004425_001": {
+  "bbox": [
+   0.0,
+   0.0,
+   0.228,
+   0.997
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 0, 228, 997], \"label\": \"The tree on the left side of the frame that is closest to the camera\"}]"
+ },
+ "004432_001": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "004453_001": {
+  "bbox": [
+   0.7,
+   0.227,
+   0.755,
+   0.265
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [700, 227, 755, 265], \"label\": \"The drone closest to the upper-right corner of the screen\"}]"
+ },
+ "004467_002": {
+  "bbox": [
+   0.778,
+   0.975,
+   0.805,
+   1.0
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [778, 975, 805, 1000], \"label\": \"The grass stem at the lower-right that is nearest to the camera lens\"}]"
+ },
+ "004474_003": {
+  "bbox": [
+   0.684,
+   0.244,
+   0.708,
+   0.27
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [684, 244, 708, 270], \"label\": \"The drone closest to the upper-right corner of the screen\"}]"
+ },
+ "004488_001": {
+  "bbox": [
+   0.258,
+   0.505,
+   0.46,
+   0.605
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [258, 505, 460, 605], \"label\": \"The teaching building farthest from the drone\"}]"
+ },
+ "004488_002": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "004495_003": {
+  "bbox": [
+   0.505,
+   0.5,
+   0.538,
+   0.55
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [505, 500, 538, 550], \"label\": \"The drone flying closest to the lake surface\"}]"
+ },
+ "004502_003": {
+  "bbox": [
+   0.695,
+   0.485,
+   0.805,
+   0.575
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [695, 485, 805, 575], \"label\": \"The teaching building closest to the rightmost drone\"}]"
+ },
+ "004516_002": {
+  "bbox": [
+   0.468,
+   0.725,
+   0.525,
+   1.0
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [468, 725, 525, 1000], \"label\": \"A person closest to the camera.\"}]"
+ },
+ "004516_005": {
+  "bbox": [
+   0.475,
+   0.855,
+   0.495,
+   1.0
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [475, 855, 495, 1000], \"label\": \"The left leg of the person closest to the camera\"}]"
+ },
+ "004544_004": {
+  "bbox": [
+   0.475,
+   0.671,
+   0.515,
+   0.775
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [475, 671, 515, 775], \"label\": \"The upper body of the person closest to the camera\"}]"
+ },
+ "004558_001": {
+  "bbox": [
+   0.554,
+   0.375,
+   0.568,
+   0.387
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [554, 375, 568, 387], \"label\": \"A drone hovering above the person closest to the camera\"}]"
+ },
+ "004593_003": {
+  "bbox": [
+   0.511,
+   0.735,
+   0.538,
+   0.848
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [511, 735, 538, 848], \"label\": \"person closest to the drone\"}]"
+ },
+ "004600_002": {
+  "bbox": [
+   0.525,
+   0.788,
+   0.533,
+   0.845
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [525, 788, 533, 845], \"label\": \"The right leg of the person closest to the camera\"}]"
+ },
+ "012573_003": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "012573_004": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "012587_005": {
+  "bbox": [
+   0.197,
+   0.502,
+   0.237,
+   0.542
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [197, 502, 237, 542], \"label\": \"The car closest to the person with the blue umbrella\"}]"
+ },
+ "012601_001": {
+  "bbox": [
+   0.22,
+   0.0,
+   0.558,
+   0.778
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [220, 0, 558, 778], \"label\": \"The tree closest to the lens\"}]"
+ },
+ "012601_002": {
+  "bbox": [
+   0.684,
+   0.579,
+   0.735,
+   0.685
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [684, 579, 735, 685], \"label\": \"The blue box farthest from the camera\"}]"
+ },
+ "012601_003": {
+  "bbox": [
+   0.684,
+   0.58,
+   0.735,
+   0.688
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [684, 580, 735, 688], \"label\": \"The blue box closest to the camera\"}]"
+ },
+ "012622_002": {
+  "bbox": [
+   0.05,
+   0.0,
+   0.155,
+   0.938
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [50, 0, 155, 938], \"label\": \"The leftmost water pipe on the screen\"}]"
+ },
+ "012699_002": {
+  "bbox": [
+   0.785,
+   0.775,
+   0.813,
+   0.888
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [785, 775, 813, 888], \"label\": \"The swan closest to the camera\"}]"
+ },
+ "012741_001": {
+  "bbox": [
+   0.475,
+   0.308,
+   0.572,
+   0.478
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [475, 308, 572, 478], \"label\": \"The sign closest to the camera\"}]"
+ },
+ "012741_002": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "012755_003": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "012769_001": {
+  "bbox": [
+   0.357,
+   0.65,
+   0.382,
+   0.75
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [357, 650, 382, 750], \"label\": \"The duck closest to the camera\"}]"
+ },
+ "012769_002": {
+  "bbox": [
+   0.227,
+   0.414,
+   0.27,
+   0.466
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [227, 414, 270, 466], \"label\": \"The duck farthest from the camera\"}]"
+ },
+ "012769_003": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "012776_001": {
+  "bbox": [
+   0.899,
+   0.408,
+   0.933,
+   0.442
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [899, 408, 933, 442], \"label\": \"The blue sign closest to the camera\"}]"
+ },
+ "012776_002": {
+  "bbox": [
+   0.899,
+   0.408,
+   0.932,
+   0.442
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [899, 408, 932, 442], \"label\": \"The blue sign farthest from the camera\"}]"
+ },
+ "012790_002": {
+  "bbox": [
+   0.555,
+   0.571,
+   0.627,
+   0.719
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [555, 571, 627, 719], \"label\": \"The iron box closest to the camera\"}]"
+ },
+ "012797_001": {
+  "bbox": [
+   0.798,
+   0.0,
+   1.0,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [798, 0, 1000, 999], \"label\": \"The person closest to the camera\"}]"
+ },
+ "012832_001": {
+  "bbox": [
+   0.0,
+   0.788,
+   0.452,
+   1.0
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 788, 452, 1000], \"label\": \"The black rectangular coffee table positioned in the foreground closest to the camera\"}]"
+ },
+ "012867_001": {
+  "bbox": [
+   0.59,
+   0.208,
+   0.634,
+   0.26
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [590, 208, 634, 260], \"label\": \"The car farthest from the camera\"}]"
+ },
+ "012874_001": {
+  "bbox": [
+   0.927,
+   0.0,
+   1.0,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [927, 0, 1000, 999], \"label\": \"The tree closest to the camera on the right side of the frame\"}]"
+ },
+ "012881_001": {
+  "bbox": [
+   0.704,
+   0.388,
+   0.778,
+   0.458
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [704, 388, 778, 458], \"label\": \"The farthest visible building through the window behind the sofa\"}]"
+ },
+ "012902_008": {
+  "bbox": [
+   0.0,
+   0.762,
+   0.354,
+   1.0
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 762, 354, 1000], \"label\": \"The closest object to the camera which is the black table\"}]"
+ },
+ "012909_008": {
+  "bbox": [
+   0.0,
+   0.765,
+   0.328,
+   1.0
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 765, 328, 1000], \"label\": \"The closest furniture item to the camera on the left side\"}]"
+ },
+ "012930_008": {
+  "bbox": [
+   0.425,
+   0.0,
+   0.737,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [425, 0, 737, 999], \"label\": \"The person closest to the camera holding an object\"}]"
+ },
+ "012937_005": {
+  "bbox": [
+   0.462,
+   0.0,
+   0.905,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [462, 0, 905, 999], \"label\": \"The person standing closest to the camera wearing a striped fleece jacket\"}]"
+ },
+ "012944_003": {
+  "bbox": [
+   0.254,
+   0.0,
+   0.977,
+   1.0
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [254, 0, 977, 1000], \"label\": \"The person closest to the camera\"}]"
+ },
+ "012951_007": {
+  "bbox": [
+   0.255,
+   0.225,
+   0.365,
+   0.735
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [255, 225, 365, 735], \"label\": \"The person closest to the trash can\"}]"
+ },
+ "012972_006": {
+  "bbox": [
+   0.0,
+   0.762,
+   0.354,
+   0.988
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 762, 354, 988], \"label\": \"The closest object to the camera which is the black table surface\"}]"
+ },
+ "012986_001": {
+  "bbox": [
+   0.688,
+   0.0,
+   0.752,
+   0.925
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [688, 0, 752, 925], \"label\": \"The nearest white pillar to the camera\"}]"
+ },
+ "013000_001": {
+  "bbox": [
+   0.274,
+   0.644,
+   0.485,
+   0.865
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [274, 644, 485, 865], \"label\": \"The white SUV closest to the camera\"}]"
+ },
+ "013000_004": {
+  "bbox": [
+   0.011,
+   0.582,
+   0.124,
+   0.715
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [11, 582, 124, 715], \"label\": \"The white car parked furthest to the left in the visible row\"}]"
+ },
+ "013021_003": {
+  "bbox": [
+   0.343,
+   0.09,
+   0.398,
+   0.212
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [343, 90, 398, 212], \"label\": \"The sign closest to the camera on the lawn\"}]"
+ },
+ "013105_001": {
+  "bbox": [
+   0.154,
+   0.588,
+   0.365,
+   0.905
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [154, 588, 365, 905], \"label\": \"The nearest car\"}]"
+ },
+ "013105_002": {
+  "bbox": [
+   0.105,
+   0.621,
+   0.172,
+   0.699
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [105, 621, 172, 699], \"label\": \"The farthest car\"}]"
+ },
+ "013203_010": {
+  "bbox": [
+   0.477,
+   0.595,
+   0.678,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [477, 595, 678, 999], \"label\": \"The wooden stool closest to the camera\"}]"
+ },
+ "013217_001": {
+  "bbox": [
+   0.075,
+   0.635,
+   0.515,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [75, 635, 515, 999], \"label\": \"The black sedan parked on the left side of the road, appearing as the closest vehicle in the depth image.\"}]"
+ },
+ "013217_008": {
+  "bbox": [
+   0.729,
+   0.733,
+   0.775,
+   0.852
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [729, 733, 775, 852], \"label\": \"The white car closest to the camera\"}]"
+ },
+ "013238_008": {
+  "bbox": [
+   0.099,
+   0.412,
+   0.132,
+   0.456
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [99, 412, 132, 456], \"label\": \"The white car driving furthest to the left in the background.\"}]"
+ },
+ "013259_005": {
+  "bbox": [
+   0.305,
+   0.275,
+   0.397,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [305, 275, 397, 999], \"label\": \"The left leg of the person closest to the camera\"}]"
+ },
+ "013259_006": {
+  "bbox": [
+   0.405,
+   0.258,
+   0.5,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [405, 258, 500, 999], \"label\": \"The right leg of the person closest to the camera\"}]"
+ },
+ "013259_007": {
+  "bbox": [
+   0.531,
+   0.267,
+   0.779,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [531, 267, 779, 999], \"label\": \"The nearest round table to the camera\"}]"
+ },
+ "013259_008": {
+  "bbox": [
+   0.786,
+   0.521,
+   0.988,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [786, 521, 988, 999], \"label\": \"The round chair closest to the camera\"}]"
+ },
+ "013273_004": {
+  "bbox": [
+   0.0,
+   0.234,
+   0.088,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 234, 88, 999], \"label\": \"The circular chair closest to the camera\"}]"
+ },
+ "013273_005": {
+  "bbox": [
+   0.663,
+   0.408,
+   0.75,
+   0.705
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [663, 408, 750, 705], \"label\": \"The person farthest from the camera\"}]"
+ },
+ "013273_009": {
+  "bbox": [
+   0.398,
+   0.798,
+   0.492,
+   1.0
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [398, 798, 492, 1000], \"label\": \"The left leg of the person closest to the camera\"}]"
+ },
+ "013273_010": {
+  "bbox": [
+   0.488,
+   0.808,
+   0.588,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [488, 808, 588, 999], \"label\": \"The right leg of the person closest to the camera\"}]"
+ },
+ "013287_005": {
+  "bbox": [
+   0.105,
+   0.421,
+   0.435,
+   0.681
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [105, 421, 435, 681], \"label\": \"The rock closest to the camera\"}]"
+ },
+ "013294_007": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "013294_010": {
+  "bbox": [
+   0.935,
+   0.028,
+   0.982,
+   0.11
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [935, 28, 982, 110], \"label\": \"The wheel closest to the camera\"}]"
+ },
+ "013301_001": {
+  "bbox": [
+   0.518,
+   0.0,
+   0.624,
+   0.757
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [518, 0, 624, 757], \"label\": \"The nearest tree trunk\"}]"
+ },
+ "013301_002": {
+  "bbox": [
+   0.192,
+   0.438,
+   0.435,
+   0.715
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [192, 438, 435, 715], \"label\": \"The nearest big rock\"}]"
+ },
+ "013301_003": {
+  "bbox": [
+   0.589,
+   0.304,
+   0.668,
+   0.585
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [589, 304, 668, 585], \"label\": \"The person who is closest\"}]"
+ },
+ "013308_003": {
+  "bbox": [
+   0.0,
+   0.0,
+   0.608,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 0, 608, 999], \"label\": \"The nearest tree\"}]"
+ },
+ "013315_001": {
+  "bbox": [
+   0.865,
+   0.575,
+   0.888,
+   0.8
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [865, 575, 888, 800], \"label\": \"The black streetlight farthest away\"}]"
+ },
+ "013315_003": {
+  "bbox": [
+   0.479,
+   0.15,
+   0.565,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [479, 150, 565, 999], \"label\": \"The nearest streetlight\"}]"
+ },
+ "013336_003": {
+  "bbox": [
+   0.627,
+   0.618,
+   0.748,
+   0.69
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [627, 618, 748, 690], \"label\": \"The nearest underground pipeline marker\"}]"
+ },
+ "013357_002": {
+  "bbox": [
+   0.705,
+   0.758,
+   0.875,
+   0.989
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [705, 758, 875, 989], \"label\": \"The closest blue taxi\"}]"
+ },
+ "013357_003": {
+  "bbox": [
+   0.742,
+   0.907,
+   0.782,
+   0.941
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [742, 907, 782, 941], \"label\": \"The license plate of the nearest blue taxi\"}]"
+ },
+ "013378_001": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "013378_002": {
+  "bbox": [
+   0.825,
+   0.55,
+   0.865,
+   0.566
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [825, 550, 865, 566], \"label\": \"The nearest manhole cover on the main road\"}]"
+ },
+ "013378_003": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "013385_001": {
+  "bbox": [
+   0.974,
+   0.55,
+   0.995,
+   0.605
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [974, 550, 995, 605], \"label\": \"The closest red roadblock\"}]"
+ },
+ "013546_003": {
+  "bbox": [
+   0.318,
+   0.0,
+   0.758,
+   0.925
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [318, 0, 758, 925], \"label\": \"The tree closest to the camera\"}]"
+ },
+ "013560_003": {
+  "bbox": [
+   0.0,
+   0.71,
+   0.12,
+   0.902
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 710, 120, 902], \"label\": \"The leftmost manhole cover\"}]"
+ },
+ "013581_002": {
+  "bbox": [
+   0.808,
+   0.542,
+   1.0,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [808, 542, 1000, 999], \"label\": \"The stone bollard closest to the lens\"}]"
+ },
+ "013609_001": {
+  "bbox": [
+   0.44,
+   0.248,
+   0.588,
+   0.425
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [440, 248, 588, 425], \"label\": \"The nearest mirror to the camera\"}]"
+ },
+ "013700_001": {
+  "bbox": [
+   0.567,
+   0.335,
+   0.595,
+   0.371
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [567, 335, 595, 371], \"label\": \"lamp closest to the sprinkler head\"}]"
+ },
+ "013700_003": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "013707_004": {
+  "bbox": [
+   0.585,
+   0.0,
+   0.718,
+   0.342
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [585, 0, 718, 342], \"label\": \"The lantern closest to the camera in the foreground\"}]"
+ },
+ "013714_003": {
+  "bbox": [
+   0.833,
+   0.078,
+   0.982,
+   0.34
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [833, 78, 982, 340], \"label\": \"The red chair furthest to the right in the background\"}]"
+ },
+ "013735_004": {
+  "bbox": [
+   0.255,
+   0.333,
+   0.294,
+   0.478
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [255, 333, 294, 478], \"label\": \"The two persons walking furthest away in the background wearing all black\"}]"
+ },
+ "013735_007": {
+  "bbox": [
+   0.0,
+   0.24,
+   0.094,
+   0.802
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 240, 94, 802], \"label\": \"The person closest to the camera on the left side\"}]"
+ },
+ "013742_005": {
+  "bbox": [
+   0.052,
+   0.298,
+   0.084,
+   0.43
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [52, 298, 84, 430], \"label\": \"The chain hanging from the leftmost red fire hydrant\"}]"
+ },
+ "013749_001": {
+  "bbox": [
+   0.385,
+   0.242,
+   0.472,
+   0.452
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [385, 242, 472, 452], \"label\": \"The leftmost red pipe on the metal structure\"}]"
+ },
+ "013749_003": {
+  "bbox": [
+   0.77,
+   0.074,
+   0.854,
+   0.371
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [770, 74, 854, 371], \"label\": \"The rightmost red pipe on the metal structure\"}]"
+ },
+ "013763_002": {
+  "bbox": [
+   0.52,
+   0.506,
+   0.813,
+   0.983
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [520, 506, 813, 983], \"label\": \"The large round rock closest to the camera in the foreground\"}]"
+ },
+ "013763_003": {
+  "bbox": [
+   0.804,
+   0.252,
+   0.975,
+   0.414
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [804, 252, 975, 414], \"label\": \"The rock furthest from the camera in the background group\"}]"
+ },
+ "013777_002": {
+  "bbox": [
+   0.294,
+   0.434,
+   0.342,
+   0.635
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [294, 434, 342, 635], \"label\": \"The orange and white traffic cone closest to the camera\"}]"
+ },
+ "013784_006": {
+  "bbox": [
+   0.0,
+   0.85,
+   0.999,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 850, 999, 999], \"label\": \"The paved road surface in the immediate foreground closest to the camera\"}]"
+ },
+ "013791_005": {
+  "bbox": [
+   0.0,
+   0.688,
+   0.224,
+   1.0
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 688, 224, 1000], \"label\": \"The vehicle closest to the camera in the foreground on the left side\"}]"
+ },
+ "014022_003": {
+  "bbox": [
+   0.284,
+   0.225,
+   0.41,
+   0.425
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [284, 225, 410, 425], \"label\": \"The thick green grass on the right side of the concrete block, closest to it\"}]"
+ },
+ "014043_001": {
+  "bbox": [
+   0.075,
+   0.0,
+   0.298,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [75, 0, 298, 999], \"label\": \"The largest tree trunk in the foreground on the left side, appearing closest to the camera, featuring rough bark painted white at its base\"}]"
+ },
+ "014043_006": {
+  "bbox": [
+   0.868,
+   0.0,
+   0.965,
+   0.325
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [868, 0, 965, 325], \"label\": \"The rightmost large tree trunk visible along the edge of the paved path, featuring a white-painted base\"}]"
+ },
+ "014050_010": {
+  "bbox": [
+   0.35,
+   0.0,
+   0.418,
+   0.135
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [350, 0, 418, 135], \"label\": \"The tree trunk with white paint on its lower half located furthest to the left near the water's edge\"}]"
+ },
+ "014064_002": {
+  "bbox": [
+   0.0,
+   0.0,
+   0.075,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 0, 75, 999], \"label\": \"The leftmost tree trunk with its lower half painted white\"}]"
+ },
+ "014064_005": {
+  "bbox": [
+   0.638,
+   0.617,
+   0.666,
+   0.728
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [638, 617, 666, 728], \"label\": \"The red and white striped traffic cone closest to the camera on the paved road\"}]"
+ },
+ "014064_006": {
+  "bbox": [
+   0.638,
+   0.615,
+   0.666,
+   0.728
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [638, 615, 666, 728], \"label\": \"The red and white striped traffic cone positioned further down the road, behind the closest red and white cone\"}]"
+ },
+ "014085_004": {
+  "bbox": [
+   0.168,
+   0.422,
+   0.188,
+   0.575
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [168, 422, 188, 575], \"label\": \"The rightmost vertical wooden post of the low fence structure situated on the left side of the dirt path, appearing as a distinct dark vertical shape in th"
+ },
+ "014085_005": {
+  "bbox": [
+   0.068,
+   0.434,
+   0.087,
+   0.59
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [68, 434, 87, 590], \"label\": \"The leftmost vertical wooden post of the low fence structure situated on the left side of the dirt path\"}]"
+ },
+ "014085_007": {
+  "bbox": [
+   0.949,
+   0.492,
+   0.966,
+   0.548
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [949, 492, 966, 548], \"label\": \"The black cylindrical light bollard standing on the grass on the far right side, positioned behind the rightmost blossoming tree\"}]"
+ },
+ "014099_004": {
+  "bbox": [
+   0.193,
+   0.325,
+   0.228,
+   0.362
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [193, 325, 228, 362], \"label\": \"The rightmost dark rounded rock resting on the grass near the small flowering bush on the far left\"}]"
+ },
+ "014106_001": {
+  "bbox": [
+   0.166,
+   0.795,
+   0.234,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [166, 795, 234, 999], \"label\": \"The nearest streetlight\"}]"
+ },
+ "014113_001": {
+  "bbox": [
+   0.432,
+   0.878,
+   0.614,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [432, 878, 614, 999], \"label\": \"The white car that is closest\"}]"
+ },
+ "014141_001": {
+  "bbox": [
+   0.669,
+   0.798,
+   0.999,
+   1.0
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [669, 798, 999, 1000], \"label\": \"The nearest manhole cover\"}]"
+ },
+ "014141_002": {
+  "bbox": [
+   0.635,
+   0.398,
+   0.864,
+   0.552
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [635, 398, 864, 552], \"label\": \"The manhole cover that is farthest away\"}]"
+ },
+ "014162_003": {
+  "bbox": [
+   0.214,
+   0.54,
+   0.365,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [214, 540, 365, 999], \"label\": \"The person who is closest\"}]"
+ },
+ "014169_001": {
+  "bbox": [
+   0.51,
+   0.78,
+   1.0,
+   0.908
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [510, 780, 1000, 908], \"label\": \"The nearest warning line\"}]"
+ },
+ "014204_003": {
+  "bbox": [
+   0.55,
+   0.352,
+   0.577,
+   0.408
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [550, 352, 577, 408], \"label\": \"The nearest white fibrous fragment on the right side of the tulip\"}]"
+ },
+ "014407_003": {
+  "bbox": [
+   0.102,
+   0.732,
+   0.135,
+   0.85
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [102, 732, 135, 850], \"label\": \"The leftmost person\"}]"
+ },
+ "014421_001": {
+  "bbox": [
+   0.529,
+   0.919,
+   0.552,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [529, 919, 552, 999], \"label\": \"The rightmost person\"}]"
+ },
+ "014421_002": {
+  "bbox": [
+   0.907,
+   0.408,
+   1.0,
+   0.838
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [907, 408, 1000, 838], \"label\": \"The rightmost tree\"}]"
+ },
+ "014421_003": {
+  "bbox": [
+   0.0,
+   0.8,
+   0.375,
+   1.0
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 800, 375, 1000], \"label\": \"The shrub closest to the camera\"}]"
+ },
+ "014428_001": {
+  "bbox": [
+   0.804,
+   0.306,
+   0.875,
+   0.359
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [804, 306, 875, 359], \"label\": \"The rightmost stone in the pile of three\"}]"
+ },
+ "014428_002": {
+  "bbox": [
+   0.872,
+   0.411,
+   0.999,
+   0.517
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [872, 411, 999, 517], \"label\": \"The stone closest to the pool in the pile of three\"}]"
+ },
+ "014428_003": {
+  "bbox": [
+   0.804,
+   0.272,
+   0.885,
+   0.319
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [804, 272, 885, 319], \"label\": \"The stone closest to the road in the pile of three\"}]"
+ },
+ "014512_003": {
+  "bbox": [
+   0.127,
+   0.662,
+   0.147,
+   0.708
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [127, 662, 147, 708], \"label\": \"The water cup closest to the camera\"}]"
+ },
+ "014519_001": {
+  "bbox": [
+   0.0,
+   0.252,
+   0.2,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 252, 200, 999], \"label\": \"The person closest to the camera\"}]"
+ },
+ "014519_002": {
+  "bbox": [
+   0.875,
+   0.666,
+   1.0,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [875, 666, 1000, 999], \"label\": \"The chair closest to the camera\"}]"
+ },
+ "014526_002": {
+  "bbox": [
+   0.412,
+   0.0,
+   0.52,
+   0.83
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [412, 0, 520, 830], \"label\": \"The tree closest to the tent\"}]"
+ },
+ "014526_003": {
+  "bbox": [
+   0.412,
+   0.0,
+   0.52,
+   0.83
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [412, 0, 520, 830], \"label\": \"The tree closest to the camera\"}]"
+ },
+ "014540_002": {
+  "bbox": [
+   0.024,
+   0.195,
+   0.107,
+   0.305
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [24, 195, 107, 305], \"label\": \"The sign closest to the sun umbrella\"}]"
+ },
+ "014540_003": {
+  "bbox": [
+   0.512,
+   0.142,
+   0.821,
+   0.345
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [512, 142, 821, 345], \"label\": \"The sign farthest from the sun umbrella\"}]"
+ },
+ "014554_001": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "014554_002": {
+  "bbox": [
+   0.38,
+   0.0,
+   0.545,
+   0.432
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [380, 0, 545, 432], \"label\": \"The palm tree closest to the blue sign\"}]"
+ },
+ "014554_003": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "014561_001": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "014589_001": {
+  "bbox": [
+   0.512,
+   0.298,
+   0.594,
+   0.681
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [512, 298, 594, 681], \"label\": \"The parrot closest to the sign\"}]"
+ },
+ "014603_006": {
+  "bbox": [
+   0.0,
+   0.711,
+   0.925,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 711, 925, 999], \"label\": \"The flat surface closest to the camera at the bottom of the scene\"}]"
+ },
+ "014610_009": {
+  "bbox": [
+   0.0,
+   0.552,
+   0.641,
+   0.912
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 552, 641, 912], \"label\": \"The closest object to the camera in the depth map which is the boat\"}]"
+ },
+ "014624_001": {
+  "bbox": [
+   0.188,
+   0.638,
+   0.312,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [188, 638, 312, 999], \"label\": \"The rhinoceros closest to the camera\"}]"
+ },
+ "014624_002": {
+  "bbox": [
+   0.164,
+   0.562,
+   0.385,
+   0.775
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [164, 562, 385, 775], \"label\": \"The rhinoceros standing behind the closest one\"}]"
+ },
+ "014624_003": {
+  "bbox": [
+   0.194,
+   0.5,
+   0.342,
+   0.598
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [194, 500, 342, 598], \"label\": \"The rhinoceros furthest from the camera\"}]"
+ },
+ "014624_005": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "014638_001": {
+  "bbox": [
+   0.159,
+   0.845,
+   0.317,
+   0.931
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [159, 845, 317, 931], \"label\": \"The black swan swimming closest to the camera\"}]"
+ },
+ "014645_002": {
+  "bbox": [
+   0.466,
+   0.481,
+   0.485,
+   0.528
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [466, 481, 485, 528], \"label\": \"The white swan swimming closest to the left side of the image\"}]"
+ },
+ "014652_001": {
+  "bbox": [
+   0.367,
+   0.531,
+   0.427,
+   0.757
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [367, 531, 427, 757], \"label\": \"The black swan with the brightest thermal signature closest to the camera\"}]"
+ },
+ "014652_002": {
+  "bbox": [
+   0.283,
+   0.428,
+   0.319,
+   0.535
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [283, 428, 319, 535], \"label\": \"The black swan swimming behind and to the left of the closest swan\"}]"
+ },
+ "014666_003": {
+  "bbox": [
+   0.858,
+   0.742,
+   0.951,
+   0.83
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [858, 742, 951, 830], \"label\": \"The dark sedan parked furthest to the right\"}]"
+ },
+ "014666_007": {
+  "bbox": [
+   0.97,
+   0.738,
+   1.0,
+   0.875
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [970, 738, 1000, 875], \"label\": \"The closest car to the camera on the right side\"}]"
+ },
+ "014673_005": {
+  "bbox": [
+   0.417,
+   0.479,
+   0.477,
+   0.599
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [417, 479, 477, 599], \"label\": \"The white air conditioning unit nearest to the white SUV sitting on the ground next to the building\"}]"
+ },
+ "014673_006": {
+  "bbox": [
+   0.0,
+   0.777,
+   0.428,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 777, 428, 999], \"label\": \"The rectangular metal plate lying on the ground closest to the camera\"}]"
+ },
+ "014680_001": {
+  "bbox": [
+   0.1,
+   0.0,
+   0.208,
+   0.7
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [100, 0, 208, 700], \"label\": \"The closest tree trunk on the left side of the path with white paint at the bottom\"}]"
+ },
+ "014680_003": {
+  "bbox": [
+   0.854,
+   0.281,
+   0.962,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [854, 281, 962, 999], \"label\": \"The thin bare tree trunk closest to the camera on the far right\"}]"
+ },
+ "014687_001": {
+  "bbox": [
+   0.525,
+   0.475,
+   0.6,
+   0.948
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [525, 475, 600, 948], \"label\": \"The tree trunk closest to the camera\"}]"
+ },
+ "014687_002": {
+  "bbox": [
+   0.325,
+   0.0,
+   0.375,
+   0.7
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [325, 0, 375, 700], \"label\": \"The leftmost tree with a white-painted trunk\"}]"
+ },
+ "014694_002": {
+  "bbox": [
+   0.187,
+   0.0,
+   0.258,
+   0.55
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [187, 0, 258, 550], \"label\": \"The closest tree trunk with white paint on the left side\"}]"
+ },
+ "014841_001": {
+  "bbox": [
+   0.204,
+   0.395,
+   0.231,
+   0.448
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [204, 395, 231, 448], \"label\": \"The farthest deer\"}]"
+ },
+ "014841_002": {
+  "bbox": [
+   0.825,
+   0.73,
+   1.0,
+   1.0
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [825, 730, 1000, 1000], \"label\": \"The nearest deer\"}]"
+ },
+ "014869_002": {
+  "bbox": [
+   0.774,
+   0.306,
+   0.832,
+   0.578
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [774, 306, 832, 578], \"label\": \"The nearest person\"}]"
+ },
+ "014876_001": {
+  "bbox": [
+   0.769,
+   0.504,
+   1.0,
+   0.655
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [769, 504, 1000, 655], \"label\": \"The nearest blue sun umbrella\"}]"
+ },
+ "014876_002": {
+  "bbox": [
+   0.4,
+   0.517,
+   0.495,
+   0.675
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [400, 517, 495, 675], \"label\": \"The farthest blue sun umbrella\"}]"
+ },
+ "014904_001": {
+  "bbox": [
+   0.0,
+   0.308,
+   0.244,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 308, 244, 999], \"label\": \"The leftmost antlerless deer\"}]"
+ },
+ "014911_001": {
+  "bbox": [
+   0.718,
+   0.369,
+   0.758,
+   0.452
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [718, 369, 758, 452], \"label\": \"The leftmost black-and-white animal\"}]"
+ },
+ "014911_003": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "014918_003": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "014925_001": {
+  "bbox": [
+   0.83,
+   0.155,
+   0.876,
+   0.24
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [830, 155, 876, 240], \"label\": \"The nearest hole\"}]"
+ },
+ "014932_002": {
+  "bbox": [
+   0.844,
+   0.331,
+   0.935,
+   0.475
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [844, 331, 935, 475], \"label\": \"The bird-nearest hole\"}]"
+ },
+ "014939_002": {
+  "bbox": [
+   0.638,
+   0.568,
+   0.74,
+   0.666
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [638, 568, 740, 666], \"label\": \"The warning-sign-nearest monkey\"}]"
+ },
+ "014946_002": {
+  "bbox": [
+   0.109,
+   0.0,
+   0.228,
+   0.225
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [109, 0, 228, 225], \"label\": \"The leftmost step\"}]"
+ },
+ "014946_003": {
+  "bbox": [
+   0.878,
+   0.29,
+   1.0,
+   0.448
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [878, 290, 1000, 448], \"label\": \"The rightmost stairs\"}]"
+ },
+ "014953_001": {
+  "bbox": [
+   0.661,
+   0.438,
+   0.83,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [661, 438, 830, 999], \"label\": \"The rightmost ladder\"}]"
+ },
+ "014960_001": {
+  "bbox": [
+   0.082,
+   0.789,
+   0.116,
+   0.845
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [82, 789, 116, 845], \"label\": \"The leftmost monkey\"}]"
+ },
+ "014960_002": {
+  "bbox": [
+   0.716,
+   0.912,
+   0.748,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [716, 912, 748, 999], \"label\": \"The rightmost monkey\"}]"
+ },
+ "014974_001": {
+  "bbox": [
+   0.347,
+   0.598,
+   0.382,
+   0.717
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [347, 598, 382, 717], \"label\": \"The nearest rhino horn\"}]"
+ },
+ "014974_002": {
+  "bbox": [
+   0.0,
+   0.444,
+   0.635,
+   1.0
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 444, 635, 1000], \"label\": \"The nearest guardrail\"}]"
+ },
+ "014974_003": {
+  "bbox": [
+   0.312,
+   0.63,
+   0.33,
+   0.666
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [312, 630, 330, 666], \"label\": \"The right eye of the nearest rhino\"}]"
+ },
+ "014981_002": {
+  "bbox": [
+   0.0,
+   0.584,
+   0.114,
+   1.0
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 584, 114, 1000], \"label\": \"The leftmost person\"}]"
+ },
+ "014988_002": {
+  "bbox": [
+   0.697,
+   0.0,
+   1.0,
+   0.25
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [697, 0, 1000, 250], \"label\": \"The nearest leaves\"}]"
+ },
+ "015002_001": {
+  "bbox": [
+   0.484,
+   0.525,
+   0.648,
+   0.906
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [484, 525, 648, 906], \"label\": \"The sika deer that is closest\"}]"
+ },
+ "015009_001": {
+  "bbox": [
+   0.885,
+   0.404,
+   1.0,
+   0.568
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [885, 404, 1000, 568], \"label\": \"The tiger on the rightmost\"}]"
+ },
+ "015009_002": {
+  "bbox": [
+   0.273,
+   0.481,
+   0.357,
+   0.652
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [273, 481, 357, 652], \"label\": \"The tiger on the leftmost\"}]"
+ },
+ "015009_003": {
+  "bbox": [
+   0.28,
+   0.575,
+   0.3,
+   0.652
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [280, 575, 300, 652], \"label\": \"The front right leg of the leftmost tiger\"}]"
+ },
+ "015065_001": {
+  "bbox": [
+   0.507,
+   0.178,
+   0.616,
+   0.359
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [507, 178, 616, 359], \"label\": \"The yak that is closest\"}]"
+ },
+ "015065_002": {
+  "bbox": [
+   0.574,
+   0.146,
+   0.628,
+   0.238
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [574, 146, 628, 238], \"label\": \"The yak that is the farthest away\"}]"
+ },
+ "015072_001": {
+  "bbox": [
+   0.613,
+   0.312,
+   0.809,
+   0.612
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [613, 312, 809, 612], \"label\": \"The closest small yellow house\"}]"
+ },
+ "015072_002": {
+  "bbox": [
+   0.395,
+   0.295,
+   0.472,
+   0.435
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [395, 295, 472, 435], \"label\": \"The closest small green house\"}]"
+ },
+ "015072_003": {
+  "bbox": [
+   0.561,
+   0.608,
+   0.607,
+   0.675
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [561, 608, 607, 675], \"label\": \"The closest ring-tailed lemur\"}]"
+ },
+ "015100_001": {
+  "bbox": [
+   0.577,
+   0.745,
+   0.612,
+   0.8
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [577, 745, 612, 800], \"label\": \"The white rump spot on the sika deer that is closest\"}]"
+ },
+ "015100_002": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "015184_003": {
+  "bbox": [
+   0.072,
+   0.0,
+   0.305,
+   0.725
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [72, 0, 305, 725], \"label\": \"The person nearest to the camera\"}]"
+ },
+ "015394_001": {
+  "bbox": [
+   0.292,
+   0.492,
+   0.321,
+   0.54
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [292, 492, 321, 540], \"label\": \"The football closest to the camera\"}]"
+ },
+ "015394_003": {
+  "bbox": [
+   0.765,
+   0.531,
+   0.821,
+   0.632
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [765, 531, 821, 632], \"label\": \"The person wearing a hat closest to the camera\"}]"
+ },
+ "015415_002": {
+  "bbox": [
+   0.636,
+   0.211,
+   0.767,
+   0.658
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [636, 211, 767, 658], \"label\": \"The person closest to the trash can\"}]"
+ },
+ "015429_001": {
+  "bbox": [
+   0.505,
+   0.144,
+   0.589,
+   0.595
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [505, 144, 589, 595], \"label\": \"The person closest to the camera\"}]"
+ },
+ "015450_003": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "015457_001": {
+  "bbox": [
+   0.54,
+   0.871,
+   0.865,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [540, 871, 865, 999], \"label\": \"The tree closest to the kite\"}]"
+ },
+ "015457_002": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "015492_001": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "015492_002": {
+  "bbox": [
+   0.808,
+   0.506,
+   0.828,
+   0.562
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [808, 506, 828, 562], \"label\": \"The little girl closest to the bicycle\"}]"
+ },
+ "015492_003": {
+  "bbox": [
+   0.475,
+   0.437,
+   0.57,
+   0.555
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [475, 437, 570, 555], \"label\": \"The tent closest to the bicycle\"}]"
+ },
+ "015506_009": {
+  "bbox": [
+   0.36,
+   0.24,
+   0.518,
+   0.758
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [360, 240, 518, 758], \"label\": \"The closest object to the camera held by the person\"}]"
+ },
+ "015513_004": {
+  "bbox": [
+   0.798,
+   0.225,
+   0.852,
+   0.262
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [798, 225, 852, 262], \"label\": \"The farthest visible vehicle from the camera located in the background parking area\"}]"
+ },
+ "015527_001": {
+  "bbox": [
+   0.5,
+   0.398,
+   0.849,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [500, 398, 849, 999], \"label\": \"The blue plastic stool closest to the camera\"}]"
+ },
+ "015534_005": {
+  "bbox": [
+   0.618,
+   0.464,
+   0.792,
+   0.588
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [618, 464, 792, 588], \"label\": \"The stack of books resting on top of the rightmost blue stool\"}]"
+ },
+ "015534_007": {
+  "bbox": [
+   0.588,
+   0.559,
+   0.91,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [588, 559, 910, 999], \"label\": \"The large blue stool that is closest to the camera in the foreground\"}]"
+ },
+ "015555_001": {
+  "bbox": [
+   0.365,
+   0.335,
+   0.593,
+   0.875
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [365, 335, 593, 875], \"label\": \"The person sitting closest to the camera wearing a light-colored hooded jacket\"}]"
+ },
+ "015562_002": {
+  "bbox": [
+   0.352,
+   0.775,
+   0.84,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [352, 775, 840, 999], \"label\": \"The white rectangular slab lying on the grass closest to the camera\"}]"
+ },
+ "015569_001": {
+  "bbox": [
+   0.745,
+   0.0,
+   1.0,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [745, 0, 1000, 999], \"label\": \"The person wearing a brown shirt closest to the camera on the right\"}]"
+ },
+ "015583_001": {
+  "bbox": [
+   0.04,
+   0.548,
+   0.396,
+   1.0
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [40, 548, 396, 1000], \"label\": \"The bright blue plastic stool closest to the camera on the left\"}]"
+ },
+ "015590_002": {
+  "bbox": [
+   0.588,
+   0.0,
+   0.967,
+   0.875
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [588, 0, 967, 875], \"label\": \"The tree closest to the camera on the right\"}]"
+ },
+ "015590_003": {
+  "bbox": [
+   0.91,
+   0.595,
+   0.949,
+   0.731
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [910, 595, 949, 731], \"label\": \"The traffic cone on the rightmost\"}]"
+ },
+ "015590_006": {
+  "bbox": [
+   0.133,
+   0.185,
+   0.225,
+   0.28
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [133, 185, 225, 280], \"label\": \"The black car parked on the leftmost\"}]"
+ },
+ "015723_003": {
+  "bbox": [
+   0.0,
+   0.0,
+   0.496,
+   0.107
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 0, 496, 107], \"label\": \"The nearest tree trunk\"}]"
+ },
+ "015744_002": {
+  "bbox": [
+   0.497,
+   0.861,
+   0.658,
+   0.988
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [497, 861, 658, 988], \"label\": \"The nearest mouse\"}]"
+ },
+ "015807_001": {
+  "bbox": [
+   0.038,
+   0.545,
+   0.178,
+   0.688
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [38, 545, 178, 688], \"label\": \"The leftmost bush\"}]"
+ },
+ "015807_003": {
+  "bbox": [
+   0.905,
+   0.588,
+   0.989,
+   0.645
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [905, 588, 989, 645], \"label\": \"The rightmost seat\"}]"
+ },
+ "015814_001": {
+  "bbox": [
+   0.6,
+   0.702,
+   0.677,
+   0.817
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [600, 702, 677, 817], \"label\": \"The nearest visible-headed flamingo\"}]"
+ },
+ "015814_002": {
+  "bbox": [
+   0.344,
+   0.488,
+   0.379,
+   0.608
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [344, 488, 379, 608], \"label\": \"The flamingo nearest to the nearest pole\"}]"
+ },
+ "015821_001": {
+  "bbox": [
+   0.634,
+   0.611,
+   0.684,
+   0.705
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [634, 611, 684, 705], \"label\": \"The rightmost flamingo\"}]"
+ },
+ "015828_002": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "015835_001": {
+  "bbox": [
+   0.371,
+   0.192,
+   0.407,
+   0.271
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [371, 192, 407, 271], \"label\": \"The leftmost ring-tailed lemur\"}]"
+ },
+ "015835_003": {
+  "bbox": [
+   0.0,
+   0.0,
+   0.172,
+   0.435
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 0, 172, 435], \"label\": \"The leftmost house\"}]"
+ },
+ "015842_001": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "015842_002": {
+  "bbox": [
+   0.0,
+   0.0,
+   0.17,
+   0.475
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 0, 170, 475], \"label\": \"The leftmost wooden pavilion\"}]"
+ },
+ "015842_003": {
+  "bbox": [
+   0.003,
+   0.22,
+   0.02,
+   0.294
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [3, 220, 20, 294], \"label\": \"The leftmost signboard\"}]"
+ },
+ "015856_001": {
+  "bbox": [
+   0.45,
+   0.248,
+   1.0,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [450, 248, 1000, 999], \"label\": \"The nearest stainless-steel fence mesh\"}]"
+ },
+ "015856_002": {
+  "bbox": [
+   0.318,
+   0.414,
+   0.342,
+   0.471
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [318, 414, 342, 471], \"label\": \"The leftmost monkey\"}]"
+ },
+ "015863_001": {
+  "bbox": [
+   0.465,
+   0.38,
+   0.516,
+   0.475
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [465, 380, 516, 475], \"label\": \"The monkey nearest to the slide\"}]"
+ },
+ "015863_002": {
+  "bbox": [
+   0.0,
+   0.0,
+   0.17,
+   0.705
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 0, 170, 705], \"label\": \"The leftmost chain ladder\"}]"
+ },
+ "015870_002": {
+  "bbox": [
+   0.485,
+   0.468,
+   0.496,
+   0.535
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [485, 468, 496, 535], \"label\": \"The leftmost yellow pole\"}]"
+ },
+ "015877_002": {
+  "bbox": [
+   0.405,
+   0.375,
+   0.478,
+   0.45
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [405, 375, 478, 450], \"label\": \"The nearest-right rhea\"}]"
+ },
+ "015884_001": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "015884_002": {
+  "bbox": [
+   0.518,
+   0.448,
+   0.54,
+   0.5
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [518, 448, 540, 500], \"label\": \"The rhea nearest to the person\"}]"
+ },
+ "015891_001": {
+  "bbox": [
+   0.772,
+   0.0,
+   0.931,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [772, 0, 931, 999], \"label\": \"The rightmost white pole\"}]"
+ },
+ "015891_003": {
+  "bbox": [
+   0.488,
+   0.0,
+   0.665,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [488, 0, 665, 999], \"label\": \"The nearest leftmost white pole\"}]"
+ },
+ "015926_001": {
+  "bbox": [
+   0.69,
+   0.93,
+   0.814,
+   1.0
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [690, 930, 814, 1000], \"label\": \"The nearest fixed wood\"}]"
+ },
+ "015940_001": {
+  "bbox": [
+   0.611,
+   0.712,
+   0.714,
+   0.87
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [611, 712, 714, 870], \"label\": \"The closest blue trash can\"}]"
+ },
+ "015940_002": {
+  "bbox": [
+   0.611,
+   0.712,
+   0.714,
+   0.87
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [611, 712, 714, 870], \"label\": \"The closest green trash can\"}]"
+ },
+ "015940_003": {
+  "bbox": [
+   0.388,
+   0.858,
+   0.499,
+   1.0
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [388, 858, 499, 1000], \"label\": \"The top of the nearest guardrail post\"}]"
+ },
+ "015954_002": {
+  "bbox": [
+   0.28,
+   0.43,
+   0.412,
+   0.609
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [280, 430, 412, 609], \"label\": \"The nearest spherical shrub on the left side of the monitoring pole\"}]"
+ },
+ "015968_002": {
+  "bbox": [
+   0.511,
+   0.5,
+   0.611,
+   0.598
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [511, 500, 611, 598], \"label\": \"The rhinoceros closest to the green door\"}]"
+ },
+ "015968_003": {
+  "bbox": [
+   0.599,
+   0.517,
+   0.61,
+   0.535
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [599, 517, 610, 535], \"label\": \"The tail of the rhinoceros closest to the green door\"}]"
+ },
+ "016017_002": {
+  "bbox": [
+   0.458,
+   0.0,
+   0.507,
+   0.812
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [458, 0, 507, 812], \"label\": \"The pillar closest to the camera\"}]"
+ },
+ "016017_003": {
+  "bbox": [
+   0.0,
+   0.612,
+   1.0,
+   1.0
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 612, 1000, 1000], \"label\": \"The iron gate closest to the camera\"}]"
+ },
+ "016024_001": {
+  "bbox": [
+   0.0,
+   0.552,
+   0.32,
+   1.0
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 552, 320, 1000], \"label\": \"The zebra closest to the camera\"}]"
+ },
+ "016073_002": {
+  "bbox": [
+   0.479,
+   0.569,
+   0.503,
+   0.627
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [479, 569, 503, 627], \"label\": \"The pigeon closest to the camera\"}]"
+ },
+ "016150_002": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "016150_003": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "016220_001": {
+  "bbox": [
+   0.222,
+   0.0,
+   0.275,
+   0.718
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [222, 0, 275, 718], \"label\": \"The tree closest to the screen\"}]"
+ },
+ "016227_002": {
+  "bbox": [
+   0.613,
+   0.442,
+   0.624,
+   0.466
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [613, 442, 624, 466], \"label\": \"pigeon\"}]"
+ },
+ "016262_001": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "016262_003": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "016283_001": {
+  "bbox": [
+   0.405,
+   0.69,
+   0.487,
+   0.81
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [405, 690, 487, 810], \"label\": \"bench\"}]"
+ },
+ "016283_002": {
+  "bbox": [
+   0.469,
+   0.642,
+   0.522,
+   0.738
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [469, 642, 522, 738], \"label\": \"bench farthest to the screen\"}]"
+ },
+ "016304_001": {
+  "bbox": [
+   0.26,
+   0.668,
+   0.432,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [260, 668, 432, 999], \"label\": \"The stone closest to the camera\"}]"
+ },
+ "016409_002": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "016409_003": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "016458_001": {
+  "bbox": [
+   0.889,
+   0.294,
+   1.0,
+   0.748
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [889, 294, 1000, 748], \"label\": \"The car closest to the camera\"}]"
+ },
+ "016458_002": {
+  "bbox": [
+   0.254,
+   0.415,
+   0.27,
+   0.44
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [254, 415, 270, 440], \"label\": \"The car farthest from the camera\"}]"
+ },
+ "016458_003": {
+  "bbox": [
+   0.957,
+   0.475,
+   0.988,
+   0.502
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [957, 475, 988, 502], \"label\": \"The car handle closest to the camera\"}]"
+ },
+ "016465_001": {
+  "bbox": [
+   0.628,
+   0.23,
+   0.679,
+   0.3
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [628, 230, 679, 300], \"label\": \"The nearest air conditioning unit box to the car\"}]"
+ },
+ "016465_002": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "016486_003": {
+  "bbox": [
+   0.248,
+   0.512,
+   0.495,
+   0.765
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [248, 512, 495, 765], \"label\": \"The stone closest to the lamp\"}]"
+ },
+ "016493_001": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "016493_002": {
+  "bbox": [
+   0.478,
+   0.352,
+   0.556,
+   0.655
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [478, 352, 556, 655], \"label\": \"The stool closest to the camera\"}]"
+ },
+ "016675_001": {
+  "bbox": [
+   0.19,
+   0.66,
+   0.315,
+   0.898
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [190, 660, 315, 898], \"label\": \"Green billboard on the leftmost glass fence\"}]"
+ },
+ "016696_002": {
+  "bbox": [
+   0.0,
+   0.558,
+   0.08,
+   0.625
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 558, 80, 625], \"label\": \"The two basketballs on the leftmost shelf\"}]"
+ },
+ "016759_003": {
+  "bbox": [
+   0.095,
+   0.708,
+   0.155,
+   0.735
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [95, 708, 155, 735], \"label\": \"The nearest manhole cover to the left of the yellow label\"}]"
+ },
+ "016801_001": {
+  "bbox": [
+   0.0,
+   0.229,
+   0.052,
+   0.428
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 229, 52, 428], \"label\": \"The leftmost building\"}]"
+ },
+ "016801_002": {
+  "bbox": [
+   0.719,
+   0.378,
+   0.788,
+   0.628
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [719, 378, 788, 628], \"label\": \"The rightmost person on the grass\"}]"
+ },
+ "016801_003": {
+  "bbox": [
+   0.719,
+   0.378,
+   0.788,
+   0.628
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [719, 378, 788, 628], \"label\": \"The rightmost person on the track\"}]"
+ },
+ "016808_001": {
+  "bbox": [
+   0.034,
+   0.547,
+   0.055,
+   0.607
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [34, 547, 55, 607], \"label\": \"The leftmost person\"}]"
+ },
+ "016808_002": {
+  "bbox": [
+   0.655,
+   0.455,
+   0.688,
+   0.579
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [655, 455, 688, 579], \"label\": \"The nearest white-clothed person\"}]"
+ },
+ "016808_003": {
+  "bbox": [
+   0.343,
+   0.458,
+   0.395,
+   0.668
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [343, 458, 395, 668], \"label\": \"The nearest gray-clothed person\"}]"
+ },
+ "016815_001": {
+  "bbox": [
+   0.151,
+   0.55,
+   0.178,
+   0.675
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [151, 550, 178, 675], \"label\": \"The leftmost ball-kicking person\"}]"
+ },
+ "016822_002": {
+  "bbox": [
+   0.289,
+   0.428,
+   0.312,
+   0.462
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [289, 428, 312, 462], \"label\": \"The ball kicked by the nearest black-clothed person\"}]"
+ },
+ "016822_003": {
+  "bbox": [
+   0.173,
+   0.305,
+   0.235,
+   0.352
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [173, 305, 235, 352], \"label\": \"The leftmost push-up person\"}]"
+ },
+ "016829_001": {
+  "bbox": [
+   0.508,
+   0.618,
+   0.565,
+   0.683
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [508, 618, 565, 683], \"label\": \"The nearest air outlet\"}]"
+ },
+ "016843_001": {
+  "bbox": [
+   0.542,
+   0.832,
+   0.586,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [542, 832, 586, 999], \"label\": \"The nearest woman\"}]"
+ },
+ "016843_002": {
+  "bbox": [
+   0.582,
+   0.821,
+   0.628,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [582, 821, 628, 999], \"label\": \"The nearest man\"}]"
+ },
+ "016843_003": {
+  "bbox": [
+   0.583,
+   0.821,
+   0.628,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [583, 821, 628, 999], \"label\": \"The nearest black-clothed person\"}]"
+ },
+ "016857_001": {
+  "bbox": [
+   0.67,
+   0.468,
+   0.755,
+   0.506
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [670, 468, 755, 506], \"label\": \"The rightmost ventilation window\"}]"
+ },
+ "016857_003": {
+  "bbox": [
+   0.137,
+   0.397,
+   0.162,
+   0.438
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [137, 397, 162, 438], \"label\": \"The leftmost light\"}]"
+ },
+ "016864_001": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "016871_001": {
+  "bbox": [
+   0.819,
+   0.094,
+   0.929,
+   0.135
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [819, 94, 929, 135], \"label\": \"The rightmost complete illuminated logo\"}]"
+ },
+ "016871_003": {
+  "bbox": [
+   0.279,
+   0.378,
+   0.375,
+   0.595
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [279, 378, 375, 595], \"label\": \"The leftmost illuminated commercial sign\"}]"
+ },
+ "016892_001": {
+  "bbox": [
+   0.044,
+   0.38,
+   0.195,
+   0.705
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [44, 380, 195, 705], \"label\": \"The leftmost plant\"}]"
+ },
+ "016892_003": {
+  "bbox": [
+   0.708,
+   0.808,
+   1.0,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [708, 808, 1000, 999], \"label\": \"The nearest tile\"}]"
+ },
+ "016899_001": {
+  "bbox": [
+   0.34,
+   0.072,
+   0.365,
+   0.119
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [340, 72, 365, 119], \"label\": \"The rightmost person\"}]"
+ },
+ "016906_001": {
+  "bbox": [
+   0.281,
+   0.495,
+   0.418,
+   1.0
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [281, 495, 418, 1000], \"label\": \"person who is closest\"}]"
+ },
+ "016906_002": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "016906_003": {
+  "bbox": [
+   0.375,
+   0.555,
+   0.387,
+   0.58
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [375, 555, 387, 580], \"label\": \"The nose of the person closest\"}]"
+ },
+ "016920_001": {
+  "bbox": [
+   0.504,
+   0.118,
+   0.588,
+   0.492
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [504, 118, 588, 492], \"label\": \"The person closest to the dual-compartment trash can\"}]"
+ },
+ "016927_002": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "016927_003": {
+  "bbox": [
+   0.722,
+   0.724,
+   0.765,
+   0.75
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [722, 724, 765, 750], \"label\": \"The ground evacuation indicator light closest to the pedestrian crossing warning sign on the right side of the image\"}]"
+ },
+ "016955_001": {
+  "bbox": [
+   0.422,
+   0.015,
+   0.448,
+   0.065
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [422, 15, 448, 65], \"label\": \"The nearest sprinkler head\"}]"
+ },
+ "016955_002": {
+  "bbox": [
+   0.422,
+   0.015,
+   0.448,
+   0.065
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [422, 15, 448, 65], \"label\": \"The nearest smoke detector\"}]"
+ },
+ "016969_002": {
+  "bbox": [
+   0.0,
+   0.328,
+   0.043,
+   0.44
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 328, 43, 440], \"label\": \"The animal pen gate farthest from the White Tiger\"}]"
+ },
+ "016969_003": {
+  "bbox": [
+   0.278,
+   0.144,
+   0.306,
+   0.181
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [278, 144, 306, 181], \"label\": \"The farthest electrical fence insulator from the white tiger\"}]"
+ },
+ "016976_001": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "016976_002": {
+  "bbox": [
+   0.777,
+   0.31,
+   0.82,
+   0.965
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [777, 310, 820, 965], \"label\": \"The nearest electronic fence support post\"}]"
+ },
+ "016976_003": {
+  "bbox": [
+   0.778,
+   0.315,
+   0.819,
+   0.965
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [778, 315, 819, 965], \"label\": \"The rightmost load-bearing column\"}]"
+ },
+ "016990_001": {
+  "bbox": [
+   0.368,
+   0.0,
+   0.445,
+   0.425
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [368, 0, 445, 425], \"label\": \"The tree trunk closest to the large rock on the far left\"}]"
+ },
+ "016997_001": {
+  "bbox": null,
+  "n": 0,
+  "raw": "[]"
+ },
+ "016997_002": {
+  "bbox": [
+   0.565,
+   0.675,
+   0.587,
+   0.714
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [565, 675, 587, 714], \"label\": \"The right ear of the nearest zebra\"}]"
+ },
+ "017004_003": {
+  "bbox": [
+   0.534,
+   0.094,
+   0.612,
+   0.208
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [534, 94, 612, 208], \"label\": \"The zebra furthest from the camera\"}]"
+ },
+ "017130_001": {
+  "bbox": [
+   0.505,
+   0.517,
+   0.661,
+   0.685
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [505, 517, 661, 685], \"label\": \"The green bumper car closest to the camera\"}]"
+ },
+ "017130_002": {
+  "bbox": [
+   0.425,
+   0.448,
+   0.505,
+   0.525
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [425, 448, 505, 525], \"label\": \"The farthest green bumper car from the camera\"}]"
+ },
+ "017158_003": {
+  "bbox": [
+   0.0,
+   0.388,
+   1.0,
+   0.999
+  ],
+  "n": 1,
+  "raw": "[{\"bbox_2d\": [0, 388, 1000, 999], \"label\": \"The lush green plants closest to the camera\"}]"
+ }
+}

@@ -1,0 +1,82 @@
+===== 0) 前置 =====
+  ✓ /root/rivermind-data/_q38_gate.py
+  ✓ _qwen_full_pipeline.py
+  条目文件 /root/_probe_qids.json（30 条）
+===== 1) 服务自证 =====
+  "data":[{"id":"qwen25vl-72b-awq"
+  "root":"/root/rivermind-data/models/Qwen2.5-VL-72B-Instruct-AWQ"
+  "permission":[{"id":"modelperm-afa257f31289c116"
+===== 2) 跑 20 条冒烟 =====
+引擎 hf8b → http://127.0.0.1:8000/v1 model=qwen25vl-72b-awq
+数据 /root/rivermind-data/dataset｜条目 20｜出图 /root/rivermind-data/k_gate_vis
+   1/20 000001_001 box=1 [0.639, 0.723, 0.672, 0.822]
+   2/20 000001_002 box=1 [0.61, 0.186, 0.659, 0.875]
+   3/20 000001_004 box=1 [0.142, 0.594, 0.462, 0.865]
+   4/20 000001_005 box=1 [0.726, 0.261, 0.999, 0.879]
+   5/20 000001_006 box=1 [0.594, 0.612, 0.673, 0.824]
+   6/20 000015_001 box=1 [0.09, 0.275, 0.305, 0.802]
+   7/20 000015_002 box=1 [0.199, 0.617, 0.212, 0.645]
+   8/20 000015_003 box=1 [0.581, 0.0, 0.68, 0.339]
+   9/20 000015_004 box=1 [0.765, 0.188, 1.0, 0.999]
+  10/20 000015_005 box=1 [0.744, 0.701, 0.927, 0.999]
+  11/20 000022_001 box=1 [0.38, 0.197, 0.389, 0.262]
+  12/20 000022_002 box=1 [0.386, 0.584, 0.434, 0.722]
+  13/20 000022_003 box=1 [0.04, 0.567, 0.059, 0.76]
+  14/20 000022_004 box=0 —
+  15/20 000022_005 box=1 [0.121, 0.694, 0.196, 0.729]
+  16/20 000001_003 box=1 [0.146, 0.455, 0.312, 0.554]
+  17/20 000085_002 box=1 [0.41, 0.255, 0.453, 0.342]
+  18/20 000085_003 box=1 [0.41, 0.255, 0.453, 0.342]
+  19/20 000085_004 box=1 [0.41, 0.255, 0.453, 0.342]
+  20/20 000113_002 box=1 [0.211, 0.556, 0.26, 0.704]
+  用时 34.5 s
+
+=== G2（机检）===
+  可解析（bbox 非空）：19/20（要求 ≥16）→ 通过
+  坐标越界（任一值超出 [0,1]）：0/20 → 通过
+
+=== G3（人眼：框是否落在查询描述的目标附近）===
+  000001_001  [0.639 0.723 0.672 0.822]
+       Q: A squatting person
+  000001_002  [0.610 0.186 0.659 0.875]
+       Q: The white street light on the left side of the stone steps on the right
+  000001_004  [0.142 0.594 0.462 0.865]
+       Q: The black circular planter with green shrubs in front of the restaurant
+  000001_005  [0.726 0.261 0.999 0.879]
+       Q: The large stone staircase in the foreground
+  000001_006  [0.594 0.612 0.673 0.824]
+       Q: Three people near the entrance of the commercial building
+  000015_001  [0.090 0.275 0.305 0.802]
+       Q: The adult woman closest to the camera, leaning down
+  000015_002  [0.199 0.617 0.212 0.645]
+       Q: A mobile phone in the back pocket of the woman's light blue jeans
+  000015_003  [0.581 0.000 0.680 0.339]
+       Q: A man in a blue T-shirt standing beside a stroller
+  000015_004  [0.765 0.188 1.000 0.999]
+       Q: Curved concrete steps
+  000015_005  [0.744 0.701 0.927 0.999]
+       Q: The dark floor tile closest to the camera
+  000022_001  [0.380 0.197 0.389 0.262]
+       Q: The text 'INGYM' visible on the glass windows of the building.
+  000022_002  [0.386 0.584 0.434 0.722]
+       Q: A person wearing a white shirt sitting at an outdoor table in a Starbucks store.
+  000022_003  [0.040 0.567 0.059 0.760]
+       Q: The white and brown alternating pillar on the far left
+  000022_004  —
+       Q: A speed bump
+  000022_005  [0.121 0.694 0.196 0.729]
+       Q: The black sedan in the distance
+  000001_003  [0.146 0.455 0.312 0.554]
+       Q: The second white patio umbrella in the outdoor seating area from left to right
+  000085_002  [0.410 0.255 0.453 0.342]
+       Q: The first of three buildings of similar height from left to right
+  000085_003  [0.410 0.255 0.453 0.342]
+       Q: The second of three buildings of similar height from left to right
+  000085_004  [0.410 0.255 0.453 0.342]
+       Q: The third of three buildings of similar height from left to right
+  000113_002  [0.211 0.556 0.260 0.704]
+       Q: From left to right, the first red letter L
+
+  拼版图 /root/rivermind-data/k_gate_vis/_sheet.png
+=== DONE ===
+=== GATE DONE ===

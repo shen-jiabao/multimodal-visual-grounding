@@ -1,0 +1,845 @@
+[
+ {
+  "cat": "C1_RTL_num_eq_k",
+  "qid": "000870_003",
+  "d": "RTL",
+  "k": 2,
+  "nc": 2,
+  "exp": 1,
+  "old_num": 2,
+  "old_verdict": "MISMATCH",
+  "core": "tree",
+  "query": "The trunk of the second tree from the right edge in the upper right area.",
+  "visible": "Images/visible/000870.png",
+  "cands": [
+   [
+    0.32,
+    0.028,
+    0.472,
+    0.162
+   ],
+   [
+    0.592,
+    0.0,
+    1.0,
+    0.238
+   ]
+  ],
+  "new_A": 2,
+  "raw_A": "2",
+  "ok_A": false,
+  "new_B": 1,
+  "raw_B": "1",
+  "ok_B": true
+ },
+ {
+  "cat": "C1_RTL_num_eq_k",
+  "qid": "004489_003",
+  "d": "RTL",
+  "k": 4,
+  "nc": 6,
+  "exp": 3,
+  "old_num": 4,
+  "old_verdict": "MISMATCH",
+  "core": "teaching building",
+  "query": "Number the fourth teaching building from right to left",
+  "visible": "Images/visible/004489.jpg",
+  "cands": [
+   [
+    0.255,
+    0.488,
+    0.342,
+    0.61
+   ],
+   [
+    0.342,
+    0.488,
+    0.43,
+    0.61
+   ],
+   [
+    0.43,
+    0.488,
+    0.518,
+    0.61
+   ],
+   [
+    0.518,
+    0.488,
+    0.606,
+    0.61
+   ],
+   [
+    0.606,
+    0.488,
+    0.666,
+    0.61
+   ],
+   [
+    0.694,
+    0.488,
+    0.754,
+    0.61
+   ]
+  ],
+  "new_A": 4,
+  "raw_A": "4",
+  "ok_A": false,
+  "new_B": 3,
+  "raw_B": "3",
+  "ok_B": true
+ },
+ {
+  "cat": "C1_RTL_num_eq_k",
+  "qid": "009403_007",
+  "d": "RTL",
+  "k": 2,
+  "nc": 2,
+  "exp": 1,
+  "old_num": 2,
+  "old_verdict": "MISMATCH",
+  "core": "rectangular slatted vent",
+  "query": "The second rectangular slatted vent from right to left on the ceiling",
+  "visible": "Images/visible/009403.png",
+  "cands": [
+   [
+    0.647,
+    0.546,
+    0.76,
+    0.612
+   ],
+   [
+    0.756,
+    0.595,
+    0.84,
+    0.65
+   ]
+  ],
+  "new_A": 1,
+  "raw_A": "1",
+  "ok_A": true,
+  "new_B": 2,
+  "raw_B": "2",
+  "ok_B": false
+ },
+ {
+  "cat": "C1_RTL_num_eq_k",
+  "qid": "012301_004",
+  "d": "RTL",
+  "k": 4,
+  "nc": 6,
+  "exp": 3,
+  "old_num": 4,
+  "old_verdict": "MISMATCH",
+  "core": "potted plant",
+  "query": "The fourth potted plant from right to left",
+  "visible": "Images/visible/012301.png",
+  "cands": [
+   [
+    0.195,
+    0.644,
+    0.34,
+    0.982
+   ],
+   [
+    0.308,
+    0.423,
+    0.435,
+    0.604
+   ],
+   [
+    0.458,
+    0.423,
+    0.547,
+    0.53
+   ],
+   [
+    0.537,
+    0.456,
+    0.66,
+    0.604
+   ],
+   [
+    0.676,
+    0.519,
+    0.728,
+    0.604
+   ],
+   [
+    0.728,
+    0.412,
+    0.864,
+    0.604
+   ]
+  ],
+  "new_A": 4,
+  "raw_A": "4",
+  "ok_A": false,
+  "new_B": 3,
+  "raw_B": "3",
+  "ok_B": true
+ },
+ {
+  "cat": "C1_RTL_num_eq_k",
+  "qid": "013694_003",
+  "d": "RTL",
+  "k": 5,
+  "nc": 10,
+  "exp": 6,
+  "old_num": 5,
+  "old_verdict": "MISMATCH",
+  "core": "circular light",
+  "query": "The fifth circular light from the right",
+  "visible": "Images/visible/013694.png",
+  "cands": [
+   [
+    0.0,
+    0.323,
+    0.01,
+    0.353
+   ],
+   [
+    0.226,
+    0.609,
+    0.246,
+    0.635
+   ],
+   [
+    0.246,
+    0.736,
+    0.265,
+    0.761
+   ],
+   [
+    0.454,
+    0.819,
+    0.471,
+    0.841
+   ],
+   [
+    0.607,
+    0.116,
+    0.63,
+    0.15
+   ],
+   [
+    0.644,
+    0.725,
+    0.659,
+    0.743
+   ],
+   [
+    0.775,
+    0.802,
+    0.788,
+    0.82
+   ],
+   [
+    0.788,
+    0.346,
+    0.804,
+    0.37
+   ],
+   [
+    0.792,
+    0.908,
+    0.804,
+    0.923
+   ],
+   [
+    0.932,
+    0.752,
+    0.945,
+    0.768
+   ]
+  ],
+  "new_A": 6,
+  "raw_A": "6",
+  "ok_A": true,
+  "new_B": 6,
+  "raw_B": "6",
+  "ok_B": true
+ },
+ {
+  "cat": "C2_RTL_other",
+  "qid": "002557_001",
+  "d": "RTL",
+  "k": 1,
+  "nc": 4,
+  "exp": 4,
+  "old_num": 3,
+  "old_verdict": "MISMATCH",
+  "core": "prohibition sign",
+  "query": "The first prohibition sign on the sign from right to left",
+  "visible": "Images/visible/002557.png",
+  "cands": [
+   [
+    0.335,
+    0.385,
+    0.36,
+    0.425
+   ],
+   [
+    0.364,
+    0.382,
+    0.387,
+    0.419
+   ],
+   [
+    0.393,
+    0.375,
+    0.415,
+    0.41
+   ],
+   [
+    0.42,
+    0.371,
+    0.442,
+    0.405
+   ]
+  ],
+  "new_A": 4,
+  "raw_A": "4",
+  "ok_A": true,
+  "new_B": 4,
+  "raw_B": "4",
+  "ok_B": true
+ },
+ {
+  "cat": "C2_RTL_other",
+  "qid": "009571_005",
+  "d": "RTL",
+  "k": 1,
+  "nc": 4,
+  "exp": 4,
+  "old_num": 3,
+  "old_verdict": "MISMATCH",
+  "core": "wolf",
+  "query": "The first wolf with its head down from the right",
+  "visible": "Images/visible/009571.png",
+  "cands": [
+   [
+    0.342,
+    0.299,
+    0.515,
+    0.483
+   ],
+   [
+    0.518,
+    0.286,
+    0.589,
+    0.497
+   ],
+   [
+    0.764,
+    0.264,
+    0.896,
+    0.533
+   ],
+   [
+    0.907,
+    0.247,
+    0.99,
+    0.5
+   ]
+  ],
+  "new_A": 4,
+  "raw_A": "4",
+  "ok_A": true,
+  "new_B": 4,
+  "raw_B": "4",
+  "ok_B": true
+ },
+ {
+  "cat": "C2_RTL_other",
+  "qid": "011860_004",
+  "d": "RTL",
+  "k": 4,
+  "nc": 9,
+  "exp": 6,
+  "old_num": 5,
+  "old_verdict": "MISMATCH",
+  "core": "crane",
+  "query": "The fourth crane from right to left",
+  "visible": "Images/visible/011860.png",
+  "cands": [
+   [
+    0.325,
+    0.403,
+    0.353,
+    0.572
+   ],
+   [
+    0.338,
+    0.42,
+    0.363,
+    0.468
+   ],
+   [
+    0.403,
+    0.525,
+    0.43,
+    0.7
+   ],
+   [
+    0.453,
+    0.369,
+    0.489,
+    0.485
+   ],
+   [
+    0.567,
+    0.602,
+    0.665,
+    0.782
+   ],
+   [
+    0.68,
+    0.506,
+    0.73,
+    0.7
+   ],
+   [
+    0.717,
+    0.671,
+    0.792,
+    0.915
+   ],
+   [
+    0.759,
+    0.731,
+    0.834,
+    1.0
+   ],
+   [
+    0.86,
+    0.655,
+    0.91,
+    0.972
+   ]
+  ],
+  "new_A": 5,
+  "raw_A": "5",
+  "ok_A": false,
+  "new_B": 6,
+  "raw_B": "6",
+  "ok_B": true
+ },
+ {
+  "cat": "C2_RTL_other",
+  "qid": "014548_001",
+  "d": "RTL",
+  "k": 1,
+  "nc": 8,
+  "exp": 8,
+  "old_num": 6,
+  "old_verdict": "MISMATCH",
+  "core": "ostrich leg",
+  "query": "The first ostrich leg from the right",
+  "visible": "Images/visible/014548.png",
+  "cands": [
+   [
+    0.107,
+    0.588,
+    0.128,
+    0.634
+   ],
+   [
+    0.22,
+    0.588,
+    0.233,
+    0.614
+   ],
+   [
+    0.302,
+    0.598,
+    0.313,
+    0.656
+   ],
+   [
+    0.313,
+    0.598,
+    0.325,
+    0.656
+   ],
+   [
+    0.415,
+    0.634,
+    0.428,
+    0.712
+   ],
+   [
+    0.442,
+    0.64,
+    0.457,
+    0.72
+   ],
+   [
+    0.463,
+    0.848,
+    0.48,
+    0.9
+   ],
+   [
+    0.537,
+    0.852,
+    0.552,
+    0.9
+   ]
+  ],
+  "new_A": 6,
+  "raw_A": "6",
+  "ok_A": false,
+  "new_B": 6,
+  "raw_B": "6",
+  "ok_B": false
+ },
+ {
+  "cat": "C3_LTR",
+  "qid": "000142_006",
+  "d": "LTR",
+  "k": 1,
+  "nc": 5,
+  "exp": 1,
+  "old_num": 3,
+  "old_verdict": "MISMATCH",
+  "core": "brown planter",
+  "query": "First brown planter with green shrubs, in front of the utility building (from left to right)",
+  "visible": "Images/visible/000142.png",
+  "cands": [
+   [
+    0.433,
+    0.86,
+    0.496,
+    0.915
+   ],
+   [
+    0.527,
+    0.87,
+    0.589,
+    0.938
+   ],
+   [
+    0.64,
+    0.875,
+    0.697,
+    0.938
+   ],
+   [
+    0.717,
+    0.883,
+    0.773,
+    0.943
+   ],
+   [
+    0.786,
+    0.886,
+    0.834,
+    0.948
+   ]
+  ],
+  "new_A": 3,
+  "raw_A": "3",
+  "ok_A": false,
+  "new_B": 3,
+  "raw_B": "3",
+  "ok_B": false
+ },
+ {
+  "cat": "C3_LTR",
+  "qid": "009760_003",
+  "d": "LTR",
+  "k": 1,
+  "nc": 6,
+  "exp": 1,
+  "old_num": 4,
+  "old_verdict": "MISMATCH",
+  "core": "glass door",
+  "query": "The first glass door from left to right on the right side of the man sweeping the floor",
+  "visible": "Images/visible/009760.png",
+  "cands": [
+   [
+    0.488,
+    0.192,
+    0.542,
+    0.483
+   ],
+   [
+    0.542,
+    0.197,
+    0.586,
+    0.478
+   ],
+   [
+    0.586,
+    0.197,
+    0.652,
+    0.475
+   ],
+   [
+    0.772,
+    0.217,
+    0.805,
+    0.452
+   ],
+   [
+    0.805,
+    0.217,
+    0.838,
+    0.452
+   ],
+   [
+    0.838,
+    0.217,
+    0.872,
+    0.452
+   ]
+  ],
+  "new_A": 4,
+  "raw_A": "4",
+  "ok_A": false,
+  "new_B": 4,
+  "raw_B": "4",
+  "ok_B": false
+ },
+ {
+  "cat": "C3_LTR",
+  "qid": "013232_002",
+  "d": "LTR",
+  "k": 2,
+  "nc": 4,
+  "exp": 2,
+  "old_num": 3,
+  "old_verdict": "MISMATCH",
+  "core": "security camera",
+  "query": "The second security camera from the left",
+  "visible": "Images/visible/013232.png",
+  "cands": [
+   [
+    0.428,
+    0.519,
+    0.457,
+    0.566
+   ],
+   [
+    0.452,
+    0.538,
+    0.473,
+    0.576
+   ],
+   [
+    0.54,
+    0.609,
+    0.57,
+    0.652
+   ],
+   [
+    0.663,
+    0.695,
+    0.716,
+    0.755
+   ]
+  ],
+  "new_A": 2,
+  "raw_A": "2",
+  "ok_A": true,
+  "new_B": 2,
+  "raw_B": "2",
+  "ok_B": true
+ },
+ {
+  "cat": "C4_CONTROL_match",
+  "qid": "000023_001",
+  "d": "LTR",
+  "k": 1,
+  "nc": 5,
+  "exp": 1,
+  "old_num": 1,
+  "old_verdict": "MATCH",
+  "core": "stone pier",
+  "query": "From left to right, the first stone pier",
+  "visible": "Images/visible/000023.png",
+  "cands": [
+   [
+    0.0,
+    0.817,
+    0.02,
+    0.888
+   ],
+   [
+    0.036,
+    0.796,
+    0.077,
+    0.873
+   ],
+   [
+    0.086,
+    0.788,
+    0.123,
+    0.862
+   ],
+   [
+    0.137,
+    0.775,
+    0.172,
+    0.847
+   ],
+   [
+    0.187,
+    0.762,
+    0.219,
+    0.83
+   ]
+  ],
+  "new_A": 1,
+  "raw_A": "1",
+  "ok_A": true,
+  "new_B": 1,
+  "raw_B": "1",
+  "ok_B": true
+ },
+ {
+  "cat": "C4_CONTROL_match",
+  "qid": "009242_004",
+  "d": "LTR",
+  "k": 1,
+  "nc": 2,
+  "exp": 1,
+  "old_num": 1,
+  "old_verdict": "MATCH",
+  "core": "tower crane",
+  "query": "The first tower crane from left to right in the background",
+  "visible": "Images/visible/009242.png",
+  "cands": [
+   [
+    0.093,
+    0.0,
+    0.222,
+    0.392
+   ],
+   [
+    0.508,
+    0.12,
+    0.531,
+    0.212
+   ]
+  ],
+  "new_A": 1,
+  "raw_A": "1",
+  "ok_A": true,
+  "new_B": 1,
+  "raw_B": "1",
+  "ok_B": true
+ },
+ {
+  "cat": "C4_CONTROL_match",
+  "qid": "012721_002",
+  "d": "LTR",
+  "k": 2,
+  "nc": 15,
+  "exp": 2,
+  "old_num": 2,
+  "old_verdict": "MATCH",
+  "core": "person",
+  "query": "The second person from the left",
+  "visible": "Images/visible/012721.png",
+  "cands": [
+   [
+    0.114,
+    0.468,
+    0.156,
+    0.664
+   ],
+   [
+    0.193,
+    0.455,
+    0.264,
+    0.668
+   ],
+   [
+    0.258,
+    0.397,
+    0.34,
+    0.905
+   ],
+   [
+    0.373,
+    0.497,
+    0.403,
+    0.615
+   ],
+   [
+    0.5,
+    0.455,
+    0.527,
+    0.586
+   ],
+   [
+    0.527,
+    0.468,
+    0.55,
+    0.573
+   ],
+   [
+    0.552,
+    0.47,
+    0.582,
+    0.565
+   ],
+   [
+    0.593,
+    0.461,
+    0.63,
+    0.658
+   ],
+   [
+    0.613,
+    0.427,
+    0.675,
+    0.687
+   ],
+   [
+    0.683,
+    0.443,
+    0.7,
+    0.545
+   ],
+   [
+    0.692,
+    0.437,
+    0.718,
+    0.6
+   ],
+   [
+    0.772,
+    0.455,
+    0.793,
+    0.565
+   ],
+   [
+    0.81,
+    0.443,
+    0.829,
+    0.557
+   ],
+   [
+    0.825,
+    0.47,
+    0.845,
+    0.55
+   ],
+   [
+    0.847,
+    0.447,
+    0.869,
+    0.537
+   ]
+  ],
+  "new_A": 2,
+  "raw_A": "2",
+  "ok_A": true,
+  "new_B": 2,
+  "raw_B": "2",
+  "ok_B": true
+ }
+]
