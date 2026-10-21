@@ -1,0 +1,81 @@
+# ============================================================
+# 全局配置文件（Qwen3-VL 默认，本地版）
+# 云端全量推理请使用 configs/cloud_qwen.yaml（data.root=/data/dataset，半精度）
+# ============================================================
+
+data:
+  root: "dataset"
+  queries_file: "queries/queries.json"
+  visible_dir: "Images/visible"
+  infrared_dir: "Images/infrared"
+  depth_dir: "Images/depth"
+
+model:
+  type: "qwen3_vl"
+  name_or_path: "checkpoints/Qwen3-VL-8B-Instruct"
+  device: "auto"
+  use_half_precision: false
+  box_threshold: 0.20
+  text_threshold: 0.15
+
+inference:
+  max_queries_per_prompt: 20
+  enable_multimodal_fusion: true
+  low_light_threshold: 60
+  fusion_mode: "low_light"
+  fusion_ir_weight: 1.0
+  fusion_depth_weight: 1.0
+  fusion_gate_scale: 30.0
+  multimodal_input_mode: "split"
+  fallback: "none"
+  # 【09-30 官方 0.7230 后回退】变量 C（深度先验）09-30 归因判定「不可判」
+  # （main 与 no_depth_prior 两臂占位相等、可证明错误面板相等，仅 6 条差异），
+  # 保守回退 false，与 09-24 基线（官方 0.7292）一致。
+  # depth_info 本就在管线里准备（predictor.py:59），开启不增加任何前向成本。
+  enable_depth_prior: false
+  # 序数链修正（跨查询一致性约束）：off | sort | project
+  # 【2026-09-28 人工判读结论 · 弃用】see configs/cloud_qwen.yaml 同项注释：
+  # 逐图核对 47 场景 / 116 条 query 后确认，模型原始框能盖到「相似对象」但盖不到
+  # 指定目标，sort / project 两种修法基本都标不到对象。破序根因是模型没定位到
+  # 正确的序数目标，不是序数标签贴反，纯几何后处理只会把框挪丢。故置 off。
+  chain_enforce: "off"
+  chain_gap_ratio: 0.05             # 仅 chain_enforce != off 时生效
+  chain_max_shift: 0.0              # 同上；0 = 不限
+  # 诊断落盘（纯观测，不改预测结果）：本地默认关闭，云端 configs/cloud_qwen.yaml 打开。
+  diag_dump: false
+  diag_dir: "outputs/diag"
+
+qwen:
+  output_mode: "multi_box"
+  # 512 → 1024：diag 全量归因证实 92 条丢框全部是回复截断（truncated_json 81 +
+  # truncated_budget 8 + 其他 3），echo_fail = 0；经验式 need ≈ 512×n/k 最大 805，
+  # 1024 全覆盖；未截断的块按 EOS 提前停，零额外前向。详见 configs/cloud_qwen.yaml 同项。
+  max_new_tokens: 1024
+  enable_thinking: false
+  # 【09-30 官方 0.7230 后回退】ID 化输出（P0-2）已云验证但整体负收益：
+  # 官方 0.7292 -> 0.7230（-0.0062 ≈ -35 条）。改 prompt 引发 4276/5690 条
+  # 输出漂移，占位修复（92->18）被有效框错位净损失盖过。回退 false =
+  # 09-24 基线（整句 label 回显），仅保留 max_new_tokens: 1024 截断修复。
+  multi_box_id: false
+  default_score: 1.0
+  coord_scale_x: 1.0
+  coord_scale_y: 1.0
+  feature_cache: true
+  cache_max_entries: 4
+  # 搜索式推理：候选采样 + 一致性投票（num_samples > 1 时生效）
+  num_samples: 1
+  sample_temperature: 0.7
+  sample_top_p: 0.9
+  vote_iou_threshold: 0.5
+  vote_min_votes: 1
+
+postprocess:
+  fallback_bbox: [0.49, 0.49, 0.51, 0.51]
+
+output:
+  dir: "outputs"
+  predictions_json: "predictions.json"
+  submission_zip: "submission.zip"
+
+logging:
+  level: "INFO"

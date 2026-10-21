@@ -1,0 +1,93 @@
+# ============================================================
+# 云端配置 · Qwen3-VL（复赛，三模态多图输入，模式③多框 + 视觉特征缓存）
+# 由 scripts/run_full.sh --config configs/cloud_qwen.yaml 使用
+# ============================================================
+
+data:
+  root: "/data/dataset"
+  queries_file: "queries/queries.json"
+  visible_dir: "Images/visible"
+  infrared_dir: "Images/infrared"
+  depth_dir: "Images/depth"
+
+model:
+  type: "qwen3_vl"
+  name_or_path: "checkpoints/Qwen3-VL-8B-Instruct"
+  device: "auto"
+  use_half_precision: true     # 关键：8B 必须以半精度加载（fp32 权重 32GB 会 OOM）
+  box_threshold: 0.20      # 对 Qwen 无对应语义（接口对齐）
+  text_threshold: 0.15
+
+inference:
+  max_queries_per_prompt: 20
+  enable_multimodal_fusion: true
+  low_light_threshold: 60
+  fusion_mode: "low_light"          # split 模式下不生效（不走伪 RGB 融合）
+  fusion_ir_weight: 1.0
+  fusion_depth_weight: 1.0
+  fusion_gate_scale: 30.0
+  # 三模态分图输入：可见光 + 红外 + 深度 各一张图喂入 Qwen 对话
+  multimodal_input_mode: "split"
+  fallback: "none"                  # Qwen 解析失败 → 中性占位框（避免 top1 乱抓）
+  # 【09-30 官方 0.7230 后回退】变量 C（深度先验）09-30 归因判定「不可判」
+  # （main 与 no_depth_prior 两臂占位相等、可证明错误面板相等，仅 6 条差异），
+  # 保守回退 false，与 09-24 基线（官方 0.7292）一致。
+  # depth_info 本就在管线里准备（predictor.py:59），开启不增加任何前向成本。
+  enable_depth_prior: false
+  # 序数链修正（跨查询一致性约束）：off | sort | project
+  # 【2026-09-28 人工判读结论 · 弃用】在 outputs/复赛/chain/chain_modes 复核页逐图核对
+  # 47 张场景 / 116 条 query 后确认：模型原始框能盖到「相似对象」（同类物体的某个
+  # 实例），但盖不到 query 指定的那一个；sort（置换重指派）与 project（PAVA 平均
+  # 平移）两种修法「基本都标不到对象」——sort 复用的仍是模型那些框，置换后照样
+  # 有框落在背景上；project 更把分离目标平均到中间空隙（32 对框 IoU>0.5 重合，
+  # raw 仅 2 对）。
+  # 即破序根因 =「模型没定位到正确的序数目标」，而非「序数标签贴反」；纯几何后
+  # 处理无法凭空造出正确框，只会把原本勉强盖住相似物体的框挪丢。故置 off。
+  chain_enforce: "off"
+  chain_gap_ratio: 0.05             # 仅 chain_enforce != off 时生效
+  chain_max_shift: 0.0              # 同上；0 = 不限
+  # 诊断落盘（纯观测，不改预测）：把模型原始回复 / 解析出的 (label,bbox) /
+  # 匹配失败 label / 候选投票写入 outputs/diag/diag_raw_*.jsonl。
+  # 用途：区分"512 token 截断"与"label 回显失败"，并量化解析抢救的收益上限。
+  diag_dump: true
+  diag_dir: "outputs/diag"
+
+qwen:
+  output_mode: "multi_box"          # 模式③：同图一次生成多框
+  # 【2026-09-28 截断修复】512 → 1024。
+  # 依据：diag 落盘全量归因（5690 条）——92 条丢框**全部**是「回复没写完」
+  # （truncated_json 81 + truncated_budget 8 + 其他 3），echo_fail = 0，
+  # 即解析抢救收益为零，唯一成因是预算不足。
+  # 用 45 个截断块的 reply_len 反推真实密度 = 2.912 chars/token（原假设 3.6 偏乐观）；
+  # 改用无字符假设的经验式 need ≈ 512 × n/k（k = 该块实际吐出的框数）估计，
+  # 最大 805 token → 1024 全覆盖。未截断的块照旧按 EOS 提前停，零额外前向。
+  max_new_tokens: 1024
+  enable_thinking: false
+  # 【09-30 官方 0.7230 后回退】ID 化输出（P0-2）已云验证但整体负收益：
+  # 官方 0.7292 -> 0.7230（-0.0062 ≈ -35 条）。改 prompt 引发 4276/5690 条
+  # 输出漂移，占位修复（92->18）被有效框错位净损失盖过。回退 false =
+  # 09-24 基线（整句 label 回显），仅保留 max_new_tokens: 1024 截断修复。
+  # 置 true 可复现 09-30 ID 化行为做 A/B。
+  multi_box_id: false
+  default_score: 1.0
+  coord_scale_x: 1.0
+  coord_scale_y: 1.0
+  feature_cache: true
+  cache_max_entries: 4
+  # 搜索式推理：候选采样 + 一致性投票（num_samples > 1 时生效）
+  num_samples: 1
+  sample_temperature: 0.7
+  sample_top_p: 0.9
+  vote_iou_threshold: 0.5
+  vote_min_votes: 1
+
+postprocess:
+  fallback_bbox: [0.49, 0.49, 0.51, 0.51]
+
+output:
+  dir: "outputs"
+  predictions_json: "predictions.json"
+  submission_zip: "submission.zip"
+
+logging:
+  level: "INFO"

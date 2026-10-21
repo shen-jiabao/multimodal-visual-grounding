@@ -1,0 +1,578 @@
+loading Qwen3-VL-32B fp16, forcing all on GPU...
+Loading weights:   0%|          | 0/1058 [00:00<?, ?it/s]Loading weights:   0%|          | 1/1058 [00:00<05:32,  3.18it/s]Loading weights:   0%|          | 2/1058 [00:00<04:08,  4.25it/s]Loading weights:   1%|          | 9/1058 [00:00<00:48, 21.53it/s]Loading weights:   1%|          | 13/1058 [00:01<01:53,  9.23it/s]Loading weights:   2%|▏         | 17/1058 [00:01<01:24, 12.33it/s]Loading weights:   2%|▏         | 23/1058 [00:02<02:00,  8.57it/s]Loading weights:   3%|▎         | 28/1058 [00:02<01:27, 11.71it/s]Loading weights:   3%|▎         | 32/1058 [00:03<01:43,  9.91it/s]Loading weights:   3%|▎         | 37/1058 [00:03<01:38, 10.34it/s]Loading weights:   4%|▎         | 39/1058 [00:03<01:38, 10.36it/s]Loading weights:   5%|▍         | 48/1058 [00:04<01:35, 10.53it/s]Loading weights:   6%|▌         | 59/1058 [00:05<01:41,  9.86it/s]Loading weights:   6%|▌         | 61/1058 [00:05<01:36, 10.28it/s]Loading weights:   7%|▋         | 70/1058 [00:07<01:45,  9.37it/s]Loading weights:   7%|▋         | 72/1058 [00:07<01:40,  9.85it/s]Loading weights:   8%|▊         | 81/1058 [00:08<01:47,  9.12it/s]Loading weights:   8%|▊         | 89/1058 [00:08<01:13, 13.10it/s]Loading weights:   9%|▊         | 92/1058 [00:09<02:01,  7.95it/s]Loading weights:   9%|▉         | 95/1058 [00:09<01:46,  9.03it/s]Loading weights:  10%|▉         | 102/1058 [00:09<01:11, 13.44it/s]Loading weights:  10%|█         | 106/1058 [00:10<01:48,  8.75it/s]Loading weights:  10%|█         | 111/1058 [00:11<02:14,  7.05it/s]Loading weights:  11%|█         | 115/1058 [00:11<01:48,  8.72it/s]Loading weights:  12%|█▏        | 122/1058 [00:12<01:35,  9.79it/s]Loading weights:  12%|█▏        | 126/1058 [00:12<01:18, 11.87it/s]Loading weights:  12%|█▏        | 131/1058 [00:13<01:56,  7.95it/s]Loading weights:  13%|█▎        | 136/1058 [00:13<01:28, 10.48it/s]Loading weights:  13%|█▎        | 139/1058 [00:14<01:19, 11.50it/s]Loading weights:  13%|█▎        | 142/1058 [00:14<02:01,  7.54it/s]Loading weights:  14%|█▍        | 147/1058 [00:15<01:36,  9.47it/s]Loading weights:  15%|█▍        | 155/1058 [00:15<01:03, 14.16it/s]Loading weights:  15%|█▍        | 158/1058 [00:16<01:33,  9.66it/s]Loading weights:  16%|█▌        | 165/1058 [00:16<01:01, 14.56it/s]Loading weights:  16%|█▌        | 169/1058 [00:17<01:31,  9.72it/s]Loading weights:  16%|█▋        | 172/1058 [00:17<01:20, 10.98it/s]Loading weights:  17%|█▋        | 175/1058 [00:18<01:56,  7.57it/s]Loading weights:  17%|█▋        | 177/1058 [00:18<01:44,  8.40it/s]Loading weights:  17%|█▋        | 182/1058 [00:18<01:11, 12.20it/s]Loading weights:  18%|█▊        | 186/1058 [00:19<01:53,  7.71it/s]Loading weights:  18%|█▊        | 193/1058 [00:19<01:10, 12.19it/s]Loading weights:  19%|█▉        | 199/1058 [00:19<01:09, 12.43it/s]Loading weights:  19%|█▉        | 202/1058 [00:20<01:43,  8.30it/s]Loading weights:  19%|█▉        | 204/1058 [00:21<02:11,  6.49it/s]Loading weights:  20%|██        | 214/1058 [00:21<01:09, 12.08it/s]Loading weights:  21%|██        | 224/1058 [00:22<01:21, 10.25it/s]Loading weights:  21%|██▏       | 226/1058 [00:22<01:21, 10.18it/s]Loading weights:  22%|██▏       | 232/1058 [00:23<01:13, 11.24it/s]Loading weights:  22%|██▏       | 234/1058 [00:23<01:19, 10.31it/s]Loading weights:  22%|██▏       | 236/1058 [00:24<01:48,  7.58it/s]Loading weights:  23%|██▎       | 246/1058 [00:25<01:40,  8.08it/s]Loading weights:  23%|██▎       | 247/1058 [00:25<01:52,  7.22it/s]Loading weights:  24%|██▍       | 258/1058 [00:25<00:56, 14.06it/s]Loading weights:  25%|██▌       | 265/1058 [00:26<01:05, 12.12it/s]Loading weights:  25%|██▌       | 268/1058 [00:27<01:19,  9.93it/s]Loading weights:  26%|██▌       | 271/1058 [00:27<01:10, 11.11it/s]Loading weights:  26%|██▋       | 279/1058 [00:28<01:29,  8.72it/s]Loading weights:  27%|██▋       | 287/1058 [00:28<01:02, 12.29it/s]Loading weights:  27%|██▋       | 290/1058 [00:29<01:37,  7.84it/s]Loading weights:  28%|██▊       | 292/1058 [00:29<01:30,  8.43it/s]Loading weights:  28%|██▊       | 297/1058 [00:29<01:05, 11.60it/s]Loading weights:  28%|██▊       | 300/1058 [00:30<00:58, 13.01it/s]Loading weights:  29%|██▊       | 303/1058 [00:31<01:48,  6.98it/s]Loading weights:  29%|██▉       | 312/1058 [00:32<01:37,  7.68it/s]Loading weights:  31%|███       | 323/1058 [00:33<01:32,  7.97it/s]Loading weights:  31%|███       | 325/1058 [00:33<01:34,  7.80it/s]Loading weights:  32%|███▏      | 334/1058 [00:35<01:36,  7.52it/s]Loading weights:  32%|███▏      | 336/1058 [00:35<01:31,  7.87it/s]Loading weights:  33%|███▎      | 345/1058 [00:35<01:02, 11.40it/s]Loading weights:  33%|███▎      | 347/1058 [00:35<01:11,  9.98it/s]Loading weights:  34%|███▎      | 356/1058 [00:36<01:05, 10.79it/s]Loading weights:  34%|███▍      | 358/1058 [00:36<01:02, 11.15it/s]Loading weights:  34%|███▍      | 364/1058 [00:37<01:09, 10.00it/s]Loading weights:  35%|███▍      | 367/1058 [00:37<01:02, 11.07it/s]Loading weights:  35%|███▍      | 369/1058 [00:37<00:58, 11.86it/s]Loading weights:  36%|███▌      | 378/1058 [00:38<01:11,  9.46it/s]Loading weights:  36%|███▌      | 380/1058 [00:39<01:11,  9.52it/s]Loading weights:  37%|███▋      | 389/1058 [00:40<01:06, 10.00it/s]Loading weights:  37%|███▋      | 391/1058 [00:40<01:04, 10.26it/s]Loading weights:  38%|███▊      | 400/1058 [00:41<01:15,  8.66it/s]Loading weights:  39%|███▉      | 411/1058 [00:42<01:10,  9.15it/s]Loading weights:  40%|███▉      | 422/1058 [00:43<01:01, 10.39it/s]Loading weights:  40%|████      | 424/1058 [00:43<01:03, 10.05it/s]Loading weights:  41%|████      | 433/1058 [00:44<00:57, 10.96it/s]Loading weights:  41%|████      | 435/1058 [00:44<01:02,  9.94it/s]Loading weights:  41%|████▏     | 438/1058 [00:44<00:54, 11.33it/s]Loading weights:  42%|████▏     | 444/1058 [00:46<01:20,  7.66it/s]Loading weights:  43%|████▎     | 455/1058 [00:47<01:06,  9.12it/s]Loading weights:  43%|████▎     | 457/1058 [00:47<01:05,  9.13it/s]Loading weights:  44%|████▍     | 466/1058 [00:47<00:50, 11.76it/s]Loading weights:  44%|████▍     | 468/1058 [00:48<01:13,  8.08it/s]Loading weights:  44%|████▍     | 470/1058 [00:48<01:17,  7.57it/s]Loading weights:  45%|████▍     | 475/1058 [00:49<00:58,  9.90it/s]Loading weights:  45%|████▌     | 477/1058 [00:49<01:00,  9.55it/s]Loading weights:  45%|████▌     | 479/1058 [00:49<00:55, 10.36it/s]Loading weights:  46%|████▌     | 488/1058 [00:50<00:56, 10.15it/s]Loading weights:  47%|████▋     | 496/1058 [00:50<00:36, 15.32it/s]Loading weights:  47%|████▋     | 499/1058 [00:51<01:01,  9.05it/s]Loading weights:  48%|████▊     | 507/1058 [00:51<00:39, 13.78it/s]Loading weights:  48%|████▊     | 511/1058 [00:52<01:07,  8.07it/s]Loading weights:  49%|████▉     | 518/1058 [00:52<00:45, 11.75it/s]Loading weights:  49%|████▉     | 522/1058 [00:54<01:10,  7.57it/s]Loading weights:  50%|█████     | 530/1058 [00:54<00:45, 11.64it/s]Loading weights:  50%|█████     | 534/1058 [00:55<01:00,  8.66it/s]Loading weights:  51%|█████▏    | 543/1058 [00:56<01:02,  8.19it/s]Loading weights:  52%|█████▏    | 546/1058 [00:56<00:56,  9.14it/s]Loading weights:  52%|█████▏    | 554/1058 [00:57<00:56,  8.91it/s]Loading weights:  53%|█████▎    | 556/1058 [00:58<01:10,  7.13it/s]Loading weights:  53%|█████▎    | 565/1058 [00:58<00:57,  8.54it/s]Loading weights:  54%|█████▎    | 567/1058 [00:58<00:53,  9.13it/s]Loading weights:  54%|█████▍    | 576/1058 [01:00<01:02,  7.77it/s]Loading weights:  55%|█████▍    | 578/1058 [01:00<00:57,  8.37it/s]Loading weights:  55%|█████▌    | 587/1058 [01:01<01:03,  7.42it/s]Loading weights:  56%|█████▌    | 595/1058 [01:01<00:44, 10.40it/s]Loading weights:  57%|█████▋    | 598/1058 [01:02<00:55,  8.30it/s]Loading weights:  57%|█████▋    | 600/1058 [01:02<00:51,  8.84it/s]Loading weights:  58%|█████▊    | 609/1058 [01:03<00:46,  9.73it/s]Loading weights:  58%|█████▊    | 611/1058 [01:03<00:47,  9.46it/s]Loading weights:  59%|█████▊    | 620/1058 [01:04<00:42, 10.31it/s]Loading weights:  59%|█████▉    | 622/1058 [01:04<00:43, 10.13it/s]Loading weights:  59%|█████▉    | 628/1058 [01:05<00:31, 13.66it/s]Loading weights:  60%|█████▉    | 631/1058 [01:05<00:49,  8.62it/s]Loading weights:  60%|█████▉    | 633/1058 [01:06<00:45,  9.43it/s]Loading weights:  61%|██████    | 642/1058 [01:06<00:43,  9.60it/s]Loading weights:  61%|██████▏   | 650/1058 [01:07<00:28, 14.54it/s]Loading weights:  62%|██████▏   | 654/1058 [01:08<00:46,  8.78it/s]Loading weights:  62%|██████▏   | 657/1058 [01:08<00:42,  9.42it/s]Loading weights:  63%|██████▎   | 664/1058 [01:09<00:51,  7.67it/s]Loading weights:  63%|██████▎   | 666/1058 [01:09<00:46,  8.38it/s]Loading weights:  64%|██████▎   | 672/1058 [01:09<00:33, 11.37it/s]Loading weights:  64%|██████▍   | 675/1058 [01:10<00:54,  7.08it/s]Loading weights:  65%|██████▍   | 686/1058 [01:11<00:33, 10.94it/s]Loading weights:  65%|██████▌   | 688/1058 [01:12<00:46,  8.04it/s]Loading weights:  66%|██████▌   | 697/1058 [01:12<00:39,  9.13it/s]Loading weights:  67%|██████▋   | 705/1058 [01:13<00:26, 13.29it/s]Loading weights:  80%|███████▉  | 843/1058 [01:13<00:01, 119.44it/s]Loading weights:  84%|████████▍ | 893/1058 [01:13<00:01, 154.65it/s]Loading weights:  89%|████████▉ | 943/1058 [01:13<00:00, 195.64it/s]Loading weights:  96%|█████████▋| 1020/1058 [01:13<00:00, 280.78it/s]Loading weights: 100%|██████████| 1058/1058 [01:14<00:00, 14.27it/s] 
+GPU mem: 66.7GB
+total 5690, done 0
+done 10/5690 (0.48/s) ETA 198min
+done 20/5690 (0.50/s) ETA 191min
+done 30/5690 (0.50/s) ETA 189min
+done 40/5690 (0.50/s) ETA 188min
+done 50/5690 (0.51/s) ETA 186min
+done 60/5690 (0.50/s) ETA 186min
+done 70/5690 (0.50/s) ETA 186min
+done 80/5690 (0.50/s) ETA 185min
+done 90/5690 (0.51/s) ETA 184min
+done 100/5690 (0.51/s) ETA 184min
+done 110/5690 (0.51/s) ETA 184min
+done 120/5690 (0.51/s) ETA 183min
+done 130/5690 (0.51/s) ETA 183min
+done 140/5690 (0.51/s) ETA 183min
+done 150/5690 (0.51/s) ETA 183min
+done 160/5690 (0.51/s) ETA 182min
+done 170/5690 (0.51/s) ETA 182min
+done 180/5690 (0.51/s) ETA 182min
+done 190/5690 (0.51/s) ETA 181min
+done 200/5690 (0.51/s) ETA 181min
+done 210/5690 (0.51/s) ETA 181min
+done 220/5690 (0.51/s) ETA 180min
+done 230/5690 (0.51/s) ETA 180min
+done 240/5690 (0.51/s) ETA 180min
+done 250/5690 (0.51/s) ETA 179min
+done 260/5690 (0.51/s) ETA 179min
+done 270/5690 (0.51/s) ETA 179min
+done 280/5690 (0.51/s) ETA 178min
+done 290/5690 (0.51/s) ETA 178min
+done 300/5690 (0.51/s) ETA 178min
+done 310/5690 (0.51/s) ETA 177min
+done 320/5690 (0.51/s) ETA 177min
+done 330/5690 (0.51/s) ETA 177min
+done 340/5690 (0.51/s) ETA 176min
+done 350/5690 (0.51/s) ETA 176min
+done 360/5690 (0.50/s) ETA 176min
+done 370/5690 (0.50/s) ETA 176min
+done 380/5690 (0.50/s) ETA 175min
+done 390/5690 (0.50/s) ETA 175min
+done 400/5690 (0.50/s) ETA 175min
+done 410/5690 (0.50/s) ETA 174min
+done 420/5690 (0.50/s) ETA 174min
+done 430/5690 (0.50/s) ETA 174min
+done 440/5690 (0.50/s) ETA 174min
+done 450/5690 (0.50/s) ETA 173min
+done 460/5690 (0.50/s) ETA 173min
+done 470/5690 (0.50/s) ETA 172min
+done 480/5690 (0.50/s) ETA 172min
+done 490/5690 (0.50/s) ETA 172min
+done 500/5690 (0.50/s) ETA 172min
+done 510/5690 (0.50/s) ETA 171min
+done 520/5690 (0.50/s) ETA 171min
+done 530/5690 (0.50/s) ETA 171min
+done 540/5690 (0.50/s) ETA 170min
+done 550/5690 (0.50/s) ETA 170min
+done 560/5690 (0.50/s) ETA 170min
+done 570/5690 (0.50/s) ETA 169min
+done 580/5690 (0.50/s) ETA 169min
+done 590/5690 (0.50/s) ETA 169min
+done 600/5690 (0.50/s) ETA 168min
+done 610/5690 (0.50/s) ETA 168min
+done 620/5690 (0.50/s) ETA 168min
+done 630/5690 (0.50/s) ETA 167min
+done 640/5690 (0.50/s) ETA 167min
+done 650/5690 (0.50/s) ETA 166min
+done 660/5690 (0.50/s) ETA 166min
+done 670/5690 (0.50/s) ETA 166min
+done 680/5690 (0.50/s) ETA 166min
+done 690/5690 (0.50/s) ETA 165min
+done 700/5690 (0.50/s) ETA 165min
+done 710/5690 (0.50/s) ETA 165min
+done 720/5690 (0.50/s) ETA 164min
+done 730/5690 (0.50/s) ETA 164min
+done 740/5690 (0.50/s) ETA 164min
+done 750/5690 (0.50/s) ETA 163min
+done 760/5690 (0.50/s) ETA 163min
+done 770/5690 (0.50/s) ETA 163min
+done 780/5690 (0.50/s) ETA 162min
+done 790/5690 (0.50/s) ETA 162min
+done 800/5690 (0.50/s) ETA 162min
+done 810/5690 (0.50/s) ETA 161min
+done 820/5690 (0.50/s) ETA 161min
+done 830/5690 (0.50/s) ETA 160min
+done 840/5690 (0.50/s) ETA 160min
+done 850/5690 (0.50/s) ETA 160min
+done 860/5690 (0.50/s) ETA 160min
+done 870/5690 (0.50/s) ETA 159min
+done 880/5690 (0.50/s) ETA 159min
+done 890/5690 (0.50/s) ETA 159min
+done 900/5690 (0.50/s) ETA 158min
+done 910/5690 (0.50/s) ETA 158min
+done 920/5690 (0.50/s) ETA 157min
+done 930/5690 (0.50/s) ETA 157min
+done 940/5690 (0.50/s) ETA 157min
+done 950/5690 (0.50/s) ETA 156min
+done 960/5690 (0.50/s) ETA 156min
+done 970/5690 (0.50/s) ETA 156min
+done 980/5690 (0.50/s) ETA 155min
+done 990/5690 (0.50/s) ETA 155min
+done 1000/5690 (0.50/s) ETA 155min
+done 1010/5690 (0.51/s) ETA 154min
+done 1020/5690 (0.51/s) ETA 154min
+done 1030/5690 (0.50/s) ETA 154min
+done 1040/5690 (0.50/s) ETA 153min
+done 1050/5690 (0.50/s) ETA 153min
+done 1060/5690 (0.50/s) ETA 153min
+done 1070/5690 (0.50/s) ETA 152min
+done 1080/5690 (0.50/s) ETA 152min
+done 1090/5690 (0.51/s) ETA 152min
+done 1100/5690 (0.51/s) ETA 151min
+done 1110/5690 (0.51/s) ETA 151min
+done 1120/5690 (0.51/s) ETA 151min
+done 1130/5690 (0.50/s) ETA 151min
+done 1140/5690 (0.50/s) ETA 150min
+done 1150/5690 (0.50/s) ETA 150min
+done 1160/5690 (0.50/s) ETA 150min
+done 1170/5690 (0.50/s) ETA 149min
+done 1180/5690 (0.50/s) ETA 149min
+done 1190/5690 (0.50/s) ETA 149min
+done 1200/5690 (0.50/s) ETA 148min
+done 1210/5690 (0.50/s) ETA 148min
+done 1220/5690 (0.50/s) ETA 148min
+done 1230/5690 (0.50/s) ETA 147min
+done 1240/5690 (0.50/s) ETA 147min
+done 1250/5690 (0.50/s) ETA 147min
+done 1260/5690 (0.50/s) ETA 146min
+done 1270/5690 (0.50/s) ETA 146min
+done 1280/5690 (0.50/s) ETA 146min
+done 1290/5690 (0.50/s) ETA 145min
+done 1300/5690 (0.50/s) ETA 145min
+done 1310/5690 (0.50/s) ETA 145min
+done 1320/5690 (0.50/s) ETA 144min
+done 1330/5690 (0.50/s) ETA 144min
+done 1340/5690 (0.50/s) ETA 144min
+done 1350/5690 (0.50/s) ETA 143min
+done 1360/5690 (0.50/s) ETA 143min
+done 1370/5690 (0.50/s) ETA 143min
+done 1380/5690 (0.50/s) ETA 142min
+done 1390/5690 (0.50/s) ETA 142min
+done 1400/5690 (0.50/s) ETA 142min
+done 1410/5690 (0.50/s) ETA 141min
+done 1420/5690 (0.50/s) ETA 141min
+done 1430/5690 (0.50/s) ETA 141min
+done 1440/5690 (0.50/s) ETA 140min
+done 1450/5690 (0.50/s) ETA 140min
+done 1460/5690 (0.50/s) ETA 140min
+done 1470/5690 (0.50/s) ETA 139min
+done 1480/5690 (0.50/s) ETA 139min
+done 1490/5690 (0.50/s) ETA 139min
+done 1500/5690 (0.50/s) ETA 138min
+done 1510/5690 (0.50/s) ETA 138min
+done 1520/5690 (0.50/s) ETA 138min
+done 1530/5690 (0.50/s) ETA 137min
+done 1540/5690 (0.50/s) ETA 137min
+done 1550/5690 (0.50/s) ETA 137min
+done 1560/5690 (0.50/s) ETA 136min
+done 1570/5690 (0.50/s) ETA 136min
+done 1580/5690 (0.50/s) ETA 136min
+done 1590/5690 (0.50/s) ETA 136min
+done 1600/5690 (0.50/s) ETA 135min
+done 1610/5690 (0.50/s) ETA 135min
+done 1620/5690 (0.50/s) ETA 135min
+done 1630/5690 (0.50/s) ETA 134min
+done 1640/5690 (0.50/s) ETA 134min
+done 1650/5690 (0.50/s) ETA 134min
+done 1660/5690 (0.50/s) ETA 133min
+done 1670/5690 (0.50/s) ETA 133min
+done 1680/5690 (0.50/s) ETA 133min
+done 1690/5690 (0.50/s) ETA 132min
+done 1700/5690 (0.50/s) ETA 132min
+done 1710/5690 (0.50/s) ETA 132min
+done 1720/5690 (0.50/s) ETA 131min
+done 1730/5690 (0.50/s) ETA 131min
+done 1740/5690 (0.50/s) ETA 131min
+done 1750/5690 (0.50/s) ETA 130min
+done 1760/5690 (0.50/s) ETA 130min
+done 1770/5690 (0.50/s) ETA 130min
+done 1780/5690 (0.50/s) ETA 129min
+done 1790/5690 (0.50/s) ETA 129min
+done 1800/5690 (0.50/s) ETA 129min
+done 1810/5690 (0.50/s) ETA 128min
+done 1820/5690 (0.50/s) ETA 128min
+done 1830/5690 (0.50/s) ETA 128min
+done 1840/5690 (0.50/s) ETA 127min
+done 1850/5690 (0.50/s) ETA 127min
+done 1860/5690 (0.50/s) ETA 127min
+done 1870/5690 (0.50/s) ETA 126min
+done 1880/5690 (0.50/s) ETA 126min
+done 1890/5690 (0.50/s) ETA 126min
+done 1900/5690 (0.50/s) ETA 125min
+done 1910/5690 (0.50/s) ETA 125min
+done 1920/5690 (0.50/s) ETA 125min
+done 1930/5690 (0.50/s) ETA 124min
+done 1940/5690 (0.50/s) ETA 124min
+done 1950/5690 (0.50/s) ETA 124min
+done 1960/5690 (0.50/s) ETA 123min
+done 1970/5690 (0.50/s) ETA 123min
+done 1980/5690 (0.50/s) ETA 123min
+done 1990/5690 (0.50/s) ETA 122min
+done 2000/5690 (0.50/s) ETA 122min
+done 2010/5690 (0.50/s) ETA 122min
+done 2020/5690 (0.50/s) ETA 121min
+done 2030/5690 (0.50/s) ETA 121min
+done 2040/5690 (0.50/s) ETA 121min
+done 2050/5690 (0.50/s) ETA 120min
+done 2060/5690 (0.50/s) ETA 120min
+done 2070/5690 (0.50/s) ETA 120min
+done 2080/5690 (0.50/s) ETA 119min
+done 2090/5690 (0.50/s) ETA 119min
+done 2100/5690 (0.50/s) ETA 119min
+done 2110/5690 (0.50/s) ETA 118min
+done 2120/5690 (0.50/s) ETA 118min
+done 2130/5690 (0.50/s) ETA 118min
+done 2140/5690 (0.50/s) ETA 117min
+done 2150/5690 (0.50/s) ETA 117min
+done 2160/5690 (0.50/s) ETA 117min
+done 2170/5690 (0.50/s) ETA 116min
+done 2180/5690 (0.50/s) ETA 116min
+done 2190/5690 (0.50/s) ETA 116min
+done 2200/5690 (0.50/s) ETA 115min
+done 2210/5690 (0.50/s) ETA 115min
+done 2220/5690 (0.50/s) ETA 115min
+done 2230/5690 (0.50/s) ETA 114min
+done 2240/5690 (0.50/s) ETA 114min
+done 2250/5690 (0.50/s) ETA 114min
+done 2260/5690 (0.50/s) ETA 113min
+done 2270/5690 (0.50/s) ETA 113min
+done 2280/5690 (0.50/s) ETA 113min
+done 2290/5690 (0.50/s) ETA 112min
+done 2300/5690 (0.50/s) ETA 112min
+done 2310/5690 (0.50/s) ETA 112min
+done 2320/5690 (0.50/s) ETA 111min
+done 2330/5690 (0.50/s) ETA 111min
+done 2340/5690 (0.50/s) ETA 111min
+done 2350/5690 (0.50/s) ETA 110min
+done 2360/5690 (0.50/s) ETA 110min
+done 2370/5690 (0.50/s) ETA 110min
+done 2380/5690 (0.50/s) ETA 109min
+done 2390/5690 (0.50/s) ETA 109min
+done 2400/5690 (0.50/s) ETA 109min
+done 2410/5690 (0.50/s) ETA 108min
+done 2420/5690 (0.50/s) ETA 108min
+done 2430/5690 (0.50/s) ETA 108min
+done 2440/5690 (0.50/s) ETA 107min
+done 2450/5690 (0.50/s) ETA 107min
+done 2460/5690 (0.50/s) ETA 107min
+done 2470/5690 (0.50/s) ETA 106min
+done 2480/5690 (0.50/s) ETA 106min
+done 2490/5690 (0.50/s) ETA 106min
+done 2500/5690 (0.50/s) ETA 105min
+done 2510/5690 (0.50/s) ETA 105min
+done 2520/5690 (0.50/s) ETA 105min
+done 2530/5690 (0.50/s) ETA 104min
+done 2540/5690 (0.50/s) ETA 104min
+done 2550/5690 (0.50/s) ETA 104min
+done 2560/5690 (0.50/s) ETA 103min
+done 2570/5690 (0.50/s) ETA 103min
+done 2580/5690 (0.50/s) ETA 103min
+done 2590/5690 (0.50/s) ETA 102min
+done 2600/5690 (0.50/s) ETA 102min
+done 2610/5690 (0.50/s) ETA 102min
+done 2620/5690 (0.50/s) ETA 101min
+done 2630/5690 (0.50/s) ETA 101min
+done 2640/5690 (0.50/s) ETA 101min
+done 2650/5690 (0.50/s) ETA 100min
+done 2660/5690 (0.50/s) ETA 100min
+done 2670/5690 (0.50/s) ETA 100min
+done 2680/5690 (0.50/s) ETA 99min
+done 2690/5690 (0.50/s) ETA 99min
+done 2700/5690 (0.50/s) ETA 99min
+done 2710/5690 (0.50/s) ETA 98min
+done 2720/5690 (0.50/s) ETA 98min
+done 2730/5690 (0.50/s) ETA 98min
+done 2740/5690 (0.50/s) ETA 97min
+done 2750/5690 (0.50/s) ETA 97min
+done 2760/5690 (0.50/s) ETA 97min
+done 2770/5690 (0.50/s) ETA 96min
+done 2780/5690 (0.50/s) ETA 96min
+done 2790/5690 (0.50/s) ETA 96min
+done 2800/5690 (0.50/s) ETA 95min
+done 2810/5690 (0.50/s) ETA 95min
+done 2820/5690 (0.50/s) ETA 95min
+done 2830/5690 (0.50/s) ETA 94min
+done 2840/5690 (0.50/s) ETA 94min
+done 2850/5690 (0.50/s) ETA 94min
+done 2860/5690 (0.50/s) ETA 93min
+done 2870/5690 (0.50/s) ETA 93min
+done 2880/5690 (0.50/s) ETA 93min
+done 2890/5690 (0.50/s) ETA 92min
+done 2900/5690 (0.50/s) ETA 92min
+done 2910/5690 (0.50/s) ETA 92min
+done 2920/5690 (0.50/s) ETA 91min
+done 2930/5690 (0.50/s) ETA 91min
+done 2940/5690 (0.50/s) ETA 91min
+done 2950/5690 (0.50/s) ETA 90min
+done 2960/5690 (0.50/s) ETA 90min
+done 2970/5690 (0.50/s) ETA 90min
+done 2980/5690 (0.50/s) ETA 90min
+done 2990/5690 (0.50/s) ETA 89min
+done 3000/5690 (0.50/s) ETA 89min
+done 3010/5690 (0.51/s) ETA 88min
+done 3020/5690 (0.51/s) ETA 88min
+done 3030/5690 (0.51/s) ETA 88min
+done 3040/5690 (0.51/s) ETA 87min
+done 3050/5690 (0.51/s) ETA 87min
+done 3060/5690 (0.51/s) ETA 86min
+done 3070/5690 (0.51/s) ETA 86min
+done 3080/5690 (0.51/s) ETA 85min
+done 3090/5690 (0.51/s) ETA 85min
+done 3100/5690 (0.51/s) ETA 85min
+done 3110/5690 (0.51/s) ETA 84min
+done 3120/5690 (0.51/s) ETA 84min
+done 3130/5690 (0.51/s) ETA 83min
+done 3140/5690 (0.51/s) ETA 83min
+done 3150/5690 (0.51/s) ETA 83min
+done 3160/5690 (0.51/s) ETA 82min
+done 3170/5690 (0.51/s) ETA 82min
+done 3180/5690 (0.51/s) ETA 82min
+done 3190/5690 (0.51/s) ETA 81min
+done 3200/5690 (0.51/s) ETA 81min
+done 3210/5690 (0.51/s) ETA 81min
+done 3220/5690 (0.51/s) ETA 80min
+done 3230/5690 (0.51/s) ETA 80min
+done 3240/5690 (0.51/s) ETA 80min
+done 3250/5690 (0.51/s) ETA 79min
+done 3260/5690 (0.51/s) ETA 79min
+done 3270/5690 (0.51/s) ETA 79min
+done 3280/5690 (0.51/s) ETA 78min
+done 3290/5690 (0.51/s) ETA 78min
+done 3300/5690 (0.51/s) ETA 78min
+done 3310/5690 (0.51/s) ETA 77min
+done 3320/5690 (0.51/s) ETA 77min
+done 3330/5690 (0.51/s) ETA 77min
+done 3340/5690 (0.51/s) ETA 76min
+done 3350/5690 (0.51/s) ETA 76min
+done 3360/5690 (0.51/s) ETA 76min
+done 3370/5690 (0.51/s) ETA 75min
+done 3380/5690 (0.51/s) ETA 75min
+done 3390/5690 (0.51/s) ETA 75min
+done 3400/5690 (0.51/s) ETA 74min
+done 3410/5690 (0.51/s) ETA 74min
+done 3420/5690 (0.51/s) ETA 74min
+done 3430/5690 (0.51/s) ETA 74min
+done 3440/5690 (0.51/s) ETA 73min
+done 3450/5690 (0.51/s) ETA 73min
+done 3460/5690 (0.51/s) ETA 73min
+done 3470/5690 (0.51/s) ETA 72min
+done 3480/5690 (0.51/s) ETA 72min
+done 3490/5690 (0.51/s) ETA 72min
+done 3500/5690 (0.51/s) ETA 71min
+done 3510/5690 (0.51/s) ETA 71min
+done 3520/5690 (0.51/s) ETA 71min
+done 3530/5690 (0.51/s) ETA 70min
+done 3540/5690 (0.51/s) ETA 70min
+done 3550/5690 (0.51/s) ETA 70min
+done 3560/5690 (0.51/s) ETA 69min
+done 3570/5690 (0.51/s) ETA 69min
+done 3580/5690 (0.51/s) ETA 69min
+done 3590/5690 (0.51/s) ETA 68min
+done 3600/5690 (0.51/s) ETA 68min
+done 3610/5690 (0.51/s) ETA 68min
+done 3620/5690 (0.51/s) ETA 67min
+done 3630/5690 (0.51/s) ETA 67min
+done 3640/5690 (0.51/s) ETA 67min
+done 3650/5690 (0.51/s) ETA 66min
+done 3660/5690 (0.51/s) ETA 66min
+done 3670/5690 (0.51/s) ETA 66min
+done 3680/5690 (0.51/s) ETA 65min
+done 3690/5690 (0.51/s) ETA 65min
+done 3700/5690 (0.51/s) ETA 65min
+done 3710/5690 (0.51/s) ETA 64min
+done 3720/5690 (0.51/s) ETA 64min
+done 3730/5690 (0.51/s) ETA 64min
+done 3740/5690 (0.51/s) ETA 63min
+done 3750/5690 (0.51/s) ETA 63min
+done 3760/5690 (0.51/s) ETA 63min
+done 3770/5690 (0.51/s) ETA 63min
+done 3780/5690 (0.51/s) ETA 62min
+done 3790/5690 (0.51/s) ETA 62min
+done 3800/5690 (0.51/s) ETA 62min
+done 3810/5690 (0.51/s) ETA 61min
+done 3820/5690 (0.51/s) ETA 61min
+done 3830/5690 (0.51/s) ETA 61min
+done 3840/5690 (0.51/s) ETA 60min
+done 3850/5690 (0.51/s) ETA 60min
+done 3860/5690 (0.51/s) ETA 60min
+done 3870/5690 (0.51/s) ETA 59min
+done 3880/5690 (0.51/s) ETA 59min
+done 3890/5690 (0.51/s) ETA 59min
+done 3900/5690 (0.51/s) ETA 58min
+done 3910/5690 (0.51/s) ETA 58min
+done 3920/5690 (0.51/s) ETA 58min
+done 3930/5690 (0.51/s) ETA 57min
+done 3940/5690 (0.51/s) ETA 57min
+done 3950/5690 (0.51/s) ETA 57min
+done 3960/5690 (0.51/s) ETA 56min
+done 3970/5690 (0.51/s) ETA 56min
+done 3980/5690 (0.51/s) ETA 56min
+done 3990/5690 (0.51/s) ETA 55min
+done 4000/5690 (0.51/s) ETA 55min
+done 4010/5690 (0.51/s) ETA 55min
+done 4020/5690 (0.51/s) ETA 54min
+done 4030/5690 (0.51/s) ETA 54min
+done 4040/5690 (0.51/s) ETA 54min
+done 4050/5690 (0.51/s) ETA 53min
+done 4060/5690 (0.51/s) ETA 53min
+done 4070/5690 (0.51/s) ETA 53min
+done 4080/5690 (0.51/s) ETA 52min
+done 4090/5690 (0.51/s) ETA 52min
+done 4100/5690 (0.51/s) ETA 52min
+done 4110/5690 (0.51/s) ETA 51min
+done 4120/5690 (0.51/s) ETA 51min
+done 4130/5690 (0.51/s) ETA 51min
+done 4140/5690 (0.51/s) ETA 50min
+done 4150/5690 (0.51/s) ETA 50min
+done 4160/5690 (0.51/s) ETA 50min
+done 4170/5690 (0.51/s) ETA 50min
+done 4180/5690 (0.51/s) ETA 49min
+done 4190/5690 (0.51/s) ETA 49min
+done 4200/5690 (0.51/s) ETA 49min
+done 4210/5690 (0.51/s) ETA 48min
+done 4220/5690 (0.51/s) ETA 48min
+loading Qwen3-VL-32B fp16, forcing all on GPU...
+Loading weights:   0%|          | 0/1058 [00:00<?, ?it/s]Loading weights:   0%|          | 1/1058 [00:00<06:30,  2.71it/s]Loading weights:   0%|          | 2/1058 [00:00<05:08,  3.43it/s]Loading weights:   1%|          | 10/1058 [00:01<01:35, 11.03it/s]Loading weights:   1%|          | 13/1058 [00:01<01:25, 12.21it/s]Loading weights:   1%|▏         | 15/1058 [00:01<02:14,  7.77it/s]Loading weights:   2%|▏         | 17/1058 [00:02<02:03,  8.44it/s]Loading weights:   2%|▏         | 26/1058 [00:03<01:59,  8.62it/s]Loading weights:   3%|▎         | 37/1058 [00:04<01:48,  9.44it/s]Loading weights:   4%|▍         | 45/1058 [00:04<01:17, 13.11it/s]Loading weights:   5%|▍         | 48/1058 [00:05<02:00,  8.38it/s]Loading weights:   5%|▌         | 56/1058 [00:05<01:22, 12.20it/s]Loading weights:   6%|▌         | 59/1058 [00:06<01:57,  8.47it/s]Loading weights:   6%|▌         | 61/1058 [00:06<01:55,  8.64it/s]Loading weights:   7%|▋         | 70/1058 [00:07<01:44,  9.41it/s]Loading weights:   7%|▋         | 72/1058 [00:07<01:38, 10.00it/s]Loading weights:   8%|▊         | 81/1058 [00:08<01:38,  9.89it/s]Loading weights:   8%|▊         | 83/1058 [00:08<01:33, 10.48it/s]Loading weights:   9%|▊         | 92/1058 [00:09<01:37,  9.91it/s]Loading weights:   9%|▉         | 94/1058 [00:09<01:38,  9.81it/s]Loading weights:   9%|▉         | 97/1058 [00:09<01:31, 10.54it/s]Loading weights:   9%|▉         | 99/1058 [00:10<01:24, 11.39it/s]Loading weights:  10%|▉         | 103/1058 [00:10<01:35, 10.05it/s]Loading weights:  10%|▉         | 105/1058 [00:10<01:35, 10.03it/s]Loading weights:  10%|█         | 107/1058 [00:10<01:34, 10.08it/s]Loading weights:  11%|█         | 114/1058 [00:11<01:39,  9.51it/s]Loading weights:  11%|█         | 116/1058 [00:12<02:29,  6.29it/s]Loading weights:  12%|█▏        | 125/1058 [00:12<01:19, 11.79it/s]Loading weights:  12%|█▏        | 128/1058 [00:12<01:18, 11.91it/s]Loading weights:  13%|█▎        | 134/1058 [00:13<01:27, 10.50it/s]Loading weights:  13%|█▎        | 136/1058 [00:13<01:26, 10.65it/s]Loading weights:  13%|█▎        | 138/1058 [00:14<01:42,  8.96it/s]Loading weights:  14%|█▎        | 145/1058 [00:14<01:03, 14.34it/s]Loading weights:  14%|█▍        | 148/1058 [00:14<01:12, 12.51it/s]Loading weights:  14%|█▍        | 150/1058 [00:14<01:15, 12.01it/s]Loading weights:  15%|█▍        | 158/1058 [00:15<01:22, 10.89it/s]Loading weights:  15%|█▌        | 160/1058 [00:15<01:22, 10.90it/s]Loading weights:  16%|█▌        | 166/1058 [00:16<00:58, 15.26it/s]Loading weights:  16%|█▌        | 169/1058 [00:16<01:39,  8.93it/s]Loading weights:  17%|█▋        | 177/1058 [00:17<01:02, 14.15it/s]Loading weights:  17%|█▋        | 180/1058 [00:17<01:41,  8.67it/s]Loading weights:  17%|█▋        | 182/1058 [00:18<01:59,  7.31it/s]Loading weights:  18%|█▊        | 191/1058 [00:19<01:31,  9.43it/s]Loading weights:  18%|█▊        | 193/1058 [00:19<01:26, 10.00it/s]Loading weights:  19%|█▉        | 199/1058 [00:19<00:59, 14.48it/s]Loading weights:  19%|█▉        | 202/1058 [00:20<01:26,  9.94it/s]Loading weights:  20%|█▉        | 210/1058 [00:20<01:22, 10.27it/s]Loading weights:  20%|██        | 213/1058 [00:21<01:20, 10.52it/s]Loading weights:  21%|██        | 221/1058 [00:22<01:28,  9.47it/s]Loading weights:  21%|██        | 224/1058 [00:22<01:20, 10.33it/s]Loading weights:  22%|██▏       | 230/1058 [00:22<01:30,  9.15it/s]Loading weights:  22%|██▏       | 235/1058 [00:23<01:20, 10.19it/s]Loading weights:  23%|██▎       | 240/1058 [00:23<01:04, 12.77it/s]Loading weights:  23%|██▎       | 243/1058 [00:24<01:39,  8.15it/s]Loading weights:  23%|██▎       | 248/1058 [00:24<01:14, 10.88it/s]Loading weights:  24%|██▍       | 252/1058 [00:25<01:35,  8.40it/s]Loading weights:  24%|██▍       | 257/1058 [00:25<01:11, 11.27it/s]Loading weights:  25%|██▍       | 260/1058 [00:25<01:01, 12.94it/s]Loading weights:  25%|██▌       | 265/1058 [00:26<01:22,  9.60it/s]Loading weights:  25%|██▌       | 268/1058 [00:26<01:10, 11.26it/s]Loading weights:  26%|██▌       | 274/1058 [00:27<01:26,  9.08it/s]Loading weights:  27%|██▋       | 281/1058 [00:27<00:58, 13.19it/s]Loading weights:  27%|██▋       | 287/1058 [00:28<01:19,  9.66it/s]Loading weights:  27%|██▋       | 290/1058 [00:28<01:09, 11.03it/s]Loading weights:  28%|██▊       | 296/1058 [00:29<01:15, 10.06it/s]Loading weights:  28%|██▊       | 301/1058 [00:29<00:58, 13.00it/s]Loading weights:  29%|██▊       | 304/1058 [00:29<00:52, 14.48it/s]Loading weights:  29%|██▉       | 309/1058 [00:30<01:16,  9.76it/s]Loading weights:  30%|██▉       | 313/1058 [00:30<01:00, 12.25it/s]Loading weights:  30%|███       | 318/1058 [00:31<01:19,  9.25it/s]Loading weights:  30%|███       | 320/1058 [00:31<01:20,  9.21it/s]Loading weights:  31%|███       | 325/1058 [00:31<00:56, 13.00it/s]Loading weights:  31%|███       | 329/1058 [00:32<01:10, 10.38it/s]Loading weights:  32%|███▏      | 334/1058 [00:32<00:56, 12.73it/s]Loading weights:  32%|███▏      | 337/1058 [00:32<00:50, 14.21it/s]Loading weights:  32%|███▏      | 342/1058 [00:33<01:22,  8.68it/s]Loading weights:  33%|███▎      | 345/1058 [00:33<01:19,  8.91it/s]Loading weights:  33%|███▎      | 348/1058 [00:33<01:07, 10.55it/s]Loading weights:  33%|███▎      | 351/1058 [00:34<01:33,  7.57it/s]Loading weights:  34%|███▍      | 358/1058 [00:34<00:56, 12.35it/s]Loading weights:  34%|███▍      | 364/1058 [00:35<01:19,  8.75it/s]Loading weights:  35%|███▍      | 369/1058 [00:35<00:59, 11.54it/s]Loading weights:  35%|███▌      | 373/1058 [00:36<01:19,  8.67it/s]Loading weights:  36%|███▌      | 378/1058 [00:36<00:58, 11.60it/s]Loading weights:  36%|███▌      | 381/1058 [00:36<00:51, 13.02it/s]Loading weights:  36%|███▋      | 386/1058 [00:37<01:17,  8.69it/s]Loading weights:  37%|███▋      | 391/1058 [00:38<01:00, 11.07it/s]Loading weights:  37%|███▋      | 395/1058 [00:38<01:06,  9.92it/s]Loading weights:  38%|███▊      | 397/1058 [00:39<01:17,  8.56it/s]Loading weights:  38%|███▊      | 402/1058 [00:39<00:55, 11.85it/s]Loading weights:  38%|███▊      | 406/1058 [00:39<01:15,  8.60it/s]Loading weights:  39%|███▉      | 411/1058 [00:40<00:56, 11.38it/s]Loading weights:  39%|███▉      | 415/1058 [00:40<00:45, 14.26it/s]Loading weights:  40%|███▉      | 418/1058 [00:40<00:44, 14.24it/s]Loading weights:  40%|███▉      | 421/1058 [00:41<01:06,  9.63it/s]Loading weights:  40%|███▉      | 423/1058 [00:41<01:01, 10.37it/s]Loading weights:  40%|████      | 428/1058 [00:42<01:22,  7.62it/s]Loading weights:  41%|████▏     | 438/1058 [00:42<00:42, 14.71it/s]Loading weights:  42%|████▏     | 442/1058 [00:42<00:58, 10.47it/s]Loading weights:  42%|████▏     | 445/1058 [00:43<01:05,  9.30it/s]Loading weights:  43%|████▎     | 453/1058 [00:43<00:52, 11.44it/s]Loading weights:  43%|████▎     | 455/1058 [00:44<01:21,  7.39it/s]Loading weights:  43%|████▎     | 457/1058 [00:44<01:13,  8.13it/s]Loading weights:  43%|████▎     | 459/1058 [00:45<01:10,  8.46it/s]Loading weights:  44%|████▎     | 462/1058 [00:45<01:12,  8.17it/s]Loading weights:  44%|████▍     | 466/1058 [00:45<00:56, 10.47it/s]Loading weights:  44%|████▍     | 468/1058 [00:45<00:51, 11.50it/s]Loading weights:  45%|████▌     | 477/1058 [00:46<00:47, 12.29it/s]Loading weights:  46%|████▌     | 485/1058 [00:46<00:30, 18.67it/s]Loading weights:  46%|████▌     | 489/1058 [00:47<00:50, 11.28it/s]Loading weights:  47%|████▋     | 493/1058 [00:47<00:43, 12.90it/s]Loading weights:  47%|████▋     | 496/1058 [00:47<00:38, 14.56it/s]Loading weights:  47%|████▋     | 499/1058 [00:48<00:57,  9.64it/s]Loading weights:  48%|████▊     | 507/1058 [00:48<00:34, 15.88it/s]Loading weights:  48%|████▊     | 511/1058 [00:49<01:04,  8.54it/s]Loading weights:  49%|████▉     | 519/1058 [00:49<00:45, 11.91it/s]Loading weights:  49%|████▉     | 522/1058 [00:50<01:10,  7.57it/s]Loading weights:  50%|█████     | 529/1058 [00:51<00:53,  9.97it/s]Loading weights:  50%|█████     | 531/1058 [00:51<00:49, 10.67it/s]Loading weights:  50%|█████     | 533/1058 [00:52<01:14,  7.01it/s]Loading weights:  51%|█████▏    | 543/1058 [00:53<01:06,  7.74it/s]Loading weights:  52%|█████▏    | 552/1058 [00:53<00:41, 12.08it/s]Loading weights:  52%|█████▏    | 555/1058 [00:54<01:07,  7.41it/s]Loading weights:  53%|█████▎    | 565/1058 [00:55<01:02,  7.89it/s]Loading weights:  54%|█████▍    | 576/1058 [00:56<00:56,  8.55it/s]Loading weights:  55%|█████▌    | 587/1058 [00:58<00:53,  8.73it/s]Loading weights:  56%|█████▌    | 589/1058 [00:58<00:55,  8.41it/s]Loading weights:  56%|█████▌    | 595/1058 [00:58<00:45, 10.19it/s]Loading weights:  56%|█████▋    | 597/1058 [00:59<00:50,  9.12it/s]Loading weights:  57%|█████▋    | 599/1058 [00:59<01:02,  7.34it/s]Loading weights:  57%|█████▋    | 600/1058 [00:59<01:00,  7.51it/s]Loading weights:  58%|█████▊    | 609/1058 [01:00<00:42, 10.48it/s]Loading weights:  59%|█████▊    | 620/1058 [01:01<00:40, 10.77it/s]Loading weights:  59%|█████▉    | 622/1058 [01:01<00:41, 10.49it/s]Loading weights:  60%|█████▉    | 631/1058 [01:02<00:39, 10.71it/s]Loading weights:  60%|█████▉    | 634/1058 [01:02<00:37, 11.36it/s]Loading weights:  60%|██████    | 637/1058 [01:02<00:35, 11.87it/s]Loading weights:  61%|██████    | 642/1058 [01:03<00:41,  9.97it/s]Loading weights:  61%|██████    | 644/1058 [01:03<00:38, 10.75it/s]Loading weights:  62%|██████▏   | 653/1058 [01:04<00:46,  8.64it/s]Loading weights:  62%|██████▏   | 655/1058 [01:05<00:44,  9.00it/s]Loading weights:  62%|██████▏   | 657/1058 [01:05<00:43,  9.12it/s]Loading weights:  63%|██████▎   | 664/1058 [01:05<00:41,  9.57it/s]Loading weights:  63%|██████▎   | 666/1058 [01:06<00:37, 10.41it/s]Loading weights:  64%|██████▎   | 672/1058 [01:06<00:25, 15.34it/s]Loading weights:  64%|██████▍   | 675/1058 [01:07<00:44,  8.66it/s]Loading weights:  64%|██████▍   | 677/1058 [01:07<00:40,  9.41it/s]Loading weights:  65%|██████▍   | 683/1058 [01:07<00:28, 13.34it/s]Loading weights:  65%|██████▍   | 686/1058 [01:08<00:46,  8.00it/s]Loading weights:  65%|██████▌   | 688/1058 [01:08<00:41,  8.87it/s]Loading weights:  66%|██████▌   | 695/1058 [01:08<00:24, 14.84it/s]Loading weights:  66%|██████▌   | 698/1058 [01:09<00:47,  7.65it/s]Loading weights:  67%|██████▋   | 709/1058 [01:09<00:23, 14.79it/s]Loading weights:  79%|███████▉  | 835/1058 [01:09<00:01, 132.05it/s]Loading weights:  83%|████████▎ | 881/1058 [01:09<00:01, 170.94it/s]Loading weights:  87%|████████▋ | 923/1058 [01:09<00:00, 204.98it/s]Loading weights:  96%|█████████▌| 1013/1058 [01:10<00:00, 322.78it/s]Loading weights: 100%|██████████| 1058/1058 [01:10<00:00, 14.98it/s] 
+GPU mem: 66.7GB
+total 5690, done 4220
+done 4230/5690 (210.36/s) ETA 0min
+done 4240/5690 (106.49/s) ETA 0min
+done 4250/5690 (69.20/s) ETA 0min
+done 4260/5690 (52.48/s) ETA 0min
+done 4270/5690 (42.35/s) ETA 1min
+done 4280/5690 (35.46/s) ETA 1min
+done 4290/5690 (30.51/s) ETA 1min
+done 4300/5690 (26.93/s) ETA 1min
+done 4310/5690 (24.00/s) ETA 1min
+done 4320/5690 (21.66/s) ETA 1min
+done 4330/5690 (19.75/s) ETA 1min
+done 4340/5690 (18.15/s) ETA 1min
+done 4350/5690 (16.85/s) ETA 1min
+done 4360/5690 (15.70/s) ETA 1min
+done 4370/5690 (14.68/s) ETA 1min
+done 4380/5690 (13.82/s) ETA 2min
+done 4390/5690 (13.06/s) ETA 2min
+done 4400/5690 (12.36/s) ETA 2min
+done 4410/5690 (11.74/s) ETA 2min
+done 4420/5690 (11.18/s) ETA 2min
+done 4430/5690 (10.67/s) ETA 2min
+done 4440/5690 (10.19/s) ETA 2min
+done 4450/5690 (9.77/s) ETA 2min
+done 4460/5690 (9.39/s) ETA 2min
+done 4470/5690 (9.03/s) ETA 2min
+done 4480/5690 (8.71/s) ETA 2min
+done 4490/5690 (8.40/s) ETA 2min
+done 4500/5690 (8.12/s) ETA 2min
+done 4510/5690 (7.85/s) ETA 3min
+done 4520/5690 (7.61/s) ETA 3min
+done 4530/5690 (7.38/s) ETA 3min
+done 4540/5690 (7.17/s) ETA 3min
+done 4550/5690 (6.96/s) ETA 3min
+done 4560/5690 (6.77/s) ETA 3min
+done 4570/5690 (6.59/s) ETA 3min
+done 4580/5690 (6.42/s) ETA 3min
+done 4590/5690 (6.26/s) ETA 3min
+done 4600/5690 (6.11/s) ETA 3min
+done 4610/5690 (5.96/s) ETA 3min
+done 4620/5690 (5.83/s) ETA 3min
+done 4630/5690 (5.70/s) ETA 3min
+done 4640/5690 (5.58/s) ETA 3min
+done 4650/5690 (5.46/s) ETA 3min
+done 4660/5690 (5.35/s) ETA 3min
+done 4670/5690 (5.24/s) ETA 3min
+done 4680/5690 (5.14/s) ETA 3min
+done 4690/5690 (5.04/s) ETA 3min
+done 4700/5690 (4.94/s) ETA 3min
+done 4710/5690 (4.85/s) ETA 3min
+done 4720/5690 (4.77/s) ETA 3min
+done 4730/5690 (4.68/s) ETA 3min
+done 4740/5690 (4.61/s) ETA 3min
+done 4750/5690 (4.53/s) ETA 3min
+done 4760/5690 (4.46/s) ETA 3min
+done 4770/5690 (4.38/s) ETA 3min
+done 4780/5690 (4.31/s) ETA 4min
+done 4790/5690 (4.25/s) ETA 4min
+done 4800/5690 (4.18/s) ETA 4min
+done 4810/5690 (4.12/s) ETA 4min
+done 4820/5690 (4.06/s) ETA 4min
+done 4830/5690 (4.00/s) ETA 4min
+done 4840/5690 (3.94/s) ETA 4min
+done 4850/5690 (3.89/s) ETA 4min
+done 4860/5690 (3.84/s) ETA 4min
+done 4870/5690 (3.78/s) ETA 4min
+done 4880/5690 (3.74/s) ETA 4min
+done 4890/5690 (3.69/s) ETA 4min
+done 4900/5690 (3.64/s) ETA 4min
+done 4910/5690 (3.59/s) ETA 4min
+done 4920/5690 (3.55/s) ETA 4min
+done 4930/5690 (3.51/s) ETA 4min
+done 4940/5690 (3.46/s) ETA 4min
+done 4950/5690 (3.42/s) ETA 4min
+done 4960/5690 (3.38/s) ETA 4min
+done 4970/5690 (3.35/s) ETA 4min
+done 4980/5690 (3.31/s) ETA 4min
+done 4990/5690 (3.27/s) ETA 4min
+done 5000/5690 (3.24/s) ETA 4min
+done 5010/5690 (3.20/s) ETA 4min
+done 5020/5690 (3.17/s) ETA 4min
+done 5030/5690 (3.13/s) ETA 4min
+done 5040/5690 (3.10/s) ETA 3min
+done 5050/5690 (3.07/s) ETA 3min
+done 5060/5690 (3.04/s) ETA 3min
+done 5070/5690 (3.01/s) ETA 3min
+done 5080/5690 (2.98/s) ETA 3min
+done 5090/5690 (2.95/s) ETA 3min
+done 5100/5690 (2.93/s) ETA 3min
+done 5110/5690 (2.90/s) ETA 3min
+done 5120/5690 (2.87/s) ETA 3min
+done 5130/5690 (2.85/s) ETA 3min
+done 5140/5690 (2.82/s) ETA 3min
+done 5150/5690 (2.79/s) ETA 3min
+done 5160/5690 (2.77/s) ETA 3min
+done 5170/5690 (2.74/s) ETA 3min
+done 5180/5690 (2.72/s) ETA 3min
+done 5190/5690 (2.70/s) ETA 3min
+done 5200/5690 (2.68/s) ETA 3min
+done 5210/5690 (2.65/s) ETA 3min
+done 5220/5690 (2.63/s) ETA 3min
+done 5230/5690 (2.61/s) ETA 3min
+done 5240/5690 (2.59/s) ETA 3min
+done 5250/5690 (2.57/s) ETA 3min
+done 5260/5690 (2.55/s) ETA 3min
+done 5270/5690 (2.53/s) ETA 3min
+done 5280/5690 (2.51/s) ETA 3min
+done 5290/5690 (2.49/s) ETA 3min
+done 5300/5690 (2.48/s) ETA 3min
+done 5310/5690 (2.46/s) ETA 3min
+done 5320/5690 (2.44/s) ETA 3min
+done 5330/5690 (2.42/s) ETA 2min
+done 5340/5690 (2.40/s) ETA 2min
+done 5350/5690 (2.39/s) ETA 2min
+done 5360/5690 (2.37/s) ETA 2min
+done 5370/5690 (2.36/s) ETA 2min
+done 5380/5690 (2.34/s) ETA 2min
+done 5390/5690 (2.32/s) ETA 2min
+done 5400/5690 (2.31/s) ETA 2min
+done 5410/5690 (2.29/s) ETA 2min
+done 5420/5690 (2.28/s) ETA 2min
+done 5430/5690 (2.26/s) ETA 2min
+done 5440/5690 (2.25/s) ETA 2min
+done 5450/5690 (2.24/s) ETA 2min
+done 5460/5690 (2.22/s) ETA 2min
+done 5470/5690 (2.21/s) ETA 2min
+done 5480/5690 (2.19/s) ETA 2min
+done 5490/5690 (2.18/s) ETA 2min
+done 5500/5690 (2.17/s) ETA 1min
+done 5510/5690 (2.16/s) ETA 1min
+done 5520/5690 (2.14/s) ETA 1min
+done 5530/5690 (2.13/s) ETA 1min
+done 5540/5690 (2.12/s) ETA 1min
+done 5550/5690 (2.11/s) ETA 1min
+done 5560/5690 (2.09/s) ETA 1min
+done 5570/5690 (2.08/s) ETA 1min
+done 5580/5690 (2.07/s) ETA 1min
+done 5590/5690 (2.06/s) ETA 1min
+done 5600/5690 (2.05/s) ETA 1min
+done 5610/5690 (2.04/s) ETA 1min
+done 5620/5690 (2.03/s) ETA 1min
+done 5630/5690 (2.01/s) ETA 0min
+done 5640/5690 (2.00/s) ETA 0min
+done 5650/5690 (1.99/s) ETA 0min
+done 5660/5690 (1.98/s) ETA 0min
+done 5670/5690 (1.97/s) ETA 0min
+done 5680/5690 (1.96/s) ETA 0min
+done 5690/5690 (1.95/s) ETA 0min
+finished! /root/autodl-tmp/work/v32b_preds.json

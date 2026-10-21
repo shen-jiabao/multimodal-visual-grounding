@@ -1,0 +1,9 @@
+2026-10-05 01:03:51 | INFO    | src.inference.predictor | 共 1295 张图像，5690 条查询；本次处理 1295 张图像
+2026-10-05 01:03:53 | INFO    | src.models.qwen3_vl | 加载 Qwen3-VL：/root/autodl-tmp/models/Qwen3.8-27B
+Loading weights:   0%|          | 0/1184 [00:00<?, ?it/s]Loading weights:  52%|█████▏    | 614/1184 [00:00<00:00, 6132.08it/s]Loading weights: 100%|██████████| 1184/1184 [00:00<00:00, 5234.03it/s]
+2026-10-05 01:04:04 | INFO    | src.models.qwen3_vl | 视觉特征缓存已启用（max_entries=4）
+2026-10-05 01:04:04 | INFO    | src.models.qwen3_vl | Qwen3-VL 加载完成，设备=cuda:0 精度=torch.bfloat16 模式=multi_box thinking=False 视觉缓存=True
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `fused_recurrent_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.

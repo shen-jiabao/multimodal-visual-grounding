@@ -1,0 +1,76 @@
+2026-10-04 17:52:43 | INFO    | src.inference.predictor | 共 1295 张图像，5690 条查询；本次处理 1295 张图像
+2026-10-04 17:52:45 | INFO    | src.models.qwen3_vl | 加载 Qwen3-VL：/root/autodl-tmp/models/Qwen3.8-27B
+Loading weights:   0%|          | 0/1184 [00:00<?, ?it/s]Loading weights:  59%|█████▉    | 696/1184 [00:00<00:00, 6912.28it/s]Loading weights: 100%|██████████| 1184/1184 [00:00<00:00, 5794.02it/s]
+2026-10-04 17:53:00 | INFO    | src.models.qwen3_vl | 视觉特征缓存已启用（max_entries=4）
+2026-10-04 17:53:00 | INFO    | src.models.qwen3_vl | Qwen3-VL 加载完成，设备=cuda:0 精度=torch.bfloat16 模式=multi_box thinking=False 视觉缓存=True
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `fused_recurrent_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+2026-10-04 17:58:16 | INFO    | src.inference.predictor | 推理进度 20/1295
+2026-10-04 18:04:55 | INFO    | src.inference.predictor | 推理进度 40/1295
+2026-10-04 18:09:56 | INFO    | src.inference.predictor | 推理进度 60/1295
+2026-10-04 18:14:46 | INFO    | src.inference.predictor | 推理进度 80/1295
+2026-10-04 18:20:19 | INFO    | src.inference.predictor | 推理进度 100/1295
+2026-10-04 18:29:01 | INFO    | src.inference.predictor | 推理进度 120/1295
+2026-10-04 18:38:24 | INFO    | src.inference.predictor | 推理进度 140/1295
+2026-10-04 18:49:50 | INFO    | src.inference.predictor | 推理进度 160/1295
+2026-10-04 19:01:44 | INFO    | src.inference.predictor | 推理进度 180/1295
+2026-10-04 19:09:42 | INFO    | src.inference.predictor | 推理进度 200/1295
+2026-10-04 19:18:02 | INFO    | src.inference.predictor | 推理进度 220/1295
+2026-10-04 19:27:05 | INFO    | src.inference.predictor | 推理进度 240/1295
+2026-10-04 19:33:05 | INFO    | src.inference.predictor | 推理进度 260/1295
+2026-10-04 19:38:11 | INFO    | src.inference.predictor | 推理进度 280/1295
+2026-10-04 19:43:22 | INFO    | src.inference.predictor | 推理进度 300/1295
+2026-10-04 19:49:35 | INFO    | src.inference.predictor | 推理进度 320/1295
+2026-10-04 19:55:39 | INFO    | src.inference.predictor | 推理进度 340/1295
+2026-10-04 20:02:01 | INFO    | src.inference.predictor | 推理进度 360/1295
+2026-10-04 20:07:18 | INFO    | src.inference.predictor | 推理进度 380/1295
+2026-10-04 20:12:03 | INFO    | src.inference.predictor | 推理进度 400/1295
+2026-10-04 20:17:18 | INFO    | src.inference.predictor | 推理进度 420/1295
+2026-10-04 20:23:18 | INFO    | src.inference.predictor | 推理进度 440/1295
+2026-10-04 20:29:35 | INFO    | src.inference.predictor | 推理进度 460/1295
+2026-10-04 20:35:31 | INFO    | src.inference.predictor | 推理进度 480/1295
+2026-10-04 20:41:50 | INFO    | src.inference.predictor | 推理进度 500/1295
+2026-10-04 20:44:40 | INFO    | src.inference.predictor | 推理进度 520/1295
+2026-10-04 20:46:27 | INFO    | src.inference.predictor | 推理进度 540/1295
+2026-10-04 20:48:05 | INFO    | src.inference.predictor | 推理进度 560/1295
+2026-10-04 20:50:26 | INFO    | src.inference.predictor | 推理进度 580/1295
+2026-10-04 20:52:08 | INFO    | src.inference.predictor | 推理进度 600/1295
+2026-10-04 20:57:46 | INFO    | src.inference.predictor | 推理进度 620/1295
+2026-10-04 21:01:36 | INFO    | src.inference.predictor | 推理进度 640/1295
+2026-10-04 21:06:06 | INFO    | src.inference.predictor | 推理进度 660/1295
+2026-10-04 21:12:31 | INFO    | src.inference.predictor | 推理进度 680/1295
+2026-10-04 21:16:41 | INFO    | src.inference.predictor | 推理进度 700/1295
+2026-10-04 21:26:15 | INFO    | src.inference.predictor | 推理进度 720/1295
+2026-10-04 21:30:00 | INFO    | src.inference.predictor | 推理进度 740/1295
+2026-10-04 21:33:37 | INFO    | src.inference.predictor | 推理进度 760/1295
+2026-10-04 21:38:01 | INFO    | src.inference.predictor | 推理进度 780/1295
+2026-10-04 21:43:33 | INFO    | src.inference.predictor | 推理进度 800/1295
+2026-10-04 21:48:07 | INFO    | src.inference.predictor | 推理进度 820/1295
+2026-10-04 21:57:39 | INFO    | src.inference.predictor | 推理进度 840/1295
+2026-10-04 22:01:26 | INFO    | src.inference.predictor | 推理进度 860/1295
+2026-10-04 22:05:25 | INFO    | src.inference.predictor | 推理进度 880/1295
+2026-10-04 22:09:20 | INFO    | src.inference.predictor | 推理进度 900/1295
+2026-10-04 22:15:36 | INFO    | src.inference.predictor | 推理进度 920/1295
+2026-10-04 22:19:34 | INFO    | src.inference.predictor | 推理进度 940/1295
+2026-10-04 22:23:14 | INFO    | src.inference.predictor | 推理进度 960/1295
+2026-10-04 22:27:17 | INFO    | src.inference.predictor | 推理进度 980/1295
+2026-10-04 22:31:13 | INFO    | src.inference.predictor | 推理进度 1000/1295
+2026-10-04 22:34:35 | INFO    | src.inference.predictor | 推理进度 1020/1295
+2026-10-04 22:40:06 | INFO    | src.inference.predictor | 推理进度 1040/1295
+2026-10-04 22:43:53 | INFO    | src.inference.predictor | 推理进度 1060/1295
+2026-10-04 22:47:09 | INFO    | src.inference.predictor | 推理进度 1080/1295
+2026-10-04 22:50:13 | INFO    | src.inference.predictor | 推理进度 1100/1295
+2026-10-04 22:53:32 | INFO    | src.inference.predictor | 推理进度 1120/1295
+2026-10-04 22:56:54 | INFO    | src.inference.predictor | 推理进度 1140/1295
+2026-10-04 23:01:07 | INFO    | src.inference.predictor | 推理进度 1160/1295
+2026-10-04 23:05:22 | INFO    | src.inference.predictor | 推理进度 1180/1295
+2026-10-04 23:08:41 | INFO    | src.inference.predictor | 推理进度 1200/1295
+2026-10-04 23:12:08 | INFO    | src.inference.predictor | 推理进度 1220/1295
+2026-10-04 23:15:19 | INFO    | src.inference.predictor | 推理进度 1240/1295
+2026-10-04 23:18:33 | INFO    | src.inference.predictor | 推理进度 1260/1295
+2026-10-04 23:21:49 | INFO    | src.inference.predictor | 推理进度 1280/1295
+2026-10-04 23:25:08 | INFO    | src.inference.predictor | 推理进度 1295/1295
+2026-10-04 23:25:08 | INFO    | multimodal_grounding | 推理完成：共 5690 条预测，用时 19944.9 秒
+2026-10-04 23:25:08 | INFO    | multimodal_grounding | 结果已保存：outputs/predictions_27b.json

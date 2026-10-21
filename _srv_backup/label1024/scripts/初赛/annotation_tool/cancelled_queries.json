@@ -1,0 +1,7 @@
+{
+  "note": "重大错误翻译对应的查询：导出答案与比对评分时排除，不作为评测依据。qids 由人工逐条阅读 translations.json 后确认。当前已无取消条目：009326_004 翻译已修正，恢复正常标注。",
+  "qids": [],
+  "queries": {
+    "009326_004": "The fourth person on bicycle from left to right（2026-09-17 恢复标注：翻译已修正为骑自行车的人，不再取消）"
+  }
+}
